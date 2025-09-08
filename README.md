@@ -1,4 +1,4 @@
-# Stedi GTM Data Pipeline
+# Stedi GTM Data Pipeline - Take-Home Assignment
 
 A comprehensive data pipeline for generating realistic sales and marketing data for a healthcare API platform (Stedi). This project simulates the complete customer journey from company discovery through deal closure and billing, incorporating AI-powered enrichment and realistic business logic.
 
