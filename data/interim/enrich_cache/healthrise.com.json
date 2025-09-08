@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7 integration",
+      "FHIR API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Healthrise utilizes AWS for cloud infrastructure to host applications securely.",
+        "url": "https://healthrise.com/cloud-services"
+      },
+      {
+        "claim": "Healthrise complies with HIPAA and uses FHIR for health data exchange.",
+        "url": "https://healthrise.com/security"
+      },
+      {
+        "claim": "The company integrates with EHRs using HL7 standards for data interoperability.",
+        "url": "https://healthrise.com/docs/integration"
+      },
+      {
+        "claim": "Healthrise supports X12 transaction sets for healthcare claims processing.",
+        "url": "https://healthrise.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Healthrise uses X12 for EDI transactions, fitting the API-first healthcare focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance management",
+      "patient data exchange",
+      "healthcare integration solutions"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Azure Data Factory"
+    ],
+    "health_tech": [
+      "HIPAA Compliant APIs",
+      "FHIR-based APIs",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "API Gateway for service integration",
+      "Message Queuing with AWS SQS",
+      "Data Pipeline using AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS Lambda for serverless architecture.",
+        "url": "https://urbanhealth.ai/docs/api/serverless-architecture"
+      },
+      {
+        "claim": "Compliant with HIPAA regulations for handling sensitive health data.",
+        "url": "https://urbanhealth.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integrates using FHIR specifications for electronic health data exchange.",
+        "url": "https://urbanhealth.ai/docs/fhir-integration"
+      },
+      {
+        "claim": "Employs AWS S3 for storing medical data securely.",
+        "url": "https://urbanhealth.ai/docs/cloud-architecture"
+      },
+      {
+        "claim": "Supports X12 transaction sets for health insurance claims processing.",
+        "url": "https://urbanhealth.ai/docs/x12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Urban Health's focus on X12 transactions and HIPAA compliant APIs aligns well with ICP use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets support",
+      "Claims processing automation",
+      "Eligibility verification using 270/271",
+      "Remittance processing with 837/835",
+      "Clearinghouse functionalities"
+    ]
+  }
+}

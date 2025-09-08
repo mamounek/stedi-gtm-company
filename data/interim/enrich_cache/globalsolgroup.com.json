@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Cloud services integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Global Solutions Group deals with FHIR standards for data interoperability in health technology.",
+        "url": "https://globalsolgroup.com/docs/fhir-integration"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring the security of patient information.",
+        "url": "https://globalsolgroup.com/security/compliance"
+      },
+      {
+        "claim": "They utilize API integrations to enhance interoperability between different health technology systems.",
+        "url": "https://globalsolgroup.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12-related use cases or evidence as an EDI clearinghouse found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

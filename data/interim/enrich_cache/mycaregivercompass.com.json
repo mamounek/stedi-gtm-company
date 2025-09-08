@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "FHIR support for patient records"
+    ],
+    "integration_patterns": [
+      "REST APIs for third-party integration",
+      "Webhooks for event notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "The platform uses AWS Lambda for serverless computing.",
+        "url": "https://mycaregivercompass.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Caregiver Compass complies with HIPAA regulations for handling patient data.",
+        "url": "https://mycaregivercompass.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The application supports FHIR for interoperability with health data systems.",
+        "url": "https://mycaregivercompass.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus on caregiver services rather than X12 data exchange use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

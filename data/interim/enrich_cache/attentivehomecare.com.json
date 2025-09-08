@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR support"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Attentive Home Care uses AWS for cloud infrastructure.",
+        "url": "https://attentivehomecare.com/about"
+      },
+      {
+        "claim": "The company mentions adherence to HIPAA regulations on their website.",
+        "url": "https://attentivehomecare.com/privacy-policy"
+      },
+      {
+        "claim": "Their platform supports FHIR standards for healthcare data exchange.",
+        "url": "https://attentivehomecare.com/services"
+      },
+      {
+        "claim": "They utilize Twilio for communication services, which is a common practice in health-tech to ensure secure messaging.",
+        "url": "https://attentivehomecare.com/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

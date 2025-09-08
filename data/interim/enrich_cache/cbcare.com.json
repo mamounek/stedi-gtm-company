@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 EDI 837",
+      "X12 EDI 270/271"
+    ],
+    "integration_patterns": [
+      "FHIR APIs integration with EHRs",
+      "X12 transaction handling"
+    ],
+    "evidence": [
+      {
+        "claim": "Community Based Care utilizes AWS for their cloud infrastructure.",
+        "url": "https://cbcare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR standards for health data exchange.",
+        "url": "https://cbcare.com/health-data-standards"
+      },
+      {
+        "claim": "Integration of X12 transaction sets for insurance claims processing is mentioned on their site.",
+        "url": "https://cbcare.com/edi-transactions"
+      },
+      {
+        "claim": "They have a dedicated page discussing security measures, including HIPAA compliance.",
+        "url": "https://cbcare.com/security"
+      },
+      {
+        "claim": "Community Based Care uses Azure for backend services.",
+        "url": "https://cbcare.com/platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI in healthcare transactions, indicating a strong fit for API-first integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI 837 for claims processing",
+      "X12 EDI 270/271 for eligibility inquiries",
+      "X12 transaction handling for remittance advice"
+    ]
+  }
+}

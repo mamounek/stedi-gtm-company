@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR APIs",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "Data Integration Middleware",
+      "Real-time Data Streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Jvion utilizes AWS cloud services for its infrastructure and security compliance.",
+        "url": "https://lightbeamhealth.com/infrastructure/"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for data handling and privacy in health tech.",
+        "url": "https://lightbeamhealth.com/security/"
+      },
+      {
+        "claim": "Jvion integrates FHIR APIs to enhance interoperability with EHR systems.",
+        "url": "https://lightbeamhealth.com/solutions/fhir/"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Lightbeam provides HIPAA-compliant health tech solutions, indicating potential use of X12 formats.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Claims processing (837/835)",
+      "Eligibility verification (270/271)",
+      "Real-time data exchange for healthcare",
+      "Remittance processing with X12 EDI"
+    ]
+  }
+}

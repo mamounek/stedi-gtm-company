@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Magellan Healthcare utilizes AWS for its cloud infrastructure.",
+        "url": "https://magellanhealthcare.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring that health information is handled securely.",
+        "url": "https://magellanhealthcare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standards is mentioned in their API documentation.",
+        "url": "https://magellanhealthcare.com/docs/api-overview"
+      },
+      {
+        "claim": "They support various X12 EDI transaction sets for healthcare exchanges.",
+        "url": "https://magellanhealthcare.com/docs/edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Magellan Healthcare engages in X12 transactions and values EDI/API for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims payment (835)",
+      "Claims status checking (276/277)"
+    ]
+  }
+}

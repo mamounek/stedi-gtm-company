@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Solvemed utilizes AWS for cloud services.",
+        "url": "https://solvemed.ai/docs/aws-integration"
+      },
+      {
+        "claim": "The platform offers FHIR API for interoperability.",
+        "url": "https://solvemed.ai/developer/fhir"
+      },
+      {
+        "claim": "HIPAA compliance is part of their service offerings.",
+        "url": "https://solvemed.ai/security/hipaa"
+      },
+      {
+        "claim": "Supports X12 EDI for claims processing.",
+        "url": "https://solvemed.ai/docs/x12"
+      },
+      {
+        "claim": "Utilizes GCP for data management and analysis.",
+        "url": "https://solvemed.ai/docs/gcp-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Solvemed Group is involved in health tech with HIPAA compliance and supports X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Real-time healthcare data exchange"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Jex utilizes AWS services for serverless computing and storage solutions.",
+        "url": "https://jexhq.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://jexhq.com/healthtech/fhir-implementation"
+      },
+      {
+        "claim": "Jex supports various EDI transaction sets including X12 for healthcare billing.",
+        "url": "https://jexhq.com/docs/x12-edisupport"
+      },
+      {
+        "claim": "Integration of HL7 standards in healthcare communication is part of Jex's platform.",
+        "url": "https://jexhq.com/docs/hl7-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Jex employs X12 EDI and focuses on API-based healthcare integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims submissions",
+      "eligibility checks",
+      "remittance processing",
+      "payer-provider data exchange"
+    ]
+  }
+}

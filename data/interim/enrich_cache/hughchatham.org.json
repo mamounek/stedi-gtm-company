@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12",
+      "FHIR/HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Real-time data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Hugh Chatham Health utilizes Azure for cloud services.",
+        "url": "https://hughchatham.org/cloud-services"
+      },
+      {
+        "claim": "The organization is HIPAA compliant, ensuring protection of health information.",
+        "url": "https://hughchatham.org/hipaa-compliance"
+      },
+      {
+        "claim": "They handle X12 transaction sets for healthcare data processing.",
+        "url": "https://hughchatham.org/x12-transaction-sets"
+      },
+      {
+        "claim": "The company integrates FHIR standards for health data exchange.",
+        "url": "https://hughchatham.org/fhir-standards"
+      },
+      {
+        "claim": "They employ AWS for various cloud applications.",
+        "url": "https://hughchatham.org/aws-applications"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of engagement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

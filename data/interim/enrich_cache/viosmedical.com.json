@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 835",
+      "X12 270/271"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Vios Medical utilizes AWS cloud services for their applications.",
+        "url": "https://viosmedical.com/docs/cloud"
+      },
+      {
+        "claim": "They support healthcare data standards like FHIR and HL7.",
+        "url": "https://viosmedical.com/health-tech"
+      },
+      {
+        "claim": "Evidence of using X12 transaction sets such as 835 and 270/271 for EDI.",
+        "url": "https://viosmedical.com/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Vios Medical utilizes X12 for claims and eligibility, suggesting strong API integration potential.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checking",
+      "837 claims submission",
+      "835 remittance processing",
+      "clearinghouse services"
+    ]
+  }
+}

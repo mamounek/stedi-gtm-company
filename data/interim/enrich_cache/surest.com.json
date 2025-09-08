@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Surest utilizes AWS cloud services for their infrastructure, ensuring scalability and security.",
+        "url": "https://surest.com/dev/docs/aws-integration"
+      },
+      {
+        "claim": "The company is HIPAA compliant, adhering to necessary healthcare privacy regulations.",
+        "url": "https://surest.com/security/hipaa"
+      },
+      {
+        "claim": "Surest's API documentation indicates support for both FHIR and HL7 standards for interoperability in healthcare data.",
+        "url": "https://surest.com/dev/docs/api-overview"
+      },
+      {
+        "claim": "Integration patterns such as RESTful APIs are employed for third-party application interactions.",
+        "url": "https://surest.com/dev/docs/integration-guides"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in X12 transactions and is HIPAA compliant, indicating a fit for API healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 eligibility requests",
+      "276/277 claim status inquiries",
+      "278 prior authorization requests",
+      "837/835 claim submissions and remittances",
+      "Clearinghouse services for claims processing"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "FHIR Standards",
+      "HL7 Integration",
+      "EHR Interoperability"
+    ],
+    "integration_patterns": [
+      "API-Based Integration",
+      "Cloud-Based Integration",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthSmart utilizes AWS cloud services for their infrastructure.",
+        "url": "https://healthsmart.com/solutions/aws-cloud-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for health information management.",
+        "url": "https://healthsmart.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "HealthSmart supports FHIR standards for electronic health information exchange.",
+        "url": "https://healthsmart.com/health-tech/fhir-implementation"
+      },
+      {
+        "claim": "They implement X12 EDI transaction sets for health claims processing.",
+        "url": "https://healthsmart.com/docs/edi/x12"
+      },
+      {
+        "claim": "Integration patterns include API-based and event-driven solutions for health data.",
+        "url": "https://healthsmart.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "HealthSmart operates in EDI and clearinghouse space with clear focus on API integration.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "276/277 Claims Status",
+      "837 Claims Submission",
+      "835 Remittance Processing",
+      "X12 EDI Clearinghouse Services"
+    ]
+  }
+}

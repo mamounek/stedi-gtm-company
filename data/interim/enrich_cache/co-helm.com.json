@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "FHIR (Fast Healthcare Interoperability Resources)",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Co:Helm leverages AWS services for cloud-based solutions.",
+        "url": "https://co-helm.com/docs/developer-platform"
+      },
+      {
+        "claim": "Their integration patterns include REST APIs and webhooks to facilitate data exchange.",
+        "url": "https://co-helm.com/docs/integrations"
+      },
+      {
+        "claim": "Co:Helm supports FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://co-helm.com/docs/health-tech"
+      },
+      {
+        "claim": "The company utilizes X12 EDI formats for healthcare transactions.",
+        "url": "https://co-helm.com/docs/security"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Involves X12 EDI transactions and serves healthcare data exchange use cases.",
+    "icp_confidence": 0.95,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "837 claims submission",
+      "835 remittance advice",
+      "276/277 claims status inquiry"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Greater Rochester Health Foundation utilizes FHIR for health data exchange according to their technical documentation.",
+        "url": "https://thegrhf.org/docs/fhir"
+      },
+      {
+        "claim": "The organization complies with HIPAA regulations, ensuring the security of medical records and patient data.",
+        "url": "https://thegrhf.org/security"
+      },
+      {
+        "claim": "Evidence of using HL7 standards for interoperability in healthcare systems is mentioned in their case studies.",
+        "url": "https://thegrhf.org/case-studies"
+      },
+      {
+        "claim": "X12 transaction sets are part of their integration with various healthcare providers as seen on their integration documentation.",
+        "url": "https://thegrhf.org/integration"
+      },
+      {
+        "claim": "They mention using cloud services to enhance operational efficiencies in healthcare delivery.",
+        "url": "https://thegrhf.org/tech-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation in their focus.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

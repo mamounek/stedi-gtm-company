@@ -1,0 +1,23 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance for handling sensitive patient data",
+      "FHIR support for health data interoperability"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Patients Rising emphasizes HIPAA compliance for managing patient information securely.",
+        "url": "https://patientsrising.org/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.34
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

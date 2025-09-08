@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliant APIs"
+    ],
+    "integration_patterns": [
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Communication Partners emphasizes HIPAA compliance in its communications.",
+        "url": "https://healthcommunicationpartners.com"
+      },
+      {
+        "claim": "They mention using FHIR standards for health data exchange.",
+        "url": "https://healthcommunicationpartners.com/services"
+      },
+      {
+        "claim": "The company engages with EDI protocols in their healthcare solutions.",
+        "url": "https://healthcommunicationpartners.com/resources"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse capabilities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API-first development",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Genesis Technologies utilizes AWS services for its cloud infrastructure.",
+        "url": "https://genesistechinc.co/services/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data exchange.",
+        "url": "https://genesistechinc.co/health-technology"
+      },
+      {
+        "claim": "Genesis Technologies incorporates HIPAA compliance in its health tech solutions.",
+        "url": "https://genesistechinc.co/security"
+      },
+      {
+        "claim": "EHR integrations are part of the company's health digitalization efforts.",
+        "url": "https://genesistechinc.co/case-studies"
+      },
+      {
+        "claim": "Utilizes Microsoft Azure for data management and analytics solutions.",
+        "url": "https://genesistechinc.co/solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange and robust API integrations indicates potential ICP needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "transactional data exchange",
+      "API automation for healthcare"
+    ]
+  }
+}

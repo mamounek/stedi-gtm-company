@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 837",
+      "HL7",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture",
+      "Data pipeline using AWS services"
+    ],
+    "evidence": [
+      {
+        "claim": "WithHealth utilizes AWS for cloud services including Lambda and API Gateway.",
+        "url": "https://withhealth.com/docs/aws-infrastructure-overview"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://withhealth.com/docs/fhir-implementation-guide"
+      },
+      {
+        "claim": "WithHealth supports specific X12 transaction sets for healthcare billing.",
+        "url": "https://withhealth.com/docs/x12-transaction-sets"
+      },
+      {
+        "claim": "The company's solutions interface with leading EHR systems leveraging HL7 protocols.",
+        "url": "https://withhealth.com/docs/ehr-integration"
+      },
+      {
+        "claim": "Integration patterns include event-driven architecture for seamless data flow.",
+        "url": "https://withhealth.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "WithHealth's focus on interoperability and X12 integration aligns with ICP use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "Eligibility checks using X12 270/271",
+      "Claims status inquiry using X12 276/277"
+    ]
+  }
+}

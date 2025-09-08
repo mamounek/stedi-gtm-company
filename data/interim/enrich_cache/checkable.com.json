@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Checkable implements HIPAA compliance for its health-related services.",
+        "url": "https://checkable.com/security"
+      },
+      {
+        "claim": "Checkable has integrated FHIR standards in its platform allowing for standardized health data exchange.",
+        "url": "https://checkable.com/docs/fhir-integration"
+      },
+      {
+        "claim": "The company's infrastructure leverages AWS for its cloud services to ensure scalability and security.",
+        "url": "https://checkable.com/docs/aws-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of use cases involving X12 transactions or EDI solutions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": []
+  }
+}

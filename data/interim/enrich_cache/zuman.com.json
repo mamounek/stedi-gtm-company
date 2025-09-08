@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Zuman utilizes AWS for cloud infrastructure services.",
+        "url": "https://www.zuman.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its HR solutions, specifically regarding sensitive employee data.",
+        "url": "https://www.zuman.com/security"
+      },
+      {
+        "claim": "Integration with HL7 standards is mentioned for healthcare systems compatibility.",
+        "url": "https://www.zuman.com/healthcare-solutions"
+      },
+      {
+        "claim": "EDI X12 support is offered for employers needing to transmit data.",
+        "url": "https://www.zuman.com/integration-services"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of using X12 or EDI operations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

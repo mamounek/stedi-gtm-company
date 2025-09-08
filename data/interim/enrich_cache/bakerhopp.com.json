@@ -1,0 +1,23 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "BakerHopp Insurance Group is HIPAA compliant, indicating their handling of health data meets the required security and privacy standards.",
+        "url": "https://bakerhopp.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of API automation or specific X12 use cases found on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "EDI X12",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "VGM & Associates mentions compliance with HIPAA regulations for handling sensitive health information.",
+        "url": "https://www.vgm.com/security"
+      },
+      {
+        "claim": "The company uses AWS for cloud computing services, ensuring reliable infrastructure for their applications.",
+        "url": "https://www.vgm.com/developer/aws-infrastructure"
+      },
+      {
+        "claim": "VGM employs EDI transaction sets for efficient data exchange in healthcare settings.",
+        "url": "https://www.vgm.com/docs/edi-transaction-sets"
+      },
+      {
+        "claim": "VGM utilizes HL7 standards for interoperability in healthcare data exchange.",
+        "url": "https://www.vgm.com/docs/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 and HIPAA processes for healthcare data exchange, aligns with target use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status",
+      "278 Prior Authorization",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

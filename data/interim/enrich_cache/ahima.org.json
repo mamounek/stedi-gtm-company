@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "AHIMA provides resources and guidance on FHIR standards for health information exchange.",
+        "url": "https://www.ahima.org/fhir-standards/"
+      },
+      {
+        "claim": "The organization emphasizes compliance with HIPAA regulations within health information management.",
+        "url": "https://www.ahima.org/hipaa-compliance/"
+      },
+      {
+        "claim": "AHIMA offers resources regarding HL7 standards for interoperability in healthcare.",
+        "url": "https://www.ahima.org/hl7-standards/"
+      },
+      {
+        "claim": "Discussion on X12 EDI transactions as they relate to health information coding and billing.",
+        "url": "https://www.ahima.org/edi-and-x12-standards/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of direct involvement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

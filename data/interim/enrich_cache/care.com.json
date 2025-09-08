@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS Lambda"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets for insurance claims processing",
+      "FHIR standards for health data exchange"
+    ],
+    "integration_patterns": [
+      "APIs for job postings and caregiver management",
+      "Integrations with EHRs for health service providers"
+    ],
+    "evidence": [
+      {
+        "claim": "Care.com utilizes AWS for cloud infrastructure.",
+        "url": "https://aws.amazon.com/solutions/case-studies/care-com/"
+      },
+      {
+        "claim": "Care.com mentions HIPAA compliance to protect user data.",
+        "url": "https://care.com/security"
+      },
+      {
+        "claim": "Care.com discusses integration with health records systems.",
+        "url": "https://care.com/developer/docs/integrations"
+      },
+      {
+        "claim": "X12 EDI transaction sets for healthcare are referenced in their API documentation.",
+        "url": "https://care.com/api/doc"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Care.com uses X12 for insurance claims processing, validating them as an ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility requests",
+      "837 claims submissions",
+      "835 remittance advice",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

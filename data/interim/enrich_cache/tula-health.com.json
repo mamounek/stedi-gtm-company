@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 V2.5",
+      "FHIR Standard"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Tula Health uses AWS services for cloud infrastructure, including serverless compute and storage.",
+        "url": "https://tula-health.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company operates in compliance with HIPAA regulations, ensuring secure handling of healthcare data.",
+        "url": "https://tula-health.com/security"
+      },
+      {
+        "claim": "Tula supports HL7 standards for data exchange between healthcare entities.",
+        "url": "https://tula-health.com/integrations"
+      },
+      {
+        "claim": "They implement FHIR APIs for modern health data interoperability.",
+        "url": "https://tula-health.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

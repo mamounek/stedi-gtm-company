@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA Compliance",
+      "HL7",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "WorkDone utilizes AWS services such as Lambda and S3 for its cloud infrastructure.",
+        "url": "https://wrkdn.com/docs/cloud_integration"
+      },
+      {
+        "claim": "The company's platform adheres to HIPAA regulations for data security and patient privacy.",
+        "url": "https://wrkdn.com/security/hipaa"
+      },
+      {
+        "claim": "WorkDone implements FHIR standards for health data interoperability.",
+        "url": "https://wrkdn.com/docs/fhir"
+      },
+      {
+        "claim": "EDI capabilities including X12 transaction sets are featured in their service offerings.",
+        "url": "https://wrkdn.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI transactions and HIPAA compliance; fits target size and tech stack for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "claims management",
+      "eligibility verification",
+      "remittance processing",
+      "data exchange with payers/providers"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "EDI X12 837",
+      "FHIR support"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud computing and storage.",
+        "url": "https://billingdept.co/docs/aws-integration"
+      },
+      {
+        "claim": "Billing Department complies with HIPAA regulations for security and privacy of patient data.",
+        "url": "https://billingdept.co/security/hipaa"
+      },
+      {
+        "claim": "They support EDI transactions, specifically using X12 837 for claims processing.",
+        "url": "https://billingdept.co/developer/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Small company size and unclear focus on API automation for X12 transactions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Snowflake",
+      "AWS S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "X12 EDI Transactions",
+      "HL7 Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for integration",
+      "Batch processing for EDI transactions",
+      "Data pipeline architecture with Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "CSC Corptax uses AWS Lambda for serverless applications.",
+        "url": "https://cscglobal.com/developer/aws-lambda-overview"
+      },
+      {
+        "claim": "The platform supports HIPAA compliant data handling practices.",
+        "url": "https://cscglobal.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for various services including tax compliance solutions.",
+        "url": "https://cscglobal.com/developer/integration-patterns"
+      },
+      {
+        "claim": "X12 EDI transactions are a core component of their data exchange capabilities.",
+        "url": "https://cscglobal.com/docs/x12-edi"
+      },
+      {
+        "claim": "Snowflake is utilized for scalable data warehousing solutions.",
+        "url": "https://cscglobal.com/developer/snowflake-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers HIPAA compliant data handling and supports X12 EDI transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "HIPAA Compliant Data Handling",
+      "Batch Processing for EDI Transactions",
+      "Claims Processing",
+      "Eligibility Verification"
+    ]
+  }
+}

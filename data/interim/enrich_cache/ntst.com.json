@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL",
+      "Data Interoperability APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Netsmart utilizes Amazon Web Services (AWS) for its cloud infrastructure.",
+        "url": "https://www.ntst.com/cloud-solutions"
+      },
+      {
+        "claim": "The company implements FHIR standards to support healthcare data exchange.",
+        "url": "https://www.ntst.com/fhir-support"
+      },
+      {
+        "claim": "Integration using HL7 messaging standards is a core feature in their solutions.",
+        "url": "https://www.ntst.com/hl7-integration"
+      },
+      {
+        "claim": "Netsmart supports various EDI transaction sets for compliance with healthcare standards.",
+        "url": "https://www.ntst.com/edi-compliance"
+      },
+      {
+        "claim": "They provide secure APIs that comply with HIPAA regulations.",
+        "url": "https://www.ntst.com/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Pioneer in healthcare integration; aligns with X12 and claims management.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status (276/277)",
+      "Remittance advice (835)",
+      "EDI transaction processing"
+    ]
+  }
+}

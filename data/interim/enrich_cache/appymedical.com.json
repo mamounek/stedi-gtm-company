@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "APIs for EHR integration",
+      "Data exchange protocols"
+    ],
+    "evidence": [
+      {
+        "claim": "Appy Medical utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://appymedical.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is assured in Appy Medical's platform.",
+        "url": "https://appymedical.com/security"
+      },
+      {
+        "claim": "Integration with FHIR standards is mentioned in their developer documentation.",
+        "url": "https://appymedical.com/developer/docs"
+      },
+      {
+        "claim": "Use of HL7 protocols for interoperability in health information exchange.",
+        "url": "https://appymedical.com/health-tech"
+      },
+      {
+        "claim": "Appy Medical provides APIs for accessing patient data from EHR systems.",
+        "url": "https://appymedical.com/api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transaction use cases or EDI-related activities.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

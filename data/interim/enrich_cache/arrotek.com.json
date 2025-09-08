@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "API integration with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Arrotek utilizes Amazon Web Services for its cloud infrastructure.",
+        "url": "https://arrotek.com/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with FHIR standards for healthcare data exchange.",
+        "url": "https://arrotek.com/docs/fhir-compliance"
+      },
+      {
+        "claim": "Integration with HL7 and X12 transaction sets is supported which is crucial for health tech solutions.",
+        "url": "https://arrotek.com/integration-standards"
+      },
+      {
+        "claim": "Arrotek's applications employ Microsoft Azure for scalable service deployment.",
+        "url": "https://arrotek.com/technology-stack"
+      },
+      {
+        "claim": "They implement real-time data streaming for efficient healthcare data processing.",
+        "url": "https://arrotek.com/case-studies/healthcare-data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 and EDI for healthcare integration aligns with API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Real-time data streaming",
+      "API integration with EHRs"
+    ]
+  }
+}

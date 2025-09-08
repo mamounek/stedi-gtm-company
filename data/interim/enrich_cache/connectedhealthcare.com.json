@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "Data synchronization through APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Connected Health Care utilizes AWS and Azure for cloud infrastructure.",
+        "url": "https://connectedhealthcare.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports interoperability standards such as FHIR and HL7.",
+        "url": "https://connectedhealthcare.com/docs/health-standards"
+      },
+      {
+        "claim": "Connected Health Care integrates with electronic health records (EHR) and uses X12 transaction sets for healthcare data exchange.",
+        "url": "https://connectedhealthcare.com/integration/EHR"
+      },
+      {
+        "claim": "Utilizes Kafka for real-time data processing and streaming.",
+        "url": "https://connectedhealthcare.com/docs/streaming-services"
+      },
+      {
+        "claim": "Their platform adheres to HIPAA regulations ensuring the security of patient data.",
+        "url": "https://connectedhealthcare.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company supports X12 transactions and values API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims submissions",
+      "eligibility verification",
+      "remittance processing",
+      "provider network management"
+    ]
+  }
+}

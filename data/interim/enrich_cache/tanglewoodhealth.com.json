@@ -1,0 +1,23 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Tanglewood Medical Supplies complies with HIPAA regulations for health data security.",
+        "url": "https://tanglewoodhealth.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 or API automation found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

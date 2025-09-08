@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Message Queues",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Trustpeople uses AWS and GCP for their cloud infrastructure.",
+        "url": "https://trustpeople.com/developer/docs/infrastructure"
+      },
+      {
+        "claim": "The integration patterns include RESTful APIs and message queues for real-time data processing.",
+        "url": "https://trustpeople.com/docs/integration_patterns"
+      },
+      {
+        "claim": "Trustpeople handles health data under HIPAA guidelines employing FHIR and HL7 standards.",
+        "url": "https://trustpeople.com/security/hipaa"
+      },
+      {
+        "claim": "Mention of Snowflake as a data platform for health-tech analytics.",
+        "url": "https://trustpeople.com/careers/platform_engineering"
+      },
+      {
+        "claim": "Use of Apache Kafka for data streaming solutions.",
+        "url": "https://trustpeople.com/developer/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of involvement with X12 transactions or clearinghouse operations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

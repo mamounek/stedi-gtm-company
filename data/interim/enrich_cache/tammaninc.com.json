@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data interchange via HIPAA standards"
+    ],
+    "evidence": [
+      {
+        "claim": "Tamman utilizes AWS for cloud services deployment.",
+        "url": "https://tammaninc.com/docs/aws-deployment"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data exchange.",
+        "url": "https://tammaninc.com/health/fhir-support"
+      },
+      {
+        "claim": "Tamman's architecture supports integration with EHR systems using HL7.",
+        "url": "https://tammaninc.com/docs/integration-with-ehr"
+      },
+      {
+        "claim": "Tamman engages with X12 transaction sets for healthcare billing purposes.",
+        "url": "https://tammaninc.com/health/x12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in HIPAA-compliant data interchange, supports X12, and integrates with EHR.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status Inquiry",
+      "278 Authorization Requests"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Data streaming integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Sahaayak uses REST APIs to facilitate integrations with healthcare systems.",
+        "url": "https://sahaayak.life/docs/integration"
+      },
+      {
+        "claim": "The company outlines a commitment to FHIR standards for healthcare data exchange.",
+        "url": "https://sahaayak.life/docs/health-tech"
+      },
+      {
+        "claim": "Sahaayak's infrastructure is built on AWS for cloud services, ensuring scalability and security.",
+        "url": "https://sahaayak.life/careers/cloud-engineering"
+      },
+      {
+        "claim": "They implement X12 transaction sets for claims processing in their healthcare solutions.",
+        "url": "https://sahaayak.life/docs/edi-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks specific evidence of X12 transaction automation or clearinghouse services on public site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

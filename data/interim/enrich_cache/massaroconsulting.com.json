@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR Interoperability"
+    ],
+    "integration_patterns": [
+      "Data Streaming with Kafka",
+      "ETL Processes with Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Massaro utilizes AWS and Azure for its cloud infrastructure.",
+        "url": "https://massaroconsulting.com/solutions/cloud-services"
+      },
+      {
+        "claim": "The company has expertise in FHIR and HL7 standards for health data interoperability.",
+        "url": "https://massaroconsulting.com/health-tech"
+      },
+      {
+        "claim": "Massaro offers integration services that leverage EDI and X12 transaction sets in healthcare.",
+        "url": "https://massaroconsulting.com/services/healthcare-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI and healthcare interoperability aligns with X12 transaction needs.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EDI processing",
+      "Claims management",
+      "Eligibility verification",
+      "Remittance advice handling"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Novex Wound utilizes AWS for their cloud infrastructure, ensuring scalable hosting solutions.",
+        "url": "https://novexwound.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in their data handling practices, ensuring patient information security.",
+        "url": "https://novexwound.com/security"
+      },
+      {
+        "claim": "Novex Wound employs FHIR standards for health data exchange, facilitating interoperability.",
+        "url": "https://novexwound.com/health-tech"
+      },
+      {
+        "claim": "EDI and X12 transaction sets are mentioned for insurance and billing processes.",
+        "url": "https://novexwound.com/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or EDI use cases found on public pages.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

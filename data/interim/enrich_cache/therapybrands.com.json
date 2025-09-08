@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "HL7 standards",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Therapy Brands utilizes AWS for cloud infrastructure.",
+        "url": "https://therapybrands.com/aboutus/"
+      },
+      {
+        "claim": "The company's integration with EHR systems supports FHIR standards.",
+        "url": "https://therapybrands.com/developer/docs/integrations/"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in all technology offerings.",
+        "url": "https://therapybrands.com/security/"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company's focus on integrated healthcare solutions with strong emphasis on X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "270/271 Eligibility Verification",
+      "276/277 Claim Status Updates"
+    ]
+  }
+}

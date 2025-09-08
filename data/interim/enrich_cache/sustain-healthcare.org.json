@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://sustain-healthcare.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "Healthcare Sustainability and Relief Effort utilizes HL7 protocols for interoperability.",
+        "url": "https://sustain-healthcare.org/docs/hl7-standards"
+      },
+      {
+        "claim": "The organization ensures compliance with HIPAA regulations in health-tech solutions.",
+        "url": "https://sustain-healthcare.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "Sustain Health uses cloud services to support their health data infrastructure.",
+        "url": "https://sustain-healthcare.org/about/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus on sustainability; no clear evidence of X12 or clearinghouse use cases.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

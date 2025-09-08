@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The North Carolina Institute of Medicine adheres to HIPAA regulations.",
+        "url": "https://nciom.org/"
+      },
+      {
+        "claim": "NCIOM provides health data and policy analysis, suggesting usage of health data standards.",
+        "url": "https://nciom.org/publications/"
+      },
+      {
+        "claim": "The institute values data security, aligning with health-tech compliance standards.",
+        "url": "https://nciom.org/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or healthcare clearinghouse operations.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

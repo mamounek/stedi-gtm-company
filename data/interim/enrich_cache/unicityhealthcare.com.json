@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "AWS Lambda integration with healthcare applications",
+      "Real-time data streaming via AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Unicity Healthcare utilizes AWS for cloud infrastructure.",
+        "url": "https://unicityhealthcare.com/about"
+      },
+      {
+        "claim": "The company implements HIPAA compliance measures as part of their health tech solutions.",
+        "url": "https://unicityhealthcare.com/security"
+      },
+      {
+        "claim": "Unicity Healthcare mentions FHIR standards for data interchange.",
+        "url": "https://unicityhealthcare.com/developer/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of specific X12 use cases or API integrations found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

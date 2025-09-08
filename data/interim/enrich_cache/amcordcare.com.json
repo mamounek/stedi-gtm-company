@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Kafka for real-time data streaming",
+      "API gateways for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Amcord Care implements AWS for cloud infrastructure.",
+        "url": "https://www.amcordcare.com/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations and utilizes FHIR standards for health data exchange.",
+        "url": "https://www.amcordcare.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is mentioned, likely using HL7 standards.",
+        "url": "https://www.amcordcare.com/integration"
+      },
+      {
+        "claim": "Utilizing Kafka for data streaming in healthcare applications.",
+        "url": "https://www.amcordcare.com/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA X12 for healthcare data exchanges and values API automation in their tech stack.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims processing (837)",
+      "Remittance advice (835)",
+      "Real-time data streaming for healthcare scenarios",
+      "EHR integration via APIs"
+    ]
+  }
+}

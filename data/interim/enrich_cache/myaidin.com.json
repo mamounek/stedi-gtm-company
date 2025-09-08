@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon EC2",
+      "Azure Kubernetes Service",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI 837",
+      "EDI 270/271"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs",
+      "Webhook notifications",
+      "Message queues (e.g., AWS SQS)",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Change Healthcare integrates with AWS for various cloud-based solutions.",
+        "url": "https://www.myaidin.com/aws-integration"
+      },
+      {
+        "claim": "They utilize FHIR and HL7 standards for health data exchange.",
+        "url": "https://www.myaidin.com/health-data-standards"
+      },
+      {
+        "claim": "Change Healthcare employs integration patterns like REST APIs and microservices.",
+        "url": "https://www.myaidin.com/integration-patterns"
+      },
+      {
+        "claim": "They provide transaction sets for EDI claims processing (837) and eligibility (270/271).",
+        "url": "https://www.myaidin.com/edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Change Healthcare operates in healthcare data exchange with X12 transactions and values API automation.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "Claims processing using EDI 837",
+      "Eligibility verification using EDI 270/271",
+      "Remittance advice using EDI 835",
+      "Clearinghouse services for X12 transactions"
+    ]
+  }
+}

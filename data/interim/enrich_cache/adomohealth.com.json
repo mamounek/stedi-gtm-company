@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Adomo Health integrates with cloud services like AWS and GCP for data storage and processing.",
+        "url": "https://adomohealth.com/cloud-integration"
+      },
+      {
+        "claim": "The company utilizes FHIR and HL7 standards for health data exchange.",
+        "url": "https://adomohealth.com/health-tech"
+      },
+      {
+        "claim": "Supports specific X12 transaction sets for health insurance claims processing.",
+        "url": "https://adomohealth.com/edi-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of use case for X12 transactions; focus seems more on FHIR and HL7.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

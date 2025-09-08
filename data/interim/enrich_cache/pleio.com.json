@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhook integrations",
+      "Message Queue patterns"
+    ],
+    "evidence": [
+      {
+        "claim": "Pleio utilizes AWS Lambda for serverless computing.",
+        "url": "https://pleio.com/blog/aws-lambda-pleio"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations to ensure data security in healthcare applications.",
+        "url": "https://pleio.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Pleio implements HL7 standards to integrate with healthcare systems efficiently.",
+        "url": "https://pleio.com/docs/integration/hl7"
+      },
+      {
+        "claim": "Our platform supports FHIR APIs for interoperability with EHRs.",
+        "url": "https://pleio.com/developer/fhir-api"
+      },
+      {
+        "claim": "We leverage Twilio API for communication within our health tech solutions.",
+        "url": "https://pleio.com/docs/twilio-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or EDI use cases found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

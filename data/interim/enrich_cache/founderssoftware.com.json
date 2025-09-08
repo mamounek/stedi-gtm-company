@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Founders Software utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://founderssoftware.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance for handling sensitive health information.",
+        "url": "https://founderssoftware.com/security"
+      },
+      {
+        "claim": "Integration with health information systems through FHIR standards is supported.",
+        "url": "https://founderssoftware.com/docs/health-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or related healthcare transaction handling.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

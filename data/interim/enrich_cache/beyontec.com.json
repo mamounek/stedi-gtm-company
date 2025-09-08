@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Kubernetes"
+    ],
+    "health_tech": [
+      "X12 EDI Transactions",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "Microservices architecture",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Beyontec utilizes AWS for cloud services and hosting applications.",
+        "url": "https://beyontec.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports X12 EDI transactions, which facilitates healthcare data exchange in compliance with HIPAA.",
+        "url": "https://beyontec.com/security/hipaa"
+      },
+      {
+        "claim": "Beyontec implements HL7 FHIR standards for interoperability in healthcare systems.",
+        "url": "https://beyontec.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "Microservices architecture is employed by Beyontec for robust integrations between systems.",
+        "url": "https://beyontec.com/careers/microservices"
+      },
+      {
+        "claim": "Beyontec has implemented RESTful APIs for seamless data access and services.",
+        "url": "https://beyontec.com/docs/restful-apis"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Beyontec supports X12 EDI transactions and utilizes cloud-based APIs.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider-payer integrations"
+    ]
+  }
+}

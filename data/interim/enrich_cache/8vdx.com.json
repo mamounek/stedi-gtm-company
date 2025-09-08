@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Storage",
+      "Azure Kubernetes Service"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST API Integrations",
+      "Message Queueing",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "8vdx utilizes AWS Lambda for serverless applications.",
+        "url": "https://8vdx.com/docs/serverless"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for handling health data securely.",
+        "url": "https://8vdx.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with HL7 FHIR standards allows for easy health data interoperability.",
+        "url": "https://8vdx.com/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of involvement with X12 transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Royal Health leverages AWS for its cloud infrastructure.",
+        "url": "https://royalemr.com/docs/aws-infrastructure-overview"
+      },
+      {
+        "claim": "The platform complies with FHIR standards for interoperability.",
+        "url": "https://royalemr.com/developer/fhir-implementation-guide"
+      },
+      {
+        "claim": "Royal Health uses HL7 messaging for healthcare data exchange.",
+        "url": "https://royalemr.com/docs/hl7-integration"
+      },
+      {
+        "claim": "Integration capabilities with EHR systems are detailed on their technical documentation.",
+        "url": "https://royalemr.com/docs/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or clearinghouse services on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

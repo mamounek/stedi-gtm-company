@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Streaming Data Processing",
+      "Cloud Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Aveus utilizes AWS for cloud infrastructure.",
+        "url": "https://aveus.com/platform/aws-integration"
+      },
+      {
+        "claim": "Their services comply with HIPAA regulations.",
+        "url": "https://aveus.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration of FHIR standards is part of their health technology offerings.",
+        "url": "https://aveus.com/health-tech/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found linking Aveus to X12 healthcare transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

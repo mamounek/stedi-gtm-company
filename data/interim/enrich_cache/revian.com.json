@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "REVIAN is compliant with HIPAA regulations for handling health information.",
+        "url": "https://revian.com/privacy-policy"
+      },
+      {
+        "claim": "REVIAN utilizes FHIR standards for health data integration.",
+        "url": "https://revian.com/health-data-integration"
+      },
+      {
+        "claim": "REVIAN's technology supports secure health information exchanges as per industry standards.",
+        "url": "https://revian.com/security"
+      },
+      {
+        "claim": "The company engages in practices aligning with health tech infrastructure and integrations.",
+        "url": "https://revian.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 or API automation use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

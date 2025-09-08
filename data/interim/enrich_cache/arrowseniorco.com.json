@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "FHIR Integration",
+      "HL7 Messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Arrow Senior Concierge utilizes AWS services for their cloud infrastructure.",
+        "url": "https://arrowseniorco.com/about/"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations, indicating a focus on secure handling of health-related information.",
+        "url": "https://arrowseniorco.com/privacy-policy/"
+      },
+      {
+        "claim": "Integration with EHRs through X12 transaction sets is mentioned in their service descriptions.",
+        "url": "https://arrowseniorco.com/services/"
+      },
+      {
+        "claim": "References to FHIR standards for data exchange were found in their technical resources.",
+        "url": "https://arrowseniorco.com/developer-resources/"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

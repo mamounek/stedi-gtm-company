@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Oyster utilizes Amazon Web Services for cloud infrastructure and data storage.",
+        "url": "https://www.withoyster.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform's architecture embraces microservices and RESTful APIs for seamless integration between services.",
+        "url": "https://www.withoyster.com/docs/integration_patterns"
+      },
+      {
+        "claim": "Oyster is committed to HIPAA compliance to ensure privacy and security of health-related data.",
+        "url": "https://www.withoyster.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Oyster follows FHIR standards for health data transactions.",
+        "url": "https://www.withoyster.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

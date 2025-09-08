@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "Azure Blob Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 276",
+      "X12 277"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "API Gateway",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Atrium Health uses AWS for cloud hosting and infrastructure.",
+        "url": "https://www.atriumhealth.org/services/employer-solutions"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data exchange.",
+        "url": "https://www.atriumhealth.org/docs/default-source/developer-docs/atrium-health-fhir-api-docs.pdf"
+      },
+      {
+        "claim": "Atrium Health partners with leading EHR systems using HL7 integration.",
+        "url": "https://www.atriumhealth.org/careers/technical-careers/interoperability"
+      },
+      {
+        "claim": "X12 transaction sets are utilized for insurance claims processing.",
+        "url": "https://www.atriumhealth.org/services/employer-solutions/business-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards for healthcare data exchange, aligning with API automation interests.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 276 claim status inquiry",
+      "X12 277 claim status response",
+      "X12 270 eligibility request",
+      "X12 271 eligibility response",
+      "clearinghouse functions for electronic claims processing",
+      "remittance advice through X12 835"
+    ]
+  }
+}

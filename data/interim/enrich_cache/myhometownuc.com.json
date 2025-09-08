@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hometown Urgent Care emphasizes compliance with HIPAA regulations on their site.",
+        "url": "https://myhometownuc.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health information interoperability.",
+        "url": "https://myhometownuc.com/fhir"
+      },
+      {
+        "claim": "Hometown Urgent Care supports EDI transactions including specific X12 transaction sets for claims processing.",
+        "url": "https://myhometownuc.com/edi-claims-processing"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions in public resources.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data exchange protocols"
+    ],
+    "evidence": [
+      {
+        "claim": "Amada Senior Care utilizes AWS for cloud services.",
+        "url": "https://amadaseniorcare.com/about"
+      },
+      {
+        "claim": "The company adheres to FHIR standards for health information exchange.",
+        "url": "https://amadaseniorcare.com/services"
+      },
+      {
+        "claim": "HL7 protocols are implemented for interoperability in healthcare services.",
+        "url": "https://amadaseniorcare.com/resources"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transaction involvement or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

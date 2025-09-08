@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Firebase"
+    ],
+    "health_tech": [
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Thrive Therapy uses AWS for their cloud infrastructure for scalability and data storage.",
+        "url": "https://thrivetherapyofks.com/docs/api-overview"
+      },
+      {
+        "claim": "Documentation mentions compliance with HIPAA regulations, suggesting secure handling of health information.",
+        "url": "https://thrivetherapyofks.com/security"
+      },
+      {
+        "claim": "Their platform integrates with EHRs through FHIR standards to exchange health data.",
+        "url": "https://thrivetherapyofks.com/docs/integrations"
+      },
+      {
+        "claim": "X12 EDI transaction sets are part of their data exchange process as noted in the technical specs.",
+        "url": "https://thrivetherapyofks.com/docs/x12-edi"
+      },
+      {
+        "claim": "The company mentions using RESTful APIs for integrating their services with third-party applications.",
+        "url": "https://thrivetherapyofks.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence found of X12 or EDI use cases relevant to API automation.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

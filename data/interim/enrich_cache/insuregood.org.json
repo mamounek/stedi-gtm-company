@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI transactions"
+    ],
+    "integration_patterns": [
+      "API-driven integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "By Design Systems leverages AWS for cloud services including Lambda, EC2, and S3.",
+        "url": "https://insuregood.org/developer"
+      },
+      {
+        "claim": "The company refers to FHIR and HL7 standards in their health-tech integrations.",
+        "url": "https://insuregood.org/docs"
+      },
+      {
+        "claim": "Integration patterns include API-driven and event-driven architecture to streamline data flow.",
+        "url": "https://insuregood.org/integrations"
+      },
+      {
+        "claim": "References to X12 and EDI transactions indicate compliance with healthcare data exchange standards.",
+        "url": "https://insuregood.org/security"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards for healthcare data exchange and is API-driven.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submissions",
+      "835 remittance advice",
+      "276/277 claim status updates"
+    ]
+  }
+}

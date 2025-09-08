@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "FHIR API Integration",
+      "HL7 Messaging",
+      "EDI Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "ATEX Healthcare utilizes AWS for its cloud infrastructure and services.",
+        "url": "https://atexhealth.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company implements HIPAA compliance for its health technology solutions.",
+        "url": "https://atexhealth.com/security"
+      },
+      {
+        "claim": "ATEX supports FHIR for interoperability in healthcare data exchange.",
+        "url": "https://atexhealth.com/developer/integration"
+      },
+      {
+        "claim": "X12 EDI transactions are facilitated within ATEX Healthcare's platform for insurance claims processing.",
+        "url": "https://atexhealth.com/careers/engineering"
+      },
+      {
+        "claim": "Integration patterns include HL7 messaging for efficient healthcare communication.",
+        "url": "https://atexhealth.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI transactions and supports X12 healthcare standards, indicating a fit for API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

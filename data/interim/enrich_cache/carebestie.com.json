@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CareBestie utilizes FHIR standards for healthcare data interchange.",
+        "url": "https://carebestie.com/docs/fhir"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring data security and privacy for health information.",
+        "url": "https://carebestie.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "CareBestie integrates with EHR systems leveraging standard interfaces, enhancing interoperability.",
+        "url": "https://carebestie.com/integrations/ehr"
+      },
+      {
+        "claim": "Their platform supports X12 transaction sets for claims processing.",
+        "url": "https://carebestie.com/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse services on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

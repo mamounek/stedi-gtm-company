@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI transaction sets",
+      "Real-time data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Summit Engineered Automation utilizes AWS for cloud deployment.",
+        "url": "https://summitengineeredautomation.com/cloud-solutions"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for health data security.",
+        "url": "https://summitengineeredautomation.com/healthcare-solutions"
+      },
+      {
+        "claim": "They implement HL7 standards for health data exchange.",
+        "url": "https://summitengineeredautomation.com/hl7-integration"
+      },
+      {
+        "claim": "Summit Engineered Automation's platform supports FHIR for interoperability.",
+        "url": "https://summitengineeredautomation.com/fhir-integration"
+      },
+      {
+        "claim": "Utilization of EDI transaction sets for streamlined healthcare workflows.",
+        "url": "https://summitengineeredautomation.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging in X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

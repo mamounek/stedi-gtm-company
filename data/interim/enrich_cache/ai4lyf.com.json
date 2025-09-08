@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "AI4LYF integrates with FHIR for health data management.",
+        "url": "https://www.ai4lyf.com/docs/fhir-integration"
+      },
+      {
+        "claim": "The company utilizes AWS cloud services for their application hosting.",
+        "url": "https://www.ai4lyf.com/developer/aws-infrastructure"
+      },
+      {
+        "claim": "AI4LYF employs HIPAA compliant practices in their platform.",
+        "url": "https://www.ai4lyf.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The platform supports HL7 standards for interoperability.",
+        "url": "https://www.ai4lyf.com/docs/hl7-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found regarding X12 transaction capabilities or clearinghouse services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

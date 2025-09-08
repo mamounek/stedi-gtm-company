@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services.",
+        "url": "https://touchinghearts.com/cloud-services"
+      },
+      {
+        "claim": "There are references to HIPAA compliance and secure data handling.",
+        "url": "https://touchinghearts.com/security"
+      },
+      {
+        "claim": "The organization integrates with EHRs for managing patient data, complying with FHIR standards.",
+        "url": "https://touchinghearts.com/integration"
+      },
+      {
+        "claim": "They mention support for X12 transactions, indicating EDI capabilities.",
+        "url": "https://touchinghearts.com/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of active X12 or EDI transaction use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

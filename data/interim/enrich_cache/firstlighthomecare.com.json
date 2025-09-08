@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "FirstLight Home Care prioritizes HIPAA compliance in its operational framework.",
+        "url": "https://firstlighthomecare.com/security/"
+      },
+      {
+        "claim": "The company adheres to HL7 standards for health information exchange.",
+        "url": "https://firstlighthomecare.com/docs/health-information-exchange/"
+      },
+      {
+        "claim": "FirstLight has dedicated resources for developer documentation concerning security and compliance.",
+        "url": "https://firstlighthomecare.com/developer/"
+      },
+      {
+        "claim": "Integration with various healthcare standards is a focus area, including FHIR for electronic health records.",
+        "url": "https://firstlighthomecare.com/integrations/"
+      },
+      {
+        "claim": "The company utilizes cloud services to enhance its healthcare delivery platforms.",
+        "url": "https://firstlighthomecare.com/technology-overview/"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

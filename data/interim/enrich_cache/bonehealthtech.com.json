@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Data streaming via AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Bone Health Technologies utilizes AWS services including Lambda for serverless computing and S3 for data storage.",
+        "url": "https://bonehealthtech.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://bonehealthtech.com/health-tech"
+      },
+      {
+        "claim": "Integration of HL7 protocols for health information exchange is mentioned in their technical documentation.",
+        "url": "https://bonehealthtech.com/developer/hl7-support"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or EDI integration.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Transactions",
+      "X12 EDI Transactions",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "FHIR Integration",
+      "X12 EDI Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "IIA Healthcare utilizes AWS cloud services for scalability and HIPAA compliance.",
+        "url": "https://iiahealthcare.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data exchange.",
+        "url": "https://iiahealthcare.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHRs is done using X12 and HL7 protocols.",
+        "url": "https://iiahealthcare.com/docs/healthtech-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on X12 EDI and API integrations for healthcare transactions.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI Integration",
+      "HIPAA Compliant Transactions",
+      "Eligibility Checks (270/271)",
+      "Claims Submissions (837)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

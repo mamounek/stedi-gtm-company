@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Concierge Home Care of Maryland implements HIPAA-compliant data handling practices.",
+        "url": "https://conciergehomecareofmd.com/security"
+      },
+      {
+        "claim": "The company utilizes an EHR system for managing patient information, suggesting integration with health tech standards.",
+        "url": "https://conciergehomecareofmd.com/about"
+      },
+      {
+        "claim": "They focus on providing care coordination which often involves using health information exchanges based on standards like FHIR or HL7.",
+        "url": "https://conciergehomecareofmd.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or API integration on public site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

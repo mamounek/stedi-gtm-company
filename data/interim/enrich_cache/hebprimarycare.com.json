@@ -1,0 +1,25 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "H-E-B Wellness Primary Care adheres to HIPAA regulations for patient data security.",
+        "url": "https://www.hebprimarycare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.44
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or integration for API-based data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

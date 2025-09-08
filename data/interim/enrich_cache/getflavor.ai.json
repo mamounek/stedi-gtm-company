@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliant APIs",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Flavor AI uses AWS services like Lambda and S3 for their infrastructure.",
+        "url": "https://getflavor.ai/docs/infrastructure"
+      },
+      {
+        "claim": "The company states they have HIPAA compliant APIs for handling health data.",
+        "url": "https://getflavor.ai/security"
+      },
+      {
+        "claim": "Flavor AI mentions FHIR and HL7 compliance in their API documentation for health-tech integrations.",
+        "url": "https://getflavor.ai/developer"
+      },
+      {
+        "claim": "Integration with EHR systems is a highlighted feature in their technical specifications.",
+        "url": "https://getflavor.ai/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or clearinghouse functions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": [
+      "none"
+    ]
+  }
+}

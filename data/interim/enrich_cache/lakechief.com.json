@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Lakechief adheres to HIPAA regulations for health data security and privacy.",
+        "url": "https://lakechief.com/security"
+      },
+      {
+        "claim": "The company employs HL7 standards for interoperability in health data exchange.",
+        "url": "https://lakechief.com/docs/health-integration"
+      },
+      {
+        "claim": "Lakechief utilizes AWS for its cloud infrastructure to ensure scalable service delivery.",
+        "url": "https://lakechief.com/technology"
+      },
+      {
+        "claim": "They mention using integration patterns in their developer docs for seamless data interaction.",
+        "url": "https://lakechief.com/developer"
+      },
+      {
+        "claim": "Lakechief's career page indicates a focus on engineering talent for platform development involving health tech solutions.",
+        "url": "https://lakechief.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

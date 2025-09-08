@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "EHR integrations",
+      "X12 transaction set"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data integration with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Clinic IT Solutions utilizes AWS for their application hosting.",
+        "url": "https://clinicitsoultions.com/docs/aws-integration"
+      },
+      {
+        "claim": "They offer integration with various EHR systems and support for FHIR standards.",
+        "url": "https://clinicitsoultions.com/health-tech/fhir-support"
+      },
+      {
+        "claim": "HIPAA compliance is a core principle of their offerings in healthcare tech.",
+        "url": "https://clinicitsoultions.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in HIPAA X12 transactions, indicating strong alignment with API-first data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction integrations",
+      "Eligibility inquiries (270/271)",
+      "Claims submissions (837)",
+      "Remittance processing (835)",
+      "Clearinghouse services"
+    ]
+  }
+}

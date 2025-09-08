@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Health Lync complies with HIPAA regulations relevant to health data security and privacy.",
+        "url": "https://thehealthlync.com/security"
+      },
+      {
+        "claim": "The Health Lync utilizes FHIR standards for health data interoperability.",
+        "url": "https://thehealthlync.com/docs/#health-data"
+      },
+      {
+        "claim": "Career page mentions integration capabilities with EHRs implying use of standard compliance formats like HL7.",
+        "url": "https://thehealthlync.com/careers#engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling or related use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

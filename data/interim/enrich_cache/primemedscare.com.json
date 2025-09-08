@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Prime Meds Care utilizes FHIR for healthcare standards compliance.",
+        "url": "https://primemedscare.com/healthcare-technology"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data protection.",
+        "url": "https://primemedscare.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is core to Prime Meds Care's operations.",
+        "url": "https://primemedscare.com/docs/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction or API focus on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

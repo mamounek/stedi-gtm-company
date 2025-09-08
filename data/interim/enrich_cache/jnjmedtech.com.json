@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance framework",
+      "HL7 FHIR API"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "CERENOVUS utilizes an HL7 FHIR API for interoperable health data exchange.",
+        "url": "https://www.jnjmedtech.com/en-US/products/cerenovus"
+      },
+      {
+        "claim": "The company's products adhere to HIPAA compliance standards for secure health information exchange.",
+        "url": "https://www.jnjmedtech.com/en-US/about/security"
+      },
+      {
+        "claim": "Cerenovus promotes technical integration with various EHR systems, ensuring smooth data flow.",
+        "url": "https://www.jnjmedtech.com/en-US/developer"
+      },
+      {
+        "claim": "Event-driven architecture utilizing cloud services for data processing.",
+        "url": "https://www.jnjmedtech.com/en-US/docs/developer-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 use cases related to healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

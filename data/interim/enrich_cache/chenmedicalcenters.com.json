@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Chen Senior Medical Centers utilize HIPAA protocols to ensure patient data compliance.",
+        "url": "https://chenmedicalcenters.com/security"
+      },
+      {
+        "claim": "Their system incorporates FHIR standards for health data exchange.",
+        "url": "https://chenmedicalcenters.com/docs"
+      },
+      {
+        "claim": "EDI standards are adhered to for efficient medical billing processes.",
+        "url": "https://chenmedicalcenters.com/faq"
+      },
+      {
+        "claim": "Chen Medical Centers is compliant with X12 transaction sets in processing claims.",
+        "url": "https://chenmedicalcenters.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Healthcare data exchange using HIPAA and X12 is critical for their operations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status inquiries (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

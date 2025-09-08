@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12 transactions",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data streaming for healthcare records"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes X12 transaction sets for healthcare billing processes.",
+        "url": "https://specialtyhme.com/resources/edi_billings"
+      },
+      {
+        "claim": "Specialty Medical Equipment, Inc. mentions the use of FHIR in their data management solutions.",
+        "url": "https://specialtyhme.com/fhir-implementation"
+      },
+      {
+        "claim": "SpecialtyHME integrates directly with major EHR platforms for streamlined data access.",
+        "url": "https://specialtyhme.com/healthcare-technology"
+      },
+      {
+        "claim": "The company employs HIPAA-compliant practices in their software solutions as a healthcare provider.",
+        "url": "https://specialtyhme.com/security/privacy-policy"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction use cases on their site",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

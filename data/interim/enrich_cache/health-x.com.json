@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliant data exchange",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "API-based integrations for EHR systems",
+      "Streaming event-driven architecture for patient data",
+      "Middleware for data transformation between health records"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS Lambda for serverless computing, enabling scalable API backend services.",
+        "url": "https://health-x.com/docs/aws-integration"
+      },
+      {
+        "claim": "Health-X implements FHIR for interoperability with EHR systems.",
+        "url": "https://health-x.com/api/fhir"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations for patient data security is emphasized in their security documentation.",
+        "url": "https://health-x.com/security"
+      },
+      {
+        "claim": "Integrates X12 transaction sets like 837 for claims processing.",
+        "url": "https://health-x.com/docs/x12-integration"
+      },
+      {
+        "claim": "Health-X leverages AWS for data storage and management, ensuring high availability and security.",
+        "url": "https://health-x.com/docs/aws"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Health-X utilizes HIPAA X12 for data exchange, indicating interest in API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 for claim submissions",
+      "X12 270 for eligibility checks",
+      "Middleware for EHR data transformation",
+      "Streaming event-driven architecture for patient data"
+    ]
+  }
+}

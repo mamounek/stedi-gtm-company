@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Pub/Sub",
+      "Azure Functions",
+      "Kubernetes"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API Gateway Integration",
+      "Event-Driven Architecture",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "R4Solutions uses AWS Lambda for serverless computing",
+        "url": "https://r4solutionsinc.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data interoperability",
+        "url": "https://r4solutionsinc.com/health-technology/fhir"
+      },
+      {
+        "claim": "R4Solutions ensures HIPAA compliance for all healthcare applications",
+        "url": "https://r4solutionsinc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Uses Azure Functions for event-driven workflows",
+        "url": "https://r4solutionsinc.com/docs/azure-functions"
+      },
+      {
+        "claim": "The company integrates EHR systems using HL7 standards",
+        "url": "https://r4solutionsinc.com/health-technology/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "R4Solutions targets healthcare integration using X12 standards.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claims processing (837/835)",
+      "Remittance advice (835)",
+      "Clearinghouse functionalities"
+    ]
+  }
+}

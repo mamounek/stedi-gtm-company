@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Kafka for event streaming",
+      "Custom integration middleware for EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "AEG Vision utilizes AWS for cloud infrastructure.",
+        "url": "https://aegvision.com/developer"
+      },
+      {
+        "claim": "They follow HIPAA regulations in their technology implementation.",
+        "url": "https://aegvision.com/security"
+      },
+      {
+        "claim": "The company mentions usage of FHIR standards for health data integration.",
+        "url": "https://aegvision.com/docs"
+      },
+      {
+        "claim": "Integration pattern includes Kafka for real-time data streaming.",
+        "url": "https://aegvision.com/case-study"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or API-driven data exchange use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

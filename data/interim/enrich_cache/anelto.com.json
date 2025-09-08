@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Kubernetes"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Anelto utilizes AWS for cloud infrastructure.",
+        "url": "https://anelto.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for health data interoperability.",
+        "url": "https://anelto.com/docs/healthcare-standards"
+      },
+      {
+        "claim": "Anelto's platform is HIPAA compliant for handling protected health information.",
+        "url": "https://anelto.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration via REST APIs and Webhooks is mentioned as part of Anelto's solutions.",
+        "url": "https://anelto.com/docs/integration-options"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

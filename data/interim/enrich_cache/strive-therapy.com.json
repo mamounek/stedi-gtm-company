@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Heroku"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Strive Therapy utilizes AWS for its scalable infrastructure.",
+        "url": "https://www.strive-therapy.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations to ensure data privacy.",
+        "url": "https://www.strive-therapy.com/security"
+      },
+      {
+        "claim": "Integrates FHIR standards for health data interoperability.",
+        "url": "https://www.strive-therapy.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 or EDI processes found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

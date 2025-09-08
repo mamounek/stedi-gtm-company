@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "FHIR API",
+      "HL7 API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Alpine Care Home Health supports HIPAA compliance for health data.",
+        "url": "https://alpinecare.com/security"
+      },
+      {
+        "claim": "Utilizes AWS for cloud infrastructure and services.",
+        "url": "https://alpinecare.com/docs/cloud-services"
+      },
+      {
+        "claim": "Integration with FHIR APIs for electronic health records.",
+        "url": "https://alpinecare.com/developer/fhir-integration"
+      },
+      {
+        "claim": "Adheres to X12 transaction standards for billing and insurance.",
+        "url": "https://alpinecare.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company handles X12 transactions relevant to healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance advice"
+    ]
+  }
+}

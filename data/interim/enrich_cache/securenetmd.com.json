@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "SecureNetMD utilizes AWS cloud services to support its infrastructure.",
+        "url": "https://securenetmd.com/cloud-services"
+      },
+      {
+        "claim": "Implementation of FHIR standards for data exchange is part of SecureNetMD's offerings.",
+        "url": "https://securenetmd.com/fhir-compliance"
+      },
+      {
+        "claim": "SecureNetMD complies with HIPAA regulations for security and data privacy.",
+        "url": "https://securenetmd.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company employs integration of EDI X12 transactions for healthcare data interchange.",
+        "url": "https://securenetmd.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports EDI X12 transactions, indicating potential for API-first approach in health data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transactions",
+      "claims processing",
+      "remittance advice",
+      "eligibility verification",
+      "provider-payer communication"
+    ]
+  }
+}

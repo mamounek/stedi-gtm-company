@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for data security and privacy.",
+        "url": "https://lovingcare4elder.com/security"
+      },
+      {
+        "claim": "Loving Care 4 Elder utilizes X12 transaction sets for standardizing healthcare data exchange.",
+        "url": "https://lovingcare4elder.com/docs"
+      },
+      {
+        "claim": "The organization mentions their cloud infrastructure but does not specify types.",
+        "url": "https://lovingcare4elder.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in HIPAA X12 transactions for elder care services.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 transactions",
+      "claims processing",
+      "eligibility inquiries",
+      "remittance advice"
+    ]
+  }
+}

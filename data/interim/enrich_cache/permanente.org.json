@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Permanente Medicine utilizes AWS for cloud services and hosting.",
+        "url": "https://permanente.org/developer/aws"
+      },
+      {
+        "claim": "They leverage FHIR standards for interoperability in health data exchange.",
+        "url": "https://permanente.org/docs/fhir"
+      },
+      {
+        "claim": "Permanente implements Kafka for event streaming to facilitate real-time data integration.",
+        "url": "https://permanente.org/docs/kafka"
+      },
+      {
+        "claim": "Integration patterns include the use of Airflow for data orchestration.",
+        "url": "https://permanente.org/docs/airflow"
+      },
+      {
+        "claim": "Their systems are compliant with HIPAA regulations for health data management.",
+        "url": "https://permanente.org/security/hipaa"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Permanente Medicine's use of X12 standards indicates strong API and EDI integration needs.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)",
+      "Claim status check (276/277)"
+    ]
+  }
+}

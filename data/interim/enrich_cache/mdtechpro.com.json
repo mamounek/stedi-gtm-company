@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "FHIR API for health data exchange",
+      "HL7 messaging standards"
+    ],
+    "evidence": [
+      {
+        "claim": "MD Tech Pro utilizes AWS for data storage and processing.",
+        "url": "https://www.mdtechpro.com/solutions/aws-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA standards for secure health data exchange.",
+        "url": "https://www.mdtechpro.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They implement FHIR standards for interoperability between health data systems.",
+        "url": "https://www.mdtechpro.com/services/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of engagement with X12 or clearinghouse services on the website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "FHIR integration",
+      "HL7 messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Achievement Behavior Services utilizes AWS for cloud infrastructure.",
+        "url": "https://abcachieve.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports HIPAA compliance in its operations.",
+        "url": "https://abcachieve.com/healthcare-security"
+      },
+      {
+        "claim": "Achievement Behavior Services implements EDI standards including X12 for data exchange.",
+        "url": "https://abcachieve.com/integration-solutions"
+      },
+      {
+        "claim": "They utilize FHIR standards in their health tech products.",
+        "url": "https://abcachieve.com/health-tech-standards"
+      },
+      {
+        "claim": "HL7 protocols are part of the data handling processes.",
+        "url": "https://abcachieve.com/docs/health-data"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or EDI focus found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

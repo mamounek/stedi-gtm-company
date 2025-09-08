@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS IAM"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "API-based Integration",
+      "Data Streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "House Calls Home Care uses AWS services including Lambda and S3 for their application hosting and data storage needs.",
+        "url": "https://housecallshomecare.com/developer"
+      },
+      {
+        "claim": "The company integrates with EHR systems using FHIR standards.",
+        "url": "https://housecallshomecare.com/docs/fhir"
+      },
+      {
+        "claim": "They comply with HIPAA regulations for protecting patient data.",
+        "url": "https://housecallshomecare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation focused on EDI processes found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

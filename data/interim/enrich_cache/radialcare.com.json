@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API-first design",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Radial utilizes AWS services such as Lambda for serverless computing and S3 for storage solutions.",
+        "url": "https://radialcare.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in their handling of health information.",
+        "url": "https://radialcare.com/security"
+      },
+      {
+        "claim": "RadialCare integrates with EHR systems following HL7 standards for data exchange.",
+        "url": "https://radialcare.com/interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling found on company site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

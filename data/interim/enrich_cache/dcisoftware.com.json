@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Data Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Direct Care Innovations utilizes AWS cloud services to host and manage applications.",
+        "url": "https://www.dcisoftware.com/cloud-services/"
+      },
+      {
+        "claim": "They implement FHIR standards for healthcare data exchange.",
+        "url": "https://www.dcisoftware.com/fhir-implementation/"
+      },
+      {
+        "claim": "Direct Care Innovations handles X12 transaction sets for claims processing and eligibility verification.",
+        "url": "https://www.dcisoftware.com/x12-edi-solutions/"
+      },
+      {
+        "claim": "Amazon RDS is used for their database management needs.",
+        "url": "https://www.dcisoftware.com/aws-integration/"
+      },
+      {
+        "claim": "Direct Care Innovations states their compliance with HIPAA regulations in their technology stack.",
+        "url": "https://www.dcisoftware.com/security-compliance/"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health data exchange and integration, relevant to X12 and API-driven healthcare solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 file exchange",
+      "Claims processing automation",
+      "Eligibility verification",
+      "Remittance advice management"
+    ]
+  }
+}

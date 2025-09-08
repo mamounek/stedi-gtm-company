@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "FHIR APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "HHRG Services utilizes AWS and Google Cloud for their infrastructure.",
+        "url": "https://hhrgservices.com/docs/cloud-providers"
+      },
+      {
+        "claim": "They are compliant with HIPAA, ensuring the protection of patient data.",
+        "url": "https://hhrgservices.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company implements EDI X12 transaction sets for health data interchange.",
+        "url": "https://hhrgservices.com/docs/edi-transaction-sets"
+      },
+      {
+        "claim": "HHRG Services uses FHIR for healthcare interoperability.",
+        "url": "https://hhrgservices.com/developer/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles EDI X12 transactions, indicating alignment with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI X12 integration",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Healthcare data exchange"
+    ]
+  }
+}

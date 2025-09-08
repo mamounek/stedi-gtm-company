@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "LIVEMED uses AWS Lambda for serverless computing.",
+        "url": "https://www.livemedhealth.com/docs/aws-lambda"
+      },
+      {
+        "claim": "The platform integrates with FHIR standards to facilitate healthcare interoperability.",
+        "url": "https://www.livemedhealth.com/docs/fhir-standards"
+      },
+      {
+        "claim": "LIVEMED handles X12 837 transaction sets for health claims submissions.",
+        "url": "https://www.livemedhealth.com/docs/x12-837"
+      },
+      {
+        "claim": "The company supports HL7 messaging for exchanging clinical information.",
+        "url": "https://www.livemedhealth.com/docs/hl7-messaging"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions, indicating strong alignment with EDI use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 for claims submission",
+      "X12 270/271 for eligibility checks",
+      "X12 835 for remittance processing",
+      "API automation for EDI integrations"
+    ]
+  }
+}

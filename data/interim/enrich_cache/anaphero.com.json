@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2",
+      "X12 270/271"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook notifications",
+      "Batch processing of EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Anaphero utilizes AWS for its cloud infrastructure including Lambda and S3 services.",
+        "url": "https://anaphero.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://anaphero.com/developer/health-tech"
+      },
+      {
+        "claim": "Anaphero implements X12 transaction sets for health insurance claims processing.",
+        "url": "https://anaphero.com/docs/edi-support"
+      },
+      {
+        "claim": "Anaphero uses REST APIs to integrate with various healthcare systems.",
+        "url": "https://anaphero.com/integration-guides"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Anaphero supports X12 standards and API integration for healthcare data exchanges.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

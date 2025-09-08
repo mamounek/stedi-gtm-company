@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837",
+      "HL7 v2",
+      "FHIR R4"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "WWR Home Care uses AWS services for their cloud infrastructure.",
+        "url": "https://www.wwrcare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements HIPAA compliance standards for handling patient data.",
+        "url": "https://www.wwrcare.com/security"
+      },
+      {
+        "claim": "Documentation mentions use of FHIR standards for health data integration.",
+        "url": "https://www.wwrcare.com/docs/fhir"
+      },
+      {
+        "claim": "WWR Home Care incorporates X12 transaction sets for claims processing.",
+        "url": "https://www.wwrcare.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 standards for healthcare transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

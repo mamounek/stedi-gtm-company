@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliant data storage",
+      "FHIR API support",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Messaging queues for data processing",
+      "Cloud-based data orchestration"
+    ],
+    "evidence": [
+      {
+        "claim": "Cognie AI uses AWS Lambda for serverless computing, enabling scalable architectures.",
+        "url": "https://cognie.ai/docs/architecture"
+      },
+      {
+        "claim": "The platform supports FHIR APIs for healthcare data interoperability.",
+        "url": "https://cognie.ai/health/faq"
+      },
+      {
+        "claim": "Cognie AI has HIPAA compliance for its healthcare data solutions, ensuring secure handling of patient information.",
+        "url": "https://cognie.ai/security"
+      },
+      {
+        "claim": "Integration with HL7 messaging standards is implemented for EHR compatibility.",
+        "url": "https://cognie.ai/integration/docs"
+      },
+      {
+        "claim": "Utilizes Google Cloud for data storage and processing in the healthcare sector.",
+        "url": "https://cognie.ai/about/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for X12 transactions or clearinghouse capabilities on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

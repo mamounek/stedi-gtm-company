@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure Services",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "APEX Rehab Group uses AWS cloud services for infrastructure.",
+        "url": "https://apexrehabgroup.com/about#infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring data privacy standards.",
+        "url": "https://apexrehabgroup.com/security#hipaa"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs which facilitate interactions with EHRs.",
+        "url": "https://apexrehabgroup.com/docs#api"
+      },
+      {
+        "claim": "Support for X12 transaction sets is implemented for health insurance claims.",
+        "url": "https://apexrehabgroup.com/integration#edi"
+      },
+      {
+        "claim": "APEX Rehab Group mentions utilizing HL7 protocols in their systems.",
+        "url": "https://apexrehabgroup.com/tech#hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 837 and HIPAA compliance, indicating strong alignment with healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270/271 eligibility verification",
+      "X12 835 remittance processing"
+    ]
+  }
+}

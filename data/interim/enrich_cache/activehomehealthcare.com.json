@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliant"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data security and management.",
+        "url": "https://activehomehealthcare.com/healthcare-services/"
+      },
+      {
+        "claim": "Active Home Health Care Services emphasizes security measures in accordance with HIPAA.",
+        "url": "https://activehomehealthcare.com/about-us/"
+      },
+      {
+        "claim": "The website mentions integration patterns related to electronic patient records under HIPAA guidelines.",
+        "url": "https://activehomehealthcare.com/services/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or API reliance on public site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

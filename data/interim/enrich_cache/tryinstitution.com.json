@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Event-streaming via Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "The institution utilizes AWS services for data storage and processing.",
+        "url": "https://tryinstitution.com/docs/aws-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA standards in their health-related services.",
+        "url": "https://tryinstitution.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Employs FHIR standards for health data interchange.",
+        "url": "https://tryinstitution.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on API integration and healthcare data exchange aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice automation"
+    ]
+  }
+}

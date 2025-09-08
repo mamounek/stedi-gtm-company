@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Transfer",
+      "HL7 Integration",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Event-Driven Architecture with AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS Lambda for serverless computing.",
+        "url": "https://resolutehealthcare.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Integrates with HL7 standards for health data exchange.",
+        "url": "https://resolutehealthcare.com/docs/hl7-integration"
+      },
+      {
+        "claim": "Ensures HIPAA compliance in all data handling practices.",
+        "url": "https://resolutehealthcare.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or specific API use cases related to healthcare exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

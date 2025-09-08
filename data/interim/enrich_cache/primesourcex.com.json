@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA guidelines for secure healthcare data transactions.",
+        "url": "https://primesourcex.com/security"
+      },
+      {
+        "claim": "Prime Source utilizes FHIR standards for interoperability in their healthcare applications.",
+        "url": "https://primesourcex.com/docs"
+      },
+      {
+        "claim": "They are integrated with various platforms complying with health-tech regulations.",
+        "url": "https://primesourcex.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or relevant clearinghouse capabilities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

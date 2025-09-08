@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Attending Home Care utilizes AWS for cloud services to ensure secure data handling.",
+        "url": "https://attendingllc.com/about-us"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data protection.",
+        "url": "https://attendingllc.com/security"
+      },
+      {
+        "claim": "Integration with FHIR API standards allows for seamless data exchange in healthcare applications.",
+        "url": "https://attendingllc.com/developer-tools"
+      },
+      {
+        "claim": "Utilizes EDI for billing purposes, specifically X12 transaction sets for healthcare insurance claims.",
+        "url": "https://attendingllc.com/integration"
+      },
+      {
+        "claim": "Utilizes Azure for various cloud computing services enhancing their operational efficiency.",
+        "url": "https://attendingllc.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in healthcare with a focus on EDI/X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission using X12 837",
+      "Eligibility checks using X12 270/271",
+      "Remittance processing with X12 835",
+      "Payer-provider communication using EDI",
+      "Transaction exchange through a clearinghouse"
+    ]
+  }
+}

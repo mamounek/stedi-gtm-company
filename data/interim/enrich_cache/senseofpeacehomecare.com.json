@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA compliance for patient data security.",
+        "url": "https://senseofpeacehomecare.com/security"
+      },
+      {
+        "claim": "Sense Of Peace Home Care has previously been known as Peace Of Mind Home Care, which also emphasized their commitment to healthcare regulations such as HIPAA.",
+        "url": "https://senseofpeacehomecare.com/about"
+      },
+      {
+        "claim": "The company mentions an integration of electronic data interchange (EDI) systems for servicing healthcare transactions.",
+        "url": "https://senseofpeacehomecare.com/services"
+      },
+      {
+        "claim": "The services provided by the company ensure compliance with healthcare data standards, including X12.",
+        "url": "https://senseofpeacehomecare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or API automation related to healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

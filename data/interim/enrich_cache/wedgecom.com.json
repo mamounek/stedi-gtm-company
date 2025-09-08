@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS EC2",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "SOAP web services",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Wedgewood Communications utilizes AWS for cloud hosting solutions.",
+        "url": "https://wedgecom.com/cloud-services/"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA and integration of health technologies like HL7 and FHIR.",
+        "url": "https://wedgecom.com/healthcare-communications/"
+      },
+      {
+        "claim": "They provide RESTful APIs for interoperable communications in health tech.",
+        "url": "https://wedgecom.com/apis/"
+      },
+      {
+        "claim": "Wedgewood uses EDI and X12 transaction sets to streamline healthcare data exchange.",
+        "url": "https://wedgecom.com/edi-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Wedgewood Communications engages in health tech with a focus on X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)",
+      "Clearinghouse services"
+    ]
+  }
+}

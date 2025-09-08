@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Elite Care adheres to HIPAA regulations for managing patient data securely.",
+        "url": "https://elitecare.com/security"
+      },
+      {
+        "claim": "They utilize FHIR standards to facilitate data exchange in healthcare applications.",
+        "url": "https://elitecare.com/docs/fhir"
+      },
+      {
+        "claim": "The company emphasizes security related to health information management in its careers section.",
+        "url": "https://elitecare.com/careers/security"
+      },
+      {
+        "claim": "No specific EDI or X12 transaction sets were found on their website, indicating limited direct mentioning of these standards.",
+        "url": "https://elitecare.com/docs/edi"
+      },
+      {
+        "claim": "No information found on cloud platforms such as AWS, Azure, or GCP, indicating a lack of openness about their technical infrastructure.",
+        "url": "https://elitecare.com/dev"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of reliance on X12 transactions or API automation in their operations.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

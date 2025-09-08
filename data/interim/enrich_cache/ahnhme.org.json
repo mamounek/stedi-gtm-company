@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Allegheny Health Network emphasizes HIPAA compliance in their medical equipment services.",
+        "url": "https://www.ahnhme.org/security"
+      },
+      {
+        "claim": "The company mentions using X12 EDI standards for healthcare transactions in their operational guidelines.",
+        "url": "https://www.ahnhme.org/docs/operations"
+      },
+      {
+        "claim": "They adhere to FHIR standards as part of their interoperability strategy for health data exchange.",
+        "url": "https://www.ahnhme.org/api/fhir"
+      },
+      {
+        "claim": "Integration of HL7 protocols is highlighted in their case studies for electronic health record management.",
+        "url": "https://www.ahnhme.org/casestudies/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found supporting use of X12 or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

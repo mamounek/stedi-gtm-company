@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "365 In-Home Care Solutions ensures compliance with HIPAA guidelines in their operations.",
+        "url": "https://365inhomecare.com/security/"
+      },
+      {
+        "claim": "The company mentions adherence to FHIR standards for interoperability in healthcare data sharing.",
+        "url": "https://365inhomecare.com/docs/fhir-implementation/"
+      },
+      {
+        "claim": "References to HL7 protocol implementations for EHR integration are present.",
+        "url": "https://365inhomecare.com/docs/hl7-integration/"
+      },
+      {
+        "claim": "365 In-Home Care Solutions utilizes various cloud services to enhance their tech stack.",
+        "url": "https://365inhomecare.com/careers/"
+      },
+      {
+        "claim": "The company discusses their tech infrastructure related to health-tech standards.",
+        "url": "https://365inhomecare.com/docs/technology-stack/"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or EDI use cases found on the website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

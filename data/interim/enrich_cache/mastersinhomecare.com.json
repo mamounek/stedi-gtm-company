@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Masters In Home Care adheres to HIPAA compliance standards for protecting patient data.",
+        "url": "https://mastersinhomecare.com/privacy-policy/"
+      },
+      {
+        "claim": "The company potentially utilizes EHR systems to manage patient data securely.",
+        "url": "https://mastersinhomecare.com/services/"
+      },
+      {
+        "claim": "The privacy policy outlines security measures involving electronic health information.",
+        "url": "https://mastersinhomecare.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or relevant EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

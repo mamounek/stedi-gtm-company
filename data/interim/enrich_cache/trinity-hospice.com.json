@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Trinity Hospice utilizes cloud services for operational efficiency and data management.",
+        "url": "https://trinity-hospice.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.09
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or API automation for health data exchange found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

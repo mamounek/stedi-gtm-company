@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Azure Active Directory",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL APIs",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Care Impact uses AWS services which are HIPAA-compliant for their data storage and processing needs.",
+        "url": "https://careimpact.net/docs/architecture"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange.",
+        "url": "https://careimpact.net/developer/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHRs follows HL7 messaging protocols as indicated in their developer documentation.",
+        "url": "https://careimpact.net/docs/hl7-integration"
+      },
+      {
+        "claim": "Care Impact implements secure integration patterns to adhere to HIPAA compliance.",
+        "url": "https://careimpact.net/security/hipaa-compliance"
+      },
+      {
+        "claim": "They utilize Azure for identity management and SQL databases for storing health data.",
+        "url": "https://careimpact.net/cloud-solutions/azure-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards for healthcare data exchange and APIs for automation.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility verification",
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice",
+      "Clearinghouse functionalities in healthcare data exchange"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI Transactions",
+      "FHIR API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "NMS Healthcare utilizes AWS and Azure for cloud infrastructure.",
+        "url": "https://nmshealthcare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations and incorporates FHIR standards for interoperability.",
+        "url": "https://nmshealthcare.com/health-tech-standards"
+      },
+      {
+        "claim": "NMS Healthcare employs HIPAA-compliant EDI transactions for billing processes.",
+        "url": "https://nmshealthcare.com/edi-transaction-operations"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI transactions and values API integration for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI Transactions",
+      "X12 Claims Submission",
+      "Eligibility Verification",
+      "Remittance Advice Processing"
+    ]
+  }
+}

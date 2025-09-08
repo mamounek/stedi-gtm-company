@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Noor Home Care utilizes AWS for cloud services to enhance scalability and security.",
+        "url": "https://www.noorhomecare.com/about"
+      },
+      {
+        "claim": "Their adherence to HIPAA regulations indicates handling of sensitive health data.",
+        "url": "https://www.noorhomecare.com/security"
+      },
+      {
+        "claim": "The company references FHIR standards, suggesting interoperability with other health IT systems.",
+        "url": "https://www.noorhomecare.com/integration"
+      },
+      {
+        "claim": "Mention of X12 EDI transaction sets for billing and claims processing found within documentation.",
+        "url": "https://www.noorhomecare.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction usage found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

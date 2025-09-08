@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR Standard"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://fcfhh.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Full Circle Family Home Health is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://fcfhh.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They implement FHIR standards for interoperability of health data.",
+        "url": "https://fcfhh.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 transactions or operating as a clearinghouse for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

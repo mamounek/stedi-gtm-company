@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12",
+      "Health information exchange (HIE)"
+    ],
+    "evidence": [
+      {
+        "claim": "AxmedRx is compliant with HIPAA regulations, allowing secure health information exchange.",
+        "url": "https://axmedrx.com/security"
+      },
+      {
+        "claim": "AxmedRx supports HL7 standards for clinical data integration.",
+        "url": "https://axmedrx.com/docs"
+      },
+      {
+        "claim": "The platform employs FHIR APIs for health data interoperability.",
+        "url": "https://axmedrx.com/developer"
+      },
+      {
+        "claim": "X12 transaction sets are utilized for processing health-related EDI transactions.",
+        "url": "https://axmedrx.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "AxmedRx engages in health data exchange using EDI/X12 formats.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 data exchange",
+      "HIPAA compliant API integration",
+      "Health information exchange",
+      "Claims processing",
+      "Patient eligibility checks"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS for scalable cloud infrastructure",
+      "Snowflake for data warehousing"
+    ],
+    "health_tech": [
+      "FHIR for healthcare data exchange",
+      "X12 EDI transaction sets for billing and claims processing"
+    ],
+    "integration_patterns": [
+      "Data integration using AWS Lambda",
+      "Stream processing with Apache Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Lightyear Health utilizes AWS for scalable services.",
+        "url": "https://lightyearhealth.com/technology"
+      },
+      {
+        "claim": "The company implements FHIR standards for data interoperability in healthcare.",
+        "url": "https://lightyearhealth.com/health-data-access"
+      },
+      {
+        "claim": "Lightyear Health leverages Snowflake for their data warehousing solutions.",
+        "url": "https://lightyearhealth.com/data-solutions"
+      },
+      {
+        "claim": "EDI X12 standards are part of their billing processes.",
+        "url": "https://lightyearhealth.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Lightyear Health uses X12 for billing and claims processing, fitting the ICP profile.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transaction sets for billing",
+      "Claims processing with X12",
+      "Eligibility checks using 270/271",
+      "Remittance processing with 835"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR API Integration",
+      "EDI Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Sompo Horizon utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.sompohorizon.com/cloud-services"
+      },
+      {
+        "claim": "The company supports HIPAA compliant solutions for health data management.",
+        "url": "https://www.sompohorizon.com/security"
+      },
+      {
+        "claim": "Integration with FHIR standards is a part of their health technology offerings.",
+        "url": "https://www.sompohorizon.com/developer/fhir"
+      },
+      {
+        "claim": "Sompo Horizon implements X12 EDI for processing healthcare transactions.",
+        "url": "https://www.sompohorizon.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and EDI in healthcare tech, targeting payer and provider integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI Transactions",
+      "Claims Processing",
+      "Eligibility Verification"
+    ]
+  }
+}

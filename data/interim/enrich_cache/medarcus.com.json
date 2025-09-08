@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Medarcus is HIPAA compliant, which indicates its commitment to handling health information securely.",
+        "url": "https://medarcus.com/security"
+      },
+      {
+        "claim": "The technology used supports data integration within health tech standards, indicating potential use of FHIR.",
+        "url": "https://medarcus.com/docs"
+      },
+      {
+        "claim": "Medarcus offers integration capabilities with EHR systems, which typically require compliance with health standards like HL7.",
+        "url": "https://medarcus.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or API automation use cases on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

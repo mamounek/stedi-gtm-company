@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "ProactiveWellness uses AWS services for cloud infrastructure.",
+        "url": "https://prowellcare.com/about-us#infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare interoperability.",
+        "url": "https://prowellcare.com/products#interoperability"
+      },
+      {
+        "claim": "ProactiveWellness supports X12 transaction sets for electronic data interchange.",
+        "url": "https://prowellcare.com/solutions#edi"
+      },
+      {
+        "claim": "They utilize RESTful APIs for application integrations.",
+        "url": "https://prowellcare.com/developer#api"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ProactiveWellness engages in X12 transactions and supports API automation for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 Claims Submission (837)",
+      "Eligibility Inquiry/Response (270/271)",
+      "Remittance Advice (835)",
+      "Claims Status Inquiry/Response (276/277)"
+    ]
+  }
+}

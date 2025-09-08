@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "FHIR",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Fit Hub implements HIPAA compliance in its operations.",
+        "url": "https://aifithub.com/security-center"
+      },
+      {
+        "claim": "The company utilizes X12 EDI for transactions between health systems.",
+        "url": "https://aifithub.com/health-tech"
+      },
+      {
+        "claim": "Fit Hub leverages FHIR for interoperable health data exchange.",
+        "url": "https://aifithub.com/docs/fhir"
+      },
+      {
+        "claim": "Integration with EHR systems utilizing HL7 standards is part of their offering.",
+        "url": "https://aifithub.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or similar use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

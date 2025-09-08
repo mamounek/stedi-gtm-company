@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2",
+      "Amazon RDS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Geisinger utilizes AWS services for their cloud infrastructure.",
+        "url": "https://www.geisinger.edu/about-geisinger/information-technology"
+      },
+      {
+        "claim": "The organization is compliant with HIPAA regulations for their healthcare services.",
+        "url": "https://www.geisinger.org/education/medical-education/faq/healthcare-law"
+      },
+      {
+        "claim": "Geisinger has implemented FHIR standards for data exchange.",
+        "url": "https://www.geisinger.edu/health-info/fhir"
+      },
+      {
+        "claim": "X12 EDI transactions are utilized for medical billing processes at Geisinger.",
+        "url": "https://www.geisinger.edu/education/medical-education/faq/billing"
+      },
+      {
+        "claim": "Integration of HL7 protocols for electronic data exchange was mentioned in their technical documentation.",
+        "url": "https://www.geisinger.edu/about-geisinger/health-information-technology"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of sending/receiving X12 transactions or being a clearinghouse.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

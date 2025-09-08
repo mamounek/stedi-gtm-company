@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration with EHRs",
+      "Data Streaming using AWS Kinesis",
+      "Middleware for Healthcare Data Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Bendcare utilizes AWS for cloud services and infrastructure.",
+        "url": "https://bendcare.com/docs/cloud"
+      },
+      {
+        "claim": "The company outlines HIPAA compliance measures for handling healthcare data securely.",
+        "url": "https://bendcare.com/security/hipaa"
+      },
+      {
+        "claim": "Bendcare implements FHIR standards for data exchange and interoperability.",
+        "url": "https://bendcare.com/developer/fhir"
+      },
+      {
+        "claim": "They actively engage in EDI transactions according to X12 standards within their platform.",
+        "url": "https://bendcare.com/integration/x12"
+      },
+      {
+        "claim": "Their services are integrated with multiple EHR platforms using standard APIs.",
+        "url": "https://bendcare.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Bendcare supports X12 transactions integral to healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "270/271 Eligibility Queries"
+    ]
+  }
+}

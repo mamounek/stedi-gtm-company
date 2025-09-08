@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "TAG, Inc. utilizes AWS services for its data processing and cloud infrastructure needs.",
+        "url": "https://theauditgroup.com/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, indicating secure handling of health information.",
+        "url": "https://theauditgroup.com/security"
+      },
+      {
+        "claim": "TAG integrates with EHRs using standard formats such as X12 for health transactions.",
+        "url": "https://theauditgroup.com/health-tech"
+      },
+      {
+        "claim": "TAG employs REST APIs for integration with various health tech platforms.",
+        "url": "https://theauditgroup.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company specializes in healthcare data exchange, utilizing HIPAA and X12 EDI standards.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "837 claims submissions",
+      "835 remittance advice",
+      "X12 EDI transactions",
+      "healthcare data integration"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks",
+      "Batch processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Carnegie Healthcare leverages AWS cloud infrastructure for its applications.",
+        "url": "https://carnegiehealthcare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for health information exchange.",
+        "url": "https://carnegiehealthcare.com/fhir-standards"
+      },
+      {
+        "claim": "Carnegie Healthcare is compliant with HIPAA regulations for patient data security.",
+        "url": "https://carnegiehealthcare.com/hipaa-compliance"
+      },
+      {
+        "claim": "They utilize REST APIs for integration with Electronic Health Records (EHRs).",
+        "url": "https://carnegiehealthcare.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and EDI standards, aligning with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing"
+    ]
+  }
+}

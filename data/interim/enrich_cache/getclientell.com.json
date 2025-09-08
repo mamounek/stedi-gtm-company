@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliant infrastructure",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhooks for real-time data sharing"
+    ],
+    "evidence": [
+      {
+        "claim": "Clientell uses AWS services including Lambda for serverless functions.",
+        "url": "https://getclientell.com/docs/aws-integration"
+      },
+      {
+        "claim": "Their platform is HIPAA compliant, ensuring secure handling of healthcare data.",
+        "url": "https://getclientell.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Clientell offers a FHIR API for seamless healthcare data exchange.",
+        "url": "https://getclientell.com/docs/fhir-api"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs and webhooks for dynamic data synchronization.",
+        "url": "https://getclientell.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction processes or clearinghouse functionalities found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

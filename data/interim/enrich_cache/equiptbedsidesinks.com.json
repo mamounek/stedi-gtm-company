@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Equipt Bedside Sinks does not appear to have any public-facing API documentation for integration.",
+        "url": "https://equiptbedsidesinks.com"
+      },
+      {
+        "claim": "No information found regarding HIPAA compliance or specific health tech transactions like X12 or FHIR.",
+        "url": "https://equiptbedsidesinks.com/about"
+      },
+      {
+        "claim": "Equipt is a small company and may not utilize large-scale cloud services such as AWS, GCP, or Azure.",
+        "url": "https://equiptbedsidesinks.com/careers"
+      },
+      {
+        "claim": "No specific mention of data platforms or middleware technologies in the developer or engineering sections.",
+        "url": "https://equiptbedsidesinks.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.26
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or healthcare data exchange use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

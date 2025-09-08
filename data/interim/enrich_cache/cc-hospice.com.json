@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "FHIR API implementation"
+    ],
+    "evidence": [
+      {
+        "claim": "Comfort Care Hospice complies with HIPAA regulations to ensure patient data protection.",
+        "url": "https://www.cc-hospice.com/security"
+      },
+      {
+        "claim": "The company utilizes EHR systems for managing patient information and care coordination.",
+        "url": "https://www.cc-hospice.com/services"
+      },
+      {
+        "claim": "Comfort Care Hospice is involved in EHR integrations, though specific technology stacks are not disclosed.",
+        "url": "https://www.cc-hospice.com/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or API automation use cases found on company site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

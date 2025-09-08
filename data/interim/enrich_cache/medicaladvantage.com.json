@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "cloud APIs",
+      "EHR integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Medical Advantage utilizes AWS for hosting and services.",
+        "url": "https://medicaladvantage.com/about-us/"
+      },
+      {
+        "claim": "The company implements HIPAA compliant solutions for patient data exchange.",
+        "url": "https://medicaladvantage.com/services/security/"
+      },
+      {
+        "claim": "They have capabilities in HL7 and FHIR for healthcare interoperability.",
+        "url": "https://medicaladvantage.com/services/integration/"
+      },
+      {
+        "claim": "Integration patterns include connections to EHR systems via APIs.",
+        "url": "https://medicaladvantage.com/careers/software-engineer/"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange and utilizes X12 formats which align with ICP targeting.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility checking",
+      "X12 837 for claims submission",
+      "X12 835 for remittance processing"
+    ]
+  }
+}

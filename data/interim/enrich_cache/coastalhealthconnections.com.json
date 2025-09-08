@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "Health Information Exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Coastal Health Connections utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.coastalhealthconnections.com/api-overview"
+      },
+      {
+        "claim": "The company implements FHIR standards to facilitate interoperability in healthcare data exchange.",
+        "url": "https://www.coastalhealthconnections.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Use of X12 transaction sets for healthcare billing and claims processing.",
+        "url": "https://www.coastalhealthconnections.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include EDI for efficient data interchange with clearinghouses.",
+        "url": "https://www.coastalhealthconnections.com/developer/integration-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for claims and eligibility processes, indicating interest in API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice exchange"
+    ]
+  }
+}

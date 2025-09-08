@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Lily Martin Care adheres to HIPAA regulations for healthcare data privacy and security.",
+        "url": "https://www.lilymartincare.com/security"
+      },
+      {
+        "claim": "The company discusses X12 transactions in their healthcare workflow documentation.",
+        "url": "https://www.lilymartincare.com/docs/healthcare-workflow"
+      },
+      {
+        "claim": "Lily Martin Care's systems work with HL7 protocols to facilitate healthcare communication.",
+        "url": "https://www.lilymartincare.com/integration"
+      },
+      {
+        "claim": "FHIR standards are integrated into their patient data handling processes for improved interoperability.",
+        "url": "https://www.lilymartincare.com/apis/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange with strong focus on HIPAA and X12 standards.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing"
+    ]
+  }
+}

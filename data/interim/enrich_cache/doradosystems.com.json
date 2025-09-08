@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Data streaming",
+      "Cloud deployment"
+    ],
+    "evidence": [
+      {
+        "claim": "Dorado Systems utilizes AWS for its cloud services.",
+        "url": "https://doradosystems.com/cloud-services"
+      },
+      {
+        "claim": "Dorado Systems complies with HIPAA regulations which suggests they handle protected health information.",
+        "url": "https://doradosystems.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company offers integration solutions utilizing FHIR standards.",
+        "url": "https://doradosystems.com/integration-solutions"
+      },
+      {
+        "claim": "Dorado Systems mentions support for EDI transactions, including transaction sets for X12.",
+        "url": "https://doradosystems.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on APIs and health data interchange via HIPAA and X12 standards.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Clearinghouse operations"
+    ]
+  }
+}

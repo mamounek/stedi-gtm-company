@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon DynamoDB",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "API Integration with EHRs",
+      "Messaging Protocols via HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Rudish Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://rudishhealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations.",
+        "url": "https://rudishhealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR specifications for health data exchange.",
+        "url": "https://rudishhealth.com/developer/fhir-specification"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit use of X12 or clearinghouse services found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

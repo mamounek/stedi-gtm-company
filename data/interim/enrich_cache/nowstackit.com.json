@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Message Queuing"
+    ],
+    "evidence": [
+      {
+        "claim": "StackIt utilizes AWS for infrastructure hosting and services.",
+        "url": "https://nowstackit.com/docs/services/aws"
+      },
+      {
+        "claim": "The company complies with HIPAA standards for handling health information.",
+        "url": "https://nowstackit.com/security/hipaa"
+      },
+      {
+        "claim": "StackIt integrates EHR systems through X12 transaction sets for healthcare data exchange.",
+        "url": "https://nowstackit.com/developer/x12"
+      },
+      {
+        "claim": "StackIt employs GCP for data analytics and processing.",
+        "url": "https://nowstackit.com/docs/services/gcp"
+      },
+      {
+        "claim": "StackIt uses message queuing to handle real-time data processing.",
+        "url": "https://nowstackit.com/docs/integration_patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse services found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

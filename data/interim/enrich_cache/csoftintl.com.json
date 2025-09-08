@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR integration"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Batch processing of EDI transactions",
+      "Event-driven architecture with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "CSOFT Health Sciences utilizes AWS for cloud infrastructure and data processing.",
+        "url": "https://csoftintl.com/cloud-services"
+      },
+      {
+        "claim": "The company is HIPAA compliant and supports various EDI standards such as X12.",
+        "url": "https://csoftintl.com/healthcare-compliance"
+      },
+      {
+        "claim": "CSOFT integrates with FHIR for healthcare data exchange.",
+        "url": "https://csoftintl.com/fhir-implementation"
+      },
+      {
+        "claim": "They utilize Google Cloud for data analytics and cloud storage solutions.",
+        "url": "https://csoftintl.com/data-solutions"
+      },
+      {
+        "claim": "Integration with Kafka is highlighted for real-time data processing.",
+        "url": "https://csoftintl.com/integration-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focuses on HIPAA compliance and X12 transactions, indicating relevance for API healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "EDI transactions with payers and providers",
+      "Claims management through API integration",
+      "Eligibility checks via X12 270/271",
+      "Remittance processing using 837/835"
+    ]
+  }
+}

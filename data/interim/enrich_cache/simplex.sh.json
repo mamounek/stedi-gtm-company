@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Simplex uses AWS cloud services for scalable infrastructure.",
+        "url": "https://simplex.sh/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform integrates with FHIR for healthcare data exchange.",
+        "url": "https://simplex.sh/developer/fhir-implementation"
+      },
+      {
+        "claim": "HL7 messaging capabilities are part of the architecture for interoperability.",
+        "url": "https://simplex.sh/docs/hl7-integration"
+      },
+      {
+        "claim": "Supports RESTful APIs for data access and integration.",
+        "url": "https://simplex.sh/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12-related use cases or healthcare data exchange activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

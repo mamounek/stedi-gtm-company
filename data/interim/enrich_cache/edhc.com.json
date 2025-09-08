@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "X12 EDI Transactions",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Webhook Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Employer Direct Healthcare utilizes AWS for scalable infrastructure and data storage.",
+        "url": "https://www.edhc.com/about-us/"
+      },
+      {
+        "claim": "The platform supports HIPAA compliance for secure data transactions.",
+        "url": "https://www.edhc.com/security/faq/"
+      },
+      {
+        "claim": "Employer Direct Healthcare implements X12 standards for EDI transactions.",
+        "url": "https://www.edhc.com/resources/edi-guidelines/"
+      },
+      {
+        "claim": "The company adopts FHIR standards for healthcare data interoperability.",
+        "url": "https://www.edhc.com/healthcare-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI Transactions, indicating a need for API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider communications",
+      "payer interactions"
+    ]
+  }
+}

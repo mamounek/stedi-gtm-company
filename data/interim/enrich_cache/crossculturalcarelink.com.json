@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cross Cultural CareLink emphasizes its compliance with HIPAA regulations, key in protecting patient information.",
+        "url": "http://crossculturalcarelink.com/security"
+      },
+      {
+        "claim": "The company's focus is on improving cross-cultural healthcare delivery which suggests integration with EHR systems.",
+        "url": "http://crossculturalcarelink.com/about"
+      },
+      {
+        "claim": "Job postings indicate a need for familiarity with health IT systems, hinting at the use of standards like HL7 or FHIR.",
+        "url": "http://crossculturalcarelink.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence found of using X12 transactions or API automation in healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

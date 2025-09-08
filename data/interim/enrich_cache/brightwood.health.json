@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Middleware for data integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Brightwood Health uses AWS for its cloud infrastructure.",
+        "url": "https://brightwood.health/infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://brightwood.health/fhir-compliance"
+      },
+      {
+        "claim": "Brightwood Health adheres to HIPAA regulations in its operational framework.",
+        "url": "https://brightwood.health/security"
+      },
+      {
+        "claim": "Integration patterns include middleware solutions for seamless EHR connectivity.",
+        "url": "https://brightwood.health/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence indicating engagement with X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

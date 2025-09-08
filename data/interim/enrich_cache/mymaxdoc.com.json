@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "FHIR API",
+      "HL7 integration",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Data streaming via Pub/Sub",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud infrastructure including S3 and RDS.",
+        "url": "https://mymaxdoc.com/docs/aws_infrastructure"
+      },
+      {
+        "claim": "Implements FHIR API for patient data exchange.",
+        "url": "https://mymaxdoc.com/developer/fhir_api"
+      },
+      {
+        "claim": "Supports X12 EDI for claims processing.",
+        "url": "https://mymaxdoc.com/security/edi_support"
+      },
+      {
+        "claim": "Complies with HIPAA regulations in software design.",
+        "url": "https://mymaxdoc.com/security/hipaa_compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MaxHealth utilizes X12 EDI transactions for eligibility, claims, and remittance.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "API automation for healthcare data exchange"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "EDI integration"
+    ],
+    "evidence": [
+      {
+        "claim": "CedarStar Home Care is compliant with HIPAA, ensuring the protection of health information.",
+        "url": "https://cedarstarhomecare.com/privacy-policy/"
+      },
+      {
+        "claim": "CedarStar implements FHIR standards for data interchange in healthcare services.",
+        "url": "https://cedarstarhomecare.com/health-services/"
+      },
+      {
+        "claim": "The company utilizes EHRs to manage patient records efficiently.",
+        "url": "https://cedarstarhomecare.com/faq/"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or related API use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

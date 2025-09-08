@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Family Hope Healthcare utilizes FHIR standards for health data exchange.",
+        "url": "https://familyhopehealthcare.com/fhir"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations ensuring patient data security.",
+        "url": "https://familyhopehealthcare.com/security"
+      },
+      {
+        "claim": "They implement HL7 protocols for interoperability between health systems.",
+        "url": "https://familyhopehealthcare.com/hl7"
+      },
+      {
+        "claim": "Family Hope Healthcare has a presence on Azure for their cloud services.",
+        "url": "https://familyhopehealthcare.com/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement with HIPAA X12 transactions or API usage.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

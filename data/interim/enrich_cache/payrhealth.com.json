@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 transaction sets",
+      "FHIR standard",
+      "HL7 messaging"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook event handling",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "PayrHealth leverages AWS cloud services for scalable infrastructure.",
+        "url": "https://payrhealth.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in their healthcare data solutions.",
+        "url": "https://payrhealth.com/security"
+      },
+      {
+        "claim": "Integration with EHRs using HL7 and FHIR standards is supported.",
+        "url": "https://payrhealth.com/integrations"
+      },
+      {
+        "claim": "They utilize X12 transaction sets for claims processing and billing.",
+        "url": "https://payrhealth.com/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "PayrHealth focuses on X12 transactions for healthcare, fitting API-first use cases.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claim submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

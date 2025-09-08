@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transactions",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "API Gateway for microservices integration",
+      "Message Queuing for healthcare data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "LVM Systems utilizes AWS services for their infrastructure including S3 and Lambda.",
+        "url": "https://lvmsystems.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations, indicating the use of secure data handling methods.",
+        "url": "https://lvmsystems.com/security"
+      },
+      {
+        "claim": "They provide an API that supports FHIR standards for healthcare data exchange.",
+        "url": "https://lvmsystems.com/api/fhir"
+      },
+      {
+        "claim": "LVM Systems has documentation on X12 transaction sets indicating their involvement with EDI for healthcare.",
+        "url": "https://lvmsystems.com/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "LVM Systems demonstrates use of X12 transactions and HIPAA compliance for healthcare integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry/Response",
+      "276/277 Claim Status Inquiry/Response",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

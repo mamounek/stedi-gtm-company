@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "MeCare utilizes AWS services for scalable solutions including Lambda and S3.",
+        "url": "https://mecare.org/docs/cloud-services"
+      },
+      {
+        "claim": "The platform is HIPAA compliant ensuring secure patient data handling.",
+        "url": "https://mecare.org/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems supports HL7 and FHIR standards.",
+        "url": "https://mecare.org/api/integration"
+      },
+      {
+        "claim": "MeCare uses AWS RDS for managing relational databases securely.",
+        "url": "https://mecare.org/docs/database-management"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evident focus on X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

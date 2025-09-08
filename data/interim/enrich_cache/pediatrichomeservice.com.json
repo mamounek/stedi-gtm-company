@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "HL7 Standards"
+    ],
+    "evidence": [
+      {
+        "claim": "Pediatric Home Service utilizes AWS for cloud infrastructure.",
+        "url": "https://pediatrichomeservice.com/careers/technology"
+      },
+      {
+        "claim": "The company supports FHIR for health data exchange.",
+        "url": "https://pediatrichomeservice.com/technology/standards"
+      },
+      {
+        "claim": "Partnerships with EHRs are discussed on the services page.",
+        "url": "https://pediatrichomeservice.com/services/ehr-integration"
+      },
+      {
+        "claim": "Compliant with HIPAA regulations, focusing on secure patient data exchange.",
+        "url": "https://pediatrichomeservice.com/privacy/security"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for claims and eligibility, aligns with API-first healthcare integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "837 claims submission",
+      "271 eligibility verification",
+      "835 remittance advice",
+      "276 claim status request"
+    ]
+  }
+}

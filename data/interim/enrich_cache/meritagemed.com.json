@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Meritage Medical Network utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.meritagemed.com/developer-cloud"
+      },
+      {
+        "claim": "The company is HIPAA compliant and follows strict data handling practices.",
+        "url": "https://www.meritagemed.com/security"
+      },
+      {
+        "claim": "They support EDI X12 transaction sets for healthcare billing processes.",
+        "url": "https://www.meritagemed.com/docs/x12-edi"
+      },
+      {
+        "claim": "Meritage incorporates FHIR standards for interoperability in their health data exchange.",
+        "url": "https://www.meritagemed.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Their cloud infrastructure also integrates with Azure for data processing needs.",
+        "url": "https://www.meritagemed.com/cloud-services"
+      },
+      {
+        "claim": "They leverage HL7 standards in their systems for electronic health information exchange.",
+        "url": "https://www.meritagemed.com/docs/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.92
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company processes X12 transactions and values API automation for healthcare data.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim status inquiry (276/277)",
+      "Claims submission (837)",
+      "Payment remittance (835)"
+    ]
+  }
+}

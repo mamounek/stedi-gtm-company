@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Prana Thoracic utilizes AWS for cloud services.",
+        "url": "https://pranathoracic.com/developer"
+      },
+      {
+        "claim": "The company's solutions are compliant with HIPAA regulations.",
+        "url": "https://pranathoracic.com/security"
+      },
+      {
+        "claim": "They incorporate FHIR standards in their health tech solutions.",
+        "url": "https://pranathoracic.com/docs"
+      },
+      {
+        "claim": "Mention of RESTful APIs for integration with EHRs.",
+        "url": "https://pranathoracic.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or clearinghouse use cases on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Health Revolution utilizes HIPAA compliance in its data handling practices.",
+        "url": "https://healthrevolution.org/security"
+      },
+      {
+        "claim": "The organization is involved in the implementation of FHIR for health data exchange.",
+        "url": "https://healthrevolution.org/docs/fhir"
+      },
+      {
+        "claim": "They mention various interoperability standards including HL7 on their website.",
+        "url": "https://healthrevolution.org/docs/interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 or engaging in clearinghouse services found on site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

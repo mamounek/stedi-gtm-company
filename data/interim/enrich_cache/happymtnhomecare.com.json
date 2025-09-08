@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance framework"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for health data handling.",
+        "url": "https://happymtnhomecare.com/privacy-policy/"
+      },
+      {
+        "claim": "Happy Mountain Home Care places great emphasis on data security and HIPAA compliance in their operations.",
+        "url": "https://happymtnhomecare.com/about-us/"
+      },
+      {
+        "claim": "The company implements health technology frameworks to ensure patient data protection.",
+        "url": "https://happymtnhomecare.com/services/"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using EDI or X12 transactions found on the website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Rocket City Mobile Health utilizes health-related APIs compliant with HIPAA regulations.",
+        "url": "https://rocketcitymobileiv.com/security"
+      },
+      {
+        "claim": "The company integrates with electronic health records (EHRs) but does not specify which platforms.",
+        "url": "https://rocketcitymobileiv.com/about"
+      },
+      {
+        "claim": "No specific mentions of cloud services such as AWS or Azure in the development context found on their site.",
+        "url": "https://rocketcitymobileiv.com/developer"
+      },
+      {
+        "claim": "The team emphasizes compliance with healthcare standards but lacks details on technical implementation.",
+        "url": "https://rocketcitymobileiv.com/careers"
+      },
+      {
+        "claim": "General discussions of integration middleware appear in job postings but lack specific details.",
+        "url": "https://rocketcitymobileiv.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of EDI X12 or claims processing capabilities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

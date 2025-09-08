@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "iFoundMyDoctor is HIPAA compliant, ensuring data security for patient information.",
+        "url": "https://ifoundmydoctor.com/about"
+      },
+      {
+        "claim": "The platform integrates with various EDI transactions, particularly focusing on X12 standards for healthcare.",
+        "url": "https://ifoundmydoctor.com/services"
+      },
+      {
+        "claim": "Security measures in place follow HIPAA guidelines to protect sensitive health data.",
+        "url": "https://ifoundmydoctor.com/terms-of-service"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transaction capabilities or EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

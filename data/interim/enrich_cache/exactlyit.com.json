@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API"
+    ],
+    "evidence": [
+      {
+        "claim": "ExactlyIT provides services compliant with HIPAA regulations.",
+        "url": "https://exactlyit.com/security"
+      },
+      {
+        "claim": "Their technology stack includes AWS and Azure for cloud services.",
+        "url": "https://exactlyit.com/docs"
+      },
+      {
+        "claim": "The company supports healthcare integration using FHIR and HL7 standards.",
+        "url": "https://exactlyit.com/api"
+      },
+      {
+        "claim": "ExactlyIT utilizes APIs for data integration and processing tasks.",
+        "url": "https://exactlyit.com/careers"
+      },
+      {
+        "claim": "Their platform employs REST and SOAP APIs for service integration.",
+        "url": "https://exactlyit.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

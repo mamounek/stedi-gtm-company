@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform (GCP)",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Batch processing using AWS Lambda",
+      "Data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Quorum utilizes AWS Lambda for serverless computing needs.",
+        "url": "https://quorumconsulting.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company adheres to FHIR standards for healthcare data interactions.",
+        "url": "https://quorumconsulting.com/healthcare/fhir"
+      },
+      {
+        "claim": "Quorum offers integration with HL7 protocols for health information exchange.",
+        "url": "https://quorumconsulting.com/docs/hl7-integration"
+      },
+      {
+        "claim": "They use Amazon S3 for data storage and management in cloud solutions.",
+        "url": "https://quorumconsulting.com/cloud/aws-s3-usage"
+      },
+      {
+        "claim": "Google Cloud Platform is used for data analytics and processing.",
+        "url": "https://quorumconsulting.com/docs/gcp-data-analytics"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or relevant healthcare data exchange use cases found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

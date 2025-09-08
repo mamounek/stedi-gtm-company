@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Integration with EHRs",
+      "Data interchange via X12"
+    ],
+    "evidence": [
+      {
+        "claim": "PBI Research Services utilizes AWS for cloud infrastructure.",
+        "url": "https://pbinfo.com/cloud-solutions"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of patient data.",
+        "url": "https://pbinfo.com/security"
+      },
+      {
+        "claim": "PBI Research Services integrates with various EHR systems for data exchange.",
+        "url": "https://pbinfo.com/services#EHR"
+      },
+      {
+        "claim": "Usage of HL7 standards for health data interoperability is mentioned on their platform documentation.",
+        "url": "https://pbinfo.com/docs/health-data-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Active involvement in health data exchange and X12 integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Integration with EHRs",
+      "Data interchange via X12",
+      "Claim processing",
+      "Remittance processing",
+      "Eligibility verification"
+    ]
+  }
+}

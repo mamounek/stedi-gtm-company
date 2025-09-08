@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Webhooks for real-time data delivery"
+    ],
+    "evidence": [
+      {
+        "claim": "Feedtrail utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://feedtrail.com/about/"
+      },
+      {
+        "claim": "The platform integrates with HL7 and FHIR standards for healthcare interoperability.",
+        "url": "https://feedtrail.com/healthcare-integration/"
+      },
+      {
+        "claim": "Twilio API is used for SMS communications within the platform.",
+        "url": "https://feedtrail.com/features/video-texting/"
+      },
+      {
+        "claim": "RESTful APIs facilitate integration with electronic health records.",
+        "url": "https://feedtrail.com/docs/integration-guide/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Feedtrail focuses on patient experience and feedback, not on X12 transaction processing.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

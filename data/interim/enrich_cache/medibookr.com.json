@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data synchronization"
+    ],
+    "evidence": [
+      {
+        "claim": "MediBookr uses AWS services for scalability and storage.",
+        "url": "https://medibookr.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data interoperability.",
+        "url": "https://medibookr.com/healthdata/fhir-support"
+      },
+      {
+        "claim": "MediBookr implements HL7 protocols for healthcare data exchange.",
+        "url": "https://medibookr.com/healthdata/hl7-compliance"
+      },
+      {
+        "claim": "There are mentions of AWS Lambda for serverless integrations within their API documentation.",
+        "url": "https://medibookr.com/docs/api-serverless"
+      },
+      {
+        "claim": "Integration patterns highlighted include API for EHRs and synchronization with external clearinghouses.",
+        "url": "https://medibookr.com/integration-patterns/ehr-access"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse services found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

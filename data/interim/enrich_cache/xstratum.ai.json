@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "xStratum.ai uses AWS for its cloud infrastructure.",
+        "url": "https://xstratum.ai/docs/infrastructure"
+      },
+      {
+        "claim": "The company mentions FHIR APIs in their developer documentation.",
+        "url": "https://xstratum.ai/developer/health-tech"
+      },
+      {
+        "claim": "xStratum.ai is compliant with HIPAA standards for health data management.",
+        "url": "https://xstratum.ai/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated by xStratum.ai's APIs.",
+        "url": "https://xstratum.ai/docs/integration"
+      },
+      {
+        "claim": "They utilize Snowflake for data management and analytics.",
+        "url": "https://xstratum.ai/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 transaction handling or clearinghouse functionality found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

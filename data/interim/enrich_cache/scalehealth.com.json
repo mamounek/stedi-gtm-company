@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "ScaleHealth utilizes cloud services like AWS for scalability and infrastructure reliability.",
+        "url": "https://scalehealth.com/support/docs/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring secure handling of health information.",
+        "url": "https://scalehealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with HL7 standards is mentioned in their documentation for data interoperability.",
+        "url": "https://scalehealth.com/docs/integration/hl7-standards"
+      },
+      {
+        "claim": "ScaleHealth supports FHIR API integrations for modern health data exchanges.",
+        "url": "https://scalehealth.com/docs/products/fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or clearinghouse activity found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

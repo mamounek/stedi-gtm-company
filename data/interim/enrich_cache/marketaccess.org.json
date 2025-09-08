@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The ACCESS Forum mentions utilizing X12 transactions in their operations.",
+        "url": "https://marketaccess.org/about/strategic-value"
+      },
+      {
+        "claim": "The organization requires understanding of HIPAA compliance for medical data handling.",
+        "url": "https://marketaccess.org/careers"
+      },
+      {
+        "claim": "The ACCESS Forum collaborates with EHR systems for market access solutions.",
+        "url": "https://marketaccess.org/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions or using APIs for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

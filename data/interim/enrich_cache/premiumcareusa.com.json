@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizing AWS for cloud infrastructure and data storage solutions.",
+        "url": "https://premiumcareusa.com/docs/cloud-services"
+      },
+      {
+        "claim": "Complying with HIPAA regulations for handling patient data securely.",
+        "url": "https://premiumcareusa.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Implementing X12 transaction sets for electronic data interchange in healthcare.",
+        "url": "https://premiumcareusa.com/developer/edi"
+      },
+      {
+        "claim": "Using FHIR standards for health data interoperability.",
+        "url": "https://premiumcareusa.com/docs/fhir"
+      },
+      {
+        "claim": "Adopting microservices architecture for scalable application deployment.",
+        "url": "https://premiumcareusa.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Premium Care USA utilizes X12 transactions and has a strong tech stack for API automation.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI for Claims Processing",
+      "Eligibility Verification using 270/271 transactions",
+      "Remittance Processing via 835 transactions",
+      "Integration with Payer and Provider systems through APIs"
+    ]
+  }
+}

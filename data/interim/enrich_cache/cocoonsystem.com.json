@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cocoon System integrates with AWS for cloud services.",
+        "url": "https://cocoonsystem.com/cloud-integration"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for healthcare applications.",
+        "url": "https://cocoonsystem.com/healthcare-security"
+      },
+      {
+        "claim": "Cocoon System utilizes FHIR standards for healthcare data exchange.",
+        "url": "https://cocoonsystem.com/fhir-implementation"
+      },
+      {
+        "claim": "Their services include EDI transaction sets for healthcare.",
+        "url": "https://cocoonsystem.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

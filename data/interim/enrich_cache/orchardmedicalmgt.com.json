@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "FHIR",
+      "EHR Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Orchard Medical Management utilizes AWS for cloud services.",
+        "url": "https://orchardmedicalmgt.com/aws-integration-case-study"
+      },
+      {
+        "claim": "They are HIPAA compliant and follow specific health information security measures.",
+        "url": "https://orchardmedicalmgt.com/security-policy"
+      },
+      {
+        "claim": "Integration with EHR systems is supported, utilizing HL7 standards.",
+        "url": "https://orchardmedicalmgt.com/integration-features"
+      },
+      {
+        "claim": "Use of X12 transaction sets for billing processes identified.",
+        "url": "https://orchardmedicalmgt.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health tech using X12 and integration for claims processing and eligibility checks.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 transactions for claims",
+      "Eligibility and benefits verification",
+      "Remittance processing"
+    ]
+  }
+}

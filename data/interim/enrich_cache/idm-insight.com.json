@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI Transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Message queues"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless computing in their applications.",
+        "url": "https://idm-insight.com/docs/cloud-services"
+      },
+      {
+        "claim": "HIPAA compliance is noted in their data handling practices on the health insights provided.",
+        "url": "https://idm-insight.com/security/compliance"
+      },
+      {
+        "claim": "The platform supports X12 EDI transactions which are crucial for health data exchange.",
+        "url": "https://idm-insight.com/tech/x12"
+      },
+      {
+        "claim": "They provide integration patterns such as REST APIs for interoperability with other health systems.",
+        "url": "https://idm-insight.com/integrations/api"
+      },
+      {
+        "claim": "Use of Google Cloud Pub/Sub for managing real-time data streams.",
+        "url": "https://idm-insight.com/docs/cloud-services/pubsub"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transactions and healthcare integration patterns aligned with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions for claims processing",
+      "Real-time eligibility checks via API",
+      "Automated remittance processing through EDI",
+      "Integration with payers and providers using HL7 and FHIR"
+    ]
+  }
+}

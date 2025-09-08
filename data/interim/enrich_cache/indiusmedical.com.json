@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "middleware integration",
+      "API-led integration"
+    ],
+    "evidence": [
+      {
+        "claim": "INDIUS Medical Solutions complies with HIPAA regulations and utilizes secure data handling practices.",
+        "url": "https://indiusmedical.com/security"
+      },
+      {
+        "claim": "The company is involved in Electronic Data Interchange (EDI) transactions pertaining to healthcare.",
+        "url": "https://indiusmedical.com/docs/health-data"
+      },
+      {
+        "claim": "Utilizes modern health interoperability standards including FHIR and HL7.",
+        "url": "https://indiusmedical.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 and health tech aligns with API-first integration needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "Data integration with EHRs",
+      "Interoperability with health information exchanges"
+    ],
+    "evidence": [
+      {
+        "claim": "Elevate Health Technologies utilizes AWS for their cloud infrastructure.",
+        "url": "https://elevateht.com/docs/cloud"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to safeguard patient information.",
+        "url": "https://elevateht.com/security"
+      },
+      {
+        "claim": "Elevate Health integrates with EHR systems using FHIR standards.",
+        "url": "https://elevateht.com/integration"
+      },
+      {
+        "claim": "They support X12 transaction sets for electronic data interchange.",
+        "url": "https://elevateht.com/developer-guides"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and supports interoperability, indicating a need for API-first solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Claims Status Request (276/277)"
+    ]
+  }
+}

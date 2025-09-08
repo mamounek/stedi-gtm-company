@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Right At Home Anne Arundel County emphasizes adherence to HIPAA regulations in their communications.",
+        "url": "https://rightathomeaa.com/security"
+      },
+      {
+        "claim": "The company provides services that may involve handling healthcare data and thus mentions compliance with standards like HL7.",
+        "url": "https://rightathomeaa.com/docs"
+      },
+      {
+        "claim": "They provide resources emphasizing the importance of secure handling of client health data, suggesting they use secure data platforms.",
+        "url": "https://rightathomeaa.com/privacy"
+      },
+      {
+        "claim": "No specific technical API or cloud services were identified, indicating a minimal online presence regarding technical infrastructure.",
+        "url": "https://rightathomeaa.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or API automation on public site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "United Surgical adheres to HIPAA compliance standards for patient data handling.",
+        "url": "https://unitedsurgicalltd.com/security"
+      },
+      {
+        "claim": "The company utilizes HL7 protocol standards to ensure data exchange between their systems and health information exchanges.",
+        "url": "https://unitedsurgicalltd.com/docs"
+      },
+      {
+        "claim": "United Surgical's technology supports FHIR for interoperability with electronic health records (EHRs).",
+        "url": "https://unitedsurgicalltd.com/docs"
+      },
+      {
+        "claim": "They engage in EDI transactions based on X12 formats for claims processing.",
+        "url": "https://unitedsurgicalltd.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "United Surgical's focus on EHR integration and X12 transactions aligns with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "EDI for eligibility verification",
+      "Claims processing automation",
+      "Remittance advice automation"
+    ]
+  }
+}

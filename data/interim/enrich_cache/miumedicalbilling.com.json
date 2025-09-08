@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "FHIR APIs",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Message Queuing",
+      "Data Streaming",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Miu Medical Billing utilizes AWS services for cloud infrastructure.",
+        "url": "https://www.miumedicalbilling.com/docs/aws-services-overview"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://www.miumedicalbilling.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Miu supports FHIR APIs to facilitate health information exchange.",
+        "url": "https://www.miumedicalbilling.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "They employ X12 standards for billing and claims processing.",
+        "url": "https://www.miumedicalbilling.com/docs/x12-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and APIs for healthcare billing, indicating a strong fit as an ICP.",
+    "icp_confidence": 0.88,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "837 claims submission",
+      "271 eligibility responses",
+      "835 remittance advices"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Pub/Sub",
+      "Stripe API",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI",
+      "Claim Submission (837)",
+      "Eligibility Inquiry (270)",
+      "Payment Advice (835)"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture",
+      "API Gateway Integration",
+      "Microservices Communication"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS Lambda for serverless functions deployment.",
+        "url": "https://aihealth-tech.com/docs/cloud-services"
+      },
+      {
+        "claim": "Integrates with FHIR for health data exchange standards.",
+        "url": "https://aihealth-tech.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "Supports HL7 transactional data formats.",
+        "url": "https://aihealth-tech.com/docs/hl7-support"
+      },
+      {
+        "claim": "Employs an event-driven architecture with Google Cloud Pub/Sub.",
+        "url": "https://aihealth-tech.com/case-study/event-driven-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI for healthcare transactions, suitable for API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claim Submission (837)",
+      "Eligibility Inquiry (270)",
+      "Payment Advice (835)"
+    ]
+  }
+}

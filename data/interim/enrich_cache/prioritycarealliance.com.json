@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction set 837",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs for data integration",
+      "Event-driven architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS for their cloud infrastructure to ensure scalability and reliability.",
+        "url": "https://prioritycarealliance.com/about-us"
+      },
+      {
+        "claim": "Priority Care Alliance is HIPAA compliant, indicating the handling of protected health information (PHI).",
+        "url": "https://prioritycarealliance.com/security"
+      },
+      {
+        "claim": "The system supports X12 EDI transactions, particularly for billing and claims processing.",
+        "url": "https://prioritycarealliance.com/edi"
+      },
+      {
+        "claim": "Interoperability features include HL7 FHIR standards to facilitate data exchange between healthcare systems.",
+        "url": "https://prioritycarealliance.com/fhir"
+      },
+      {
+        "claim": "They employ REST APIs for seamless integration with electronic health records (EHR) systems.",
+        "url": "https://prioritycarealliance.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence found suggesting use of X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

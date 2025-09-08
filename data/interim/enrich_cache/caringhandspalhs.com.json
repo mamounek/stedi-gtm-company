@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Caring Hands adheres to HIPAA compliance for handling patient data.",
+        "url": "https://caringhandspalhs.com/services"
+      },
+      {
+        "claim": "The company integrates healthcare standards such as EDI and FHIR as part of its operations.",
+        "url": "https://caringhandspalhs.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found to suggest they send/receive X12 transactions or use API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

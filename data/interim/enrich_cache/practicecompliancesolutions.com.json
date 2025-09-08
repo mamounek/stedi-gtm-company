@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets (specifically 270/271 for eligibility verification)"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs for patient data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Practice Compliance Solutions utilizes AWS cloud services for their infrastructure.",
+        "url": "https://practicecompliancesolutions.com/technology-and-innovation/"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in all operations related to health data.",
+        "url": "https://practicecompliancesolutions.com/healthcare-compliance/"
+      },
+      {
+        "claim": "The company supports X12 EDI transaction sets for healthcare operations.",
+        "url": "https://practicecompliancesolutions.com/edi-services/"
+      },
+      {
+        "claim": "Integration patterns include connecting to EHRs for seamless data flow in healthcare operations.",
+        "url": "https://practicecompliancesolutions.com/integration-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and X12 transactions indicates fit with our ICP.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "837 claim submissions",
+      "835 remittance advice",
+      "API integration for claims processing"
+    ]
+  }
+}

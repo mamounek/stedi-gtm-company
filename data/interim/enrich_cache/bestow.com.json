@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS CloudFront"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Asynchronous messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Bestow utilizes AWS services for scalable infrastructure.",
+        "url": "https://bestow.com/docs/infrastructure"
+      },
+      {
+        "claim": "Bestow adheres to HIPAA regulations and implements FHIR standards for data exchange.",
+        "url": "https://bestow.com/security"
+      },
+      {
+        "claim": "The company mentions RESTful APIs for integrations.",
+        "url": "https://bestow.com/developer"
+      },
+      {
+        "claim": "Bestow employs data streaming and integration middleware for real-time processing.",
+        "url": "https://bestow.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 claims and eligibility transactions or clearinghouse use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud-based data synchronization"
+    ],
+    "evidence": [
+      {
+        "claim": "Cyclonex Solutions emphasizes compliance with HIPAA regulations in their FAQ and service descriptions.",
+        "url": "https://www.cxbilling.com/faq"
+      },
+      {
+        "claim": "References to X12 transaction sets are found in Cyclonex documentation regarding billing processes.",
+        "url": "https://www.cxbilling.com/docs/billing-process"
+      },
+      {
+        "claim": "The company mentions healthcare data handling which aligns with EDI standards.",
+        "url": "https://www.cxbilling.com/healthcare-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange with X12 transactions, confirming alignment with ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "API-driven interoperability",
+      "Healthcare claims and remittance management",
+      "Eligibility verification via API"
+    ]
+  }
+}

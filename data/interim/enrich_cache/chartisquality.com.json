@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST API"
+    ],
+    "evidence": [
+      {
+        "claim": "Chartis Clinical Quality Solutions utilizes AWS for cloud infrastructure.",
+        "url": "https://chartisquality.com/about-us/tech-stack/"
+      },
+      {
+        "claim": "The company integrates with health data standards including FHIR and HL7 for interoperability.",
+        "url": "https://chartisquality.com/solutions/"
+      },
+      {
+        "claim": "Chartis focuses on leveraging X12 transaction sets in their health tech solutions.",
+        "url": "https://chartisquality.com/case-studies/"
+      },
+      {
+        "claim": "The engineering team at Chartis has expertise in building scalable cloud-based solutions.",
+        "url": "https://chartisquality.com/careers/engineering/"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare quality solutions and use of X12 standards indicates relevant use cases.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 claims processing (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice processing (835)",
+      "Service authorization requests (278)"
+    ]
+  }
+}

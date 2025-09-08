@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "COSENTUS utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.cosentus.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company reports HIPAA compliance on its security page.",
+        "url": "https://www.cosentus.com/security"
+      },
+      {
+        "claim": "Integration with HL7 and FHIR standards is mentioned in their developer documentation.",
+        "url": "https://www.cosentus.com/docs/health-integration"
+      },
+      {
+        "claim": "Available APIs outlined in the developer section include RESTful endpoints for health data.",
+        "url": "https://www.cosentus.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "COSENTUS provides integration solutions aligning with X12 transactions for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "276/277 claim status inquiries",
+      "837 claim submissions",
+      "835 remittance advice processing"
+    ]
+  }
+}

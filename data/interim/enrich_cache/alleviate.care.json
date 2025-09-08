@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhooks for real-time data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Alleviate.care uses AWS services for its cloud infrastructure including Lambda and S3.",
+        "url": "https://alleviate.care/docs/cloud-services"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring the secure handling of protected health information.",
+        "url": "https://alleviate.care/security"
+      },
+      {
+        "claim": "Alleviate.care supports OAuth2 for secure API authentication.",
+        "url": "https://alleviate.care/developer/api-authentication"
+      },
+      {
+        "claim": "The application utilizes FHIR standards for health data interoperability.",
+        "url": "https://alleviate.care/developer/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Alleviate.care supports X12 transactions and values API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 claims submission",
+      "835 remittance processing",
+      "270/271 eligibility checks"
+    ]
+  }
+}

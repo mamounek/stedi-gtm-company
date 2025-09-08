@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS API Gateway",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Message queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Orb Health utilizes AWS for its cloud infrastructure, enhancing scalability and reliability.",
+        "url": "https://orbhealth.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR standards for healthcare data interoperability.",
+        "url": "https://orbhealth.com/developer/#fhir"
+      },
+      {
+        "claim": "Use of HL7 protocols for secure health data exchanges.",
+        "url": "https://orbhealth.com/security#hl7"
+      },
+      {
+        "claim": "Implementation of X12 EDI for billing and insurance transactions within their health tech solutions.",
+        "url": "https://orbhealth.com/docs/edi"
+      },
+      {
+        "claim": "The integration patterns include REST APIs and Webhooks, facilitating easy data sharing between systems.",
+        "url": "https://orbhealth.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Involved with X12 and EDI transactions, indicating strong potential for API-first integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claim submissions (837)",
+      "Claim status inquiries (276/277)",
+      "Eligibility checks (270/271)"
+    ]
+  }
+}

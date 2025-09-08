@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliant data transactions",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "API Integration with EHRs",
+      "Data Streaming with AWS Kinesis",
+      "Event-Driven Architecture with AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Clear Arch Health utilizes AWS services for hosting and data processing.",
+        "url": "https://cleararchhealth.com/about-us/"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for all its health-tech solutions.",
+        "url": "https://cleararchhealth.com/security/"
+      },
+      {
+        "claim": "Integration with EHRs and adherence to FHIR standards is mentioned in their deployment guides.",
+        "url": "https://cleararchhealth.com/developer/"
+      },
+      {
+        "claim": "Clear Arch Health supports various X12 transaction sets for healthcare data exchanges.",
+        "url": "https://cleararchhealth.com/solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Clear Arch Health supports X12 EDI transactions, indicating strong alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Integration with payers and providers"
+    ]
+  }
+}

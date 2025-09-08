@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Caire uses AWS for its cloud infrastructure.",
+        "url": "https://caire.health/docs/aws-cloud-integration"
+      },
+      {
+        "claim": "Caire supports FHIR standards for health data exchange.",
+        "url": "https://caire.health/docs/fhir-support"
+      },
+      {
+        "claim": "Caire is compliant with HIPAA regulations for data security.",
+        "url": "https://caire.health/security/hipaa-compliance"
+      },
+      {
+        "claim": "Caire utilizes EDI for transactions within the healthcare ecosystem.",
+        "url": "https://caire.health/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

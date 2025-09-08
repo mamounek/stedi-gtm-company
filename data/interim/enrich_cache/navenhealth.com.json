@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "Synchronous API calls",
+      "Asynchronous messaging with RabbitMQ"
+    ],
+    "evidence": [
+      {
+        "claim": "Naven Health leverages AWS for cloud infrastructure and services.",
+        "url": "https://navenhealth.com/careers/"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data exchange.",
+        "url": "https://navenhealth.com/developer/docs/"
+      },
+      {
+        "claim": "HL7 integration is part of their data handling practices.",
+        "url": "https://navenhealth.com/security/"
+      },
+      {
+        "claim": "Use of X12 EDI transaction sets for claims processing.",
+        "url": "https://navenhealth.com/integration/"
+      },
+      {
+        "claim": "RabbitMQ is used for message queuing in their application architecture.",
+        "url": "https://navenhealth.com/infrastructure/"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Naven Health engages in X12 EDI transactions and offers value in API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270 Eligibility Check",
+      "271 Eligibility Response",
+      "276 Claim Status Inquiry",
+      "277 Claim Status Response",
+      "278 Authorization Request/Response",
+      "837 Claim Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

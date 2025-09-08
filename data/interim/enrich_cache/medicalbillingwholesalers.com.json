@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Medical Billing Wholesalers utilizes AWS cloud services for its infrastructure.",
+        "url": "https://medicalbillingwholesalers.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to ensure secure handling of medical billing data.",
+        "url": "https://medicalbillingwholesalers.com/security"
+      },
+      {
+        "claim": "Medical Billing Wholesalers supports X12 standards for electronic data interchange.",
+        "url": "https://medicalbillingwholesalers.com/integrations"
+      },
+      {
+        "claim": "The integration of FHIR APIs is part of their health data management solutions.",
+        "url": "https://medicalbillingwholesalers.com/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare billing suggests usage of X12 transactions for claims and remittance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice",
+      "X12 270/271 for eligibility verification",
+      "clearinghouse services for claims processing"
+    ]
+  }
+}

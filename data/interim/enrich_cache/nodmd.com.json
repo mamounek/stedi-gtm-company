@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 270",
+      "X12 271",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "Cloud Functions"
+    ],
+    "evidence": [
+      {
+        "claim": "nodMD utilizes AWS for cloud infrastructure, providing scalable storage and database solutions.",
+        "url": "https://nodmd.com/docs/api-overview"
+      },
+      {
+        "claim": "The platform supports FHIR standards for healthcare data interoperability.",
+        "url": "https://nodmd.com/docs/healthcare-standards"
+      },
+      {
+        "claim": "nodMD integrates with EHR systems using X12 transaction sets for health claims processing.",
+        "url": "https://nodmd.com/case-studies/ehr-integration"
+      },
+      {
+        "claim": "nodMD employs REST APIs for its integration patterns, ensuring compatibility across different healthcare systems.",
+        "url": "https://nodmd.com/docs/integration-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "nodMD's tech stack supports X12 transactions and they cater to healthcare providers.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 eligibility requests",
+      "X12 835 remittance advice",
+      "API integrations with EHR systems"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3",
+      "Azure Kubernetes Service"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI 837 transaction set",
+      "FHIR API for health data exchange"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data access",
+      "Message queuing with AWS SQS"
+    ],
+    "evidence": [
+      {
+        "claim": "ClaimDeck uses AWS Lambda for serverless computing needs.",
+        "url": "https://claim-deck.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for health data management.",
+        "url": "https://claim-deck.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "ClaimDeck integrates with X12 EDI for healthcare transaction processing.",
+        "url": "https://claim-deck.com/docs/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI transactions for health data exchange, aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI 837 transaction set",
+      "Claims processing",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "Data integration via API management",
+      "Event-driven architecture with AWS Lambda"
+    ],
+    "evidence": [
+      {
+        "claim": "Entrada leverages AWS infrastructure for data management and application deployment.",
+        "url": "https://thinkentrada.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company employs FHIR standards for healthcare data exchange.",
+        "url": "https://thinkentrada.com/healthcare-standards"
+      },
+      {
+        "claim": "Entrada integrates with EHR systems to enhance patient experiences and streamline workflows.",
+        "url": "https://thinkentrada.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of targeted X12 use cases or API automation in healthcare exchanges.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

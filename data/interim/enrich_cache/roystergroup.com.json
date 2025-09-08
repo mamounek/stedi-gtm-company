@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Royster Group adheres to HIPAA compliance standards in its health services.",
+        "url": "https://roystergroup.com/healthcare-services/"
+      },
+      {
+        "claim": "The company uses HL7 standards for health information exchange.",
+        "url": "https://roystergroup.com/health-information-exchange/"
+      },
+      {
+        "claim": "The Royster Group employs FHIR protocols for data interoperability in healthcare.",
+        "url": "https://roystergroup.com/fhir-implementation/"
+      },
+      {
+        "claim": "They provide EDI services which include handling X12 transaction sets for healthcare organizations.",
+        "url": "https://roystergroup.com/edi-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse functionality found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

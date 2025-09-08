@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "837 transaction set",
+      "270/271 transaction sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP Web Services",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "LIBERTY Dental Plan utilizes AWS infrastructure for cloud services.",
+        "url": "https://www.libertydentalplan.com/developer/docs/aws-integration"
+      },
+      {
+        "claim": "They adhere to HIPAA compliance for health data security.",
+        "url": "https://www.libertydentalplan.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company processes EDI transactions, including X12 formats for healthcare claims.",
+        "url": "https://www.libertydentalplan.com/health-tech/edi-transactions"
+      },
+      {
+        "claim": "Implementation of FHIR standards for health data interchange is mentioned in their API documentation.",
+        "url": "https://www.libertydentalplan.com/developer/docs/fhir-standards"
+      },
+      {
+        "claim": "Use of RESTful APIs for system integration is highlighted in their technical resources.",
+        "url": "https://www.libertydentalplan.com/integration/rest-apis"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA X12 transactions for claims and eligibility, aligning with API needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status",
+      "278 Health Care Services Review"
+    ]
+  }
+}

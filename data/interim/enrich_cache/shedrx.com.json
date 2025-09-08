@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Google Cloud Run",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "ShedRx utilizes AWS infrastructure for scalable application deployment.",
+        "url": "https://shedrx.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant and handles sensitive health data securely.",
+        "url": "https://shedrx.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "ShedRx integrates with various health information systems using HL7 and FHIR standards.",
+        "url": "https://shedrx.com/docs/integration/health-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 or clearinghouse functions on public pages.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

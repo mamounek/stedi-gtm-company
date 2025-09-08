@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Storage",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "GenZ Technologies uses AWS for cloud infrastructure and services.",
+        "url": "https://genailia.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for health data exchange.",
+        "url": "https://genailia.com/healthtech/fhir-hl7-support"
+      },
+      {
+        "claim": "GenZ Technologies employs RESTful APIs for integrating with various health systems.",
+        "url": "https://genailia.com/developer/restful-api-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of focus on X12 and healthcare data exchange use cases found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

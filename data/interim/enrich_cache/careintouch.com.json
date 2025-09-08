@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant systems",
+      "FHIR API for patient data integration",
+      "X12 transaction sets utilized for EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for service integration",
+      "Event-driven architecture using AWS EventBridge"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS services for cloud infrastructure.",
+        "url": "https://careintouch.com/about"
+      },
+      {
+        "claim": "Complies with HIPAA regulations for health data handling.",
+        "url": "https://careintouch.com/security"
+      },
+      {
+        "claim": "Implements FHIR standards for health data exchange.",
+        "url": "https://careintouch.com/developer"
+      },
+      {
+        "claim": "Supports X12 transaction sets for EDI operations.",
+        "url": "https://careintouch.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transaction sets and APIs for healthcare data integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

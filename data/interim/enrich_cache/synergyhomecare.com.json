@@ -1,0 +1,25 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for system integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for handling patient data.",
+        "url": "https://www.synergyhomecare.com/faq/"
+      }
+    ],
+    "tech_stack_confidence": 0.29
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction usage or API automation in healthcare",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

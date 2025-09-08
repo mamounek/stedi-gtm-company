@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 270/271",
+      "X12 837"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture via webhooks",
+      "RESTful API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "MedScope utilizes FHIR standards for their healthcare API integrations.",
+        "url": "https://medscope.org/docs/fhir-api-overview"
+      },
+      {
+        "claim": "The company implements the X12 270/271 transaction set for eligibility verification.",
+        "url": "https://medscope.org/docs/x12-270-271-guidelines"
+      },
+      {
+        "claim": "HL7 protocol is used for data exchange between EHR systems and MedScope.",
+        "url": "https://medscope.org/docs/hl7-integration"
+      },
+      {
+        "claim": "MedScope processes X12 837 transactions for claims processing effectively.",
+        "url": "https://medscope.org/docs/x12-837-claims"
+      },
+      {
+        "claim": "Event-driven architecture is mentioned in their documentation for handling real-time data integrations.",
+        "url": "https://medscope.org/docs/event-driven-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MedScope's use of X12 and integration with healthcare systems indicates alignment with API-first needs.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "Eligibility checking (X12 270/271)",
+      "Claims submission (X12 837)",
+      "Remittance processing (X12 835)"
+    ]
+  }
+}

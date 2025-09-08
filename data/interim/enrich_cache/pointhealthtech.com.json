@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Amazon API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "PointHealthTech utilizes AWS services for cloud infrastructure and serverless functions.",
+        "url": "https://pointhealthtech.com/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR standards for healthcare data exchange.",
+        "url": "https://pointhealthtech.com/fhir-implementation"
+      },
+      {
+        "claim": "Integration of X12 and HL7 protocols for health data interoperability.",
+        "url": "https://pointhealthtech.com/compliance"
+      },
+      {
+        "claim": "Uses AWS RDS for relational database management.",
+        "url": "https://pointhealthtech.com/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 EDI and API integration suggests alignment with ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility checks",
+      "X12 837 for claims submission",
+      "X12 835 for remittance processing",
+      "clearinghouse functionalities",
+      "integration with healthcare payers/providers"
+    ]
+  }
+}

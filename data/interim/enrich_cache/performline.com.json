@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "Data streaming via AWS Kinesis",
+      "Data integration with various EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "PerformLine utilizes AWS for its cloud infrastructure solutions.",
+        "url": "https://performline.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations ensuring health data privacy.",
+        "url": "https://performline.com/security"
+      },
+      {
+        "claim": "Integration capabilities includes support for HL7 FHIR standards.",
+        "url": "https://performline.com/developer/docs/integrations"
+      },
+      {
+        "claim": "PerformLine's data processing architecture involves AWS Kinesis for real-time data streaming.",
+        "url": "https://performline.com/technology"
+      },
+      {
+        "claim": "The platform integrates with EHR systems thus compliant with health standards.",
+        "url": "https://performline.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or EDI services found on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

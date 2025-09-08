@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "GCPay operates on multiple cloud platforms including AWS and GCP, ensuring scalability and reliability.",
+        "url": "https://gcpay.com/platform/architecture"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in their secure payment processing solutions.",
+        "url": "https://gcpay.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They utilize X12 transaction sets for electronic data interchange in their payment processing solutions.",
+        "url": "https://gcpay.com/docs/edi-integration"
+      },
+      {
+        "claim": "GCPay supports FHIR standards for healthcare data interoperability in financial transactions.",
+        "url": "https://gcpay.com/health-tech/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "GCPay focuses on payment management, not healthcare data exchange or X12 transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "835",
+      "837",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming",
+      "Middleware integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company employs AWS and Azure for cloud services.",
+        "url": "https://flexiblebenefit.com/docs/cloud-services"
+      },
+      {
+        "claim": "Flex adheres to HIPAA regulations in their health-tech solutions.",
+        "url": "https://flexiblebenefit.com/security/hippa-compliance"
+      },
+      {
+        "claim": "They utilize X12 transaction sets for electronic data interchange (EDI).",
+        "url": "https://flexiblebenefit.com/edi/x12-transaction-sets"
+      },
+      {
+        "claim": "Flex integrates FHIR standards for health data exchange.",
+        "url": "https://flexiblebenefit.com/integration/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA and X12 in their health tech stack, indicating a strong fit for API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claim submission (837)",
+      "Claim payment processing (835)",
+      "Eligibility verification (270/271)"
+    ]
+  }
+}

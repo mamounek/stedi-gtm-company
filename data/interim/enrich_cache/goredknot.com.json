@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR interfaces",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "Cloud storage integration with AWS S3",
+      "Real-time data streaming with Azure Event Hubs"
+    ],
+    "evidence": [
+      {
+        "claim": "RedKnot Care utilizes AWS for cloud services.",
+        "url": "https://goredknot.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for data protection.",
+        "url": "https://goredknot.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "RedKnot implements HL7 standards for healthcare data exchange.",
+        "url": "https://goredknot.com/health-tech/hl7-integration"
+      },
+      {
+        "claim": "They use FHIR to ensure interoperability with EHRs.",
+        "url": "https://goredknot.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "X12 EDI is part of their transaction processing framework.",
+        "url": "https://goredknot.com/docs/x12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "RedKnot Care focuses on HIPAA compliant X12 EDI transactions, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "837 health care claims",
+      "835 remittance advice",
+      "276/277 claim status requests",
+      "278 authorization requests"
+    ]
+  }
+}

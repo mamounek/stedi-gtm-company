@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "PostgreSQL",
+      "Kubernetes"
+    ],
+    "health_tech": [
+      "HIPAA compliant infrastructure",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "REST API for integration with EHRs",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "AutoRamp utilizes AWS cloud services for its platform infrastructure.",
+        "url": "https://autoramp.co/docs/cloud-services"
+      },
+      {
+        "claim": "The company has a HIPAA-compliant infrastructure for handling healthcare data.",
+        "url": "https://autoramp.co/security"
+      },
+      {
+        "claim": "AutoRamp offers a REST API designed for integration with Electronic Health Records (EHR) systems.",
+        "url": "https://autoramp.co/developer/api"
+      },
+      {
+        "claim": "They employ Kafka for real-time data streaming and processing.",
+        "url": "https://autoramp.co/docs/integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange.",
+        "url": "https://autoramp.co/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found supporting X12 or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

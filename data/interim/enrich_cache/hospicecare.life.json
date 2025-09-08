@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Life Hospice complies with HIPAA regulations for secure patient data handling.",
+        "url": "https://hospicecare.life/security"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for standard healthcare EDI communications.",
+        "url": "https://hospicecare.life/integration"
+      },
+      {
+        "claim": "Life Hospice implements FHIR for healthcare interoperability.",
+        "url": "https://hospicecare.life/docs/fhir"
+      },
+      {
+        "claim": "Cloud infrastructure is validated for HIPAA compliance.",
+        "url": "https://hospicecare.life/cloud-security"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Life Hospice's focus on X12 EDI aligns with API-first data exchange needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider enrollment"
+    ]
+  }
+}

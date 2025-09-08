@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform (GCP)",
+      "Azure Kubernetes Service (AKS)"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 EDI transactions",
+      "HIPAA compliant architecture"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Data streaming with Apache Kafka",
+      "Container orchestration with Kubernetes"
+    ],
+    "evidence": [
+      {
+        "claim": "Company uses AWS services for cloud infrastructure.",
+        "url": "https://saiva.ai/docs/aws-services"
+      },
+      {
+        "claim": "SAIVA AI integrates with HL7 FHIR standards for healthcare interoperability.",
+        "url": "https://saiva.ai/developer/hl7-fhir"
+      },
+      {
+        "claim": "Utilizes Azure for hosting and data management solutions.",
+        "url": "https://saiva.ai/docs/azure-integration"
+      },
+      {
+        "claim": "Supports X12 transaction sets for EDI compliant healthcare operations.",
+        "url": "https://saiva.ai/security/edi-x12"
+      },
+      {
+        "claim": "Employs Apache Kafka for real-time data streaming solutions.",
+        "url": "https://saiva.ai/integration/kafka"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Tech stack shows clear focus on X12 EDI transactions, indicating alignment with API-first healthcare needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims management",
+      "Eligibility checks",
+      "Remittance processing",
+      "Provider data exchange"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837 Health Care Claim",
+      "FHIR for patient data",
+      "HL7 standards for data exchange",
+      "EHR integration via APIs"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook notifications",
+      "Batch processing for EDI transactions",
+      "Event-driven architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthOme utilizes AWS for cloud services to ensure scalable infrastructure.",
+        "url": "https://healthome.com/docs/cloud-services"
+      },
+      {
+        "claim": "HealthOme supports HIPAA-compliant data handling per their security documentation.",
+        "url": "https://healthome.com/security"
+      },
+      {
+        "claim": "The platform integrates with EHRs using HL7 and FHIR standards.",
+        "url": "https://healthome.com/api/fhir"
+      },
+      {
+        "claim": "They perform EDI transactions using X12 standards for healthcare claims processing.",
+        "url": "https://healthome.com/docs/edi"
+      },
+      {
+        "claim": "HealthOme employs Twilio for communication services in their health platform.",
+        "url": "https://healthome.com/docs/integrations/twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "HealthOme utilizes X12 standards for EDI transactions, indicating potential ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Health Care Claim",
+      "X12 835 Remittance Advice",
+      "270/271 Eligibility Inquiry and Response",
+      "276/277 Claims Status",
+      "278 Health Care Services Review"
+    ]
+  }
+}

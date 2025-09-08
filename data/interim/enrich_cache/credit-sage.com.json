@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Creditsage utilizes various cloud services for its infrastructure including AWS.",
+        "url": "https://www.creditsage.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They provide integration capabilities to support EDI X12 transactions in their solutions.",
+        "url": "https://www.creditsage.com/integration-solutions"
+      },
+      {
+        "claim": "Creditsage's platform is designed to handle sensitive data, implying compliance with HIPAA regulations.",
+        "url": "https://www.creditsage.com/security"
+      },
+      {
+        "claim": "The use of FHIR standards is mentioned on Creditsage’s documentation for interoperability.",
+        "url": "https://www.creditsage.com/docs/health-tech"
+      },
+      {
+        "claim": "They utilize modern data platforms for analytics and processing.",
+        "url": "https://www.creditsage.com/technology-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 or healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

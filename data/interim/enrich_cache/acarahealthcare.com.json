@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Acara Healthcare utilizes AWS for cloud services.",
+        "url": "https://www.acarahealthcare.com/technology"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in their data management processes.",
+        "url": "https://www.acarahealthcare.com/security"
+      },
+      {
+        "claim": "Acara supports FHIR standards for healthcare data interchange.",
+        "url": "https://www.acarahealthcare.com/healthcare-solutions"
+      },
+      {
+        "claim": "They utilize X12 for EDI transactions with health insurance stakeholders.",
+        "url": "https://www.acarahealthcare.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Acara Healthcare is involved in EDI and X12 transactions, aligning well with APIs in healthcare.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "X12 transaction handling"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transactions",
+      "FHIR Standard",
+      "EHR Integration"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Medical Team is HIPAA compliant, ensuring the protection of patient information.",
+        "url": "https://www.medicalteam.com/hipaa-compliance/"
+      },
+      {
+        "claim": "The Medical Team utilizes X12 standards for electronic data interchange (EDI) transactions.",
+        "url": "https://www.medicalteam.com/edi-overview/"
+      },
+      {
+        "claim": "The Medical Team adheres to FHIR standards for health data exchange.",
+        "url": "https://www.medicalteam.com/health-data-exchange/"
+      },
+      {
+        "claim": "Integration with EHR systems is a key feature of The Medical Team's services.",
+        "url": "https://www.medicalteam.com/ehr-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of need for X12 transactions or API-based data exchange at their scale.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

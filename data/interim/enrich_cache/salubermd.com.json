@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook support for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "SaluberMD uses AWS services for scalable infrastructure.",
+        "url": "https://salubermd.com/docs/infrastructure"
+      },
+      {
+        "claim": "They integrate with HL7 and FHIR standards for healthcare data exchange.",
+        "url": "https://salubermd.com/docs/api"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for data handling.",
+        "url": "https://salubermd.com/security"
+      },
+      {
+        "claim": "They utilize X12 EDI standards for transactions with clearinghouses.",
+        "url": "https://salubermd.com/integration/edi"
+      },
+      {
+        "claim": "Real-time data integration is supported through webhooks in their APIs.",
+        "url": "https://salubermd.com/docs/api/webhooks"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "SaluberMD supports HIPAA X12 transactions, indicating alignment for API-first healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "REST API integration for claims submissions",
+      "Webhooks for real-time updates on eligibility and claims",
+      "Support for X12 EDI transactions for payer-provider communication"
+    ]
+  }
+}

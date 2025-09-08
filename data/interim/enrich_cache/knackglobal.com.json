@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhook integration",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Knack Global utilizes AWS services for cloud infrastructure including EC2 and RDS.",
+        "url": "https://knackglobal.com/cloud-technology/"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance for health tech solutions.",
+        "url": "https://knackglobal.com/security/hipaa-compliance/"
+      },
+      {
+        "claim": "Knack supports various healthcare data standards including FHIR and HL7.",
+        "url": "https://knackglobal.com/healthcare-technology/standards-fhir-hl7/"
+      },
+      {
+        "claim": "Knack Global offers integration through REST APIs and webhooks.",
+        "url": "https://knackglobal.com/docs/api-integration/"
+      },
+      {
+        "claim": "The use of ETL patterns for data processing is highlighted in their engineering resources.",
+        "url": "https://knackglobal.com/docs/etl-processes/"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company shows alignment with X12 transactions and API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "835 Remittance Advice",
+      "270 Eligibility Inquiry",
+      "271 Eligibility Response",
+      "276 Claims Status Request",
+      "277 Claims Status Notification",
+      "837 Healthcare Claim",
+      "278 Health Care Services Review"
+    ]
+  }
+}

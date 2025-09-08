@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Carisk Partners emphasizes its commitment to HIPAA compliance across its services.",
+        "url": "https://cariskpartners.com/security/"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for electronic data interchange, specifically in health care.",
+        "url": "https://cariskpartners.com/docs/edi/"
+      },
+      {
+        "claim": "Integration of data through RESTful APIs is mentioned in their engineering overview.",
+        "url": "https://cariskpartners.com/developer/"
+      },
+      {
+        "claim": "Carisk offers services that align with FHIR standards, particularly in connectivity to EHR systems.",
+        "url": "https://cariskpartners.com/health-tech/"
+      },
+      {
+        "claim": "The company is actively hiring for roles in cloud infrastructure and data management, implying use of modern cloud services.",
+        "url": "https://cariskpartners.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Carisk Partners appears to engage in HIPAA X12 transactions relevant to claims and eligibility.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 Eligibility Queries",
+      "837 Claims Submission",
+      "835 Remittance Processing",
+      "Clearinghouse Services"
+    ]
+  }
+}

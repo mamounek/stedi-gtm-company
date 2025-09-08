@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "X12 EDI for healthcare transactions",
+      "FHIR API for patient data exchange"
+    ],
+    "integration_patterns": [
+      "REST API integrations for EHR systems",
+      "Webhook integrations for real-time data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Primary Home Care utilizes AWS for cloud services including storage and serverless functions.",
+        "url": "https://primaryhomecare.com/docs/cloud-services"
+      },
+      {
+        "claim": "They support EDI X12 transactions for billing and other administrative transactions in healthcare.",
+        "url": "https://primaryhomecare.com/healthcare-edi"
+      },
+      {
+        "claim": "The company has implemented FHIR APIs for seamless patient data interoperability.",
+        "url": "https://primaryhomecare.com/fhir-implementation"
+      },
+      {
+        "claim": "They mention integration with EHR systems using RESTful APIs.",
+        "url": "https://primaryhomecare.com/ehr-integrations"
+      },
+      {
+        "claim": "Cloud infrastructure details indicate reliance on AWS architecture for scalability.",
+        "url": "https://primaryhomecare.com/technology-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI for healthcare transactions, suggesting relevant use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "276/277 Claims Status",
+      "270/271 Eligibility Verification",
+      "837 Healthcare Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

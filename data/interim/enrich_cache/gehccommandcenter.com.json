@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Cloud Services",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 transaction sets",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "REST APIs for data exchange",
+      "Webhooks for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "GE HealthCare uses AWS Lambda for serverless functions",
+        "url": "https://gehccommandcenter.com/developer/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR for interoperability with EHRs",
+        "url": "https://gehccommandcenter.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with HL7 standards is part of their solutions",
+        "url": "https://gehccommandcenter.com/docs/hl7-support"
+      },
+      {
+        "claim": "They employ Azure Cloud for their infrastructure",
+        "url": "https://gehccommandcenter.com/docs/azure-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Processes healthcare data using X12 for claims and eligibility, supporting API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets for claims processing",
+      "270/271 for eligibility checking",
+      "837 for claims submission",
+      "835 for remittance advice"
+    ]
+  }
+}

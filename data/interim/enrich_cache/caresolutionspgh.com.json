@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI Transactions",
+      "FHIR API Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Care Solutions utilizes AWS for its infrastructure, enabling scalable deployments.",
+        "url": "https://caresolutionspgh.com/docs/infrastructure"
+      },
+      {
+        "claim": "They implement HL7 standards for health data exchange to comply with regulations.",
+        "url": "https://caresolutionspgh.com/docs/health-data"
+      },
+      {
+        "claim": "The company supports integration via FHIR API for interoperability with EHR systems.",
+        "url": "https://caresolutionspgh.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers EDI and X12 integration services, relevant for healthcare data exchange.",
+    "icp_confidence": 0.78,
+    "matched_use_cases": [
+      "EDI Transactions",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice",
+      "Payer-Provider Data Exchange"
+    ]
+  }
+}

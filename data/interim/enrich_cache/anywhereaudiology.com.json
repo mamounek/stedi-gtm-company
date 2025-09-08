@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Anywhere Audiology uses AWS services for application hosting and management.",
+        "url": "https://anywhereaudiology.com/developer"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its data handling processes.",
+        "url": "https://anywhereaudiology.com/security"
+      },
+      {
+        "claim": "Integration with electronic health record (EHR) systems is supported, compliant with FHIR standards.",
+        "url": "https://anywhereaudiology.com/docs#integration"
+      },
+      {
+        "claim": "Anywhere Audiology employs robust webhooks for real-time data updates.",
+        "url": "https://anywhereaudiology.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse capabilities on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

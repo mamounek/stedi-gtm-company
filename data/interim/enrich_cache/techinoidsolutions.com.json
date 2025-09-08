@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Techinoid utilizes AWS and Azure for its cloud services.",
+        "url": "https://techinoidsolutions.com/cloud-services"
+      },
+      {
+        "claim": "The company follows HIPAA regulations in its health tech solutions.",
+        "url": "https://techinoidsolutions.com/security"
+      },
+      {
+        "claim": "Techinoid's platform supports integration with EHRs via HL7 and FHIR standards.",
+        "url": "https://techinoidsolutions.com/healthcare-integration"
+      },
+      {
+        "claim": "Techinoid implements Kafka for real-time data streaming and processing.",
+        "url": "https://techinoidsolutions.com/data-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on healthcare tech and has relevant integrations for X12 transactions.",
+    "icp_confidence": 0.78,
+    "matched_use_cases": [
+      "clearinghouse services",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice automation",
+      "data exchange automation"
+    ]
+  }
+}

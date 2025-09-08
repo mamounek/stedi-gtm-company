@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Serenity Connect utilizes AWS Lambda for serverless computing needs.",
+        "url": "https://serenityconnect.com/docs/api#aws-lambda"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for data handling and transmission.",
+        "url": "https://serenityconnect.com/security#hipaa"
+      },
+      {
+        "claim": "Serenity Connect employs RESTful APIs for data exchange in healthcare applications.",
+        "url": "https://serenityconnect.com/docs/api#restful"
+      },
+      {
+        "claim": "Integration with FHIR standards for health data exchange is mentioned in their technical documents.",
+        "url": "https://serenityconnect.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of relevant X12 use cases or clearinghouse functionality.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

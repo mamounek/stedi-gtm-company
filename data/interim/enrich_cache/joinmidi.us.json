@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "MIDI Health utilizes AWS services including Lambda and RDS to build scalable applications.",
+        "url": "https://joinmidi.us/docs/infrastructure"
+      },
+      {
+        "claim": "The system supports FHIR standards for health data interoperability.",
+        "url": "https://joinmidi.us/security"
+      },
+      {
+        "claim": "MIDI Health performs Electronic Data Interchange (EDI) transactions using X12 formats.",
+        "url": "https://joinmidi.us/careers/engineering"
+      },
+      {
+        "claim": "Integration with third-party services is facilitated by RESTful APIs and webhook patterns.",
+        "url": "https://joinmidi.us/developer"
+      },
+      {
+        "claim": "MIDI Health employs Twilio for communication services within their health applications.",
+        "url": "https://joinmidi.us/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MIDI Health utilizes X12 for health data transactions, targeting EDI needs in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claims Submission (837)",
+      "Eligibility Checks (270/271)",
+      "Remittance Processing (835)"
+    ]
+  }
+}

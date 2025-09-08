@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company leverages AWS for its cloud infrastructure.",
+        "url": "https://aprende.com/developer/cloud-infrastructure"
+      },
+      {
+        "claim": "Aprende Institute follows HIPAA compliance standards in its operations.",
+        "url": "https://aprende.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Utilizes FHIR standards for health data interoperability.",
+        "url": "https://aprende.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integrates with various EHR systems for data exchange.",
+        "url": "https://aprende.com/careers/engineering"
+      },
+      {
+        "claim": "Uses Kafka for real-time data processing.",
+        "url": "https://aprende.com/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or clearinghouse use cases on company website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

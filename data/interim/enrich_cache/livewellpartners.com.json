@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Data pipeline through Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "LiveWell Partners uses AWS for cloud infrastructure.",
+        "url": "https://livewellpartners.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for health data.",
+        "url": "https://livewellpartners.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They utilize FHIR protocols for healthcare interoperability.",
+        "url": "https://livewellpartners.com/developer/fhir-specifications"
+      },
+      {
+        "claim": "LiveWell Partners integrates with EHR systems using standard transaction sets like X12.",
+        "url": "https://livewellpartners.com/docs/ehr-integration"
+      },
+      {
+        "claim": "Usage of Snowflake for data warehousing is mentioned in their technical documentation.",
+        "url": "https://livewellpartners.com/docs/data-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "LiveWell Partners utilizes X12 and EDI for healthcare data exchanges, fitting ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 claims submission",
+      "EDI eligibility verification",
+      "API integration for remittance processing",
+      "Clearinghouse operations for healthcare transactions"
+    ]
+  }
+}

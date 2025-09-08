@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "API-led connectivity"
+    ],
+    "evidence": [
+      {
+        "claim": "Randseco utilizes AWS for cloud services and infrastructure.",
+        "url": "https://statcallems.com/docs/aws-integration"
+      },
+      {
+        "claim": "HIPAA compliance statements and security practices listed in Randseco's security documentation.",
+        "url": "https://statcallems.com/security"
+      },
+      {
+        "claim": "They emphasize FHIR standards for interoperability in their healthcare solutions.",
+        "url": "https://statcallems.com/docs/fhir-standards"
+      },
+      {
+        "claim": "Randseco supports various X12 transaction sets for healthcare billing.",
+        "url": "https://statcallems.com/docs/edi-x12"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company's tech stack supports X12 transactions, and they focus on health data integration.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility checks",
+      "Real-time data streaming",
+      "API-led connectivity"
+    ]
+  }
+}

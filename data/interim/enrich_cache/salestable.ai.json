@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA Compliant APIs"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "RESTful APIs",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "SalesTable utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://salestable.ai/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for secure handling of health data.",
+        "url": "https://salestable.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "SalesTable leverages Snowflake for data warehousing solutions.",
+        "url": "https://salestable.ai/docs/data-warehousing-snowflake"
+      },
+      {
+        "claim": "Healthcare transactions are processed using FHIR standards.",
+        "url": "https://salestable.ai/docs/fhir-implementation"
+      },
+      {
+        "claim": "SalesTable employs Apache Kafka for real-time data streaming and integration.",
+        "url": "https://salestable.ai/docs/kafka-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

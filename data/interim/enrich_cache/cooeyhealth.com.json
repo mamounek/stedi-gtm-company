@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Firebase",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant data storage and transmission",
+      "FHIR protocols for health data exchange"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Webhook-based notifications for patient updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Cooey Health uses AWS for its cloud infrastructure providing scalable services.",
+        "url": "https://www.cooeyhealth.com/#technology"
+      },
+      {
+        "claim": "Cooey Health adheres to HIPAA standards for compliance in healthcare data handling.",
+        "url": "https://www.cooeyhealth.com/#security"
+      },
+      {
+        "claim": "Cooey supports integration with EHRs through reliable RESTful APIs and FHIR.",
+        "url": "https://www.cooeyhealth.com/#integration"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or EDI-related use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

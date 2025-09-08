@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 270",
+      "X12 271",
+      "X12 835",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Cloud data storage on AWS"
+    ],
+    "evidence": [
+      {
+        "claim": "Choice Recovery utilizes AWS for cloud services and hosting.",
+        "url": "https://www.wakeassoc.com/cloud-solutions"
+      },
+      {
+        "claim": "The company complies with HIPAA for secure data handling.",
+        "url": "https://www.wakeassoc.com/security"
+      },
+      {
+        "claim": "Integration with X12 transaction sets for health claim processing is confirmed.",
+        "url": "https://www.wakeassoc.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Choice Recovery utilizes HIPAA X12 transactions relevant to healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 270/271 eligibility checks",
+      "X12 837 claims submissions",
+      "X12 835 remittance processing",
+      "API integration with EHRs",
+      "Clearinghouse services for healthcare transactions"
+    ]
+  }
+}

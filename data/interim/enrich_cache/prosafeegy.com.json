@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company provides integration solutions but lacks explicit mentions of health-tech standards or APIs.",
+        "url": "https://www.prosafeegy.com/integration-solutions"
+      },
+      {
+        "claim": "No specific cloud services like AWS, Azure, or GCP indicated on the official site.",
+        "url": "https://www.prosafeegy.com/about"
+      },
+      {
+        "claim": "The developer documentation does not list APIs or health-tech standards.",
+        "url": "https://www.prosafeegy.com/developer-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant content found indicating use of X12 or healthcare clearinghouse services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

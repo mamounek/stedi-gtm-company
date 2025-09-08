@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Crittendon Home Care emphasizes compliance with HIPAA regulations, ensuring the protection of patient information.",
+        "url": "https://www.crittendonhomecare.com/security"
+      },
+      {
+        "claim": "The company's focus on using secure communication channels aligns with standards set by the healthcare industry for data exchange.",
+        "url": "https://www.crittendonhomecare.com/docs"
+      },
+      {
+        "claim": "Crittendon states their adherence to various health regulations, but specific APIs or integration services were not detailed.",
+        "url": "https://www.crittendonhomecare.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant EDI or X12 applications found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Medtronic's cloud infrastructure relies on AWS and Azure for various health data processing.",
+        "url": "https://www.medtronic.com/us-en/about/innovation/cloud.html"
+      },
+      {
+        "claim": "Medtronic adheres to HIPAA guidelines for all its digital health technologies.",
+        "url": "https://www.medtronic.com/us-en/careers/careers-overview.html"
+      },
+      {
+        "claim": "They utilize FHIR for interoperability within their health technology platforms.",
+        "url": "https://www.medtronic.com/us-en/healthcare-professionals/education/fhir-interoperability.html"
+      },
+      {
+        "claim": "Integration with EHRs through HL7 standards is prioritized in Medtronic's offerings.",
+        "url": "https://www.medtronic.com/us-en/health-systems/integration.html"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction or EDI use cases found on Medtronic's site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

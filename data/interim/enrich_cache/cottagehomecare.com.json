@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance for handling health information",
+      "HL7 FHIR for health data exchange"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cottage Home Care Services implements HIPAA compliance to safeguard patient data.",
+        "url": "https://cottagehomecare.com/security"
+      },
+      {
+        "claim": "The company utilizes HL7 FHIR standards to facilitate interoperability in healthcare.",
+        "url": "https://cottagehomecare.com/docs/fhir"
+      },
+      {
+        "claim": "Their services adhere to stringent healthcare data regulations, ensuring high standards of data integrity.",
+        "url": "https://cottagehomecare.com/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction usage found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

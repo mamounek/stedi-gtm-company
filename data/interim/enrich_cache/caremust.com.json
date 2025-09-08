@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Care Must utilizes FHIR standards for health data exchange, enhancing interoperability amongst systems.",
+        "url": "https://caremust.com/docs/fhir"
+      },
+      {
+        "claim": "The company adheres to HL7 protocols, ensuring compliance with health information standards.",
+        "url": "https://caremust.com/security"
+      },
+      {
+        "claim": "Care Must's services incorporate X12 transactions for health insurance management.",
+        "url": "https://caremust.com/developer/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

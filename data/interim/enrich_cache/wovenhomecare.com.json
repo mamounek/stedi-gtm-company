@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "Healthcare application integration",
+      "Data interoperability patterns"
+    ],
+    "evidence": [
+      {
+        "claim": "Woven Home Care is compliant with HIPAA regulations.",
+        "url": "https://wovenhomecare.com/security"
+      },
+      {
+        "claim": "Utilizes FHIR standards for health data exchange.",
+        "url": "https://wovenhomecare.com/developer"
+      },
+      {
+        "claim": "Integrates with Electronic Health Records (EHRs) for streamlined care.",
+        "url": "https://wovenhomecare.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 or automation use cases found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

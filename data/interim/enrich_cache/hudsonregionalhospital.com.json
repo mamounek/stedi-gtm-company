@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hudson Regional Hospital implements FHIR standards for interoperability and data exchange between healthcare systems.",
+        "url": "https://hudsonregionalhospital.com/health-information-exchange"
+      },
+      {
+        "claim": "The hospital complies with HIPAA requirements for patient data security and privacy.",
+        "url": "https://hudsonregionalhospital.com/about-us/security"
+      },
+      {
+        "claim": "HL7 messaging protocols are utilized for effective communication within their data management systems.",
+        "url": "https://hudsonregionalhospital.com/healthcare-providers"
+      },
+      {
+        "claim": "The hospital integrates various health information technology solutions to streamline patient care and data management.",
+        "url": "https://hudsonregionalhospital.com/data-management"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Hospital likely processes X12 transactions for claims and eligibility.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice"
+    ]
+  }
+}

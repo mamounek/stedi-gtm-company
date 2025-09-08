@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Units uses AWS services including Lambda and S3 for cloud functions and storage.",
+        "url": "https://healthunits.com/developer"
+      },
+      {
+        "claim": "The company implements FHIR standards to facilitate health information exchange.",
+        "url": "https://healthunits.com/docs/fhir"
+      },
+      {
+        "claim": "Certification in HIPAA compliance is mentioned on the security page of the website.",
+        "url": "https://healthunits.com/security"
+      },
+      {
+        "claim": "Health Units leverages X12 for EDI transactions to communicate with clearinghouses.",
+        "url": "https://healthunits.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Health Units services align with X12 EDI applications in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 processing",
+      "Eligibility verification (270/271)",
+      "Claim status inquiry (276/277)",
+      "Claim submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

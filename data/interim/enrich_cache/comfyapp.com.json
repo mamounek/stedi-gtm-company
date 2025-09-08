@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Firebase Cloud Messaging",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Infrastructure",
+      "FHIR APIs for Health Data Exchange"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for Integration with EHRs",
+      "WebSockets for Real-time Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Comfy utilizes AWS for their cloud infrastructure.",
+        "url": "https://comfyapp.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform is designed to be HIPAA compliant, allowing healthcare data management.",
+        "url": "https://comfyapp.com/security/hipaa"
+      },
+      {
+        "claim": "Comfy integrates with FHIR APIs to support health data exchange.",
+        "url": "https://comfyapp.com/docs/integration/fhir"
+      },
+      {
+        "claim": "Real-time notifications are supported via WebSockets.",
+        "url": "https://comfyapp.com/docs/notifications"
+      },
+      {
+        "claim": "Twilio API is used for messaging services within the platform.",
+        "url": "https://comfyapp.com/docs/integration/twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 use cases or clearinghouse operations found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

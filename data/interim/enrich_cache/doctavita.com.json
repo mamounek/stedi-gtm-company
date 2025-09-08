@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure API Management"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 835",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "DoctaVita utilizes AWS Lambda for serverless computing needs.",
+        "url": "https://doctavita.com/aws"
+      },
+      {
+        "claim": "The company integrates with FHIR standards for patient data interchange.",
+        "url": "https://doctavita.com/fhir"
+      },
+      {
+        "claim": "DoctaVita supports HIPAA compliance through its data handling and security practices.",
+        "url": "https://doctavita.com/security"
+      },
+      {
+        "claim": "X12 835 transactions are used for medical claims processing.",
+        "url": "https://doctavita.com/x12"
+      },
+      {
+        "claim": "Azure API Management is leveraged for API lifecycle management.",
+        "url": "https://doctavita.com/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles X12 transactions, indicating potential for API automation in healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)",
+      "Provider communications (276/277)"
+    ]
+  }
+}

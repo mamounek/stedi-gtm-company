@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Kafka Streaming",
+      "dbt Transformations",
+      "Real-time Data Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "DEIN utilizes AWS services for cloud infrastructure.",
+        "url": "https://dein.fi/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring secure handling of health data.",
+        "url": "https://dein.fi/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR for health data exchange is supported.",
+        "url": "https://dein.fi/docs/fhir-integration"
+      },
+      {
+        "claim": "Kafka is used for real-time data streaming in health platform services.",
+        "url": "https://dein.fi/docs/kafka-overview"
+      },
+      {
+        "claim": "They provide integration with traditional EHR systems using HL7 standards.",
+        "url": "https://dein.fi/docs/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction usage or clearinghouse services found on site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

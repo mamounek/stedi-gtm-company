@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "DeliverHealth provides capabilities for EDI transactions including HIPAA-standard X12 formats.",
+        "url": "https://www.deliverhealth.com/solutions/edi-capabilities"
+      },
+      {
+        "claim": "They leverage FHIR and HL7 for interoperability in healthcare data exchange.",
+        "url": "https://www.deliverhealth.com/health-integration"
+      },
+      {
+        "claim": "DeliverHealth emphasizes its expertise in handling HIPAA compliance and secure data transactions in healthcare.",
+        "url": "https://www.deliverhealth.com/security-and-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Works with X12 transactions and focuses on health tech integration.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "EDI transactions",
+      "837 claims processing",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)"
+    ]
+  }
+}

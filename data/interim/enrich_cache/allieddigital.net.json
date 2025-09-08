@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "ETL",
+      "APIs",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Allied Digital uses AWS for cloud services.",
+        "url": "https://www.allieddigital.net/cloud-services"
+      },
+      {
+        "claim": "The company ensures adherence to HIPAA standards in their health-tech solutions.",
+        "url": "https://www.allieddigital.net/security"
+      },
+      {
+        "claim": "Allied Digital integrates EDI standards to facilitate healthcare transactions.",
+        "url": "https://www.allieddigital.net/edi-services"
+      },
+      {
+        "claim": "Utilization of Azure for data management solutions is mentioned in their developer docs.",
+        "url": "https://www.allieddigital.net/cloud-solutions"
+      },
+      {
+        "claim": "HL7 standards are referenced in their interoperable health integrations.",
+        "url": "https://www.allieddigital.net/healthcare-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech integration with APIs and X12 standards aligns well with ICP use cases.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Health claims management",
+      "Eligibility verification",
+      "Remittance processing",
+      "Provider-payer data exchange"
+    ]
+  }
+}

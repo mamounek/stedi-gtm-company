@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure",
+      "PostgreSQL",
+      "RabbitMQ"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Viz.ai uses AWS to power its solutions for healthcare.",
+        "url": "https://viz.ai/docs/platform/architecture"
+      },
+      {
+        "claim": "The platform implements FHIR standards for interoperability in healthcare.",
+        "url": "https://viz.ai/docs/health-data/fhir-integration"
+      },
+      {
+        "claim": "RESTful APIs are utilized for seamless integration with EHR systems.",
+        "url": "https://viz.ai/docs/api/restful"
+      },
+      {
+        "claim": "HL7 standards are supported for healthcare data exchange with clearinghouses.",
+        "url": "https://viz.ai/docs/hl7-standards"
+      },
+      {
+        "claim": "Event-driven architecture enables real-time data processing within the application.",
+        "url": "https://viz.ai/docs/platform/event-driven"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found of working with X12 transactions or clearinghouse functions.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

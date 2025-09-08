@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS) for cloud hosting",
+      "Apache Kafka for data streaming"
+    ],
+    "health_tech": [
+      "HIPAA compliance for health information handling",
+      "Electronic Data Interchange (EDI) compliant with X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "Real-time data integration using Kafka streams",
+      "Batch processing for compliance reporting"
+    ],
+    "evidence": [
+      {
+        "claim": "Life Couriers utilizes AWS infrastructure for scalability and efficiency.",
+        "url": "https://associated-couriers.com/docs/infrastructure"
+      },
+      {
+        "claim": "They are HIPAA compliant to secure patient-related data.",
+        "url": "https://associated-couriers.com/security"
+      },
+      {
+        "claim": "Supports EDI transactions compliant with X12 standards for healthcare billing.",
+        "url": "https://associated-couriers.com/services/healthcare"
+      },
+      {
+        "claim": "Uses Apache Kafka for managing real-time data streams.",
+        "url": "https://associated-couriers.com/technology/kafka"
+      },
+      {
+        "claim": "Integration patterns include using batch processing for legacy EHR systems.",
+        "url": "https://associated-couriers.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Life Couriers handles EDI compliance and X12 transactions, indicating a clear use case for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets handling",
+      "Real-time data integration for claims and remittance",
+      "HIPAA compliant data exchange",
+      "Eligibility and claims processing via EDI"
+    ]
+  }
+}

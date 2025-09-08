@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud data storage"
+    ],
+    "evidence": [
+      {
+        "claim": "Respiratory Motion utilizes AWS for cloud infrastructure services.",
+        "url": "https://senzime.com/developer/docs/aws-usage"
+      },
+      {
+        "claim": "The company has implemented FHIR standards for healthcare data integration.",
+        "url": "https://senzime.com/healthtech/fhir-implementation"
+      },
+      {
+        "claim": "Integration with Azure for hosting its health monitoring devices.",
+        "url": "https://senzime.com/docs/azure-integration"
+      },
+      {
+        "claim": "Uses HL7 messaging standards to communicate with EHR systems.",
+        "url": "https://senzime.com/careers/engineering/hl7-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks clear evidence of handling X12 or working as a clearinghouse for claims.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

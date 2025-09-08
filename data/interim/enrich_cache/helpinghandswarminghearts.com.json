@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Helping Hands Warming Hearts Enterprise is working to comply with HIPAA standards for secure health information management.",
+        "url": "https://helpinghandswarminghearts.com/security"
+      },
+      {
+        "claim": "Their platform utilizes secure data transmission methods suitable for health tech applications.",
+        "url": "https://helpinghandswarminghearts.com/docs"
+      },
+      {
+        "claim": "The company is small but emphasizes the importance of integrating healthcare solutions responsibly and securely.",
+        "url": "https://helpinghandswarminghearts.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or relevant API automation use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

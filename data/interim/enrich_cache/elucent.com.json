@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Elucent employs AWS services for their cloud infrastructure.",
+        "url": "https://elucent.com/technology/#cloud"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in their health data management.",
+        "url": "https://elucent.com/security/#hipaa"
+      },
+      {
+        "claim": "Elucent utilizes FHIR standards for interoperability in healthcare applications.",
+        "url": "https://elucent.com/solutions/#fhir"
+      },
+      {
+        "claim": "They implement RESTful APIs for data communication between platforms.",
+        "url": "https://elucent.com/documentation/#api"
+      },
+      {
+        "claim": "EDI X12 compliance is mentioned in their data exchange strategies.",
+        "url": "https://elucent.com/integration/#edi"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear use cases for X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

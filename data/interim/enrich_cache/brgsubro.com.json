@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Benefit Recovery Group utilizes AWS cloud services to host their platforms.",
+        "url": "https://www.brgsubro.com/security"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for handling health information.",
+        "url": "https://www.brgsubro.com/docs/hipaa-compliance"
+      },
+      {
+        "claim": "Benefit Recovery Group mentions integration with X12 transaction sets for healthcare billing and claims processing.",
+        "url": "https://www.brgsubro.com/developer/x12-integration"
+      },
+      {
+        "claim": "They use REST APIs to facilitate communication between their systems and client applications.",
+        "url": "https://www.brgsubro.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare payment recovery utilizing EDI and X12, aligns with API automation needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI claims submissions",
+      "Eligibility verification (270/271)",
+      "Claims status inquiries (276/277)",
+      "Claims submissions (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

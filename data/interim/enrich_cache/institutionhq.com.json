@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration with EHR Systems",
+      "Message Queue for Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Institution uses AWS cloud services for their infrastructure.",
+        "url": "https://institutionhq.com/dev/docs/cloud_services"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its health tech area.",
+        "url": "https://institutionhq.com/security/hipaa"
+      },
+      {
+        "claim": "They integrate with EHR systems using HL7 FHIR standards.",
+        "url": "https://institutionhq.com/api/ehr_integration"
+      },
+      {
+        "claim": "Institution employs messaging queues like Kafka for data streaming.",
+        "url": "https://institutionhq.com/docs/data_streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases for X12 or EDI found on public site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

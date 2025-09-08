@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Pardigm's platform processes FHIR transactions for interoperability.",
+        "url": "https://pardigm.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Utilizes AWS services for secure data storage and processing.",
+        "url": "https://pardigm.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is emphasized in their service offerings.",
+        "url": "https://pardigm.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Offers integration patterns using RESTful APIs with EHR systems.",
+        "url": "https://pardigm.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Pardigm uses X12 for healthcare transactions, consistent with ICP characteristics.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility requests (270/271)",
+      "Remittance advice (835)",
+      "Status requests (276/277)"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CareRemedy utilizes AWS for its cloud infrastructure.",
+        "url": "https://careremedy.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for data security.",
+        "url": "https://careremedy.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standards for health data exchange is mentioned in their documentation.",
+        "url": "https://careremedy.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "CareRemedy employs Azure for certain data services and applications.",
+        "url": "https://careremedy.com/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found linking CareRemedy to X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

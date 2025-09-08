@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "HL7 standards",
+      "FHIR integration methods"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Western Sky Community Care adheres to HIPAA regulations for health information protection.",
+        "url": "https://westernskycommunitycare.com/security"
+      },
+      {
+        "claim": "The organization utilizes HL7 standards for health data exchange.",
+        "url": "https://westernskycommunitycare.com/docs/hl7"
+      },
+      {
+        "claim": "They implement transaction sets based on X12 formats for electronic data interchange.",
+        "url": "https://westernskycommunitycare.com/edi"
+      },
+      {
+        "claim": "Western Sky Community Care's infrastructure indicates usage of cloud services for health data management.",
+        "url": "https://westernskycommunitycare.com/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech and X12 transaction sets indicates readiness for API automation.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction exchanges",
+      "Claims submission and processing",
+      "Eligibility verification",
+      "Remittance advice handling"
+    ]
+  }
+}

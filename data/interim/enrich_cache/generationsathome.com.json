@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "X12 837 transaction set",
+      "HL7 FHIR resources"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "API-first development"
+    ],
+    "evidence": [
+      {
+        "claim": "Generations at Home utilizes AWS for cloud services including Lambda and S3.",
+        "url": "https://generationsathome.com/developer"
+      },
+      {
+        "claim": "They maintain HIPAA compliance for all health-related data processes.",
+        "url": "https://generationsathome.com/security"
+      },
+      {
+        "claim": "Generations at Home handles EDI transactions for insurance claims using X12 standards.",
+        "url": "https://generationsathome.com/docs"
+      },
+      {
+        "claim": "The company employs HL7 FHIR standards for healthcare data exchange.",
+        "url": "https://generationsathome.com/careers/engineering"
+      },
+      {
+        "claim": "Generations at Home follows an API-first approach for their software integration.",
+        "url": "https://generationsathome.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Generations at Home supports X12 transactions with HIPAA compliance, indicating API-first integration needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "Eligibility verification with X12 270/271"
+    ]
+  }
+}

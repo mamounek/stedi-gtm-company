@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR API support"
+    ],
+    "integration_patterns": [
+      "HL7 integration",
+      "Data synchronization with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "AZConsulting utilizes AWS cloud services for their infrastructure.",
+        "url": "https://www.azbillingrcm.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports HIPAA compliance in its billing practices.",
+        "url": "https://www.azbillingrcm.com/security/hipaa"
+      },
+      {
+        "claim": "They implement X12 EDI for electronic health transactions.",
+        "url": "https://www.azbillingrcm.com/docs/edi-overview"
+      },
+      {
+        "claim": "AZConsulting implements HL7 for healthcare data exchange.",
+        "url": "https://www.azbillingrcm.com/developer/hl7-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in healthcare with focus on X12 EDI transactions and HIPAA compliance.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "276/277 Claims Status",
+      "278 Prior Authorization",
+      "837 Claim Submission",
+      "835 Remittance Advice",
+      "Clearinghouse services"
+    ]
+  }
+}

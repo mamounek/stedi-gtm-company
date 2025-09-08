@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Robstar Homecare Services uses secure communication channels to comply with HIPAA regulations.",
+        "url": "https://robstarhomecare.com/security"
+      },
+      {
+        "claim": "The company integrates with Electronic Health Records (EHRs) to manage patient data.",
+        "url": "https://robstarhomecare.com/docs"
+      },
+      {
+        "claim": "Robstar Homecare Services' infrastructure ensures secure and compliant handling of health information.",
+        "url": "https://robstarhomecare.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 EDI use or integration on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

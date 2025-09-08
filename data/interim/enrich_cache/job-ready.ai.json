@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Job-Ready AI operates on AWS infrastructure including Lambda and S3 for scalable cloud services.",
+        "url": "https://job-ready.ai/docs/infrastructure"
+      },
+      {
+        "claim": "They mention adherence to HIPAA standards for their healthcare data solutions.",
+        "url": "https://job-ready.ai/security"
+      },
+      {
+        "claim": "The company utilizes HL7 standards to ensure compatibility with healthcare systems.",
+        "url": "https://job-ready.ai/health-tech"
+      },
+      {
+        "claim": "They employ RESTful APIs for service integration within their applications.",
+        "url": "https://job-ready.ai/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of API-first healthcare data exchange or X12 usage.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

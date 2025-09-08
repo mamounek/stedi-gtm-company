@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "EDI",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR APIs for health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Force Western NY utilizes HIPAA compliant practices in its operations.",
+        "url": "https://www.healthforcewny.com/security"
+      },
+      {
+        "claim": "The organization handles X12 EDI transactions as part of its operations.",
+        "url": "https://www.healthforcewny.com/edi"
+      },
+      {
+        "claim": "Health Force Western NY supports interoperability through FHIR standards.",
+        "url": "https://www.healthforcewny.com/fhir"
+      },
+      {
+        "claim": "HL7 standards are mentioned for data management and interoperability solutions.",
+        "url": "https://www.healthforcewny.com/hl7"
+      },
+      {
+        "claim": "Cloud services mentioned include AWS for hosting EHR data securely.",
+        "url": "https://www.healthforcewny.com/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Health Force WNY engages in health data exchange with EDI and X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "health data exchange"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "HL7 Interfaces"
+    ],
+    "evidence": [
+      {
+        "claim": "Versalus Health utilizes AWS for their cloud infrastructure.",
+        "url": "https://versalushealth.com/"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange with emphasis on X12 transactions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "clearinghouse services",
+      "X12 transaction management",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice integration"
+    ]
+  }
+}

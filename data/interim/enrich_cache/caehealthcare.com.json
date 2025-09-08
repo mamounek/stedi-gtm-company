@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "EHR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CAE Healthcare utilizes FHIR standards for interoperability in their healthcare solutions.",
+        "url": "https://www.caehealthcare.com/healthcare-solutions/fhir-standards/"
+      },
+      {
+        "claim": "The company demonstrates commitment to HIPAA compliance in managing patient data.",
+        "url": "https://www.caehealthcare.com/privacy-policy/"
+      },
+      {
+        "claim": "Use of EHR systems compatible with various health data exchanges.",
+        "url": "https://www.caehealthcare.com/education/electronic-health-records/"
+      },
+      {
+        "claim": "Discusses integration with healthcare data systems in product documentation.",
+        "url": "https://www.caehealthcare.com/solutions/integration-for-healthcare-data/"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement in X12 transactions or clearinghouse capabilities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

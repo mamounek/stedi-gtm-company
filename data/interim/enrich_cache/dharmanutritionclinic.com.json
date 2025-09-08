@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Dharma Nutrition Clinic utilizes FHIR for health data exchange.",
+        "url": "https://dharmanutritionclinic.com/healthcare-data-exchange"
+      },
+      {
+        "claim": "Site mentions compliance with HIPAA regulations.",
+        "url": "https://dharmanutritionclinic.com/security-privacy"
+      },
+      {
+        "claim": "Dharma Nutrition Clinic integrates with various EHRs using standardized protocols.",
+        "url": "https://dharmanutritionclinic.com/integrations"
+      },
+      {
+        "claim": "The clinic employs cloud services for data management in their healthcare services.",
+        "url": "https://dharmanutritionclinic.com/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI-related use cases found on the company's website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

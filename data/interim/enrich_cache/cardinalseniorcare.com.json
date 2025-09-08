@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cardinal Senior Care asserts compliance with HIPAA regulations for patient data handling.",
+        "url": "https://cardinalseniorcare.com/privacy-policy/"
+      },
+      {
+        "claim": "The company is engaged with health information technology standards such as HL7 for health data exchange.",
+        "url": "https://cardinalseniorcare.com/health-technology/"
+      },
+      {
+        "claim": "Their services align with healthcare industry standards, signifying a commitment to interoperability in EHR systems via HL7.",
+        "url": "https://cardinalseniorcare.com/our-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 or API automation related to healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

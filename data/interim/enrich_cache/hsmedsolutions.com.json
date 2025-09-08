@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transactions",
+      "FHIR/HL7 Standards"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud functions and storage.",
+        "url": "https://hsmedsolutions.com/api"
+      },
+      {
+        "claim": "They ensure their platform complies with HIPAA regulations for health data.",
+        "url": "https://hsmedsolutions.com/security"
+      },
+      {
+        "claim": "HS Med Solutions supports X12 EDI transactions for healthcare processing.",
+        "url": "https://hsmedsolutions.com/docs/edi"
+      },
+      {
+        "claim": "Their solutions are built on FHIR standards for healthcare interoperability.",
+        "url": "https://hsmedsolutions.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions, indicating need for API-driven healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submissions (837)",
+      "Remittance advice (835)",
+      "Claim status inquiries (276/277)"
+    ]
+  }
+}

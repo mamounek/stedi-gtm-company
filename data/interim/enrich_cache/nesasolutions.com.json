@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "FHIR",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "NESA Solutions utilizes AWS for scalable cloud applications.",
+        "url": "https://nesasolutions.com/cloud-services"
+      },
+      {
+        "claim": "The company focuses on HIPAA compliance for health-tech applications.",
+        "url": "https://nesasolutions.com/security-privacy"
+      },
+      {
+        "claim": "NESA's platform supports various EDI transaction sets, including X12.",
+        "url": "https://nesasolutions.com/integration-services"
+      },
+      {
+        "claim": "NESA implements FHIR standards for interoperability in healthcare.",
+        "url": "https://nesasolutions.com/healthcare-integration"
+      },
+      {
+        "claim": "Azure is used for data storage and processing in their solutions.",
+        "url": "https://nesasolutions.com/data-management"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation use cases found on their site.",
+    "icp_confidence": 0.25,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliant processes",
+      "FHIR API support"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices Architecture",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "ZHS BPO uses AWS services for cloud deployment and management.",
+        "url": "https://zhsbpo.com/docs/cloud-architecture"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its operations.",
+        "url": "https://zhsbpo.com/security"
+      },
+      {
+        "claim": "ZHS BPO implements FHIR for health information exchange.",
+        "url": "https://zhsbpo.com/health-tech"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs to enhance interoperability.",
+        "url": "https://zhsbpo.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of sending/receiving X12 transactions or specific healthcare integrations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

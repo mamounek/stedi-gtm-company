@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Ronin Healthcare utilizes AWS for scalable infrastructure solutions.",
+        "url": "https://roninhc.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to ensure data security in health-tech services.",
+        "url": "https://roninhc.com/security"
+      },
+      {
+        "claim": "Utilization of FHIR and HL7 standards for efficient healthcare data exchange is mentioned in their documentation.",
+        "url": "https://roninhc.com/docs/health-data"
+      },
+      {
+        "claim": "They leverage EDI transaction sets for data exchange in healthcare services on their platform.",
+        "url": "https://roninhc.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions and healthcare API solutions aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims management",
+      "Eligibility checking",
+      "Remittance advice automation"
+    ]
+  }
+}

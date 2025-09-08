@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "FHIR standard for healthcare data",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful API for service communication",
+      "Webhook for event-driven integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Marton Care utilizes AWS Lambda for serverless computing.",
+        "url": "https://martoncare.com/developer-docs/aws-lambda"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in handling health information.",
+        "url": "https://martoncare.com/security-privacy/HIPAA"
+      },
+      {
+        "claim": "Marton Care supports FHIR standard for healthcare interoperability.",
+        "url": "https://martoncare.com/docs/fhir-integration"
+      },
+      {
+        "claim": "The backend includes the use of AWS RDS for database management.",
+        "url": "https://martoncare.com/docs/aws-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange using X12 transactions aligns with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claim Status Updates"
+    ]
+  }
+}

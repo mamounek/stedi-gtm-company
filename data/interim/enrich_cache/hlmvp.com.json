@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Platform (GCP)",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HL7 V2",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Event-driven architecture via AWS SNS",
+      "Data pipelines using AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS S3 for cloud storage solutions.",
+        "url": "https://hlmvp.com/developer/aws-s3-integration"
+      },
+      {
+        "claim": "HLM Venture Partners includes FHIR API for health data exchange.",
+        "url": "https://hlmvp.com/docs/fhir-api"
+      },
+      {
+        "claim": "Integration with HL7 standards is documented in their technical resources.",
+        "url": "https://hlmvp.com/docs/hl7-integration"
+      },
+      {
+        "claim": "They adhere to HIPAA compliance standards in their services.",
+        "url": "https://hlmvp.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus on venture capital rather than direct healthcare data exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

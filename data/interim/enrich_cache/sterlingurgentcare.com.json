@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Sterling Medical emphasizes its compliance with HIPAA regulations in its operations.",
+        "url": "https://sterlingurgentcare.com/policies"
+      },
+      {
+        "claim": "The company utilizes secure systems to safeguard patient data in alignment with health-tech standards.",
+        "url": "https://sterlingurgentcare.com/services"
+      },
+      {
+        "claim": "Sterling Medical addresses the proper handling of electronic health information and patient privacy.",
+        "url": "https://sterlingurgentcare.com/about-us"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or API use cases on public site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

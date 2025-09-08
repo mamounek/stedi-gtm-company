@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS DynamoDB"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Serverless Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Robyn AI utilizes AWS Lambda for serverless computing to handle its backend processes.",
+        "url": "https://meetrobin.app/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 transactions or clearinghouse operations on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

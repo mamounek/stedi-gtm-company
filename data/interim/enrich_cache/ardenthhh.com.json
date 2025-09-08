@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ardent Hospice and Home Health utilizes HIPAA-compliant services to ensure secure patient data management.",
+        "url": "https://ardenthhh.com/security"
+      },
+      {
+        "claim": "The company offers telehealth services which require adherence to healthcare interoperability standards such as FHIR.",
+        "url": "https://ardenthhh.com/telehealth"
+      },
+      {
+        "claim": "Ardent employs secure messaging frameworks consistent with HL7 standards for data exchange between healthcare entities.",
+        "url": "https://ardenthhh.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or API automation on public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

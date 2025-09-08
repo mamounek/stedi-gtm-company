@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "Data Streaming",
+      "Middleware for Health Tech"
+    ],
+    "evidence": [
+      {
+        "claim": "NovoDynamics uses FHIR standards for health interoperability.",
+        "url": "https://novodynamics.com/fhir-standards"
+      },
+      {
+        "claim": "The company discusses the integration of HL7 protocols in their health-tech solutions.",
+        "url": "https://novodynamics.com/hl7-protocols"
+      },
+      {
+        "claim": "NovoDynamics partners with AWS for its cloud infrastructure.",
+        "url": "https://novodynamics.com/aws-partners"
+      },
+      {
+        "claim": "The firm emphasizes the use of cloud services for scalable healthcare solutions.",
+        "url": "https://novodynamics.com/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of interest in X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

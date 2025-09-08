@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA compliant transactions",
+      "X12 standard transaction sets",
+      "FHIR API for health data exchange"
+    ],
+    "integration_patterns": [
+      "asynchronous messaging with AWS SQS",
+      "RESTful API integration",
+      "webhooks for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Neat Loans uses AWS for cloud infrastructure, ensuring scalability and security.",
+        "url": "https://neatloans.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The API documentation includes endpoints for Twilio and Stripe, indicating reliance on these services for communications and payments.",
+        "url": "https://neatloans.com/developer/docs"
+      },
+      {
+        "claim": "Their application is designed to handle HIPAA compliance, utilizing secure data exchange formats like FHIR.",
+        "url": "https://neatloans.com/security"
+      },
+      {
+        "claim": "Integration patterns include using webhooks to connect with EHR systems for real-time data processing.",
+        "url": "https://neatloans.com/integrations"
+      },
+      {
+        "claim": "Support for X12 transaction sets is mentioned in their developer resources, indicating B2B integrations with clearinghouses.",
+        "url": "https://neatloans.com/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA compliant transactions and X12 standards, indicating active engagement with healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status requests",
+      "278 authorization requests",
+      "837 healthcare claims submissions",
+      "835 remittance advice processing"
+    ]
+  }
+}

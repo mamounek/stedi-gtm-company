@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS (Amazon Web Services) for data storage and processing",
+      "Twilio for communication services"
+    ],
+    "health_tech": [
+      "HIPAA compliance for handling sensitive health data",
+      "FHIR API standards for interoperability in healthcare"
+    ],
+    "integration_patterns": [
+      "REST APIs for integration with healthcare providers and EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "MMC Government Solutions utilizes AWS for cloud services.",
+        "url": "https://marshallmadisoncompanies.com/cloud-services"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for its healthcare-related solutions.",
+        "url": "https://marshallmadisoncompanies.com/security"
+      },
+      {
+        "claim": "MMC Government Solutions implements FHIR standards for healthcare data integration.",
+        "url": "https://marshallmadisoncompanies.com/healthcare-integration"
+      },
+      {
+        "claim": "Use of RESTful APIs is mentioned for integrating with various EHR systems.",
+        "url": "https://marshallmadisoncompanies.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or EDI services found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

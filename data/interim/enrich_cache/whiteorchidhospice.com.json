@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance measures"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "White Orchid Hospice emphasizes adherence to HIPAA regulations on their website.",
+        "url": "https://whiteorchidhospice.com/about-us/"
+      },
+      {
+        "claim": "The company discusses patient data management in context to health compliance.",
+        "url": "https://whiteorchidhospice.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.18
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12-related use cases or API automation in their operations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

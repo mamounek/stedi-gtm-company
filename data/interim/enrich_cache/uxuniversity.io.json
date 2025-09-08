@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No relevant technical APIs or infrastructure identified on the company's site.",
+        "url": "https://uxuniversity.io"
+      },
+      {
+        "claim": "No health-tech related technologies found on the company's website.",
+        "url": "https://uxuniversity.io"
+      },
+      {
+        "claim": "Company appears to focus on user experience education, lacking technical documentation.",
+        "url": "https://uxuniversity.io"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of handling X12 transactions or healthcare data exchange found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

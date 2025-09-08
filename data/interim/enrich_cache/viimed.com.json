@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integrations",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "ViiMed utilizes AWS cloud services for its infrastructure needs.",
+        "url": "https://viimed.com/about-vii-med/"
+      },
+      {
+        "claim": "The platform supports HL7 and FHIR standards for health data interoperability.",
+        "url": "https://viimed.com/solutions/"
+      },
+      {
+        "claim": "Security measures are compliant with HIPAA regulations, ensuring patient data protection.",
+        "url": "https://viimed.com/security/"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse services on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

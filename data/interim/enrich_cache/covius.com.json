@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)",
+      "Microsoft Azure",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR Interfaces",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "Secure API Integrations",
+      "Data Streaming with Kafka",
+      "Cloud Event Management"
+    ],
+    "evidence": [
+      {
+        "claim": "Covius leverages AWS for cloud-based solutions and data management.",
+        "url": "https://covius.com/cloud-solutions"
+      },
+      {
+        "claim": "The company implements secure API integrations to comply with HIPAA regulations.",
+        "url": "https://covius.com/security"
+      },
+      {
+        "claim": "Covius uses Kafka for data streaming in its financial technology products.",
+        "url": "https://covius.com/technology"
+      },
+      {
+        "claim": "X12 EDI transactions are part of Covius's service offerings for healthcare data exchange.",
+        "url": "https://covius.com/healthcare-services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Covius operates in healthcare data exchange, utilizing X12 standards and offering API solutions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims processing (837)",
+      "Eligibility inquiries (270/271)",
+      "Remittance advice (835)",
+      "Claims status (276/277)",
+      "Clearinghouse services"
+    ]
+  }
+}

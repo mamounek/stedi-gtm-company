@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "UCSF Rosenman Institute is focused on HIPAA compliance for health tech ventures.",
+        "url": "https://rosenmaninstitute.org/about/"
+      },
+      {
+        "claim": "The institute supports entrepreneurs developing digital health solutions, potentially utilizing health data integrations.",
+        "url": "https://rosenmaninstitute.org/portfolio/"
+      },
+      {
+        "claim": "Mentions cloud services in the context of health tech innovations.",
+        "url": "https://rosenmaninstitute.org/innovation/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction involvement on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

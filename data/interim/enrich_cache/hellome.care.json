@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EDI X12",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook notifications",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "The company mentions using AWS services such as Lambda, EC2, and S3 for their infrastructure.",
+        "url": "https://hellome.care/docs/aws-integration"
+      },
+      {
+        "claim": "HelloMe indicates FHIR compliance in their documentation for health information exchange.",
+        "url": "https://hellome.care/docs/fhir"
+      },
+      {
+        "claim": "They list HL7 standards as part of their interoperability framework.",
+        "url": "https://hellome.care/docs/hl7-interoperability"
+      },
+      {
+        "claim": "The site references their adherence to HIPAA regulations in the context of data integrity and privacy.",
+        "url": "https://hellome.care/security/hipaa"
+      },
+      {
+        "claim": "HelloMe utilizes messaging patterns through Webhooks for integration with third-party services.",
+        "url": "https://hellome.care/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling on their site or affiliated resources.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

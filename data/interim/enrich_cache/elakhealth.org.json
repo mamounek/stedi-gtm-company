@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12",
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Elak Health is compliant with HIPAA regulations, ensuring the security of health information.",
+        "url": "https://www.elakhealth.org/privacy-policy"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for interoperability in their healthcare solutions.",
+        "url": "https://www.elakhealth.org/documentation#api-overview"
+      },
+      {
+        "claim": "Elak Health supports X12 transaction sets for electronic data interchange in healthcare.",
+        "url": "https://www.elakhealth.org/edi-guides"
+      },
+      {
+        "claim": "Reports suggest Elak Health employs HL7 protocols for data exchange in healthcare applications.",
+        "url": "https://www.elakhealth.org/health-tech-initiative"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 and HIPAA indicates relevance for API-first data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transactions processing",
+      "Claim submissions",
+      "Eligibility verification",
+      "Remittance information exchange"
+    ]
+  }
+}

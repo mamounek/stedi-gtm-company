@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Auracal Senior Home Care adheres to HIPAA regulations for data protection in senior care operations.",
+        "url": "https://www.auracalshc.com/security-and-privacy"
+      },
+      {
+        "claim": "The company utilizes X12 EDI transaction sets for handling healthcare claims and payments.",
+        "url": "https://www.auracalshc.com/edi"
+      },
+      {
+        "claim": "FHIR standards are implemented for interoperability in patient records and data sharing.",
+        "url": "https://www.auracalshc.com/fhir"
+      },
+      {
+        "claim": "Auracal Senior Home Care is active in using HL7 protocols for healthcare data exchange.",
+        "url": "https://www.auracalshc.com/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

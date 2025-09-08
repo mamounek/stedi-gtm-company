@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Heroku"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful API"
+    ],
+    "evidence": [
+      {
+        "claim": "Allset utilizes AWS for cloud infrastructure.",
+        "url": "https://tryallset.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform complies with HIPAA standards for data security.",
+        "url": "https://tryallset.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration available through FHIR standards for healthcare data exchange.",
+        "url": "https://tryallset.com/developer/fhir-integration"
+      },
+      {
+        "claim": "Allset employs RESTful APIs for service integration.",
+        "url": "https://tryallset.com/docs/api-reference"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found suggesting they handle X12 transactions or operate as a clearinghouse.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

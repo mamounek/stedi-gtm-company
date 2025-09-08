@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EHR Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "The organization utilizes AWS for cloud services and data storage.",
+        "url": "https://greenstaffhomecare.com/developer"
+      },
+      {
+        "claim": "Greenstaff Homecare complies with HIPAA regulations for handling health data.",
+        "url": "https://greenstaffhomecare.com/security"
+      },
+      {
+        "claim": "FHIR and HL7 standards are mentioned in their integration documentation.",
+        "url": "https://greenstaffhomecare.com/docs"
+      },
+      {
+        "claim": "The company implements X12 formats for electronic data interchange.",
+        "url": "https://greenstaffhomecare.com/case-study"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with HIPAA and X12 standards for healthcare data transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Eligibility verification (270/271)",
+      "Claims submission and remittance (837/835)",
+      "Provider-payer data exchange"
+    ]
+  }
+}

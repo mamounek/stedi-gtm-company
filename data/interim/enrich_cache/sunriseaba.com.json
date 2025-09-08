@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant protocols",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Webhook Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Sunrise ABA utilizes Amazon S3 for secure data storage compliant with HIPAA standards.",
+        "url": "https://sunriseaba.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR APIs for health data exchange between systems.",
+        "url": "https://sunriseaba.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with third-party EHRs via RESTful APIs is a key feature.",
+        "url": "https://sunriseaba.com/careers/engineering"
+      },
+      {
+        "claim": "They leverage AWS Lambda for serverless application components processing healthcare data.",
+        "url": "https://sunriseaba.com/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 or related data exchange use cases.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

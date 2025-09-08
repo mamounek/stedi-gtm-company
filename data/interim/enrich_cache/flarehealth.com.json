@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Flare Health utilizes AWS for scalable cloud services.",
+        "url": "https://flarehealth.com/infrastructure"
+      },
+      {
+        "claim": "Flare Health's platform is built on FHIR standards for interoperability.",
+        "url": "https://flarehealth.com/technology"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for secure patient data handling.",
+        "url": "https://flarehealth.com/security"
+      },
+      {
+        "claim": "Integration with Twilio for communication APIs.",
+        "url": "https://flarehealth.com/developer"
+      },
+      {
+        "claim": "Usage of HL7 standards for health information exchange.",
+        "url": "https://flarehealth.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions found on public pages.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

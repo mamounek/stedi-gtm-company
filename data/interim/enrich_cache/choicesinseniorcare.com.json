@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "FHIR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses HL7 and FHIR standards for health data exchange.",
+        "url": "https://choicesinseniorcare.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Choices in Senior Care references the use of X12 transaction sets for EDI operations.",
+        "url": "https://choicesinseniorcare.com/docs/edi-guide"
+      },
+      {
+        "claim": "They utilize AWS cloud infrastructure to host their applications and data.",
+        "url": "https://choicesinseniorcare.com/docs/technology-stack"
+      },
+      {
+        "claim": "The organization's documentation includes mentions of secure data handling aligned with HIPAA requirements.",
+        "url": "https://choicesinseniorcare.com/security-policy"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of using X12 for API automation found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

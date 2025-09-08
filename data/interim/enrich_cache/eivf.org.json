@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "eIVF utilizes FHIR standards for data interoperability.",
+        "url": "https://eivf.org/fhir-standards"
+      },
+      {
+        "claim": "The platform supports EHR integration for seamless electronic health record management.",
+        "url": "https://eivf.org/ehr-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is a key focus of eIVF's services.",
+        "url": "https://eivf.org/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for X12 transactions or EDI use cases on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

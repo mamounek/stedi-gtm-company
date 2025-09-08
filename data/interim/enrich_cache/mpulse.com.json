@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "NCPDP"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Webhook-based notifications",
+      "HL7 message exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "mPulse leverages AWS services such as Lambda and S3 for scalable processing and data storage.",
+        "url": "https://mpulse.com/technology"
+      },
+      {
+        "claim": "The platform is built to support healthcare standards like FHIR and HL7 for data interoperability.",
+        "url": "https://mpulse.com/solutions/healthcare-integration"
+      },
+      {
+        "claim": "mPulse's communication and engagement services utilize Twilio API for messaging.",
+        "url": "https://mpulse.com/features/communication-tools"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes multiple health data exchange standards and patterns relevant to X12 transactions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims management",
+      "eligibility verification",
+      "remittance processing",
+      "data exchange with payers",
+      "provider and payer integration"
+    ]
+  }
+}

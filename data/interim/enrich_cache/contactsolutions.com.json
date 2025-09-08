@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Functions",
+      "Azure App Services"
+    ],
+    "health_tech": [
+      "HIPAA compliant handling",
+      "HL7 V2.6",
+      "EDI X12 270/271",
+      "FHIR R4"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook notifications",
+      "Message queues using Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Company utilizes AWS for cloud infrastructure and service functions.",
+        "url": "https://contactsolutions.com/developer"
+      },
+      {
+        "claim": "Contact Solutions complies with HIPAA regulations in data handling and processing.",
+        "url": "https://contactsolutions.com/security"
+      },
+      {
+        "claim": "Integration with healthcare systems is facilitated using HL7 and FHIR standards.",
+        "url": "https://contactsolutions.com/docs/health-tech-docs"
+      },
+      {
+        "claim": "The company's APIs can handle EDI transaction sets including X12.",
+        "url": "https://contactsolutions.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on EDI X12 transactions in healthcare, relevant tech and use cases found.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Health data exchange"
+    ]
+  }
+}

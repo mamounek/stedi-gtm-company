@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Adelphi Staffing uses AWS for cloud services.",
+        "url": "https://www.adelphistaffing.com/about-us"
+      },
+      {
+        "claim": "The company implements HIPAA compliance in their data handling processes.",
+        "url": "https://www.adelphistaffing.com/compliance"
+      },
+      {
+        "claim": "Adelphi Staffing focuses on secure data management practices in human resources.",
+        "url": "https://www.adelphistaffing.com/security"
+      },
+      {
+        "claim": "Information on the types of data processed suggests potential EDI usage, although specific transaction sets are not detailed on their site.",
+        "url": "https://www.adelphistaffing.com/blog"
+      },
+      {
+        "claim": "No specific FHIR or HL7 implementations were found in the provided documentation, indicating a potential gap in health-tech integrations.",
+        "url": "https://www.adelphistaffing.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or clearinghouse activities.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

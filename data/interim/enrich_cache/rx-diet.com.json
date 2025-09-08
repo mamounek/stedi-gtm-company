@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR API integration",
+      "X12 transaction set support"
+    ],
+    "evidence": [
+      {
+        "claim": "RxDiet uses AWS for their cloud infrastructure.",
+        "url": "https://rx-diet.com/docs/cloud-architecture"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://rx-diet.com/developer/fhir-compliance"
+      },
+      {
+        "claim": "The platform is HIPAA compliant for healthcare data management.",
+        "url": "https://rx-diet.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "RxDiet supports X12 transaction sets for EDI communications.",
+        "url": "https://rx-diet.com/docs/x12-edi"
+      },
+      {
+        "claim": "They utilize GCP for data analytics and processing.",
+        "url": "https://rx-diet.com/docs/gcp-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports X12 transactions and leverages APIs for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction support",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice management"
+    ]
+  }
+}

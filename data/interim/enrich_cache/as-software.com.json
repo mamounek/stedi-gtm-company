@@ -1,0 +1,60 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka",
+      "dbt",
+      "Apache Airflow"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "Event Streaming",
+      "Data Pipeline",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "AS Software employs AWS and Azure for their cloud infrastructure.",
+        "url": "https://www.as-software.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company integrates FHIR for healthcare data interoperability.",
+        "url": "https://www.as-software.com/api/fhir-services"
+      },
+      {
+        "claim": "AS Software utilizes Apache Kafka for streaming data.",
+        "url": "https://www.as-software.com/docs/streaming-services"
+      },
+      {
+        "claim": "They support X12 EDI standards for transaction processing.",
+        "url": "https://www.as-software.com/edi/x12-support"
+      },
+      {
+        "claim": "AS Software is HIPAA compliant for their data handling practices.",
+        "url": "https://www.as-software.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Tech stack and focus on health tech indicate relevant use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction handling",
+      "EDI processing",
+      "Payer and provider eligibility checks",
+      "Claims submission and remittance processing"
+    ]
+  }
+}

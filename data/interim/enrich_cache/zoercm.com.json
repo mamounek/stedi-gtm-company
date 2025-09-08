@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "dbt",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "ZOE RCM utilizes AWS for cloud infrastructure management.",
+        "url": "https://zoercm.com/about"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for handling patient data.",
+        "url": "https://zoercm.com/security"
+      },
+      {
+        "claim": "ZOE RCM integrates with EHR systems using FHIR standards.",
+        "url": "https://zoercm.com/developer"
+      },
+      {
+        "claim": "The use of Kafka indicates a focus on real-time data processing and integration.",
+        "url": "https://zoercm.com/tech"
+      },
+      {
+        "claim": "ZOE RCM employs dbt for its data transformation processes.",
+        "url": "https://zoercm.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange with EDI/X12 integration capabilities.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "EDI processing",
+      "Claim submissions",
+      "Eligibility checks",
+      "Remittance processing",
+      "Healthcare data integration"
+    ]
+  }
+}

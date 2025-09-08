@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI transactions",
+      "FHIR API",
+      "HL7 Messaging"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Asynchronous messaging with AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Ride Health utilizes AWS for cloud infrastructure, ensuring scalability and security.",
+        "url": "https://ridehealth.com/careers/"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its operations and data handling.",
+        "url": "https://ridehealth.com/security/"
+      },
+      {
+        "claim": "Ride Health employs FHIR standards for interoperability in health data exchange.",
+        "url": "https://ridehealth.com/docs/"
+      },
+      {
+        "claim": "Integration with EHRs is a key feature of Ride Health’s platform, including support for X12 transactions.",
+        "url": "https://ridehealth.com/integration/"
+      },
+      {
+        "claim": "Ride Health's architecture supports real-time data processing using AWS services.",
+        "url": "https://ridehealth.com/technology/"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Ride Health processes healthcare data, indicating use of X12 transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Payer-provider communication"
+    ]
+  }
+}

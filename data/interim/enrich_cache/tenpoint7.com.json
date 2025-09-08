@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI Integration with X12 standards",
+      "FHIR APIs for health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "TenPoint7 utilizes AWS for its cloud infrastructure.",
+        "url": "https://tenpoint7.com/about"
+      },
+      {
+        "claim": "The company implements FHIR for healthcare data interoperability.",
+        "url": "https://tenpoint7.com/developer/docs"
+      },
+      {
+        "claim": "They employ Snowflake for data management and analytics.",
+        "url": "https://tenpoint7.com/careers"
+      },
+      {
+        "claim": "TenPoint7 supports X12 transaction sets for electronic data interchange.",
+        "url": "https://tenpoint7.com/security"
+      },
+      {
+        "claim": "Kafka is used for real-time data streaming in their architecture.",
+        "url": "https://tenpoint7.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers EDI integration and uses X12 for healthcare data exchange, targeting providers and payers.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI Integration with X12 standards",
+      "Claims processing using X12",
+      "Eligibility verification with 270/271",
+      "Remittance advice using 835",
+      "Data exchange with healthcare providers using FHIR APIs"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "HashiCorp Terraform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction set support",
+      "FHIR resources implementation"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks for data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Activate Care utilizes AWS for its cloud infrastructure.",
+        "url": "https://activatecare.com/#tech"
+      },
+      {
+        "claim": "The company mentions adherence to HIPAA standards for data security.",
+        "url": "https://activatecare.com/security"
+      },
+      {
+        "claim": "Activate Care integrates with EHR systems using FHIR standards.",
+        "url": "https://activatecare.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports HIPAA X12 transactions and API automation, indicating a fit for healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837 claims submission",
+      "835 remittance advice"
+    ]
+  }
+}

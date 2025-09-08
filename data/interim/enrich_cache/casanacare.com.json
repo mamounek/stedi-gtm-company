@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Casana's infrastructure utilizes AWS for cloud services.",
+        "url": "https://www.casanacare.com/about"
+      },
+      {
+        "claim": "Casana's health tracking system is built on FHIR standards for seamless integration with health records.",
+        "url": "https://www.casanacare.com/technology"
+      },
+      {
+        "claim": "The company mentions using HL7 for health data exchange on their developer pages.",
+        "url": "https://www.casanacare.com/developer"
+      },
+      {
+        "claim": "They reference EDI transactions for healthcare compliance within their operations.",
+        "url": "https://www.casanacare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or relevant use cases on the website.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

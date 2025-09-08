@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "MedPage Today implements health information standards such as FHIR and HL7 for interoperability.",
+        "url": "https://medpagetoday.biz/health-tech-standards"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring the security of health information.",
+        "url": "https://www.medpagetoday.com/legal-regulatory/healthcare-law-pages/hipaa-compliance"
+      },
+      {
+        "claim": "MedPage Today employs digital infrastructure that adheres to health-tech rail requirements.",
+        "url": "https://medpagetoday.biz/security-and-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or EDI clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

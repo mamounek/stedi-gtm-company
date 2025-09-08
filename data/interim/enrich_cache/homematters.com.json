@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud-Based Applications"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Matters uses AWS cloud services for scalable infrastructure.",
+        "url": "https://homematters.com/developer/aws-usage"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards in its operations.",
+        "url": "https://homematters.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems supports FHIR and HL7 standards.",
+        "url": "https://homematters.com/docs/integration/healthtech"
+      },
+      {
+        "claim": "Home Matters leverages Azure for its data management needs.",
+        "url": "https://homematters.com/infrastructure/cloud-services"
+      },
+      {
+        "claim": "Claims processing includes support for X12 transaction sets.",
+        "url": "https://homematters.com/security/edi-claims-processing"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of use cases for X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

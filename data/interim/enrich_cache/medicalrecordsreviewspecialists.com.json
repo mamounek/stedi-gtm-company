@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company complies with HIPAA regulations to secure patient information.",
+        "url": "https://medicalrecordsreviewspecialists.com/compliance"
+      },
+      {
+        "claim": "Uses X12 EDI formats for transaction processing related to medical records.",
+        "url": "https://medicalrecordsreviewspecialists.com/services#edi"
+      },
+      {
+        "claim": "Engages with FHIR standards for data exchange in healthcare services.",
+        "url": "https://medicalrecordsreviewspecialists.com/health-standards"
+      },
+      {
+        "claim": "Works with HL7 messaging protocols for health information exchange.",
+        "url": "https://medicalrecordsreviewspecialists.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 EDI transactions or acting as a clearinghouse.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

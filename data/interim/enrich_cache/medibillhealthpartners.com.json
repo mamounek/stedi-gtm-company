@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message queues"
+    ],
+    "evidence": [
+      {
+        "claim": "MediBill Health Partners utilizes AWS for serverless architecture.",
+        "url": "https://medibillhealthpartners.com/docs/aws-integration"
+      },
+      {
+        "claim": "They comply with HIPAA regulations for handling health information securely.",
+        "url": "https://medibillhealthpartners.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is part of their EDI solutions.",
+        "url": "https://medibillhealthpartners.com/docs/edi"
+      },
+      {
+        "claim": "MediBill implements FHIR standards for interoperability in health data exchange.",
+        "url": "https://medibillhealthpartners.com/docs/fhir"
+      },
+      {
+        "claim": "Utilizes RESTful APIs for data retrieval and transaction processing.",
+        "url": "https://medibillhealthpartners.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They utilize HIPAA X12 transactions for healthcare claims processing and eligibility verification.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "X12 transaction handling",
+      "clearinghouse services"
+    ]
+  }
+}

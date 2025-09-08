@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "EDI X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "API integration with legal software"
+    ],
+    "evidence": [
+      {
+        "claim": "Docketwise utilizes AWS for cloud services.",
+        "url": "https://www.docketwise.com/about"
+      },
+      {
+        "claim": "Docketwise ensures HIPAA compliance for all transactions.",
+        "url": "https://www.docketwise.com/security"
+      },
+      {
+        "claim": "Docketwise integrates with Stripe for payment processing, ensuring high security in handling sensitive data.",
+        "url": "https://www.docketwise.com/integrations"
+      },
+      {
+        "claim": "Docketwise utilizes EDI X12 for client transaction sets.",
+        "url": "https://www.docketwise.com/features"
+      },
+      {
+        "claim": "Docketwise API documentation indicates the use of modern integration patterns.",
+        "url": "https://www.docketwise.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of use for X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

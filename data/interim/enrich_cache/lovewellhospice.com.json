@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific HIPAA compliance documentation or health-tech integrations found on the official website.",
+        "url": "https://lovewellhospice.com"
+      },
+      {
+        "claim": "No technical APIs or cloud infrastructure details available in the developer or career sections.",
+        "url": "https://lovewellhospice.com/careers"
+      },
+      {
+        "claim": "Lack of references to major health data standards like FHIR or HL7 on public-facing documentation.",
+        "url": "https://lovewellhospice.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 use cases or API automation relevance.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

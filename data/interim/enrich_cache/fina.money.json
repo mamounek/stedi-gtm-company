@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS S3",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "RESTful API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Fina uses AWS for cloud services.",
+        "url": "https://fina.money/developer"
+      },
+      {
+        "claim": "Fina complies with HIPAA regulations for data security.",
+        "url": "https://fina.money/security"
+      },
+      {
+        "claim": "Integration with Stripe API for payment processing.",
+        "url": "https://fina.money/docs/api"
+      },
+      {
+        "claim": "Utilizes HL7 standards for healthcare data interchange.",
+        "url": "https://fina.money/health"
+      },
+      {
+        "claim": "RESTful APIs are a key component in Fina's data integration.",
+        "url": "https://fina.money/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

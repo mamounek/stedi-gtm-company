@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance practices",
+      "FHIR APIs for patient data exchange"
+    ],
+    "integration_patterns": [
+      "API integrations for EHR systems",
+      "Streaming data integration using FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "Company mentions FHIR standards for health records interchange.",
+        "url": "https://pchh.net/healthcare-services"
+      },
+      {
+        "claim": "Putnam County HomeCare & Hospice emphasizes HIPAA compliance in their infrastructure.",
+        "url": "https://pchh.net/about-us/security"
+      },
+      {
+        "claim": "Integration patterns with EHRs noted in collaboration documents",
+        "url": "https://pchh.net/services/ehr-integration"
+      },
+      {
+        "claim": "References to using cloud-based platforms for patient care management.",
+        "url": "https://pchh.net/technology/cloud-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction usage or interest in a clearinghouse for automated APIs.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

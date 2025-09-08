@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliant standards",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "REST APIs for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Liberty Liens utilizes AWS for cloud services to ensure scalable architecture.",
+        "url": "https://libertyliens.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company is HIPAA compliant, indicating adherence to health information standards.",
+        "url": "https://libertyliens.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through a REST API framework.",
+        "url": "https://libertyliens.com/developer/docs/ehr-api"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Liberty Liens operates in healthcare billing with EDI and X12 transactions, supporting payer and provider connections.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Payer and provider EDI communications",
+      "Claim submissions and remittance processing",
+      "Eligibility checks using 270/271"
+    ]
+  }
+}

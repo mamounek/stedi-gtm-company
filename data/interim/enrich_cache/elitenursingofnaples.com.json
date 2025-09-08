@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No visible APIs or cloud services identified on the Elite Concierge Nursing Services website.",
+        "url": "https://elitenursingofnaples.com"
+      },
+      {
+        "claim": "The website does not explicitly mention any health-tech standards such as HIPAA, X12, or FHIR.",
+        "url": "https://elitenursingofnaples.com"
+      },
+      {
+        "claim": "No references to specific integration patterns or middleware are available on public pages.",
+        "url": "https://elitenursingofnaples.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API-based healthcare data exchange on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

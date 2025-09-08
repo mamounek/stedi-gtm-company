@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Abundant Medical Solutions emphasizes compliance with HIPAA regulations.",
+        "url": "https://abundantmedicalstaffing.com/hipaa-compliance-guidelines/"
+      },
+      {
+        "claim": "The company offers healthcare staffing services and focuses on data security related to patient information.",
+        "url": "https://abundantmedicalstaffing.com/security-practices/"
+      },
+      {
+        "claim": "Career pages suggest a focus on integrating healthcare data solutions, although no specific EHR or FHIR APIs are mentioned directly.",
+        "url": "https://abundantmedicalstaffing.com/careers/"
+      },
+      {
+        "claim": "Company conducts workforce solutions using various cloud infrastructures but does not specify particular technologies.",
+        "url": "https://abundantmedicalstaffing.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of use cases involving X12 transactions or clearinghouse functions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

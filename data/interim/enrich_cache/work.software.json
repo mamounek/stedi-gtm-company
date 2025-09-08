@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Webhook-based Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Work.software utilizes AWS for cloud services, ensuring scalability and reliability.",
+        "url": "https://work.software/docs/cloud-services"
+      },
+      {
+        "claim": "The platform supports FHIR for health data interoperability.",
+        "url": "https://work.software/docs/fhir-support"
+      },
+      {
+        "claim": "Integration with Snowflake for data warehousing solutions is apparently a key feature.",
+        "url": "https://work.software/docs/snowflake-integration"
+      },
+      {
+        "claim": "Work.software discusses API integration patterns extensively in their documentation.",
+        "url": "https://work.software/docs/api-integration"
+      },
+      {
+        "claim": "HL7 standards are mentioned in the context of data exchange for healthcare applications.",
+        "url": "https://work.software/docs/hl7-support"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in X12 or clearinghouse activities found on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

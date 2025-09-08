@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant systems",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "REST APIs for EHR integration",
+      "Event-driven architecture using Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Alva Solutions utilizes AWS for their cloud infrastructure.",
+        "url": "https://alva.solutions/docs/aws-integration"
+      },
+      {
+        "claim": "Healthcare applications meet HIPAA compliance standards in their development.",
+        "url": "https://alva.solutions/security/hipaa"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://alva.solutions/healthtech/fhir-compliance"
+      },
+      {
+        "claim": "They use Kafka for data streaming integrations with healthcare systems.",
+        "url": "https://alva.solutions/docs/integration/kafka"
+      },
+      {
+        "claim": "REST APIs are developed for EHR systems integration.",
+        "url": "https://alva.solutions/docs/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling or clearinghouse features found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

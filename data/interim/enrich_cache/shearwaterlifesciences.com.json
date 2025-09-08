@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Amazon EC2",
+      "Amazon Redshift"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Microservices architecture",
+      "API-centric integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Shearwater Health utilizes AWS for their cloud infrastructure.",
+        "url": "https://shearwaterlifesciences.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They support FHIR standards for healthcare interoperability.",
+        "url": "https://shearwaterlifesciences.com/healthcare-interoperability"
+      },
+      {
+        "claim": "The company implements microservices architecture for their health tech solutions.",
+        "url": "https://shearwaterlifesciences.com/technology"
+      },
+      {
+        "claim": "Shearwater Health adheres to HIPAA compliance in their product offerings.",
+        "url": "https://shearwaterlifesciences.com/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or a clearinghouse role found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

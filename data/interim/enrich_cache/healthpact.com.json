@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Middleware Solutions"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthPact utilizes AWS cloud services for hosting and data management.",
+        "url": "https://healthpact.com/docs/aws"
+      },
+      {
+        "claim": "The company follows HIPAA compliance for handling patient data securely.",
+        "url": "https://healthpact.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "HealthPact supports FHIR standards for interoperability in health data exchange.",
+        "url": "https://healthpact.com/docs/fhir"
+      },
+      {
+        "claim": "Integration with various EHR systems is achieved through standardized transaction sets like X12.",
+        "url": "https://healthpact.com/integration/ehr"
+      },
+      {
+        "claim": "Utilization of Azure for enhanced data analytics capabilities.",
+        "url": "https://healthpact.com/docs/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates with X12 and API integration, indicating alignment with target ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Eligibility verification (270/271)",
+      "Claim submission and processing (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

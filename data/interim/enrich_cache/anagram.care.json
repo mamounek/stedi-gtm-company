@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Anagram emphasizes compliance with HIPAA regulations for handling health information.",
+        "url": "https://anagram.care/security"
+      },
+      {
+        "claim": "The company supports various health transactions, including X12 EDI formats, crucial for healthcare interoperability.",
+        "url": "https://anagram.care/docs/integrations"
+      },
+      {
+        "claim": "Anagram leverages FHIR standards for health data exchange, enhancing interoperability with EHRs.",
+        "url": "https://anagram.care/developer/fhir"
+      },
+      {
+        "claim": "The API documentation mentions support for HL7 standards for data sharing and exchange.",
+        "url": "https://anagram.care/api/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Anagram has capabilities for HIPAA-compliant data exchange and mentions using X12 formats.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 transaction support",
+      "Claims processing automation",
+      "Eligibility verification",
+      "Remittance processing"
+    ]
+  }
+}

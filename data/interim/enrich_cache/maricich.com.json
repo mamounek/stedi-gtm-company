@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Maricich Health uses HIPAA compliant tools for data handling.",
+        "url": "https://maricich.com/security-and-privacy/"
+      },
+      {
+        "claim": "The company emphasizes interoperability with FHIR protocols.",
+        "url": "https://maricich.com/healthcare-solutions/"
+      },
+      {
+        "claim": "Maricich has expertise in HL7 standards for health information exchange.",
+        "url": "https://maricich.com/healthcare-innovation/"
+      },
+      {
+        "claim": "Cloud-based infrastructure is powered by AWS and Azure.",
+        "url": "https://maricich.com/technology-platforms/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or relevant EDI use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

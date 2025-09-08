@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "Google Cloud Services"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "ADT Transactions",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Batch processing with EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Universal Health Corporation utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://uhealthpro.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company supports FHIR standards for interoperability with various EHR systems.",
+        "url": "https://uhealthpro.com/developer/fhir-support"
+      },
+      {
+        "claim": "Universal Health Corporation implements HL7 messaging protocols for seamless health data exchange.",
+        "url": "https://uhealthpro.com/docs/hl7-messaging"
+      },
+      {
+        "claim": "They have a detailed approach to handling X12 EDI transactions for billing and insurance communications.",
+        "url": "https://uhealthpro.com/security/edi-x12-strategy"
+      },
+      {
+        "claim": "The use of Google Cloud for data analytics is documented for health data management.",
+        "url": "https://uhealthpro.com/engineering/google-cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for healthcare transactions alongside API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "837 Claims Submission",
+      "835 Remittance Processing",
+      "276/277 Claim Status Inquiry",
+      "278 Prior Authorization Requests"
+    ]
+  }
+}

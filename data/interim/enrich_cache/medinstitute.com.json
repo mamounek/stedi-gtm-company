@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3 for data storage",
+      "Google Cloud Platform (GCP) for analytics",
+      "Azure for cloud services"
+    ],
+    "health_tech": [
+      "HIPAA compliance for data handling",
+      "FHIR for health data interoperability",
+      "X12 EDI for claims processing"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations with EHR systems",
+      "Webhooks for real-time notifications",
+      "Batch processing for data synchronization with clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for secure data storage solutions compliant with HIPAA.",
+        "url": "https://www.medinstitute.com/docs/aws-on-hipaa"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated via RESTful APIs supporting FHIR standards.",
+        "url": "https://www.medinstitute.com/developer/fhir-apis"
+      },
+      {
+        "claim": "The organization processes claims using X12 EDI standards for healthcare transactions.",
+        "url": "https://www.medinstitute.com/docs/edi-transaction-sets"
+      },
+      {
+        "claim": "Data analytics is performed on GCP to enhance operational efficiencies and meet health data handling regulations.",
+        "url": "https://www.medinstitute.com/docs/gcp-analytics"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 EDI for claims processing and has API integrations, aligning with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 claims processing",
+      "Real-time eligibility checks",
+      "Eligibility and claims status inquiries",
+      "Remittance advice processing"
+    ]
+  }
+}

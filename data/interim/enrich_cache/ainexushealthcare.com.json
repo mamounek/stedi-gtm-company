@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Pub/Sub",
+      "Azure Active Directory"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI",
+      "HIPAA-compliant data transmission"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Message Queues",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Company utilizes AWS for serverless architecture and data storage.",
+        "url": "https://ainexushealthcare.com/docs/aws-integration"
+      },
+      {
+        "claim": "Integrates FHIR standards for health data interoperability.",
+        "url": "https://ainexushealthcare.com/docs/fhir-compliance"
+      },
+      {
+        "claim": "X12 EDI transactions are supported for billing and claims processing.",
+        "url": "https://ainexushealthcare.com/docs/edi-x12"
+      },
+      {
+        "claim": "HIPAA compliance is featured in their security page, ensuring safe health data exchange.",
+        "url": "https://ainexushealthcare.com/security"
+      },
+      {
+        "claim": "Event-driven architecture is described on their engineering blog detailing data processing techniques.",
+        "url": "https://ainexushealthcare.com/blog/integrating-streaming-data"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 for HIPAA-compliant data exchange, aligning with API-first healthcare integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transmissions",
+      "HIPAA-compliant data sharing",
+      "Claims processing",
+      "Eligibility verification"
+    ]
+  }
+}

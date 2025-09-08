@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Juniper Unmanned leverages AWS cloud infrastructure for data storage and processing.",
+        "url": "https://juniperunmanned.com/platform/"
+      }
+    ],
+    "tech_stack_confidence": 0.34
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

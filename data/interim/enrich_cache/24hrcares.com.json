@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3",
+      "Azure App Services"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API for patient data",
+      "HL7 V2.5.1 for EHR integration",
+      "X12 EDI 835 transaction set for payment processing"
+    ],
+    "integration_patterns": [
+      "API Gateway for secure endpoint management",
+      "Event-driven architecture using AWS SNS",
+      "Serverless functions for data processing",
+      "Data synchronization with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS for scalable cloud services.",
+        "url": "https://24hrcares.com/about/#infrastructure"
+      },
+      {
+        "claim": "Their platform integrates with EHRs using HL7 and FHIR standards for data exchange.",
+        "url": "https://24hrcares.com/developer/api-docs"
+      },
+      {
+        "claim": "They have an API for secure patient data handling compliant with HIPAA.",
+        "url": "https://24hrcares.com/security/compliance"
+      },
+      {
+        "claim": "Job postings indicate a need for expertise in FHIR and integration middleware for healthcare applications.",
+        "url": "https://24hrcares.com/careers/#engineering"
+      },
+      {
+        "claim": "X12 transaction sets mentioned in billing process documentation.",
+        "url": "https://24hrcares.com/docs/billing/#X12"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI for payment processing and integrates with healthcare systems, indicating strong ICP fit.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI 835 for payment processing",
+      "X12 EDI 837 for claims submission",
+      "Eligibility verification via X12 transactions",
+      "Integration with payer providers for remittance processing"
+    ]
+  }
+}

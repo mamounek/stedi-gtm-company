@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "PostgreSQL",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Era Life Care employs AWS for their cloud infrastructure.",
+        "url": "https://eralifecare.com/platform"
+      },
+      {
+        "claim": "The company utilizes PostgreSQL as their primary database.",
+        "url": "https://eralifecare.com/docs/database_overview"
+      },
+      {
+        "claim": "Their health technology offerings comply with HIPAA regulations.",
+        "url": "https://eralifecare.com/security/compliance"
+      },
+      {
+        "claim": "They integrate with Twilio for secure communications.",
+        "url": "https://eralifecare.com/docs/integrations"
+      },
+      {
+        "claim": "Contact transaction sets used include X12 and FHIR for interoperability.",
+        "url": "https://eralifecare.com/docs/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Era Life Care operates in healthcare tech with X12 integration, indicating ICP potential.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

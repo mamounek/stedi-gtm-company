@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance frameworks"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Guardian Home Care adheres to HIPAA compliance standards",
+        "url": "https://guardianservices.org/healthcare-compliance"
+      },
+      {
+        "claim": "The company utilizes secure methods to manage patient data and includes EHR systems",
+        "url": "https://guardianservices.org/about-us"
+      },
+      {
+        "claim": "Backend infrastructure is oriented towards healthcare applications, hinting at some form of integration with health data standards.",
+        "url": "https://guardianservices.org/healthcare-partners"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction use or interest in healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

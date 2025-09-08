@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company addresses HIPAA compliance in its operations.",
+        "url": "https://homeinccare.com/security"
+      },
+      {
+        "claim": "HOME, INC. offers services that utilize EHR systems to maintain compliance with health regulations.",
+        "url": "https://homeinccare.com/docs"
+      },
+      {
+        "claim": "Job postings indicate a focus on engineering roles with an emphasis on secure data handling in a healthcare setting.",
+        "url": "https://homeinccare.com/careers/engineering"
+      },
+      {
+        "claim": "The site discusses mechanisms for data protection and patient privacy, adhering to industry standards.",
+        "url": "https://homeinccare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or API automation use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

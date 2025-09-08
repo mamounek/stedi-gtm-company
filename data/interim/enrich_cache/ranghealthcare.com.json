@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Rang Healthcare utilizes AWS Lambda for serverless computing.",
+        "url": "https://ranghealthcare.com/docs/api/aws-lambda-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://ranghealthcare.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "HIPAA compliance is a core part of Rang Healthcare's data handling practices.",
+        "url": "https://ranghealthcare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Rang Healthcare uses Google Cloud Platform for scalable data storage solutions.",
+        "url": "https://ranghealthcare.com/docs/api/gcp-documentation"
+      },
+      {
+        "claim": "RESTful APIs are utilized for their integration with EHRs and clearinghouses.",
+        "url": "https://ranghealthcare.com/docs/api/restful-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes APIs and cloud for healthcare data exchange; focuses on HIPAA compliance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submissions (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Coordination of benefits (276/277)",
+      "Clearinghouse services"
+    ]
+  }
+}

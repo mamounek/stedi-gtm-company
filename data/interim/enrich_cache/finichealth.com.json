@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Google Cloud Pub/Sub",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "ADTs (Admission, Discharge, Transfer messages)",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "RESTful APIs",
+      "Webhook integrations",
+      "Batch processing using AWS Step Functions"
+    ],
+    "evidence": [
+      {
+        "claim": "FinicHealth utilizes AWS for cloud infrastructure including Lambda and S3 services.",
+        "url": "https://finichealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "FinicHealth supports FHIR standards for health data interoperability.",
+        "url": "https://finichealth.com/developer/fhir-support"
+      },
+      {
+        "claim": "The company mentions X12 standards in their healthcare transaction services.",
+        "url": "https://finichealth.com/docs/x12-services"
+      },
+      {
+        "claim": "Integration with EHR systems is highlighted in their API documentation.",
+        "url": "https://finichealth.com/docs/integrations/ehr-support"
+      },
+      {
+        "claim": "Event-driven architecture is part of their integration strategy for processing health data.",
+        "url": "https://finichealth.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of actively sending/receiving X12 transactions or value API automation for healthcare.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

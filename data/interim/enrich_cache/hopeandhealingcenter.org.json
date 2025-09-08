@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliant Practices",
+      "FHIR Implementation"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The organization adheres to HIPAA compliance for health information management.",
+        "url": "https://hopeandhealingcenter.org/about/health-information-privacy/"
+      },
+      {
+        "claim": "The center utilizes FHIR standards for health data interoperability.",
+        "url": "https://hopeandhealingcenter.org/clinical-practice-standards/fhir-implementation/"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of using X12 or APIs for healthcare data exchanges found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

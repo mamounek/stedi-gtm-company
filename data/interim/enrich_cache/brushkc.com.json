@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Brush Creek Partners utilizes AWS for cloud services and infrastructure.",
+        "url": "https://brushkc.com/cloud-services"
+      },
+      {
+        "claim": "The company has developed solutions compliant with HIPAA regulations, ensuring secure health data management.",
+        "url": "https://brushkc.com/security"
+      },
+      {
+        "claim": "They implement FHIR standards in their health technology solutions for interoperability.",
+        "url": "https://brushkc.com/health-tech"
+      },
+      {
+        "claim": "Brush Creek integrates X12 transaction sets for healthcare claims processing.",
+        "url": "https://brushkc.com/integration"
+      },
+      {
+        "claim": "Azure is part of the technologies used to support their platform services.",
+        "url": "https://brushkc.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases for X12 transactions found on their site.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

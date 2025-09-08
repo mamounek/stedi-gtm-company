@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "FHIR API for health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Administration Advisors utilizes AWS for cloud services.",
+        "url": "https://healthadministrationadvisors.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards.",
+        "url": "https://healthadministrationadvisors.com/hipaa-compliance"
+      },
+      {
+        "claim": "They implement X12 EDI transactions for billing and claims processing.",
+        "url": "https://healthadministrationadvisors.com/edi"
+      },
+      {
+        "claim": "HL7 standards are applied for data integration and sharing.",
+        "url": "https://healthadministrationadvisors.com/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Identified use of X12 EDI transactions for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility inquiries (270/271)",
+      "Remittance advices (835)",
+      "Healthcare status inquiries (276/277)"
+    ]
+  }
+}

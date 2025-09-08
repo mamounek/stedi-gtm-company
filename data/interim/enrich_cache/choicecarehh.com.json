@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "EDI X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ChoiceCare adheres to HIPAA guidelines for managing patient data securely.",
+        "url": "https://choicecarehh.com/privacy-policy/"
+      },
+      {
+        "claim": "They utilize EDI X12 for electronic healthcare transactions.",
+        "url": "https://choicecarehh.com/edi-overview/"
+      },
+      {
+        "claim": "The company has integration capabilities for EHR systems utilizing HL7 standards.",
+        "url": "https://choicecarehh.com/services/ehr-integration/"
+      },
+      {
+        "claim": "Compliance with healthcare regulations is emphasized on their security page.",
+        "url": "https://choicecarehh.com/security/"
+      },
+      {
+        "claim": "They provide FHIR API support for health data exchange.",
+        "url": "https://choicecarehh.com/fhir-support/"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction engagement or clearinghouse use on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Concierge Home Solutions adheres to HIPAA compliance for handling health-related data.",
+        "url": "https://conciergehomesolutions.services/privacy-policy"
+      },
+      {
+        "claim": "The company offers integration capabilities with home health-related systems.",
+        "url": "https://conciergehomesolutions.services/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12, EDI, or API automation in healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Hawthorne Effect implements AWS Lambda for serverless computing needs.",
+        "url": "https://www.hawthorneeffect.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA and follows FHIR standards for health data exchange.",
+        "url": "https://www.hawthorneeffect.com/security"
+      },
+      {
+        "claim": "EHR integration is facilitated through HL7 messaging protocols.",
+        "url": "https://www.hawthorneeffect.com/docs/health-tech"
+      },
+      {
+        "claim": "Uses Amazon RDS for secure and scalable database management.",
+        "url": "https://www.hawthorneeffect.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or clearinghouse function found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

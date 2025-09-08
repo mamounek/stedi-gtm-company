@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "RRS Medical utilizes AWS services for cloud infrastructure.",
+        "url": "https://rrsmedical.com/technology"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare transactions.",
+        "url": "https://rrsmedical.com/healthcare-standards"
+      },
+      {
+        "claim": "RRS Medical is HIPAA compliant to ensure the secure handling of patient data.",
+        "url": "https://rrsmedical.com/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transaction handling or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

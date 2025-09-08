@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "APIs for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Ravkoo Health utilizes AWS for cloud services to support its platform.",
+        "url": "https://ravkoohealth.com/cloud-services-overview"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, ensuring patient data is securely managed.",
+        "url": "https://ravkoohealth.com/hipaa-compliance"
+      },
+      {
+        "claim": "Ravkoo Health supports X12 transaction sets necessary for healthcare data exchanges.",
+        "url": "https://ravkoohealth.com/x12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Ravkoo utilizes X12 transactions for healthcare data exchange, indicating API integration needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility checks",
+      "X12 837 for claim submissions",
+      "X12 835 for remittance processing",
+      "Clearinghouse for EDI transactions"
+    ]
+  }
+}

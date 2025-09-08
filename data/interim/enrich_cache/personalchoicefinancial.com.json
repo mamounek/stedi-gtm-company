@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company uses cloud-based infrastructure for financial services operations, but specifics are not outlined on the website.",
+        "url": "https://personalchoicefinancial.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.09
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in healthcare data exchange or X12 usage found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

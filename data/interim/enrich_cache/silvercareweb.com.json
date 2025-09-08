@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "SILVERcare utilizes AWS for their cloud infrastructure.",
+        "url": "https://silvercareweb.com/docs/aws-info"
+      },
+      {
+        "claim": "They have expertise in HIPAA compliance for handling sensitive information.",
+        "url": "https://silvercareweb.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company leverages HL7 and FHIR standards for healthcare data interchange.",
+        "url": "https://silvercareweb.com/developer/hl7-fhir"
+      },
+      {
+        "claim": "SILVERcare implements EDI X12 for billing and transaction processing.",
+        "url": "https://silvercareweb.com/docs/edi-x12"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses EDI X12 and APIs, indicating a strong fit for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiry",
+      "837 claim submissions",
+      "835 remittance processing",
+      "HIPAA-compliant data exchanges"
+    ]
+  }
+}

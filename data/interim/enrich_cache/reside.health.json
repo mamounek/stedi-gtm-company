@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Reside Health uses AWS API Gateway for serving RESTful APIs.",
+        "url": "https://reside.health/docs/api"
+      },
+      {
+        "claim": "Reside Health adheres to HIPAA standards in their technology stack for handling health information.",
+        "url": "https://reside.health/security"
+      },
+      {
+        "claim": "Integration patterns include the use of Webhooks for real-time data transfer.",
+        "url": "https://reside.health/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transaction handling or related use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

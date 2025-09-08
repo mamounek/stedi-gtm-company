@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "Healthcare Data Exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "True Billing Tech includes HIPAA compliance in their service offerings.",
+        "url": "https://truebillingtech.com/security"
+      },
+      {
+        "claim": "The integration capabilities mentioned in True Billing Tech's documentation include X12 transaction sets.",
+        "url": "https://truebillingtech.com/docs"
+      },
+      {
+        "claim": "They utilize FHIR standards for health data management and interoperability.",
+        "url": "https://truebillingtech.com/developer"
+      },
+      {
+        "claim": "True Billing Tech supports HL7 messaging protocols for healthcare applications.",
+        "url": "https://truebillingtech.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA X12 and EDI for healthcare data exchange indicates high relevance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI for healthcare transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice handling"
+    ]
+  }
+}

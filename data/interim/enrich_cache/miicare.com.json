@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS (Amazon Web Services)",
+      "Azure (Microsoft Azure)"
+    ],
+    "health_tech": [
+      "FHIR (Fast Healthcare Interoperability Resources)",
+      "HL7 (Health Level 7)"
+    ],
+    "integration_patterns": [
+      "Data integration with cloud storage",
+      "Healthcare data interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "MiiCare uses AWS for cloud infrastructure to enhance their healthcare solutions.",
+        "url": "https://miicare.com/developer/aws"
+      },
+      {
+        "claim": "The platform aligns with FHIR standards for healthcare data transmission.",
+        "url": "https://miicare.com/docs/fhir"
+      },
+      {
+        "claim": "MiiCare is compliant with HIPAA regulations ensuring patient data security.",
+        "url": "https://miicare.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHRs to streamline patient data management.",
+        "url": "https://miicare.com/api/ehr"
+      },
+      {
+        "claim": "Uses Azure for hosting and data processing capabilities.",
+        "url": "https://miicare.com/docs/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 or relevant EDI use cases found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Limo Health utilizes AWS services for cloud infrastructure.",
+        "url": "https://limohealth.com/aws-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for health data security.",
+        "url": "https://limohealth.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems follows HL7 standards.",
+        "url": "https://limohealth.com/integration/hl7"
+      },
+      {
+        "claim": "Limo Health employs RESTful APIs for data exchange between systems.",
+        "url": "https://limohealth.com/developer/rest-api"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse functionality on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

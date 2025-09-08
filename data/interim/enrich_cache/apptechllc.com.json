@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliant APIs",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook-based notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless computing tasks.",
+        "url": "https://apptechllc.com/developer/resources/aws-lambda-integration"
+      },
+      {
+        "claim": "App Tech's APIs are designed to be HIPAA compliant.",
+        "url": "https://apptechllc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR APIs for health data exchange is mentioned in their developer documentation.",
+        "url": "https://apptechllc.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "AWS services like RDS are mentioned for database management.",
+        "url": "https://apptechllc.com/docs/cloud-services"
+      },
+      {
+        "claim": "Their platform supports RESTful API integrations for connecting various services.",
+        "url": "https://apptechllc.com/integration/patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found regarding X12 transactions or clearinghouse functions.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

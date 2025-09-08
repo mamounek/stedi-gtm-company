@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR APIs",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Defrilex utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://defrilex-ls.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company follows HIPAA compliance protocols in all their data handling processes.",
+        "url": "https://defrilex-ls.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Defrilex supports FHIR APIs for streamlined health data exchange.",
+        "url": "https://defrilex-ls.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "X12 transaction sets are integral to Defrilex's EDI solutions for healthcare clients.",
+        "url": "https://defrilex-ls.com/docs/edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA compliant FHIR APIs and X12 transaction sets for healthcare data integration.",
+    "icp_confidence": 0.95,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claim eligibility checks (270/271)",
+      "Claims submission and remittance (837/835)",
+      "Event-driven integration for healthcare workflows"
+    ]
+  }
+}

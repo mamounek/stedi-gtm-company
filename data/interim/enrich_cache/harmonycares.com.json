@@ -1,0 +1,59 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure",
+      "Twilio API",
+      "Azure API Management"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful API for EHR",
+      "Webhook integration",
+      "EDI transactions",
+      "FHIR APIs for interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "HarmonyCares uses AWS for cloud infrastructure.",
+        "url": "https://harmonycares.com/developer/faq/"
+      },
+      {
+        "claim": "They integrate with EHR systems through FHIR standards.",
+        "url": "https://harmonycares.com/docs/ehr-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA is a priority in their services.",
+        "url": "https://harmonycares.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with X12 EDI for healthcare transactions is mentioned.",
+        "url": "https://harmonycares.com/docs/edi"
+      },
+      {
+        "claim": "They utilize Azure for data processing and management.",
+        "url": "https://harmonycares.com/careers/engineering-team"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "HarmonyCares engages in EDI and X12 transactions for health data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transactions",
+      "X12 healthcare claims processing",
+      "270/271 eligibility verification",
+      "276/277 claim status inquiry",
+      "837/835 remittance advice"
+    ]
+  }
+}

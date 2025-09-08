@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Storage"
+    ],
+    "evidence": [
+      {
+        "claim": "Genotox Laboratories utilizes AWS for cloud computing services to manage data storage and processing.",
+        "url": "https://genotoxlabs.com/cloud-services"
+      },
+      {
+        "claim": "They implement FHIR standards for health data integration and interoperability.",
+        "url": "https://genotoxlabs.com/health-tech"
+      },
+      {
+        "claim": "The website mentions compliance with HIPAA for data privacy in handling patient information.",
+        "url": "https://genotoxlabs.com/security"
+      },
+      {
+        "claim": "Integration with EHRs is part of their service offerings, providing interoperability with healthcare providers.",
+        "url": "https://genotoxlabs.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

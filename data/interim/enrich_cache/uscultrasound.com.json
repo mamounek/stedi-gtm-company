@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Ultrasound Solutions Corp uses AWS services for their cloud infrastructure.",
+        "url": "https://uscultrasound.com/tech-stack"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for handling patient data.",
+        "url": "https://uscultrasound.com/security"
+      },
+      {
+        "claim": "They support FHIR standards for healthcare data interoperability.",
+        "url": "https://uscultrasound.com/health-tech"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through HL7 protocols.",
+        "url": "https://uscultrasound.com/integration"
+      },
+      {
+        "claim": "EDI transactions are handled adhering to X12 standards.",
+        "url": "https://uscultrasound.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "The company utilizes X12 EDI transactions and cloud APIs for healthcare integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)"
+    ]
+  }
+}

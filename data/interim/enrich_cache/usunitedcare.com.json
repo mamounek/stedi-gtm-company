@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "United Home Care utilizes FHIR standards for health information exchange.",
+        "url": "https://usunitedcare.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Company is compliant with HIPAA regulations for securing patient information.",
+        "url": "https://usunitedcare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They mention using AWS cloud services for their platform infrastructure.",
+        "url": "https://usunitedcare.com/careers/engineering-positions"
+      },
+      {
+        "claim": "Involved in electronic data interchange as indicated by references to EDI practices.",
+        "url": "https://usunitedcare.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 integration or EDI use cases found on their public sites.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

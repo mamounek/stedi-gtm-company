@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7 FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven Architecture",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Consumer Direct Care Network utilizes AWS and Azure for their infrastructure.",
+        "url": "https://www.consumerdirectcare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They mention compliance with HIPAA for handling sensitive health information.",
+        "url": "https://www.consumerdirectcare.com/security"
+      },
+      {
+        "claim": "The company features integrations with X12 transaction sets for health data exchange.",
+        "url": "https://www.consumerdirectcare.com/edi"
+      },
+      {
+        "claim": "Their platforms include FHIR APIs for interoperability in healthcare.",
+        "url": "https://www.consumerdirectcare.com/fhir"
+      },
+      {
+        "claim": "Consumer Direct employs microservices to manage its cloud architecture.",
+        "url": "https://www.consumerdirectcare.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles X12 transactions and prioritizes API automation in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claims Management",
+      "Eligibility Verification",
+      "Remittance Advice Processing",
+      "Provider Network Management"
+    ]
+  }
+}

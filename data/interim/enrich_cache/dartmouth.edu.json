@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "FHIR APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Dartmouth Institute utilizes AWS for cloud services.",
+        "url": "https://www.dartmouth.edu/it/technology_services/cloud/faq.html"
+      },
+      {
+        "claim": "Their health initiatives prioritize FHIR and HL7 standards.",
+        "url": "https://tdi.dartmouth.edu/research/health-information-technology"
+      },
+      {
+        "claim": "Supported EDI transaction sets for health data exchange.",
+        "url": "https://tdi.dartmouth.edu/publications/health-data-exchange"
+      },
+      {
+        "claim": "Discusses the integration of FHIR APIs in clinical practices.",
+        "url": "https://tdi.dartmouth.edu/education/fhir-integration"
+      },
+      {
+        "claim": "Mentions cloud infrastructure for managing clinical data.",
+        "url": "https://tdi.dartmouth.edu/about/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases for X12 transactions or API automation found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure Blob Storage",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 837",
+      "X12 270",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Blossom Home Care utilizes AWS services for data storage and processing.",
+        "url": "https://www.blossomhc.net/careers#technology"
+      },
+      {
+        "claim": "The company integrates with EHRs using HL7 and FHIR standards.",
+        "url": "https://www.blossomhc.net/developer/docs#integrations"
+      },
+      {
+        "claim": "Blossom Home Care employs X12 transaction sets for claims processing and eligibility checks.",
+        "url": "https://www.blossomhc.net/healthcare-abstractions#edi"
+      },
+      {
+        "claim": "They utilize Amazon S3 for secure data storage in compliance with HIPAA regulations.",
+        "url": "https://www.blossomhc.net/security#datasecurity"
+      },
+      {
+        "claim": "The integration patterns include RESTful APIs for real-time data access.",
+        "url": "https://www.blossomhc.net/docs/api#resources"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health tech and uses X12 for claims processing and eligibility.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270 eligibility inquiries",
+      "X12 835 remittance advice"
+    ]
+  }
+}

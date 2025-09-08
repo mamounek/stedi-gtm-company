@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Cloud-based interoperability solutions"
+    ],
+    "evidence": [
+      {
+        "claim": "EmmUcare utilizes AWS for cloud services to manage health data.",
+        "url": "https://emmucarehomehealth.com/platform"
+      },
+      {
+        "claim": "The company mentions integration with FHIR standards to ensure compatibility with health records.",
+        "url": "https://emmucarehomehealth.com/developer"
+      },
+      {
+        "claim": "Documentation includes use of X12 for billing and insurance transactions.",
+        "url": "https://emmucarehomehealth.com/docs"
+      },
+      {
+        "claim": "EmmUcare emphasizes security and HIPAA compliance across its cloud infrastructure.",
+        "url": "https://emmucarehomehealth.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for health data exchange and has relevant API integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "API integration with EHRs",
+      "Clearinghouse functions",
+      "Claims submissions",
+      "Eligibility verification"
+    ]
+  }
+}

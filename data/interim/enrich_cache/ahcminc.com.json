@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EDI X12 837",
+      "EDI X12 835"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS and related services for its infrastructure which supports health data management.",
+        "url": "https://ahcminc.com/about-us"
+      },
+      {
+        "claim": "Integration with EHR systems using FHIR is highlighted in their documentation and case studies.",
+        "url": "https://ahcminc.com/case-studies"
+      },
+      {
+        "claim": "Their approach to EDI transactions includes support for X12 837 and 835 formats relevant to health insurance.",
+        "url": "https://ahcminc.com/services"
+      },
+      {
+        "claim": "Discussion of HIPAA compliance and security measures in handling sensitive health data.",
+        "url": "https://ahcminc.com/security"
+      },
+      {
+        "claim": "The technology stack includes AWS for cloud services, ensuring scalable and secure health tech applications.",
+        "url": "https://ahcminc.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes EDI X12 and has relevant API integration patterns.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI X12 integration",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice automation"
+    ]
+  }
+}

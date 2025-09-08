@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations, ensuring patient data security during telehealth and remote services.",
+        "url": "https://ihcscorp.com/services/telehealth"
+      },
+      {
+        "claim": "Integrated Home Care Services utilizes FHIR for interoperability in electronic health records to facilitate patient data exchange.",
+        "url": "https://ihcscorp.com/technology/fhir-implementation"
+      },
+      {
+        "claim": "The company has established protocols for X12 transaction sets for claims processing and billing in their health services.",
+        "url": "https://ihcscorp.com/resources/x12-edi-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or clearinghouse services found on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

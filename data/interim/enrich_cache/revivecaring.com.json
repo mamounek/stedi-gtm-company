@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR",
+      "X12 837",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "API Gateway integration",
+      "Serverless architecture",
+      "Data lakes on AWS"
+    ],
+    "evidence": [
+      {
+        "claim": "REVIVECare utilizes AWS services including Lambda and RDS for their application infrastructure.",
+        "url": "https://revivecaring.com/docs/aws-services"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA and the use of HL7 FHIR standards for health data exchange.",
+        "url": "https://revivecaring.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns involve serverless architecture and API gateways for efficient healthcare data handling.",
+        "url": "https://revivecaring.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 formats and is HIPAA compliant, indicating strong alignment with healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "Eligibility verification with X12 270/271",
+      "Claims status inquiries with X12 276/277",
+      "Clearinghouse services for healthcare transactions"
+    ]
+  }
+}

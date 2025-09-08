@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform (GCP)",
+      "Amazon S3",
+      "PostgreSQL RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance for data handling"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data exchange",
+      "Webhook integration for real-time notifications",
+      "Data ingestion via ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Honest Medical leverages AWS for cloud infrastructure and serverless computing.",
+        "url": "https://honestmed.com/developer/docs/aws-integration"
+      },
+      {
+        "claim": "The platform utilizes FHIR standards for health data exchange.",
+        "url": "https://honestmed.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Honest Medical's services are HIPAA compliant, ensuring secure handling of patient data.",
+        "url": "https://honestmed.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration through REST APIs for seamless communication with EHRs.",
+        "url": "https://honestmed.com/developer/docs/api-integration"
+      },
+      {
+        "claim": "X12 transaction handling for insurance claims and billing processes is implemented in their system.",
+        "url": "https://honestmed.com/docs/x12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and HIPAA compliance in health tech, aligning with API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims management",
+      "Eligibility checks",
+      "Real-time notifications for claims status",
+      "Data integration with healthcare providers"
+    ]
+  }
+}

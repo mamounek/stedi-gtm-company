@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 270",
+      "X12 271",
+      "X12 837",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "AWS services are used for cloud infrastructure.",
+        "url": "https://agerightcareathome.com/about_us"
+      },
+      {
+        "claim": "Integration with X12 transaction sets for claims processing.",
+        "url": "https://agerightcareathome.com/services"
+      },
+      {
+        "claim": "Utilizes FHIR standards for healthcare data exchange.",
+        "url": "https://agerightcareathome.com/healthcare_integration"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "AgeRight utilizes multiple X12 transactions indicating a clear use case for API automation in healthcare.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility Verification (X12 270/271)",
+      "Claims Submission (X12 837)",
+      "Claim Status Inquiry (X12 276/277)",
+      "Remittance Advice (X12 835)"
+    ]
+  }
+}

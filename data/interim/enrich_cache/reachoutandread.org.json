@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Secure Messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Reach Out and Read uses AWS for its cloud infrastructure.",
+        "url": "https://www.reachoutandread.org/about-us/technology/"
+      },
+      {
+        "claim": "Compliance with HIPAA and use of FHIR standards for healthcare data.",
+        "url": "https://www.reachoutandread.org/healthcare-professionals/"
+      },
+      {
+        "claim": "Integration with EHR systems using HL7 standards.",
+        "url": "https://www.reachoutandread.org/partners/"
+      },
+      {
+        "claim": "Utilization of AWS resources for data storage and processing.",
+        "url": "https://aws.amazon.com/partners/success/reach-out-and-read/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse involvement found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

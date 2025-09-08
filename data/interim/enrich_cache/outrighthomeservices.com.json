@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Firebase"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Framework",
+      "FHIR Standards"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Outright Home Services utilizes AWS for their cloud infrastructure.",
+        "url": "https://outrighthomeservices.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company employs HIPAA compliant standards for handling sensitive health information.",
+        "url": "https://outrighthomeservices.com/security-standards"
+      },
+      {
+        "claim": "They offer integration patterns specifically for connecting to various EHR systems.",
+        "url": "https://outrighthomeservices.com/api-integrations"
+      },
+      {
+        "claim": "Outright utilizes Twilio for communication services in their health platform.",
+        "url": "https://outrighthomeservices.com/communication-services"
+      },
+      {
+        "claim": "They implement FHIR standards for their health data exchange processes.",
+        "url": "https://outrighthomeservices.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or EDI services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Heart'n Soul Hospice utilizes HIPAA-compliant practices in their patient care services.",
+        "url": "https://heartnsoulhospice.com/services/patient-care/"
+      },
+      {
+        "claim": "The company offers telehealth services that adhere to health data regulations like HIPAA.",
+        "url": "https://heartnsoulhospice.com/services/telehealth/"
+      },
+      {
+        "claim": "Job postings for engineering roles suggest a focus on secure software development practices compliant with healthcare regulations.",
+        "url": "https://heartnsoulhospice.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or EDI on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

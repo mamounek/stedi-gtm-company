@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes FHIR standards for health data interoperability.",
+        "url": "https://solutionsforlivingathome.org/docs#healthstandards"
+      },
+      {
+        "claim": "HL7 is mentioned as a guideline for data exchange in their operations.",
+        "url": "https://solutionsforlivingathome.org/docs#hl7guidelines"
+      },
+      {
+        "claim": "EDI formats including X12 are referenced for billing and claims submissions.",
+        "url": "https://solutionsforlivingathome.org/docs#billing"
+      },
+      {
+        "claim": "They follow HIPAA compliance protocols for patient data handling.",
+        "url": "https://solutionsforlivingathome.org/security#hipaa"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or acting as a clearinghouse.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

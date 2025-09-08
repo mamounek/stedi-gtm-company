@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA standards for health-related services.",
+        "url": "https://seniorshelpingseniors.com/faq-2/"
+      },
+      {
+        "claim": "Seniors Helping Seniors utilizes technology to streamline service delivery and compliance with health regulations.",
+        "url": "https://seniorshelpingseniors.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found related to X12 or API use cases for healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

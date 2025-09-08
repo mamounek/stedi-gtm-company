@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "HIPAA compliant EDI transactions",
+      "FHIR standard for interoperability",
+      "HL7 messaging standard"
+    ],
+    "integration_patterns": [
+      "Data streaming with Kafka",
+      "REST API for external integrations",
+      "Batch processing with AWS Batch"
+    ],
+    "evidence": [
+      {
+        "claim": "Aumet's architecture employs AWS services for cloud infrastructure.",
+        "url": "https://aumet.com/docs/infrastructure"
+      },
+      {
+        "claim": "They support HIPAA compliance in their data handling processes.",
+        "url": "https://aumet.com/security"
+      },
+      {
+        "claim": "Aumet integrates with EHR systems using FHIR standards.",
+        "url": "https://aumet.com/Careers/engineering"
+      },
+      {
+        "claim": "Utilization of Kafka for data streaming and real-time processing.",
+        "url": "https://aumet.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found for X12 EDI transaction use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

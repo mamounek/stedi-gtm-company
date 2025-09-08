@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data interoperability between health systems"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.homehealthcareconsultants.com/"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or related use cases found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR API integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhook integrations",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "GSA utilizes AWS for its infrastructure needs.",
+        "url": "https://globalsourceadvisors.com/cloud-solutions"
+      },
+      {
+        "claim": "The company follows HIPAA compliance standards for health data management.",
+        "url": "https://globalsourceadvisors.com/healthcare-compliance"
+      },
+      {
+        "claim": "GSA implements FHIR for interoperability in healthcare applications.",
+        "url": "https://globalsourceadvisors.com/fhir-implementation"
+      },
+      {
+        "claim": "GSA uses integration middleware for connecting various health tech applications.",
+        "url": "https://globalsourceadvisors.com/integration-services"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 healthcare transaction capabilities or related use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

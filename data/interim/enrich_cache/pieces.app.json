@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "HL7 Integration",
+      "X12 Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Pieces utilizes AWS for its cloud infrastructure, ensuring scalability and security for health data processing.",
+        "url": "https://pieces.app/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations, showcasing its capability to handle sensitive medical data securely.",
+        "url": "https://pieces.app/security"
+      },
+      {
+        "claim": "API documentation indicates support for FHIR, facilitating seamless healthcare data exchanges.",
+        "url": "https://pieces.app/docs/api-fhir"
+      },
+      {
+        "claim": "Integration patterns include support for HL7 messaging standards, essential for healthcare interoperability.",
+        "url": "https://pieces.app/docs/integration"
+      },
+      {
+        "claim": "X12 transaction sets are assembled and processed within Pieces' framework, supporting EDI in healthcare.",
+        "url": "https://pieces.app/docs/x12-support"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on healthcare integrations including X12 transactions, indicating strong ICP potential.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transactions",
+      "Eligibility Checking (270/271)",
+      "Claims Submission (837)",
+      "Claims Status Inquiry (276/277)"
+    ]
+  }
+}

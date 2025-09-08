@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "X12 5010 transaction sets",
+      "HL7 FHIR standard compliance"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook-based notifications",
+      "Real-time data streaming",
+      "Batch processing with AWS Batch"
+    ],
+    "evidence": [
+      {
+        "claim": "Corgi Insurance leverages AWS services for cloud infrastructure including Lambda and S3.",
+        "url": "https://corgi.insure/developer"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations and utilizes X12 transaction sets for insurance claims.",
+        "url": "https://corgi.insure/security"
+      },
+      {
+        "claim": "Integration with Stripe for payment processing is accomplished via their API, maintaining security best practices.",
+        "url": "https://corgi.insure/docs"
+      },
+      {
+        "claim": "Corgi uses Twilio for communication functionalities, integrated as part of their workflow.",
+        "url": "https://corgi.insure/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Corgi Insurance’s tech stack includes HIPAA and X12 compliance, indicating potential as a data exchange platform.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance management"
+    ]
+  }
+}

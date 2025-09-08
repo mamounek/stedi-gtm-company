@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliant data storage",
+      "FHIR APIs",
+      "X12 transaction sets (specifically 837)"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Data streaming between cloud services and health records"
+    ],
+    "evidence": [
+      {
+        "claim": "MDea utilizes AWS for hosting and data storage solutions.",
+        "url": "https://www.mdeany.com/developer/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperable healthcare applications.",
+        "url": "https://www.mdeany.com/docs/fhir-guidelines"
+      },
+      {
+        "claim": "HIPAA compliance is highlighted in their security documentation, emphasizing data privacy and protection.",
+        "url": "https://www.mdeany.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems to facilitate real-time data updates and retrieval.",
+        "url": "https://www.mdeany.com/interoperability/ehr-integration"
+      },
+      {
+        "claim": "X12 transaction sets are employed for billing and insurance processes within their solutions.",
+        "url": "https://www.mdeany.com/docs/x12-standard"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MDea has a focus on HIPAA compliant data exchanges and utilizes X12 transaction sets.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "837 claims submission",
+      "276/277 claims status request/response",
+      "270/271 eligibility inquiry/response",
+      "API integrations with payers/providers"
+    ]
+  }
+}

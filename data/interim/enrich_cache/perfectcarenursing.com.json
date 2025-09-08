@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Perfect Care Nursing adheres to HIPAA guidelines for patient data protection.",
+        "url": "https://www.perfectcarenursing.com/security"
+      },
+      {
+        "claim": "Perfect Care Nursing is involved in healthcare services that would require compliance with healthcare interoperability standards.",
+        "url": "https://www.perfectcarenursing.com/careers"
+      },
+      {
+        "claim": "The company mentions secure handling of patient information, relevant in the context of health record standards like FHIR.",
+        "url": "https://www.perfectcarenursing.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction activity or API automation found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

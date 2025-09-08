@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7 FHIR Standards"
+    ],
+    "integration_patterns": [
+      "RESTful API for data exchange",
+      "Webhooks for event-driven integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Adaptive Home Health uses AWS Lambda for serverless computing solutions.",
+        "url": "https://adaptivehh.com/docs/aws-lambda-serverless-architecture"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its data handling and storage processes.",
+        "url": "https://adaptivehh.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with X12 EDI for billing transactions is a key feature of Adaptive Home Health's operational workflow.",
+        "url": "https://adaptivehh.com/edi/integration"
+      },
+      {
+        "claim": "They utilize HL7 FHIR standards for interoperability between healthcare systems.",
+        "url": "https://adaptivehh.com/healthcare/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 transactions, fitting the API-first healthcare data exchange model.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claim Status Inquiry",
+      "278 Health Care Services Review",
+      "837/835 Claims Submission and Remittance"
+    ]
+  }
+}

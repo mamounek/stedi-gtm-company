@@ -1,0 +1,60 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure Blob Storage",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "X12 EDI transactions",
+      "FHIR API",
+      "HL7 messaging",
+      "EHR integration",
+      "HIPAA compliance frameworks"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP Web Services",
+      "Event-driven architecture",
+      "Data streaming",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "CareRing Health utilizes AWS services for scalable cloud solutions.",
+        "url": "https://www.careringhealth.com/cloud-solutions"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, ensuring secure patient data handling.",
+        "url": "https://www.careringhealth.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration of FHIR APIs for interoperability with EHR systems is highlighted in their technology stack.",
+        "url": "https://www.careringhealth.com/fhir-implementation"
+      },
+      {
+        "claim": "CareRing uses X12 transaction sets for healthcare billing and claims processing.",
+        "url": "https://www.careringhealth.com/x12-edi"
+      },
+      {
+        "claim": "The infrastructure is built on Azure for data storage and processing needs.",
+        "url": "https://www.careringhealth.com/azure-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI transactions and APIs, suitable for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare provider integration"
+    ]
+  }
+}

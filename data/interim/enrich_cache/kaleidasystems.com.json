@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "ETL",
+      "APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Kaleida Systems mentions HIPAA compliance in their solutions.",
+        "url": "https://kaleidasystems.com/security/"
+      },
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure.",
+        "url": "https://kaleidasystems.com/docs/cloud-infrastructure/"
+      },
+      {
+        "claim": "Integration with FHIR standards is highlighted on their healthcare solutions page.",
+        "url": "https://kaleidasystems.com/healthcare-solutions/"
+      },
+      {
+        "claim": "Kaleida Systems implements HL7 standards for data interoperability.",
+        "url": "https://kaleidasystems.com/hl7-integration/"
+      },
+      {
+        "claim": "They utilize GCP for data analytics and storage solutions.",
+        "url": "https://kaleidasystems.com/business-intelligence/"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

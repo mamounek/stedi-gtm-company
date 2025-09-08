@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "X12 transaction sets",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Data Streaming",
+      "Cloud Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "JASACare uses AWS for their cloud infrastructure.",
+        "url": "https://jasacare.org/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The platform is designed to comply with HIPAA regulations.",
+        "url": "https://jasacare.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems includes support for HL7 standards.",
+        "url": "https://jasacare.org/integration/ehr-support"
+      },
+      {
+        "claim": "JASACare supports FHIR for interoperability with healthcare applications.",
+        "url": "https://jasacare.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "The use of Azure for scalable services has been documented in their system architecture.",
+        "url": "https://jasacare.org/docs/system-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They utilize X12 transaction sets and have a cloud API integration focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 Claims Submission",
+      "270/271 Eligibility Requests",
+      "835 Remittance Advice",
+      "276/277 Claims Status Inquiry",
+      "278 Prior Authorization Requests"
+    ]
+  }
+}

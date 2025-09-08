@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Sequoia Reinsurance Services utilizes AWS for deployment and cloud services.",
+        "url": "https://elmcgroup.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its health tech operations.",
+        "url": "https://elmcgroup.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through HL7 and FHIR standards.",
+        "url": "https://elmcgroup.com/developer/ehr-integration"
+      },
+      {
+        "claim": "Sequoia leverages Azure for inter-system data exchange and APIs.",
+        "url": "https://elmcgroup.com/docs/azure-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling HIPAA X12 transactions or being a clearinghouse.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

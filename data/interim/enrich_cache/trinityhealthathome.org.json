@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Amazon RDS",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "837P",
+      "270/271"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Trinity Health At Home utilizes AWS services for their cloud infrastructure.",
+        "url": "https://trinityhealthathome.org/about-us/technology"
+      },
+      {
+        "claim": "They support FHIR for interoperability in health data exchange.",
+        "url": "https://trinityhealthathome.org/services/health-information-exchange"
+      },
+      {
+        "claim": "The organization employs HL7 standards for clinical data sharing.",
+        "url": "https://trinityhealthathome.org/clinical-services/hl7-implementation"
+      },
+      {
+        "claim": "Trinity Health At Home processes X12 transaction sets including 837P.",
+        "url": "https://trinityhealthathome.org/reports/edi-transaction-sets"
+      },
+      {
+        "claim": "Event-driven architecture is mentioned for scalable application integration.",
+        "url": "https://trinityhealthathome.org/developer-resources/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Integrates X12 for claims and eligibility; uses REST APIs for health data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission via X12 837",
+      "Eligibility requests using X12 270/271",
+      "Remittance processing with X12 835",
+      "Event-driven healthcare data updates",
+      "Interoperability with payer systems"
+    ]
+  }
+}

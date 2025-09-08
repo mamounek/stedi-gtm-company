@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR Systems"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "GlobalMed utilizes AWS API Gateway for managing and securing their APIs.",
+        "url": "https://globalmed.com/developer/api-gateway"
+      },
+      {
+        "claim": "The company claims to support FHIR and HL7 standards for interoperability.",
+        "url": "https://globalmed.com/health-tech/fhir-hl7-support"
+      },
+      {
+        "claim": "GlobalMed integrates with various EHR systems to streamline health data exchange.",
+        "url": "https://globalmed.com/solutions/ehr-integration"
+      },
+      {
+        "claim": "Their cloud infrastructure is primarily built on AWS for scalability and reliability.",
+        "url": "https://globalmed.com/platform/aws-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "GlobalMed uses X12 standards for healthcare data exchange, supporting key transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility and benefits verification (270/271)",
+      "Claim submissions (837)",
+      "Claim status requests (276/277)",
+      "Remittance advice (835)",
+      "Interoperability with EHR systems using FHIR and HL7"
+    ]
+  }
+}

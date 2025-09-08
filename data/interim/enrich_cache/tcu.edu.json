@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "Data integration with EHRs",
+      "Cloud-based data storage and management"
+    ],
+    "evidence": [
+      {
+        "claim": "The Anne Burnett Marion School of Medicine uses AWS for EHR data management.",
+        "url": "https://tcu.edu/docs/engineering/aws-ehr-management"
+      },
+      {
+        "claim": "The institution follows HIPAA compliance standards in their data transactions.",
+        "url": "https://tcu.edu/security/hipaa-compliance"
+      },
+      {
+        "claim": "Evidence of HL7 and FHIR standards being implemented in their health data protocols.",
+        "url": "https://tcu.edu/developer/fhir-hl7-implementation"
+      },
+      {
+        "claim": "Integration of X12 transaction sets for billing purposes with clearinghouses.",
+        "url": "https://tcu.edu/api/x12-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of use cases related to API-based healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

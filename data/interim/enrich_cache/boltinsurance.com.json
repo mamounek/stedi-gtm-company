@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliant infrastructure",
+      "HL7 interfaces"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Bolt Insurance utilizes AWS infrastructure for scalability and data storage.",
+        "url": "https://www.boltinsurance.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company's services are compliant with HIPAA standards for health technology.",
+        "url": "https://www.boltinsurance.com/security"
+      },
+      {
+        "claim": "Bolt Insurance integrates with Twilio for communication services via their API.",
+        "url": "https://www.boltinsurance.com/docs/api"
+      },
+      {
+        "claim": "Provides HL7 interfaces for interoperability in health data exchange.",
+        "url": "https://www.boltinsurance.com/healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or API-based healthcare data exchange.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

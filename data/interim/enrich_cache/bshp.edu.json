@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Baptist Health System uses HL7 standards for health information exchange.",
+        "url": "https://www.bshp.edu/healthcare-technology"
+      },
+      {
+        "claim": "The institution supports FHIR protocols for interoperability in healthcare applications.",
+        "url": "https://www.bshp.edu/health-information"
+      },
+      {
+        "claim": "Baptist Health engages with EDI/X12 transactions for insurance claims and eligibility verification.",
+        "url": "https://www.bshp.edu/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited relevance to healthcare data exchange and low confidence in tech stack alignment.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

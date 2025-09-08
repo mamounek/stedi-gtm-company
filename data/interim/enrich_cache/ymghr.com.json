@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "Cloud-based data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud hosting and management.",
+        "url": "https://ymghr.com/cloud-services"
+      },
+      {
+        "claim": "Their services comply with HIPAA regulations for secure health data handling.",
+        "url": "https://ymghr.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems supports FHIR standards.",
+        "url": "https://ymghr.com/ehr-integration"
+      },
+      {
+        "claim": "The platform employs X12 for electronic data interchange transactions.",
+        "url": "https://ymghr.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes API and EDI for healthcare compliance and data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 integration",
+      "EDI for claims processing",
+      "Eligibility checks using 270/271",
+      "Claims status updates via 276/277",
+      "Payment remittance using 835"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ecompex, Inc. emphasizes compliance with HIPAA regulations, ensuring secure handling of health information.",
+        "url": "https://www.ecompex.com/security"
+      },
+      {
+        "claim": "The company offers services that support X12 standards for electronic data interchange in healthcare.",
+        "url": "https://www.ecompex.com/healthcare"
+      },
+      {
+        "claim": "Ecompex utilizes HL7 FHIR standards for interoperability in digital health systems.",
+        "url": "https://www.ecompex.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on HIPAA compliance and X12 EDI transactions, aligning with target ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Clearinghouse services for X12 transactions",
+      "Handling 837/835 claims",
+      "Facilitating 270/271 eligibility requests"
+    ]
+  }
+}

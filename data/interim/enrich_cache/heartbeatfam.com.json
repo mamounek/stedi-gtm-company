@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "HeartBeatFam integrates with FHIR standards for healthcare data exchange.",
+        "url": "https://heartbeatfam.com/docs/integrations"
+      },
+      {
+        "claim": "The company implements HIPAA compliance protocols to secure health information.",
+        "url": "https://heartbeatfam.com/security"
+      },
+      {
+        "claim": "HL7 standards are utilized for integrating diverse healthcare applications.",
+        "url": "https://heartbeatfam.com/docs/health-tech"
+      },
+      {
+        "claim": "The platform claims to support EDI transactions, aligning with HIPAA requirements.",
+        "url": "https://heartbeatfam.com/developer/api"
+      },
+      {
+        "claim": "Development roles highlight experience with secure data handling in accordance with healthcare regulations.",
+        "url": "https://heartbeatfam.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

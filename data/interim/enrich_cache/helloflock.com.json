@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Platform",
+      "Azure Kubernetes Service"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standards",
+      "HL7 integrations"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Flock utilizes AWS services for cloud hosting and data management.",
+        "url": "https://helloflock.com/developer/api"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA standards for handling healthcare data.",
+        "url": "https://helloflock.com/security"
+      },
+      {
+        "claim": "Flock offers integration capabilities with FHIR for healthcare data interoperability.",
+        "url": "https://helloflock.com/integration"
+      },
+      {
+        "claim": "The company employs Kafka for real-time data streaming solutions.",
+        "url": "https://helloflock.com/docs/infrastructure"
+      },
+      {
+        "claim": "Flock supports various EDI X12 transaction sets facilitating healthcare transactions.",
+        "url": "https://helloflock.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of specific X12 use cases or healthcare data exchanges found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Sets",
+      "EDI Transactions"
+    ],
+    "integration_patterns": [
+      "Healthcare Data Exchange",
+      "Claim Processing Workflows"
+    ],
+    "evidence": [
+      {
+        "claim": "Medical Billing Authority adheres to HIPAA regulations for data protection.",
+        "url": "https://medicalbillingauthority.com/security"
+      },
+      {
+        "claim": "They utilize electronic data interchange (EDI) for efficient billing and claims processing.",
+        "url": "https://medicalbillingauthority.com/faq"
+      },
+      {
+        "claim": "The company supports X12 transaction sets for billing compliance.",
+        "url": "https://medicalbillingauthority.com/docs/x12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and EDI transactions suggests likely X12 exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims Processing Workflows",
+      "Eligibility Verification (270/271)",
+      "Claim Status Updates (276/277)"
+    ]
+  }
+}

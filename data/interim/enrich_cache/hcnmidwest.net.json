@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 (Health Care Claims, 835, 837)"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Care Network utilizes FHIR standards for health data exchange.",
+        "url": "https://hcnmidwest.net/docs/fhir-standards"
+      },
+      {
+        "claim": "The company integrates with multiple EDI X12 transaction sets for healthcare claims processing.",
+        "url": "https://hcnmidwest.net/integration/x12-edi"
+      },
+      {
+        "claim": "Home Care Network emphasizes compliance with HIPAA regulations in their data handling practices.",
+        "url": "https://hcnmidwest.net/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Home Care Network operates in EDI X12 transactions, aligning with our ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI X12 health care claims processing",
+      "Electronic remittance advice (835)",
+      "Claims submission (837)",
+      "Eligibility verification (270/271)"
+    ]
+  }
+}

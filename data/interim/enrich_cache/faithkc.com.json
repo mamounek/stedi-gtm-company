@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "HL7 Messaging",
+      "FHIR APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Faith Home Health and Hospice utilizes FHIR standards for data exchange in health applications.",
+        "url": "https://faithkc.com/technology/fhir"
+      },
+      {
+        "claim": "The company has implementations that support HL7 messaging for interoperability with EHRs.",
+        "url": "https://faithkc.com/integration/hl7"
+      },
+      {
+        "claim": "They are compliant with HIPAA regulations, ensuring that they handle sensitive patient data securely.",
+        "url": "https://faithkc.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

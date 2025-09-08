@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "RAVSoft Solutions uses AWS cloud services for hosting and scaling applications.",
+        "url": "https://ravsoftsolutions.com/cloud-services"
+      },
+      {
+        "claim": "The company provides integration with healthcare standards like HIPAA and FHIR for secure data exchange.",
+        "url": "https://ravsoftsolutions.com/health-integration"
+      },
+      {
+        "claim": "RAVSoft Solutions supports EDI transaction sets, including X12 formats for healthcare data processing.",
+        "url": "https://ravsoftsolutions.com/edi-services"
+      },
+      {
+        "claim": "Their platform leverages Azure for data integration and service management.",
+        "url": "https://ravsoftsolutions.com/platforms/azure"
+      },
+      {
+        "claim": "They promote HIPAA-compliant solutions indicating a focus on regulatory standards.",
+        "url": "https://ravsoftsolutions.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement with X12 transactions found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

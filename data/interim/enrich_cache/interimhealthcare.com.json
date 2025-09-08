@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon EC2"
+    ],
+    "health_tech": [
+      "HIPAA-Compliant Data Exchange",
+      "HL7 V2 Messaging",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "REST API for external services integration",
+      "Webhook integration for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS services for secure and scalable storage and computing.",
+        "url": "https://interimhealthcare.com/about-us/technology/"
+      },
+      {
+        "claim": "Supports HIPAA compliance for secure health information exchange.",
+        "url": "https://interimhealthcare.com/security-privacy/"
+      },
+      {
+        "claim": "Leverages FHIR API for interoperability with health records.",
+        "url": "https://interimhealthcare.com/electronic-health-records/"
+      },
+      {
+        "claim": "Utilizes HL7 messaging for communication between healthcare systems.",
+        "url": "https://interimhealthcare.com/hl7-implementation/"
+      },
+      {
+        "claim": "Employs RESTful APIs for service integration and data exchange.",
+        "url": "https://interimhealthcare.com/integration-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation related to healthcare data exchange found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

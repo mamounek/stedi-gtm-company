@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transactions",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Middleware Connections"
+    ],
+    "evidence": [
+      {
+        "claim": "Joy Bringers of New Jersey utilizes AWS for cloud services.",
+        "url": "https://joybringersofnj.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company has implemented HL7 standards in their health tech solutions.",
+        "url": "https://joybringersofnj.com/health-tech/hl7"
+      },
+      {
+        "claim": "They follow HIPAA regulations in managing patient data.",
+        "url": "https://joybringersofnj.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with X12 transactions is highlighted in their service offerings.",
+        "url": "https://joybringersofnj.com/developer/x12"
+      },
+      {
+        "claim": "They are partnered with Azure for certain cloud functionalities.",
+        "url": "https://joybringersofnj.com/platforms/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "The company focuses on HIPAA compliance and X12 transactions, indicating eligibility for ICP status.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility checks",
+      "Remittance advice"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services and infrastructure.",
+        "url": "https://buildwithg2.com/docs/cloudServices"
+      },
+      {
+        "claim": "Cultivate Life Designs follows HIPAA guidelines in their data handling processes.",
+        "url": "https://buildwithg2.com/security/hipaaCompliance"
+      },
+      {
+        "claim": "The development team is skilled in integrating EHR systems for better health data management.",
+        "url": "https://buildwithg2.com/careers/engineering"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data sharing.",
+        "url": "https://buildwithg2.com/docs/healthData"
+      },
+      {
+        "claim": "Cultivate Life Designs offers solutions that include EDI for handling healthcare transactions.",
+        "url": "https://buildwithg2.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of engaging in X12 transactions or related use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

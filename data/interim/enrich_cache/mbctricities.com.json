@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12 837 for healthcare claim submissions",
+      "X12 835 for healthcare claim payment details"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company uses X12 formats for claim submissions and payments, indicating integration with health insurance systems.",
+        "url": "https://mbctricities.com/healthcare-billing"
+      },
+      {
+        "claim": "Details about compliance with HIPAA regulations are mentioned, which implies secure data exchange methods.",
+        "url": "https://mbctricities.com/hipaa-compliance"
+      },
+      {
+        "claim": "Description of consulting services includes references to EDI for healthcare transactions, specifically in billing and coding.",
+        "url": "https://mbctricities.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company provides X12 healthcare claim solutions, aligning with ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 for healthcare claim submissions",
+      "X12 835 for healthcare claim payment details"
+    ]
+  }
+}

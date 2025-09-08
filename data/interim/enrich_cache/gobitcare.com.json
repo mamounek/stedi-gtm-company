@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "Webhook notifications",
+      "Data pipeline via AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "BitCare utilizes AWS Lambda for serverless applications.",
+        "url": "https://gobitcare.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance protocols in their data handling.",
+        "url": "https://gobitcare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They support FHIR standards for healthcare data exchange.",
+        "url": "https://gobitcare.com/developer/fhir-support"
+      },
+      {
+        "claim": "BitCare implements X12 transaction sets for electronic data exchange in healthcare.",
+        "url": "https://gobitcare.com/docs/x12-edi"
+      },
+      {
+        "claim": "Uses AWS S3 for secure data storage solutions.",
+        "url": "https://gobitcare.com/infrastructure/aws-s3-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare tech with integration for X12 data exchange, fulfilling ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Payer-provider eligibility verification",
+      "Claims submissions",
+      "Remittance processing",
+      "FHIR-based data integrations"
+    ]
+  }
+}

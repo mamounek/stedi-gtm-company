@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "A Place At Home maintains compliance with HIPAA standards for healthcare data security.",
+        "url": "https://aplaceathome.com/security/"
+      },
+      {
+        "claim": "The company utilizes X12 format for electronic data interchange transactions within its operations.",
+        "url": "https://aplaceathome.com/operations/"
+      },
+      {
+        "claim": "Healthcare services provided conform to industry regulations including HIPAA and relevant transaction sets.",
+        "url": "https://aplaceathome.com/services/"
+      },
+      {
+        "claim": "A Place At Home emphasizes data privacy and security to meet regulatory requirements in healthcare.",
+        "url": "https://aplaceathome.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or API automation on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

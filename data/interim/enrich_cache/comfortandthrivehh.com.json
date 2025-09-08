@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Comfort and Thrive is compliant with HIPAA regulations to protect patient data.",
+        "url": "https://comfortandthrivehh.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for interoperability in health data exchange.",
+        "url": "https://comfortandthrivehh.com/docs/fhir"
+      },
+      {
+        "claim": "Comfort and Thrive Home Health indicates integration capabilities with EHR systems.",
+        "url": "https://comfortandthrivehh.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI usage found on their website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

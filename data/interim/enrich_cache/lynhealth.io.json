@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HIPAA compliance",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "AWS EventBridge Integration",
+      "REST API for healthcare data"
+    ],
+    "evidence": [
+      {
+        "claim": "Lyn Health utilizes AWS for their cloud infrastructure, ensuring scalability and compliance.",
+        "url": "https://lynhealth.io/engineering"
+      },
+      {
+        "claim": "The company mentions FHIR APIs for healthcare data interoperability.",
+        "url": "https://lynhealth.io/docs/fhir"
+      },
+      {
+        "claim": "Lyn Health processes X12 EDI transactions as part of their healthcare services.",
+        "url": "https://lynhealth.io/security"
+      },
+      {
+        "claim": "They leverage AWS Lambda for serverless computing to manage events in real-time.",
+        "url": "https://lynhealth.io/developer/aws-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Lyn Health utilizes X12 EDI standards and APIs for healthcare data exchanges, fitting ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission and processing (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

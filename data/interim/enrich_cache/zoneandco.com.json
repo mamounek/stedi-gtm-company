@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "GCP BigQuery"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 837",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Zone & Co utilizes AWS resources such as Lambda, RDS, and S3 for cloud infrastructure.",
+        "url": "https://zoneandco.com/blog/cloud-infrastructure-and-your-business"
+      },
+      {
+        "claim": "The company handles health data transactions using X12 standards, particularly 837 and 835.",
+        "url": "https://zoneandco.com/healthtech-standards"
+      },
+      {
+        "claim": "Integration patterns include the use of REST APIs and webhooks for data synchronization.",
+        "url": "https://zoneandco.com/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 formats and healthcare tech, indicative of likely API automation needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 Submission",
+      "X12 835 Remittance",
+      "X12 270 Eligibility Check",
+      "X12 271 Eligibility Response"
+    ]
+  }
+}

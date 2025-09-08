@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS CloudFormation",
+      "AWS IAM"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "FHIR for Health Data Exchange"
+    ],
+    "integration_patterns": [
+      "API-first integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud infrastructure including Lambda and S3 for serverless functions and data storage.",
+        "url": "https://premiumchoice.com/developer/aws-integration"
+      },
+      {
+        "claim": "Premium Choice is committed to HIPAA compliance for securing sensitive health information transactions.",
+        "url": "https://premiumchoice.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with healthcare systems uses FHIR standards for interoperability.",
+        "url": "https://premiumchoice.com/docs/fhir-standards"
+      },
+      {
+        "claim": "The company employs X12 EDI for electronic data interchange in health transactions.",
+        "url": "https://premiumchoice.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles X12 transactions in health tech, indicating potential ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status Requests",
+      "837 Claims Submission",
+      "835 Remittance Advice Transactions"
+    ]
+  }
+}

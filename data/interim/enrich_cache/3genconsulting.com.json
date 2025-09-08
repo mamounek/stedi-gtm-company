@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7 integration"
+    ],
+    "evidence": [
+      {
+        "claim": "3Gen Consulting offers support for FHIR and HL7 standards in healthcare integration.",
+        "url": "https://www.3genconsulting.com/healthcare-integrations"
+      },
+      {
+        "claim": "The company mentions using X12 transaction sets in their consulting services.",
+        "url": "https://www.3genconsulting.com/edi-solutions"
+      },
+      {
+        "claim": "3Gen Consulting's infrastructure supports EDI patterns for health data transactions.",
+        "url": "https://www.3genconsulting.com/services#edi"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Low confidence in alignment with API-first healthcare data exchange use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

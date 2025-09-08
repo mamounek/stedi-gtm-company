@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Independence Care utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.independence-care.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring secure health data handling.",
+        "url": "https://www.independence-care.com/hipaa-compliance"
+      },
+      {
+        "claim": "They implement FHIR standards for healthcare data exchange.",
+        "url": "https://www.independence-care.com/fhir-standards"
+      },
+      {
+        "claim": "Integration of EHRs using HL7 protocols is listed in their technical documentation.",
+        "url": "https://www.independence-care.com/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or clearinghouse use cases found on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

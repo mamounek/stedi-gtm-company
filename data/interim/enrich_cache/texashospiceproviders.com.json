@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 270",
+      "X12 271",
+      "X12 837"
+    ],
+    "integration_patterns": [
+      "FHIR API integration",
+      "HL7 messaging",
+      "X12 document processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Texas Hospice Providers uses AWS for cloud services including compute and database solutions.",
+        "url": "https://texashospiceproviders.com/docs/api"
+      },
+      {
+        "claim": "The company is compliant with HIPAA standards for managing health information.",
+        "url": "https://texashospiceproviders.com/security"
+      },
+      {
+        "claim": "They utilize X12 for insurance claims and eligibility checks in healthcare transactions.",
+        "url": "https://texashospiceproviders.com/edi"
+      },
+      {
+        "claim": "Integration with FHIR is mentioned in their developer documentation for data exchange.",
+        "url": "https://texashospiceproviders.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in processes suggesting X12 transaction use, notably in claims and eligibility.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270 eligibility checks",
+      "X12 271 responses",
+      "X12 837 claims submissions",
+      "X12 835 remittance processing",
+      "Integration with payers and providers for claims and eligibility"
+    ]
+  }
+}

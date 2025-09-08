@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA compliance standards for patient data protection.",
+        "url": "https://heart4advocacy.org/"
+      },
+      {
+        "claim": "A+J Patient Advocacy mentions the use of secure information exchange practices in alignment with health regulations.",
+        "url": "https://heart4advocacy.org/"
+      },
+      {
+        "claim": "The website emphasizes commitment to safeguarding patient data as required by healthcare regulations.",
+        "url": "https://heart4advocacy.org/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or API automation use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

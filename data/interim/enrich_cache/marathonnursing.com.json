@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR APIs"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems",
+      "Data sharing with clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS services for cloud infrastructure and data storage.",
+        "url": "https://www.marathonnursing.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Team Select Home Care highlights its HIPAA compliance on their website, ensuring adherence to health data regulations.",
+        "url": "https://www.marathonnursing.com/hipaa-compliance"
+      },
+      {
+        "claim": "References to HL7 FHIR APIs suggest integration with healthcare data standards.",
+        "url": "https://www.marathonnursing.com/health-data-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 use cases or evidence of clearinghouse interaction found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

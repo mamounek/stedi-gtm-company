@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "FHIR API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Bolder Healthcare is HIPAA compliant, ensuring secure handling of patient data.",
+        "url": "https://bolderhealthcare.com/security/"
+      },
+      {
+        "claim": "The company facilitates X12 EDI transactions, which are standard for electronic health care transactions.",
+        "url": "https://bolderhealthcare.com/docs/edi/"
+      },
+      {
+        "claim": "Bolder utilizes FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://bolderhealthcare.com/docs/fhir/"
+      },
+      {
+        "claim": "HL7 is implemented within systems for effective health information sharing.",
+        "url": "https://bolderhealthcare.com/docs/hl7/"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and EDI transactions aligns with X12 use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transactions",
+      "claims processing",
+      "remittance advice",
+      "eligibility checks",
+      "X12 837/835 transactions"
+    ]
+  }
+}

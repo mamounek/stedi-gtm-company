@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "Batch processing using AWS Lambda"
+    ],
+    "evidence": [
+      {
+        "claim": "PX Technology utilizes AWS services including Lambda and S3 for scalable cloud architecture.",
+        "url": "https://pxtechnology.com/cloud-architecture"
+      },
+      {
+        "claim": "The company highlights HIPAA compliance across its health-tech initiatives.",
+        "url": "https://pxtechnology.com/security"
+      },
+      {
+        "claim": "PX Technology integrates with EHR systems using FHIR standards.",
+        "url": "https://pxtechnology.com/docs/health-tech"
+      },
+      {
+        "claim": "They mention using X12 transaction sets for electronic data interchange (EDI) processes.",
+        "url": "https://pxtechnology.com/integration"
+      },
+      {
+        "claim": "Working with third-party data platforms indicating reliance on cloud services for data handling.",
+        "url": "https://pxtechnology.com/careers/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for integration, indicating alignment with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "sending/receiving 837 claims",
+      "sending/receiving 835 remittance advices",
+      "eligibility queries using 270/271",
+      "transaction status updates via 276/277",
+      "clearinghouse for X12 transactions"
+    ]
+  }
+}

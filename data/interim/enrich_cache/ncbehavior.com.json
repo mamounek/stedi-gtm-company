@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Automated data pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizing AWS cloud services for data storage and processing.",
+        "url": "https://ncbehavior.com/docs/aws-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations in data handling practices.",
+        "url": "https://ncbehavior.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standards for health data interoperability.",
+        "url": "https://ncbehavior.com/developer/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or EDI use cases found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

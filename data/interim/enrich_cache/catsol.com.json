@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Catalytic Solutions utilizes AWS for cloud infrastructure.",
+        "url": "https://www.catsol.com/cloud-services"
+      },
+      {
+        "claim": "The company employs FHIR standards for health data interchange.",
+        "url": "https://www.catsol.com/health-tech"
+      },
+      {
+        "claim": "Catalytic integrates with various EHR systems using HL7 protocols.",
+        "url": "https://www.catsol.com/ehr-integration"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhooks for communication between systems.",
+        "url": "https://www.catsol.com/developer/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Catalytic Solutions focuses on healthcare data exchange using APIs, aligning with X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "837 Claims Submission",
+      "835 Remittance Processing",
+      "276/277 Claim Status Inquiry",
+      "278 Healthcare Services Review"
+    ]
+  }
+}

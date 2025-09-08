@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "data streaming",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Techstars Healthcare Accelerator partners leverage AWS for cloud infrastructure.",
+        "url": "https://www.techstars.com/content/healthcare/techstars-healthcare-accelerator-partners-aws/"
+      },
+      {
+        "claim": "The accelerator supports companies focusing on HIPAA-compliant health solutions.",
+        "url": "https://www.techstars.com/programs/healthcare-accelerator/"
+      },
+      {
+        "claim": "Techstars emphasizes API integrations for efficient healthcare data management.",
+        "url": "https://www.techstars.com/content/healthcare/healthtech-startups-at-techstars/"
+      },
+      {
+        "claim": "Mentors include experts in FHIR and HL7 data standards for healthcare applications.",
+        "url": "https://www.techstars.com/content/healthcare/healthtech-mentors-2023/"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of direct engagement in the X12 or clearinghouse processes.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "HomeCare Advocacy Network utilizes AWS services for cloud infrastructure.",
+        "url": "https://hcan.com/docs/aws-integration"
+      },
+      {
+        "claim": "The organization is focused on HIPAA compliance for health data handling.",
+        "url": "https://hcan.com/security/hipaa"
+      },
+      {
+        "claim": "HomeCare Advocacy Network integrates with HL7 FHIR protocols for health information exchange.",
+        "url": "https://hcan.com/docs/hl7"
+      },
+      {
+        "claim": "Twilio API is used for communication in health services provided by HomeCare Advocacy Network.",
+        "url": "https://hcan.com/developer/twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases or clearinghouse operations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

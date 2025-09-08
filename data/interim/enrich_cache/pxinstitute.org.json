@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Patient Experience Institute's commitment to healthcare standards includes FHIR, promoting interoperability.",
+        "url": "https://pxinstitute.org/resources"
+      },
+      {
+        "claim": "The Patient Experience Institute adheres to HIPAA guidelines to ensure patient data privacy and security.",
+        "url": "https://pxinstitute.org/about"
+      },
+      {
+        "claim": "Their platform may utilize various APIs and tools compliant with health data standards, but specific APIs were not detailed publicly.",
+        "url": "https://pxinstitute.org/technology"
+      },
+      {
+        "claim": "Patient Experience Institute emphasizes integration with EHR systems in their resources for enhancing patient experience statistics.",
+        "url": "https://pxinstitute.org/resources/patient-experience-systems"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse activities found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

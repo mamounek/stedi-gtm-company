@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Infuse Medical incorporates AWS services for cloud hosting and storage solutions.",
+        "url": "https://infusemed.com/about/"
+      },
+      {
+        "claim": "The company has documented the use of FHIR standards for health information exchange.",
+        "url": "https://infusemed.com/tech_setup/"
+      },
+      {
+        "claim": "They utilize Azure for data integration and security protocols compliant with HIPAA.",
+        "url": "https://infusemed.com/security-compliance/"
+      },
+      {
+        "claim": "Infuse Medical's platform utilizes Kafka for data streaming and integration architecture.",
+        "url": "https://infusemed.com/integration-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse involvement found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

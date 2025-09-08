@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "SITE Technologies utilizes AWS for cloud infrastructure and services.",
+        "url": "https://sitetechnologies.io/docs/aws-integration"
+      },
+      {
+        "claim": "They support HIPAA compliance in their health-tech solutions.",
+        "url": "https://sitetechnologies.io/security/healthcare-compliance"
+      },
+      {
+        "claim": "Their offerings include support for FHIR standards in healthcare data exchange.",
+        "url": "https://sitetechnologies.io/developer/fhir-support"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA and X12, indicating focus on healthcare data exchange",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Claims management",
+      "Eligibility verification",
+      "Remittance processing",
+      "Healthcare data integration"
+    ]
+  }
+}

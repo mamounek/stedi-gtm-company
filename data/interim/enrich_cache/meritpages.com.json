@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Heroku",
+      "PostgreSQL",
+      "AWS Lambda"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhooks for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Merit utilizes AWS for cloud services to support their infrastructure and data processing needs.",
+        "url": "https://meritpages.com/docs/api-overview"
+      },
+      {
+        "claim": "The company mentions HIPAA compliance in relation to secure handling of health-related data.",
+        "url": "https://meritpages.com/security"
+      },
+      {
+        "claim": "Their API documentation indicates support for RESTful integration, which is a common pattern in health tech applications.",
+        "url": "https://meritpages.com/docs/api-developer-guide"
+      },
+      {
+        "claim": "MeritPages likely uses PostgreSQL as a data platform based on discussions of data storage in their developer documentation.",
+        "url": "https://meritpages.com/docs/data-structure"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement with X12 or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

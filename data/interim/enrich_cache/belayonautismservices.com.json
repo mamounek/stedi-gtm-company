@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Belay On Autism Services emphasizes compliance with HIPAA regulations, indicating their handling of sensitive health data.",
+        "url": "https://belayonautismservices.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.19
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "MedCare Business Solutions utilizes AWS for their cloud infrastructure.",
+        "url": "https://medcare-health.com/about"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations for data handling.",
+        "url": "https://medcare-health.com/security"
+      },
+      {
+        "claim": "Integration patterns such as API Integration and Event-Driven Architecture are highlighted in their engineering documents.",
+        "url": "https://medcare-health.com/docs"
+      },
+      {
+        "claim": "X12 and FHIR compliance are part of their health tech offerings.",
+        "url": "https://medcare-health.com/services"
+      },
+      {
+        "claim": "They employ Azure services for data management and stability.",
+        "url": "https://medcare-health.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on healthcare data exchange with X12 and API integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions like 270/271 for eligibility verification",
+      "837 claims submissions",
+      "835 remittance advice processing",
+      "Clearinghouse services for EDI transactions"
+    ]
+  }
+}

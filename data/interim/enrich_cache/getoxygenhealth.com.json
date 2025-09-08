@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Oxygen Health utilizes AWS for cloud infrastructure including Lambda and API Gateway services for scalable application performance.",
+        "url": "https://getoxygenhealth.com/docs/api"
+      },
+      {
+        "claim": "The company supports HL7 FHIR standards for health data interoperability.",
+        "url": "https://getoxygenhealth.com/developer/docs/health-data"
+      },
+      {
+        "claim": "Oxygen Health processes X12 EDI transaction sets for healthcare billing.",
+        "url": "https://getoxygenhealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include Webhooks for real-time data notifications to partner systems.",
+        "url": "https://getoxygenhealth.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Oxygen Health uses X12 EDI and APIs, indicating alignment with ICP characteristics.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Provider communication",
+      "Payer integration"
+    ]
+  }
+}

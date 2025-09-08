@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "FHIR API",
+      "EDI X12 Transaction Sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Friends of the Family Home Health Care mentions HIPAA compliance on their security page, emphasizing adherence to health data regulations.",
+        "url": "https://trustingcare.com/security"
+      },
+      {
+        "claim": "The company uses HL7 standards for health information exchange, facilitating interoperability between healthcare systems.",
+        "url": "https://trustingcare.com/developer"
+      },
+      {
+        "claim": "They offer FHIR APIs for accessing patient health records in a standardized format, enhancing data exchange capabilities.",
+        "url": "https://trustingcare.com/docs"
+      },
+      {
+        "claim": "Integration patterns include the use of EDI X12 transaction sets for billing and claims processing related to health insurance.",
+        "url": "https://trustingcare.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions or relevant API automation.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

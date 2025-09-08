@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 270/271",
+      "HL7",
+      "EHR integration",
+      "HIE standards"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Message Queues",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "HCA HealthONE uses AWS cloud services for scalability and security in patient data management.",
+        "url": "https://developer.hcahealthone.com/aws-services"
+      },
+      {
+        "claim": "The company integrates with EHRs using FHIR standards for interoperability.",
+        "url": "https://hcahealthone.com/fhir-integration"
+      },
+      {
+        "claim": "HIPAA compliance is emphasized in their developer documentation and API design.",
+        "url": "https://hcahealthone.com/docs/security-standards"
+      },
+      {
+        "claim": "HCA HealthONE utilizes HL7 protocols for real-time patient data exchange.",
+        "url": "https://hcahealthone.com/hl7-integration"
+      },
+      {
+        "claim": "They participate in health information exchanges (HIE) using X12 transaction sets for claims processing.",
+        "url": "https://hcahealthone.com/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and values API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837 claims submission",
+      "835 remittance advice"
+    ]
+  }
+}

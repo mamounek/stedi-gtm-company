@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company is HIPAA compliant which indicates their handling of health information is in line with legal requirements.",
+        "url": "https://teampkhc.com/about-us/"
+      },
+      {
+        "claim": "References to X12 transaction sets on the site implies usage of EDI for healthcare data interchange.",
+        "url": "https://teampkhc.com/services/"
+      },
+      {
+        "claim": "Position listings indicate that knowledge of health-tech APIs is a requirement for tech roles.",
+        "url": "https://teampkhc.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction usage or API automation emphasis found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

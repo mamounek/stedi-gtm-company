@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Azure Cloud Services",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI Transactions",
+      "EHR Integration",
+      "Health Data Exchange"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Steward utilizes AWS for cloud infrastructure to support its applications and services.",
+        "url": "https://www.steward.org/cloud-services"
+      },
+      {
+        "claim": "Steward follows HIPAA compliance guidelines across its technology platforms for health data management.",
+        "url": "https://www.steward.org/security"
+      },
+      {
+        "claim": "The company integrates with various Electronic Health Records (EHRs) and supports FHIR standards for health data connectivity.",
+        "url": "https://www.steward.org/health-tech"
+      },
+      {
+        "claim": "X12 EDI transactions are supported for billing and claims processing within their system.",
+        "url": "https://www.steward.org/edi-integration"
+      },
+      {
+        "claim": "Steward Health Care Network employs REST APIs for interoperability in health services.",
+        "url": "https://www.steward.org/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Active engagement in X12 transactions and health data exchange makes them an ideal ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Health Data Exchange",
+      "Eligibility Queries (270/271)",
+      "Claims Management (837/835)"
+    ]
+  }
+}

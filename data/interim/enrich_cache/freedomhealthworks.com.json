@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Freedom Healthworks emphasizes HIPAA compliance for managing patient data securely.",
+        "url": "https://freedomhealthworks.com/security/"
+      },
+      {
+        "claim": "The company utilizes specific X12 EDI transaction sets for electronic claims processing.",
+        "url": "https://freedomhealthworks.com/docs/edi-claims/"
+      }
+    ],
+    "tech_stack_confidence": 0.63
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI transaction sets for HIPAA compliance in health tech.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Claims submission",
+      "Eligibility verification"
+    ]
+  }
+}

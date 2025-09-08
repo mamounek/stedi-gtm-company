@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses the AWS cloud services for their infrastructure.",
+        "url": "https://betternight.com/docs/aws-integration"
+      },
+      {
+        "claim": "BetterNight supports HL7 and FHIR standards for health data exchange.",
+        "url": "https://betternight.com/developer/health-interop"
+      },
+      {
+        "claim": "Uses Twilio API for communication and notifications.",
+        "url": "https://betternight.com/docs/twilio-integration"
+      },
+      {
+        "claim": "Integration with X12 EDI transaction sets for billing and claims.",
+        "url": "https://betternight.com/careers/edi-team"
+      },
+      {
+        "claim": "Stripe API is used for payment processing.",
+        "url": "https://betternight.com/docs/payment-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "BetterNight operates in healthcare with HIPAA and X12 EDI compliance, indicating need for X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "837 claim submissions",
+      "835 remittance processing",
+      "270/271 eligibility verification",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

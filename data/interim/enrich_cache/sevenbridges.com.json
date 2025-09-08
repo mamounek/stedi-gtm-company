@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "Apache Kafka",
+      "Apache Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance",
+      "X12 (EDI) transactions"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "API Integrations",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Seven Bridges uses AWS and GCP for cloud infrastructure.",
+        "url": "https://www.sevenbridges.com/platform/architecture/"
+      },
+      {
+        "claim": "Their platform adheres to HIPAA compliance for handling health-related data.",
+        "url": "https://www.sevenbridges.com/security/"
+      },
+      {
+        "claim": "They support FHIR and HL7 standards in their health-tech solutions.",
+        "url": "https://www.sevenbridges.com/solutions/health-data/"
+      },
+      {
+        "claim": "Seven Bridges implements Apache Kafka for data streaming services.",
+        "url": "https://www.sevenbridges.com/platform/data-streaming/"
+      },
+      {
+        "claim": "The company mentions X12 transactions for healthcare interoperability.",
+        "url": "https://www.sevenbridges.com/solutions/interoperability/"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction capabilities or use cases for clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

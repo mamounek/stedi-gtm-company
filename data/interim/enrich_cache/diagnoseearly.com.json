@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Diagnose Early utilizes AWS services for its cloud infrastructure, including Lambda and S3 for data storage and processing.",
+        "url": "https://diagnoseearly.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports integration with health standards such as FHIR and HL7 for interoperability with EHR systems.",
+        "url": "https://diagnoseearly.com/docs/health-standards"
+      },
+      {
+        "claim": "There is mention of X12 for electronic data interchange in their documentation related to billing and insurance claim processing.",
+        "url": "https://diagnoseearly.com/docs/edi-guide"
+      },
+      {
+        "claim": "Analyze integration patterns including REST and GraphQL APIs for accessing health data and processing.",
+        "url": "https://diagnoseearly.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.91
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI transactions for healthcare data exchange using X12 formats.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider-payer communication"
+    ]
+  }
+}

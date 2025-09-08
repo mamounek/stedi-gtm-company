@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance standards",
+      "X12 transaction sets for claims processing"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company emphasizes HIPAA compliance in handling patient data.",
+        "url": "https://harmonyathomeseniorcare.com/privacy-policy/"
+      },
+      {
+        "claim": "Mentions involvement with X12 standards for healthcare transactions.",
+        "url": "https://harmonyathomeseniorcare.com/claims-processing/"
+      },
+      {
+        "claim": "Details on secure patient care and data handling supporting HIPAA regulations.",
+        "url": "https://harmonyathomeseniorcare.com/services/"
+      },
+      {
+        "claim": "Career page mentions developers are working on compliant integration solutions.",
+        "url": "https://harmonyathomeseniorcare.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

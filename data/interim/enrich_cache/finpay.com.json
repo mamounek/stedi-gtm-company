@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Amazon RDS",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI Transaction Sets",
+      "FHIR API",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "FinPay utilizes AWS Lambda for serverless architecture to manage healthcare transactions efficiently.",
+        "url": "https://finpay.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance ensuring that all health data transactions are secure and confidential.",
+        "url": "https://finpay.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "FinPay uses FHIR standards for health information exchange, promoting interoperability between healthcare systems.",
+        "url": "https://finpay.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Integration with X12 EDI transaction sets is supported for processing healthcare claims and billing.",
+        "url": "https://finpay.com/docs/x12-edi"
+      },
+      {
+        "claim": "FinPay's architecture supports microservices to enhance the delivery of its healthcare financial services.",
+        "url": "https://finpay.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "FinPay utilizes X12 transactions and APIs, aligning with healthcare data exchange needs.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "API automation for EDI transactions",
+      "healthcare data interoperability"
+    ]
+  }
+}

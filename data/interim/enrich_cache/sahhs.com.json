@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "St. Anthony's Home Healthcare Services is compliant with HIPAA regulations.",
+        "url": "https://sahhs.com/services/healthcare-compliance"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for healthcare claims processing.",
+        "url": "https://sahhs.com/services/insurance-claims"
+      },
+      {
+        "claim": "St. Anthony's integrates FHIR standards for health information exchange.",
+        "url": "https://sahhs.com/services/information-exchange"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 transaction or API usage for data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

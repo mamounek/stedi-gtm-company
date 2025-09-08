@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful services for data exchange",
+      "Event-driven architecture with AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Zappy Health utilizes AWS Lambda for scalable serverless computing.",
+        "url": "https://www.zappyhealth.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for health data.",
+        "url": "https://www.zappyhealth.com/security"
+      },
+      {
+        "claim": "Zappy employs FHIR APIs to facilitate health data interoperability.",
+        "url": "https://www.zappyhealth.com/docs/fhir"
+      },
+      {
+        "claim": "Integration with EHR systems is enabled through RESTful web services standards.",
+        "url": "https://www.zappyhealth.com/engineering/case-studies"
+      },
+      {
+        "claim": "The platform leverages AWS for cloud storage and data management solutions.",
+        "url": "https://www.zappyhealth.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found linking Zappy Health to X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

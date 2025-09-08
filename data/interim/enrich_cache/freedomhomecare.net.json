@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Freedom Home Care adheres to HIPAA regulations for patient data protection.",
+        "url": "https://freedomhomecare.net/security/"
+      },
+      {
+        "claim": "The company participates in electronic data interchange (EDI) facilitating healthcare transaction sets.",
+        "url": "https://freedomhomecare.net/docs/edi/"
+      },
+      {
+        "claim": "Freedom Home Care complies with FHIR standards to ensure interoperability in healthcare.",
+        "url": "https://freedomhomecare.net/healthcare-standards/fhir/"
+      },
+      {
+        "claim": "HL7 protocols are implemented by Freedom Home Care for data sharing between healthcare applications.",
+        "url": "https://freedomhomecare.net/healthcare-standards/hl7/"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of active use of X12 transactions or API automation in their public materials.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

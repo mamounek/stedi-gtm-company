@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "Cloud API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "HeyDay Consulting Services utilizes AWS for their infrastructure needs.",
+        "url": "https://heydaycs.com/cloud-solutions"
+      },
+      {
+        "claim": "They comply with HIPAA regulations in handling health data.",
+        "url": "https://heydaycs.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data exchange.",
+        "url": "https://heydaycs.com/healthtech/fhir-support"
+      },
+      {
+        "claim": "They offer integration patterns for EDI transactions.",
+        "url": "https://heydaycs.com/integrations/edi"
+      },
+      {
+        "claim": "HeyDay Consulting mentions using Azure in their tech stack.",
+        "url": "https://heydaycs.com/tech-stack/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focuses on healthcare integration and EDI transactions, aligning with X12 usage.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI transactions processing",
+      "Claims management (837/835)",
+      "Eligibility verification (270/271)",
+      "Remittance processing"
+    ]
+  }
+}

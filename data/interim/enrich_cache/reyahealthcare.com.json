@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 V2",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Reya Health utilizes AWS for its cloud infrastructure.",
+        "url": "https://reyahealthcare.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or clearinghouse services found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

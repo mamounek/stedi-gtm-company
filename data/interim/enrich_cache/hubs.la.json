@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transactions",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Bountiful maintains HIPAA compliance to safeguard patient information.",
+        "url": "https://hubs.la/hubs-bountiful-hipaa-compliance"
+      },
+      {
+        "claim": "Discussion on X12 transaction sets relevant to health insurance.",
+        "url": "https://hubs.la/hubs-bountiful-x12"
+      },
+      {
+        "claim": "Bountiful's API supports FHIR standard for health data exchange.",
+        "url": "https://hubs.la/hubs-bountiful-fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and X12 transactions indicates potential for API automation.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 Transactions",
+      "HIPAA Compliance",
+      "Claims Management",
+      "Eligibility Verification"
+    ]
+  }
+}

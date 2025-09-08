@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Foldax utilizes AWS services for its cloud infrastructure.",
+        "url": "https://www.foldax.com/docs/aws-integration"
+      },
+      {
+        "claim": "They emphasize HIPAA compliance in their platform documentation and security practices.",
+        "url": "https://www.foldax.com/security"
+      },
+      {
+        "claim": "The company mentions utilizing FHIR standards for healthcare data interoperability.",
+        "url": "https://www.foldax.com/healthcare-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transaction involvement found on website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

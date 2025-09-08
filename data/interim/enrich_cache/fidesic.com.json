@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Fidesic provides cloud-based AP solutions that imply the use of infrastructure services.",
+        "url": "https://www.fidesic.com/about/"
+      },
+      {
+        "claim": "The platform is designed for compliance with HIPAA guidelines pertinent to electronic health information.",
+        "url": "https://www.fidesic.com/security/"
+      },
+      {
+        "claim": "Fidesic mentions integration capabilities which could relate to HIPAA EDI formats.",
+        "url": "https://www.fidesic.com/integrations/"
+      },
+      {
+        "claim": "Fidesic's solution includes secure API access for sending invoices and automating accounts payable processes.",
+        "url": "https://www.fidesic.com/products/"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation for healthcare data exchange found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

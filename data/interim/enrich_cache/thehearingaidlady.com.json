@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company does not publicly disclose any APIs or cloud services.",
+        "url": "https://thehearingaidlady.com"
+      },
+      {
+        "claim": "There is no mention of integration middleware or health-tech rails related to HIPAA or EHRs.",
+        "url": "https://thehearingaidlady.com"
+      },
+      {
+        "claim": "The site lacks technical documentation or developer-oriented resources.",
+        "url": "https://thehearingaidlady.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or EDI use cases found on the website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

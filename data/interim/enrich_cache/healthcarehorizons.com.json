@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Healthcare Horizons utilizes FHIR standards for health data exchange.",
+        "url": "https://healthcarehorizons.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "The company adopts X12 transaction sets for healthcare data exchanges.",
+        "url": "https://healthcarehorizons.com/integration/x12"
+      },
+      {
+        "claim": "Healthcare Horizons supports EDI for seamless healthcare transactions.",
+        "url": "https://healthcarehorizons.com/docs/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear use cases for X12 or EDI found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

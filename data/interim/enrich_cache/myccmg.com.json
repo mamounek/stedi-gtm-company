@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "Care Connectors utilizes AWS for their cloud services.",
+        "url": "https://myccmg.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance standards.",
+        "url": "https://myccmg.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They use FHIR APIs for healthcare data interoperability.",
+        "url": "https://myccmg.com/developer/api-guide"
+      },
+      {
+        "claim": "Integration with EHR systems via HL7 protocols is mentioned on their documentation page.",
+        "url": "https://myccmg.com/integration/hl7"
+      },
+      {
+        "claim": "Care Connectors partners with cloud providers like Azure to host their applications securely.",
+        "url": "https://myccmg.com/partners/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use cases found on the site.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

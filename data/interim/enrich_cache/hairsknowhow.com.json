@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services like Lambda for serverless functions.",
+        "url": "https://hairsknowhow.com/developer"
+      },
+      {
+        "claim": "HairsKnowHow is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://hairsknowhow.com/security"
+      },
+      {
+        "claim": "Refers to AWS S3 for storage solutions, indicative of cloud infrastructure usage.",
+        "url": "https://hairsknowhow.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of healthcare data exchange or X12 use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

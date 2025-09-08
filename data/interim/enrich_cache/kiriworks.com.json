@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 transaction set",
+      "HL7/FHIR"
+    ],
+    "integration_patterns": [
+      "Microservices architecture",
+      "Event-driven architecture",
+      "API-first design"
+    ],
+    "evidence": [
+      {
+        "claim": "Kiriworks utilizes AWS for cloud services.",
+        "url": "https://kiriworks.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA for health data management.",
+        "url": "https://kiriworks.com/healthcare-solutions"
+      },
+      {
+        "claim": "Integration patterns include microservices and API-first design.",
+        "url": "https://kiriworks.com/integration-approach"
+      },
+      {
+        "claim": "They support EDI standards including X12 for healthcare transactions.",
+        "url": "https://kiriworks.com/edi-solutions"
+      },
+      {
+        "claim": "HL7 and FHIR standards are part of their healthcare interoperability solutions.",
+        "url": "https://kiriworks.com/hl7-fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Kiriworks actively engages with X12 transactions and HIPAA compliance in healthcare.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction set processing",
+      "Eligibility and benefits checks (270/271)",
+      "Claims submission (837)",
+      "Remittance advice processing (835)"
+    ]
+  }
+}

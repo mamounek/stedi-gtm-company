@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "GraphQL API"
+    ],
+    "evidence": [
+      {
+        "claim": "Linkova utilizes AWS for cloud infrastructure and services.",
+        "url": "https://linkova.io/docs/architecture"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations on their security page.",
+        "url": "https://linkova.io/security"
+      },
+      {
+        "claim": "Linkova offers a RESTful API for integration with health systems.",
+        "url": "https://linkova.io/docs/api"
+      },
+      {
+        "claim": "They support the FHIR standard for health data interchange.",
+        "url": "https://linkova.io/docs/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of relevant X12 or clearinghouse capabilities found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

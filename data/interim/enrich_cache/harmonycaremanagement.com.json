@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration with EHRs",
+      "Data Interchange Standards for Health Care"
+    ],
+    "evidence": [
+      {
+        "claim": "Harmony Care Management utilizes FHIR standards in their health information exchange.",
+        "url": "https://harmonycaremanagement.com/docs/fhir"
+      },
+      {
+        "claim": "The company mentions compliance with HL7 standards for healthcare data transmission.",
+        "url": "https://harmonycaremanagement.com/docs/hl7"
+      },
+      {
+        "claim": "They focus on data interoperability with EHRs, suggesting their platform integrates with multiple systems using standard health tech rails.",
+        "url": "https://harmonycaremanagement.com/careers/engineering"
+      },
+      {
+        "claim": "The mention of X12 suggests that the company engages in standard electronic data interchange for healthcare transactions.",
+        "url": "https://harmonycaremanagement.com/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 use cases or clearinghouse functions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

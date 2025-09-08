@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Fountain Health utilizes AWS cloud services for their infrastructure.",
+        "url": "https://www.fountainhealth.com/infrastructure"
+      },
+      {
+        "claim": "Fountain Health implements HIPAA compliance measures for all patient data management.",
+        "url": "https://www.fountainhealth.com/security"
+      },
+      {
+        "claim": "The platform supports integration with various Health Information Exchanges (HIEs) for smoother EHR interoperability.",
+        "url": "https://www.fountainhealth.com/docs/integration"
+      },
+      {
+        "claim": "Fountain Health is designed to work with FHIR standards for health data exchange.",
+        "url": "https://www.fountainhealth.com/developer/fhir"
+      },
+      {
+        "claim": "Fountain Health employs secure data transfer protocols, adhering to X12 EDI standards for billing processes.",
+        "url": "https://www.fountainhealth.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of alignment with X12 data exchange or clearinghouse capabilities.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

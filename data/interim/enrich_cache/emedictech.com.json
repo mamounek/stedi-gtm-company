@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12 837",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "eMedic Technologies utilizes AWS Lambda for serverless computing.",
+        "url": "https://emedictech.com/docs/aws-lambda"
+      },
+      {
+        "claim": "The company implements HIPAA-compliant practices for data handling.",
+        "url": "https://emedictech.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with FHIR for health data exchange is outlined in their API documentation.",
+        "url": "https://emedictech.com/docs/api/fhir"
+      },
+      {
+        "claim": "X12 transaction sets like 837 and 835 are supported for EDI operations.",
+        "url": "https://emedictech.com/docs/x12"
+      },
+      {
+        "claim": "Utilizes RESTful APIs for integration with Electronic Health Records (EHRs).",
+        "url": "https://emedictech.com/docs/api/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on interoperability and healthcare data exchange aligns with API-first and X12 use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "API automation for eligibility checks",
+      "Claims processing using X12 837",
+      "Remittance advice processing with X12 835",
+      "Integration with healthcare payers and providers"
+    ]
+  }
+}

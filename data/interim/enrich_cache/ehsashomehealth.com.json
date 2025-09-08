@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ehsas Home Health adheres to HIPAA compliance standards for handling medical data.",
+        "url": "https://ehsashomehealth.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company employs HL7 standards for electronic health record interoperability.",
+        "url": "https://ehsashomehealth.com/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.53
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12/API use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

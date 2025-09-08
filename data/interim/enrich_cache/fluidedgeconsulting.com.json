@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "FluidEdge utilizes AWS and Azure cloud services for scalable infrastructure.",
+        "url": "https://fluidedgeconsulting.com/cloud-services"
+      },
+      {
+        "claim": "The company offers healthcare integration solutions compliant with HIPAA and FHIR standards.",
+        "url": "https://fluidedgeconsulting.com/healthcare-integration"
+      },
+      {
+        "claim": "FluidEdge employs Snowflake for data warehousing and analytics in health tech projects.",
+        "url": "https://fluidedgeconsulting.com/data-platforms"
+      },
+      {
+        "claim": "They leverage HL7 standards for healthcare data interoperability solutions.",
+        "url": "https://fluidedgeconsulting.com/hl7-integration"
+      },
+      {
+        "claim": "The organization integrates EDI transactions, including X12, into their offerings for healthcare clients.",
+        "url": "https://fluidedgeconsulting.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "FluidEdge specializes in healthcare integrations, demonstrating use of HIPAA and X12 standards.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status (276/277)",
+      "Remittance processing (835)",
+      "Interoperability via APIs"
+    ]
+  }
+}

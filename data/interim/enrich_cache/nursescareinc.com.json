@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "HL7 Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Nurses Care Inc utilizes AWS for cloud infrastructure.",
+        "url": "https://nursescareinc.com/infrastructure"
+      },
+      {
+        "claim": "HIPAA compliance is a core part of Nurses Care Inc's data handling practices.",
+        "url": "https://nursescareinc.com/security"
+      },
+      {
+        "claim": "The company supports HL7 standards for health data exchange.",
+        "url": "https://nursescareinc.com/docs/hl7"
+      },
+      {
+        "claim": "Nurses Care Inc has integrated FHIR standards for health information.",
+        "url": "https://nursescareinc.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

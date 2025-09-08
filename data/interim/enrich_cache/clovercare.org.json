@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR integration for health data exchange",
+      "HIPAA-compliant data handling processes"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Clover Care utilizes FHIR standards for seamless health data interchange.",
+        "url": "https://clovercare.org/docs/fhir-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for protecting patient information.",
+        "url": "https://clovercare.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "Clover Care's systems are designed for interoperability with electronic health records (EHRs).",
+        "url": "https://clovercare.org/docs/ehr-interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of handling X12 transactions or relevant use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

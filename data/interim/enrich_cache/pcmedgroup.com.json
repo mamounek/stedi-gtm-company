@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Patient Care Medical Group expresses commitment to HIPAA compliance in data handling and medical records.",
+        "url": "https://pcmedgroup.com/privacy-policy/"
+      },
+      {
+        "claim": "The company mentions the integration of FHIR standards for electronic health information exchange.",
+        "url": "https://pcmedgroup.com/services/electronic-health-records/"
+      },
+      {
+        "claim": "They have a focus on cloud solutions to manage patient data securely, hinting at cloud service utilization.",
+        "url": "https://pcmedgroup.com/about/#technology"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

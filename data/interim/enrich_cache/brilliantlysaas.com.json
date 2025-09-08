@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "OAuth2 for authentication",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Brilliantly utilizes AWS Lambda for serverless computing.",
+        "url": "https://brilliantlysaas.com/docs/serverless-architecture"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance standards for health data security.",
+        "url": "https://brilliantlysaas.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Brilliantly integrates with third-party EHR systems using FHIR standards.",
+        "url": "https://brilliantlysaas.com/developer/integrations"
+      },
+      {
+        "claim": "The use of Amazon RDS for relational database storage is outlined in their technical documentation.",
+        "url": "https://brilliantlysaas.com/docs/data-storage"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or related healthcare data exchange use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

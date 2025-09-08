@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS IAM"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems",
+      "Data exchange via secure messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "EZ Scripts utilizes AWS services for cloud functionalities, including data storage and processing.",
+        "url": "https://www.ezrxmeds.com/docs/aws-services-overview"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for secure handling of health data.",
+        "url": "https://www.ezrxmeds.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their operational infrastructure for streamlined patient management.",
+        "url": "https://www.ezrxmeds.com/integrations/ehr-integration"
+      },
+      {
+        "claim": "Reference to X12 transaction sets indicates compatibility with industry-standard healthcare data formats.",
+        "url": "https://www.ezrxmeds.com/docs/x12-edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA compliant tech with EDI transaction capabilities; potential for X12 exchanges.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility requests",
+      "837 claims submissions",
+      "835 remittance processing",
+      "276/277 claim status inquiries"
+    ]
+  }
+}

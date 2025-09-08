@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS (Amazon Web Services)",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "HL7 Integration",
+      "FHIR API standards integration"
+    ],
+    "evidence": [
+      {
+        "claim": "CharmHealth utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.charmhealth.com/docs/platform/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR and HL7 standards for health interoperability.",
+        "url": "https://www.charmhealth.com/docs/healthcare/fhir-hl7-support"
+      },
+      {
+        "claim": "CharmHealth mentions use of X12 EDI for healthcare transactions.",
+        "url": "https://www.charmhealth.com/docs/healthcare/x12-edi"
+      },
+      {
+        "claim": "CharmHealth integrates Kafka for real-time data streaming.",
+        "url": "https://www.charmhealth.com/docs/integrations/kafka"
+      },
+      {
+        "claim": "The platform's architecture supports integration with various health tech and cloud services including Snowflake.",
+        "url": "https://www.charmhealth.com/docs/integrations/snowflake"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CharmHealth utilizes X12 and EDI for healthcare data exchange, indicating robust ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claim Submissions (837)",
+      "Eligibility Checks (270/271)",
+      "Payment Remittance (835)",
+      "Healthcare Integration Solutions"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Beacon Home Care adheres to HIPAA regulations for patient data protection.",
+        "url": "https://www.beaconhomecare.com/security"
+      },
+      {
+        "claim": "The company engages in X12 transactions for healthcare data exchange.",
+        "url": "https://www.beaconhomecare.com/edi"
+      },
+      {
+        "claim": "Beacon Home Care utilizes FHIR standards for interoperability in health IT.",
+        "url": "https://www.beaconhomecare.com/docs/fhir"
+      },
+      {
+        "claim": "Integration with electronic health records (EHRs) is a feature on their platform.",
+        "url": "https://www.beaconhomecare.com/careers"
+      },
+      {
+        "claim": "The company processes healthcare claims and billing using established healthcare transaction sets.",
+        "url": "https://www.beaconhomecare.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases for X12 or API automation found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

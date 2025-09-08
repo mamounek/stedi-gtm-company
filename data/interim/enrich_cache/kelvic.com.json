@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [],
+    "integration_patterns": [
+      "REST API"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS to support its cloud services for construction project management.",
+        "url": "https://kelvic.com/cloud-services"
+      },
+      {
+        "claim": "Integration with Google Cloud Platform for data storage and processing in construction applications.",
+        "url": "https://kelvic.com/services"
+      },
+      {
+        "claim": "Kelvic Construction Company has a dedicated API for user authentication and project management functionalities.",
+        "url": "https://kelvic.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in healthcare data exchange or relevant use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "Cloud API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Insagic utilizes AWS for their cloud infrastructure.",
+        "url": "https://publicishealth.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards in their health tech solutions.",
+        "url": "https://publicishealth.com/security"
+      },
+      {
+        "claim": "Insagic implements FHIR standards for health data interoperability.",
+        "url": "https://publicishealth.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or API focus; primarily a marketing and communications firm.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

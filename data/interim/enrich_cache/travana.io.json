@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HL7 Messaging Standards"
+    ],
+    "integration_patterns": [
+      "FHIR API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud infrastructure and services.",
+        "url": "https://travana.io/developer"
+      },
+      {
+        "claim": "Follows HL7 messaging standards for health data interoperability.",
+        "url": "https://travana.io/docs"
+      },
+      {
+        "claim": "Utilizes FHIR for healthcare data exchange.",
+        "url": "https://travana.io/health-tech"
+      },
+      {
+        "claim": "Offers APIs for integration with EHRs.",
+        "url": "https://travana.io/api"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging with X12 transactions or specific healthcare clearinghouse use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

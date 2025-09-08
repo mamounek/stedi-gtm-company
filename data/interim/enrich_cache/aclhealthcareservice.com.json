@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ACL Healthcare Service references compliance with HIPAA regulations, indicating they handle protected health information (PHI).",
+        "url": "https://aclhealthcareservice.com/security"
+      },
+      {
+        "claim": "The company utilizes standards such as X12 for electronic data interchange in their healthcare services.",
+        "url": "https://aclhealthcareservice.com/docs"
+      },
+      {
+        "claim": "Information on FHIR is mentioned, showing modern healthcare interoperability practices.",
+        "url": "https://aclhealthcareservice.com/docs"
+      },
+      {
+        "claim": "EDI is part of their transaction processing, specifically pertaining to healthcare claims.",
+        "url": "https://aclhealthcareservice.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or API automation found on site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

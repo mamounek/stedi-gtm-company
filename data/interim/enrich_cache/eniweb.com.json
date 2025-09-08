@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful API Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "eni utilizes AWS for cloud infrastructure.",
+        "url": "https://eniweb.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://eniweb.com/health-technology/fhir"
+      },
+      {
+        "claim": "X12 transactions are supported for healthcare billing processing.",
+        "url": "https://eniweb.com/docs/x12-implementation"
+      },
+      {
+        "claim": "HL7 standards are adhered to within their interfacing solutions.",
+        "url": "https://eniweb.com/health-api/hl7"
+      },
+      {
+        "claim": "Eni is expanding its cloud capabilities with partnerships in GCP and Azure.",
+        "url": "https://eniweb.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or use cases related to healthcare data exchange found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

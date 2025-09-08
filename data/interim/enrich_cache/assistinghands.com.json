@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations, ensuring compliance with health information privacy standards.",
+        "url": "https://assistinghands.com/assisting-hands-home-care-safety-and-security/#hipaa"
+      },
+      {
+        "claim": "Assisting Hands Home Care discusses its adherence to regulatory standards like HIPAA for protecting patient information.",
+        "url": "https://assistinghands.com/aspects-of-our-home-care-services/#compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.28
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or related integrations.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

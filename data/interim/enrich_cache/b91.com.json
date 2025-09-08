@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Company utilizes AWS for cloud infrastructure.",
+        "url": "https://b91.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "B91 integrates FHIR and HL7 standards in their health tech solutions.",
+        "url": "https://b91.com/developer/health-tech"
+      },
+      {
+        "claim": "Data streaming capabilities are supported by Kafka frameworks at B91.",
+        "url": "https://b91.com/engineering/data-streaming"
+      },
+      {
+        "claim": "B91 adheres to HIPAA compliance in their health data handling methodologies.",
+        "url": "https://b91.com/security/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "B91 supports X12 transactions and values API automation in health tech.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims management",
+      "Eligibility verification",
+      "Remittance advice handling"
+    ]
+  }
+}

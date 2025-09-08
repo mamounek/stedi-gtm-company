@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API for messaging",
+      "Stripe API for payments"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API-based integration for EHR systems",
+      "Webhook integrations for appointments and notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Atrio Home Care utilizes AWS for its cloud infrastructure.",
+        "url": "https://atriohomecare.org/about"
+      },
+      {
+        "claim": "The company follows HIPAA standards for handling patient data.",
+        "url": "https://atriohomecare.org/security"
+      },
+      {
+        "claim": "Atrio Home Care supports FHIR for healthcare interoperability.",
+        "url": "https://atriohomecare.org/services"
+      },
+      {
+        "claim": "Integration with Twilio for SMS and notifications.",
+        "url": "https://atriohomecare.org/contact"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and is HIPAA compliant for healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions for claims processing",
+      "Eligibility inquiries and responses (270/271)",
+      "Claim status inquiries (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

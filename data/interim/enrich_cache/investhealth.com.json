@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "InvestHealth utilizes AWS for their cloud infrastructure.",
+        "url": "https://investhealth.com/cloud-infrastructure"
+      },
+      {
+        "claim": "InvestHealth supports FHIR standards for health data exchange.",
+        "url": "https://investhealth.com/fhir-implementation"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for seamless data interoperability.",
+        "url": "https://investhealth.com/integration-practices"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for handling sensitive health information.",
+        "url": "https://investhealth.com/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of use cases involving X12 or EDI transactions on their website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

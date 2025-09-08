@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "EDI",
+      "X12"
+    ],
+    "integration_patterns": [
+      "HL7",
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "Gini provides support for HIPAA compliance to ensure data security in health-related applications.",
+        "url": "https://gininow.com/security"
+      },
+      {
+        "claim": "Integration capabilities with EHR systems using FHIR for data exchange.",
+        "url": "https://gininow.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Gini specializes in electronic data interchange (EDI) for healthcare transactions.",
+        "url": "https://gininow.com/docs/edi"
+      },
+      {
+        "claim": "Gini's platform utilizes HL7 standards for health information interoperability.",
+        "url": "https://gininow.com/docs/hl7"
+      },
+      {
+        "claim": "The company employs AWS services for its cloud infrastructure to support scalable solutions.",
+        "url": "https://gininow.com/developer/aws-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12-based use cases or API automation found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

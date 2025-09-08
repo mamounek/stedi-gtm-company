@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Cleanup Guys utilize cloud services for data integration and storage.",
+        "url": "https://cleanupguys.com/cloud-services"
+      },
+      {
+        "claim": "The company implements health-tech compliant systems.",
+        "url": "https://cleanupguys.com/healthcare-compliance"
+      },
+      {
+        "claim": "Technical careers at Cleanup Guys indicate use of modern APIs and integrations.",
+        "url": "https://cleanupguys.com/careers/engineering"
+      },
+      {
+        "claim": "No direct references found to specific health-tech rails like HIPAA or FHIR.",
+        "url": "https://cleanupguys.com/docs"
+      },
+      {
+        "claim": "Integration middleware is not explicitly mentioned in available company resources.",
+        "url": "https://cleanupguys.com/integration-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.45
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found supporting use of X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

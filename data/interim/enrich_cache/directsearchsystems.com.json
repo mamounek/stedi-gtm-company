@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Docker"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Direct Search Systems utilizes AWS for cloud infrastructure services.",
+        "url": "https://directsearchsystems.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://directsearchsystems.com/healthcare/fhir-implementation"
+      },
+      {
+        "claim": "Direct Search Systems has documented their use of HIPAA compliance in their data handling practices.",
+        "url": "https://directsearchsystems.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The integration patterns used by Direct Search Systems are detailed in their development documentation.",
+        "url": "https://directsearchsystems.com/docs/integration-patterns"
+      },
+      {
+        "claim": "Direct Search Systems supports X12 transactions as part of their healthcare solutions.",
+        "url": "https://directsearchsystems.com/healthcare/x12-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses HIPAA X12 and focuses on healthcare data exchange, aligning with API needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Integration with payers/providers",
+      "EDI transactions"
+    ]
+  }
+}

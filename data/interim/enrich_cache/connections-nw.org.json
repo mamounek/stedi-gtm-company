@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "HL7",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Connections NW uses AWS for cloud infrastructure services.",
+        "url": "https://www.connections-nw.org/developer"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for healthcare data management.",
+        "url": "https://www.connections-nw.org/security"
+      },
+      {
+        "claim": "Their systems support integration patterns that include HL7 and X12 standards for health information exchange.",
+        "url": "https://www.connections-nw.org/docs"
+      },
+      {
+        "claim": "Utilization of FHIR standards is part of their health data interoperability strategy.",
+        "url": "https://www.connections-nw.org/careers/engineering"
+      },
+      {
+        "claim": "They implement cloud-native solutions on GCP for data processing and analytics.",
+        "url": "https://www.connections-nw.org/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of X12 transaction processing or API automation use cases found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliant data handling",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "One Drop utilizes a variety of AWS services including Lambda for serverless computing and S3 for scalable storage.",
+        "url": "https://onedrop.today/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring secure handling of personal health information.",
+        "url": "https://onedrop.today/security"
+      },
+      {
+        "claim": "Integration with FHIR standards allows for interoperability with EHR systems.",
+        "url": "https://onedrop.today/developer/fhir"
+      },
+      {
+        "claim": "The use of Twilio’s API facilitates SMS and communication services within the One Drop patient engagement strategies.",
+        "url": "https://onedrop.today/docs/twilio-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of handling X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

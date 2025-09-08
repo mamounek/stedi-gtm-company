@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "EDI X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Whole Life Home Health Care claims compliance with HIPAA standards for health information.",
+        "url": "https://www.wholelifehomecare.com/security"
+      },
+      {
+        "claim": "The company handles EDI X12 transaction sets for medical billing and records.",
+        "url": "https://www.wholelifehomecare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.43
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA compliance and EDI X12, indicating they handle relevant healthcare transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Eligibility inquiries (270/271)",
+      "Claims submissions (837)",
+      "Claims status (276/277)",
+      "Remittance advices (835)",
+      "Clearinghouse functions"
+    ]
+  }
+}

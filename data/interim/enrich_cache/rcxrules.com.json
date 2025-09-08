@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "RCxRules utilizes AWS S3 for data storage and AWS Lambda for serverless computing.",
+        "url": "https://www.rcxrules.com/docs/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 standards and offers relevant health tech solutions for integration.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Integration with healthcare payers and providers"
+    ]
+  }
+}

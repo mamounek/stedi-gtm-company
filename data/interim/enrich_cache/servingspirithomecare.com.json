@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance framework",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "EDI transactions for healthcare billing"
+    ],
+    "evidence": [
+      {
+        "claim": "The company emphasizes its compliance with HIPAA regulations, ensuring secure handling of health information.",
+        "url": "https://servingspirithomecare.com/privacy-policy"
+      },
+      {
+        "claim": "Information regarding the use of HL7 and FHIR standards is mentioned in their service descriptions, focusing on interoperability with EHRs.",
+        "url": "https://servingspirithomecare.com/services"
+      },
+      {
+        "claim": "The provider mentions capabilities for integrating with electronic health record systems, suggesting API-based interactions.",
+        "url": "https://servingspirithomecare.com/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or clearinghouse integration found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 transaction sets",
+      "FHIR API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Henry Schein MicroMD utilizes AWS for cloud services.",
+        "url": "https://micromd.com/cloud-services"
+      },
+      {
+        "claim": "The platform supports HL7 and FHIR standards for health data exchange.",
+        "url": "https://micromd.com/health-data-standards"
+      },
+      {
+        "claim": "MicroMD is HIPAA compliant, ensuring secure handling of patient data.",
+        "url": "https://micromd.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration capabilities include support for EDI X12 transaction sets.",
+        "url": "https://micromd.com/edi-integration"
+      },
+      {
+        "claim": "MicroMD leverages Azure for scalable healthcare applications.",
+        "url": "https://micromd.com/healthcare-applications"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI-based transactions and supports X12 standards, relevant for API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI X12 transaction sets",
+      "Claims processing (837s)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)"
+    ]
+  }
+}

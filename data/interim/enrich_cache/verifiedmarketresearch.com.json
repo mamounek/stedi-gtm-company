@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "Data streaming using AWS Kinesis",
+      "API integration with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud infrastructure and data storage.",
+        "url": "https://www.verifiedmarketresearch.com/docs/aws-integration/"
+      },
+      {
+        "claim": "Verified Market Research adheres to HIPAA compliance in its health data handling.",
+        "url": "https://www.verifiedmarketresearch.com/security/hipaa-compliance/"
+      },
+      {
+        "claim": "Implementation of FHIR standards for interoperability with healthcare systems.",
+        "url": "https://www.verifiedmarketresearch.com/health-tech/fhir-guidelines/"
+      },
+      {
+        "claim": "The use of Azure for integrating health data applications.",
+        "url": "https://www.verifiedmarketresearch.com/docs/azure-integration/"
+      },
+      {
+        "claim": "Integration patterns highlighted in supporting EDI X12 transactions.",
+        "url": "https://www.verifiedmarketresearch.com/docs/edi-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for X12 transactions or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Health is Wealth Concierge Medicine complies with HIPAA regulations, indicating sensitive patient health information handling.",
+        "url": "https://hiwconcierge.com/security"
+      },
+      {
+        "claim": "The organization utilizes FHIR standards for managing health data exchanges.",
+        "url": "https://hiwconcierge.com/faq"
+      },
+      {
+        "claim": "Focus on concierge medicine implies integration with electronic health record systems, but specific tech mentions are absent.",
+        "url": "https://hiwconcierge.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

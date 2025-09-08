@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Stripe"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Rubix Mental Health utilizes AWS for their cloud infrastructure.",
+        "url": "https://rubixmentalhealth.com/about"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in their service delivery.",
+        "url": "https://rubixmentalhealth.com/security"
+      },
+      {
+        "claim": "Integration with Twilio for communication services is mentioned on their site.",
+        "url": "https://rubixmentalhealth.com/faq"
+      },
+      {
+        "claim": "Rubix supports FHIR standards for health data exchange.",
+        "url": "https://rubixmentalhealth.com/technology"
+      },
+      {
+        "claim": "Stripe is used for payment processing in their platform.",
+        "url": "https://rubixmentalhealth.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

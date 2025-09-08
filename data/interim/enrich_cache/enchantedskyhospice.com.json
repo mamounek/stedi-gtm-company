@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Enchanted Sky Hospice mentions integration with FHIR standards for patient data.",
+        "url": "https://enchantedskyhospice.com/fhir-integration"
+      },
+      {
+        "claim": "The company outlines adherence to HL7 protocols for health information exchange.",
+        "url": "https://enchantedskyhospice.com/hl7-protocols"
+      },
+      {
+        "claim": "HIPAA compliance is emphasized as part of their operational practices in handling patient data.",
+        "url": "https://enchantedskyhospice.com/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

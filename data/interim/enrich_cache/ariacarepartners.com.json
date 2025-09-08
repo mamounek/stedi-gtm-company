@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Aria Care Partners is HIPAA compliant, ensuring protection of health information.",
+        "url": "https://ariacarepartners.com/security/"
+      },
+      {
+        "claim": "The company provides care through a platform that adheres to healthcare integration standards.",
+        "url": "https://ariacarepartners.com/services/"
+      },
+      {
+        "claim": "Aria Care Partners offers services that support EHR integration but specific APIs were not disclosed.",
+        "url": "https://ariacarepartners.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or EDI integration on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

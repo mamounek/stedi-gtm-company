@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Aileen.ai leverages AWS services for infrastructure.",
+        "url": "https://aileen.ai/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations.",
+        "url": "https://aileen.ai/security"
+      },
+      {
+        "claim": "Aileen.ai integrates with FHIR standards to facilitate health data exchange.",
+        "url": "https://aileen.ai/health-tech"
+      },
+      {
+        "claim": "Utilizes RESTful APIs for seamless integration.",
+        "url": "https://aileen.ai/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI specific use cases found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

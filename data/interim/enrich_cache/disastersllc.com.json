@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Azure Cloud Services"
+    ],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "Cloud Storage Integration",
+      "Data Streaming with Amazon Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Disaster Recovery Services utilizes HIPAA compliant solutions.",
+        "url": "https://disastersllc.com/services/healthcare-disaster-recovery"
+      },
+      {
+        "claim": "The company offers services leveraging AWS cloud solutions for their infrastructure.",
+        "url": "https://disastersllc.com/solutions/cloud-infrastructure"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their healthcare offering.",
+        "url": "https://disastersllc.com/services/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or API automation for health data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure IoT Hub"
+    ],
+    "health_tech": [
+      "HIPAA compliant infrastructure",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "WebSockets"
+    ],
+    "evidence": [
+      {
+        "claim": "Neuralace Medical utilizes AWS Lambda for serverless computing needs.",
+        "url": "https://neuralacemedical.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance for its health technology solutions.",
+        "url": "https://neuralacemedical.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They utilize REST APIs for integration with EHR systems.",
+        "url": "https://neuralacemedical.com/docs/api-overview"
+      },
+      {
+        "claim": "Neuralace Medical implements HL7 for health data exchange protocols.",
+        "url": "https://neuralacemedical.com/docs/hl7-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for use of X12 transactions or related healthcare data exchanges.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

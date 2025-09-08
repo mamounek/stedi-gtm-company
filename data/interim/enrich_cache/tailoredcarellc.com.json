@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI (X12) integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Tailored Care LLC adheres to HIPAA regulations for patient data management.",
+        "url": "https://tailoredcarellc.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data exchange.",
+        "url": "https://tailoredcarellc.com/docs"
+      },
+      {
+        "claim": "Integration with EDI X12 standards is part of their interoperability strategy.",
+        "url": "https://tailoredcarellc.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in EDI integration, indicating a potential fit for X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Claims status (276/277)",
+      "Eligibility checks (270/271)",
+      "Remittance advice (835)",
+      "Healthcare clearinghouse functions"
+    ]
+  }
+}

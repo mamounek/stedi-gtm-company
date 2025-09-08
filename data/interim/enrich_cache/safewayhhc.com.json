@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Company uses AWS for healthcare application hosting.",
+        "url": "https://safewayhhc.com/docs/aws-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA standards for patient data security.",
+        "url": "https://safewayhhc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Supports FHIR for data interchange protocols.",
+        "url": "https://safewayhhc.com/docs/fhir-overview"
+      },
+      {
+        "claim": "Engages X12 for data exchange in billing processes.",
+        "url": "https://safewayhhc.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 or EDI services in their public materials.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

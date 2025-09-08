@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "X12",
+      "EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Delta Data Services uses AWS and Azure for their cloud infrastructure.",
+        "url": "https://www.dds-llc.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for data protection.",
+        "url": "https://www.dds-llc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with X12 and EDI transaction sets is part of their services.",
+        "url": "https://www.dds-llc.com/developer/integration-patterns"
+      },
+      {
+        "claim": "Delta Data Services supports FHIR standards for healthcare data exchange.",
+        "url": "https://www.dds-llc.com/docs/health-apis"
+      },
+      {
+        "claim": "They utilize data platforms compatible with EHRs to enable efficient health data management.",
+        "url": "https://www.dds-llc.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No strong evidence of significant X12 exchange usage or API automation focus identified.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

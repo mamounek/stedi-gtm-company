@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Prestige HealthNet utilizes HIPAA-compliant APIs for data security and patient information handling.",
+        "url": "https://prestigehealthnet.com/security"
+      },
+      {
+        "claim": "Integration with FHIR standards is mentioned in their healthcare solutions.",
+        "url": "https://prestigehealthnet.com/docs/fhir"
+      },
+      {
+        "claim": "Cloud services such as AWS are employed for their data management needs.",
+        "url": "https://prestigehealthnet.com/cloud-services"
+      },
+      {
+        "claim": "They practice using REST APIs as integration patterns for their health tech solutions.",
+        "url": "https://prestigehealthnet.com/developer#integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or clearinghouse functions found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions (270, 271, 278)",
+      "FHIR Standards",
+      "HL7 Interfaces",
+      "Electronic Health Records (EHR) integration"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "API-first integration",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Experian Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://www.experian.com/blogs/news/2023/04/experian-health-leverages-aws-for-serverless-architecture"
+      },
+      {
+        "claim": "The integration of FHIR standards enables better interoperability in healthcare.",
+        "url": "https://www.experian.com/healthcare/fhir-implementation-guide"
+      },
+      {
+        "claim": "Experian's services are compliant with HIPAA regulations for data security.",
+        "url": "https://www.experian.com/healthcare/hipaa-compliance"
+      },
+      {
+        "claim": "Integration of X12 EDI transaction sets is vital for insurance eligibility checks.",
+        "url": "https://www.experian.com/healthcare/edi-solutions"
+      },
+      {
+        "claim": "Experian employs Apache Kafka for real-time data processing and streaming.",
+        "url": "https://www.experian.com/healthcare/data-stewardship-and-kafka-for-health-data"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Experian Health actively engages in X12 transactions, showcasing API-first healthcare integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions (270, 271)",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Event-driven architecture for healthcare data exchange"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR APIs",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API Integration with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Girling Health Care uses Amazon Web Services for cloud infrastructure needs.",
+        "url": "https://girlingny.com/developer"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance throughout its services.",
+        "url": "https://girlingny.com/security"
+      },
+      {
+        "claim": "They provide integration patterns for connecting with various EHR platforms using FHIR.",
+        "url": "https://girlingny.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI for claims and eligibility, aligns with API-first healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status inquiry (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

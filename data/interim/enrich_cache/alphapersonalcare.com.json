@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "FHIR APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Alpha Personal Care complies with HIPAA regulations for handling patient data securely.",
+        "url": "https://alphapersonalcare.com/security/"
+      },
+      {
+        "claim": "Evidence of using X12 EDI for processing insurance claims is noted in their documentation.",
+        "url": "https://alphapersonalcare.com/docs/edi"
+      },
+      {
+        "claim": "Healthcare integration is performed using FHIR APIs to connect with other health data systems.",
+        "url": "https://alphapersonalcare.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged with HIPAA compliance and X12 EDI transactions, fitting clearinghouse needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction usage",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice handling"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Synergy Healthcare utilizes HL7 for healthcare data exchange standards.",
+        "url": "https://www.synergyhca.com/#healthtech"
+      },
+      {
+        "claim": "The company implements FHIR standards for integration with electronic health records.",
+        "url": "https://www.synergyhca.com/#api"
+      },
+      {
+        "claim": "Synergy Healthcare processes health data transactions using HIPAA-compliant protocols.",
+        "url": "https://www.synergyhca.com/#security"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction involvement or API use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

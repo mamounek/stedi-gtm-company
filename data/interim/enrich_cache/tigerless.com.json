@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA Compliance",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Tigerless Insurance uses AWS services for its cloud infrastructure.",
+        "url": "https://tigerless.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR for health data interoperability.",
+        "url": "https://tigerless.com/docs/fhir-support"
+      },
+      {
+        "claim": "They comply with HIPAA standards for handling sensitive health information.",
+        "url": "https://tigerless.com/security/hipaa"
+      },
+      {
+        "claim": "Tigerless utilizes X12 EDI for standard healthcare transactions.",
+        "url": "https://tigerless.com/docs/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI and API integrations in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Receiving/processing X12 837 claims",
+      "Submitting X12 270/271 eligibility inquiries",
+      "Utilizing X12 276/277 claims status",
+      "Implementing X12 835 remittance advice"
+    ]
+  }
+}

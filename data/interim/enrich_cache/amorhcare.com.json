@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "AWS to EHR integration",
+      "Webhook usage for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "AMOR Homecare utilizes AWS services for data storage and processing.",
+        "url": "https://amorhcare.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company is HIPAA compliant and supports various X12 transaction sets.",
+        "url": "https://amorhcare.com/security/hipaa"
+      },
+      {
+        "claim": "Utilization of FHIR standards for health data interoperability is mentioned.",
+        "url": "https://amorhcare.com/developer/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI transactions which aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "837 Claims submission",
+      "835 Remittance processing",
+      "270/271 Eligibility checks"
+    ]
+  }
+}

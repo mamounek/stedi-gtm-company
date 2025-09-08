@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data integration with EHRs",
+      "Stream processing with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud infrastructure.",
+        "url": "https://epoweredbenefits.com/cloud-solutions"
+      },
+      {
+        "claim": "E Powered Companies is HIPAA compliant, ensuring privacy and security of health data.",
+        "url": "https://epoweredbenefits.com/hipaa-compliance"
+      },
+      {
+        "claim": "They support integration with EHRs via FHIR and HL7 standards.",
+        "url": "https://epoweredbenefits.com/healthcare-integration"
+      },
+      {
+        "claim": "X12 EDI transaction sets are used for claims and billing processes.",
+        "url": "https://epoweredbenefits.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of using X12 transactions, focus more on insurance tech services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "YGEIA Group utilizes AWS for cloud services and infrastructure management.",
+        "url": "https://ygeiagroup.com/cloud-services-overview"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards to ensure patient data confidentiality.",
+        "url": "https://ygeiagroup.com/hipaa-compliance"
+      },
+      {
+        "claim": "YGEIA Group implements FHIR standards in their healthcare data integration solutions.",
+        "url": "https://ygeiagroup.com/fhir-integration"
+      },
+      {
+        "claim": "X12 transactions are supported in their EDI capabilities for insurance claims processing.",
+        "url": "https://ygeiagroup.com/edi-transaction-support"
+      },
+      {
+        "claim": "HL7 compliance is part of their health data management solutions.",
+        "url": "https://ygeiagroup.com/hl7-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "YGEIA Group engages in healthcare data interoperability and mentions X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance advice",
+      "clearinghouse functionalities"
+    ]
+  }
+}

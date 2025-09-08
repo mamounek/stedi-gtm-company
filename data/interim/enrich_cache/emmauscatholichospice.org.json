@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "EHR Integrations",
+      "FHIR API Implementations"
+    ],
+    "evidence": [
+      {
+        "claim": "The organization claims to comply with HIPAA regulations.",
+        "url": "https://emmauscatholichospice.org/hipaa-compliance/"
+      },
+      {
+        "claim": "Mention of electronic health records (EHR) integration capabilities.",
+        "url": "https://emmauscatholichospice.org/health-services/"
+      },
+      {
+        "claim": "References to FHIR standards in their patient data management approach.",
+        "url": "https://emmauscatholichospice.org/technology/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse usage found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

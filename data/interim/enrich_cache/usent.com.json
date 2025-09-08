@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integrations for healthcare data",
+      "Cloud-based healthcare application architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "US ENT Partners utilizes AWS and Azure for cloud infrastructure.",
+        "url": "https://www.usent.com/docs/technology/infrastructure"
+      },
+      {
+        "claim": "The company mentions HIPAA compliance in context with their healthcare services.",
+        "url": "https://www.usent.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is supported through FHIR and X12 standards.",
+        "url": "https://www.usent.com/developer/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions or acting as a clearinghouse found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

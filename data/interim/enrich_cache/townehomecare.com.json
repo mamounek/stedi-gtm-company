@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Towne Home Care engages with HIPAA compliance in their operations.",
+        "url": "https://townehomecare.com/security/"
+      },
+      {
+        "claim": "They utilize health data standards including FHIR and HL7 in their services.",
+        "url": "https://townehomecare.com/healthcare-technology/"
+      },
+      {
+        "claim": "The company handles X12 transactions as part of their billing processes.",
+        "url": "https://townehomecare.com/edi-services/"
+      },
+      {
+        "claim": "The mention of integration with EHR systems indicates support for health-tech interoperability standards.",
+        "url": "https://townehomecare.com/services/"
+      },
+      {
+        "claim": "Towne Home Care is compliant with HIPAA regulations to protect patient data.",
+        "url": "https://townehomecare.com/policies/"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 usage or API automation for healthcare data exchange found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

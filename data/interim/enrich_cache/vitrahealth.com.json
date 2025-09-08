@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Vitra Health utilizes AWS cloud services for its infrastructure.",
+        "url": "https://www.vitrahealth.com/docs/cloud-services"
+      },
+      {
+        "claim": "The platform supports HL7 FHIR for interoperability with health records.",
+        "url": "https://www.vitrahealth.com/health-tech/fhir-integration"
+      },
+      {
+        "claim": "Vitra supports X12 EDI transaction sets for claims processing.",
+        "url": "https://www.vitrahealth.com/docs/edi-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Vitra Health utilizes X12 transactions and APIs for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Healthcare provider communications"
+    ]
+  }
+}

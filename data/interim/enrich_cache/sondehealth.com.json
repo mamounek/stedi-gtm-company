@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Sonde Health utilizes AWS for their infrastructure.",
+        "url": "https://sondehealth.com/technology/"
+      },
+      {
+        "claim": "The company refers to FHIR standards for interoperable health data exchange.",
+        "url": "https://sondehealth.com/healthcare-standards/"
+      },
+      {
+        "claim": "Sonde Health's platform is integrated with various APIs for real-time data processing.",
+        "url": "https://sondehealth.com/developer/docs/"
+      },
+      {
+        "claim": "References to HL7 compliance on Sonde Health documentation.",
+        "url": "https://sondehealth.com/security/"
+      },
+      {
+        "claim": "The company discusses HIPAA compliance in their security documentation.",
+        "url": "https://sondehealth.com/security/#hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 or clearinghouse functionality in their offerings.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Morris Technology Solutions utilizes AWS services for scalable cloud solutions.",
+        "url": "https://www.mtsolns.com/cloud-services"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations for healthcare data services.",
+        "url": "https://www.mtsolns.com/healthcare-compliance"
+      },
+      {
+        "claim": "They provide integration solutions with EDI transaction sets for healthcare.",
+        "url": "https://www.mtsolns.com/edi-solutions"
+      },
+      {
+        "claim": "Morris Technology Solutions employs event-driven architecture for their application integrations.",
+        "url": "https://www.mtsolns.com/technology-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers HIPAA-compliant solutions with a focus on X12 transactions and integration.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "837 claims submission",
+      "835 remittance processing",
+      "270/271 eligibility checks",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

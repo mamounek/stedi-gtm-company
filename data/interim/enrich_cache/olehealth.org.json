@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR",
+      "X12 EDI Transactions (270/271, 835)"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Webhooks for real-time data transfer"
+    ],
+    "evidence": [
+      {
+        "claim": "Communicare+OLE uses AWS Lambda for serverless functions and Amazon RDS for database services.",
+        "url": "https://olehealth.org/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards and uses HL7 FHIR for patient data exchange.",
+        "url": "https://olehealth.org/security"
+      },
+      {
+        "claim": "X12 EDI transaction sets are mentioned in the context of claims processing.",
+        "url": "https://olehealth.org/docs/edi"
+      },
+      {
+        "claim": "Real-time data integration is achieved through their webhooks and RESTful APIs.",
+        "url": "https://olehealth.org/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transactions and HIPAA compliance; fits target size and values API integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions (270/271) for eligibility checks",
+      "837 Claims submissions and 835 Remittance advice processing",
+      "Clearinghouse capabilities for efficient data exchange",
+      "Integration of APIs for real-time provider and payer communication"
+    ]
+  }
+}

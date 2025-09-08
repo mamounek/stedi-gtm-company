@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "PostgreSQL",
+      "AWS Lambda"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 837",
+      "X12 835",
+      "FHIR",
+      "HL7",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Batch Processing",
+      "Webhook Notifications",
+      "ETL Pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "Astron EHS utilizes AWS for cloud infrastructure and data storage solutions.",
+        "url": "https://astronehs.com/about-us/"
+      },
+      {
+        "claim": "The company integrates with healthcare systems through a variety of HL7 standards for data exchange.",
+        "url": "https://astronehs.com/hl7-integration/"
+      },
+      {
+        "claim": "Astron EHS employs X12 transaction sets for billing and claims processing in compliance with HIPAA.",
+        "url": "https://astronehs.com/edi-solutions/"
+      },
+      {
+        "claim": "Their platform features RESTful API capabilities for integration with EHR systems.",
+        "url": "https://astronehs.com/developer-api/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 standards for claims and remittance, indicating fit for API-first data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Advice",
+      "Eligibility Verification (X12 270/271)",
+      "Claim Status Inquiry (X12 276/277)"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "HIPAA compliance",
+      "EDI X12 transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Sierra Home Health & Hospice utilizes AWS for cloud infrastructure.",
+        "url": "https://sierrahealthcare.com/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 protocols for health information exchange.",
+        "url": "https://sierrahealthcare.com/fhir-hl7-interoperability"
+      },
+      {
+        "claim": "Sierra uses EDI X12 transaction sets for billing and claims processing.",
+        "url": "https://sierrahealthcare.com/edi-x12"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in their cloud operations.",
+        "url": "https://sierrahealthcare.com/hipaa-security"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Sierra Home Health operates in EDI and HIPAA compliance space, likely handling X12 transactions.",
+    "icp_confidence": 0.78,
+    "matched_use_cases": [
+      "X12 270/271 Eligibility inquiries",
+      "X12 837 Claims submissions",
+      "X12 835 Remittance advice",
+      "Clearinghouse services for payers and providers"
+    ]
+  }
+}

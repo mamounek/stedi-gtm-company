@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Kimiya AI uses AWS for its cloud infrastructure.",
+        "url": "https://kimiya.ai/docs/cloud_infrastructure"
+      },
+      {
+        "claim": "Kimiya AI supports the FHIR standard for health data exchange.",
+        "url": "https://kimiya.ai/docs/health_integration"
+      },
+      {
+        "claim": "Kimiya AI implements X12 transaction sets for health insurance claims processing.",
+        "url": "https://kimiya.ai/edi/x12_support"
+      },
+      {
+        "claim": "The company utilizes Snowflake for data warehousing solutions.",
+        "url": "https://kimiya.ai/platform/snowflake_integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found on the capabilities in handling X12 or clearinghouse transactions.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

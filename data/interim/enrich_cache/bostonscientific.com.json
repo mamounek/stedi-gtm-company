@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "EDI Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Boston Scientific utilizes AWS for cloud services.",
+        "url": "https://www.bostonscientific.com/en-US/about-us/our-innovation.html"
+      },
+      {
+        "claim": "The company mentions HIPAA compliance in relation to their healthcare solutions.",
+        "url": "https://www.bostonscientific.com/en-US/healthcare-professionals.html"
+      },
+      {
+        "claim": "Boston Scientific is involved in FHIR standards for healthcare data interchange.",
+        "url": "https://www.bostonscientific.com/en-US/technologies.html"
+      },
+      {
+        "claim": "Integration patterns include EDI for business transactions.",
+        "url": "https://www.bostonscientific.com/en-US/edi-solutions.html"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases for X12 or clearinghouse integration found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

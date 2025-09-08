@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Islamic Home Care of America mentions HIPAA compliance on its website.",
+        "url": "https://islamichomecareofamerica.com/security-privacy/"
+      },
+      {
+        "claim": "The company provides healthcare services which suggests they adhere to certain health-tech frameworks like HIPAA.",
+        "url": "https://islamichomecareofamerica.com/about/"
+      },
+      {
+        "claim": "Information on their website reflects a commitment to patient privacy and security in line with HIPAA guidelines.",
+        "url": "https://islamichomecareofamerica.com/contact/"
+      },
+      {
+        "claim": "Islamic Home Care of America operates within the healthcare sector, generally bound by EHR standards.",
+        "url": "https://islamichomecareofamerica.com/services/"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

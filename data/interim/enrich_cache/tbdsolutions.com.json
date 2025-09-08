@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud SQL"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "TBD Solutions utilizes AWS for data storage and computing.",
+        "url": "https://tbdsolutions.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for healthcare data exchange.",
+        "url": "https://tbdsolutions.com/healthtech/fhir-hl7"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhooks for third-party services.",
+        "url": "https://tbdsolutions.com/docs/integration-patterns"
+      },
+      {
+        "claim": "They handle X12 EDI transactions for insurance claims processing.",
+        "url": "https://tbdsolutions.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 related use cases found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

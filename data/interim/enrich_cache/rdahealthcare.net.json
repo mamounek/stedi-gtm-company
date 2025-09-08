@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "FHIR API for healthcare data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "RDA Healthcare Supply Chain Services utilizes AWS for scalable infrastructure needs.",
+        "url": "https://rdahealthcare.net/docs/aws-infrastructure"
+      },
+      {
+        "claim": "They implement HIPAA compliance standards to secure patient data.",
+        "url": "https://rdahealthcare.net/security/hipaa-compliance"
+      },
+      {
+        "claim": "RDA uses X12 as part of its EDI processing for healthcare transactions.",
+        "url": "https://rdahealthcare.net/docs/edi-x12-guidelines"
+      },
+      {
+        "claim": "Integration with FHIR APIs for efficient healthcare data interoperability.",
+        "url": "https://rdahealthcare.net/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 EDI transactions, fits healthcare automation use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare data exchange",
+      "automated claims submission"
+    ]
+  }
+}

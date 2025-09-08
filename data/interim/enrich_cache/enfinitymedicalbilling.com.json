@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "HL7 integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Enfinity Medical Billing adheres to HIPAA compliance for patient data handling.",
+        "url": "https://enfinitymedicalbilling.com/security"
+      },
+      {
+        "claim": "They utilize X12 EDI for medical billing processes.",
+        "url": "https://enfinitymedicalbilling.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions and HIPAA compliance indicates strong alignment with our ICP.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claim submissions",
+      "Eligibility checks",
+      "Remittance processing"
+    ]
+  }
+}

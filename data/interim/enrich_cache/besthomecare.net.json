@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Home Sweet Home Care FL emphasizes HIPAA compliance in its operational model, indicating use of health-related APIs that conform to regulatory standards.",
+        "url": "https://www.besthomecare.net/security/#hipaa"
+      },
+      {
+        "claim": "The website mentions partnership with healthcare data interchange standards such as HL7 and FHIR to ensure interoperability within the health systems.",
+        "url": "https://www.besthomecare.net/services/#healthcare"
+      },
+      {
+        "claim": "Home Sweet Home Care FL discusses their commitment to data protection and security compliance, often associated with the healthcare industry regulations.",
+        "url": "https://www.besthomecare.net/about/#compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or API automation on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

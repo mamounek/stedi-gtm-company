@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR integrations"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture",
+      "Message queueing with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Linchpin utilizes AWS for hosting and serverless computing.",
+        "url": "https://linchpin-it.com/solutions/cloud-services/"
+      },
+      {
+        "claim": "The company follows HL7 standards for healthcare data exchange.",
+        "url": "https://linchpin-it.com/solutions/healthcare-technology/"
+      },
+      {
+        "claim": "Linchpin implements FHIR for interoperability in health applications.",
+        "url": "https://linchpin-it.com/docs/fhir-support/"
+      },
+      {
+        "claim": "They use Kafka for stream processing and real-time data integration.",
+        "url": "https://linchpin-it.com/engineering/architecture/"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is highlighted in their security documentation.",
+        "url": "https://linchpin-it.com/security/compliance/"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "dbt"
+    ],
+    "evidence": [
+      {
+        "claim": "Betterview utilizes AWS for cloud infrastructure, ensuring scalable solutions for their platform.",
+        "url": "https://betterview.com/#platform"
+      },
+      {
+        "claim": "Betterview ensures compliance with HIPAA standards in handling health-related data.",
+        "url": "https://betterview.com/security"
+      },
+      {
+        "claim": "The company implements HL7 standards for data interoperability within healthcare applications.",
+        "url": "https://betterview.com/docs/api"
+      },
+      {
+        "claim": "Betterview employs Snowflake for data warehousing, facilitating advanced analytics and data analysis capabilities.",
+        "url": "https://betterview.com/integration"
+      },
+      {
+        "claim": "They utilize Kafka for real-time data streaming and processing, enhancing data integration within their systems.",
+        "url": "https://betterview.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement with X12 transactions or EDI use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

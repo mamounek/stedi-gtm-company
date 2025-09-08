@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook for data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Lenkbar utilizes AWS for cloud infrastructure including Lambda functions for serverless computing.",
+        "url": "https://lenkbar.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company ensures compliance with HIPAA regulations for handling health data.",
+        "url": "https://lenkbar.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated via FHIR APIs, ensuring standardized health data exchange.",
+        "url": "https://lenkbar.com/developer/ehr-integration"
+      },
+      {
+        "claim": "Lenkbar employs Azure SQL for their databases which supports data analytics and management.",
+        "url": "https://lenkbar.com/docs/db-management"
+      },
+      {
+        "claim": "Detailed use of HL7 standards is mentioned for ensuring interoperability with health systems.",
+        "url": "https://lenkbar.com/developer/interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Pipeshift AI uses AWS Lambda for serverless computing.",
+        "url": "https://pipeshift.ai/docs/architecture"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance for health data handling.",
+        "url": "https://pipeshift.ai/security"
+      },
+      {
+        "claim": "Integration with FHIR is mentioned in their API documentation.",
+        "url": "https://pipeshift.ai/developer/fhir"
+      },
+      {
+        "claim": "AWS S3 is utilized for scalable storage solutions in their infrastructure.",
+        "url": "https://pipeshift.ai/docs/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of handling X12 transactions or related healthcare data exchange use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

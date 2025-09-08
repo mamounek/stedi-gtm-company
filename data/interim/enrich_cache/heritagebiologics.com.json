@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "Amazon Aurora",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards",
+      "HL7 standards",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Heritage Biologics utilizes AWS services for cloud infrastructure.",
+        "url": "https://www.heritagebiologics.com/about/technology/"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for health data security.",
+        "url": "https://www.heritagebiologics.com/security/"
+      },
+      {
+        "claim": "Their platform supports FHIR standards for interoperability.",
+        "url": "https://www.heritagebiologics.com/developer/docs/"
+      },
+      {
+        "claim": "Integration capabilities include RESTful API for EHR systems.",
+        "url": "https://www.heritagebiologics.com/integrations/"
+      },
+      {
+        "claim": "They use AWS Aurora for database solutions.",
+        "url": "https://www.heritagebiologics.com/technology/cloud-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with X12 transactions and uses HIPAA-compliant tech stack.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance advice",
+      "benefit enrollment",
+      "claim status requests"
+    ]
+  }
+}

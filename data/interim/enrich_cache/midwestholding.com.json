@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Midwest Holding uses AWS cloud services for their infrastructure.",
+        "url": "https://midwestholding.com/docs/aws-integration"
+      },
+      {
+        "claim": "They adhere to HIPAA compliance standards in their operations.",
+        "url": "https://midwestholding.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Company supports HL7 and FHIR standards for health data interoperability.",
+        "url": "https://midwestholding.com/developer/fhir-support"
+      },
+      {
+        "claim": "Integration patterns include EDI X12 for transaction processing.",
+        "url": "https://midwestholding.com/docs/edi-x12"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 or EDI clearinghouse solutions identified.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

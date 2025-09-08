@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7",
+      "X12 EDI",
+      "EHR Integration"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "JenCare utilizes HIPAA compliance to ensure patient data protection.",
+        "url": "https://jencaremed.com/privacy-policy"
+      },
+      {
+        "claim": "The integration with EHR systems aligns with HL7 standards to facilitate smooth data exchange.",
+        "url": "https://jencaremed.com/technology"
+      },
+      {
+        "claim": "JenCare's data management practices include adherence to X12 transaction sets for billing.",
+        "url": "https://jencaremed.com/services"
+      },
+      {
+        "claim": "The organization focuses on FHIR to enhance inter-operability with health data APIs.",
+        "url": "https://jencaremed.com/solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare operations indicates need for EDI and X12 transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility checks",
+      "payment posting",
+      "remittance advice",
+      "healthcare transactions between providers and payers"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "AWS S3",
+      "Google Cloud Storage",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7",
+      "EHR Integration",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "Microservices Architecture",
+      "Event-Driven Architecture",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "At Home Therapies uses AWS for cloud services including Lambda and S3.",
+        "url": "https://athometherapies.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA and uses FHIR for patient data.",
+        "url": "https://athometherapies.com/security"
+      },
+      {
+        "claim": "Integration of healthcare EHR systems confirmed through LinkedIn posts by engineering employees.",
+        "url": "https://www.linkedin.com/company/athometherapies"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 and appears focused on health data exchange, indicating a fit for healthcare API needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance processing",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

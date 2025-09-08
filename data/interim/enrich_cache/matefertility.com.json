@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Secure data transmission protocols"
+    ],
+    "evidence": [
+      {
+        "claim": "Mate Fertility utilizes AWS for cloud services.",
+        "url": "https://www.matefertility.com/about"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for data protection.",
+        "url": "https://www.matefertility.com/privacy"
+      },
+      {
+        "claim": "API integrations support EHR connections.",
+        "url": "https://www.matefertility.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 standards or focus on clearinghouse for claims processing.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

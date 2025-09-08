@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "Data Integration with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Senior Care Management Solutions emphasizes HIPAA compliance in its operations to safeguard patient information.",
+        "url": "https://scmsmemphis.com/security/"
+      },
+      {
+        "claim": "The company's services include integration methods to facilitate EHR data sharing, which suggests use of HL7 or FHIR standards.",
+        "url": "https://scmsmemphis.com/services/"
+      },
+      {
+        "claim": "SCMS provides information about using EDI standards, particularly X12, for facilitating healthcare transactions.",
+        "url": "https://scmsmemphis.com/edi-standards/"
+      },
+      {
+        "claim": "Career postings indicate a focus on roles dealing with healthcare integration technologies, including EHR systems.",
+        "url": "https://scmsmemphis.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transaction sets for healthcare data exchange and integration with EHR.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

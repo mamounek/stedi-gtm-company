@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Galleon utilizes AWS for cloud service infrastructure.",
+        "url": "https://galleonvirtual.com/docs/aws-integration"
+      },
+      {
+        "claim": "They support HIPAA compliance for handling health data.",
+        "url": "https://galleonvirtual.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "EDI transaction sets are part of their integration toolbox.",
+        "url": "https://galleonvirtual.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Specializes in HIPAA and X12 EDI integration, suggesting likely use of healthcare transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Healthcare data exchange"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance and regulations for healthcare data handling",
+      "Use of EHR systems (Electronic Health Records)"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Nebraska Home Care Association emphasizes HIPAA compliance for handling patient data.",
+        "url": "https://nebraskahomecare.org/security"
+      },
+      {
+        "claim": "They have resources focused on EHR utilization referring to healthcare practices.",
+        "url": "https://nebraskahomecare.org/docs"
+      },
+      {
+        "claim": "Mention of X12 standards related to healthcare transactions.",
+        "url": "https://nebraskahomecare.org/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use cases or API automation value on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

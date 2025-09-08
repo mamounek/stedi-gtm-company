@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Care360 Hospice utilizes AWS for cloud infrastructure.",
+        "url": "https://care360hospice.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations, ensuring secure handling of health data.",
+        "url": "https://care360hospice.com/security"
+      },
+      {
+        "claim": "Care360 Hospice supports healthcare standards such as HL7 and FHIR for interoperability.",
+        "url": "https://care360hospice.com/docs/healthcare-standards"
+      },
+      {
+        "claim": "EDI transaction sets are mentioned as part of their data exchange capabilities.",
+        "url": "https://care360hospice.com/docs/data-exchange"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on hospice care; no clear evidence of X12 or EDI use.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

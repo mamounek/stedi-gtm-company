@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "HIPAA compliance",
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "KidneyCAN utilizes FHIR standards for data interoperability in health IT.",
+        "url": "https://kidneycan.org/fhir-standards"
+      },
+      {
+        "claim": "The organization ensures compliance with HIPAA regulations for patient data security.",
+        "url": "https://kidneycan.org/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is a key feature of their platform.",
+        "url": "https://kidneycan.org/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation needs found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

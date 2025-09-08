@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture",
+      "Microservices Communication",
+      "API Gateway Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Spright employs AWS for cloud services including Lambda and S3 for scalable application hosting and storage.",
+        "url": "https://sprightuas.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company aligns its operations with HIPAA regulations to ensure secure health data handling.",
+        "url": "https://sprightuas.com/security/compliance"
+      },
+      {
+        "claim": "Spright's use of HL7 FHIR standards facilitates interoperability in healthcare data exchange.",
+        "url": "https://sprightuas.com/developer/healthcare-integration"
+      },
+      {
+        "claim": "Integration patterns leveraging microservices are outlined on their engineering page to enhance workflow efficiency.",
+        "url": "https://sprightuas.com/docs/integration"
+      },
+      {
+        "claim": "X12 transaction sets are supported to streamline medical billing and insurance claims processes.",
+        "url": "https://sprightuas.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Spright utilizes X12 for health tech, aligning with API-first healthcare needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare data exchange"
+    ]
+  }
+}

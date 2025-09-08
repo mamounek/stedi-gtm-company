@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI 837",
+      "EDI 835"
+    ],
+    "integration_patterns": [
+      "REST APIs for EHRs integration",
+      "Webhook notifications for health data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Guardian Health Services utilizes AWS for scalable cloud solutions, including data storage and processing.",
+        "url": "https://guardianhomecare.net/aws-solutions"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations and implements security protocols in all its integration pathways.",
+        "url": "https://guardianhomecare.net/security"
+      },
+      {
+        "claim": "Guardian Health Services offers interfaces for EHR systems that follow FHIR standards, facilitating interoperability.",
+        "url": "https://guardianhomecare.net/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 for health data exchange, fitting ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance processing",
+      "X12 270/271 eligibility checks",
+      "Integration with EHR through REST APIs",
+      "Webhook notifications for health data updates"
+    ]
+  }
+}

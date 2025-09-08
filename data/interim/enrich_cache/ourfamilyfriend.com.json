@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "APIs",
+      "Data Integration Middleware"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS cloud services to handle data storage and processing needs.",
+        "url": "https://ourfamilyfriend.com/docs/cloud-services"
+      },
+      {
+        "claim": "Complies with HIPAA regulations to ensure patient data privacy.",
+        "url": "https://ourfamilyfriend.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Supports FHIR and HL7 standards for health data interoperability.",
+        "url": "https://ourfamilyfriend.com/docs/health-standards"
+      },
+      {
+        "claim": "Utilizes Azure for its integration middleware solutions.",
+        "url": "https://ourfamilyfriend.com/docs/integration"
+      },
+      {
+        "claim": "Implemented EDI transaction sets for efficient data exchange.",
+        "url": "https://ourfamilyfriend.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes health tech standards like HIPAA and integrates APIs for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "claims processing",
+      "remittance advice",
+      "eligibility verification"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "CareSnap utilizes AWS services for their platform infrastructure.",
+        "url": "https://caresnap.com/docs/aws"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit references to X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

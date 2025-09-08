@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB"
+    ],
+    "health_tech": [
+      "X12 278",
+      "X12 837",
+      "FHIR",
+      "HL7 V2.5"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Keya Medical utilizes AWS services for cloud infrastructure and data storage.",
+        "url": "https://keyamedical.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements X12 transaction sets for health insurance claims processing.",
+        "url": "https://keyamedical.com/docs/health-data-exchange"
+      },
+      {
+        "claim": "Keya Medical supports FHIR standards for interoperability between healthcare applications.",
+        "url": "https://keyamedical.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration patterns include REST and SOAP APIs to ensure seamless data interchange.",
+        "url": "https://keyamedical.com/docs/api-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Keya Medical uses X12 standards and operates API-first, suitable for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submissions",
+      "X12 276/277 claims statuses",
+      "X12 278 authorization requests",
+      "API integration with payers and providers"
+    ]
+  }
+}

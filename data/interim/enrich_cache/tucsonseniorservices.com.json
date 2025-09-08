@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance standards"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Tucson Senior Services has adopted HIPAA compliance in their operations to enhance data privacy and security for health information.",
+        "url": "https://tucsonseniorservices.com"
+      },
+      {
+        "claim": "The company utilizes health-tech frameworks to ensure proper handling of patient information according to regulatory standards.",
+        "url": "https://tucsonseniorservices.com/security"
+      },
+      {
+        "claim": "They emphasize on leveraging technology to improve care delivery within the senior health sector.",
+        "url": "https://tucsonseniorservices.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 or relevant EDI processes found on site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

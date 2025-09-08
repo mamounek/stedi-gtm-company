@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Capstone Health uses AWS for cloud services including Lambda and S3 for processing healthcare data.",
+        "url": "https://capstone.net/docs/aws-services"
+      },
+      {
+        "claim": "The company adheres to FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://capstone.net/healthtech/fhir-standards"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs to streamline interactions with healthcare applications.",
+        "url": "https://capstone.net/docs/integration-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 transaction use cases or API automation.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

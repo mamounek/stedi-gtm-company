@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Nixon Gwilt Law incorporates HIPAA compliance in their legal practices, focusing on health technology clients.",
+        "url": "https://nixongwiltlaw.com/health-tech-legal-issues/"
+      },
+      {
+        "claim": "The firm provides legal guidance around the use of electronic medical records and their integration with healthcare regulations.",
+        "url": "https://nixongwiltlaw.com/electronic-medical-records-legal-considerations/"
+      },
+      {
+        "claim": "Their website emphasizes legal services for technology firms in health-tech, implying an understanding of health information exchanges.",
+        "url": "https://nixongwiltlaw.com/legal-services-for-health-tech/"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 or API-driven healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

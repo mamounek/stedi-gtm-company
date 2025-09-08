@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Exchange",
+      "FHIR API for Patient Data Management"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Webhook for Patient Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Will-Call Nurse utilizes AWS Lambda for serverless architecture.",
+        "url": "https://will-call-nurse.com/docs/aws-architecture"
+      },
+      {
+        "claim": "The company has implemented a FHIR API for interoperability with EHR systems.",
+        "url": "https://will-call-nurse.com/developer/fhir"
+      },
+      {
+        "claim": "Twilio API is used for SMS notifications to patients.",
+        "url": "https://will-call-nurse.com/docs/twilio"
+      },
+      {
+        "claim": "Compliance with HIPAA guidelines is stated for data exchanges.",
+        "url": "https://will-call-nurse.com/security/hipaa"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on nurse staffing and patient management, not X12 transactions.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Culmination Bio utilizes AWS for cloud services.",
+        "url": "https://culmination.com/docs/architecture"
+      },
+      {
+        "claim": "The platform supports FHIR for health data exchange.",
+        "url": "https://culmination.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "Culmination Bio mentions employing Snowflake for data management.",
+        "url": "https://culmination.com/docs/data-management"
+      },
+      {
+        "claim": "HL7 standards are referenced in their integration processes.",
+        "url": "https://culmination.com/integration/standards"
+      },
+      {
+        "claim": "Culmination Bio's infrastructure involves modern data processing tools.",
+        "url": "https://culmination.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases found on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

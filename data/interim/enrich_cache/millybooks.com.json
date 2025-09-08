@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Book of Business Marketplace provides API documentation for integrations.",
+        "url": "https://millybooks.com/docs/api"
+      },
+      {
+        "claim": "The platform is designed to be compliant with HIPAA regulations for health data handling.",
+        "url": "https://millybooks.com/security/hipaa"
+      },
+      {
+        "claim": "Employee roles involve working with cloud services indicating infrastructure like AWS.",
+        "url": "https://millybooks.com/careers/engineering"
+      },
+      {
+        "claim": "The company mentions standards like FHIR and EDI in health data contexts on their site.",
+        "url": "https://millybooks.com/docs/healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 transactions or healthcare data exchange usage found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

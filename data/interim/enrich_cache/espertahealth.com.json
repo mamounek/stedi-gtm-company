@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI Transactions"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhooks",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Esperta Health utilizes AWS services including Lambda for serverless architecture and S3 for storage solutions.",
+        "url": "https://espertahealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform emphasizes adherence to FHIR standards for healthcare data interoperability.",
+        "url": "https://espertahealth.com/healthtech/fhir-explained"
+      },
+      {
+        "claim": "They support EDI transactions, specifically HIPAA-compliant X12 transactions, for billing and claims processing.",
+        "url": "https://espertahealth.com/docs/edi-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Esperta Health aligns with API-first healthcare data exchange and uses X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance processing",
+      "payer-provider data exchange",
+      "EDI transactions automation"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "MERCI Global utilizes AWS for cloud infrastructure, specifically AWS Lambda for serverless applications and Amazon RDS for relational database management.",
+        "url": "https://merciglobal.com/developer"
+      },
+      {
+        "claim": "The company's platform is HIPAA compliant, ensuring the handling of sensitive health information according to regulatory standards.",
+        "url": "https://merciglobal.com/security"
+      },
+      {
+        "claim": "MERCI Global implements RESTful APIs to facilitate integration with various health tech systems including FHIR and HL7.",
+        "url": "https://merciglobal.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 healthcare transactions or relevant use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

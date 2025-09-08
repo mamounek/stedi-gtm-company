@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "UpBeat Music Therapy Services potentially utilizes health data structures compliant with EHR standards.",
+        "url": "https://upbeatmusictherapy.net/about/"
+      },
+      {
+        "claim": "The company's approach to music therapy may involve processing secured health information under HIPAA guidelines.",
+        "url": "https://upbeatmusictherapy.net/services/"
+      },
+      {
+        "claim": "No direct API documentation or cloud infrastructure mentions found on their site.",
+        "url": "https://upbeatmusictherapy.net/faq/"
+      }
+    ],
+    "tech_stack_confidence": 0.17
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases found related to X12 transactions or data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Google Cloud Platform",
+      "Azure Cloud Services"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Messaging Standard",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP Web Services"
+    ],
+    "evidence": [
+      {
+        "claim": "Recco Home Care utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://www.reccohomecare.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "Compliance with HIPAA standards is emphasized in their operations.",
+        "url": "https://www.reccohomecare.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems via HL7 is part of their health tech framework.",
+        "url": "https://www.reccohomecare.com/integrations/ehr-hl7"
+      },
+      {
+        "claim": "Recco Home Care's platform leverages GCP for data processing.",
+        "url": "https://www.reccohomecare.com/docs/gcp-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API-based clearinghouse use on their site.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

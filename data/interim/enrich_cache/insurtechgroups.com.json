@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company states compliance with HIPAA regulations for secure health information handling.",
+        "url": "https://insurtechgroups.com/security/"
+      },
+      {
+        "claim": "Insurtech Groups utilizes X12 standards for electronic data interchange in insurance processing.",
+        "url": "https://insurtechgroups.com/docs/x12-overview/"
+      },
+      {
+        "claim": "They have integration capabilities with EHR systems under HL7 specifications.",
+        "url": "https://insurtechgroups.com/docs/hl7-integration/"
+      },
+      {
+        "claim": "The company's platform is designed to align with health technology standards such as FHIR.",
+        "url": "https://insurtechgroups.com/docs/fhir-enablement/"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in health tech with a focus on X12 and EDI, relevant for API-based data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility checks",
+      "remittance advice",
+      "clearinghouse services"
+    ]
+  }
+}

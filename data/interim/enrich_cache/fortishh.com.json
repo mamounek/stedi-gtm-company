@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "GraphQL",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Fortis Health utilizes AWS services for its cloud infrastructure enabling scalable applications.",
+        "url": "https://fortishh.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and HIPAA-compliant APIs, indicating a focus on healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Eligibility verification",
+      "Claims processing",
+      "Remittance advice"
+    ]
+  }
+}

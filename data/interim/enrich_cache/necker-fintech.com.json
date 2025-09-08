@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Cloud-based data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Schwank Capital utilizes AWS for cloud infrastructure support.",
+        "url": "https://necker-fintech.com/api-docs"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability.",
+        "url": "https://necker-fintech.com/healthtech"
+      },
+      {
+        "claim": "They support X12 transactions for healthcare data exchange.",
+        "url": "https://necker-fintech.com/docs/edi"
+      },
+      {
+        "claim": "Integration with cloud-native platforms is emphasized in their engineering practices.",
+        "url": "https://necker-fintech.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 or FHIR for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

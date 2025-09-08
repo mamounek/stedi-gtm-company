@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
+      "AWS CloudFront"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Solutions",
+      "FHIR API",
+      "HL7 Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Cloud-based Integrations",
+      "Data Streaming Solutions"
+    ],
+    "evidence": [
+      {
+        "claim": "MobileSmith Health utilizes AWS services for cloud infrastructure and hosting solutions.",
+        "url": "https://mobilesmith.com/technology/aws/"
+      },
+      {
+        "claim": "Their platforms comply with HIPAA regulations, indicating the use of secure health data transactions.",
+        "url": "https://mobilesmith.com/security/hipaa-compliance/"
+      },
+      {
+        "claim": "The use of FHIR APIs allows for seamless electronic health record interoperability.",
+        "url": "https://mobilesmith.com/technology/fhir-api/"
+      },
+      {
+        "claim": "Integration with HL7 standards for healthcare interoperability is part of their service offering.",
+        "url": "https://mobilesmith.com/solutions/hl7-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse capabilities.",
+    "icp_confidence": 0.25,
+    "matched_use_cases": []
+  }
+}

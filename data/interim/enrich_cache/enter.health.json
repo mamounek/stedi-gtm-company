@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "AWS S3",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Messaging through FHIR",
+      "Secure data exchange via X12 EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Enter Health uses AWS services for cloud infrastructure and deployment.",
+        "url": "https://enter.health/docs/infrastructure"
+      },
+      {
+        "claim": "Enter Health complies with HIPAA regulations for handling health data.",
+        "url": "https://enter.health/security"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data interoperability.",
+        "url": "https://enter.health/api/fhir"
+      },
+      {
+        "claim": "Integration patterns include X12 EDI for insurance claims processing.",
+        "url": "https://enter.health/integration/patterns"
+      },
+      {
+        "claim": "Kafka is utilized for data streaming between services.",
+        "url": "https://enter.health/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on API integration for healthcare data exchange using X12 and HIPAA standards.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI for claims processing",
+      "270/271 eligibility inquiries",
+      "276/277 claims status",
+      "837/835 remittance processing"
+    ]
+  }
+}

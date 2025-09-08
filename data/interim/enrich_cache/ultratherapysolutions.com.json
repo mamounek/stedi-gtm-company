@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure DevOps"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Ultra Therapy Solutions utilizes AWS cloud services for its platform infrastructure.",
+        "url": "https://ultratherapysolutions.com/about#technology"
+      },
+      {
+        "claim": "The company supports HIPAA-compliant solutions for data handling and transmission.",
+        "url": "https://ultratherapysolutions.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through FHIR APIs.",
+        "url": "https://ultratherapysolutions.com/integrations"
+      },
+      {
+        "claim": "X12 EDI transaction sets are used for billing and insurance processes.",
+        "url": "https://ultratherapysolutions.com/services#billing"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in HIPAA X12 transactions and utilizes API-based integration for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claims status inquiries",
+      "837/835 claims submissions and remittances",
+      "clearinghouse services for healthcare data interchange"
+    ]
+  }
+}

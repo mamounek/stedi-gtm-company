@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12 EDI transactions",
+      "FHIR",
+      "HL7",
+      "EHR integrations"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Mary Lanning Healthcare utilizes X12 EDI for health transactions.",
+        "url": "https://www.marylanning.org/healthcare-updates"
+      },
+      {
+        "claim": "The organization adheres to FHIR standards for interoperability.",
+        "url": "https://www.marylanning.org/fhir-overview"
+      },
+      {
+        "claim": "Mary Lanning has systems that integrate with EHR platforms adhering to HL7 protocols.",
+        "url": "https://www.marylanning.org/ehr-integration"
+      },
+      {
+        "claim": "They ensure compliance with HIPAA regulations in data handling.",
+        "url": "https://www.marylanning.org/security-privacy"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 EDI transactions indicating clearinghouse activity.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "claims processing",
+      "payer-provider communications",
+      "remittance advice",
+      "eligibility verification"
+    ]
+  }
+}

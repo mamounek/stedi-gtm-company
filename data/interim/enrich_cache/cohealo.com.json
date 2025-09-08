@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS",
+      "PostgreSQL"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 835",
+      "X12 270",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Cohealo leverages AWS for their cloud infrastructure and services.",
+        "url": "https://cohealo.com/about/"
+      },
+      {
+        "claim": "The company handles HIPAA-compliant data in their health tech solutions.",
+        "url": "https://cohealo.com/security/"
+      },
+      {
+        "claim": "Integration with EHR systems is supported in compliance with HL7 standards.",
+        "url": "https://cohealo.com/docs/integration/"
+      },
+      {
+        "claim": "Cohealo utilizes PostgreSQL for its data management needs.",
+        "url": "https://cohealo.com/platform/"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Cohealo utilizes X12 transactions for healthcare data exchange; relevant integration patterns align with ICP needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 835 remittance processing",
+      "X12 270/271 eligibility inquiries",
+      "API-driven claims management",
+      "Integration with healthcare payers and providers"
+    ]
+  }
+}

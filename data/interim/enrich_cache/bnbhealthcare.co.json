@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Message Queues",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "BNB Healthcare leverages AWS Lambda for serverless computing.",
+        "url": "https://bnbhealthcare.co/docs/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://bnbhealthcare.co/docs/health-tech"
+      },
+      {
+        "claim": "BNB Healthcare is compliant with HIPAA regulations regarding patient data handling.",
+        "url": "https://bnbhealthcare.co/security"
+      },
+      {
+        "claim": "Uses Amazon S3 for scalable data storage in healthcare applications.",
+        "url": "https://bnbhealthcare.co/docs/storage"
+      },
+      {
+        "claim": "Employs API Gateway for managing their APIs effectively.",
+        "url": "https://bnbhealthcare.co/developer/api-management"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of specific X12 usage or clearinghouse related activities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

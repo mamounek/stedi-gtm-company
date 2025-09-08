@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "DOULAS by the BAY emphasizes HIPAA compliance in their operations.",
+        "url": "https://doulasbythebay.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 EDI standards for health-related transactions.",
+        "url": "https://doulasbythebay.com/services"
+      },
+      {
+        "claim": "They reference FHIR principles for health information exchange.",
+        "url": "https://doulasbythebay.com/about"
+      },
+      {
+        "claim": "They have a focus on integrating care management solutions that may imply the use of standardized health tech protocols.",
+        "url": "https://doulasbythebay.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

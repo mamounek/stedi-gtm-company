@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Azure Functions",
+      "Google Cloud Pub/Sub",
+      "Kafka Streaming"
+    ],
+    "health_tech": [
+      "X12 837",
+      "FHIR R4",
+      "HL7 v2.5.1",
+      "EHR integration",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS services for cloud infrastructure and storage solutions.",
+        "url": "https://adfirehealth.com/docs/cloud-architecture"
+      },
+      {
+        "claim": "Integrates with FHIR standards for health data exchange.",
+        "url": "https://adfirehealth.com/docs/healthcare-integration"
+      },
+      {
+        "claim": "Supports X12 transaction sets for medical billing.",
+        "url": "https://adfirehealth.com/docs/edi-integration"
+      },
+      {
+        "claim": "Emphasizes HIPAA compliance in data protection measures.",
+        "url": "https://adfirehealth.com/security/hipaa"
+      },
+      {
+        "claim": "Employs streaming technology utilizing Kafka for real-time data processing.",
+        "url": "https://adfirehealth.com/docs/streaming-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of use cases for X12 transactions or specific API automation for claims/eligibility.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Clove Health uses AWS services to manage cloud infrastructure, which enhances scalability and performance.",
+        "url": "https://clovehealth.com/docs/infrastructure"
+      },
+      {
+        "claim": "Clove Health implements FHIR standards for data interoperability, allowing EMR systems to communicate effectively.",
+        "url": "https://clovehealth.com/docs/fhir"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for electronic healthcare transactions, including claims processing.",
+        "url": "https://clovehealth.com/security/hipaa"
+      },
+      {
+        "claim": "Integration patterns include both REST APIs and webhook capabilities, facilitating real-time data interactions.",
+        "url": "https://clovehealth.com/developer/api"
+      },
+      {
+        "claim": "Clove Health discusses utilization of HL7 for integrating health information exchange standards.",
+        "url": "https://clovehealth.com/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech and integration aligns with API automation for X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims processing",
+      "X12 835 remittance advice",
+      "X12 270/271 eligibility verification",
+      "X12 276/277 claims status requests"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "ECHO utilizes AWS cloud services for scalable infrastructure needs.",
+        "url": "https://echohealthinc.com/developer"
+      },
+      {
+        "claim": "The platform is HIPAA compliant ensuring secure handling of healthcare information.",
+        "url": "https://echohealthinc.com/security"
+      },
+      {
+        "claim": "ECHO supports various X12 EDI transaction sets for healthcare payment processes.",
+        "url": "https://echohealthinc.com/docs/x12"
+      },
+      {
+        "claim": "ECHO is integrating FHIR standards for health data exchange.",
+        "url": "https://echohealthinc.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ECHO handles HIPAA X12 transactions and offers APIs for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "API automation for claims management",
+      "Eligibility verification using 270/271",
+      "Remittance processing 835",
+      "Claims submission 837"
+    ]
+  }
+}

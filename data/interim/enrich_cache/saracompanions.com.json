@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Sara Companion uses AWS for cloud infrastructure and application hosting.",
+        "url": "https://saracompanions.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 or EDI transactions on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

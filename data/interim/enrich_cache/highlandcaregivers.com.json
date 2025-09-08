@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Highland Caregivers utilizes AWS for its infrastructure needs.",
+        "url": "https://highlandcaregivers.com/about"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations to ensure patient data protection.",
+        "url": "https://highlandcaregivers.com/security"
+      },
+      {
+        "claim": "Integrates with EHR systems following FHIR and HL7 standards for interoperability.",
+        "url": "https://highlandcaregivers.com/integration"
+      },
+      {
+        "claim": "References X12 transaction sets for electronic claims processing.",
+        "url": "https://highlandcaregivers.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange with integration for X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Data exchange with payers"
+    ]
+  }
+}

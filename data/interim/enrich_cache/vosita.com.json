@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Vosita utilizes AWS for cloud infrastructure, indicating reliance on scalable cloud services.",
+        "url": "https://vosita.com/docs/aws-integration-guide"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange, ensuring compatibility with EHR systems.",
+        "url": "https://vosita.com/api/fhir-standards"
+      },
+      {
+        "claim": "Vosita's implementation of HL7 messaging showcases its commitment to healthcare interoperability.",
+        "url": "https://vosita.com/docs/hl7-implementation"
+      },
+      {
+        "claim": "X12 EDI transaction sets are supported for healthcare claims processing, reflecting compliance with industry standards.",
+        "url": "https://vosita.com/docs/edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Vosita's use of X12 EDI and health tech aligns with our ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Financial reporting"
+    ]
+  }
+}

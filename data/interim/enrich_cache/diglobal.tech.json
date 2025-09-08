@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Dynamic Infrastructure uses AWS for cloud services.",
+        "url": "https://diglobal.tech/#services"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards in their health-tech solutions.",
+        "url": "https://diglobal.tech/#health-tech"
+      },
+      {
+        "claim": "Dynamic Infrastructure runs data workflows using Airflow for ETL processes.",
+        "url": "https://diglobal.tech/#data"
+      },
+      {
+        "claim": "Kafka is used for streaming data integration within their platform.",
+        "url": "https://diglobal.tech/#integration"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of relevance to X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

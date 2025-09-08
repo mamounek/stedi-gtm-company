@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "Streaming data integration",
+      "API-based integration"
+    ],
+    "evidence": [
+      {
+        "claim": "InnovaHealth uses AWS for cloud infrastructure to ensure scalability and data security.",
+        "url": "https://innovihealth.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations and utilizes FHIR standards for data interoperability.",
+        "url": "https://innovihealth.com/security-and-compliance"
+      },
+      {
+        "claim": "InnovaHealth supports EDI transaction sets for healthcare claims processing.",
+        "url": "https://innovihealth.com/integration-services"
+      },
+      {
+        "claim": "Integration of clinical data sources using HL7 standards is a key feature of their platform.",
+        "url": "https://innovihealth.com/docs/integrations"
+      },
+      {
+        "claim": "The platform employs data streaming patterns helped by Apache Kafka for real-time data processing.",
+        "url": "https://innovihealth.com/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange and X12 integration points to ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 eligibility inquiries",
+      "X12 837 claims submission",
+      "X12 835 remittance advice"
+    ]
+  }
+}

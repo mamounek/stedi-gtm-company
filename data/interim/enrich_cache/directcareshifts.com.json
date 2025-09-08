@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "DirectCare Shifts complies with HIPAA regulations for data security and patient privacy.",
+        "url": "https://directcareshifts.com/privacy"
+      },
+      {
+        "claim": "They utilize HL7 standards for data exchange between medical applications.",
+        "url": "https://directcareshifts.com/services"
+      },
+      {
+        "claim": "The platform supports FHIR for electronic health information as part of their integration features.",
+        "url": "https://directcareshifts.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse capabilities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

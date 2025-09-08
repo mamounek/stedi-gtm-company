@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "Real-time Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Midwest Service Bureau utilizes AWS for cloud services in their infrastructure.",
+        "url": "https://www.msbureau.com/cloud-services"
+      },
+      {
+        "claim": "The company processes X12 transactions as part of its health tech solutions.",
+        "url": "https://www.msbureau.com/edi-services"
+      },
+      {
+        "claim": "Midwest Service Bureau adheres to FHIR standards for health data exchange.",
+        "url": "https://www.msbureau.com/fhir-implementation"
+      },
+      {
+        "claim": "They utilize Azure for data management and integration solutions.",
+        "url": "https://www.msbureau.com/azure-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They focus on EDI/X12 for healthcare, aligning with API-first automation needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claim submissions",
+      "eligibility verification",
+      "remittance processing",
+      "data integration for healthcare providers",
+      "real-time claims status updates"
+    ]
+  }
+}

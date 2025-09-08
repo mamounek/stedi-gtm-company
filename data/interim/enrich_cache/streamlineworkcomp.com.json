@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Event-Driven Architecture",
+      "Webhook Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Streamline WorkComp utilizes AWS for cloud infrastructure to support scalable workloads.",
+        "url": "https://www.streamlineworkcomp.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company follows HIPAA regulations for handling sensitive health information.",
+        "url": "https://www.streamlineworkcomp.com/security-privacy"
+      },
+      {
+        "claim": "Integration patterns include API and event-driven architecture to streamline workflows.",
+        "url": "https://www.streamlineworkcomp.com/integrations"
+      },
+      {
+        "claim": "They support multiple X12 transaction sets for health insurance claims processing.",
+        "url": "https://www.streamlineworkcomp.com/edi-support"
+      },
+      {
+        "claim": "HL7 FHIR is implemented for patient data interoperability.",
+        "url": "https://www.streamlineworkcomp.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI standards and is HIPAA compliant, indicating relevance to API-first healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Administrative transactions"
+    ]
+  }
+}

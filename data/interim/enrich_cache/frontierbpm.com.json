@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "FrontierBPM leverages AWS services for cloud infrastructure and data processing.",
+        "url": "https://frontierbpm.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance in its health tech solutions.",
+        "url": "https://frontierbpm.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with HL7 standards is mentioned on their technical documentation page.",
+        "url": "https://frontierbpm.com/docs/hl7-integration"
+      },
+      {
+        "claim": "Utilizes Snowflake for data warehousing and advanced analytics in health services.",
+        "url": "https://frontierbpm.com/docs/snowflake-architecture"
+      },
+      {
+        "claim": "Offers RESTful APIs for efficient data integrations across platforms.",
+        "url": "https://frontierbpm.com/developer/restful-apis"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 transactions or clear use cases found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "Heroku"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 transaction sets",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "MasterTax utilizes AWS S3 for data storage.",
+        "url": "https://mastertax.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for health-related tax services.",
+        "url": "https://mastertax.com/security"
+      },
+      {
+        "claim": "MasterTax can handle FHIR format for healthcare data exchange.",
+        "url": "https://mastertax.com/developer"
+      },
+      {
+        "claim": "Integration with EHR systems via X12 transaction sets is supported.",
+        "url": "https://mastertax.com/docs/integration"
+      },
+      {
+        "claim": "MasterTax offers REST APIs for developers to access tax-related services.",
+        "url": "https://mastertax.com/api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services identified on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

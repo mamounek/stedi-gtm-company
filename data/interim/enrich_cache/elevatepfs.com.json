@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Cloud Services",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "EDI X12 Transaction Sets (837, 270, 276)",
+      "FHIR Standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Alegis uses AWS for their cloud infrastructure to host applications securely.",
+        "url": "https://elevatepfs.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations to protect patient data.",
+        "url": "https://elevatepfs.com/hipaa-compliance"
+      },
+      {
+        "claim": "Alegis supports EDI X12 transaction sets which are crucial for healthcare billing and claims processing.",
+        "url": "https://elevatepfs.com/edi-services"
+      },
+      {
+        "claim": "They implement FHIR standards for data interoperability between healthcare applications.",
+        "url": "https://elevatepfs.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged with EDI X12 and HIPAA standards, indicating strong alignment with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets for healthcare claims",
+      "EDI integration for eligibility and claims management",
+      "API automation for remittance processing"
+    ]
+  }
+}

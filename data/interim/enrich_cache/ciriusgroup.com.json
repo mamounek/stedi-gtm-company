@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR standards",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Cirius Group utilizes AWS services for cloud functionality.",
+        "url": "https://www.ciriusgroup.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring healthcare data security.",
+        "url": "https://www.ciriusgroup.com/security/hipaa"
+      },
+      {
+        "claim": "Cirius Group implements HL7 FHIR standards for health data exchange.",
+        "url": "https://www.ciriusgroup.com/developer/fhir"
+      },
+      {
+        "claim": "Integration with X12 EDI standards is part of their service offering.",
+        "url": "https://www.ciriusgroup.com/docs/edi-integration"
+      },
+      {
+        "claim": "They use Google Cloud services for data processing and analytics.",
+        "url": "https://www.ciriusgroup.com/docs/cloud-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Cirius Group utilizes X12 transactions and offers EDI solutions, indicating alignment with ICP.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice processing"
+    ]
+  }
+}

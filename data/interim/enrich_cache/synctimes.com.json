@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant backend",
+      "FHIR API implementation",
+      "X12 EDI support"
+    ],
+    "integration_patterns": [
+      "Microservices architecture",
+      "Event-driven architecture with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "SyncTimes utilizes AWS Lambda for serverless computing needs.",
+        "url": "https://synctimes.com/docs/aws-integration"
+      },
+      {
+        "claim": "SyncTimes has implemented FHIR APIs for healthcare interoperability.",
+        "url": "https://synctimes.com/healthcare/fhir-implementation"
+      },
+      {
+        "claim": "The platform supports X12 transaction sets for EDI messaging.",
+        "url": "https://synctimes.com/docs/x12-support"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "SyncTimes has HIPAA compliant and X12 EDI support, aligning with healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "276/277 claim status inquiries",
+      "837 claims submissions",
+      "835 remittance processing",
+      "clearinghouse functionalities"
+    ]
+  }
+}

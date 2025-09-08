@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "X12 EDI Transactions for Healthcare"
+    ],
+    "integration_patterns": [
+      "API Integration with EHR systems",
+      "Real-time Data Streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud services including Lambda and S3.",
+        "url": "https://zzzmd.com/docs/cloud-services"
+      },
+      {
+        "claim": "Mobile Anesthesiologists indicates compliance with HIPAA for patient data handling.",
+        "url": "https://zzzmd.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns related to EHR systems are discussed in the developer section.",
+        "url": "https://zzzmd.com/developer/integrations"
+      },
+      {
+        "claim": "They utilize HL7 and X12 standards for healthcare transactions.",
+        "url": "https://zzzmd.com/docs/healthcare-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transactions for healthcare, indicating strong API automation needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim submission (837)",
+      "Claim status request (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

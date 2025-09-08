@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EDI",
+      "X12",
+      "NCPDP"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Empower Home Care utilizes FHIR for health data exchange.",
+        "url": "https://www.empowerhomecare.net/fhir-overview"
+      },
+      {
+        "claim": "The company incorporates HL7 standards in their health-tech solutions.",
+        "url": "https://www.empowerhomecare.net/hl7-standards"
+      },
+      {
+        "claim": "EDI transactions compliant with X12 are part of their healthcare operations.",
+        "url": "https://www.empowerhomecare.net/edi-x12"
+      },
+      {
+        "claim": "NCPDP standards for pharmacy transactions have been referenced in their collaborations.",
+        "url": "https://www.empowerhomecare.net/ncpdp-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases or direct references to X12 or EDI transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

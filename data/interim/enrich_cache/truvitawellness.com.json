@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "TruVita Wellness employs HIPAA compliance in its services to ensure the protection of health information.",
+        "url": "https://truvitawellness.com/privacy-policy"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data transfer and interoperability.",
+        "url": "https://truvitawellness.com/developer"
+      },
+      {
+        "claim": "Their platform emphasizes reliable data handling in accordance with health regulations and standards.",
+        "url": "https://truvitawellness.com/about"
+      },
+      {
+        "claim": "TruVita's architecture is designed to support integrations aligning with healthcare standards.",
+        "url": "https://truvitawellness.com/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 or EDI integration in their services or offerings.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Alliance Health & Homecare mentions HIPAA compliance in their operational protocols.",
+        "url": "https://alliancehandh.com/healthcare-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.24
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 transactions or API use cases on public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

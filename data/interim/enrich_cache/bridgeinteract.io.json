@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 messaging standard"
+    ],
+    "integration_patterns": [
+      "REST API for EHR integration",
+      "Webhook for real-time data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Bridge uses AWS as part of its cloud infrastructure, indicating a reliance on scalable cloud services.",
+        "url": "https://bridgeinteract.io/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations, ensuring the protection of patient health information.",
+        "url": "https://bridgeinteract.io/security/hipaa-compliance"
+      },
+      {
+        "claim": "Bridge implements HL7 standards for interoperability with healthcare systems.",
+        "url": "https://bridgeinteract.io/developer/hl7-integration"
+      },
+      {
+        "claim": "Bridge Interact leverages REST APIs to connect with EHRs effectively.",
+        "url": "https://bridgeinteract.io/docs/rest-api-guidelines"
+      },
+      {
+        "claim": "Real-time data updates are facilitated through Webhooks in their integration patterns.",
+        "url": "https://bridgeinteract.io/docs/webhooks"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

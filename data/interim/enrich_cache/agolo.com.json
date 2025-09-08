@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Agolo utilizes AWS for various cloud services including Lambda and S3 storage.",
+        "url": "https://agolo.com/docs/getting-started"
+      },
+      {
+        "claim": "The company has mentions of FHIR and HL7 standards in their documentation for healthcare-related integrations.",
+        "url": "https://agolo.com/docs/integrations"
+      },
+      {
+        "claim": "Agolo's engineering careers page highlights the use of modern cloud infrastructure in their projects, including AWS and GCP.",
+        "url": "https://agolo.com/careers"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs and webhook architectures to support data syncing and notifications.",
+        "url": "https://agolo.com/docs/integration-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or use cases related to EDI healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

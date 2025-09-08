@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "LifeLine implements FHIR standards for health data exchange.",
+        "url": "https://lifelineafrica.app/docs/fhir"
+      },
+      {
+        "claim": "The company uses RESTful APIs to integrate with EHRs.",
+        "url": "https://lifelineafrica.app/developer/integration"
+      },
+      {
+        "claim": "They follow HIPAA guidelines in their data handling.",
+        "url": "https://lifelineafrica.app/security/hipaa"
+      },
+      {
+        "claim": "LifeLine employs cloud-based architecture for scalability and performance.",
+        "url": "https://lifelineafrica.app/docs/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 use or healthcare data exchange processes.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

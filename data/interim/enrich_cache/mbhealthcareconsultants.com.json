@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 Transaction Sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Data integration with EHR systems",
+      "Cloud-based data sharing"
+    ],
+    "evidence": [
+      {
+        "claim": "The company offers HIPAA-compliant solutions for healthcare data.",
+        "url": "https://mbhealthcareconsultants.com/about"
+      },
+      {
+        "claim": "They utilize AWS cloud infrastructure for their applications.",
+        "url": "https://mbhealthcareconsultants.com/services"
+      },
+      {
+        "claim": "Implementation of FHIR standards for health data interoperability is mentioned in their case studies.",
+        "url": "https://mbhealthcareconsultants.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of specific use cases or focus on X12 transactions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

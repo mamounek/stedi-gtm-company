@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Magnolia Assisted Living adheres to HIPAA regulations.",
+        "url": "https://magnoliacarehomes.com/about-hipaa-compliance"
+      },
+      {
+        "claim": "The company provides secure data handling in compliance with healthcare regulations.",
+        "url": "https://magnoliacarehomes.com/security-practices"
+      },
+      {
+        "claim": "Magnolia Assisted Living's facilities use electronic health records that comply with HL7 standards.",
+        "url": "https://magnoliacarehomes.com/ehr-systems"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or focus on EDI processes found on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

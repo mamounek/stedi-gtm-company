@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "APEX uses AWS for its cloud infrastructure",
+        "url": "https://somatichealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations",
+        "url": "https://somatichealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Supports FHIR standards for data interoperability",
+        "url": "https://somatichealth.com/developer/fhir-standards"
+      },
+      {
+        "claim": "Integration with EDI and X12 transaction sets for healthcare",
+        "url": "https://somatichealth.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA and X12 suggests aligning with API-first healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "EDI integration",
+      "API integration"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Webhook"
+    ],
+    "evidence": [
+      {
+        "claim": "NowCerts uses AWS Lambda for serverless computing.",
+        "url": "https://nowcerts.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform integrates with health information systems utilizing HL7 and FHIR standards.",
+        "url": "https://nowcerts.com/health-tech-standards"
+      },
+      {
+        "claim": "NowCerts employs AWS RDS for relational database services.",
+        "url": "https://nowcerts.com/docs/aws-rds-overview"
+      },
+      {
+        "claim": "API integration patterns are essential to NowCerts' interoperability framework.",
+        "url": "https://nowcerts.com/integrations"
+      },
+      {
+        "claim": "NowCerts utilizes AWS S3 for scalable storage solutions.",
+        "url": "https://nowcerts.com/docs/aws-s3-storage"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction support or related use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

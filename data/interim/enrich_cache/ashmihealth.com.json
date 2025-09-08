@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliant Data Exchange",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ashmi Health utilizes FHIR APIs for health data interoperability.",
+        "url": "https://ashmihealth.com/docs/fhir-overview"
+      },
+      {
+        "claim": "Company emphasizes their HIPAA compliance in handling sensitive health information.",
+        "url": "https://ashmihealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Ashmi Health implements secure data exchange adhering to health-tech standards including X12.",
+        "url": "https://ashmihealth.com/developer/guides/x12-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction usage or EDI capabilities on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

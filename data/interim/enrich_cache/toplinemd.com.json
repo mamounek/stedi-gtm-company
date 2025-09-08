@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TopLine MD Alliance outlines its commitment to HIPAA compliance in their security documentation.",
+        "url": "https://toplinemd.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR APIs for interoperability in their health tech solutions.",
+        "url": "https://toplinemd.com/developer"
+      },
+      {
+        "claim": "TopLine MD emphasizes secure data transfers which is a part of their integration strategy for health records.",
+        "url": "https://toplinemd.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of usage of X12 or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

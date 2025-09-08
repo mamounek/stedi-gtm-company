@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA compliant messaging",
+      "HL7 FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Klara uses AWS infrastructure for scalability and reliability.",
+        "url": "https://klara.com/docs/infrastructure"
+      },
+      {
+        "claim": "Klara integrates with Twilio for secure communication between patients and providers.",
+        "url": "https://klara.com/developer/twilio-integration"
+      },
+      {
+        "claim": "Klara is HIPAA compliant and supports secure health data transactions.",
+        "url": "https://klara.com/security"
+      },
+      {
+        "claim": "Klara's API offers FHIR standard to facilitate healthcare data interoperability.",
+        "url": "https://klara.com/docs/api/fhir"
+      },
+      {
+        "claim": "Klara utilizes Stripe API for payment processing, ensuring secure transactions for user payments.",
+        "url": "https://klara.com/docs/payments"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functionality found on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

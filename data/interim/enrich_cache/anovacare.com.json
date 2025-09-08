@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Anova Care utilizes AWS cloud services for infrastructure management.",
+        "url": "https://anovacare.com/about-us/"
+      },
+      {
+        "claim": "The company mentions HIPAA compliance as part of their data handling practices.",
+        "url": "https://anovacare.com/security-policies/"
+      },
+      {
+        "claim": "Anova Care employs FHIR standards for health data exchange.",
+        "url": "https://anovacare.com/technology/"
+      },
+      {
+        "claim": "Integration patterns include the use of RESTful APIs and webhooks for real-time data exchange.",
+        "url": "https://anovacare.com/integration-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of X12 transaction involvement found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

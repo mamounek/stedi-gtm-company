@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Vantiva utilizes AWS for cloud infrastructure.",
+        "url": "https://www.vantiva.com/cloud-solutions/"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations.",
+        "url": "https://www.vantiva.com/healthcare-solutions/"
+      },
+      {
+        "claim": "Vantiva implements HL7 standards for data interoperability.",
+        "url": "https://www.vantiva.com/health-tech/"
+      },
+      {
+        "claim": "The platform is designed to support FHIR standards for health data exchange.",
+        "url": "https://www.vantiva.com/integration-standards/"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on devices, not directly on data exchange or X12 transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

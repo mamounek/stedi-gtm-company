@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "data integration",
+      "real-time streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Preql utilizes Snowflake for data warehousing and analytics.",
+        "url": "https://preql.com/docs/integrations/snowflake"
+      },
+      {
+        "claim": "The platform supports Kafka for real-time data processing.",
+        "url": "https://preql.com/docs/integrations/kafka"
+      },
+      {
+        "claim": "Preql has implemented FHIR standards for health data interoperability.",
+        "url": "https://preql.com/docs/health/fhir"
+      },
+      {
+        "claim": "Preql adheres to HL7 protocols in their health tech solutions.",
+        "url": "https://preql.com/docs/health/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or EDI use cases found on Preql's site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

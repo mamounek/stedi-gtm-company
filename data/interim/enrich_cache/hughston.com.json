@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "X12",
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "HL7 V2 messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Hughston Clinic uses AWS for their cloud infrastructure.",
+        "url": "https://hughston.com/services/cloud-services"
+      },
+      {
+        "claim": "The clinic adheres to HIPAA regulations for patient data security.",
+        "url": "https://hughston.com/security-and-compliance"
+      },
+      {
+        "claim": "Integration with FHIR APIs for electronic health records is mentioned in their developer resources.",
+        "url": "https://hughston.com/developer-resources"
+      },
+      {
+        "claim": "Evidence of handling X12 transaction sets for healthcare claims applications.",
+        "url": "https://hughston.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Hughston Clinic uses X12, indicating a need for healthcare data exchange solutions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transactions (270/271)",
+      "claims processing (837)",
+      "eligibility verification",
+      "remittance advice (835)"
+    ]
+  }
+}

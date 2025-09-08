@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "EDI transaction sets",
+      "X12 transactions",
+      "FHIR API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "RadMD uses AWS for cloud infrastructure.",
+        "url": "https://rad-md.net/cloud-services"
+      },
+      {
+        "claim": "Company is HIPAA compliant, ensuring secure handling of health data.",
+        "url": "https://rad-md.net/security"
+      },
+      {
+        "claim": "Webpages reference EDI X12 transaction sets utilized for health claims processing.",
+        "url": "https://rad-md.net/docs/edi"
+      },
+      {
+        "claim": "RadMD integrates with EHR systems using FHIR APIs.",
+        "url": "https://rad-md.net/api/fhir"
+      },
+      {
+        "claim": "Utilizes Google Cloud Platform for data storage solutions.",
+        "url": "https://rad-md.net/cloud-platform"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with EDI transactions and HIPAA compliance in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "EDI transaction sets",
+      "claims management",
+      "eligibility verification",
+      "remittance processing"
+    ]
+  }
+}

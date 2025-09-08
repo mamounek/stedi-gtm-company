@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Dewi Kreckman employs HIPAA compliance for data protection.",
+        "url": "https://dewikreckman.com/security"
+      },
+      {
+        "claim": "The company utilizes HL7 standards for healthcare data exchange.",
+        "url": "https://dewikreckman.com/docs"
+      },
+      {
+        "claim": "Their infrastructure incorporates cloud services for secure data management.",
+        "url": "https://dewikreckman.com/platform"
+      },
+      {
+        "claim": "Proof of EHR integration capabilities noted in their case studies.",
+        "url": "https://dewikreckman.com/case-studies"
+      },
+      {
+        "claim": "The company lists their adherence to health-tech standards on their careers page.",
+        "url": "https://dewikreckman.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement with X12 transactions or EDI processes.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

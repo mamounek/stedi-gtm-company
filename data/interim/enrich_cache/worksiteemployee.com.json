@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "EDI X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations with healthcare systems",
+      "Cloud-based data storage for health records"
+    ],
+    "evidence": [
+      {
+        "claim": "Worksite mentions compliance with HIPAA standards on their security page.",
+        "url": "https://www.worksiteemployee.com/security"
+      },
+      {
+        "claim": "The company utilizes AWS for hosting and cloud infrastructure.",
+        "url": "https://www.worksiteemployee.com/docs"
+      },
+      {
+        "claim": "Evidence of EDI X12 transactions mentioned in integration with clearinghouses.",
+        "url": "https://www.worksiteemployee.com/integrations"
+      },
+      {
+        "claim": "Worksite implements FHIR for interoperability with health management systems.",
+        "url": "https://www.worksiteemployee.com/tech"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses HIPAA and EDI X12, indicating relevant use cases for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "API integrations with healthcare systems",
+      "Eligibility verification",
+      "Claims processing",
+      "Remittance processing"
+    ]
+  }
+}

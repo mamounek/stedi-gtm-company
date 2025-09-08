@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "3DBio Therapeutics uses cloud services for their data platforms and API integrations.",
+        "url": "https://www.3dbiocorp.com/about"
+      },
+      {
+        "claim": "The company emphasizes compliance with HIPAA regulations for their health technology solutions.",
+        "url": "https://www.3dbiocorp.com/security"
+      },
+      {
+        "claim": "3DBio describes their use of advanced technologies in the biomedical field.",
+        "url": "https://www.3dbiocorp.com/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or engagement with healthcare data exchanges.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

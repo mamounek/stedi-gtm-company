@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices architecture",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Olah Healthcare Technology utilizes AWS and Google Cloud Platform for its cloud services.",
+        "url": "https://olahht.com/docs/cloud-services"
+      },
+      {
+        "claim": "HL7 standards are incorporated for interoperability in healthcare data exchange.",
+        "url": "https://olahht.com/health-tech/standards"
+      },
+      {
+        "claim": "They provide integration with EHR systems via FHIR API.",
+        "url": "https://olahht.com/integration/ehr-connectivity"
+      },
+      {
+        "claim": "Olah uses X12 transaction sets for claims processing and patient eligibility verification.",
+        "url": "https://olahht.com/docs/X12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and offers API integration for healthcare, fitting ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270 eligibility requests",
+      "API automation for claims processing",
+      "Integration with clearinghouses",
+      "X12 remittance advice (835)"
+    ]
+  }
+}

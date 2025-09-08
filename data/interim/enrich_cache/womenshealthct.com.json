@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Women's Health Connecticut focuses on HIPAA compliance for handling patient data.",
+        "url": "https://womenshealthct.com/security/"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for electronic health information exchange.",
+        "url": "https://womenshealthct.com/docs/fhir-guidelines/"
+      },
+      {
+        "claim": "Women's Health Connecticut adheres to HL7 protocols for health data exchange.",
+        "url": "https://womenshealthct.com/docs/hl7-procedures/"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for use of X12 transactions or clearinghouse functionality.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

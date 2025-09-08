@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API Gateway for managing APIs",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "BilliMD utilizes Amazon Web Services for its cloud infrastructure.",
+        "url": "https://billimd.com/developer"
+      },
+      {
+        "claim": "The platform is designed to be HIPAA compliant, ensuring the protection of patient data.",
+        "url": "https://billimd.com/security"
+      },
+      {
+        "claim": "BilliMD supports FHIR standards for health data exchange.",
+        "url": "https://billimd.com/docs"
+      },
+      {
+        "claim": "Integration includes support for X12 EDI transactions for billing.",
+        "url": "https://billimd.com/careers"
+      },
+      {
+        "claim": "The use of AWS services ensures scalable and reliable application performance.",
+        "url": "https://billimd.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "BilliMD processes X12 EDI transactions and values API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status",
+      "278 Authorization Requests",
+      "837 Claims Submission",
+      "835 Remittance Advice Handling"
+    ]
+  }
+}

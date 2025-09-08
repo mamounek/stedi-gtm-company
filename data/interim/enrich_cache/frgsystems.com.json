@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Financial Recovery Group emphasizes adherence to HIPAA compliance for data protection on its systems.",
+        "url": "https://www.frgsystems.com/security"
+      },
+      {
+        "claim": "FRG utilizes X12 transaction sets for EDI in healthcare trading partner integrations.",
+        "url": "https://www.frgsystems.com/edi"
+      },
+      {
+        "claim": "The company provides insights into their security measures which are designed to safeguard health data as per regulatory frameworks.",
+        "url": "https://www.frgsystems.com/docs/security"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or clearinghouse functionality found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

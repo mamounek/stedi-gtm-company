@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific API or cloud infrastructure was found on the company website.",
+        "url": "https://lighthouseseniorcare.com"
+      },
+      {
+        "claim": "There is no evidence of health-tech standards like HIPAA or FHIR mentioned on the company's site.",
+        "url": "https://lighthouseseniorcare.com"
+      },
+      {
+        "claim": "Limited technical specifications available, indicating a possible lack of robust integration middleware or APIs.",
+        "url": "https://lighthouseseniorcare.com"
+      },
+      {
+        "claim": "The site does not list any cloud services such as AWS, Azure, GCP, or equivalent technologies.",
+        "url": "https://lighthouseseniorcare.com"
+      }
+    ],
+    "tech_stack_confidence": 0.16
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of relevant use cases found related to X12 transactions or API automation.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

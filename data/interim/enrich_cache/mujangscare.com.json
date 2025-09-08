@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Event-Driven Architecture",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Mujang's Care utilizes AWS services for their cloud infrastructure, providing scalable and secure application hosting.",
+        "url": "https://mujangscare.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports HL7 FHIR standards for health data exchange, aiding interoperability between healthcare systems.",
+        "url": "https://mujangscare.com/developer/fhir-support"
+      },
+      {
+        "claim": "Mujang's Care implements X12 transaction sets for claims and eligibility checks, ensuring compliance for health insurance processes.",
+        "url": "https://mujangscare.com/docs/edi-x12"
+      },
+      {
+        "claim": "They utilize a microservices architecture, allowing independent deployment and scaling of healthcare applications.",
+        "url": "https://mujangscare.com/careers/engineering"
+      },
+      {
+        "claim": "The use of AWS RDS is mentioned for managing relational databases needed in their applications.",
+        "url": "https://mujangscare.com/docs/cloud-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Mujang's Care shows strong alignment with X12 transactions and API automation for healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270 eligibility inquiries",
+      "X12 276 claims status",
+      "X12 837 claims submission",
+      "X12 835 remittance advice"
+    ]
+  }
+}

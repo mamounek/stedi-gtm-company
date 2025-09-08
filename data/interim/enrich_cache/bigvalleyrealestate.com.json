@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Big Valley Real Estate does not publicly list any APIs or cloud infrastructure on their official site.",
+        "url": "https://bigvalleyrealestate.com"
+      },
+      {
+        "claim": "The company website lacks information regarding health-tech rails, such as HIPAA or FHIR standards.",
+        "url": "https://bigvalleyrealestate.com"
+      },
+      {
+        "claim": "No specific integrations or middleware platforms are mentioned on the company's documentation or developer pages.",
+        "url": "https://bigvalleyrealestate.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of healthcare data exchange or X12 use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

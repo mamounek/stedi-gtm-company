@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Cloud Foundry",
+      "Kafka",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "ETL processes",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "EXL Health utilizes AWS as part of their cloud infrastructure.",
+        "url": "https://www.exlservice.com/technologies"
+      },
+      {
+        "claim": "The company implements Kafka for data streaming solutions.",
+        "url": "https://www.exlservice.com/data-solutions"
+      },
+      {
+        "claim": "EXL adheres to HIPAA guidelines for data security and compliance.",
+        "url": "https://www.exlservice.com/security"
+      },
+      {
+        "claim": "Utilizes HL7 and FHIR standards for healthcare interoperability.",
+        "url": "https://www.exlservice.com/healthcare-services"
+      },
+      {
+        "claim": "Snowflake is used as a data platform for analytics.",
+        "url": "https://www.exlservice.com/cloud-analytics"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "EXL Health focuses on healthcare data management with expertise in X12 transactions and API integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests and Responses",
+      "837 Claims Submissions",
+      "835 Remittance Advice",
+      "276/277 Claim Status Inquiries",
+      "278 Health Care Services Review Transactions"
+    ]
+  }
+}

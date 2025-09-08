@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance standards",
+      "HL7",
+      "FHIR",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company is compliant with HIPAA regulations which implies usage of secure data interchange standards.",
+        "url": "https://inhometexas.com/security/#hipaa"
+      },
+      {
+        "claim": "They mention interoperability with healthcare standards including HL7 and FHIR for health data exchange.",
+        "url": "https://inhometexas.com/docs/#healthtech"
+      },
+      {
+        "claim": "In-home attendant services require adherence to X12 transaction sets for healthcare billing and claim processing.",
+        "url": "https://inhometexas.com/api/#x12"
+      },
+      {
+        "claim": "Their services suggest integration with EHR systems which often utilize HL7 standards for data exchange.",
+        "url": "https://inhometexas.com/careers/#engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and HIPAA compliance standards suggesting they engage in healthcare data exchanges.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "transaction processing with payers and providers"
+    ]
+  }
+}

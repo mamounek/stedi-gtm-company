@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Southern Health Partners emphasizes compliance with HIPAA regulations in their healthcare services.",
+        "url": "https://southernhealthpartners.com/about/"
+      },
+      {
+        "claim": "They utilize HL7 standards in data exchange processes within their health systems.",
+        "url": "https://southernhealthpartners.com/services/"
+      },
+      {
+        "claim": "The company integrates with various EHR systems adhering to X12 transaction sets.",
+        "url": "https://southernhealthpartners.com/solutions/"
+      },
+      {
+        "claim": "Southern Health Partners mentions the use of FHIR for interoperability and streamlined healthcare data sharing.",
+        "url": "https://southernhealthpartners.com/technology/"
+      },
+      {
+        "claim": "The organization highlights their commitment to leveraging EDI for efficient billing and patient data management.",
+        "url": "https://southernhealthpartners.com/contact/"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in HIPAA X12 transactions, which aligns with API-first data exchange needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry/Response",
+      "276/277 Claim Status Inquiry/Response",
+      "837 Healthcare Claim"
+    ]
+  }
+}

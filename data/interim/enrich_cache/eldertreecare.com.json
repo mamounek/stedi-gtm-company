@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance frameworks",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "HL7 messaging protocols"
+    ],
+    "evidence": [
+      {
+        "claim": "ElderTree operates under HIPAA guidelines for patient information handling.",
+        "url": "https://eldertreecare.com/security"
+      },
+      {
+        "claim": "The company mentions FHIR standards in relation to data interoperability in health tech.",
+        "url": "https://eldertreecare.com/docs"
+      },
+      {
+        "claim": "Integration patterns for EHRs are discussed in the context of ElderTree's services.",
+        "url": "https://eldertreecare.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or EDI use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

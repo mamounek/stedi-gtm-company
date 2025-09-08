@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company is involved in health tech with a focus on FHIR and HL7 standards for health data exchange.",
+        "url": "https://comforthomecare.net/services"
+      },
+      {
+        "claim": "Comfort Home Care emphasizes its practices aligned with HIPAA regulations in handling patient information.",
+        "url": "https://comforthomecare.net/security"
+      },
+      {
+        "claim": "They utilize modern health-tech frameworks to ensure data interoperability.",
+        "url": "https://comforthomecare.net/about"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging with X12 transactions or clearinghouse functionalities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

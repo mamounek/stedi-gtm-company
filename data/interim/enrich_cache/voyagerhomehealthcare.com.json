@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12",
+      "EHR integration",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Data streaming via AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Voyager Home Health Care utilizes AWS for scalable cloud infrastructure and services.",
+        "url": "https://www.voyagerhomehealthcare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in their data handling and health information exchange.",
+        "url": "https://www.voyagerhomehealthcare.com/security"
+      },
+      {
+        "claim": "Voyager implements HL7 and FHIR standards for health data interoperability.",
+        "url": "https://www.voyagerhomehealthcare.com/health-tech"
+      },
+      {
+        "claim": "Their platform supports EDI transactions, particularly X12 formats for billing and claims processing.",
+        "url": "https://www.voyagerhomehealthcare.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with X12 standards, key for claims and eligibility operations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "sending/receiving X12 transactions",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice management"
+    ]
+  }
+}

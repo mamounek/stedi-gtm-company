@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 835",
+      "X12 837",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Message Queueing (AWS SQS)",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless computing.",
+        "url": "https://compplusanc.com/developer/api-overview"
+      },
+      {
+        "claim": "CompPlus is compliant with HIPAA guidelines for health data management.",
+        "url": "https://compplusanc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems using FHIR standards is mentioned in their documentation.",
+        "url": "https://compplusanc.com/docs/integration/ehr"
+      },
+      {
+        "claim": "X12 transaction sets are used for billing and claims processing.",
+        "url": "https://compplusanc.com/docs/edi/x12"
+      },
+      {
+        "claim": "CompPlus leverages Azure SQL Database for managing patient data.",
+        "url": "https://compplusanc.com/platform/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports X12 transactions, indicates focus on healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 835 processing",
+      "X12 837 submission",
+      "Eligibility checks (270/271)",
+      "Claims status (276/277)"
+    ]
+  }
+}

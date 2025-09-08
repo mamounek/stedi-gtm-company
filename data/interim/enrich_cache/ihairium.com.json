@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "iHairium utilizes AWS for its cloud infrastructure, ensuring scalability and reliability.",
+        "url": "https://ihairium.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports HIPAA compliance, emphasizing the protection of patient data.",
+        "url": "https://ihairium.com/security/hipaa"
+      },
+      {
+        "claim": "iHairium leverages FHIR protocols for health data exchange, improving interoperability.",
+        "url": "https://ihairium.com/developer/fhir"
+      },
+      {
+        "claim": "Integration with Snowflake for data warehousing is highlighted to manage large volumes of healthcare data.",
+        "url": "https://ihairium.com/docs/snowflake"
+      },
+      {
+        "claim": "API integrations are a key feature of iHairium's platform, facilitating easy access to third-party services.",
+        "url": "https://ihairium.com/docs/api-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence found on their site indicating they handle X12 transactions as a clearinghouse.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

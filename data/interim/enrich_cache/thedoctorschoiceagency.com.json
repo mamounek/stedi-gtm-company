@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12 EDI Transactions",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "FHIR API for health records integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company complies with HIPAA regulations for health data.",
+        "url": "https://thedoctorschoiceagency.com/security-overview/"
+      },
+      {
+        "claim": "The company utilizes X12 EDI transactions for billing processes.",
+        "url": "https://thedoctorschoiceagency.com/billing-edi/"
+      },
+      {
+        "claim": "Technology services include FHIR APIs for interoperability in healthcare.",
+        "url": "https://thedoctorschoiceagency.com/fhir-api-overview/"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or a clearinghouse on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

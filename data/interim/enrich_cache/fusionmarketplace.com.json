@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "EDI integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Fusion Marketplace utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.fusionmarketplace.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations, ensuring the protection of health information.",
+        "url": "https://www.fusionmarketplace.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Fusion Marketplace supports FHIR for health data interoperability.",
+        "url": "https://www.fusionmarketplace.com/developer/fhir-standards"
+      },
+      {
+        "claim": "X12 EDI transactions are part of the messaging capabilities offered by Fusion Marketplace.",
+        "url": "https://www.fusionmarketplace.com/docs/edi-x12-support"
+      },
+      {
+        "claim": "Snowflake is used for data warehousing within Fusion Marketplace's analytics infrastructure.",
+        "url": "https://www.fusionmarketplace.com/docs/snowflake-data-warehouse"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in healthcare data exchange and has relevant tech stack.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI integration",
+      "Eligibility verification (270/271)",
+      "Claims processing (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

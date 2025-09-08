@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "SAFE Hands emphasizes HIPAA compliance for secure health data management.",
+        "url": "https://safehandsmaryland.com/security"
+      },
+      {
+        "claim": "The company leverages secure technology measures for health data protection in accordance with HIPAA regulations.",
+        "url": "https://safehandsmaryland.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or related EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

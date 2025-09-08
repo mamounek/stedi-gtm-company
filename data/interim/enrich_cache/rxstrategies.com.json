@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Amazon S3",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 5010",
+      "FHIR R4",
+      "HL7 V2.5.1"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Webhooks",
+      "ETL Processes"
+    ],
+    "evidence": [
+      {
+        "claim": "RxStrategies utilizes AWS for scalable cloud services including storage and compute.",
+        "url": "https://rxstrategies.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations to safeguard patient data.",
+        "url": "https://rxstrategies.com/security"
+      },
+      {
+        "claim": "They support interoperability with FHIR standards for health data exchange.",
+        "url": "https://rxstrategies.com/fhir-integration"
+      },
+      {
+        "claim": "Use of X12 standards for electronic healthcare transactions is a critical part of their EDI capabilities.",
+        "url": "https://rxstrategies.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "RxStrategies uses X12 for healthcare data, fitting an API-first model for exchanges.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims processing (837/835)",
+      "Eligibility requests (270/271)",
+      "Remittance advice (835)",
+      "Clearinghouse services"
+    ]
+  }
+}

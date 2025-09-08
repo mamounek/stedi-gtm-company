@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliant processes",
+      "FHIR standards",
+      "HL7 messaging"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Batch data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Staffna utilizes AWS services for cloud infrastructure, ensuring reliable API performance.",
+        "url": "https://staffna.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions or EDI found on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

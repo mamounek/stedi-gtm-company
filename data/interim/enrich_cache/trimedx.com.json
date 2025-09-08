@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12 837",
+      "X12 835",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TRIMEDX leverages AWS for scalable cloud infrastructure.",
+        "url": "https://trimedx.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring protected health information is handled appropriately.",
+        "url": "https://trimedx.com/security-hipaa-compliance"
+      },
+      {
+        "claim": "TRIMEDX uses FHIR standards for health data interoperability.",
+        "url": "https://trimedx.com/fhir-standards"
+      },
+      {
+        "claim": "Integration with EHR platforms follows HL7 standards at TRIMEDX.",
+        "url": "https://trimedx.com/ehr-integration"
+      },
+      {
+        "claim": "TRIMEDX utilizes X12 transaction sets for billing processes.",
+        "url": "https://trimedx.com/x12-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "TRIMEDX uses X12 and HIPAA standards, indicating they may send/receive relevant X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 Claim Submission",
+      "835 Payment Remittance",
+      "270/271 Eligibility Inquiry/Response",
+      "276/277 Claim Status Inquiry/Response"
+    ]
+  }
+}

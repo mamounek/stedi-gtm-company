@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company mentions HIPAA compliance which indicates adherence to health information security standards.",
+        "url": "https://painlesspregnancy.com/security"
+      },
+      {
+        "claim": "Painless Pregnancy utilizes FHIR APIs for data exchange healthcare data.",
+        "url": "https://painlesspregnancy.com/developer"
+      },
+      {
+        "claim": "They provide RESTful APIs to integrate with Electronic Health Records.",
+        "url": "https://painlesspregnancy.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or related use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

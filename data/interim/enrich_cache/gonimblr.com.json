@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "X12 834",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API for internal services",
+      "Webhook integrations for policy updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Nimblr utilizes AWS Lambda for serverless computing to handle claims processing.",
+        "url": "https://gonimblr.com/docs/aws-lambda-usage"
+      },
+      {
+        "claim": "The company supports X12 834 transactions for enrollment and eligibility.",
+        "url": "https://gonimblr.com/docs/edi-payments"
+      },
+      {
+        "claim": "Nimblr employs FHIR standards for health data interchange.",
+        "url": "https://gonimblr.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Webhook integrations are used for real-time policy updates.",
+        "url": "https://gonimblr.com/docs/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of engaging in X12 transactions or using clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

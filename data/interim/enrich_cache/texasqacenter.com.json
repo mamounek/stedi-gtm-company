@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Texas QA Center indicates focus on healthcare compliance and quality assurance, suggesting potential use of health records systems.",
+        "url": "https://texasqacenter.com/services/healthcare-qa"
+      },
+      {
+        "claim": "Their consultancy services imply familiarity with HIPAA regulations, although specific technology use is undisclosed.",
+        "url": "https://texasqacenter.com/services/consultancy"
+      },
+      {
+        "claim": "No specific APIs or cloud infrastructure mentioned on documentation, with reliance on generalized quality assurance.",
+        "url": "https://texasqacenter.com/about"
+      },
+      {
+        "claim": "Lack of public details on technical infrastructure or health-tech rails indicates limited available information.",
+        "url": "https://texasqacenter.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.21
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

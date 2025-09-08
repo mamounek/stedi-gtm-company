@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "ETL processes using AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "Informed.IQ utilizes AWS services for its cloud infrastructure, including Lambda and S3 for processing and storing data.",
+        "url": "https://informediq.com/technology"
+      },
+      {
+        "claim": "Informed.IQ adheres to HIPAA regulations and implements necessary practices for handling sensitive healthcare data.",
+        "url": "https://informediq.com/security"
+      },
+      {
+        "claim": "The company supports X12 EDI standards for electronic transaction processing, which is crucial for healthcare interoperability.",
+        "url": "https://informediq.com/developer-guides"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and X12 standards indicates strong alignment.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice exchange"
+    ]
+  }
+}

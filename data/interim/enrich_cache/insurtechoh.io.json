@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "InsurTech Ohio utilizes AWS services for cloud infrastructure.",
+        "url": "https://insurtechoh.io/docs/aws-overview"
+      },
+      {
+        "claim": "The company claims HIPAA compliance for secure health data handling.",
+        "url": "https://insurtechoh.io/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with various EDI transaction sets like X12 is mentioned.",
+        "url": "https://insurtechoh.io/integration/x12-edi"
+      },
+      {
+        "claim": "REST APIs are used to connect different products and services offered by InsurTech Ohio.",
+        "url": "https://insurtechoh.io/developer/rest-api"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 transaction sets, indicating relevance for API-first health data exchanges.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claim submissions",
+      "835 remittance processing",
+      "276/277 claims status inquiries",
+      "278 prior authorization requests"
+    ]
+  }
+}

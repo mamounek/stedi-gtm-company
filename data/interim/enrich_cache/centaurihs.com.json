@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR resources"
+    ],
+    "integration_patterns": [
+      "API integrations with Electronic Health Records (EHRs)",
+      "Data exchange via HL7 standards",
+      "Interoperability with clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "Centauri Health Solutions utilizes AWS for reliable cloud infrastructure.",
+        "url": "https://centaurihs.com/cloud-services/"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in managing health data.",
+        "url": "https://centaurihs.com/security/"
+      },
+      {
+        "claim": "Integration with EHRs is supported through FHIR standards.",
+        "url": "https://centaurihs.com/apis/"
+      },
+      {
+        "claim": "Centauri implements X12 transaction sets for healthcare data exchanges.",
+        "url": "https://centaurihs.com/edi-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions and interoperability indicates alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claim status (276/277)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

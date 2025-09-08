@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "GraphQL"
+    ],
+    "evidence": [
+      {
+        "claim": "Exponential Care uses AWS cloud infrastructure for its applications.",
+        "url": "https://exponentialcare.ai/#infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, indicating their health-tech focus.",
+        "url": "https://exponentialcare.ai/security"
+      },
+      {
+        "claim": "Exponential Care leverages FHIR standards for seamless electronic health information exchange.",
+        "url": "https://exponentialcare.ai/docs/fhir"
+      },
+      {
+        "claim": "They utilize HL7 protocols for data integration with EHR systems.",
+        "url": "https://exponentialcare.ai/api/hl7"
+      },
+      {
+        "claim": "Integration middleware is evidenced through their use of REST APIs documented on their developer portal.",
+        "url": "https://exponentialcare.ai/developer/apis"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or clearinghouse functionalities found on their site.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

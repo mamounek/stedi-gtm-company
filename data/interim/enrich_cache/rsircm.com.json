@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "RSi Enrollment Services complies with HIPAA regulations for handling sensitive patient information.",
+        "url": "https://www.rsircm.com/security"
+      },
+      {
+        "claim": "RSi Enrollment Services integrates with EHR systems to facilitate EDI transaction sets.",
+        "url": "https://www.rsircm.com/docs/epms"
+      },
+      {
+        "claim": "RSi's services include support for FHIR standards for exchanging healthcare information.",
+        "url": "https://www.rsircm.com/health-tech"
+      },
+      {
+        "claim": "The company utilizes cloud services for scalability and data security.",
+        "url": "https://www.rsircm.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates with X12 healthcare transactions and values API integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility requests",
+      "276/277 claims status",
+      "837 claim submissions",
+      "835 remittance advice"
+    ]
+  }
+}

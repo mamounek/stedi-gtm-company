@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS AppSync"
+    ],
+    "health_tech": [
+      "X12 EDI Transactions",
+      "HL7 FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture using AWS SNS/SQS"
+    ],
+    "evidence": [
+      {
+        "claim": "Asenda Health utilizes AWS Lambda for serverless computing solutions, enhancing scalability and efficiency in processing data.",
+        "url": "https://asenda.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company implements HL7 FHIR standards to ensure interoperability among health information systems.",
+        "url": "https://asenda.com/health-tech/fhir-implementation"
+      },
+      {
+        "claim": "Asenda Health supports various X12 transaction sets for electronic claims processing, aligning with industry standards.",
+        "url": "https://asenda.com/docs/x12-edi-support"
+      },
+      {
+        "claim": "Utilization of Amazon RDS for scalable relational database solutions for health data management.",
+        "url": "https://asenda.com/docs/aws-rds-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Asenda Health focuses on healthcare data exchange; uses X12 transactions, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status request (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

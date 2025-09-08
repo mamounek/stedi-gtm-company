@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 270/271",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Reverence Care uses AWS services for cloud infrastructure and data storage.",
+        "url": "https://www.reverencecare.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://www.reverencecare.com/docs/fhir-hl7-standards"
+      },
+      {
+        "claim": "Reverence Care processes X12 transactions for healthcare claims and eligibility checks.",
+        "url": "https://www.reverencecare.com/docs/edi-x12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 formats for healthcare transactions and values API integration.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility checking",
+      "X12 837 for healthcare claims submissions",
+      "X12 835 for remittance processing"
+    ]
+  }
+}

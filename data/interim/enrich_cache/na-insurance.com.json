@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for cloud infrastructure and hosting services.",
+        "url": "https://na-insurance.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Supports HIPAA compliant data processing through secure APIs.",
+        "url": "https://na-insurance.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Engages with X12 formats for electronic data interchange.",
+        "url": "https://na-insurance.com/docs/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers X12 EDI and cloud-based API services aligning with healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "276/277 Claim Status Requests",
+      "837 Claims Submission",
+      "835 Remittance Advice Processing",
+      "Clearinghouse Services"
+    ]
+  }
+}

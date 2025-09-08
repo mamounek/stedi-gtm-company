@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Data exchange using HL7 standards"
+    ],
+    "evidence": [
+      {
+        "claim": "Navion uses AWS cloud services for its infrastructure.",
+        "url": "https://navionrx.com/docs/cloud-services"
+      },
+      {
+        "claim": "Their platforms support FHIR and HL7 for health data interoperability.",
+        "url": "https://navionrx.com/docs/health-technology"
+      },
+      {
+        "claim": "Navion integrates with electronic health records (EHRs) using API patterns.",
+        "url": "https://navionrx.com/docs/integrations"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data handling.",
+        "url": "https://navionrx.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Navion's data exchange capabilities include X12 EDI transaction sets.",
+        "url": "https://navionrx.com/docs/edi-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or specific health data exchange use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

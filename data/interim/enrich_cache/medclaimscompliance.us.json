@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12",
+      "EDI",
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company engages in HIPAA compliance practices.",
+        "url": "https://www.medclaimscompliance.us/security"
+      },
+      {
+        "claim": "Utilizes X12 EDI transaction sets for health claims processing.",
+        "url": "https://www.medclaimscompliance.us/docs/x12"
+      },
+      {
+        "claim": "Adheres to FHIR standards for healthcare data exchange.",
+        "url": "https://www.medclaimscompliance.us/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Specializes in HIPAA-compliant EDI solutions for healthcare claims processing.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions (270/271, 276/277)",
+      "Claim submissions (837)",
+      "Claim remittance (835)",
+      "Clearinghouse services for payer/provider integration"
+    ]
+  }
+}

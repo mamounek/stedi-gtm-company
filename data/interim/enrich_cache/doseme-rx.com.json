@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "JSON API"
+    ],
+    "evidence": [
+      {
+        "claim": "DoseMe utilizes AWS for their cloud infrastructure.",
+        "url": "https://doseme-rx.com/about/"
+      },
+      {
+        "claim": "The platform supports FHIR and HL7 standards for health data interoperability.",
+        "url": "https://doseme-rx.com/docs/integration/"
+      },
+      {
+        "claim": "The integration patterns include REST API for communication between systems.",
+        "url": "https://doseme-rx.com/docs/api/"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction processing or clearinghouse capabilities found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

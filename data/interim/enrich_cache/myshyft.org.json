@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "MyShyft supports FHIR standards for health data exchange.",
+        "url": "https://myshyft.org/docs/fhir"
+      },
+      {
+        "claim": "Integration with EHRs using HL7 protocols is outlined in the developer documentation.",
+        "url": "https://myshyft.org/developer#EHR"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of use of X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TruCare Health Services employs FHIR standards for healthcare data exchange.",
+        "url": "https://trucarehealthservices.org/healthcare-data-exchange"
+      },
+      {
+        "claim": "The company aligns with HL7 protocols to ensure compliance in data handling.",
+        "url": "https://trucarehealthservices.org/hl7-compliance"
+      },
+      {
+        "claim": "TruCare Health Services maintains HIPAA compliance in their healthcare services.",
+        "url": "https://trucarehealthservices.org/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on HL7/FHIR without mention of X12 transactions.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

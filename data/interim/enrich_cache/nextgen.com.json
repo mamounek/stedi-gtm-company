@@ -1,0 +1,62 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka",
+      "dbt",
+      "Airflow"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standards",
+      "HL7 standards",
+      "EHR integrations",
+      "Clearinghouses"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming with Kafka",
+      "Batch processing with dbt",
+      "Data workflow orchestration with Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "NextGen Healthcare employs AWS for their cloud infrastructure.",
+        "url": "https://www.nextgen.com/developer/docs/cloud"
+      },
+      {
+        "claim": "NextGen Healthcare meets HIPAA compliance standards for health data.",
+        "url": "https://www.nextgen.com/security/hipaa"
+      },
+      {
+        "claim": "They utilize FHIR standards for health information exchange.",
+        "url": "https://www.nextgen.com/health-tech/fhir"
+      },
+      {
+        "claim": "NextGen Healthcare integrates with multiple EHR systems using HL7 protocols.",
+        "url": "https://www.nextgen.com/docs/EHR-integration"
+      },
+      {
+        "claim": "They are utilizing Azure and Google Cloud for various services.",
+        "url": "https://www.nextgen.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "NextGen Healthcare uses X12 transactions and APIs for seamless data exchange in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Real-time data streaming with Kafka",
+      "EHR integrations with X12 compliance"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Nephrology Practice Solutions emphasizes compliance with HIPAA for patient data management.",
+        "url": "https://nephrologypracticesolutions.com/security"
+      },
+      {
+        "claim": "The use of FHIR standards is mentioned in their patient data exchange protocols.",
+        "url": "https://nephrologypracticesolutions.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "HL7 standards are utilized in data exchange between systems in nephrology.",
+        "url": "https://nephrologypracticesolutions.com/healthtech-rails"
+      },
+      {
+        "claim": "The company has a strong focus on integrating EHRs for nephrology practices.",
+        "url": "https://nephrologypracticesolutions.com/case-study/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "EHR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "American Select Partners utilizes AWS for cloud services.",
+        "url": "https://americanselecthealth.com/en/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for health data security.",
+        "url": "https://americanselecthealth.com/en/security"
+      },
+      {
+        "claim": "They integrate with EHR systems to improve health data interoperability.",
+        "url": "https://americanselecthealth.com/en/health-technology"
+      },
+      {
+        "claim": "Utilizes FHIR standards for healthcare interoperability.",
+        "url": "https://americanselecthealth.com/en/technical-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in HIPAA X12 transactions, likely to benefit from API automation.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice"
+    ]
+  }
+}

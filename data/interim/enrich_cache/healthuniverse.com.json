@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "X12 Healthcare Claims",
+      "HL7 FHIR",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Universe utilizes AWS for its cloud infrastructure.",
+        "url": "https://healthuniverse.com/documentation/aws-integration"
+      },
+      {
+        "claim": "The company supports HL7 FHIR for interoperable health data exchange.",
+        "url": "https://healthuniverse.com/docs/fhir-support"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for connecting with EHRs.",
+        "url": "https://healthuniverse.com/integration/rest-apis"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of engagement in X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

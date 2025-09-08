@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7 standards",
+      "X12 transaction sets",
+      "EHR integration",
+      "Health Information Exchange"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "CareSimple utilizes AWS Lambda for serverless computing to process health data efficiently.",
+        "url": "https://caresimple.com/developer/api-overview"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for secure handling of health information.",
+        "url": "https://caresimple.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "CareSimple incorporates FHIR standards to ensure interoperability with EHR systems.",
+        "url": "https://caresimple.com/docs/fhir-integration"
+      },
+      {
+        "claim": "CareSimple supports various X12 transaction sets for healthcare data exchange.",
+        "url": "https://caresimple.com/docs/x12-edi-guidelines"
+      },
+      {
+        "claim": "The company uses Azure SQL Database for data storage, ensuring high availability and scalability.",
+        "url": "https://caresimple.com/docs/data-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CareSimple's use of X12 transaction sets indicates alignment with API-first health data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim status (276/277)",
+      "Prior authorization (278)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

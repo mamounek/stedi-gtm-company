@@ -1,0 +1,59 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Heroku",
+      "Google Cloud Platform (GCP)",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR (Fast Healthcare Interoperability Resources)",
+      "HL7 V2.5",
+      "X12 837 Professional/Institutional Transaction Sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "True North Custom uses AWS to host their applications and manage their infrastructure.",
+        "url": "https://truenorthcustom.com/about-us/"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring security standards for the handling of health information.",
+        "url": "https://truenorthcustom.com/healthcare-marketing/"
+      },
+      {
+        "claim": "Utilizes Twilio API for communication functionalities within apps.",
+        "url": "https://truenorthcustom.com/services/"
+      },
+      {
+        "claim": "Engages with FHIR protocols for healthcare data interoperability.",
+        "url": "https://truenorthcustom.com/services/healthcare-marketing/"
+      },
+      {
+        "claim": "Employs HL7 standards to ensure compatibility with various health data systems.",
+        "url": "https://truenorthcustom.com/wp-content/uploads/2021/05/Healthcare-Data-Interoperability-True-North-Custom.pdf"
+      },
+      {
+        "claim": "Integration of X12 transaction sets for processing claims and billing data.",
+        "url": "https://truenorthcustom.com/wp-content/uploads/2021/05/Healthcare-Data-Interoperability-True-North-Custom.pdf"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 standards and is involved in healthcare tech, fitting ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Advice",
+      "X12 270/271 Eligibility Inquiry/Response"
+    ]
+  }
+}

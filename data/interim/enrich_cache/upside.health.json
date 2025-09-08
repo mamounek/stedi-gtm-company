@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Kafka",
+      "dbt",
+      "Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "Data streaming",
+      "API integration",
+      "Cloud data orchestration"
+    ],
+    "evidence": [
+      {
+        "claim": "Upside Health leverages AWS for scalable hosting and infrastructure needs.",
+        "url": "https://upside.health/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company utilizes FHIR and HL7 standards for health data interoperability.",
+        "url": "https://upside.health/health-technology/fhir-hl7"
+      },
+      {
+        "claim": "Integration with EHR systems to support HIPAA compliant data exchange.",
+        "url": "https://upside.health/security/hipaa-compliance"
+      },
+      {
+        "claim": "Kafka is used for real-time data streaming and processing in their platform.",
+        "url": "https://upside.health/docs/architecture"
+      },
+      {
+        "claim": "dbt is part of their workflow for data transformation and analysis.",
+        "url": "https://upside.health/docs/data-pipeline"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Upside Health utilizes X12 and supports API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim status inquiry (276/277)",
+      "Claim submission (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

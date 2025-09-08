@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Gateway integration",
+      "Event-driven architecture using AWS SNS",
+      "Cloud Pub/Sub for microservices communication"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless functions that handle healthcare data processing.",
+        "url": "https://gyaan.ai/docs/aws-lambda"
+      },
+      {
+        "claim": "Gyaan implements FHIR standards to ensure compliance in health data exchanges.",
+        "url": "https://gyaan.ai/developer/fhir-implementation"
+      },
+      {
+        "claim": "Integration with HL7 messaging standards is a key feature of Gyaan's platforms.",
+        "url": "https://gyaan.ai/docs/hl7-integration"
+      },
+      {
+        "claim": "Gyaan employs event-driven architecture using AWS SNS for scalability and reliability.",
+        "url": "https://gyaan.ai/blog/event-driven-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or EDI use cases related to healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

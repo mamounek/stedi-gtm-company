@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cloudbreak Health utilizes AWS for its infrastructure.",
+        "url": "https://cloudbreak.health/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA and supports various health data standards including HL7 and FHIR.",
+        "url": "https://cloudbreak.health/security/hipaa-compliance"
+      },
+      {
+        "claim": "Cloudbreak Health mentions integration with EHRs through standards like X12 and HL7.",
+        "url": "https://cloudbreak.health/docs/integration/ehrs"
+      },
+      {
+        "claim": "Developers can access documentation on how to use APIs in the health tech domain including FHIR features.",
+        "url": "https://cloudbreak.health/developer/docs/apis"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare data exchange with strong HIPAA & X12 focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "837 claims submissions",
+      "835 remittance processing"
+    ]
+  }
+}

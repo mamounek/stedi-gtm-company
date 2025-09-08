@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 messaging",
+      "FHIR standard"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Asynchronous messaging",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "PayFi utilizes AWS for cloud infrastructure and services.",
+        "url": "https://payfi.io/docs#cloud-services"
+      },
+      {
+        "claim": "The company's services are HIPAA compliant, facilitating secure health data transactions.",
+        "url": "https://payfi.io/security#hipaa"
+      },
+      {
+        "claim": "PayFi adheres to HL7 standards for health information exchange.",
+        "url": "https://payfi.io/docs#health-standards"
+      },
+      {
+        "claim": "Integration with EHRs is supported, allowing interoperability in health tech.",
+        "url": "https://payfi.io/docs#ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.91
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 EDI use cases or clearinghouse capabilities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

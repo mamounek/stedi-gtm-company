@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "Healthcare data management"
+    ],
+    "evidence": [
+      {
+        "claim": "KoKo PFT utilizes AWS for their cloud infrastructure.",
+        "url": "https://kokopft.com/docs/technology"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards in handling health information.",
+        "url": "https://kokopft.com/security"
+      },
+      {
+        "claim": "Integration of EDI protocols to streamline healthcare billing processes is part of KoKo PFT's service offerings.",
+        "url": "https://kokopft.com/services"
+      },
+      {
+        "claim": "KoKo PFT implements FHIR standards for data interoperability in healthcare solutions.",
+        "url": "https://kokopft.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data management with EDI integration and HIPAA compliance.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI integration for X12 transactions",
+      "Healthcare data management solutions",
+      "Claim submission and remittance processing",
+      "Payer and provider eligibility inquiries"
+    ]
+  }
+}

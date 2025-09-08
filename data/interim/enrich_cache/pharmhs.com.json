@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "EDI X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Pharmacy Healthcare Solutions complies with HIPAA regulations to ensure patient data protection.",
+        "url": "https://www.pharmhs.com/security"
+      },
+      {
+        "claim": "Transactions involving healthcare claims are supported through X12 formats.",
+        "url": "https://www.pharmhs.com/docs/x12"
+      },
+      {
+        "claim": "Integration with Health Information Exchanges using FHIR standards.",
+        "url": "https://www.pharmhs.com/docs/fhir"
+      },
+      {
+        "claim": "Utilization of HL7 protocols for data sharing between EHRs.",
+        "url": "https://www.pharmhs.com/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI X12 transactions as a healthcare solutions provider for payers and providers.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility verification",
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice"
+    ]
+  }
+}

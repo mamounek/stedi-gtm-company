@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "XRV Healthcare utilizes AWS for their cloud infrastructure, ensuring scalability and security for health data processing.",
+        "url": "https://xrvhealthcare.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for data interoperability with EHR systems.",
+        "url": "https://xrvhealthcare.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "XRV implements X12 transaction sets for streamlined healthcare billing and claims processing.",
+        "url": "https://xrvhealthcare.com/docs/x12-edi-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "XRV Healthcare uses X12 formats and focuses on healthcare data exchange integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction support",
+      "Claims processing automation",
+      "Eligibility verification",
+      "Remittance advice automation",
+      "Integration with payers/providers"
+    ]
+  }
+}

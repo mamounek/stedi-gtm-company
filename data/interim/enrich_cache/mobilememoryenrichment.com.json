@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA standards to handle health information.",
+        "url": "https://www.mobilememoryenrichment.com/security"
+      },
+      {
+        "claim": "Mobile Memory Enrichment is involved with FHIR for health data interoperability.",
+        "url": "https://www.mobilememoryenrichment.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.63
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or value API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Secure data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Lifetime Vitality utilizes AWS for serverless functions and data storage.",
+        "url": "https://ltvitality.com/docs/aws-integration"
+      },
+      {
+        "claim": "The organization is committed to ensuring compliance with HIPAA regulations.",
+        "url": "https://ltvitality.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Lifetime Vitality implements HL7 standards for health data interoperability.",
+        "url": "https://ltvitality.com/healthtech/hl7-implementation"
+      },
+      {
+        "claim": "The company employs RESTful API services for application integration.",
+        "url": "https://ltvitality.com/developer/rest-api"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use cases found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

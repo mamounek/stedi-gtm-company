@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "FHIR implementation"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hive Revenue Mastery utilizes HIPAA compliant practices to ensure data security.",
+        "url": "https://hiverevenue.com/security-and-privacy"
+      },
+      {
+        "claim": "The company emphasizes their capability in implementing FHIR standards for healthcare interoperability.",
+        "url": "https://hiverevenue.com/healthcare-solutions"
+      },
+      {
+        "claim": "Hive Revenue Mastery complies with relevant healthcare standards including X12 and EDI for transaction processing.",
+        "url": "https://hiverevenue.com/edi-transaction-processing"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse capabilities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

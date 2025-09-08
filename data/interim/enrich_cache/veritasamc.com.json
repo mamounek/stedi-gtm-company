@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions compliance with HIPAA regulations for managing healthcare data.",
+        "url": "https://veritasamc.com/security/"
+      },
+      {
+        "claim": "Veritas Association Management is involved in X12 transactions for healthcare.",
+        "url": "https://veritasamc.com/health-technology/"
+      },
+      {
+        "claim": "Their services include integration with EHRs and clearinghouses, indicating interoperability capabilities.",
+        "url": "https://veritasamc.com/developer/"
+      },
+      {
+        "claim": "The careers page highlights engineering roles focusing on healthcare integrations and cloud-based solutions.",
+        "url": "https://veritasamc.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of relevant X12 or API-related use cases on public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "MRG Exams adheres to HIPAA regulations for patient data privacy and security.",
+        "url": "https://mrgexams.com/security"
+      },
+      {
+        "claim": "The company has integrations for electronic data interchange (EDI) which can support transaction sets like X12.",
+        "url": "https://mrgexams.com/docs/integrations"
+      },
+      {
+        "claim": "MRG Exams emphasizes the use of secure cloud infrastructure to support their services, likely involving AWS or similar.",
+        "url": "https://mrgexams.com/about"
+      },
+      {
+        "claim": "Candidate data and exam results handling is done in compliance with various health-tech standards.",
+        "url": "https://mrgexams.com/careers/systems-engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or similar use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

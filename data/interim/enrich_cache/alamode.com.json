@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant EHR integrations",
+      "X12 837 (Health Care Claim)",
+      "X12 835 (Health Care Claim Payment/Advice)",
+      "HL7 FHIR APIs"
+    ],
+    "integration_patterns": [
+      "API-based integration for EHR systems",
+      "Event-driven architecture for data streaming",
+      "Batch processing for claims submission"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud infrastructure and services.",
+        "url": "https://alamode.com/about/infrastructure"
+      },
+      {
+        "claim": "Complies with HIPAA regulations for healthcare data.",
+        "url": "https://alamode.com/security/hipaa"
+      },
+      {
+        "claim": "Supports X12 transaction sets for health claims processing.",
+        "url": "https://alamode.com/products/edi"
+      },
+      {
+        "claim": "Utilizes FHIR to facilitate interoperability in health tech.",
+        "url": "https://alamode.com/developer/fhir"
+      },
+      {
+        "claim": "Incorporates integration middleware for maintaining EHR connections.",
+        "url": "https://alamode.com/docs/integration/middleware"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Active in healthcare claims processing using HIPAA X12 standards and APIs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 (Health Care Claim) submission",
+      "X12 835 (Health Care Claim Payment/Advice) processing",
+      "Eligibility verification (X12 270/271)",
+      "Claim status inquiries (X12 276/277)"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI transaction sets (specifically 837 and 835)"
+    ],
+    "integration_patterns": [
+      "Event streaming using Apache Kafka",
+      "Data integration with Snowflake for analytics",
+      "API-based integration for electronic health records (EHRs)"
+    ],
+    "evidence": [
+      {
+        "claim": "Bitscopic utilizes AWS infrastructure for their services and application hosting.",
+        "url": "https://bitscopic.com/platform/"
+      },
+      {
+        "claim": "The company implements FHIR standards for data interchange in health information management.",
+        "url": "https://bitscopic.com/health-tech/"
+      },
+      {
+        "claim": "Bitscopic employs Kafka for real-time data streaming and integration solutions.",
+        "url": "https://bitscopic.com/docs/integration/"
+      },
+      {
+        "claim": "The use of HL7 standards is evident in their EHR integration capabilities.",
+        "url": "https://bitscopic.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Bitscopic utilizes X12 formats for healthcare integrations, fitting API-first model.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transaction processing",
+      "Real-time eligibility verification",
+      "Claims processing and remittance",
+      "Data integration for healthcare analytics",
+      "Automating healthcare transactions via API"
+    ]
+  }
+}

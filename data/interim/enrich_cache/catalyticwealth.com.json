@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "Data Processing",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Catalytic Wealth utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.catalyticwealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in its operations regarding health data.",
+        "url": "https://www.catalyticwealth.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with various EHR systems is a key feature of their platform implications for health-tech.",
+        "url": "https://www.catalyticwealth.com/integration/ehr-systems"
+      },
+      {
+        "claim": "They leverage GCP for data storage and processing purposes.",
+        "url": "https://www.catalyticwealth.com/docs/gcp-features"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data interoperability.",
+        "url": "https://www.catalyticwealth.com/docs/health-tech/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or acting as a clearinghouse found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

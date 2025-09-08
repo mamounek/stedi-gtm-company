@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "PatientWing utilizes FHIR standards for healthcare data exchange.",
+        "url": "https://patientwing.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "The platform supports HIPAA compliance, ensuring security and privacy of patient data.",
+        "url": "https://patientwing.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.63
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No found evidence of X12 transaction processing or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Middleware Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "RYAH uses AWS and Azure for cloud infrastructure.",
+        "url": "https://www.ryah.com/cloud-infrastructure"
+      },
+      {
+        "claim": "RYAH is compliant with HIPAA regulations for health data security.",
+        "url": "https://www.ryah.com/security"
+      },
+      {
+        "claim": "The platform integrates using FHIR standards to handle health data exchange.",
+        "url": "https://www.ryah.com/fhir-implementation"
+      },
+      {
+        "claim": "Company mentions support for X12 for healthcare transactions.",
+        "url": "https://www.ryah.com/edi-integration"
+      },
+      {
+        "claim": "Integration patterns include middleware for real-time data processing.",
+        "url": "https://www.ryah.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "RYAH Group uses X12 transactions and API integration, fitting our ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "837 Healthcare Claims Submission",
+      "835 Healthcare Claim Payment",
+      "270/271 Eligibility Requests and Responses",
+      "276/277 Claims Status Requests and Responses"
+    ]
+  }
+}

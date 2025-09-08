@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS Lambda for serverless computing functionalities.",
+        "url": "https://learnsquared.com"
+      },
+      {
+        "claim": "Stores application data using AWS S3 for scalable storage solutions.",
+        "url": "https://learnsquared.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant healthcare data exchange or X12 use cases found on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

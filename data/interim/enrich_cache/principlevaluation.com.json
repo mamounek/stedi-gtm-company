@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Principle Valuation LLC leverages HIPAA-compliant infrastructure for secure health information management.",
+        "url": "https://principlevaluation.com/security"
+      },
+      {
+        "claim": "The company utilizes cloud services for scalable data processing, though specific providers are not listed.",
+        "url": "https://principlevaluation.com/docs"
+      },
+      {
+        "claim": "Principle Valuation offers solutions tailored for the health-tech industry but does not detail specific health standards like FHIR or HL7.",
+        "url": "https://principlevaluation.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of EDI or X12 transactions found on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

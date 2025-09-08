@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Exchange",
+      "FHIR APIs for Patient Data"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture via AWS SNS",
+      "Data Pipeline with AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "EpiphanyRx utilizes AWS for cloud infrastructure, including Lambda and S3 for scalable functions and storage.",
+        "url": "https://www.epiphanyrx.com/about-us"
+      },
+      {
+        "claim": "The platform offers FHIR APIs that facilitate the exchange of healthcare information and ensure compliance with HIPAA regulations.",
+        "url": "https://www.epiphanyrx.com/developer/docs/fhir"
+      },
+      {
+        "claim": "Integration patterns include event-driven architecture using AWS Simple Notification Service (SNS) for real-time updates.",
+        "url": "https://www.epiphanyrx.com/engineers"
+      },
+      {
+        "claim": "Data processing capabilities involve AWS Glue to create data pipelines for ETL processes.",
+        "url": "https://www.epiphanyrx.com/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific mention of X12 transactions or clearinghouse capabilities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

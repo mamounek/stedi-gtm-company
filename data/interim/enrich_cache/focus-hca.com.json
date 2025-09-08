@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "EDI transactions",
+      "Cloud services integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Focus Homecare utilizes AWS for cloud services.",
+        "url": "https://focus-hca.com/cloud-services"
+      },
+      {
+        "claim": "Company claims adherence to HIPAA regulations.",
+        "url": "https://focus-hca.com/security"
+      },
+      {
+        "claim": "Focus Homecare implements HL7 standards for health data interoperability.",
+        "url": "https://focus-hca.com/health-tech"
+      },
+      {
+        "claim": "Integration with EHR systems via FHIR APIs is mentioned in their technical documentation.",
+        "url": "https://focus-hca.com/platform-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus Homecare engages in EDI transactions for healthcare data exchange, critical for APIs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider network management",
+      "clearinghouse services"
+    ]
+  }
+}

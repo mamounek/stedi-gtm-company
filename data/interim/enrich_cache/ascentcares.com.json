@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "Cloud healthcare integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Ascent Respiratory Care utilizes AWS for cloud services, ensuring scalability and security for health data.",
+        "url": "https://ascentcares.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, indicating the use of secure transactions and data handling in health tech.",
+        "url": "https://ascentcares.com/security"
+      },
+      {
+        "claim": "Ascent integrates healthcare data using FHIR standards, facilitating interoperability with EHRs.",
+        "url": "https://ascentcares.com/health-tech"
+      },
+      {
+        "claim": "The integration patterns include EDI transactions for medical billing and claims processing.",
+        "url": "https://ascentcares.com/edi-process"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Ascent Respiratory Care integrates EDI for claims and eligibility, indicating X12 usage.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI integration for claims processing",
+      "Eligibility verification using X12 standards",
+      "Claims remittance handling",
+      "Payer communications and data exchange"
+    ]
+  }
+}

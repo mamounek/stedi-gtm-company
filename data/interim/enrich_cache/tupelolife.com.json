@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio Messaging API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "TupeloLife utilizes AWS services for cloud infrastructure including Lambda and S3 for data storage and processing.",
+        "url": "https://tupelolife.com/developer"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance as part of its digital therapeutic offerings.",
+        "url": "https://tupelolife.com/security"
+      },
+      {
+        "claim": "TupeloLife's platform supports FHIR standard for healthcare data transactions, facilitating EHR integration.",
+        "url": "https://tupelolife.com/docs"
+      },
+      {
+        "claim": "Evidence of using Twilio for secure messaging between users and healthcare providers.",
+        "url": "https://tupelolife.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction capabilities or relevant use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

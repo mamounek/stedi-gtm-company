@@ -1,0 +1,22 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA standards for security and patient privacy.",
+        "url": "https://yahhomecare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.29
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 or API automation use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

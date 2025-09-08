@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI Transactions",
+      "FHIR API",
+      "HL7 Integration"
+    ],
+    "integration_patterns": [
+      "Real-time messaging through Twilio",
+      "Payment processing with Stripe",
+      "Data storage on AWS RDS"
+    ],
+    "evidence": [
+      {
+        "claim": "OnPoint uses AWS services like Lambda for scalable application deployment.",
+        "url": "https://onpoint-healthcare.com/docs/aws-services"
+      },
+      {
+        "claim": "The company is HIPAA compliant and integrates with health data systems via FHIR and HL7.",
+        "url": "https://onpoint-healthcare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with Twilio API allows for real-time communications in healthcare applications.",
+        "url": "https://onpoint-healthcare.com/docs/twilio-integration"
+      },
+      {
+        "claim": "Supports X12 EDI transactions, which are essential for health insurance claims processing.",
+        "url": "https://onpoint-healthcare.com/docs/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and focuses on API automation in healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status Inquiry",
+      "837/835 Claims Submission and Payment Remittance",
+      "Clearinghouse services for EDI transactions"
+    ]
+  }
+}

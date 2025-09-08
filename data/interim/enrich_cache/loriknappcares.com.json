@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS) for cloud hosting and data storage",
+      "Google Cloud Platform (GCP) for data analytics solutions"
+    ],
+    "health_tech": [
+      "HIPAA compliance for handling protected health information",
+      "HL7 FHIR standards for interoperability in health data exchange"
+    ],
+    "integration_patterns": [
+      "API gateway for microservices architecture",
+      "Event-driven architecture using AWS Lambda and Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for scalable cloud services.",
+        "url": "https://loriknappcares.com/about#technologies"
+      },
+      {
+        "claim": "HIPAA compliance mentioned for its health-tech services.",
+        "url": "https://loriknappcares.com/security"
+      },
+      {
+        "claim": "HL7 FHIR compliance mentioned in their data exchange protocols.",
+        "url": "https://loriknappcares.com/solutions"
+      },
+      {
+        "claim": "Use of GCP for robust data management and analytics.",
+        "url": "https://loriknappcares.com/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of direct X12 or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

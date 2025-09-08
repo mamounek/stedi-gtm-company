@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "EHR integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Southwest Florida Home Care utilizes AWS for cloud infrastructure.",
+        "url": "https://www.southwestfloridahomecare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant and utilizes HL7 standards for health data exchange.",
+        "url": "https://www.southwestfloridahomecare.com/hipaa-compliance"
+      },
+      {
+        "claim": "API integrations are mentioned for linking with healthcare providers.",
+        "url": "https://www.southwestfloridahomecare.com/api-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or relevant healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

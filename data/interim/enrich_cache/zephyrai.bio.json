@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "Middleware for Healthcare APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Zephyr AI utilizes AWS for cloud services and data storage capabilities.",
+        "url": "https://zephyrai.bio/docs/cloud-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data interchange in its solutions.",
+        "url": "https://zephyrai.bio/docs/fhir-implementation"
+      },
+      {
+        "claim": "Zephyr AI supports HL7 messaging protocols essential for EHR integration.",
+        "url": "https://zephyrai.bio/docs/hl7-support"
+      },
+      {
+        "claim": "Specific X12 transaction sets are mentioned for billing and claims processing in the healthcare domain.",
+        "url": "https://zephyrai.bio/docs/x12-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Zephyr AI leverages X12 for healthcare data integration, aligns with API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Processing",
+      "Clearinghouse Services"
+    ]
+  }
+}

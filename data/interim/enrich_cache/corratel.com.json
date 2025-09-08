@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming",
+      "Cloud services integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Corratel utilizes AWS cloud services for its healthcare solutions.",
+        "url": "https://corratel.com/docs/aws-integration"
+      },
+      {
+        "claim": "They adhere to HIPAA standards for data security and patient information management.",
+        "url": "https://corratel.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company integrates with FHIR APIs for efficient healthcare data exchange.",
+        "url": "https://corratel.com/docs/fhir-guidelines"
+      },
+      {
+        "claim": "Corratel uses X12 for electronic data interchange in healthcare transactions.",
+        "url": "https://corratel.com/docs/edi-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Corratel engages in X12 transactions and health data exchange, indicating a strong alignment with our ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility verification",
+      "X12 837 for claim submission",
+      "X12 835 for remittance advice",
+      "Health data exchange via EDI",
+      "Clearinghouse services for payers and providers"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transaction sets",
+      "FHIR APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Products Xchange utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.hpxconnect.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations and integrates health data securely.",
+        "url": "https://www.hpxconnect.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "HPX uses EDI X12 transaction sets for healthcare transactions.",
+        "url": "https://www.hpxconnect.com/docs/edi-x12"
+      },
+      {
+        "claim": "Health Products Xchange implements FHIR standards for interoperability.",
+        "url": "https://www.hpxconnect.com/docs/fhir"
+      },
+      {
+        "claim": "They leverage Azure for their cloud service needs.",
+        "url": "https://www.hpxconnect.com/developer/integration-azure"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare data exchange with relevant X12 transactions; fits target size.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility check (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Clearinghouse services"
+    ]
+  }
+}

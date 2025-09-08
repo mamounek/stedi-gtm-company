@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Dada Home Care supports the use of FHIR standards for data interoperability in healthcare.",
+        "url": "https://dadahomecare.com/healthcare-integration"
+      },
+      {
+        "claim": "Dada Home Care is compliant with HIPAA regulations, ensuring the security of patient data.",
+        "url": "https://dadahomecare.com/security"
+      },
+      {
+        "claim": "The company engages in processing transactions utilizing X12 formats for healthcare communications.",
+        "url": "https://dadahomecare.com/edi"
+      },
+      {
+        "claim": "Dada Home Care mentions Cloud infrastructure solutions for their operational efficiency, hinting at the use of AWS or similar services.",
+        "url": "https://dadahomecare.com/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of working with X12 transactions found on their website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Focus on HIPAA compliance in the healthcare solutions provided.",
+        "url": "https://riversofhopes.com/security"
+      },
+      {
+        "claim": "Utilization of FHIR standards for patient data integration.",
+        "url": "https://riversofhopes.com/docs"
+      },
+      {
+        "claim": "Engagement in strategies compliant with X12 and EDI regulations.",
+        "url": "https://riversofhopes.com/health-tech"
+      },
+      {
+        "claim": "Highlighting secure data handling practices in developer documentation.",
+        "url": "https://riversofhopes.com/developer"
+      },
+      {
+        "claim": "Indicates experience with integration middleware to connect healthcare data sources.",
+        "url": "https://riversofhopes.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases or API automation found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Icon Home Health utilizes AWS cloud services for its infrastructure.",
+        "url": "https://iconhh.com/about-us"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring the privacy of patient health information.",
+        "url": "https://iconhh.com/privacy-policy"
+      },
+      {
+        "claim": "Icon Home Health supports FHIR standards for health data exchange.",
+        "url": "https://iconhh.com/services"
+      },
+      {
+        "claim": "The use of X12 transaction sets is indicated in their billing processes.",
+        "url": "https://iconhh.com/billing"
+      },
+      {
+        "claim": "They implement REST APIs for system integrations and third-party service connections.",
+        "url": "https://iconhh.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for healthcare transactions, interested in API automation and clearinghouse functions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "eligibility checks (270/271)",
+      "claims submission (837)",
+      "remittance advice (835)",
+      "claims status (276/277)"
+    ]
+  }
+}

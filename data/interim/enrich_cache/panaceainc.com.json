@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Panacea utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.panaceainc.com/solutions/cloud-services/"
+      },
+      {
+        "claim": "The company integrates with health data standards including FHIR and HL7.",
+        "url": "https://www.panaceainc.com/solutions/interoperability/"
+      },
+      {
+        "claim": "Panacea is involved in handling X12 transactions which are essential for health insurance billing.",
+        "url": "https://www.panaceainc.com/services/edi-solutions/"
+      },
+      {
+        "claim": "Panacea Healthcare employs Azure for scalable healthcare solutions.",
+        "url": "https://www.panaceainc.com/technology/"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Panacea Healthcare Solutions uses X12 EDI for healthcare data exchange, aligning with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 270/271",
+      "X12 276/277",
+      "X12 837/835",
+      "clearinghouse services",
+      "eligibility verification",
+      "claims processing"
+    ]
+  }
+}

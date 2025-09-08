@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "ManageMy uses AWS for cloud infrastructure.",
+        "url": "https://managemy.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "ManageMy is HIPAA compliant for handling health data.",
+        "url": "https://managemy.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Utilizes HL7 standards for health data exchange.",
+        "url": "https://managemy.com/developer/hl7-integration"
+      },
+      {
+        "claim": "ManageMy offers REST APIs for healthcare integrations.",
+        "url": "https://managemy.com/docs/rest-api"
+      },
+      {
+        "claim": "Integration patterns include webhook integrations for real-time data.",
+        "url": "https://managemy.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 or API-based transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

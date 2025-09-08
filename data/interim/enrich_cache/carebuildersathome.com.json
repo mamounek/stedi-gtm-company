@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CareBuilders at Home utilizes HIPAA-compliant telehealth solutions for patient care.",
+        "url": "https://www.carebuildersathome.com/telehealth"
+      },
+      {
+        "claim": "The company emphasizes adherence to HIPAA regulations in its documentation and services.",
+        "url": "https://www.carebuildersathome.com/about-us/faq"
+      },
+      {
+        "claim": "CareBuilders at Home employs electronic health record (EHR) systems to manage patient data securely.",
+        "url": "https://www.carebuildersathome.com/services/health-services"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or API automation in their services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

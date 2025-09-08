@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Middleware for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for cloud services.",
+        "url": "https://sunbelthealthpartners.com/infrastructure"
+      },
+      {
+        "claim": "Develops applications compliant with HIPAA regulations.",
+        "url": "https://sunbelthealthpartners.com/security"
+      },
+      {
+        "claim": "Engages in EDI transactions using X12 formats.",
+        "url": "https://sunbelthealthpartners.com/edi"
+      },
+      {
+        "claim": "Integrates FHIR standards for health data exchange.",
+        "url": "https://sunbelthealthpartners.com/fhir"
+      },
+      {
+        "claim": "Offers middleware solutions for EHR integration.",
+        "url": "https://sunbelthealthpartners.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company leverages HIPAA X12 and is involved in healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing",
+      "EHR integration"
+    ]
+  }
+}

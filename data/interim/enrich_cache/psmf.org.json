@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Patient Safety Movement Foundation adheres to HIPAA regulations.",
+        "url": "https://psmf.org/what-is-psmf/mission-and-vision/"
+      },
+      {
+        "claim": "The organization discusses the importance of HL7 standards for patient safety data exchange.",
+        "url": "https://psmf.org/wp-content/uploads/2021/04/PSMF-Data-Safety-Guide.pdf"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus is on patient safety, not healthcare data exchange or X12 transactions.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

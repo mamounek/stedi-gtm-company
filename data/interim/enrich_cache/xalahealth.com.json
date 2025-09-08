@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "MongoDB Atlas"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API"
+    ],
+    "evidence": [
+      {
+        "claim": "Xala Health utilizes AWS for hosting and backend infrastructure.",
+        "url": "https://xalahealth.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations.",
+        "url": "https://xalahealth.com/security"
+      },
+      {
+        "claim": "Xala Health uses FHIR standards for interoperability with EHRs.",
+        "url": "https://xalahealth.com/developer/fhir-integration"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for data interchange.",
+        "url": "https://xalahealth.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 or clearinghouse integration found on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

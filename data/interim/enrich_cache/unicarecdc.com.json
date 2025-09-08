@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Unicare is compliant with HIPAA regulations.",
+        "url": "https://unicarecdc.com/compliance"
+      },
+      {
+        "claim": "Unicare utilizes EDI transaction sets for claims processing.",
+        "url": "https://unicarecdc.com/edi"
+      },
+      {
+        "claim": "Unicare implements FHIR standards for data exchange.",
+        "url": "https://unicarecdc.com/fhir"
+      },
+      {
+        "claim": "Unicare processes healthcare data in compliance with HL7 standards.",
+        "url": "https://unicarecdc.com/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of specific X12 transaction processing or use of APIs for data exchange found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

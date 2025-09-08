@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Fairfax Software engages with HIPAA compliance in its solutions.",
+        "url": "https://www.fairfaxsoftware.com/security-compliance"
+      },
+      {
+        "claim": "The company has resources detailing their adherence to EDI X12 standards for healthcare transactions.",
+        "url": "https://www.fairfaxsoftware.com/edi-implementation"
+      },
+      {
+        "claim": "Fairfax Software utilizes FHIR standards in their health tech solutions.",
+        "url": "https://www.fairfaxsoftware.com/fhir-standards"
+      },
+      {
+        "claim": "They provide case studies about the integration of their platforms with various health systems.",
+        "url": "https://www.fairfaxsoftware.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health tech with focus on X12 and integration, aligning with API automation needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice integration"
+    ]
+  }
+}

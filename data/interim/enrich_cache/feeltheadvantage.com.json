@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure Blob Storage",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliant data transfers",
+      "HL7 FHIR API integrations",
+      "X12 EDI transactions (270/271)",
+      "EHR interoperability via HL7 standards"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture using AWS SNS",
+      "Data ingestion pipelines with Apache Kafka",
+      "Asynchronous processing with AWS SQS",
+      "Microservices architecture for healthcare applications"
+    ],
+    "evidence": [
+      {
+        "claim": "Advantage utilizes AWS Lambda for serverless computing in healthcare applications.",
+        "url": "https://feeltheadvantage.com/developer/aws-lambda"
+      },
+      {
+        "claim": "The company integrates with EHRs using HL7 FHIR standards for data exchange.",
+        "url": "https://feeltheadvantage.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Advantage supports HIPAA compliance for all healthcare-related transactions.",
+        "url": "https://feeltheadvantage.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "X12 EDI transactions, such as the 270/271 for eligibility, are handled by Advantage's platform.",
+        "url": "https://feeltheadvantage.com/docs/edi-x12"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI transactions for healthcare interoperability.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions (270/271)",
+      "EHR interoperability via HL7 standards",
+      "Healthcare API automation",
+      "Claims management and remittance processing"
+    ]
+  }
+}

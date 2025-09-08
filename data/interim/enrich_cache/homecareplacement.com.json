@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Care Placement utilizes AWS for cloud infrastructure.",
+        "url": "https://homecareplacement.com/about"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in its operations.",
+        "url": "https://homecareplacement.com/security"
+      },
+      {
+        "claim": "They integrate with EHRs for patient data management.",
+        "url": "https://homecareplacement.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.59
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

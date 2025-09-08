@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Kafka",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliant practices"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Focused.io uses AWS for cloud infrastructure to support scalability and data storage.",
+        "url": "https://focused.io/docs/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or clearinghouse use cases on their platform.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Integration",
+      "FHIR Interfaces"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook Integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "InfuCare Rx utilizes AWS for their cloud services, offering scalability and performance.",
+        "url": "https://infucarerx.com/cloud-services"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance to protect patient health information in their systems.",
+        "url": "https://infucarerx.com/hipaa-compliance"
+      },
+      {
+        "claim": "InfuCare Rx implements HL7 standards for healthcare data exchange, ensuring interoperability with EHRs.",
+        "url": "https://infucarerx.com/hc-integration"
+      },
+      {
+        "claim": "The use of REST APIs allows seamless integration with healthcare systems and EHRs.",
+        "url": "https://infucarerx.com/developers/api"
+      },
+      {
+        "claim": "They have a structured approach to data integration using event-driven architecture.",
+        "url": "https://infucarerx.com/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "InfuCare Rx focuses on patient care and billing, indicating use of X12 transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests and Responses",
+      "837 Claims Submissions",
+      "835 Remittance Advice",
+      "Clearinghouse Operations"
+    ]
+  }
+}

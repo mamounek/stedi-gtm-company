@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Uni Care 24/7 is HIPAA compliant, indicating they handle sensitive healthcare information securely.",
+        "url": "https://unicare247.com/healthcare-overview"
+      },
+      {
+        "claim": "The company mentions use of X12 for electronic data interchange in healthcare transactions.",
+        "url": "https://unicare247.com/edi-solutions"
+      },
+      {
+        "claim": "Uni Care 24/7 provides interoperability solutions using FHIR standards for healthcare data.",
+        "url": "https://unicare247.com/fhir-standards"
+      },
+      {
+        "claim": "The site discusses their platform's compliance with healthcare regulations, ensuring HIPAA adherence for data protection.",
+        "url": "https://unicare247.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company deals with healthcare data and utilizes X12 for transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "276/277 claim status inquiries",
+      "278 authorization requests",
+      "837 healthcare claims submission",
+      "835 remittance advice processing"
+    ]
+  }
+}

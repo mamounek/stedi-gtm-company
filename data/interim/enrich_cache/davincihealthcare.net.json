@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12",
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "DaVinci Healthcare mentions the use of FHIR standards for interoperability in their healthcare solutions.",
+        "url": "https://davincihealthcare.net/fhir-standards/"
+      },
+      {
+        "claim": "Documentation indicates compliance with HIPAA regulations for data security.",
+        "url": "https://davincihealthcare.net/hipaa-compliance/"
+      },
+      {
+        "claim": "X12 transaction sets are referenced for electronic health transactions.",
+        "url": "https://davincihealthcare.net/x12-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or API automation on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

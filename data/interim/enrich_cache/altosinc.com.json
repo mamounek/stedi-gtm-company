@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "X12 837",
+      "FHIR R4",
+      "HL7 v2.5"
+    ],
+    "integration_patterns": [
+      "API Gateway for microservices",
+      "Event-driven architecture using AWS SNS",
+      "Data synchronization between EHRs using FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "Altos utilizes AWS for hosting and serverless computing.",
+        "url": "https://altosinc.com/docs/cloud"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations on their security page.",
+        "url": "https://altosinc.com/security"
+      },
+      {
+        "claim": "Altos integrates with EHR systems using FHIR standards in their health-tech solutions.",
+        "url": "https://altosinc.com/developer/healthtech"
+      },
+      {
+        "claim": "The integration of X12 transaction sets like 837 is highlighted in their case studies.",
+        "url": "https://altosinc.com/case-studies/edi"
+      },
+      {
+        "claim": "Descriptions of using managed services like Azure Functions indicate cloud-native application development.",
+        "url": "https://altosinc.com/platforms/connect"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards for healthcare data exchange, aligns with API automation needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice",
+      "270/271 for eligibility verification"
+    ]
+  }
+}

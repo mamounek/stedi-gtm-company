@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12 270",
+      "X12 271",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Message queuing"
+    ],
+    "evidence": [
+      {
+        "claim": "Serengeti Care utilizes AWS services for cloud infrastructure.",
+        "url": "https://serengeticare.com/about/technology/"
+      },
+      {
+        "claim": "The platform includes compliance with HIPAA regulations.",
+        "url": "https://serengeticare.com/security/"
+      },
+      {
+        "claim": "Integration with EHR systems using FHIR and HL7 standards.",
+        "url": "https://serengeticare.com/integrations/"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards, focusing on health data exchange with APIs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (X12 270/271)",
+      "Claims submission (X12 837)",
+      "Remittance processing (X12 835)"
+    ]
+  }
+}

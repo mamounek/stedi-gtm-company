@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliant Practices"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company focuses on HIPAA compliance for its health tech solutions, ensuring security and privacy for patient information.",
+        "url": "https://homecareceo.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns maintain alignment with industry standards for electronic health data handling, including FHIR and HL7 under HIPAA guidelines.",
+        "url": "https://homecareceo.com/integration-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found related to X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

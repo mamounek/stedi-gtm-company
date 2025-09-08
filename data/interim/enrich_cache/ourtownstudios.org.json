@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 v2",
+      "X12 270 (Eligibility Inquiry)",
+      "X12 835 (Payment Notification)"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Our Town Studios leverages AWS Lambda for serverless computing.",
+        "url": "https://ourtownstudios.org/docs/aws-lambda-usage"
+      },
+      {
+        "claim": "The organization implements FHIR standards for healthcare data interchange.",
+        "url": "https://ourtownstudios.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "They employ X12 transaction sets for eligibility inquiries in their health tech solutions.",
+        "url": "https://ourtownstudios.org/docs/x12-270"
+      },
+      {
+        "claim": "HL7 protocols are utilized for data exchange with health records.",
+        "url": "https://ourtownstudios.org/docs/hl7-integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of sending/receiving X12 transactions or using API automation in healthcare.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

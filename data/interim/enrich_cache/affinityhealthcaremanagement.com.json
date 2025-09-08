@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "HL7 integration",
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Affinity Care of Maine utilizes FHIR for interoperability in its health technology solutions.",
+        "url": "https://affinityhealthcaremanagement.com/tech"
+      }
+    ],
+    "tech_stack_confidence": 0.34
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 transaction usage or API automation in public resources.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submissions (837)",
+      "Claims status inquiries (276/277)"
+    ]
+  }
+}

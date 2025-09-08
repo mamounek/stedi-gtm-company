@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "PIDC Construction does not explicitly mention technical APIs or cloud services on their website.",
+        "url": "https://pidc-construction.com"
+      },
+      {
+        "claim": "No health tech standards or frameworks like HIPAA, FHIR, or HL7 are referenced on company pages.",
+        "url": "https://pidc-construction.com"
+      },
+      {
+        "claim": "The site lacks information on integration patterns involving EDI, clearinghouses, or similar technologies.",
+        "url": "https://pidc-construction.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of healthcare data exchange or X12 use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

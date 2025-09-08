@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Integration",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "Data streaming via Kafka",
+      "Cloud integration on AWS"
+    ],
+    "evidence": [
+      {
+        "claim": "Hospitals International utilizes HL7 and FHIR standards for interoperability.",
+        "url": "https://hospintl.com/fhir-implementation"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in their data management processes.",
+        "url": "https://hospintl.com/security"
+      },
+      {
+        "claim": "The company leverages AWS for cloud infrastructure.",
+        "url": "https://hospintl.com/docs/aws-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases related to healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

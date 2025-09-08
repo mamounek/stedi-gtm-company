@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Quantgene utilizes AWS for its cloud infrastructure.",
+        "url": "https://quantgene.com/docs"
+      },
+      {
+        "claim": "The platform supports FHIR for health data exchange.",
+        "url": "https://quantgene.com/developer"
+      },
+      {
+        "claim": "Quantgene adheres to HIPAA regulations for its data handling.",
+        "url": "https://quantgene.com/security"
+      },
+      {
+        "claim": "The integration architecture includes REST APIs for seamless data interactions.",
+        "url": "https://quantgene.com/platform"
+      },
+      {
+        "claim": "Quantgene leverages Snowflake for data warehousing solutions.",
+        "url": "https://quantgene.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on the company site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

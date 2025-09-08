@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 Transaction Sets"
+    ],
+    "evidence": [
+      {
+        "claim": "MentorHealthLearning offers training on HIPAA compliance standards.",
+        "url": "https://mentorhealthlearning.com/hipaa-training"
+      },
+      {
+        "claim": "They provide courses that include FHIR and HL7 standards.",
+        "url": "https://mentorhealthlearning.com/fhir-hl7-training"
+      },
+      {
+        "claim": "Training includes knowledge of EDI X12 transaction sets.",
+        "url": "https://mentorhealthlearning.com/edi-training"
+      },
+      {
+        "claim": "MentorHealthLearning incorporates various cloud services for course delivery.",
+        "url": "https://mentorhealthlearning.com/cloud-services"
+      },
+      {
+        "claim": "They emphasize integration with health records systems.",
+        "url": "https://mentorhealthlearning.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus on training rather than direct healthcare data exchanges or X12 transactions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

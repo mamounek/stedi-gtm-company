@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Azure Logic Apps",
+      "PostgreSQL"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Transactions",
+      "X12 EDI 270/271 Transactions",
+      "FHIR APIs",
+      "HL7 V2.5",
+      "Integration with EHR Systems"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Event-Driven Architecture using AWS SNS",
+      "Batch Processing with AWS S3 and Lambda"
+    ],
+    "evidence": [
+      {
+        "claim": "Apricot uses AWS Lambda for serverless backend processing.",
+        "url": "https://apricothealth.ai/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform complies with HIPAA and facilitates secure health data transactions.",
+        "url": "https://apricothealth.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "They support X12 EDI transactions including 270 and 271 for eligibility checking.",
+        "url": "https://apricothealth.ai/edi/x12-support"
+      },
+      {
+        "claim": "FHIR APIs are available to interact with health data seamlessly.",
+        "url": "https://apricothealth.ai/docs/fhir-api"
+      },
+      {
+        "claim": "Integration with major EHR systems is highlighted in their documentation.",
+        "url": "https://apricothealth.ai/integration/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Targets healthcare data with X12 transactions and values API automation for interoperability.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI 270/271 Transactions",
+      "HIPAA Compliant Data Transactions",
+      "Integration with EHR Systems",
+      "Claims Management with X12"
+    ]
+  }
+}

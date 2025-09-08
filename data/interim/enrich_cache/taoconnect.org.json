@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "TAO by UpLift utilizes AWS services for cloud infrastructure which includes AWS Lambda and Amazon RDS for data management.",
+        "url": "https://taoconnect.org/developer"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance, ensuring the platform meets health information security standards.",
+        "url": "https://taoconnect.org/security"
+      },
+      {
+        "claim": "TAO by UpLift integrates with healthcare systems using HL7 and FHIR standards for data interoperability.",
+        "url": "https://taoconnect.org/docs"
+      },
+      {
+        "claim": "Their platform is designed to support healthcare transaction sets compliant with X12 standards.",
+        "url": "https://taoconnect.org/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or EDI integration for healthcare data exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Platform (GCP)",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 835",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event-Driven Architecture",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS services for cloud infrastructure, including Lambda and EC2.",
+        "url": "https://ac3health.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Integration with EHRs via HL7 and FHIR protocols.",
+        "url": "https://ac3health.com/docs/integration"
+      },
+      {
+        "claim": "Supports X12 transaction sets for healthcare billing.",
+        "url": "https://ac3health.com/docs/edi"
+      },
+      {
+        "claim": "Event-driven architecture utilizing AWS SQS for message queuing.",
+        "url": "https://ac3health.com/docs/architecture"
+      },
+      {
+        "claim": "Implementation of microservices for modular application development.",
+        "url": "https://ac3health.com/docs/microservices"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EHR integration and X12 transactions indicates alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 for claims submission",
+      "X12 835 for remittance processing",
+      "X12 270/271 for eligibility verification",
+      "EHR integration with payers and providers"
+    ]
+  }
+}

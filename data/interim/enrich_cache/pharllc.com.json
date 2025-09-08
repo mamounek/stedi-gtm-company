@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "MongoDB Atlas",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming with Kafka",
+      "ETL workflows with Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "PHAR utilizes AWS services for its cloud infrastructure which supports various health analytic solutions.",
+        "url": "https://pharllc.com/#services"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in its data management practices for health analytics.",
+        "url": "https://pharllc.com/security"
+      },
+      {
+        "claim": "PHAR implements integration patterns using data streaming technologies like Kafka for real-time data processing.",
+        "url": "https://pharllc.com/docs/integration"
+      },
+      {
+        "claim": "Their solutions support healthcare data standards including HL7 and FHIR for interoperability.",
+        "url": "https://pharllc.com/docs/health-analytics"
+      },
+      {
+        "claim": "Company mentions data security and compliance adhering to EDI X12 standards for healthcare transactions.",
+        "url": "https://pharllc.com/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Matches healthcare data exchange criteria and uses HIPAA X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Claims status inquiries (276/277)",
+      "Remittance processing (835)"
+    ]
+  }
+}

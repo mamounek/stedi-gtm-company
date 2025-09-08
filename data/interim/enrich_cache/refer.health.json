@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Refer.Health utilizes AWS services for its infrastructure.",
+        "url": "https://refer.health/docs/infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR for healthcare data exchange.",
+        "url": "https://refer.health/developer/fhir-support"
+      },
+      {
+        "claim": "Refer.Health complies with HIPAA regulations for data security.",
+        "url": "https://refer.health/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration via RESTful APIs for external systems is detailed in their API documentation.",
+        "url": "https://refer.health/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for X12 transactions; focus is on FHIR and HL7.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

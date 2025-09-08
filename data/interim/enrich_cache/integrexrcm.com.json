@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Microsoft Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI Transactions",
+      "FHIR Standards",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming",
+      "Cloud Data Warehouse"
+    ],
+    "evidence": [
+      {
+        "claim": "Integrex RCM utilizes AWS for cloud services and infrastructure.",
+        "url": "https://integrexrcm.com/technology/#cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for data protection.",
+        "url": "https://integrexrcm.com/security/#hipaa"
+      },
+      {
+        "claim": "Integrex RCM implements X12 transaction sets for healthcare billing.",
+        "url": "https://integrexrcm.com/services/#edi"
+      },
+      {
+        "claim": "FHIR and HL7 standards are mentioned as part of their interoperability approach.",
+        "url": "https://integrexrcm.com/services/#interoperability"
+      },
+      {
+        "claim": "Their technology stack includes Microsoft Azure for scalable solutions.",
+        "url": "https://www.integrexrcm.com/technology/#azure"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions for healthcare revenue cycle management makes them ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status",
+      "837 Professional Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

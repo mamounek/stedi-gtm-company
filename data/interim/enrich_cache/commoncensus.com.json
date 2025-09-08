@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Common Census utilizes AWS for its cloud infrastructure.",
+        "url": "https://commoncensus.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is designed to be HIPAA compliant, ensuring the safety of health data.",
+        "url": "https://commoncensus.com/security"
+      },
+      {
+        "claim": "Common Census integrates with EHR systems through RESTful APIs, supporting HL7 and FHIR standards.",
+        "url": "https://commoncensus.com/developer"
+      },
+      {
+        "claim": "Utilizes PostgreSQL and Redis for data management and caching mechanisms.",
+        "url": "https://commoncensus.com/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of working with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

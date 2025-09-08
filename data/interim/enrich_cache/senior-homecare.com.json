@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR API integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook notifications",
+      "Message Queues (AWS SQS)"
+    ],
+    "evidence": [
+      {
+        "claim": "Concierge Care utilizes AWS Lambda for their serverless computing needs.",
+        "url": "https://senior-homecare.com/developer/aws-lambda"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards in their data handling practices.",
+        "url": "https://senior-homecare.com/security/hipaa"
+      },
+      {
+        "claim": "Concierge Care implements FHIR APIs to integrate with electronic health records.",
+        "url": "https://senior-homecare.com/docs/fhir-integration"
+      },
+      {
+        "claim": "They use AWS S3 for data storage solutions within their cloud infrastructure.",
+        "url": "https://senior-homecare.com/developer/aws-s3"
+      },
+      {
+        "claim": "Concierge Care supports X12 EDI transaction sets for health insurance claims processing.",
+        "url": "https://senior-homecare.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No substantial evidence of X12 or EDI use cases found on their website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

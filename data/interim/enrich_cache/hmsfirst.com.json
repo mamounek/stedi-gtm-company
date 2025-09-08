@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "HL7 FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queuing"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud infrastructure.",
+        "url": "https://hmsfirst.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "HiMS supports HIPAA compliance for its health-tech solutions.",
+        "url": "https://hmsfirst.com/security/hipaa"
+      },
+      {
+        "claim": "Their API documentation mentions RESTful support for EDI transactions.",
+        "url": "https://hmsfirst.com/docs/api"
+      },
+      {
+        "claim": "HiMS integrates with HL7 FHIR for health data exchange.",
+        "url": "https://hmsfirst.com/docs/health-integration"
+      },
+      {
+        "claim": "The platform leverages AWS RDS for database management.",
+        "url": "https://hmsfirst.com/docs/aws-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "HiMS focuses on X12 EDI transactions and healthcare APIs, indicating a strong fit as an ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice processing"
+    ]
+  }
+}

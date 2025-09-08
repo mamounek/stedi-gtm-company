@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HL7 Standards",
+      "X12 EDI Transactions",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "Real-time Data Streaming",
+      "API Gateway Management",
+      "Message Queuing with Pub/Sub",
+      "Data Warehousing on Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "Exo leverages AWS Lambda for serverless computing capabilities.",
+        "url": "https://exo.inc/docs/cloud-architecture"
+      },
+      {
+        "claim": "The company implements FHIR standards for their health data interoperability.",
+        "url": "https://exo.inc/healthtech/standards"
+      },
+      {
+        "claim": "Exo integrates with various EHR systems via HL7 compliant APIs.",
+        "url": "https://exo.inc/developer/integration"
+      },
+      {
+        "claim": "AWS DynamoDB is used for reliable NoSQL database services.",
+        "url": "https://exo.inc/docs/architecture"
+      },
+      {
+        "claim": "Exo utilizes Google Cloud Pub/Sub for scalable messaging and streaming data.",
+        "url": "https://exo.inc/docs/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Use of X12 transactions and focus on healthcare integrations indicate high relevance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice handling",
+      "Real-time data exchange",
+      "Payer-provider connectivity"
+    ]
+  }
+}

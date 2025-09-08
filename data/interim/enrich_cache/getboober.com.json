@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 messaging"
+    ],
+    "integration_patterns": [
+      "RESTful API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Boober utilizes AWS Lambda for serverless functions",
+        "url": "https://getboober.com/docs/aws-integration"
+      },
+      {
+        "claim": "Boober is HIPAA compliant, ensuring secure handling of health data",
+        "url": "https://getboober.com/security/hipaa"
+      },
+      {
+        "claim": "The company has implemented HL7 messaging protocols for health data exchanges",
+        "url": "https://getboober.com/docs/health-data-exchange"
+      },
+      {
+        "claim": "Integration with various EHR systems is supported via RESTful APIs",
+        "url": "https://getboober.com/developer/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or clearinghouse capabilities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

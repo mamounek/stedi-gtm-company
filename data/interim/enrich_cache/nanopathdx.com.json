@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL"
+    ],
+    "evidence": [
+      {
+        "claim": "Nanopath utilizes AWS for cloud services and storage solutions.",
+        "url": "https://www.nanopathdx.com/platform"
+      },
+      {
+        "claim": "The platform is designed to support FHIR standards for interoperability in health data.",
+        "url": "https://www.nanopathdx.com/developer"
+      },
+      {
+        "claim": "Nanopath complies with HIPAA regulations for handling patient information securely.",
+        "url": "https://www.nanopathdx.com/security"
+      },
+      {
+        "claim": "Integration with EHRs is part of their service offering.",
+        "url": "https://www.nanopathdx.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases found related to X12 or clearinghouse functionalities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

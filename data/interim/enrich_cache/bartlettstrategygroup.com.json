@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Protocol"
+    ],
+    "integration_patterns": [
+      "FHIR Integration",
+      "EDI X12 Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Bartlett Strategy Group utilizes AWS for cloud services.",
+        "url": "https://bartlettstrategygroup.com/cloud-services"
+      },
+      {
+        "claim": "They adhere to HIPAA regulations for data handling.",
+        "url": "https://bartlettstrategygroup.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration capabilities include FHIR for healthcare data exchange.",
+        "url": "https://bartlettstrategygroup.com/integration-solutions"
+      },
+      {
+        "claim": "The company uses Azure for scalable data management solutions.",
+        "url": "https://bartlettstrategygroup.com/azure-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company works with EDI X12 transactions and health tech aligning with API-driven exchanges.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "276/277 Claims Status",
+      "278 Authorization Requests",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

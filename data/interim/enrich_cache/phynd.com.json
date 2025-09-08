@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3",
+      "Amazon API Gateway"
+    ],
+    "health_tech": [
+      "FHIR (Fast Healthcare Interoperability Resources)",
+      "X12 EDI Transactions",
+      "HL7 Standards",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Event-Driven Architecture using AWS SNS",
+      "Data Pipeline on AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "Phynd integrates with FHIR for healthcare data interoperability.",
+        "url": "https://www.phynd.com/fhir-guidelines"
+      },
+      {
+        "claim": "Phynd's use of X12 EDI transaction sets for healthcare claims processing is highlighted in their API documentation.",
+        "url": "https://www.phynd.com/docs/edi"
+      },
+      {
+        "claim": "The platform utilizes AWS services like Lambda and S3 to scale their infrastructure.",
+        "url": "https://www.phynd.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Phynd is HIPAA-compliant and leverages health-tech standards like HL7.",
+        "url": "https://www.phynd.com/security-privacy"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Phynd Technologies utilizes X12 transactions in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status",
+      "278 Authorization Requests",
+      "837 Claim Submissions",
+      "835 Remittance Advice",
+      "Clearinghouse Services"
+    ]
+  }
+}

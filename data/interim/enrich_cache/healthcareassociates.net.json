@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure cloud services",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integrations",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Care Associates utilizes AWS for reliable cloud infrastructure.",
+        "url": "https://healthcareassociates.net/about-us/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA guidelines to protect patient information.",
+        "url": "https://healthcareassociates.net/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems through FHIR standards is highlighted on their technology page.",
+        "url": "https://healthcareassociates.net/docs/technology/EHR-integration"
+      },
+      {
+        "claim": "Uses Azure for data storage and security services in health-tech applications.",
+        "url": "https://healthcareassociates.net/services/azure-for-healthcare"
+      },
+      {
+        "claim": "Emphasis on real-time data processing demonstrates use of integration patterns like ETL.",
+        "url": "https://healthcareassociates.net/tech/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

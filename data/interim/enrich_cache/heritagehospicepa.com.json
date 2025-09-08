@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific APIs or cloud services mentioned on the company's site.",
+        "url": "https://heritagehospicepa.com"
+      },
+      {
+        "claim": "No health-tech rails like HIPAA compliance or EHRs explicitly noted on the site.",
+        "url": "https://heritagehospicepa.com"
+      },
+      {
+        "claim": "Company does not provide technical documentation or developer resources online.",
+        "url": "https://heritagehospicepa.com"
+      }
+    ],
+    "tech_stack_confidence": 0.17
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating use of X12 or clearinghouse services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

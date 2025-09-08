@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Liken Home Care mentions the use of FHIR standards for health data exchange.",
+        "url": "https://likenhomecare.com/services"
+      },
+      {
+        "claim": "They utilize HL7 protocols to ensure seamless interoperability among health systems.",
+        "url": "https://likenhomecare.com/technology"
+      },
+      {
+        "claim": "The company highlights compliance with HIPAA regulations concerning patient data handling.",
+        "url": "https://likenhomecare.com/security"
+      },
+      {
+        "claim": "Their technology infrastructure supports integration with EHR systems through standard transaction sets.",
+        "url": "https://likenhomecare.com/partners"
+      },
+      {
+        "claim": "They provide information regarding secure data sharing practices for health information.",
+        "url": "https://likenhomecare.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or using APIs for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

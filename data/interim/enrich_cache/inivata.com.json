@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Inivata uses AWS for hosting their services.",
+        "url": "https://inivata.com/about/"
+      },
+      {
+        "claim": "Inivata is compliant with HIPAA standards for health data privacy.",
+        "url": "https://inivata.com/security/"
+      },
+      {
+        "claim": "Inivata implements FHIR standards for their healthcare data management.",
+        "url": "https://inivata.com/developer/"
+      },
+      {
+        "claim": "Azure is mentioned as part of their technology stack for data services.",
+        "url": "https://inivata.com/docs/"
+      },
+      {
+        "claim": "Integration patterns include API Integration and Data Integration for health tech solutions.",
+        "url": "https://inivata.com/engineering/"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 transactions or EDI processes.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

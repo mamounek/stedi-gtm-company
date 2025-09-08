@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TrueMedIT uses AWS for cloud infrastructure.",
+        "url": "https://truemedit.com/cloud-services"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for health data security.",
+        "url": "https://truemedit.com/security"
+      },
+      {
+        "claim": "TrueMedIT implements FHIR standards for healthcare data exchange.",
+        "url": "https://truemedit.com/health-tech"
+      },
+      {
+        "claim": "Supports X12 transaction sets for medical billing.",
+        "url": "https://truemedit.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "TrueMedIT integrates HIPAA X12 transactions, indicating alignment with API-first healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance advice",
+      "provider communication",
+      "payer transactions"
+    ]
+  }
+}

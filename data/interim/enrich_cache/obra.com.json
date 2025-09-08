@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "API Gateway for service integration",
+      "Event-driven architecture using Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Obra Capital utilizes AWS for cloud infrastructure.",
+        "url": "https://obra.com/developer"
+      },
+      {
+        "claim": "The company is HIPAA compliant, indicating they handle health data with appropriate security measures.",
+        "url": "https://obra.com/security"
+      },
+      {
+        "claim": "They mention HL7 standards for health data exchange.",
+        "url": "https://obra.com/docs"
+      },
+      {
+        "claim": "Obra Capital employs Kafka for integrating real-time data streams.",
+        "url": "https://obra.com/integration"
+      },
+      {
+        "claim": "The company indicates use of Google Cloud for data management solutions.",
+        "url": "https://obra.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement in X12 transactions or healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

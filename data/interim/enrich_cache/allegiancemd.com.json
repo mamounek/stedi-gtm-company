@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "X12 Transaction Sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Cloud-based infrastructure solutions",
+      "Data streaming integration with healthcare apps"
+    ],
+    "evidence": [
+      {
+        "claim": "AllegianceMD utilizes AWS for cloud infrastructure.",
+        "url": "https://www.allegiancemd.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The platform is HIPAA compliant ensuring the security of health data.",
+        "url": "https://www.allegiancemd.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with Twilio for secure communication services.",
+        "url": "https://www.allegiancemd.com/api/twilio-integration"
+      },
+      {
+        "claim": "Supports HL7 and FHIR standards for health data exchange.",
+        "url": "https://www.allegiancemd.com/docs/health-data-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "AllegianceMD integrates with X12 transactions and emphasizes API solutions for healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Integration with EHR systems using X12",
+      "Real-time eligibility checks (270/271)",
+      "Claims submission and remittance (837/835)"
+    ]
+  }
+}

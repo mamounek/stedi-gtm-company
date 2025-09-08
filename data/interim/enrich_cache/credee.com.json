@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Kafka",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 835",
+      "X12 270",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API-based integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Credee utilizes AWS for cloud infrastructure management.",
+        "url": "https://credee.com/documentation/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform offers FHIR-compliant APIs for healthcare data exchange.",
+        "url": "https://credee.com/docs/fhir-api"
+      },
+      {
+        "claim": "Integration with EHRs using HL7 standards is supported.",
+        "url": "https://credee.com/docs/hl7-integration"
+      },
+      {
+        "claim": "Credee engages in HIPAA-compliant data transactions.",
+        "url": "https://credee.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The architecture is designed with event-driven patterns using Kafka.",
+        "url": "https://credee.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Credee works with X12 standards and APIs for healthcare, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 eligibility checks",
+      "X12 837 claims submission",
+      "X12 835 remittance processing",
+      "Integration with EHR systems",
+      "API-based data exchange for healthcare"
+    ]
+  }
+}

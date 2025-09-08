@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "EHR Integration"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ThriveWell mentions integration with EHR systems to enhance patient care.",
+        "url": "https://thrivewellathome.com/services/ehr-integration"
+      },
+      {
+        "claim": "ThriveWell adheres to FHIR standards for data exchange in health tech solutions.",
+        "url": "https://thrivewellathome.com/health-tech"
+      },
+      {
+        "claim": "HIPAA compliance is emphasized in ThriveWell's security practices for data handling.",
+        "url": "https://thrivewellathome.com/security"
+      },
+      {
+        "claim": "They utilize cloud services to facilitate remote care and patient management.",
+        "url": "https://thrivewellathome.com/about"
+      },
+      {
+        "claim": "Focused on health data interoperability using HL7 standards.",
+        "url": "https://thrivewellathome.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functionality found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

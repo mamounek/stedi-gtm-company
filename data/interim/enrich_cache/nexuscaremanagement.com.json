@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "Microservices Architecture",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Nexus Healthcare utilizes AWS services for data storage and processing.",
+        "url": "https://nexuscaremanagement.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its healthcare management solutions.",
+        "url": "https://nexuscaremanagement.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standards allows seamless data exchange with EHRs.",
+        "url": "https://nexuscaremanagement.com/healthtech/fhir-integration"
+      },
+      {
+        "claim": "X12 EDI transactions are supported for insurance claims processing.",
+        "url": "https://nexuscaremanagement.com/apis/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions for claims and eligibility workflows, fitting API-first integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission via 837",
+      "Eligibility queries using 270/271",
+      "Remittance advice with 835",
+      "Claim status inquiries with 276/277"
+    ]
+  }
+}

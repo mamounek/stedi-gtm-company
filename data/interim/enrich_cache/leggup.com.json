@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "HL7 Standards Implementation"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "LeggUP utilizes AWS for cloud services, showcasing its cloud architecture.",
+        "url": "https://leggup.com/infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for patient data management.",
+        "url": "https://leggup.com/security"
+      },
+      {
+        "claim": "Implementing HL7 standards for healthcare data exchange.",
+        "url": "https://leggup.com/health-tech"
+      },
+      {
+        "claim": "Utilizes REST APIs for integration with other services effectively.",
+        "url": "https://leggup.com/api-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

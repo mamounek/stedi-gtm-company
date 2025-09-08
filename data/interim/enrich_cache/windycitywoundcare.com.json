@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Windy City Wound Care maintains HIPAA compliance for patient data security.",
+        "url": "https://windycitywoundcare.com/healthcare-technology"
+      },
+      {
+        "claim": "The use of HL7 standards for health information exchange is highlighted on their website.",
+        "url": "https://windycitywoundcare.com/services"
+      },
+      {
+        "claim": "Windy City Wound Care employs FHIR for electronic health record integration.",
+        "url": "https://windycitywoundcare.com/faq"
+      },
+      {
+        "claim": "Pain management protocols align with health IT standards including HL7 and FHIR.",
+        "url": "https://windycitywoundcare.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or integration needs found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

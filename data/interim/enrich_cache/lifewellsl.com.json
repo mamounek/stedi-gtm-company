@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "integration with EHR systems",
+      "data interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "LifeWell Senior Living complies with HIPAA guidelines, ensuring security and privacy of patient data.",
+        "url": "https://lifewellsl.com/security"
+      },
+      {
+        "claim": "The company focuses on data interoperability which is essential for integrating with healthcare providers.",
+        "url": "https://lifewellsl.com/services"
+      },
+      {
+        "claim": "References to FHIR and HL7 standards indicate usage in healthcare data transactions.",
+        "url": "https://lifewellsl.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or focus on API automation found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

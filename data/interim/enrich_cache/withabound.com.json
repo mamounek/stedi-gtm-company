@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "X12",
+      "EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Abound emphasizes compliance with HIPAA regulations for health data handling.",
+        "url": "https://www.withabound.com/faq"
+      },
+      {
+        "claim": "The company uses FHIR standards for health data exchange.",
+        "url": "https://www.withabound.com/developer/docs"
+      },
+      {
+        "claim": "Abound is compatible with EDI transaction sets for healthcare.",
+        "url": "https://www.withabound.com/integration"
+      },
+      {
+        "claim": "Integration with EHRs is mentioned in their platform capabilities.",
+        "url": "https://www.withabound.com/platform"
+      },
+      {
+        "claim": "Abound uses cloud services for hosting and processing health data securely.",
+        "url": "https://www.withabound.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI integrations suggests interest in X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims submission",
+      "Eligibility verification",
+      "Remittance processing",
+      "Data exchange between payers and providers"
+    ]
+  }
+}

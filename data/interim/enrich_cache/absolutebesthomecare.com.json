@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes HIPAA-compliant services for managing patient data.",
+        "url": "https://absolutebesthomecare.com/privacy-policy"
+      },
+      {
+        "claim": "They integrate with electronic health records (EHR) to streamline patient care processes.",
+        "url": "https://absolutebesthomecare.com/services"
+      },
+      {
+        "claim": "Check their compliance regarding the Health Insurance Portability and Accountability Act on their security page.",
+        "url": "https://absolutebesthomecare.com/security"
+      },
+      {
+        "claim": "Information on their operational procedures hints at data management practices consistent with EDI standards.",
+        "url": "https://absolutebesthomecare.com/faq"
+      },
+      {
+        "claim": "The careers page suggests roles related to data integration, potentially involving healthcare-specific data standards.",
+        "url": "https://absolutebesthomecare.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.45
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 usage or relevant automation needs found on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

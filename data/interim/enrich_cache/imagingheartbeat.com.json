@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI X12 Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Imaging Heartbeat utilizes AWS to enhance its cloud infrastructure.",
+        "url": "https://www.imagingheartbeat.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports healthcare standards such as FHIR for data interoperability.",
+        "url": "https://www.imagingheartbeat.com/docs/fhir-support"
+      },
+      {
+        "claim": "They implement HIPAA compliant practices to ensure data security and privacy.",
+        "url": "https://www.imagingheartbeat.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EDI X12 transactions is available for medical billing and claims processing.",
+        "url": "https://www.imagingheartbeat.com/docs/edi-x12"
+      },
+      {
+        "claim": "Use of Azure cloud services for scalable solutions is mentioned in their technical documentation.",
+        "url": "https://www.imagingheartbeat.com/docs/cloud-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement with X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

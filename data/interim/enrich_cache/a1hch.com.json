@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon EC2"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7 v2.5",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based communication",
+      "Batch processing via EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "A1 Healthcare uses AWS for its cloud infrastructure, providing scalable and secure hosting services.",
+        "url": "https://a1hch.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, ensuring secure handling of patient data.",
+        "url": "https://a1hch.com/hipaa-compliance"
+      },
+      {
+        "claim": "A1 Healthcare employs HL7 standards for interoperability in its health information exchange.",
+        "url": "https://a1hch.com/hl7-implementation"
+      },
+      {
+        "claim": "They utilize FHIR resources for modern healthcare applications.",
+        "url": "https://a1hch.com/fhir-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of significant EDI or X12 transaction activities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

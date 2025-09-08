@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cubby Beds uses AWS for cloud infrastructure.",
+        "url": "https://www.cubbybeds.com/cloud-services"
+      },
+      {
+        "claim": "No direct references to health-tech standards such as HIPAA, FHIR, or HL7 were found on the company’s pages.",
+        "url": "https://www.cubbybeds.com/docs"
+      },
+      {
+        "claim": "The company has a focus on secure data handling, but specifics on compliance standards were not extensively documented.",
+        "url": "https://www.cubbybeds.com/security"
+      },
+      {
+        "claim": "Cubby Beds is involved in e-commerce which typically requires integration with payment processors and potentially EDI standards for order processing.",
+        "url": "https://www.cubbybeds.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging with healthcare data exchange or X12 transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

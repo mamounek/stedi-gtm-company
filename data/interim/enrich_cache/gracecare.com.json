@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Grace Care emphasizes compliance with HIPAA regulations which suggests use of healthcare-specific data handling.",
+        "url": "https://www.gracecare.com/security"
+      },
+      {
+        "claim": "References to FHIR standards suggest Grace Care's commitment to modern health data interoperability.",
+        "url": "https://www.gracecare.com/docs"
+      },
+      {
+        "claim": "HL7 standards mentioned in relation to care coordination indicate adherence to health communication protocols.",
+        "url": "https://www.gracecare.com/services"
+      },
+      {
+        "claim": "Their approach to data security aligns with industry standards for health care data management including X12 for claims.",
+        "url": "https://www.gracecare.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating use of X12 or related API automation for health data exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

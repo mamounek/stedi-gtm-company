@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Kafka",
+      "dbt",
+      "Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "IQVIA utilizes AWS services for cloud infrastructure and data management.",
+        "url": "https://www.iqvia.com/solutions/cloud"
+      },
+      {
+        "claim": "They mention support for FHIR and HL7 standards in their data integration solutions.",
+        "url": "https://www.iqvia.com/solutions/data-integration"
+      },
+      {
+        "claim": "IQVIA offers services compliant with HIPAA regulations for handling health data.",
+        "url": "https://www.iqvia.com/solutions/regulatory-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "IQVIA's focus on regulatory compliance includes X12 and EDI, aligning with use cases for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submissions (837)",
+      "Remittance processing (835)",
+      "Real-time claim status (276/277)",
+      "Coordination of benefits (278)"
+    ]
+  }
+}

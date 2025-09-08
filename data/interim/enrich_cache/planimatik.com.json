@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "GCP Pub/Sub",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR integration",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs for healthcare data exchange",
+      "Secure data transfer methods for HIPAA compliance"
+    ],
+    "evidence": [
+      {
+        "claim": "Planimatik utilizes AWS for hosting and data storage solutions.",
+        "url": "https://www.planimatik.com/docs/platform"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data integration.",
+        "url": "https://www.planimatik.com/healthtech"
+      },
+      {
+        "claim": "Planimatik has experience in handling EHR integrations and compliance with HIPAA regulations.",
+        "url": "https://www.planimatik.com/security"
+      },
+      {
+        "claim": "They offer integration capabilities with X12 transaction sets for claims management.",
+        "url": "https://www.planimatik.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers X12 compliance for healthcare data exchanges and focuses on HIPAA integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing (837/835)",
+      "Eligibility verification (270/271)",
+      "Claims status inquiry (276/277)",
+      "EHR integration with X12 compliance"
+    ]
+  }
+}

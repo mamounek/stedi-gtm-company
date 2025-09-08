@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "EDI Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Guardian Home Health utilizes AWS for cloud infrastructure.",
+        "url": "https://www.guardianks.com/cloud-services"
+      },
+      {
+        "claim": "The organization is compliant with HIPAA regulations for health data security.",
+        "url": "https://www.guardianks.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is enabled through FHIR standards.",
+        "url": "https://www.guardianks.com/integration"
+      },
+      {
+        "claim": "Guardian Home Health employs X12 for processing EDI transactions.",
+        "url": "https://www.guardianks.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes EDI transactions and operates in the healthcare sector.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Claims Status Inquiry (276/277)"
+    ]
+  }
+}

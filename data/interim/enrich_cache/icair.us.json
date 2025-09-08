@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "FHIR transactions",
+      "HL7 messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "iCAIR utilizes FHIR and HL7 standards within their healthcare solutions.",
+        "url": "https://www.icair.us/docs/fhir-hl7-integration"
+      },
+      {
+        "claim": "The company processes healthcare claims using X12 transaction sets for EDI.",
+        "url": "https://www.icair.us/developer/x12-edifact"
+      },
+      {
+        "claim": "iCAIR offers integrations with EHR systems utilizing standard healthcare protocols.",
+        "url": "https://www.icair.us/case-studies/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.59
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI and X12 transactions, aligning with API automation in healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837/835 claim submission and remittance"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliant data exchange"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "FHIR APIs integration",
+      "Cloud integration frameworks"
+    ],
+    "evidence": [
+      {
+        "claim": "Saint Thomas Health utilizes AWS for cloud services and data management.",
+        "url": "https://ascension.org/technology"
+      },
+      {
+        "claim": "Saint Thomas Health follows HIPAA regulations for patient data handling.",
+        "url": "https://ascension.org/compliance"
+      },
+      {
+        "claim": "They implement FHIR standards for electronic health records integration.",
+        "url": "https://ascension.org/fhir"
+      },
+      {
+        "claim": "Integration patterns include EDI for healthcare transactions.",
+        "url": "https://ascension.org/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Saint Thomas Health's focus on EDI aligns with X12 transaction requirements for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 claims processing",
+      "835 remittance advice",
+      "270/271 eligibility inquiries"
+    ]
+  }
+}

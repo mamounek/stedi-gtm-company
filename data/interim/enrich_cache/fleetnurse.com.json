@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "FleetNurse uses AWS services including Lambda and S3 for its infrastructure.",
+        "url": "https://fleetnurse.com/docs/api-overview"
+      },
+      {
+        "claim": "FleetNurse is HIPAA compliant to ensure secure handling of patient data.",
+        "url": "https://fleetnurse.com/security"
+      },
+      {
+        "claim": "FleetNurse supports FHIR for interoperability with health data systems.",
+        "url": "https://fleetnurse.com/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

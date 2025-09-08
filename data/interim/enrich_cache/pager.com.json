@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant messaging",
+      "HL7 V2 protocols",
+      "FHIR API endpoints"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Pager utilizes AWS for cloud services, ensuring scalability and security.",
+        "url": "https://pager.com/docs/infrastructure"
+      },
+      {
+        "claim": "Their platform is designed to be HIPAA compliant, handling patient data securely.",
+        "url": "https://pager.com/security"
+      },
+      {
+        "claim": "Pager's API supports FHIR standards for interoperability in health data exchange.",
+        "url": "https://pager.com/docs/api"
+      },
+      {
+        "claim": "They implement HL7 V2 protocols for effective health data communication.",
+        "url": "https://pager.com/developer/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or clearinghouse use cases found on their site.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

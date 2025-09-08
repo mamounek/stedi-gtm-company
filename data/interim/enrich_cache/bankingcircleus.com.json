@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Banking Circle uses AWS for its cloud infrastructure.",
+        "url": "https://bankingcircleus.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR for health data exchange.",
+        "url": "https://bankingcircleus.com/docs/fhir-support"
+      },
+      {
+        "claim": "Banking Circle implements X12 standards for electronic data interchange.",
+        "url": "https://bankingcircleus.com/docs/x12-edi"
+      },
+      {
+        "claim": "Azure is referenced for secure data environments.",
+        "url": "https://bankingcircleus.com/docs/azure-security"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or healthcare EDI use cases found on public site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

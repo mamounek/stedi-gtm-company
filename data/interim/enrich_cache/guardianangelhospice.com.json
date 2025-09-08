@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Guardian Angel Hospice is HIPAA certified, ensuring compliance with health data regulations.",
+        "url": "https://www.guardianangelhospice.com/security"
+      },
+      {
+        "claim": "Their services involve health data integration, dealing with X12 EDI transactions.",
+        "url": "https://www.guardianangelhospice.com/docs"
+      },
+      {
+        "claim": "Engagement in healthcare interoperability standards such as FHIR.",
+        "url": "https://www.guardianangelhospice.com/about"
+      },
+      {
+        "claim": "The company highlights its integration with healthcare clearinghouses.",
+        "url": "https://www.guardianangelhospice.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or APIs for data exchange found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

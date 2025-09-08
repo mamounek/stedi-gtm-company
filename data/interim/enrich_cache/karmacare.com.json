@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Karma Care utilizes AWS for their cloud services offering scalability and reliability.",
+        "url": "https://karmacare.com/docs/cloud-services"
+      },
+      {
+        "claim": "The platform is built with HL7 FHIR to ensure interoperability in health data exchange.",
+        "url": "https://karmacare.com/docs/health-tech"
+      },
+      {
+        "claim": "Karma Care has a dedicated section for API documentation indicating their commitment to developer integrations with external health systems.",
+        "url": "https://karmacare.com/developer/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

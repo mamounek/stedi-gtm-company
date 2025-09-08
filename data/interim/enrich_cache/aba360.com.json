@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Intercom"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Real-time data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "ABA360 uses AWS for cloud infrastructure and scalability.",
+        "url": "https://www.aba360.com/docs/aws_integration"
+      },
+      {
+        "claim": "The company implements HIPAA compliance measures for handling health data.",
+        "url": "https://www.aba360.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include API interactions with electronic health records systems.",
+        "url": "https://www.aba360.com/integration/docs"
+      },
+      {
+        "claim": "Utilization of FHIR standards to ensure interoperability in health tech services.",
+        "url": "https://www.aba360.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

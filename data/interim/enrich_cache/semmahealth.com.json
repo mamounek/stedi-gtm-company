@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 837",
+      "X12 270",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations",
+      "Batch Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Semma Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://semmahealth.com/docs/aws-lambda-usage"
+      },
+      {
+        "claim": "The company processes X12 transactions such as 837 and 270 for healthcare claims.",
+        "url": "https://semmahealth.com/docs/x12-transaction-sets"
+      },
+      {
+        "claim": "FHIR is leveraged for patient data exchange.",
+        "url": "https://semmahealth.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated via RESTful APIs.",
+        "url": "https://semmahealth.com/docs/ehr-integration"
+      },
+      {
+        "claim": "HL7 standards are applied in their health information exchanges.",
+        "url": "https://semmahealth.com/docs/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health data exchange using X12 transactions and FHIR standards.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claim submissions",
+      "X12 270/271 eligibility inquiries",
+      "X12 276/277 claims status updates",
+      "FHIR-based health data exchange",
+      "Webhook integrations for real-time data exchange"
+    ]
+  }
+}

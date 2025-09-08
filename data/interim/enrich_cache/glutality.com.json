@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "API Gateway integration",
+      "Microservices communication"
+    ],
+    "evidence": [
+      {
+        "claim": "AWS Lambda is used for serverless computing tasks.",
+        "url": "https://glutality.com/docs/serverless"
+      },
+      {
+        "claim": "Glutality is compliant with HIPAA regulations for health data security.",
+        "url": "https://glutality.com/security"
+      },
+      {
+        "claim": "The platform utilizes FHIR standards for health data exchange.",
+        "url": "https://glutality.com/health-tech"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through HL7 protocols.",
+        "url": "https://glutality.com/integration"
+      },
+      {
+        "claim": "Glutality implements X12 EDI transactions for billing and claims processing.",
+        "url": "https://glutality.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on healthcare data exchange and X12 compliance with an advanced tech stack.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "270/271 eligibility inquiries",
+      "837 claims submissions",
+      "HIPAA compliant data exchange",
+      "healthcare API integration"
+    ]
+  }
+}

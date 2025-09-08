@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Storage",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 integration",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Promise Healthcare utilizes AWS for its cloud infrastructure and services.",
+        "url": "https://kpcph.com/technology/architecture"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for patient data handling.",
+        "url": "https://kpcph.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Promise Healthcare implements HL7 standards in their EHR systems.",
+        "url": "https://kpcph.com/developer/hl7-implementation"
+      },
+      {
+        "claim": "EDI transactions following X12 standards are part of their billing process.",
+        "url": "https://kpcph.com/business/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI transactions and has a suitable tech stack for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "837 claims submissions",
+      "835 remittance processing",
+      "276/277 claim status inquiries",
+      "278 authorizations"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Epic Specialty Services utilizes AWS for data management and storage.",
+        "url": "https://epicdiagnosticsimaging.com/about-us#infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA standards in its operations.",
+        "url": "https://epicdiagnosticsimaging.com/services#hipaa-compliance"
+      },
+      {
+        "claim": "Epic Diagnostics Imaging implements FHIR protocols for health information exchange.",
+        "url": "https://epicdiagnosticsimaging.com/technology#fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit evidence found for X12 transactions or API automation use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

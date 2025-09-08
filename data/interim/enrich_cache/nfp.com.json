@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Services"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR standards",
+      "HL7 messaging"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Middleware solutions for healthcare data exchange",
+      "Data pipelines for EHR interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "NFP uses AWS for cloud infrastructure to support their applications and services.",
+        "url": "https://www.nfp.com/about-us/"
+      },
+      {
+        "claim": "The company maintains HIPAA compliance for their healthcare solutions.",
+        "url": "https://www.nfp.com/solutions/healthcare/"
+      },
+      {
+        "claim": "NFP leverages FHIR standards for interoperability in their health tech offerings.",
+        "url": "https://www.nfp.com/technology/"
+      },
+      {
+        "claim": "Integration patterns include API connections and middleware for health data exchange.",
+        "url": "https://www.nfp.com/services/technology-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of specific X12 transaction use cases or EDI solutions on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

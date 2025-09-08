@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "X12 EDI Transactions",
+      "HL7 FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Message Queues for data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "ProCure Health uses AWS services for cloud infrastructure, including S3 for data storage.",
+        "url": "https://procure-health.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company integrates healthcare data using HL7 FHIR standards.",
+        "url": "https://procure-health.com/fhir-standards"
+      },
+      {
+        "claim": "Detailed documentation of X12 EDI transactions related to healthcare insurance claims is provided on their website.",
+        "url": "https://procure-health.com/edi-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

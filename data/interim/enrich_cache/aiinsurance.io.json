@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Functions",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API for healthcare data exchange",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "Microservices architecture",
+      "Event-driven architecture using Kafka",
+      "RESTful APIs for integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services including Lambda and S3 for scalable serverless applications.",
+        "url": "https://aiinsurance.io/docs/infrastructure"
+      },
+      {
+        "claim": "AI Insurance Inc. is HIPAA compliant, ensuring security and privacy for health data.",
+        "url": "https://aiinsurance.io/security"
+      },
+      {
+        "claim": "The integration of FHIR APIs allows seamless interoperability with EHR systems.",
+        "url": "https://aiinsurance.io/developer/integration"
+      },
+      {
+        "claim": "X12 EDI transactions are supported for efficient claims processing.",
+        "url": "https://aiinsurance.io/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company supports X12 EDI transactions for health insurance data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "270/271 Eligibility Inquiry and Response",
+      "276/277 Claims Status Inquiry and Response",
+      "278 Health Care Services Review"
+    ]
+  }
+}

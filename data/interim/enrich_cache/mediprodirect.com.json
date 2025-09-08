@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API for patient data",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data integration",
+      "Webhook integration for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "MediPro Direct uses AWS Lambda for serverless computing.",
+        "url": "https://mediprodirect.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company implements RESTful APIs for healthcare data access compliant with HIPAA.",
+        "url": "https://mediprodirect.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "MediPro Direct supports FHIR standards for exchanging health information.",
+        "url": "https://mediprodirect.com/docs/fhir-api-overview"
+      },
+      {
+        "claim": "They utilize X12 EDI formats for transactions such as claims processing.",
+        "url": "https://mediprodirect.com/docs/x12-edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI and API integration for healthcare data, fits target size and geography.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Healthcare data integration",
+      "Claim eligibility verification",
+      "Remittance processing",
+      "Integration with payers and providers"
+    ]
+  }
+}

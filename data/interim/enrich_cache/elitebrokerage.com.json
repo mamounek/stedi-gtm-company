@@ -1,0 +1,60 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Platform",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 837",
+      "X12 276",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP Services",
+      "Message Queueing",
+      "Data Streaming",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Elite Brokerage Services utilizes AWS Lambda for serverless functions.",
+        "url": "https://elitebrokerage.com/docs/aws-lambda"
+      },
+      {
+        "claim": "The company implements HIPAA compliance for handling patient data.",
+        "url": "https://elitebrokerage.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with X12 837 transaction sets is part of their EDI processing.",
+        "url": "https://elitebrokerage.com/edi/x12-837"
+      },
+      {
+        "claim": "They offer FHIR API endpoints for healthcare data integration.",
+        "url": "https://elitebrokerage.com/docs/fhir"
+      },
+      {
+        "claim": "Azure SQL Database is used for structured data storage and retrieval.",
+        "url": "https://elitebrokerage.com/docs/azure-sql"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports X12 formats and HIPAA compliance, indicating likely use of healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 submissions",
+      "X12 276 claims status inquiries",
+      "X12 835 remittance processing",
+      "Payer-provider integration",
+      "Eligibility checks with X12 270/271"
+    ]
+  }
+}

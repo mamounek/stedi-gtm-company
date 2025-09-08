@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Concierge RN Services emphasizes HIPAA compliance in their healthcare services.",
+        "url": "https://mobileconciergern.com/#compliance"
+      },
+      {
+        "claim": "The company focuses on secure communications in health-tech services.",
+        "url": "https://mobileconciergern.com/#services"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No substantial evidence of handling X12 transactions or relevant APIs found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

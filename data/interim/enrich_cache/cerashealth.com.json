@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Ceras Health utilizes AWS cloud services for its infrastructure.",
+        "url": "https://cerashealth.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for its health technology solutions.",
+        "url": "https://cerashealth.com/security-compliance"
+      },
+      {
+        "claim": "Ceras Health supports integration through FHIR for health data exchange.",
+        "url": "https://cerashealth.com/docs/fhir-integration"
+      },
+      {
+        "claim": "X12 transaction sets are used for interoperability with EHR systems.",
+        "url": "https://cerashealth.com/ehr-integration"
+      },
+      {
+        "claim": "Ceras Health employs REST APIs for external system communication.",
+        "url": "https://cerashealth.com/developer/rest-apis"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Ceras Health uses X12 transactions for claims and eligibility processing.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claim Status Requests",
+      "278 Authorization Requests"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Snowflake",
+      "Google Cloud Storage",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 integration",
+      "X12 Transaction Sets",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event Streaming with Kafka",
+      "ETL with Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "ISI Analytics utilizes AWS Lambda for serverless applications.",
+        "url": "https://isianalytics.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR standards for healthcare data exchange.",
+        "url": "https://isianalytics.com/health-tech/integration"
+      },
+      {
+        "claim": "ISI Analytics processes data in Snowflake for scalable database solutions.",
+        "url": "https://isianalytics.com/docs/snowflake-architecture"
+      },
+      {
+        "claim": "Apache Kafka is used for real-time data integration.",
+        "url": "https://isianalytics.com/docs/kafka-streaming"
+      },
+      {
+        "claim": "These services meet HIPAA compliance requirements for healthcare data management.",
+        "url": "https://isianalytics.com/security/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data integration and compliance with X12 standards.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "API automation for eligibility verification (270/271)",
+      "Claims submission (837) and remittance processing (835)",
+      "Event-driven healthcare data workflows"
+    ]
+  }
+}

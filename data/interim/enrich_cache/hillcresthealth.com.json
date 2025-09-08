@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS) for cloud infrastructure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR for health data exchange"
+    ],
+    "integration_patterns": [
+      "API integration for EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Hillcrest Health Services utilizes AWS for their cloud solutions.",
+        "url": "https://hillcresthealth.com/about-us/about-hillcrest/"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance, ensuring secure handling of patient data.",
+        "url": "https://hillcresthealth.com/privacy-policy/"
+      },
+      {
+        "claim": "Hillcrest integrates health data using FHIR standards.",
+        "url": "https://hillcresthealth.com/services/electronic-health-records/"
+      },
+      {
+        "claim": "API integration patterns are studied in their engineering summaries.",
+        "url": "https://hillcresthealth.com/careers/engineering/"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Sufficient evidence of using EDI and X12 transactions for health data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims management",
+      "eligibility verification",
+      "remittance advice processing",
+      "data exchange between payers and providers"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 270",
+      "X12 271",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "ETL"
+    ],
+    "evidence": [
+      {
+        "claim": "GoldLeaf Homecare Network utilizes AWS for their cloud infrastructure.",
+        "url": "https://goldleafhomecare.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations, ensuring secure handling of health data.",
+        "url": "https://goldleafhomecare.com/security"
+      },
+      {
+        "claim": "They use FHIR standards for health information exchange.",
+        "url": "https://goldleafhomecare.com/docs/fhir-guidelines"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is supported for insurance eligibility and claims.",
+        "url": "https://goldleafhomecare.com/docs/x12-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Strong focus on HIPAA and X12 transactions for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (X12 270/271)",
+      "Claim Submission (X12 837)",
+      "Claim Status Inquiry (X12 276/277)",
+      "Remittance Advice (X12 835)"
+    ]
+  }
+}

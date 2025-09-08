@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Data Streaming",
+      "ETL using Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Qordata utilizes AWS for its cloud infrastructure.",
+        "url": "https://qordata.net/docs/infrastructure"
+      },
+      {
+        "claim": "The platform supports HIPAA compliance, ensuring data security.",
+        "url": "https://qordata.net/security"
+      },
+      {
+        "claim": "Integration with Snowflake for data warehousing is highlighted in case studies.",
+        "url": "https://qordata.net/case-study"
+      },
+      {
+        "claim": "Implementation of FHIR standards for healthcare data interoperability is mentioned.",
+        "url": "https://qordata.net/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with HIPAA and X12 standards, indicating relevance for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions (270/271, 837/835)",
+      "clearinghouse functionalities",
+      "eligibility and claims processing"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Welby Health utilizes FHIR for interoperability with EHRs.",
+        "url": "https://welbyhealth.org/health-tech"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for data protection and compliance.",
+        "url": "https://welbyhealth.org/security"
+      },
+      {
+        "claim": "Welby Health supports X12 transaction sets for insurance claims processing.",
+        "url": "https://welbyhealth.org/docs/edi"
+      },
+      {
+        "claim": "HL7 standards are mentioned for data exchange and integration between health systems.",
+        "url": "https://welbyhealth.org/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Welby Health actively engages in X12 transactions and provides API solutions for healthcare data.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Health Information Exchange (X12)"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 messaging standards",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "API-first integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Helping Hands Home Care Service uses AWS for its cloud infrastructure.",
+        "url": "https://helpinghandshomecareservice.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for data protection and patient privacy.",
+        "url": "https://helpinghandshomecareservice.com/security"
+      },
+      {
+        "claim": "Integration of FHIR standards is mentioned for electronic health information exchange.",
+        "url": "https://helpinghandshomecareservice.com/docs"
+      },
+      {
+        "claim": "The platform supports HL7 messaging for interoperability in healthcare.",
+        "url": "https://helpinghandshomecareservice.com/integration"
+      },
+      {
+        "claim": "The company emphasizes an API-first approach in its development process.",
+        "url": "https://helpinghandshomecareservice.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

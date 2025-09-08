@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "HCMI mentions its adherence to HIPAA regulations, indicating a focus on health-tech data security standards.",
+        "url": "https://hcmi.co/hipaa-compliance/"
+      },
+      {
+        "claim": "The company employs enhanced security measures, likely involving modern cloud services to protect sensitive health information.",
+        "url": "https://hcmi.co/security/"
+      },
+      {
+        "claim": "No specific APIs or cloud services detailed in current technical documentation on HCMI's website.",
+        "url": "https://hcmi.co/docs/"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or acting as a clearinghouse.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

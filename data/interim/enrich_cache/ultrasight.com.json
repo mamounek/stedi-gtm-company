@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "UltraSight utilizes AWS for its cloud infrastructure.",
+        "url": "https://ultrasight.com/about"
+      },
+      {
+        "claim": "The platform integrates with healthcare data using FHIR standards.",
+        "url": "https://ultrasight.com/technology"
+      },
+      {
+        "claim": "UltraSight's systems are compliant with HIPAA regulations.",
+        "url": "https://ultrasight.com/privacy"
+      },
+      {
+        "claim": "They support HL7 messaging for electronic health records integration.",
+        "url": "https://ultrasight.com/solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of focus on X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Get Full Care utilizes AWS for their infrastructure.",
+        "url": "https://getfullcare.com"
+      },
+      {
+        "claim": "The service integrates with FHIR standards for health data management.",
+        "url": "https://getfullcare.com"
+      },
+      {
+        "claim": "Get Full Care supports HL7 data exchange for interoperability.",
+        "url": "https://getfullcare.com"
+      },
+      {
+        "claim": "The company uses Twilio for communication APIs and workflow integrations.",
+        "url": "https://getfullcare.com"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

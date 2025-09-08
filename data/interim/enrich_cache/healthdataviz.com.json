@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure SQL Database",
+      "Google Cloud Dataflow"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 835 Transaction Set",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Event-driven architecture using AWS Lambda",
+      "ETL processes with Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthDataViz utilizes AWS services including RDS and S3 for data storage and processing.",
+        "url": "https://healthdataviz.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance as part of their health data solutions.",
+        "url": "https://healthdataviz.com/security"
+      },
+      {
+        "claim": "HealthDataViz processes X12 transaction sets like 835, which is crucial for health claims processing.",
+        "url": "https://healthdataviz.com/health-analytics"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "HealthDataViz utilizes X12 transactions and APIs, indicating potential ICP alignment.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 835 transaction processing",
+      "Eligibility checks (X12 270/271)",
+      "Claims status inquiries (X12 276/277)"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "EDI X12",
+      "IHE Integration Profiles"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Message Queues",
+      "Data Ingestion Pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless algorithms that process health data.",
+        "url": "https://imohealth.com/developer/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Intelligent Medical Objects supports HL7 FHIR standards for data interoperability.",
+        "url": "https://imohealth.com/security/fhir-standards"
+      },
+      {
+        "claim": "Uses EDI X12 transaction sets to comply with HIPAA regulations in data transactions.",
+        "url": "https://imohealth.com/docs/edi-x12-compliance"
+      },
+      {
+        "claim": "The company employs Amazon S3 for secure storage of sensitive health information.",
+        "url": "https://imohealth.com/cloud/security/aws-s3"
+      },
+      {
+        "claim": "Integration with EHR systems through established a REST API framework.",
+        "url": "https://imohealth.com/developer/api/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses EDI X12 for healthcare data exchange; aligns with API-first approach.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification",
+      "Claims submission",
+      "Remittance processing",
+      "Data exchange between payers and providers"
+    ]
+  }
+}

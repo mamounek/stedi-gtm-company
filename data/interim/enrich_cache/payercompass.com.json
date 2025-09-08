@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "EDI transactions"
+    ],
+    "integration_patterns": [
+      "FHIR standard integration",
+      "HL7 data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Payer Compass utilizes AWS for its cloud infrastructure.",
+        "url": "https://payercompass.com/platform/tech"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards, ensuring data security for health information.",
+        "url": "https://payercompass.com/security"
+      },
+      {
+        "claim": "Payer Compass supports various X12 transaction sets in their system.",
+        "url": "https://payercompass.com/docs/x12"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability with healthcare systems.",
+        "url": "https://payercompass.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Payer Compass handles EDI transactions and X12 formats, indicating alignment with healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "EDI transactions",
+      "clearinghouse services",
+      "claims management",
+      "eligibility verification"
+    ]
+  }
+}

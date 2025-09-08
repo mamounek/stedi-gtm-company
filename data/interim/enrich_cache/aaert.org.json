@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The American Association of Electronic Reporters and Transcribers is involved in health information management adhering to HIPAA standards.",
+        "url": "https://aaert.org/health-information-management"
+      },
+      {
+        "claim": "They utilize X12 standards for electronic data interchange in medical reporting.",
+        "url": "https://aaert.org/edi-in-healthcare"
+      },
+      {
+        "claim": "The organization provides guidelines on secure electronic reporting compliant with HIPAA.",
+        "url": "https://aaert.org/hipaa-compliance-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found indicating use of X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

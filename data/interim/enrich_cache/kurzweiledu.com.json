@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Kurzweil Education offers tools that integrate with educational and health-related technology systems, but specific technical APIs are not mentioned on their on",
+        "url": "https://kurzweiledu.com/"
+      },
+      {
+        "claim": "No direct references to health-tech standards like HIPAA, X12, FHIR, or HL7 found on the company's main website or documentation pages.",
+        "url": "https://kurzweiledu.com/about-us/"
+      },
+      {
+        "claim": "The company mentions commitment to data privacy but lacks specific technical integrations listed on their security or engineering pages.",
+        "url": "https://kurzweiledu.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement with X12 or healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

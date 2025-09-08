@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Solutions",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR Integration",
+      "Health Information Exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Altruistic Home Health utilizes AWS for cloud infrastructure and HIPAA-compliant data storage.",
+        "url": "https://altruistichomehealth.com/security"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in their service offerings, indicating their focus on health data protection.",
+        "url": "https://altruistichomehealth.com/faq"
+      },
+      {
+        "claim": "Integration with EHR systems is highlighted as a key service feature, supporting efficient patient care management.",
+        "url": "https://altruistichomehealth.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions; focus on HHE and EHR integration instead.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": [
+      "Health Information Exchange",
+      "EHR Integration"
+    ]
+  }
+}

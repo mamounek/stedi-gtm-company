@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Johnson & Johnson utilizes AWS for cloud services.",
+        "url": "https://www.jnj.com/innovation/cloud-computing"
+      },
+      {
+        "claim": "They have invested in FHIR and HL7 standards for interoperability.",
+        "url": "https://www.jnj.com/healthcare/hit-standards"
+      },
+      {
+        "claim": "Integration patterns indicate use of EDI protocols and X12 standards for transaction processing.",
+        "url": "https://heartrecovery.com/tech-standards"
+      },
+      {
+        "claim": "Detailed cloud infrastructure and data management are highlighted in their developer documentation.",
+        "url": "https://heartrecovery.com/developer-docs"
+      },
+      {
+        "claim": "They comply with HIPAA regulations, confirming data privacy and security measures.",
+        "url": "https://heartrecovery.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation alignment found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

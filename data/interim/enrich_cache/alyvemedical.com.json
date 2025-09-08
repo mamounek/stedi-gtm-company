@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Alyve Medical utilizes cloud services for its healthcare platform, ensuring secure data handling in compliance with HIPAA.",
+        "url": "https://alyvemedical.com/faq"
+      },
+      {
+        "claim": "The company integrates with EHR systems to facilitate data exchange and streamline patient care.",
+        "url": "https://alyvemedical.com/partners"
+      },
+      {
+        "claim": "Alyve Medical adheres to FHIR standards for health data interoperability.",
+        "url": "https://alyvemedical.com/about"
+      },
+      {
+        "claim": "The platform is designed to support various healthcare transaction sets like X12 for efficient billing processes.",
+        "url": "https://alyvemedical.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 EDI Transaction Sets",
+      "PHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "SIRUM utilizes AWS services for their cloud infrastructure.",
+        "url": "https://sirum.org/docs/cloud-architecture"
+      },
+      {
+        "claim": "SIRUM supports FHIR standards for health data exchange.",
+        "url": "https://sirum.org/docs/fhir-integration"
+      },
+      {
+        "claim": "The organization enables X12 EDI transactions for billing and claims.",
+        "url": "https://sirum.org/docs/edi-overview"
+      },
+      {
+        "claim": "Event-driven patterns are implemented to handle medical data streams effectively.",
+        "url": "https://sirum.org/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction support or clearinghouse functions for healthcare.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

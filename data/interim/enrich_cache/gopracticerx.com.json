@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS Elastic Beanstalk"
+    ],
+    "health_tech": [
+      "FHIR",
+      "NPI (National Provider Identifier)",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "HL7 FHIR Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "PracticeRx utilizes AWS services for hosting their applications and managing databases.",
+        "url": "https://gopracticerx.com/about/"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for secure patient data handling.",
+        "url": "https://gopracticerx.com/security/"
+      },
+      {
+        "claim": "Integration with EHR systems supports interoperability using FHIR standards.",
+        "url": "https://gopracticerx.com/solutions/#ehr-integration"
+      },
+      {
+        "claim": "Use of RESTful APIs for data exchanges between systems is documented in their technical resources.",
+        "url": "https://gopracticerx.com/developer-guide/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or clearinghouse services on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

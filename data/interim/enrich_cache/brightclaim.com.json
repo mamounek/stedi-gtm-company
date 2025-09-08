@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Data Integration via APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "BrightClaim utilizes AWS for cloud infrastructure.",
+        "url": "https://www.brightclaim.com/technology/"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards.",
+        "url": "https://www.brightclaim.com/security/"
+      },
+      {
+        "claim": "BrightClaim employs EDI transaction sets for health insurance claims processing.",
+        "url": "https://www.brightclaim.com/services/claims-processing/"
+      },
+      {
+        "claim": "The platform provides API access for third-party integrations.",
+        "url": "https://www.brightclaim.com/developer/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "BrightClaim handles healthcare transactions including X12, indicating potential ICP fit.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Processing X12 transactions",
+      "API integration for healthcare claims",
+      "Eligibility verification using 270/271",
+      "Claims management through EDI",
+      "Remittance processing with 835"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Empoura utilizes AWS for its cloud infrastructure",
+        "url": "https://myempoura.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for data handling",
+        "url": "https://myempoura.com/security/hipaa"
+      },
+      {
+        "claim": "Empoura supports FHIR standards for health data exchange",
+        "url": "https://myempoura.com/developer/fhir"
+      },
+      {
+        "claim": "Integration middleware includes support for REST APIs and webhooks",
+        "url": "https://myempoura.com/docs/integration"
+      },
+      {
+        "claim": "The company implements HL7 standards for interoperability",
+        "url": "https://myempoura.com/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse functionality on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

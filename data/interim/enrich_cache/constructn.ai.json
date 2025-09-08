@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Streaming Data Integration",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ConstructN leverages AWS for their cloud infrastructure.",
+        "url": "https://constructn.ai/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform integrates with FHIR for health tech data exchanges.",
+        "url": "https://constructn.ai/docs/health-tech"
+      },
+      {
+        "claim": "GCP is utilized for data storage and processing.",
+        "url": "https://constructn.ai/docs/data-platforms"
+      },
+      {
+        "claim": "Kafka is implemented for real-time data streaming between services.",
+        "url": "https://constructn.ai/docs/streaming"
+      },
+      {
+        "claim": "Azure services were mentioned in their engineering blogs for scalability solutions.",
+        "url": "https://constructn.ai/blog/engineering-blog"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 healthcare transactions or related EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

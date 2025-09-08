@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Streaming",
+      "Middleware"
+    ],
+    "evidence": [
+      {
+        "claim": "CloutBurst utilizes AWS for their cloud infrastructure.",
+        "url": "https://cloutburst.com/docs/aws-integration"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://cloutburst.com/developer/fhir-guidelines"
+      },
+      {
+        "claim": "CloutBurst offers middleware solutions for health-tech integration.",
+        "url": "https://cloutburst.com/products/integration-middleware"
+      },
+      {
+        "claim": "Details on their cloud services including GCP are discussed in their case studies.",
+        "url": "https://cloutburst.com/case-studies/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases for X12 transactions found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

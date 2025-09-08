@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 5010",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Honest Medical Group utilizes AWS for cloud services to ensure data security and compliance with HIPAA.",
+        "url": "https://honestmedicalgroup.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company supports X12 transaction sets for electronic data interchange in healthcare.",
+        "url": "https://honestmedicalgroup.com/security/x12"
+      },
+      {
+        "claim": "Honest Medical Group adheres to FHIR standards for healthcare data exchange.",
+        "url": "https://honestmedicalgroup.com/developer/fhir-guidelines"
+      },
+      {
+        "claim": "Real-time data integration patterns are implemented using cloud technologies mentioned in their documentation.",
+        "url": "https://honestmedicalgroup.com/engineering/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA X12 for claims and eligibility, aligning with API automation needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance advice",
+      "276/277 claim status inquiries"
+    ]
+  }
+}

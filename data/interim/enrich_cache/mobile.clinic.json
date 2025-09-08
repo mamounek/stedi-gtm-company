@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Mobile Clinic utilizes AWS for cloud infrastructure.",
+        "url": "https://mobile.clinic/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for patient data management.",
+        "url": "https://mobile.clinic/security/hipaa"
+      },
+      {
+        "claim": "Integration with FHIR standards for health data exchange is supported.",
+        "url": "https://mobile.clinic/api/fhir-support"
+      },
+      {
+        "claim": "They implement RESTful APIs to connect with EHR systems.",
+        "url": "https://mobile.clinic/docs/rest-api"
+      },
+      {
+        "claim": "Mobile Clinic processes transactions compliant with X12 standards.",
+        "url": "https://mobile.clinic/integration/x12"
+      },
+      {
+        "claim": "Utilizes Azure services for scalable solutions.",
+        "url": "https://mobile.clinic/docs/azure-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction use cases or EDI integration found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

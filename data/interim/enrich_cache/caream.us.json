@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "X12 EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "Healthcare Data Integration",
+      "Patient Data Exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Care America Homecare Services emphasizes HIPAA compliance in their operations.",
+        "url": "https://www.caream.us/security"
+      },
+      {
+        "claim": "The company utilizes HL7 standards for healthcare data exchange.",
+        "url": "https://www.caream.us/developer"
+      },
+      {
+        "claim": "Care America handles X12 EDI transaction sets for insurance claims processing.",
+        "url": "https://www.caream.us/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or API automation found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

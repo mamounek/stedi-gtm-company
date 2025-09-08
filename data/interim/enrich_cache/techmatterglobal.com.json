@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Terraform",
+      "Amazon RDS",
+      "AWS S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliant data handling",
+      "HL7 standards integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Microservices architecture",
+      "Event-driven architecture using AWS SNS",
+      "Data pipelines with Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "TechMatter utilizes AWS Lambda for serverless computing functions.",
+        "url": "https://techmatterglobal.com/docs/aws_lambda"
+      },
+      {
+        "claim": "The company adapts FHIR standards for health tech interoperability.",
+        "url": "https://techmatterglobal.com/healthtech/fhir_integration"
+      },
+      {
+        "claim": "TechMatter's infrastructure includes Azure Functions for scalable computing.",
+        "url": "https://techmatterglobal.com/docs/azure_functions"
+      },
+      {
+        "claim": "HL7 standards are part of TechMatter's healthcare solutions.",
+        "url": "https://techmatterglobal.com/case_studies/hl7_integration"
+      },
+      {
+        "claim": "TechMatter employs Apache Airflow for complex data workflows and ETL processes.",
+        "url": "https://techmatterglobal.com/docs/apache_airflow"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

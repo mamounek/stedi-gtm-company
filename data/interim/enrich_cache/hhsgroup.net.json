@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR/HL7 protocols"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Health Solutions complies with HIPAA standards for data security and privacy.",
+        "url": "https://hhsgroup.net/security"
+      },
+      {
+        "claim": "Evidence of utilizing AWS for cloud infrastructure and services.",
+        "url": "https://hhsgroup.net/docs/cloud-services"
+      },
+      {
+        "claim": "Use of FHIR standards for health data interoperability is mentioned in their API documentation.",
+        "url": "https://hhsgroup.net/developer/fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Targets X12 transactions and HIPAA compliance in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Healthcare provider data exchange"
+    ]
+  }
+}

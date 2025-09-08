@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA-compliant messaging"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "udu, Inc. utilizes AWS cloud services for its infrastructure solutions.",
+        "url": "https://udu.co/docs/architecture"
+      },
+      {
+        "claim": "The company focuses on HIPAA-compliant communication, ensuring secure messaging in health tech.",
+        "url": "https://udu.co/security"
+      },
+      {
+        "claim": "Integration of Twilio API for messaging services which ensures secure and timely communication in health applications.",
+        "url": "https://udu.co/api/messaging"
+      },
+      {
+        "claim": "Documentation indicates RESTful APIs for developer integration.",
+        "url": "https://udu.co/developer/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or functioning as a clearinghouse.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": []
+  }
+}

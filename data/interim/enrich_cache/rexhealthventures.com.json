@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "FHIR APIs",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture",
+      "Direct integration with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Rex Health Ventures utilizes AWS services including Lambda and RDS for serverless applications and databases.",
+        "url": "https://rexhealthventures.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company confirms compliance with HIPAA regulations for healthcare data management.",
+        "url": "https://rexhealthventures.com/security"
+      },
+      {
+        "claim": "Rex Health Ventures employs FHIR for interoperability with healthcare systems.",
+        "url": "https://rexhealthventures.com/developer/fhir"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs to connect with various healthcare EHRs.",
+        "url": "https://rexhealthventures.com/docs/integration"
+      },
+      {
+        "claim": "Use of X12 EDI transaction set for billing processes and claims submission.",
+        "url": "https://rexhealthventures.com/healthtech/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Rex Health Ventures operates in healthcare with a focus on HIPAA compliance and X12 functionality.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 claims submission",
+      "835 remittance processing",
+      "270/271 eligibility verification",
+      "276/277 claims status inquiry",
+      "X12 EDI transaction handling"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "Webhook notifications",
+      "Batch data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Dignity & Wellness uses AWS for scalable cloud infrastructure to ensure HIPAA compliance.",
+        "url": "https://dwpsolutions.com/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards to enhance interoperability across health data systems.",
+        "url": "https://dwpsolutions.com/health-tech"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and EDI transactions for data exchange in healthcare.",
+        "url": "https://dwpsolutions.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 EDI transactions, indicating alignment with ICP requirements.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 Claims processing",
+      "835 Remittance advice",
+      "270/271 Eligibility checks"
+    ]
+  }
+}

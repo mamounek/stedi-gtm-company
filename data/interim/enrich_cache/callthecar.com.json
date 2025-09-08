@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Call the Car utilizes AWS for scalable cloud services.",
+        "url": "https://callthecar.com/docs/cloud-architecture"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance for data security and patient information management.",
+        "url": "https://callthecar.com/security/hcpa-compliance"
+      },
+      {
+        "claim": "Call the Car integrates with various EHR systems to streamline health data exchange.",
+        "url": "https://callthecar.com/integrations/ehrs"
+      },
+      {
+        "claim": "The company employs Kafka as part of their data streaming architecture.",
+        "url": "https://callthecar.com/docs/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of working with X12 transactions in public documentation.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

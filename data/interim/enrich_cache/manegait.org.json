@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ManeGait adheres to HIPAA regulations for protecting health information.",
+        "url": "https://manegait.org/what-we-do/#health"
+      },
+      {
+        "claim": "The organization employs measures to ensure compliance with health technology standards.",
+        "url": "https://manegait.org/about/#compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or relevant EDI use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

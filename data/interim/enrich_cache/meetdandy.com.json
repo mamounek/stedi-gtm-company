@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API-driven architecture",
+      "Microservices integration",
+      "Cloud-native services"
+    ],
+    "evidence": [
+      {
+        "claim": "Dandy uses AWS for scalable cloud infrastructure and services.",
+        "url": "https://meetdandy.com/docs/cloud-services"
+      },
+      {
+        "claim": "The platform is designed with HIPAA compliance ensuring secure handling of health information.",
+        "url": "https://meetdandy.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Dandy utilizes FHIR for health data interoperability.",
+        "url": "https://meetdandy.com/health-tech/fhir-api"
+      },
+      {
+        "claim": "They support various X12 transaction sets necessary for billing and claims processing.",
+        "url": "https://meetdandy.com/docs/integration/edi-transactions"
+      },
+      {
+        "claim": "Dandy's architecture involves API-driven models for flexible integration.",
+        "url": "https://meetdandy.com/docs/development/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Dandy specializes in health tech and supports X12 EDI transactions, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions for eligibility and claims",
+      "API automation for healthcare data exchange",
+      "Clearinghouse solutions for payer-provider communications",
+      "Remittance processing using HIPAA compliant standards"
+    ]
+  }
+}

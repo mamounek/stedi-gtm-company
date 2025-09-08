@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR APIs",
+      "HL7 standards",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Asynchronous messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Cezta Solutions integrates AWS Lambda for serverless application development.",
+        "url": "https://cezta.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform utilizes FHIR APIs to facilitate health data exchange.",
+        "url": "https://cezta.com/healthtech/fhir-integration"
+      },
+      {
+        "claim": "Cezta Solutions is HIPAA compliant, ensuring secure handling of health data.",
+        "url": "https://cezta.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company employs AWS S3 for scalable storage solutions in their health-tech platforms.",
+        "url": "https://cezta.com/dev/aws-s3-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Cezta Solutions supports X12 transactions and focuses on healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims submissions via 837",
+      "Eligibility checks using 270/271",
+      "Remittance advice via 835",
+      "Real-time notifications for claims status"
+    ]
+  }
+}

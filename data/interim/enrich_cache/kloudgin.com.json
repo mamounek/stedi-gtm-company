@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "KloudGin uses AWS for cloud infrastructure support.",
+        "url": "https://kloudgin.com/cloud-solutions"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for handling sensitive health data.",
+        "url": "https://kloudgin.com/security"
+      },
+      {
+        "claim": "Integration with EHRs adheres to HL7 standards.",
+        "url": "https://kloudgin.com/integration"
+      },
+      {
+        "claim": "Utilizes Azure services for various backend processes.",
+        "url": "https://kloudgin.com/platform"
+      },
+      {
+        "claim": "Offers APIs for seamless integration with third-party applications.",
+        "url": "https://kloudgin.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of focus on X12 transactions or EDI integration on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

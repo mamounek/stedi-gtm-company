@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS) for cloud infrastructure",
+      "Azure Event Hubs for data streaming",
+      "Snowflake for data warehousing"
+    ],
+    "health_tech": [
+      "FHIR for interoperability in health applications",
+      "X12 for electronic data interchange transactions"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming using Kafka",
+      "Batch processing with dbt"
+    ],
+    "evidence": [
+      {
+        "claim": "ProHawk AI utilizes AWS for its cloud infrastructure.",
+        "url": "https://prohawk.ai/docs/infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR standards for data interoperability.",
+        "url": "https://prohawk.ai/health-tech"
+      },
+      {
+        "claim": "Integration with X12 standards for healthcare transaction processing.",
+        "url": "https://prohawk.ai/careers/engineering"
+      },
+      {
+        "claim": "Snowflake is used for data warehousing solutions.",
+        "url": "https://prohawk.ai/docs/data-platforms"
+      },
+      {
+        "claim": "Utilizes Kafka for streaming data integration.",
+        "url": "https://prohawk.ai/docs/cloud-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ProHawk AI utilizes X12 for data exchange, demonstrating fit for HIPAA EDI use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

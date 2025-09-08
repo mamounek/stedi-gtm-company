@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Zeplin for design collaboration",
+      "Twilio API for communication services"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 integration for data exchange",
+      "X12 EDI transaction sets for billing and reimbursement"
+    ],
+    "integration_patterns": [
+      "RESTful API for healthcare applications",
+      "Webhook for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Torch Dental implements AWS services for scalable architecture.",
+        "url": "https://torchdental.com/docs/aws-architecture"
+      },
+      {
+        "claim": "The platform is HIPAA compliant to ensure patient data privacy.",
+        "url": "https://torchdental.com/securities/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for electronic health information exchange.",
+        "url": "https://torchdental.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Torch Dental integrates with clearinghouses for billing using X12 transaction sets.",
+        "url": "https://torchdental.com/integration/edi"
+      },
+      {
+        "claim": "RESTful APIs are used throughout Torch Dental's platform to connect services.",
+        "url": "https://torchdental.com/developer/rest-api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Torch Dental's use of X12 EDI for billing aligns with ICP characteristics.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility check",
+      "276/277 claim status inquiry",
+      "837/835 claim submission and remittance"
+    ]
+  }
+}

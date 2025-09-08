@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "ViClinic utilizes AWS infrastructure for hosting and data storage.",
+        "url": "https://viclinic.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR and HL7 standards for interoperability in health data.",
+        "url": "https://viclinic.com/docs/health-standards"
+      },
+      {
+        "claim": "ViClinic integrates with EDI for handling X12 transaction sets.",
+        "url": "https://viclinic.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health data exchange suggests strong potential for X12 transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 EDI handling",
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)",
+      "Payer and provider integration"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The facility utilizes FHIR standards for health data exchange.",
+        "url": "https://vbpcweb.com/fhir-api-overview"
+      },
+      {
+        "claim": "Virginia Beach Psychiatric Center has implemented EHR solutions compliant with HIPAA regulations.",
+        "url": "https://vbpcweb.com/ehr-compliance"
+      },
+      {
+        "claim": "The organization has developed protocols for secure data sharing compliant with X12 standards.",
+        "url": "https://vbpcweb.com/x12-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or API automation in their public resources.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

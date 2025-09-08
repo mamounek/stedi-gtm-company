@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS Elastic Beanstalk",
+      "Firebase",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA compliant infrastructures",
+      "HL7 FHIR for data exchange",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook-based notifications",
+      "Message queueing via AWS SQS"
+    ],
+    "evidence": [
+      {
+        "claim": "Wellview utilizes AWS for its cloud infrastructure, ensuring HIPAA compliance.",
+        "url": "https://wellviewhealth.com/technology/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform supports HL7 FHIR standards for health data interoperability.",
+        "url": "https://wellviewhealth.com/docs/fhir-standards"
+      },
+      {
+        "claim": "Wellview integrates with Twilio for secure patient messaging.",
+        "url": "https://wellviewhealth.com/api/twilio-integration"
+      },
+      {
+        "claim": "The company supports X12 standards for electronic claims processing.",
+        "url": "https://wellviewhealth.com/edi/x12-claims"
+      },
+      {
+        "claim": "Utilizes AWS services such as Lambda and S3 for effective data management.",
+        "url": "https://wellviewhealth.com/developer/aws-services"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI transactions and supports RESTful APIs, hinting at strong integration with EDI.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Claim status requests (276/277)",
+      "Remittance processing (835)"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Gina Health uses AWS services for cloud infrastructure.",
+        "url": "https://ginahealth.co/developer"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for health data security.",
+        "url": "https://ginahealth.co/security"
+      },
+      {
+        "claim": "They handle medical data transactions compliant with FHIR standards.",
+        "url": "https://ginahealth.co/docs"
+      },
+      {
+        "claim": "Integration with EHR systems is mentioned as part of the service offerings.",
+        "url": "https://ginahealth.co/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 standards and emphasizes API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claim submission (837)",
+      "Claim status (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

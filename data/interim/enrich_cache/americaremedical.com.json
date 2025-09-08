@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "Google Cloud Storage",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI transaction set 835",
+      "FHIR",
+      "HL7 v2.5"
+    ],
+    "integration_patterns": [
+      "API Integration for EHR systems",
+      "batch data loads from cloud storage",
+      "real-time data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "AmeriCare Medical utilizes AWS services including Lambda and RDS for backend infrastructure.",
+        "url": "https://americaremedical.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations and implements X12 transactions for claims processing.",
+        "url": "https://americaremedical.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "AmeriCare Medical's platform interfaces with EHR systems using FHIR standards.",
+        "url": "https://americaremedical.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Integration patterns include real-time data streaming with AWS Kinesis for health data analytics.",
+        "url": "https://americaremedical.com/docs/data-streaming"
+      },
+      {
+        "claim": "The site details their use of Google Cloud Storage for data archiving and processing.",
+        "url": "https://americaremedical.com/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI transactions and integrates with health tech, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction set 835",
+      "real-time data streaming for claim processing",
+      "API Integration with EHR systems",
+      "remittance processing"
+    ]
+  }
+}

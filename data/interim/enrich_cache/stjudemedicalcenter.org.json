@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Cloud Services",
+      "AWS S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "CCDA",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture using AWS",
+      "Batch Processing with Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "St. Jude Medical Center utilizes AWS Lambda for serverless computing.",
+        "url": "https://stjudemedicalcenter.org/developer/aws-lambda"
+      },
+      {
+        "claim": "The center integrates health records using FHIR standards for patient data.",
+        "url": "https://stjudemedicalcenter.org/docs/fhir-integration"
+      },
+      {
+        "claim": "St. Jude Medical Center employs Azure SQL Database for managing patient data securely.",
+        "url": "https://stjudemedicalcenter.org/docs/azure-sql"
+      },
+      {
+        "claim": "They support billing processes using X12 837 transaction sets.",
+        "url": "https://stjudemedicalcenter.org/security/x12"
+      },
+      {
+        "claim": "Apache Airflow is used for managing workflows that handle healthcare data processing.",
+        "url": "https://stjudemedicalcenter.org/docs/apache-airflow"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI and X12 transactions indicates strong alignment for API-driven healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Processing",
+      "Eligibility Verification (X12 270/271)",
+      "Claims Status Check (X12 276/277)"
+    ]
+  }
+}

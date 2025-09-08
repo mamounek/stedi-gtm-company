@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API"
+    ],
+    "evidence": [
+      {
+        "claim": "Celeste utilizes AWS cloud services, specifically Amazon S3 for data storage.",
+        "url": "https://heyceleste.co/docs/infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data privacy and security.",
+        "url": "https://heyceleste.co/security"
+      },
+      {
+        "claim": "Celeste supports HL7 standards for health information exchange.",
+        "url": "https://heyceleste.co/docs/integration"
+      },
+      {
+        "claim": "They provide a RESTful API for integration with healthcare systems.",
+        "url": "https://heyceleste.co/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12, EDI use cases or clearinghouse functionality found on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

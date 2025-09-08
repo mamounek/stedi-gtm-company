@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliant systems",
+      "X12 EDI transaction sets",
+      "FHIR APIs for health data integration"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "Batch data processing via AWS services"
+    ],
+    "evidence": [
+      {
+        "claim": "EverCheck utilizes AWS services for their cloud infrastructure.",
+        "url": "https://www.evercheck.com/technology"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, suitable for handling sensitive health information.",
+        "url": "https://www.evercheck.com/healthcare-compliance"
+      },
+      {
+        "claim": "EverCheck integrates with various EHR systems using FHIR APIs.",
+        "url": "https://www.evercheck.com/integration-options"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliant systems and X12 EDI transactions; relevant tech stack and use cases identified.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Real-time eligibility checks (270/271)",
+      "Claims submission and processing (837)",
+      "Remittance advice processing (835)",
+      "Eligibility verification with payers"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "MongoDB Atlas",
+      "AWS RDS",
+      "AWS AppSync"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2",
+      "X12 837",
+      "X12 270/271",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "RESTful Services",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Refresh uses AWS services for cloud infrastructure, ensuring scalability and reliability.",
+        "url": "https://refreshplatform.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Integration with FHIR standards for healthcare interoperability.",
+        "url": "https://refreshplatform.com/docs/healthcare-integration"
+      },
+      {
+        "claim": "Supports X12 transaction sets for electronic claims processing.",
+        "url": "https://refreshplatform.com/docs/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 formats and operates in health tech with API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 270/271 Eligibility Query",
+      "X12 835 Remittance Advice",
+      "EHR Integration via APIs"
+    ]
+  }
+}

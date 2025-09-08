@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Gradient utilizes AWS Lambda for serverless computing capabilities.",
+        "url": "https://gradient.ai/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Their platform is fully HIPAA compliant for handling patient data.",
+        "url": "https://gradient.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "Gradient supports FHIR standards for data exchange in health applications.",
+        "url": "https://gradient.ai/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated via REST APIs as documented on their development page.",
+        "url": "https://gradient.ai/developer/rest-api-integration"
+      },
+      {
+        "claim": "The company uses Azure Functions for event-driven processing in their applications.",
+        "url": "https://gradient.ai/docs/azure-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or clearinghouse-related capabilities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

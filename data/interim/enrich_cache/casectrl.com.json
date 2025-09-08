@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Data Integration via AWS Lambda",
+      "EHR system integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS services including Lambda and S3 for their tech stack.",
+        "url": "https://casectrl.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "CaseCTRL ensures HIPAA compliance for handling sensitive health data.",
+        "url": "https://casectrl.com/security"
+      },
+      {
+        "claim": "The system integrates with EHRs using FHIR standards for patient data exchange.",
+        "url": "https://casectrl.com/docs/integration"
+      },
+      {
+        "claim": "They implement integration patterns using REST APIs to connect with external systems.",
+        "url": "https://casectrl.com/docs/api"
+      },
+      {
+        "claim": "The use of X12 standards for healthcare transactions is referenced in their technology overview.",
+        "url": "https://casectrl.com/docs/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CaseCTRL's focus on HIPAA compliance and X12 transactions aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transaction Sets",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Processing",
+      "EHR Integration"
+    ]
+  }
+}

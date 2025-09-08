@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "AmeriSource HR focuses on healthcare staffing and consulting, ensuring HIPAA compliance in their service offerings.",
+        "url": "https://amerisourcehr.com/services/healthcare-staffing"
+      },
+      {
+        "claim": "They employ various integration technologies for efficient HR solutions, but specific APIs are not listed on their site.",
+        "url": "https://amerisourcehr.com/services/hr-consulting"
+      }
+    ],
+    "tech_stack_confidence": 0.23
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating involvement with X12 healthcare transactions.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

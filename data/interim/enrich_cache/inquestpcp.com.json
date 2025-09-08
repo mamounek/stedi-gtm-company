@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "InquestPCP utilizes AWS services such as Lambda and S3 for their cloud infrastructure.",
+        "url": "https://www.inquestpcp.com/aws-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange as part of their interoperability strategy.",
+        "url": "https://www.inquestpcp.com/fhir-implementation"
+      },
+      {
+        "claim": "InquestPCP has information regarding HL7 V2 messaging in their technical resources.",
+        "url": "https://www.inquestpcp.com/hl7-standards"
+      },
+      {
+        "claim": "Their documentation mentions the use of RESTful APIs for various integrations within healthcare systems.",
+        "url": "https://www.inquestpcp.com/api-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found linking to X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

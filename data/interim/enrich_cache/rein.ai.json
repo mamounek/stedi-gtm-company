@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "Batch processing",
+      "Asynchronous messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "REIN utilizes AWS cloud services for scalability and infrastructure.",
+        "url": "https://rein.ai/docs/infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR standard for health data exchange.",
+        "url": "https://rein.ai/developer/health-tech"
+      },
+      {
+        "claim": "REIN has integrated with various EHR systems including those that support X12 transaction sets.",
+        "url": "https://rein.ai/case-study/ehr"
+      },
+      {
+        "claim": "They leverage Kafka for real-time data processing.",
+        "url": "https://rein.ai/docs/architecture"
+      },
+      {
+        "claim": "REIN abstracts away complexities of EDI and X12 transactions in health tech.",
+        "url": "https://rein.ai/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12, EDI with a focus on health tech, aligning with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission",
+      "Eligibility verification",
+      "Remittance advice processing",
+      "Real-time eligibility checks"
+    ]
+  }
+}

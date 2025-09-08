@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Pub/Sub",
+      "Microsoft Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "HL7 FHIR standard"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Message queues",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless application's backend.",
+        "url": "https://innovativecareservices.org/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Innovative Care Services adheres to HIPAA regulations for data protection.",
+        "url": "https://innovativecareservices.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "They leverage the HL7 FHIR standard for health data interoperability.",
+        "url": "https://innovativecareservices.org/developer/fhir-implementation"
+      },
+      {
+        "claim": "AWS S3 is used for storing large datasets securely.",
+        "url": "https://innovativecareservices.org/docs/aws-s3-storage"
+      },
+      {
+        "claim": "The system integrates real-time data processing using Google Cloud Pub/Sub.",
+        "url": "https://innovativecareservices.org/integration/google-cloud-pubsub"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions, indicating alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

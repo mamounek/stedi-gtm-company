@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "CureCare utilizes AWS for cloud infrastructure.",
+        "url": "https://curecare.com/docs/infrastructure"
+      },
+      {
+        "claim": "CureCare implements HIPAA compliance for secure data handling.",
+        "url": "https://curecare.com/security"
+      },
+      {
+        "claim": "The company relies on FHIR standards for health data interoperability.",
+        "url": "https://curecare.com/docs/health-data"
+      },
+      {
+        "claim": "CureCare employs Kafka for real-time data streaming.",
+        "url": "https://curecare.com/docs/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 data exchange or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

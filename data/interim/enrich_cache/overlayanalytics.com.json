@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "ETL processes",
+      "Data streaming",
+      "APIs for healthcare data integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Overlay Analytics utilizes AWS for cloud infrastructure.",
+        "url": "https://overlayanalytics.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform integrates FHIR standards for health data interoperability.",
+        "url": "https://overlayanalytics.com/health-tech/core-apis"
+      },
+      {
+        "claim": "Uses Snowflake for data warehousing and analytics capabilities.",
+        "url": "https://overlayanalytics.com/docs/architecture"
+      },
+      {
+        "claim": "Complies with HIPAA regulations for handling healthcare data securely.",
+        "url": "https://overlayanalytics.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Overlay Analytics uses X12 for healthcare data integration, indicating alignment with ICP needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Transaction handling with X12"
+    ]
+  }
+}

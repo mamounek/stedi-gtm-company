@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services to ensure scalability and reliability.",
+        "url": "https://mobilelabtechs.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "They have a documented commitment to HIPAA compliance for their health tech solutions.",
+        "url": "https://mobilelabtechs.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration using FHIR standards for interoperability with EHR systems is mentioned in their technical resources.",
+        "url": "https://mobilelabtechs.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction involvement or relevant use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

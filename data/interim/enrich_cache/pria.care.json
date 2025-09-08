@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "CCD",
+      "X12",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Pria.Care utilizes AWS for cloud services and API management.",
+        "url": "https://www.pria.care/docs/developer"
+      },
+      {
+        "claim": "Health data is exchanged using FHIR standards.",
+        "url": "https://www.pria.care/docs/health-tech"
+      },
+      {
+        "claim": "Pria.Care supports HL7 messaging for interoperability with electronic health records.",
+        "url": "https://www.pria.care/security"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through REST APIs.",
+        "url": "https://www.pria.care/integrations"
+      },
+      {
+        "claim": "They leverage X12 transaction sets for billing and claims processing.",
+        "url": "https://www.pria.care/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions or specific clearinghouse operations.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

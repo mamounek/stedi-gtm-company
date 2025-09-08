@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Arden Home Health & Hospice utilizes AWS cloud services for data storage and application deployment.",
+        "url": "https://ardencares.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards, ensuring secure handling of health information.",
+        "url": "https://ardencares.com/security"
+      },
+      {
+        "claim": "Arden employs RESTful APIs for integration with EHR systems.",
+        "url": "https://ardencares.com/docs"
+      },
+      {
+        "claim": "HL7 and FHIR standards are implemented in their data exchange processes.",
+        "url": "https://ardencares.com/careers#healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for transaction processing, indicating API automation and clearinghouse needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "837 claims submission",
+      "835 remittance processing",
+      "270 eligibility inquiry",
+      "271 eligibility response",
+      "276 claim status request",
+      "277 claim status response"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow",
+      "dbt"
+    ],
+    "evidence": [
+      {
+        "claim": "Cognitive Leap Solutions utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.cognitiveleap.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data integration.",
+        "url": "https://www.cognitiveleap.com/health-tech"
+      },
+      {
+        "claim": "They support HL7 transaction sets within their platform offerings.",
+        "url": "https://www.cognitiveleap.com/api"
+      },
+      {
+        "claim": "Cognitive Leap Solutions uses Apache Kafka for data streaming solutions.",
+        "url": "https://www.cognitiveleap.com/docs/streaming"
+      },
+      {
+        "claim": "Integration patterns with dbt for data transformation are employed.",
+        "url": "https://www.cognitiveleap.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit use cases for X12 transactions or EDI found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

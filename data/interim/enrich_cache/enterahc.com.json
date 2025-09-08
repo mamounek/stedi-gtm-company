@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "GraphQL API"
+    ],
+    "evidence": [
+      {
+        "claim": "Entera leverages AWS services to support their infrastructure.",
+        "url": "https://www.enterahc.com/developer"
+      },
+      {
+        "claim": "Their platform ensures HIPAA compliance for data handling.",
+        "url": "https://www.enterahc.com/security"
+      },
+      {
+        "claim": "The use of FHIR standards facilitates interoperability with EHR systems.",
+        "url": "https://www.enterahc.com/docs"
+      },
+      {
+        "claim": "Integration methodologies include REST and GraphQL APIs for seamless data transactions.",
+        "url": "https://www.enterahc.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or EDI-related services on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

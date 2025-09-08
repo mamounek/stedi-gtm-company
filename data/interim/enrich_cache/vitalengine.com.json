@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Amazon S3",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HL7 integration",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Asynchronous message processing",
+      "Webhook event handling"
+    ],
+    "evidence": [
+      {
+        "claim": "VitalEngine utilizes AWS services for scalable API management and data storage.",
+        "url": "https://vitalengine.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR and HL7 standards for health data interoperability.",
+        "url": "https://vitalengine.com/health-tech/fhir-hl7"
+      },
+      {
+        "claim": "They implement X12 EDI for healthcare claim transactions processing.",
+        "url": "https://vitalengine.com/docs/edi-x12"
+      },
+      {
+        "claim": "Evident use of AWS Lambda for serverless architecture within their API systems.",
+        "url": "https://vitalengine.com/dev/aws-lambda"
+      },
+      {
+        "claim": "Integration with various cloud services is highlighted on their developer documentation pages.",
+        "url": "https://vitalengine.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI transactions and provides health tech API solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice automation"
+    ]
+  }
+}

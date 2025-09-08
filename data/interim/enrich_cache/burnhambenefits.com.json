@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Burnham Benefits Insurance Services emphasizes compliance with HIPAA regulations in their offerings.",
+        "url": "https://burnhambenefits.com/services/compliance/"
+      },
+      {
+        "claim": "The company likely uses cloud services but has no specific API documentation publicly available.",
+        "url": "https://burnhambenefits.com/#"
+      },
+      {
+        "claim": "Details on the integration of health data standards like FHIR or HL7 are not prominently featured on their site.",
+        "url": "https://burnhambenefits.com/services/health-benefits/"
+      },
+      {
+        "claim": "No partnerships or evidence of using specific EHRs or clearinghouses have been noted on their website.",
+        "url": "https://burnhambenefits.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.26
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 usage or API automation capabilities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

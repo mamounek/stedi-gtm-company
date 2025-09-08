@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "IBM Cloud",
+      "Oracle Cloud Infrastructure"
+    ],
+    "health_tech": [
+      "HIPAA compliant infrastructure",
+      "HL7 integration",
+      "FHIR standards support"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Real-time data streaming",
+      "Batch data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Honeywell utilizes AWS for cloud services that support industrial automation.",
+        "url": "https://www.honeywell.com/us/en/solutions/industrial-automation"
+      },
+      {
+        "claim": "Honeywell has developed secure APIs compliant with HIPAA for medical device integration.",
+        "url": "https://www.honeywell.com/us/en/solutions/healthcare"
+      },
+      {
+        "claim": "The company supports HL7 standards for interoperability between health systems.",
+        "url": "https://www.honeywell.com/us/en/solutions/healthcare"
+      },
+      {
+        "claim": "They offer integration with various cloud platforms including Microsoft Azure and Google Cloud.",
+        "url": "https://www.honeywell.com/us/en/solutions/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of targeting X12 transactions or healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

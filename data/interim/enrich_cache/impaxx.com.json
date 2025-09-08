@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "FHIR",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "NuQuest leverages AWS for its cloud services.",
+        "url": "https://impaxx.com/aws-integration"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR interoperability standards.",
+        "url": "https://impaxx.com/health-tech/hl7-fhir"
+      },
+      {
+        "claim": "NuQuest ensures compliance with HIPAA regulations for health data.",
+        "url": "https://impaxx.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns mentioned include support for X12 transaction sets.",
+        "url": "https://impaxx.com/edi/x12-support"
+      },
+      {
+        "claim": "Azure services are utilized for secure data management.",
+        "url": "https://impaxx.com/docs/azure-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "NuQuest's focus on HIPAA and X12 integration implies an ICP match for API healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "data exchange between payers and providers"
+    ]
+  }
+}

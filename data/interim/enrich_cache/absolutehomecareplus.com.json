@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standard"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Absolute Home Care Plus complies with HIPAA regulations for health information handling.",
+        "url": "https://absolutehomecareplus.com/privacy-policy"
+      },
+      {
+        "claim": "The company utilizes HL7 standards for health information exchange.",
+        "url": "https://absolutehomecareplus.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction usage or API automation on company site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

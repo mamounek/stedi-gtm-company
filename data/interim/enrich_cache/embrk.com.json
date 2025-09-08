@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Embrk is compliant with HIPAA regulations to ensure data protection in health tech.",
+        "url": "https://embrk.com/security"
+      },
+      {
+        "claim": "Embrk utilizes HL7 FHIR standards for health data interoperability.",
+        "url": "https://embrk.com/docs/fhir"
+      },
+      {
+        "claim": "The company employs API integrations to connect with various healthcare data systems.",
+        "url": "https://embrk.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of working with X12 transactions or relevant use cases found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

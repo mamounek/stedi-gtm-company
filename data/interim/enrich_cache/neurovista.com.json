@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "NeuroVista uses FHIR standards for interoperable health data exchange.",
+        "url": "https://neurovista.com/fhir-interoperability"
+      },
+      {
+        "claim": "The company is HIPAA-compliant, ensuring data security and privacy.",
+        "url": "https://neurovista.com/security"
+      },
+      {
+        "claim": "Utilizes AWS services for cloud infrastructure.",
+        "url": "https://neurovista.com/cloud-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction or API automation use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

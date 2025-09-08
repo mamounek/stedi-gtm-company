@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Data Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Tredit IQ utilizes AWS for their infrastructure needs.",
+        "url": "https://treditiq.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for handling healthcare data.",
+        "url": "https://treditiq.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Kafka is mentioned as part of their data processing architecture.",
+        "url": "https://treditiq.com/docs/data-architecture"
+      },
+      {
+        "claim": "Snowflake is used for cloud data warehousing in their tech stack.",
+        "url": "https://treditiq.com/docs/snowflake-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or clearinghouse capabilities on the website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

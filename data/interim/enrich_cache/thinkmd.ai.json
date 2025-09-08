@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for scalable cloud infrastructure.",
+        "url": "https://thinkmd.ai/developer/aws-integration"
+      },
+      {
+        "claim": "ThinkMD adheres to HIPAA regulations for secure data handling in health tech.",
+        "url": "https://thinkmd.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "ThinkMD implements FHIR standards for health data interoperability.",
+        "url": "https://thinkmd.ai/docs/fhir-implementation"
+      },
+      {
+        "claim": "The platform supports HL7 messaging for health data exchange.",
+        "url": "https://thinkmd.ai/careers/health-tech-integration"
+      },
+      {
+        "claim": "Real-time data processing using RESTful APIs has been outlined in their integration documentation.",
+        "url": "https://thinkmd.ai/developer/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction handling or specific integration with clearinghouses.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

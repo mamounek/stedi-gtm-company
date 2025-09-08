@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Tx3 Services utilizes AWS for hosting and cloud services to ensure scalability and reliability.",
+        "url": "https://tx3services.com/cloud-services"
+      },
+      {
+        "claim": "The company follows HIPAA regulations for data protection and handling of health-related information.",
+        "url": "https://tx3services.com/security"
+      },
+      {
+        "claim": "Tx3 Services offers FHIR integration capabilities for EHR interoperability.",
+        "url": "https://tx3services.com/docs/fhir-integration"
+      },
+      {
+        "claim": "They support X12 transaction sets in their EDI solutions processing for healthcare billing.",
+        "url": "https://tx3services.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health tech with clear use of X12 standards in API integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "data exchange with payers"
+    ]
+  }
+}

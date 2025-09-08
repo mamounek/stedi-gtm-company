@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API connectivity",
+      "Data streaming",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Alacrity Solutions utilizes AWS for cloud infrastructure and services.",
+        "url": "https://www.alacritysolutions.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health information security.",
+        "url": "https://www.alacritysolutions.com/security"
+      },
+      {
+        "claim": "Alacrity Solutions implements FHIR standards for health data interoperability.",
+        "url": "https://www.alacritysolutions.com/health-tech"
+      },
+      {
+        "claim": "Integration with EDI X12 transaction sets is part of their service offerings.",
+        "url": "https://www.alacritysolutions.com/integration-services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA X12 for healthcare data processing, indicating API automation needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission and processing (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

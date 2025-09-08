@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Twilio",
+      "PostgreSQL on AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837 (Health Care Claims)",
+      "X12 276/277 (Healthcare Claim Status)",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook-based notifications",
+      "Event-driven architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "In The Network utilizes AWS services for hosting and processing healthcare data.",
+        "url": "https://inthenetwork.com/partners"
+      },
+      {
+        "claim": "The company ensures HIPAA-compliance in its infrastructure for handling sensitive health information.",
+        "url": "https://inthenetwork.com/security"
+      },
+      {
+        "claim": "Integration with EHRs via FHIR and HL7 standards is part of their offering.",
+        "url": "https://inthenetwork.com/docs"
+      },
+      {
+        "claim": "They implement real-time communication through Twilio APIs for better patient engagement.",
+        "url": "https://inthenetwork.com/developer"
+      },
+      {
+        "claim": "Use of X12 EDI standards to facilitate healthcare transactions such as claims and status inquiries.",
+        "url": "https://inthenetwork.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "In The Network handles X12 transactions and aligns with API-first healthcare integration.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 837 (Health Care Claims)",
+      "X12 276/277 (Healthcare Claim Status)",
+      "claims processing",
+      "eligibility verification",
+      "remittance automation"
+    ]
+  }
+}

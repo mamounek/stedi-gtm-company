@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "NICA implements HIPAA-compliant data handling to safeguard patient information.",
+        "url": "https://nicaservices.com/security"
+      },
+      {
+        "claim": "NICA utilizes AWS cloud services for its infrastructure, ensuring scalability and reliability.",
+        "url": "https://nicaservices.com/docs/cloud"
+      },
+      {
+        "claim": "The integration of FHIR standards allows seamless data exchange with health systems.",
+        "url": "https://nicaservices.com/developer/fhir"
+      },
+      {
+        "claim": "NICA supports X12 transaction sets for healthcare claims processing.",
+        "url": "https://nicaservices.com/api/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "NICA utilizes HIPAA and X12, indicating alignment with API-driven healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider enrollment",
+      "payer communication"
+    ]
+  }
+}

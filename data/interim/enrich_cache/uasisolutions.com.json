@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "Real-Time Streaming",
+      "ETL Processes"
+    ],
+    "evidence": [
+      {
+        "claim": "UASI leverages AWS for cloud services and data processing capabilities.",
+        "url": "https://uasisolutions.com/technology/aws-integration"
+      },
+      {
+        "claim": "They utilize Azure for application hosting and health services.",
+        "url": "https://uasisolutions.com/technology/azure-platform"
+      },
+      {
+        "claim": "UASI implements HL7 and FHIR standards for health data interoperability.",
+        "url": "https://uasisolutions.com/healthcare-solutions/fhir-interoperability"
+      },
+      {
+        "claim": "Their architecture supports X12 and EDI transactions for health claims processing.",
+        "url": "https://uasisolutions.com/services/edi-solutions"
+      },
+      {
+        "claim": "They employ Snowflake for data warehousing solutions.",
+        "url": "https://uasisolutions.com/data-analytics/snowflake-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "HIPAA compliance",
+      "patient data exchange",
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Flournoy Health Systems adheres to HIPAA standards for patient data protection.",
+        "url": "https://flournoyhealthsystems.org/security"
+      },
+      {
+        "claim": "The organization utilizes FHIR for health data interoperability.",
+        "url": "https://flournoyhealthsystems.org/docs/fhir"
+      },
+      {
+        "claim": "Flournoy is involved in electronic data interchange using X12 transaction sets.",
+        "url": "https://flournoyhealthsystems.org/edi"
+      },
+      {
+        "claim": "HL7 standards are incorporated into their data sharing processes.",
+        "url": "https://flournoyhealthsystems.org/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Flournoy integrates X12 standards for health data exchange, aligning with our ICP focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims submission (837)",
+      "claims remittance (835)",
+      "eligibility inquiries (270/271)",
+      "claim status requests (276/277)"
+    ]
+  }
+}

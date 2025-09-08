@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company is committed to HIPAA compliance for handling sensitive health information.",
+        "url": "https://tarheelseniorplacement.com/security"
+      },
+      {
+        "claim": "Mention of HL7 standards relevant to healthcare information exchange.",
+        "url": "https://tarheelseniorplacement.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.53
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found supporting X12 or API use cases on the company's site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

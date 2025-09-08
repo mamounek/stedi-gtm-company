@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "HTTP webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Med One Group uses AWS for cloud infrastructure.",
+        "url": "https://medonegroup.com/services/cloud-services/"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://medonegroup.com/healthcare-technology/hipaa-compliance/"
+      },
+      {
+        "claim": "They integrate with EHR systems using HL7 standards.",
+        "url": "https://medonegroup.com/healthcare-technology/integration/?utm_source=doc"
+      },
+      {
+        "claim": "The utilization of REST APIs for integrating healthcare data is mentioned.",
+        "url": "https://medonegroup.com/developer-docs/apis/"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or EDI use cases found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

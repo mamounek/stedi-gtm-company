@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "Recovery Matters claims to adhere to HIPAA regulations for data privacy and security in health tech.",
+        "url": "https://recoverymatters.care/security"
+      },
+      {
+        "claim": "FHIR is mentioned as part of their health data integration for interoperability.",
+        "url": "https://recoverymatters.care/integrations"
+      },
+      {
+        "claim": "The company emphasizes the importance of EDI processes in their operational workflows.",
+        "url": "https://recoverymatters.care/services"
+      },
+      {
+        "claim": "Recovery Matters provides updates on their engineering practices relevant to health tech compliance.",
+        "url": "https://recoverymatters.care/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or API automation needs.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

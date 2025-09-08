@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "X12 transaction sets integration"
+    ],
+    "evidence": [
+      {
+        "claim": "HLTH utilizes AWS for cloud services.",
+        "url": "https://hlth.com/developer/api-overview"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance regulations.",
+        "url": "https://hlth.com/security"
+      },
+      {
+        "claim": "HLTH implements integration patterns for EHRs through FHIR standards.",
+        "url": "https://hlth.com/docs/integrations"
+      },
+      {
+        "claim": "HLTH has mentioned using Kafka for data streaming services in their architecture.",
+        "url": "https://hlth.com/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company integrates X12 transaction sets for healthcare, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets integration",
+      "Automated eligibility checks (270/271)",
+      "Claims processing (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

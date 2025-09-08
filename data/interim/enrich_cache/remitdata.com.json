@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming",
+      "Middleware Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "RemitDATA utilizes AWS for cloud services.",
+        "url": "https://remitdata.com/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for health data.",
+        "url": "https://remitdata.com/security"
+      },
+      {
+        "claim": "RemitDATA's solutions integrate with X12 transaction sets for electronic claims processing.",
+        "url": "https://remitdata.com/edi"
+      },
+      {
+        "claim": "RemitDATA supports FHIR protocols for healthcare data interoperability.",
+        "url": "https://remitdata.com/fhir"
+      },
+      {
+        "claim": "Their platform uses Kafka for data streaming and real-time analytics.",
+        "url": "https://remitdata.com/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers advanced EDI solutions with a focus on claims and eligibility transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI Processing",
+      "Claims Submission",
+      "Eligibility Verification",
+      "Remittance Advice Automation"
+    ]
+  }
+}

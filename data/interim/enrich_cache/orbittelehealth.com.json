@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Real-time data streaming",
+      "Batch processing with AWS Batch"
+    ],
+    "evidence": [
+      {
+        "claim": "Orbit Telehealth utilizes AWS services such as Lambda and EC2 for serverless computing and hosting.",
+        "url": "https://orbittelehealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations to ensure data security in healthcare communications.",
+        "url": "https://orbittelehealth.com/security/#hipaa"
+      },
+      {
+        "claim": "Orbit Telehealth supports HL7 FHIR standards for healthcare data exchange.",
+        "url": "https://orbittelehealth.com/developer/fhir-integration"
+      },
+      {
+        "claim": "EDI X12 transaction sets are used for healthcare billing and claims processing within the Orbit system.",
+        "url": "https://orbittelehealth.com/docs/x12-edi"
+      },
+      {
+        "claim": "Real-time streaming of healthcare data is facilitated through AWS services like Kinesis.",
+        "url": "https://orbittelehealth.com/docs/aws-kinesis"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and X12 EDI integration aligns with target ICP profiles.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claims status inquiries",
+      "837/835 claim submissions and payments",
+      "API-based integration for real-time patient data exchange"
+    ]
+  }
+}

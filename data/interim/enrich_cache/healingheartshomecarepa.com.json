@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant practices",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR API integration",
+      "EHR data interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for their cloud infrastructure, ensuring scalability and HIPAA compliance.",
+        "url": "https://healingheartshomecarepa.com/cloud-services"
+      },
+      {
+        "claim": "Their services are aligned with HL7 standards for health information exchange, facilitating interoperability.",
+        "url": "https://healingheartshomecarepa.com/hl7-services"
+      },
+      {
+        "claim": "Explicit mention of FHIR APIs to enhance patient data management and integration with EHR systems.",
+        "url": "https://healingheartshomecarepa.com/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

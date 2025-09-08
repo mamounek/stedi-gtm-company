@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS services to host and manage cloud infrastructure for their healthcare applications.",
+        "url": "https://serendipityhhc.com/docs/cloud-services"
+      },
+      {
+        "claim": "Implements FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://serendipityhhc.com/healthtech/standards"
+      },
+      {
+        "claim": "Employs X12 EDI for efficient billing and insurance transactions.",
+        "url": "https://serendipityhhc.com/edi-billing"
+      },
+      {
+        "claim": "Integrates REST APIs to connect various healthcare systems for improved data exchange.",
+        "url": "https://serendipityhhc.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI standards for healthcare transactions and integrates with APIs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims submission",
+      "Eligibility verification",
+      "Remittance processing"
+    ]
+  }
+}

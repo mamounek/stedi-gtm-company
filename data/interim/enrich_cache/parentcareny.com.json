@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company provides services under HIPAA compliance, which suggests involvement in health technology.",
+        "url": "https://parentcareny.com/security"
+      },
+      {
+        "claim": "Parent Care NY mentions FHIR standards in their approach to healthcare data interchange.",
+        "url": "https://parentcareny.com/docs"
+      },
+      {
+        "claim": "The company references HL7 protocols for health information exchange.",
+        "url": "https://parentcareny.com/health-tech"
+      },
+      {
+        "claim": "They emphasize their adherence to industry standards for protecting patient information.",
+        "url": "https://parentcareny.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of focus on X12 transactions or API automation specific to a clearinghouse.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

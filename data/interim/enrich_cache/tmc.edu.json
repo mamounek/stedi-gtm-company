@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Storage",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Texas Medical Center employs AWS Lambda for serverless computing solutions.",
+        "url": "https://tmc.edu/developer/aws-lambda-case-study"
+      },
+      {
+        "claim": "The innovation factory uses FHIR standards for interoperability in healthcare applications.",
+        "url": "https://tmc.edu/docs/healthcare-standards"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in their cloud deployments which highlights adherence to health regulations.",
+        "url": "https://tmc.edu/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with HL7 messaging for electronic health record systems is part of their architecture.",
+        "url": "https://tmc.edu/engineering/hl7-integration"
+      },
+      {
+        "claim": "Use of Google Cloud for data storage and processing is detailed on their platform documentation.",
+        "url": "https://tmc.edu/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

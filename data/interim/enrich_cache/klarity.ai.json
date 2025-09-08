@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Klarity utilizes AWS services for cloud infrastructure including Lambda and S3 storage.",
+        "url": "https://klarity.ai/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Klarity's platform supports FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://klarity.ai/docs/health-tech"
+      },
+      {
+        "claim": "The company has stated it complies with HIPAA regulations for data security and patient privacy.",
+        "url": "https://klarity.ai/security-compliance"
+      },
+      {
+        "claim": "Klarity implements RESTful APIs to facilitate integration with external EHR systems.",
+        "url": "https://klarity.ai/developer/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of working with X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

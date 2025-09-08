@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Deerfield Agency highlights their ability to integrate various technologies for health-tech solutions.",
+        "url": "https://www.deerfieldagency.com/services/technology-integration"
+      },
+      {
+        "claim": "The agency has experience with strategies that involve HIPAA compliance in their marketing practices.",
+        "url": "https://www.deerfieldagency.com/healthcare/hipaa-guidelines"
+      },
+      {
+        "claim": "Deerfield offers services aimed at digital transformation in healthcare, signaling an understanding of EHR and FHIR requirements.",
+        "url": "https://www.deerfieldagency.com/healthcare/digital-transformation"
+      },
+      {
+        "claim": "They emphasize collaboration with hospitals and clinics, adding clarity to their understanding of healthcare operational frameworks.",
+        "url": "https://www.deerfieldagency.com/healthcare/collaboration"
+      }
+    ],
+    "tech_stack_confidence": 0.36
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 transactions or healthcare API automation.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

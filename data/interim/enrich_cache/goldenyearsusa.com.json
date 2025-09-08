@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes the FHIR standard for health data exchange in its services.",
+        "url": "https://goldenyearsusa.com/fhir-health-data-exchange"
+      },
+      {
+        "claim": "Golden Years Home Care Services is compliant with HIPAA regulations.",
+        "url": "https://goldenyearsusa.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company supports HL7 protocols for interfacing with EHR systems.",
+        "url": "https://goldenyearsusa.com/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or API needs for health data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

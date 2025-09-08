@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "ANP Health utilizes AWS Lambda for serverless architecture and data processing.",
+        "url": "https://anphealthsolutions.com/aws"
+      },
+      {
+        "claim": "The company implements FHIR standards for integrating health data.",
+        "url": "https://anphealthsolutions.com/fhir"
+      },
+      {
+        "claim": "ANP Health's platform conforms to HL7 protocols for healthcare data exchange.",
+        "url": "https://anphealthsolutions.com/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction support found on public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

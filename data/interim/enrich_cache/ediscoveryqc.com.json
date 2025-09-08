@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Webhook Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "eDiscoveryQC utilizes AWS for serverless computing and data storage solutions.",
+        "url": "https://ediscoveryqc.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform's compliance with HIPAA standards is highlighted on their website.",
+        "url": "https://ediscoveryqc.com/security"
+      },
+      {
+        "claim": "eDiscoveryQC mentions REST API methodologies for their integrations.",
+        "url": "https://ediscoveryqc.com/docs/api"
+      },
+      {
+        "claim": "Specific mention of using X12 EDI transactions for healthcare data interchange.",
+        "url": "https://ediscoveryqc.com/healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged with X12 transactions and HIPAA compliance indicating clear ICP alignment.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submissions",
+      "835 remittance processing",
+      "276/277 claim status inquiries"
+    ]
+  }
+}

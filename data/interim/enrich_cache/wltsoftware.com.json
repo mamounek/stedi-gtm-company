@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Middleware for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "WLT Software utilizes AWS for cloud services and infrastructure.",
+        "url": "https://www.wltsoftware.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations, ensuring secure handling of health data.",
+        "url": "https://www.wltsoftware.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "WLT Software integrates EHR systems using middleware solutions.",
+        "url": "https://www.wltsoftware.com/integrations/ehr"
+      },
+      {
+        "claim": "They support electronic healthcare transactions using X12 standards.",
+        "url": "https://www.wltsoftware.com/health-tech/x12-edi"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://www.wltsoftware.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on HIPAA compliance and X12 transaction sets, indicating alignment with ICP characteristics.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "Clearinghouse services",
+      "Claims processing",
+      "Eligibility checks",
+      "Remittance advice"
+    ]
+  }
+}

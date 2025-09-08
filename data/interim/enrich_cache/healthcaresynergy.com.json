@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthCare Synergy employs Amazon Web Services (AWS) for its cloud infrastructure.",
+        "url": "https://healthcaresynergy.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company leverages FHIR standards for data exchange in health applications.",
+        "url": "https://healthcaresynergy.com/docs/fhir-integration"
+      },
+      {
+        "claim": "HealthCare Synergy utilizes HL7 for interoperability between health information systems.",
+        "url": "https://healthcaresynergy.com/docs/hl7-support"
+      },
+      {
+        "claim": "The integration patterns include event-driven architecture to support real-time data processing.",
+        "url": "https://healthcaresynergy.com/docs/architecture"
+      },
+      {
+        "claim": "HealthCare Synergy implements X12 for electronic data interchange in billing and claims processing.",
+        "url": "https://healthcaresynergy.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focuses on healthcare data exchange and uses X12 standards, indicating strong ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "API integration for eligibility checks (270/271)",
+      "Claims submission and processing (837/835)",
+      "Remittance advice management",
+      "Payer and provider data exchange",
+      "Clearinghouse functionalities for EDI standards"
+    ]
+  }
+}

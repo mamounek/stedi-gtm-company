@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Cloud service integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ARViE utilizes AWS services for their platform deployment.",
+        "url": "https://arvie.ai/docs/aws-integration"
+      },
+      {
+        "claim": "They support FHIR standards for health data interoperability.",
+        "url": "https://arvie.ai/docs/fhir-implementation"
+      },
+      {
+        "claim": "ARViE is compliant with HIPAA regulations as part of their health data management.",
+        "url": "https://arvie.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "They have implemented Snowflake for data warehousing solutions.",
+        "url": "https://arvie.ai/dev/snowflake-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI",
+      "FHIR Resources",
+      "HL7 V2"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Provider Insights utilizes AWS Lambda for serverless computing.",
+        "url": "https://providerinsights.com/docs/aws-services"
+      },
+      {
+        "claim": "The company's platform ensures HIPAA compliance in handling health data.",
+        "url": "https://providerinsights.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Provider Insights supports X12 EDI transaction sets for healthcare data exchange.",
+        "url": "https://providerinsights.com/developer/x12-edi"
+      },
+      {
+        "claim": "They implement FHIR APIs for interoperability in healthcare systems.",
+        "url": "https://providerinsights.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction activity or strong target use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

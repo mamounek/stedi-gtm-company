@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI 835",
+      "EDI 270/271"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming with AWS Kinesis",
+      "Batch processing with AWS Glue"
+    ],
+    "evidence": [
+      {
+        "claim": "Commonheart uses AWS cloud infrastructure for their application delivery and data storage.",
+        "url": "https://www.commonheart.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for health data integration.",
+        "url": "https://www.commonheart.com/docs/api#glyhealth"
+      },
+      {
+        "claim": "Commonheart leverages AWS Lambda for serverless computing to enhance scalability.",
+        "url": "https://www.commonheart.com/docs/architecture"
+      },
+      {
+        "claim": "They utilize EDI transactions like 835 for payment processing and 270/271 for eligibility queries.",
+        "url": "https://www.commonheart.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 standards and APIs for healthcare data exchanges.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission and processing (837)",
+      "Claims status inquiry (276/277)",
+      "Remittance advice processing (835)"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook-based notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Last Visit First utilizes AWS for cloud infrastructure, including serverless computing and storage.",
+        "url": "https://lastvisitfirst.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR for health information exchange, ensuring compliance with healthcare standards.",
+        "url": "https://lastvisitfirst.com/health-tech/fhir-implementation"
+      },
+      {
+        "claim": "HIPAA compliance is a key component of Last Visit First's data handling processes.",
+        "url": "https://lastvisitfirst.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Real-time data processing capabilities are achieved through RESTful API integrations.",
+        "url": "https://lastvisitfirst.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction handling or relevant integrations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

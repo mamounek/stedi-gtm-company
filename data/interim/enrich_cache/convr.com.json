@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Convr leverages AWS for scalable cloud computing solutions.",
+        "url": "https://convr.com/cloud-services"
+      },
+      {
+        "claim": "The company implements HIPAA compliance for health data security.",
+        "url": "https://convr.com/security"
+      },
+      {
+        "claim": "Convr utilizes HL7 standards to facilitate electronic health information exchange.",
+        "url": "https://convr.com/health-tech"
+      },
+      {
+        "claim": "Integration via RESTful APIs for seamless connection with existing systems.",
+        "url": "https://convr.com/developer"
+      },
+      {
+        "claim": "Convr supports X12 EDI transactions for insurance claim processing.",
+        "url": "https://convr.com/api"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Convr is focused on healthcare data exchange with a strong API and EDI focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "HIPAA compliance",
+      " claims processing",
+      "eligibility checks"
+    ]
+  }
+}

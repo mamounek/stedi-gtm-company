@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "SAFE HOMECARE emphasizes HIPAA compliance in their operations.",
+        "url": "https://safehomecare.com/security/"
+      },
+      {
+        "claim": "They utilize HL7 standards in patient information exchange.",
+        "url": "https://safehomecare.com/docs/"
+      },
+      {
+        "claim": "Their EHR system is designed to comply with FHIR standards.",
+        "url": "https://safehomecare.com/careers/engineering/"
+      },
+      {
+        "claim": "Employment documentation mentions the use of industry-standard healthcare APIs.",
+        "url": "https://safehomecare.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction usage or API automation for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance frameworks for data handling in healthcare settings"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Great Strides ABA adheres to HIPAA regulations for patient data security.",
+        "url": "https://greatstrides-aba.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.29
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found linking to X12, EDI, or clearinghouse use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

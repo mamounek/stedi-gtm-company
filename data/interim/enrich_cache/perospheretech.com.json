@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway",
+      "AWS CDK"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Perosphere Technologies utilizes AWS services for scalable cloud infrastructure.",
+        "url": "https://perospheretech.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports HIPAA-compliant systems and FHIR standards for health data exchange.",
+        "url": "https://perospheretech.com/security/healthcare-compliance"
+      },
+      {
+        "claim": "Perosphere employs EDI X12 transaction sets in their data processing modules.",
+        "url": "https://perospheretech.com/developer/edi-support"
+      },
+      {
+        "claim": "The integration of HL7 standards is part of their health tech offerings.",
+        "url": "https://perospheretech.com/docs/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 and EDI, integration capabilities suggest strong fit with healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 claim submissions",
+      "Eligibility verification (270/271)",
+      "Claims status inquiries (276/277)",
+      "Remittance processing (835)",
+      "Clearinghouse services"
+    ]
+  }
+}

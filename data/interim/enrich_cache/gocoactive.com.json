@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Coactive adheres to HIPAA regulations for data privacy and security.",
+        "url": "https://gocoactive.com/security"
+      },
+      {
+        "claim": "The platform integrates with major cloud services to ensure scalability and security.",
+        "url": "https://gocoactive.com/docs"
+      },
+      {
+        "claim": "Coactive supports EHR interoperability standards such as FHIR.",
+        "url": "https://gocoactive.com/technologies"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or API automation use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

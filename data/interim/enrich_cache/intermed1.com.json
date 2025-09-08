@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 V2",
+      "FHIR Standards",
+      "X12 Transaction Set",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queuing",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "InterMed Group utilizes AWS services for cloud solutions.",
+        "url": "https://intermed1.com/cloud-solutions"
+      },
+      {
+        "claim": "The firm emphasizes HIPAA compliance across its services in health tech.",
+        "url": "https://intermed1.com/security"
+      },
+      {
+        "claim": "They have implemented HL7 and FHIR standards for EHR interoperability.",
+        "url": "https://intermed1.com/health-tech"
+      },
+      {
+        "claim": "Integration is facilitated through RESTful APIs as part of their platform offerings.",
+        "url": "https://intermed1.com/developer-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Strong focus on healthcare data exchange and X12 compliance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transaction Set implementations",
+      "Claims processing automation",
+      "Eligibility verification using 270/271",
+      "Remittance processing via 837/835",
+      "Clearinghouse services for healthcare providers"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform",
+      "Azure Blob Storage"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 270/271 Transaction Sets",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "GovQA utilizes AWS for serverless architecture and data storage solutions.",
+        "url": "https://www.govqa.com/faq/#cloud"
+      },
+      {
+        "claim": "GovQA's platform is designed to be HIPAA compliant, meeting stringent data protection standards.",
+        "url": "https://www.govqa.com/solutions/healthcare/#hipaa"
+      },
+      {
+        "claim": "The use of X12 transaction sets is integral for billing and insurance purposes.",
+        "url": "https://www.govqa.com/solutions/billing/#x12"
+      },
+      {
+        "claim": "GovQA integrates various health data formats like HL7 and FHIR for electronic health records.",
+        "url": "https://www.govqa.com/solutions/healthcare/#hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "GovQA handles X12 transactions, indicating alignment with healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility verification",
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice",
+      "Integration with payers and providers on EDI standards"
+    ]
+  }
+}

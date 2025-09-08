@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA X12",
+      "835",
+      "837",
+      "270",
+      "271"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "EHR Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Southwest Health uses FHIR standards for their interoperability solutions.",
+        "url": "https://www.southwesthealth.org/fhir-integration"
+      },
+      {
+        "claim": "The organization complies with HIPAA regulations for securing patient data.",
+        "url": "https://www.southwesthealth.org/security"
+      },
+      {
+        "claim": "Supported EDI transactions include 835 and 837 for claims and payments.",
+        "url": "https://www.southwesthealth.org/edi-standards"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through standard APIs.",
+        "url": "https://www.southwesthealth.org/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged with X12 transactions and APIs in healthcare.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims Submission (837)",
+      "Eligibility Verification (270/271)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

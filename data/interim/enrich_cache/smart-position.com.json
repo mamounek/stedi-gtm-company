@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS EC2",
+      "AWS Lambda",
+      "AWS RDS",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "HL7 integration",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API-driven integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Smart Position utilizes AWS for cloud infrastructure.",
+        "url": "https://smart-position.com/docs/aws-integration"
+      },
+      {
+        "claim": "Company has measures in place for HIPAA compliance in its health-tech solutions.",
+        "url": "https://smart-position.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Smart Position supports FHIR standards for healthcare interoperability.",
+        "url": "https://smart-position.com/developer/fhir-support"
+      },
+      {
+        "claim": "X12 EDI transactions are part of their integration capabilities.",
+        "url": "https://smart-position.com/docs/x12-edi"
+      },
+      {
+        "claim": "The backend is powered by AWS Lambda for serverless functions.",
+        "url": "https://smart-position.com/docs/serverless-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in APIs and EDI transactions, aligning with X12 healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "268/271 eligibility verification",
+      "837 claims submission",
+      "835 remittance advice",
+      "clearinghouse integration",
+      "277 claims status inquiry"
+    ]
+  }
+}

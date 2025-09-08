@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "X12 EDI Transactions",
+      "HL7 FHIR APIs"
+    ],
+    "integration_patterns": [
+      "REST API Integrations",
+      "Webhook Event Handling",
+      "Message Queue Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Consumer Attorney Record Services utilizes AWS for cloud storage and computation.",
+        "url": "https://carsmedrec.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in their data management practices.",
+        "url": "https://carsmedrec.com/security"
+      },
+      {
+        "claim": "They process X12 EDI transactions for healthcare claims.",
+        "url": "https://carsmedrec.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI and handles HIPAA data, indicating a focus on healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "HIPAA Compliant Data Handling",
+      "Eligibility Verification",
+      "Claims Processing",
+      "Remittance Advice Handling"
+    ]
+  }
+}

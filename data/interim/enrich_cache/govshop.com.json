@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "EDI Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "GovShop utilizes AWS for cloud services.",
+        "url": "https://govshop.com/docs/cloud-services"
+      },
+      {
+        "claim": "GovShop complies with HIPAA regulations for health data.",
+        "url": "https://govshop.com/security"
+      },
+      {
+        "claim": "The platform supports integration via API, allowing for seamless data exchange and interoperability.",
+        "url": "https://govshop.com/developer"
+      },
+      {
+        "claim": "GovShop processes EDI transactions in support of procurement activities.",
+        "url": "https://govshop.com/resources/edi"
+      },
+      {
+        "claim": "GovShop employs FHIR standards for health data interoperability.",
+        "url": "https://govshop.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or eligibility claims on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

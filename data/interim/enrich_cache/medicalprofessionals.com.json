@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for scalable infrastructure solutions.",
+        "url": "https://medicalprofessionals.com/developer/infrastructure"
+      },
+      {
+        "claim": "Professional Staffing Resources follows FHIR standards for health data exchange.",
+        "url": "https://medicalprofessionals.com/docs/fhir"
+      },
+      {
+        "claim": "Integration with EHR systems adheres to HL7 protocols.",
+        "url": "https://medicalprofessionals.com/security/hl7"
+      },
+      {
+        "claim": "The platform is HIPAA compliant for secure data handling in healthcare.",
+        "url": "https://medicalprofessionals.com/careers/security"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of engagement with X12 or API-driven healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

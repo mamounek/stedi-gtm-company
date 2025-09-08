@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "HL7 messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "GlobalPro's APIs are hosted on AWS cloud infrastructure.",
+        "url": "https://globalpro.com/docs/api"
+      },
+      {
+        "claim": "The company ensures compliance with HIPAA regulations in their health tech solutions.",
+        "url": "https://globalpro.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHRs using HL7 and FHIR standards is a key feature of GlobalPro's offerings.",
+        "url": "https://globalpro.com/docs/integration"
+      },
+      {
+        "claim": "GlobalPro supports transaction sets compliant with X12 standards for healthcare.",
+        "url": "https://globalpro.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "GlobalPro focuses on HIPAA-compliant data exchange with EDI transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "remittance advice",
+      "eligibility verification",
+      "billing and payment tracking",
+      "health data exchange"
+    ]
+  }
+}

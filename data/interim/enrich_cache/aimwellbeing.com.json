@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Company utilizes AWS Lambda for serverless computing tasks.",
+        "url": "https://aimwellbeing.com/docs/serverless-architecture"
+      },
+      {
+        "claim": "Indicates compliance with HIPAA regulations for handling health information.",
+        "url": "https://aimwellbeing.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Describes integration capabilities with EHR systems using HL7 FHIR standards.",
+        "url": "https://aimwellbeing.com/api/fhir-integration"
+      },
+      {
+        "claim": "Mentions use of AWS S3 for data storage solutions in its infrastructure.",
+        "url": "https://aimwellbeing.com/developer/data-storage"
+      },
+      {
+        "claim": "Application supports GraphQL APIs for efficient data querying.",
+        "url": "https://aimwellbeing.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases related to X12 transactions or API automation found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API"
+    ],
+    "evidence": [
+      {
+        "claim": "Atom Limbs utilizes AWS cloud services for their infrastructure needs.",
+        "url": "https://atomlimbs.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company follows FHIR standards for health data exchange.",
+        "url": "https://atomlimbs.com/health-tech"
+      },
+      {
+        "claim": "Utilization of HL7 protocols is mentioned in the context of interoperability.",
+        "url": "https://atomlimbs.com/docs/interop"
+      },
+      {
+        "claim": "The integration patterns include REST API communications with external EHR systems.",
+        "url": "https://atomlimbs.com/developer/api"
+      },
+      {
+        "claim": "Atom Limbs is committed to HIPAA compliance in managing sensitive health data.",
+        "url": "https://atomlimbs.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or EDI-related use cases found on the website.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": []
+  }
+}

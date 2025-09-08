@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "NuLife Virtual utilizes FHIR standards for health record interoperability.",
+        "url": "https://nulifevirtual.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for secure handling of patient data.",
+        "url": "https://nulifevirtual.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "HL7 protocols are implemented for data exchange between EHR systems.",
+        "url": "https://nulifevirtual.com/docs/hl7-data-exchange"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence supporting X12 or EDI use cases was found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

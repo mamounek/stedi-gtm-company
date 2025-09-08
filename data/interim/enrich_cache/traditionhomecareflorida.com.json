@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company handles patient data, indicating compliance with HIPAA regulations.",
+        "url": "https://traditionhomecareflorida.com/healthcare-services"
+      },
+      {
+        "claim": "They utilize electronic health record systems to manage patient information.",
+        "url": "https://traditionhomecareflorida.com/about-us"
+      },
+      {
+        "claim": "Job listings suggest a focus on secure data practices and infrastructure.",
+        "url": "https://traditionhomecareflorida.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or API use cases on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

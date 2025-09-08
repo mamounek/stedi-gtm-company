@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837 claims",
+      "X12 275"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Message queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Maxwell Telecare uses AWS for its cloud infrastructure, including Lambda and RDS.",
+        "url": "https://maxwelltelecare.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for interoperability in health data exchange.",
+        "url": "https://maxwelltelecare.com/developer/docs/interoperability"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through RESTful APIs and messaging protocols.",
+        "url": "https://maxwelltelecare.com/docs/api/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use cases found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

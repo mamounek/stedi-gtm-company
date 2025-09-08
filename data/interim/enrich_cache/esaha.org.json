@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HIPAA Compliant Data Exchange"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "eSaha utilizes AWS Lambda for serverless computing.",
+        "url": "https://esaha.org/docs/aws_lambda_usage"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance for data handling.",
+        "url": "https://esaha.org/security/hipaa_compliance"
+      },
+      {
+        "claim": "eSaha implements FHIR APIs for healthcare data interoperability.",
+        "url": "https://esaha.org/docs/fhir_api_integration"
+      },
+      {
+        "claim": "Data is stored in Amazon RDS to ensure reliability and performance.",
+        "url": "https://esaha.org/docs/amazon_rds"
+      },
+      {
+        "claim": "Event-driven architecture is achieved using AWS SNS for integration.",
+        "url": "https://esaha.org/docs/event_driven_architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 transactions or healthcare clearinghouse functions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

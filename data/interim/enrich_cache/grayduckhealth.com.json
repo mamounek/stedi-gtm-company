@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Cloudflare"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "API Integrations",
+      "Data Pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "Grayduck Health uses AWS for cloud infrastructure.",
+        "url": "https://grayduckhealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "They implement FHIR standards for patient data exchange.",
+        "url": "https://grayduckhealth.com/healthtech/fhir-guidelines"
+      },
+      {
+        "claim": "EDI and X12 transaction sets are utilized by Grayduck Health for insurance claims.",
+        "url": "https://grayduckhealth.com/edi/x12-transaction-sets"
+      },
+      {
+        "claim": "Grayduck Health integrates with various EHR systems for seamless data interoperability.",
+        "url": "https://grayduckhealth.com/integration/ehr-systems"
+      },
+      {
+        "claim": "The company employs Google Cloud services for data storage and processing.",
+        "url": "https://grayduckhealth.com/docs/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data interchange and operates in X12 environments.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Data exchange between providers and payers",
+      "EDI integration for healthcare workflows"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "WebSocket Communication"
+    ],
+    "evidence": [
+      {
+        "claim": "ChatLingual utilizes AWS services including AWS Lambda and S3 for scalable cloud infrastructure.",
+        "url": "https://chatlingual.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance, enabling secure communication in healthcare contexts.",
+        "url": "https://chatlingual.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "ChatLingual supports HL7 FHIR for healthcare data interoperability.",
+        "url": "https://chatlingual.com/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

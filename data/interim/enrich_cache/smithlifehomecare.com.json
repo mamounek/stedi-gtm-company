@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS Elastic Beanstalk"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST API for data integration",
+      "Webhook events for health updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizing AWS services for cloud infrastructure including Lambda and S3 for application hosting and data storage.",
+        "url": "https://smithlifehomecare.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company follows HIPAA guidelines to ensure patient data privacy and security in health tech solutions.",
+        "url": "https://smithlifehomecare.com/security"
+      },
+      {
+        "claim": "Implemented FHIR standards for healthcare data interoperability and integration with EHR systems.",
+        "url": "https://smithlifehomecare.com/docs/fhir"
+      },
+      {
+        "claim": "Describes integration patterns using RESTful APIs for service communication and event-driven architecture.",
+        "url": "https://smithlifehomecare.com/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI-related activities found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Smartdocs leverages AWS for cloud infrastructure.",
+        "url": "https://smartdocsapp.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring secure handling of medical data.",
+        "url": "https://smartdocsapp.com/security/hipaa"
+      },
+      {
+        "claim": "Integrates with EHR systems using HL7 FHIR standards.",
+        "url": "https://smartdocsapp.com/integrations/ehr"
+      },
+      {
+        "claim": "Utilizes Kafka for real-time data streaming capabilities.",
+        "url": "https://smartdocsapp.com/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 or clearinghouse functions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

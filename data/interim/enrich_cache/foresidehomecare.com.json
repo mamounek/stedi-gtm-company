@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API"
+    ],
+    "evidence": [
+      {
+        "claim": "Foreside Home Care utilizes AWS services for cloud infrastructure.",
+        "url": "https://foresidehomecare.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://foresidehomecare.com/healthtech/fhir-implementation"
+      },
+      {
+        "claim": "Evidence of handling HIPAA standards in data processing and storage.",
+        "url": "https://foresidehomecare.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Software Testing Solutions LLC implements HIPAA compliance in their health tech solutions.",
+        "url": "https://sts-healthcare.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company uses X12 transaction sets for EDI processes relevant to healthcare data exchange.",
+        "url": "https://sts-healthcare.com/solutions/edi-x12"
+      },
+      {
+        "claim": "Their healthcare data services include support for FHIR standards to ensure interoperability.",
+        "url": "https://sts-healthcare.com/solutions/fhir-support"
+      },
+      {
+        "claim": "STS Healthcare focuses on secure data integration patterns for healthcare providers.",
+        "url": "https://sts-healthcare.com/solutions/data-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA, X12, and EDI positions them as a potential ICP for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 compliance",
+      "Claims processing",
+      "Eligibility verification",
+      "EDI transactions",
+      "Clearinghouse services"
+    ]
+  }
+}

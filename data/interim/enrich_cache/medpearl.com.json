@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for scalable application architecture.",
+        "url": "https://medpearl.com/docs/aws-integration"
+      },
+      {
+        "claim": "MedPearl complies with HIPAA regulations to ensure data security in healthcare applications.",
+        "url": "https://medpearl.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange in their platform.",
+        "url": "https://medpearl.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "X12 transactions are supported for billing and claims processing.",
+        "url": "https://medpearl.com/docs/x12-edi-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MedPearl uses X12 workflows and offers API solutions relevant to healthcare transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider-payer communication"
+    ]
+  }
+}

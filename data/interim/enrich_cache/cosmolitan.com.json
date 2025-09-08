@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Cosmolitan emphasizes their commitment to HIPAA compliance in their practices.",
+        "url": "https://cosmolitan.com/security"
+      },
+      {
+        "claim": "They utilize RESTful APIs to facilitate integration with third-party services.",
+        "url": "https://cosmolitan.com/docs/api"
+      },
+      {
+        "claim": "The company mentions the use of AWS infrastructure for scaling resources.",
+        "url": "https://cosmolitan.com/developer"
+      },
+      {
+        "claim": "No specific health-tech rails such as FHIR or HL7 were found in their documentation.",
+        "url": "https://cosmolitan.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of usage or integration with X12 or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

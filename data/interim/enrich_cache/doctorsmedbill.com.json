@@ -1,0 +1,25 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Doctors MedBill is HIPAA compliant, ensuring secure handling of medical billing data.",
+        "url": "https://www.doctorsmedbill.com/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.34
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of targeting X12 transactions or API automation in their offerings.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

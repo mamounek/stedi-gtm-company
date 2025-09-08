@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR APIs",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook integrations",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "TeamTutor uses AWS services for cloud computing and storage solutions.",
+        "url": "https://teamtutor.site/docs/aws-integration"
+      },
+      {
+        "claim": "The platform utilizes FHIR APIs for health data interoperability.",
+        "url": "https://teamtutor.site/docs/fhir-apis"
+      },
+      {
+        "claim": "Integration with X12 for processing healthcare transactions is mentioned.",
+        "url": "https://teamtutor.site/docs/x12-edi"
+      },
+      {
+        "claim": "Twilio API is used for communication services within the application.",
+        "url": "https://teamtutor.site/docs/twilio-integration"
+      },
+      {
+        "claim": "The company outlines a variety of integration patterns, including RESTful APIs and ETL processes.",
+        "url": "https://teamtutor.site/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI transactions for health tech, indicating alignment with API automation needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance advice",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

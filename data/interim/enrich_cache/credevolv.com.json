@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDIFACT"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Batch Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "CredEvolv utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.credevolv.com/docs/aws-architecture"
+      },
+      {
+        "claim": "CredEvolv complies with HIPAA regulations for data security in health tech.",
+        "url": "https://www.credevolv.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company supports EDI X12 transactions for healthcare data integration.",
+        "url": "https://www.credevolv.com/docs/edi-support"
+      },
+      {
+        "claim": "Integration with FHIR APIs for health data is mentioned in their interoperability section.",
+        "url": "https://www.credevolv.com/docs/fhir-support"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on EDI and healthcare APIs, indicating use of X12 transactions.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility checks (270/271)",
+      "Claims submissions and remittance (837/835)",
+      "Clearinghouse services"
+    ]
+  }
+}

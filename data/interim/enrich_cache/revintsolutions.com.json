@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kafka",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "Data streaming",
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "CloudMed Solutions utilizes AWS for their cloud infrastructure.",
+        "url": "https://revintsolutions.com/cloud-solutions"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for health data security.",
+        "url": "https://revintsolutions.com/security"
+      },
+      {
+        "claim": "They implement HL7 and FHIR protocols for healthcare data interoperability.",
+        "url": "https://revintsolutions.com/solutions"
+      },
+      {
+        "claim": "Data integration patterns include EDI using X12 transactions.",
+        "url": "https://revintsolutions.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CloudMed Solutions specializes in EDI transactions and healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims management",
+      "eligibility verification",
+      "remittance advice",
+      "transaction processing",
+      "EHR integration"
+    ]
+  }
+}

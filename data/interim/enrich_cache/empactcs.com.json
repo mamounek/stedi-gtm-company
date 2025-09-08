@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions cloud infrastructure, but no specific providers are detailed on their site.",
+        "url": "http://empactcs.com"
+      },
+      {
+        "claim": "There is mention of integrating with healthcare standards but lacks specifics on which standards or APIs are used.",
+        "url": "http://empactcs.com/services"
+      },
+      {
+        "claim": "No specific technical APIs or data platforms are highlighted on employment pages.",
+        "url": "http://empactcs.com/careers"
+      },
+      {
+        "claim": "The content searched does not yield results for EDI or FHIR specifications.",
+        "url": "http://empactcs.com/blog"
+      }
+    ],
+    "tech_stack_confidence": 0.28
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 transactions or healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

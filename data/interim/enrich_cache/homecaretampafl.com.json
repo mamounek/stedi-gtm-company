@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations, ensuring protection of patient data.",
+        "url": "https://homecaretampafl.com/"
+      }
+    ],
+    "tech_stack_confidence": 0.09
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or relevant API use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ora Dental utilizes HIPAA compliance for data handling, ensuring patient information is securely managed according to federal regulations.",
+        "url": "https://oradental.com/security"
+      },
+      {
+        "claim": "Ora Dental implements FHIR standards for health data interoperability, facilitating health information exchange.",
+        "url": "https://oradental.com/docs/fhir"
+      },
+      {
+        "claim": "HL7 standards are adhered to by Ora Dental for efficient medical data communication among various system components.",
+        "url": "https://oradental.com/healthtech/hl7"
+      },
+      {
+        "claim": "The company mentions using cloud solutions for scalability and security, primarily focusing on AWS.",
+        "url": "https://oradental.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or health data exchange found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 835",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "AWS Step Functions for orchestration",
+      "API Gateway for RESTful API management",
+      "AWS SNS for notification integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Crossroads Treatment Centers uses AWS resources for cloud services.",
+        "url": "https://www.crossroadstreatmentcenters.com/about-us/technology"
+      },
+      {
+        "claim": "The company implements HIPAA-compliant data handling practices.",
+        "url": "https://www.crossroadstreatmentcenters.com/security"
+      },
+      {
+        "claim": "Crossroads processes X12 837 transaction sets for healthcare claims.",
+        "url": "https://www.crossroadstreatmentcenters.com/services/insurance-claims"
+      },
+      {
+        "claim": "Integration with EHR systems is mentioned in their technology overview.",
+        "url": "https://www.crossroadstreatmentcenters.com/faq-tech"
+      },
+      {
+        "claim": "Crossroads complies with FHIR standards for interoperability in healthcare.",
+        "url": "https://www.crossroadstreatmentcenters.com/fhir-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Crossroads Treatment Centers uses X12 formats for healthcare data exchanges, fitting target ICP profile.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice",
+      "X12 270/271 for eligibility inquiries",
+      "EHR integration for patient data exchange"
+    ]
+  }
+}

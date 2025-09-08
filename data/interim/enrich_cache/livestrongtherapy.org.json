@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API for data exchange",
+      "Webhook integrations for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "LIVESTRONG Therapy utilizes AWS for its cloud-based infrastructure.",
+        "url": "https://livestrongtherapy.org/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for secure health data handling and storage.",
+        "url": "https://livestrongtherapy.org/compliance"
+      },
+      {
+        "claim": "The integration of Twilio API allows for effective communication through SMS.",
+        "url": "https://livestrongtherapy.org/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse use found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

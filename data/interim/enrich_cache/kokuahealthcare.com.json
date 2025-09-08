@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "API-based integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Kokua Healthcare utilizes Amazon Web Services for cloud infrastructure.",
+        "url": "https://kokuahealthcare.com/developer/docs/aws-integration"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for all health data exchanges.",
+        "url": "https://kokuahealthcare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standards is supported for interoperability with EHRs.",
+        "url": "https://kokuahealthcare.com/developer/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of X12 processing or use cases found on public pages.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

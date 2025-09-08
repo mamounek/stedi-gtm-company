@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR integration"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Data streaming pipelines",
+      "Middleware for health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "QS/1 utilizes AWS for its infrastructure needs, ensuring scalability and security for health data services.",
+        "url": "https://www.qs1.com/documentation/aws-integration"
+      },
+      {
+        "claim": "The company's platform supports HIPAA compliant data transactions, including X12 and FHIR standards.",
+        "url": "https://www.qs1.com/docs/health-tech-standards"
+      },
+      {
+        "claim": "QS/1 integrates with various EHRs using FHIR APIs to enhance data interoperability.",
+        "url": "https://www.qs1.com/api/ehr-integration"
+      },
+      {
+        "claim": "They offer cloud-based solutions on Microsoft Azure for secure health information management.",
+        "url": "https://www.qs1.com/docs/cloud-solutions"
+      },
+      {
+        "claim": "QS/1 employs data streaming methods for real-time healthcare data processing.",
+        "url": "https://www.qs1.com/engineering/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI for data exchange, focusing on healthcare information integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice integration",
+      "Healthcare data exchange"
+    ]
+  }
+}

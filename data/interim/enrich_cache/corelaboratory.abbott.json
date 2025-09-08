@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Abbott utilizes AWS cloud services for its diagnostics solutions.",
+        "url": "https://corelaboratory.abbott/solutions/cloud-services"
+      },
+      {
+        "claim": "The platform supports HL7 and FHIR standards for health data interoperability.",
+        "url": "https://corelaboratory.abbott/solutions/integrations"
+      },
+      {
+        "claim": "Abbott integrates with healthcare systems using EDI X12 for seamless transactions.",
+        "url": "https://corelaboratory.abbott/edi-services"
+      },
+      {
+        "claim": "Kafka is mentioned as part of the infrastructure for handling data streams.",
+        "url": "https://corelaboratory.abbott/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Provides cloud-based lab diagnostics likely needing X12 transactions for claims and eligibility.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "837 Claim submissions",
+      "270/271 Eligibility inquiries",
+      "835 Remittance advice",
+      "276/277 Claim status requests"
+    ]
+  }
+}

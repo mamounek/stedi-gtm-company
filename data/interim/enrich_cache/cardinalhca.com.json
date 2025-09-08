@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cardinal Home Care emphasizes compliance with HIPAA regulations in their operational practices.",
+        "url": "https://cardinalhca.com/security-policies"
+      },
+      {
+        "claim": "The company uses FHIR standards to facilitate data exchange in accordance with health regulations.",
+        "url": "https://cardinalhca.com/docs/health-data-integration"
+      },
+      {
+        "claim": "Documentation mentions HL7 as a key protocol for interoperability in health data transactions.",
+        "url": "https://cardinalhca.com/docs/standards-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or EDI processes on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

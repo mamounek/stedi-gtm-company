@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon EC2",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Complyance uses AWS services for their cloud infrastructure including EC2 and RDS.",
+        "url": "https://www.complyance.io/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is built with considerations for HIPAA compliance.",
+        "url": "https://www.complyance.io/security"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for health data interoperability.",
+        "url": "https://www.complyance.io/developer"
+      },
+      {
+        "claim": "Complyance supports FHIR and HL7 standards for health data transactions.",
+        "url": "https://www.complyance.io/healthtech"
+      },
+      {
+        "claim": "X12 transaction sets are part of the data exchange capabilities.",
+        "url": "https://www.complyance.io/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

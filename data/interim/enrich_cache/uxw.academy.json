@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No technical APIs or cloud services were found on the UX Writing Academy website.",
+        "url": "https://uxw.academy"
+      },
+      {
+        "claim": "No mention of health-tech standards like HIPAA X12, FHIR, or HL7 was located on the UX Writing Academy site.",
+        "url": "https://uxw.academy"
+      },
+      {
+        "claim": "No references to cloud providers (AWS, Azure, GCP) or data platforms were found.",
+        "url": "https://uxw.academy"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 or healthcare-related EDI transactions.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

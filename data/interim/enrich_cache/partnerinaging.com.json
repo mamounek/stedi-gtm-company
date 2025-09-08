@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Partner in Aging adheres to HIPAA regulations for privacy and security.",
+        "url": "https://partnerinaging.com"
+      },
+      {
+        "claim": "The organization utilizes secure cloud infrastructure for managing sensitive health information.",
+        "url": "https://partnerinaging.com/security"
+      },
+      {
+        "claim": "There are references to integration with health care standards, although specific APIs are not detailed.",
+        "url": "https://partnerinaging.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases found related to X12 or healthcare clearinghouse activities.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

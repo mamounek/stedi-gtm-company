@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Firebase",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Endiatx uses AWS for cloud infrastructure.",
+        "url": "https://endiatx.com/cloud-services"
+      },
+      {
+        "claim": "The company mentions using FHIR for interoperability in health data.",
+        "url": "https://endiatx.com/health-data"
+      },
+      {
+        "claim": "They utilize RESTful APIs for integration with other platforms.",
+        "url": "https://endiatx.com/developer-docs"
+      },
+      {
+        "claim": "Endiatx leverages Twilio for communication services.",
+        "url": "https://endiatx.com/integration-partners"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or EDI use cases related to healthcare.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

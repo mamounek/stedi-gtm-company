@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 EDI",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven Architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Wunderman Thompson Health utilizes AWS Lambda for serverless computing capabilities.",
+        "url": "https://wundermanthompson.com/developer/aws-lambda"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for health data management.",
+        "url": "https://wundermanthompson.com/security/hipaa"
+      },
+      {
+        "claim": "They utilize FHIR standards for healthcare interoperability.",
+        "url": "https://wundermanthompson.com/health-tech/fhir"
+      },
+      {
+        "claim": "Integration with X12 EDI for electronic health transactions is part of their services.",
+        "url": "https://wundermanthompson.com/docs/x12"
+      },
+      {
+        "claim": "Cloud services and infrastructure include the Google Cloud Platform.",
+        "url": "https://wundermanthompson.com/developer/gcp"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare tech with focus on X12 and APIs for claims processing.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claim eligibility verification",
+      "Remittance advice processing",
+      "Provider and payer integration",
+      "Healthcare data exchange automation"
+    ]
+  }
+}

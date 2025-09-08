@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Adagy Robotics integrates with modern cloud services but details on specific APIs and services are not disclosed publicly.",
+        "url": "https://adagyrobotics.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.24
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of using X12 or API automation for healthcare data exchange found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

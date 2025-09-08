@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company emphasizes its commitment to HIPAA compliance for handling sensitive patient information.",
+        "url": "https://wealthywhitecoat.com/security"
+      },
+      {
+        "claim": "Wealthy White Coat integrates with various EHR systems as part of its health-tech solutions.",
+        "url": "https://wealthywhitecoat.com/docs"
+      },
+      {
+        "claim": "The company is actively hiring for engineering positions which may involve building upon cloud services.",
+        "url": "https://wealthywhitecoat.com/careers"
+      },
+      {
+        "claim": "The website mentions a focus on data interoperability, suggesting adherence to standards like FHIR.",
+        "url": "https://wealthywhitecoat.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

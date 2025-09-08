@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "NCPDP"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "QuikMedic utilizes AWS for cloud infrastructure and scaling capabilities.",
+        "url": "https://quikmedic.com/documents/aws-infrastructure"
+      },
+      {
+        "claim": "The company processes healthcare transactions compliant with HIPAA regulations.",
+        "url": "https://quikmedic.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "QuikMedic leverages FHIR standards for patient information exchange.",
+        "url": "https://quikmedic.com/developer/fhir-api"
+      },
+      {
+        "claim": "Use of HL7 to integrate with existing healthcare systems.",
+        "url": "https://quikmedic.com/docs/hl7-integration"
+      },
+      {
+        "claim": "The integration with Twilio API for secure communication with patients.",
+        "url": "https://quikmedic.com/developer/twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "QuikMedic operates in healthcare and uses X12 standards, indicating a need for API automation in claims and eligibility.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims Submission (837)",
+      "Eligibility Verification (270/271)",
+      "Claims Status Inquiry (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

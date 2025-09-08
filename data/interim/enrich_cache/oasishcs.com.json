@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Oasis HomeCare Services mentions adherence to HIPAA regulations in their practices.",
+        "url": "https://www.oasishcs.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for healthcare data exchange.",
+        "url": "https://www.oasishcs.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence suggestive of X12 transactions or API use cases found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Bird House follows HIPAA regulations for patient data privacy and security.",
+        "url": "https://hospicehomejc.org/healthcare-privacy/"
+      },
+      {
+        "claim": "They mention FHIR as part of their data exchange protocols.",
+        "url": "https://hospicehomejc.org/fhir-data-exchange/"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction or clearinghouse usage found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

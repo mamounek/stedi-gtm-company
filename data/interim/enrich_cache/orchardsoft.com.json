@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "X12",
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "HL7 integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Orchard Software utilizes AWS for cloud computing services.",
+        "url": "https://www.orchardsoft.com/cloud-services"
+      },
+      {
+        "claim": "The company supports FHIR for health data interchange.",
+        "url": "https://www.orchardsoft.com/fhir-implementation"
+      },
+      {
+        "claim": "Orchard Software integrates with multiple EHR systems via HL7 standards.",
+        "url": "https://www.orchardsoft.com/ehr-integration"
+      },
+      {
+        "claim": "The use of X12 EDI transactions is a key feature in Orchard's solutions.",
+        "url": "https://www.orchardsoft.com/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Includes health tech solutions supporting X12 transactions and integration with payers and providers.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claims status inquiries",
+      "278 prior authorization",
+      "837 professional and institutional claims submission",
+      "835 remittance advice processing"
+    ]
+  }
+}

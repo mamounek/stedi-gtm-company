@@ -1,0 +1,29 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "The Home Health Consultant utilizes AWS for cloud services ensuring scalability and reliability.",
+        "url": "https://thehomehealthconsultant.com/faq#cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating use of X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

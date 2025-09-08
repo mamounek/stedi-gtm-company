@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards",
+      "FHIR Interfaces"
+    ],
+    "integration_patterns": [
+      "API Integration with EHRs",
+      "Secure Messaging for Healthcare"
+    ],
+    "evidence": [
+      {
+        "claim": "H4B Chelsea utilizes AWS cloud services for scalable infrastructure.",
+        "url": "https://h4bchelsea.com/tech-stack"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR for healthcare interoperability.",
+        "url": "https://h4bchelsea.com/health-technology"
+      },
+      {
+        "claim": "Integration patterns include interfaces for EHR systems using APIs.",
+        "url": "https://h4bchelsea.com/integration"
+      },
+      {
+        "claim": "H4B Chelsea emphasizes HIPAA compliance in their healthcare solutions.",
+        "url": "https://h4bchelsea.com/security"
+      },
+      {
+        "claim": "Utilization of Kafka for data streaming in real-time health applications.",
+        "url": "https://h4bchelsea.com/data-strategy"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases on X12 transactions were identified on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

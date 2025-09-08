@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://vetsforvetshomehealthcare.com/security"
+      },
+      {
+        "claim": "They utilize X12 standard for health insurance transactions.",
+        "url": "https://vetsforvetshomehealthcare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating use of X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

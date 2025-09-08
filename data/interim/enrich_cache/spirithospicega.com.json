@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Spirit Hospice of Georgia adheres to HIPAA regulations in their healthcare services.",
+        "url": "https://spirithospicega.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for their health records access and sharing.",
+        "url": "https://spirithospicega.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 usage or API-focused healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

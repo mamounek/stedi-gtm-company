@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Compirion uses AWS for cloud services to host their healthcare applications.",
+        "url": "https://www.compirion.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its healthcare solutions.",
+        "url": "https://www.compirion.com/security"
+      },
+      {
+        "claim": "Compirion integrates with HL7 standards for seamless data exchange in healthcare.",
+        "url": "https://www.compirion.com/integrations"
+      },
+      {
+        "claim": "Their platform is capable of FHIR-based interactions for health data.",
+        "url": "https://www.compirion.com/fhir-integration"
+      },
+      {
+        "claim": "Compirion implements RESTful APIs for accessing their healthcare data solutions.",
+        "url": "https://www.compirion.com/api-documentation"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or EDI processes found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

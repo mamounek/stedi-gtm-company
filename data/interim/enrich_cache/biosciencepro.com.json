@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data exchange using X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Bioscience Pro uses AWS for cloud infrastructure.",
+        "url": "https://www.biosciencepro.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data.",
+        "url": "https://www.biosciencepro.com/security"
+      },
+      {
+        "claim": "Integration with various EHR systems via HL7.",
+        "url": "https://www.biosciencepro.com/integration"
+      },
+      {
+        "claim": "Transaction sets for claims processing utilize X12 standards.",
+        "url": "https://www.biosciencepro.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in data exchange using X12 transactions, indicating ICP potential.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Sending/Receiving X12 transactions",
+      "Claims processing",
+      "Eligibility verification"
+    ]
+  }
+}

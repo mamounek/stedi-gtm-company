@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Firebase"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook mechanisms"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services to manage and scale its applications.",
+        "url": "https://forwhen.com/docs/cloud-services"
+      },
+      {
+        "claim": "They mention compliance with HIPAA regulations for handling health information.",
+        "url": "https://forwhen.com/security"
+      },
+      {
+        "claim": "References to EDI and X12 in their documentation indicate the use of standard transaction sets for health data exchange.",
+        "url": "https://forwhen.com/docs/edi"
+      },
+      {
+        "claim": "The existence of a RESTful API for integration with EHR systems suggests use of FHIR/HL7 specifications.",
+        "url": "https://forwhen.com/api-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks public evidence of use cases for X12 transactions or clearinghouse functionality.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

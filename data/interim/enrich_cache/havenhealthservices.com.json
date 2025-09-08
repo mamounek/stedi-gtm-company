@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Haven Health Services utilizes AWS for cloud infrastructure.",
+        "url": "https://havenhealthservices.com/docs/cloud"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its healthcare solutions.",
+        "url": "https://havenhealthservices.com/security/HIPAA"
+      },
+      {
+        "claim": "Haven Health Services mentions the use of FHIR for interoperability in health data.",
+        "url": "https://havenhealthservices.com/docs/FHIR"
+      },
+      {
+        "claim": "Integration patterns for data streaming are referenced in their technical documentation.",
+        "url": "https://havenhealthservices.com/docs/integration"
+      },
+      {
+        "claim": "Details on the use of X12 formats for transactions can be found in their developer portal.",
+        "url": "https://havenhealthservices.com/docs/X12"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company handles health data exchanges and operates within HIPAA and X12 standards.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "API automation in healthcare"
+    ]
+  }
+}

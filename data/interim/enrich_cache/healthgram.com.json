@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Webhook integrations",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Healthgram utilizes AWS services for cloud infrastructure.",
+        "url": "https://healthgram.com/our-platform"
+      },
+      {
+        "claim": "The platform is compliant with FHIR standards to ensure interoperability.",
+        "url": "https://healthgram.com/solutions"
+      },
+      {
+        "claim": "References to HL7 messaging protocols found in developer documentation.",
+        "url": "https://healthgram.com/developer/docs"
+      },
+      {
+        "claim": "Integration capabilities for EHR systems mentioned on the careers page.",
+        "url": "https://healthgram.com/careers"
+      },
+      {
+        "claim": "Describes use of AWS for data storage and processing in case studies.",
+        "url": "https://healthgram.com/case-study"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or being a clearinghouse.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "X12 EDI",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for the management of health information.",
+        "url": "https://www.akoyabh.com/security"
+      },
+      {
+        "claim": "Akoya uses FHIR standards for health data interoperability.",
+        "url": "https://www.akoyabh.com/docs"
+      },
+      {
+        "claim": "Supports various EDI X12 transaction sets for healthcare services.",
+        "url": "https://www.akoyabh.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 usage or clearinghouse capabilities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

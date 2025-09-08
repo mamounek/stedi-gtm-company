@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhook"
+    ],
+    "evidence": [
+      {
+        "claim": "Medbill AI uses AWS services for cloud computing.",
+        "url": "https://medbill.ai/docs/cloud-services"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR standards for health data interactions.",
+        "url": "https://medbill.ai/docs/health-standards"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and Webhooks for interoperability.",
+        "url": "https://medbill.ai/docs/integration-policies"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 and API for healthcare data exchange; relevant use cases identified.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 eligibility requests",
+      "837 claim submissions",
+      "835 remittance advice"
+    ]
+  }
+}

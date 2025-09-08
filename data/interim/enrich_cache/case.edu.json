@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "HL7 Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "CCIPD utilizes AWS for cloud infrastructure.",
+        "url": "https://www.case.edu/"
+      },
+      {
+        "claim": "The organization implements FHIR standards for healthcare data integration.",
+        "url": "https://www.case.edu/"
+      },
+      {
+        "claim": "CCIPD integrates with various EHR systems using HL7 protocols.",
+        "url": "https://www.case.edu/"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions or clearinghouse functions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

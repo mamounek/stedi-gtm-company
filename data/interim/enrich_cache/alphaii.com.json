@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3",
+      "AWS VPC"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI transactions",
+      "835 Transaction Set",
+      "837 Transaction Set",
+      "FHIR/HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP web services",
+      "Message Queue (MQ)"
+    ],
+    "evidence": [
+      {
+        "claim": "Alpha II utilizes AWS services such as Lambda and RDS for cloud-based applications.",
+        "url": "https://alphaii.com/cloud-solutions"
+      },
+      {
+        "claim": "The company has a focus on HIPAA compliance and supports various X12 EDI transaction sets such as 835 and 837.",
+        "url": "https://alphaii.com/resources/hipaa-compliance"
+      },
+      {
+        "claim": "Integration of FHIR and HL7 to facilitate interoperability in healthcare data exchange is highlighted in their engineering documentation.",
+        "url": "https://alphaii.com/docs/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Alpha II handles X12 transactions and emphasizes integration, fitting ICP profile.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 Transaction Set",
+      "835 Transaction Set",
+      "Claims processing",
+      "Eligibility verification"
+    ]
+  }
+}

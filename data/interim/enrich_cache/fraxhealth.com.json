@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS ECS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "FraxHealth utilizes AWS for cloud infrastructure services.",
+        "url": "https://fraxhealth.com/about"
+      },
+      {
+        "claim": "They support FHIR standards for healthcare interoperability.",
+        "url": "https://fraxhealth.com/technology"
+      },
+      {
+        "claim": "FraxHealth uses HL7 for healthcare data exchange protocols.",
+        "url": "https://fraxhealth.com/integrations"
+      },
+      {
+        "claim": "The platform incorporates X12 transaction sets for billing and claims processing.",
+        "url": "https://fraxhealth.com/solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions or using clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

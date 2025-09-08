@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform",
+      "Snowflake Data Warehouse",
+      "Apache Kafka",
+      "dbt"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "TurboML utilizes AWS services for scalable machine learning applications.",
+        "url": "https://turboml.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring patient data security.",
+        "url": "https://turboml.com/security"
+      },
+      {
+        "claim": "TurboML integrates with EHR systems using FHIR for health data interoperability.",
+        "url": "https://turboml.com/developer/health-integration"
+      },
+      {
+        "claim": "They utilize Apache Kafka for real-time data streaming in their analytics platform.",
+        "url": "https://turboml.com/docs/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of focus on X12 transactions or clearinghouse functions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

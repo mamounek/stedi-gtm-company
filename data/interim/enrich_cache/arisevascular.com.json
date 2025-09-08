@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 837",
+      "X12 835",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integrations",
+      "Cloud Data Management"
+    ],
+    "evidence": [
+      {
+        "claim": "Arise Vascular utilizes AWS for cloud infrastructure to support its operations.",
+        "url": "https://www.arisevascular.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations in its data handling procedures.",
+        "url": "https://www.arisevascular.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through FHIR APIs for patient data exchange.",
+        "url": "https://www.arisevascular.com/developer/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions aligns with ICP criteria in healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "X12 270/271 eligibility verification",
+      "X12 276/277 claim status",
+      "clearinghouse services"
+    ]
+  }
+}

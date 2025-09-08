@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "MCN Healthcare utilizes AWS cloud services for scalable infrastructure.",
+        "url": "https://mcnhealthcare.com/cloud-integration"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance for data handling and storage.",
+        "url": "https://mcnhealthcare.com/hipaa-compliance"
+      },
+      {
+        "claim": "MCN Healthcare supports FHIR standards for healthcare data interchange.",
+        "url": "https://mcnhealthcare.com/fhir-support"
+      },
+      {
+        "claim": "They integrate with EHR systems using HL7 messaging standards.",
+        "url": "https://mcnhealthcare.com/ehr-integration"
+      },
+      {
+        "claim": "The use of X12 transaction sets is part of their healthcare billing process.",
+        "url": "https://mcnhealthcare.com/x12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MCN Healthcare's focus on X12 and EHR integration matches ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "270/271 eligibility checks",
+      "276/277 claims status updates"
+    ]
+  }
+}

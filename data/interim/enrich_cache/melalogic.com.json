@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Melalogic utilizes AWS for its cloud infrastructure.",
+        "url": "https://melalogic.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company has mentioned compliance with HIPAA regulations.",
+        "url": "https://melalogic.com/security/compliance"
+      },
+      {
+        "claim": "Integration with HL7 for health data interoperability is stated in their technical documentation.",
+        "url": "https://melalogic.com/developer/integration/hl7"
+      },
+      {
+        "claim": "Melalogic embraces REST APIs for seamless application integration.",
+        "url": "https://melalogic.com/developer/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or healthcare API integration found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

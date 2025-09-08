@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Twilio",
+      "Snowflake",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliant systems",
+      "HL7",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Edvak uses AWS for its cloud infrastructure, suggesting a strong reliance on scalable cloud solutions.",
+        "url": "https://edvak.com/about"
+      },
+      {
+        "claim": "The company implements HL7 standards for health data interoperability in their applications.",
+        "url": "https://edvak.com/health-tech"
+      },
+      {
+        "claim": "Edvak's solutions are HIPAA compliant, highlighting their focus on secure health data management.",
+        "url": "https://edvak.com/security"
+      },
+      {
+        "claim": "Edvak integrates with EHRs using X12 transaction sets to streamline billing and claims processing.",
+        "url": "https://edvak.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Edvak Inc leverages X12 EDI, fulfilling uses in healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim submission (837)",
+      "Remittance advice (835)",
+      "Claims status inquiries (276/277)",
+      "Healthcare transaction processing"
+    ]
+  }
+}

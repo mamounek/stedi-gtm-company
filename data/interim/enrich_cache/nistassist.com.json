@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "NIST Assist is involved in health data exchange and has a focus on HIPAA compliance.",
+        "url": "https://nistassist.com/about"
+      },
+      {
+        "claim": "The company emphasizes the integration of secure systems which adheres to health-tech standards.",
+        "url": "https://nistassist.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.28
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse roles found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

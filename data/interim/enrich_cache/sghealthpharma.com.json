@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "Azure App Service"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "REST APIs for integration with EHRs",
+      "Webhooks for real-time data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS services for its cloud infrastructure.",
+        "url": "https://sghealthpharma.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Complies with HIPAA regulations for handling sensitive health information.",
+        "url": "https://sghealthpharma.com/hipaa-compliance"
+      },
+      {
+        "claim": "Supports HL7 FHIR for health data interoperability.",
+        "url": "https://sghealthpharma.com/fhir-integration"
+      },
+      {
+        "claim": "Utilizes REST APIs to integrate with healthcare applications.",
+        "url": "https://sghealthpharma.com/api-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Strong focus on HIPAA and X12 compliance suggests potential for API-based healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "HIPAA compliance for data exchange",
+      "X12 EDI transaction handling",
+      "REST API integration with EHRs",
+      "Real-time data exchange via webhooks"
+    ]
+  }
+}

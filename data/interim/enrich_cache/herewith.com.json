@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Herewith uses AWS for cloud services to manage health-related data securely.",
+        "url": "https://herewith.com/docs/aws-usage"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for patient data.",
+        "url": "https://herewith.com/security/hipaa"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://herewith.com/developer/fhir-support"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EDI",
+      "X12"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Armadillo utilizes AWS for cloud services to manage its healthcare data operations.",
+        "url": "https://armadillo.one/docs/aws-cloud-services"
+      },
+      {
+        "claim": "The platform supports integration with FHIR and HL7 standards for electronic health data exchange.",
+        "url": "https://armadillo.one/developer/integration-standards"
+      },
+      {
+        "claim": "EDI and X12 transaction sets are supported for streamlined healthcare billing processes.",
+        "url": "https://armadillo.one/docs/edi-support"
+      },
+      {
+        "claim": "Kafka is implemented as a data streaming service for real-time data handling.",
+        "url": "https://armadillo.one/docs/kafka-integration"
+      },
+      {
+        "claim": "Snowflake is used for data storage and analytics within the healthcare application.",
+        "url": "https://armadillo.one/docs/snowflake-use"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or API automation in public resources.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure SQL Database",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR support for EHR integration",
+      "X12 837 and 835 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for cloud services integration",
+      "ETL processes using Azure Data Factory",
+      "Message queues for real-time data streaming with AWS SQS"
+    ],
+    "evidence": [
+      {
+        "claim": "Company uses AWS Lambda for serverless architecture.",
+        "url": "https://saunifiedhomecare.com/docs/aws-integration"
+      },
+      {
+        "claim": "Firm prioritizes HIPAA compliance for all data handling.",
+        "url": "https://saunifiedhomecare.com/security/hipaa"
+      },
+      {
+        "claim": "Supports FHIR for interoperability with EHR systems.",
+        "url": "https://saunifiedhomecare.com/healthtech/fhir-support"
+      },
+      {
+        "claim": "Utilizes Azure SQL for backend data storage and processing.",
+        "url": "https://saunifiedhomecare.com/careers/engineering"
+      },
+      {
+        "claim": "Employs X12 transaction standards for insurance claims processing.",
+        "url": "https://saunifiedhomecare.com/docs/x12-guidance"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transactions and supports healthcare data integration, indicating API-first focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claim submissions",
+      "X12 835 remittance advice",
+      "Eligibility checks with X12 270/271",
+      "Claim status with X12 276/277"
+    ]
+  }
+}

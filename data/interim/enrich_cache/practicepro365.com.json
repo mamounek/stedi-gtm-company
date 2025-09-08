@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS) for cloud hosting and services"
+    ],
+    "health_tech": [
+      "HIPAA compliance for data storage and transmission",
+      "X12 for electronic health transactions"
+    ],
+    "integration_patterns": [
+      "API integration with electronic health records (EHR) systems"
+    ],
+    "evidence": [
+      {
+        "claim": "PracticePro 365 utilizes AWS for cloud hosting to ensure scalable and secure services.",
+        "url": "https://practicepro365.com/cloud-services"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, which is crucial for patient data protection in health technology.",
+        "url": "https://practicepro365.com/security"
+      },
+      {
+        "claim": "Implementation of X12 EDI standards for health insurance claims processing is outlined on their services page.",
+        "url": "https://practicepro365.com/services"
+      },
+      {
+        "claim": "Integration capabilities with EHR systems are emphasized in their API documentation.",
+        "url": "https://practicepro365.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "PracticePro 365 focuses on HIPAA-compliant data transactions and has integration with EHRs, indicating a need for X12 data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 electronic health transactions",
+      "Claims submission and remittance",
+      "Eligibility verification",
+      "API integration for better data exchange"
+    ]
+  }
+}

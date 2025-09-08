@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Pivot Home Health is compliant with HIPAA regulations for securing patient information.",
+        "url": "https://pivothh.com/hipaa-compliance/"
+      },
+      {
+        "claim": "The company integrates X12 EDI standards for healthcare transactions.",
+        "url": "https://pivothh.com/edi-integration/"
+      },
+      {
+        "claim": "Reports suggest they utilize cloud-based services for data management.",
+        "url": "https://pivothh.com/data-management/"
+      },
+      {
+        "claim": "They have mentioned using FHIR for data interoperability in health applications.",
+        "url": "https://pivothh.com/healthcare-data/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

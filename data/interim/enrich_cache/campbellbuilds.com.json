@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific APIs or cloud services listed on Campbell Construction's official pages.",
+        "url": "https://campbellbuilds.com/#services"
+      },
+      {
+        "claim": "No evidence of health-tech standards like HIPAA, X12, or FHIR on the company website.",
+        "url": "https://campbellbuilds.com/#about"
+      }
+    ],
+    "tech_stack_confidence": 0.08
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 or healthcare API use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

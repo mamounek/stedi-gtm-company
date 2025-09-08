@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL"
+    ],
+    "evidence": [
+      {
+        "claim": "QHR integrates with AWS for cloud services.",
+        "url": "https://qhr.com/docs/cloud_integration"
+      },
+      {
+        "claim": "QHR adheres to HIPAA compliance for data security and patient information protection.",
+        "url": "https://qhr.com/security/hipaa"
+      },
+      {
+        "claim": "QHR utilizes FHIR standards for interoperability in healthcare.",
+        "url": "https://qhr.com/docs/healthcare_integration"
+      },
+      {
+        "claim": "QHR employs RESTful APIs for data sharing between applications.",
+        "url": "https://qhr.com/developer/apis"
+      },
+      {
+        "claim": "QHR incorporates HL7 for healthcare data exchange protocols.",
+        "url": "https://qhr.com/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling or API automation found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

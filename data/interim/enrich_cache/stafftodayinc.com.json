@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Staff Today Inc. uses AWS for its cloud infrastructure.",
+        "url": "https://stafftodayinc.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards in its operations.",
+        "url": "https://stafftodayinc.com/security"
+      },
+      {
+        "claim": "Staff Today Inc. mentions compliance with EDI transaction sets, which involves X12 formats.",
+        "url": "https://stafftodayinc.com/docs"
+      },
+      {
+        "claim": "They utilize Google Cloud Platform for data management and analysis.",
+        "url": "https://stafftodayinc.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and EDI, indicating alignment with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Provider data exchange"
+    ]
+  }
+}

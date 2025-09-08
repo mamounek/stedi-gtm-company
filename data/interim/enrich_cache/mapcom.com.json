@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant services"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "M4 Solutions utilizes AWS for cloud infrastructure and services.",
+        "url": "https://mapcom.com/solutions/cloud-services/"
+      },
+      {
+        "claim": "The company has a focus on HIPAA compliance for health tech solutions.",
+        "url": "https://mapcom.com/healthcare-solutions/"
+      },
+      {
+        "claim": "Documentation mentions integration patterns such as RESTful APIs and GraphQL APIs for application connectivity.",
+        "url": "https://mapcom.com/developer/docs/integration-patterns/"
+      },
+      {
+        "claim": "They mention using Amazon RDS for database management.",
+        "url": "https://mapcom.com/aws-services/"
+      },
+      {
+        "claim": "M4 Solutions incorporates cloud storage solutions with Amazon S3.",
+        "url": "https://mapcom.com/solutions/data-storage/"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases or evidence of X12 processing found on the website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

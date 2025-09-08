@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 (270/271) transactions",
+      "EHR integration",
+      "PHI compliance for data handling"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems",
+      "Cloud-based data transfer protocols",
+      "Data streaming for healthcare analytics"
+    ],
+    "evidence": [
+      {
+        "claim": "RWS Life Sciences utilizes AWS Lambda for serverless computing in its applications.",
+        "url": "https://www.rws.com/careers/developers/"
+      },
+      {
+        "claim": "RWS employs FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://www.rws.com/solutions/healthcare/"
+      },
+      {
+        "claim": "The company offers EHR integration services ensuring HIPAA compliance.",
+        "url": "https://www.rws.com/products/healthcare-it/"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "RWS Life Sciences engages in X12 transactions and EHR integrations, showing strong relevance to API-first exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 (270/271) transactions",
+      "EHR integration",
+      "API integrations with EHR systems",
+      "Cloud-based data transfer protocols"
+    ]
+  }
+}

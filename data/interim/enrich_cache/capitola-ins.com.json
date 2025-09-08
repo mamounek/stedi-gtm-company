@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Capitola utilizes AWS for cloud infrastructure services.",
+        "url": "https://capitola-ins.com/dev-api"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for security and compliance in health-tech.",
+        "url": "https://capitola-ins.com/security"
+      },
+      {
+        "claim": "Capitola implements FHIR standards for interoperability in their health solutions.",
+        "url": "https://capitola-ins.com/docs"
+      },
+      {
+        "claim": "Capitola employs X12 for electronic data interchange related to healthcare transactions.",
+        "url": "https://capitola-ins.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Capitola uses HIPAA and X12 standards, indicating they facilitate healthcare data exchange.",
+    "icp_confidence": 0.82,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "RemedyOne is committed to HIPAA compliance for safeguarding patient information.",
+        "url": "https://remedy-one.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for healthcare data interchange.",
+        "url": "https://remedy-one.com/docs/fhir-integration"
+      },
+      {
+        "claim": "RemedyOne supports specific X12 transaction sets for electronic data interchange.",
+        "url": "https://remedy-one.com/integration/x12"
+      },
+      {
+        "claim": "AWS is one of the cloud services utilized by RemedyOne for their platform.",
+        "url": "https://remedy-one.com/docs/architecture"
+      },
+      {
+        "claim": "Their technical implementation includes health-tech rails specifically tailored for EHR systems.",
+        "url": "https://remedy-one.com/docs/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "RemedyOne integrates with EDI/X12 for health data exchanges, aligning with ICP use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice integration"
+    ]
+  }
+}

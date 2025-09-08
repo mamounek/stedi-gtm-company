@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliant Services"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Joyful Companions adheres to HIPAA compliance for handling sensitive health information.",
+        "url": "https://joyfulcompanions.com/privacy-policy/"
+      },
+      {
+        "claim": "The company provides services intended for healthcare which requires adherence to health technology regulations including HIPAA.",
+        "url": "https://joyfulcompanions.com/healthcare-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.28
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases related to healthcare data exchange found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

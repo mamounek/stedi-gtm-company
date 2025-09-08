@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS (Relational Database Service)",
+      "Amazon S3 (Simple Storage Service)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "X12 transaction sets for claims processing"
+    ],
+    "evidence": [
+      {
+        "claim": "BeyondMD utilizes AWS for its cloud infrastructure.",
+        "url": "https://beyondmd.care/docs/cloud-architecture"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange.",
+        "url": "https://beyondmd.care/developer/fhir-implementation"
+      },
+      {
+        "claim": "BeyondMD is dedicated to HIPAA compliance with their security protocols.",
+        "url": "https://beyondmd.care/security"
+      },
+      {
+        "claim": "They engage with X12 EDI for claims submissions and management.",
+        "url": "https://beyondmd.care/integration/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes API integrations for claims processing with X12 standards, indicating a strong fit.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets for claims processing",
+      "API integration with EHR systems",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

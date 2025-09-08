@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR APIs for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for their cloud infrastructure.",
+        "url": "https://kennykalatizadehhealthcare.com/cloud-services"
+      },
+      {
+        "claim": "HIPAA compliance is emphasized in their data handling processes.",
+        "url": "https://kennykalatizadehhealthcare.com/security"
+      },
+      {
+        "claim": "They leverage FHIR for interoperability with electronic health records.",
+        "url": "https://kennykalatizadehhealthcare.com/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or API automation use cases found on the company site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

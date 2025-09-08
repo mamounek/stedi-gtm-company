@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR Standards",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queuing"
+    ],
+    "evidence": [
+      {
+        "claim": "Agathos utilizes AWS services such as Lambda for serverless computing.",
+        "url": "https://agathos.health/aws-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for data handling.",
+        "url": "https://agathos.health/security"
+      },
+      {
+        "claim": "Agathos supports FHIR for health data exchange.",
+        "url": "https://agathos.health/fhir-integration"
+      },
+      {
+        "claim": "X12 transaction sets are implemented for claims processing.",
+        "url": "https://agathos.health/edi-x12"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 EDI transactions for healthcare data exchange aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 Eligibility Verification",
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Advice"
+    ]
+  }
+}

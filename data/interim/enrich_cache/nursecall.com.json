@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Message Queue",
+      "REST API"
+    ],
+    "evidence": [
+      {
+        "claim": "Critical Alert utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.nursecall.com/about-us/technology"
+      },
+      {
+        "claim": "Their solutions are compliant with FHIR standards, facilitating data interoperability.",
+        "url": "https://www.nursecall.com/fhir-compliance"
+      },
+      {
+        "claim": "The company implements HL7 for data exchanges in healthcare settings.",
+        "url": "https://www.nursecall.com/hl7-integration"
+      },
+      {
+        "claim": "Integration with EHRs allows for seamless data flow in healthcare processes.",
+        "url": "https://www.nursecall.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or related use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

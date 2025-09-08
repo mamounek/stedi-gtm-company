@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "X12 transaction sets",
+      "FHIR resources"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Event-driven architectures"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthIMPACT Live utilizes Amazon Web Services for data storage and processing.",
+        "url": "https://healthimpactlive.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance ensuring secure handling of health data.",
+        "url": "https://healthimpactlive.com/security"
+      },
+      {
+        "claim": "HealthIMPACT Live implements HL7 and FHIR standards for interoperability in health data exchanges.",
+        "url": "https://healthimpactlive.com/developer/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "HealthIMPACT Live focuses on X12 transactions and has an API-first architecture.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim submission (837)",
+      "Claim status (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

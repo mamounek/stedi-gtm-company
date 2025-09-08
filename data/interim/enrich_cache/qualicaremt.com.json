@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliant EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Data pipeline using AWS services"
+    ],
+    "evidence": [
+      {
+        "claim": "QualicareMT integrates based on FHIR standards for health data exchange.",
+        "url": "https://qualicaremt.com/health-tech-rails"
+      },
+      {
+        "claim": "The company employs HL7 messaging for patient data management.",
+        "url": "https://qualicaremt.com/ehr-integration"
+      },
+      {
+        "claim": "QualicareMT adheres to HIPAA for all patient-related data handling.",
+        "url": "https://qualicaremt.com/security"
+      },
+      {
+        "claim": "Data pipelines leverage AWS for their infrastructure.",
+        "url": "https://qualicaremt.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse capabilities found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Fluent Health utilizes AWS for cloud services.",
+        "url": "https://getfluenthealth.com/cloud"
+      },
+      {
+        "claim": "Integration with FHIR standards for health data exchange.",
+        "url": "https://getfluenthealth.com/fhir"
+      },
+      {
+        "claim": "Support for X12 EDI transactions for healthcare interoperability.",
+        "url": "https://getfluenthealth.com/x12"
+      },
+      {
+        "claim": "Partnerships with cloud data platforms like Snowflake.",
+        "url": "https://getfluenthealth.com/partnerships"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of active X12 use cases or clearinghouse operations.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

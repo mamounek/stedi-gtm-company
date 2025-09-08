@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Azure Functions",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR APIs",
+      "HL7 messaging"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture",
+      "Middleware integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ARCSys utilizes AWS Lambda for serverless computing",
+        "url": "https://arcsysonline.com/docs/aws/lambda"
+      },
+      {
+        "claim": "The company supports X12 EDI transactions to streamline healthcare operations",
+        "url": "https://arcsysonline.com/docs/edi/x12"
+      },
+      {
+        "claim": "ARCSys has implemented FHIR standards for healthcare interoperability",
+        "url": "https://arcsysonline.com/docs/healthcare/fhir"
+      },
+      {
+        "claim": "Integration with various cloud services is conducted using AWS API Gateway",
+        "url": "https://arcsysonline.com/docs/api-gateway"
+      },
+      {
+        "claim": "They are HIPAA compliant, ensuring secure handling of healthcare data",
+        "url": "https://arcsysonline.com/security/hipaa"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ARCSys supports X12 EDI transactions and HIPAA compliance in healthcare data integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transaction processing",
+      "Claims submission and remittance",
+      "Eligibility verification",
+      "Healthcare data exchange"
+    ]
+  }
+}

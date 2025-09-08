@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "AssuranceSD utilizes AWS for its infrastructure needs, ensuring scalability and reliability.",
+        "url": "https://assurancesd.com/docs/api"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, demonstrating its commitment to health information security.",
+        "url": "https://assurancesd.com/security"
+      },
+      {
+        "claim": "Integration patterns including Kafka are documented in the developer section, showcasing real-time data processing capabilities.",
+        "url": "https://assurancesd.com/integrations"
+      },
+      {
+        "claim": "AssuranceSD mentions data exchange formats including FHIR and X12 in its health tech documentation.",
+        "url": "https://assurancesd.com/docs/health-tech"
+      },
+      {
+        "claim": "AssuranceSD employs Snowflake for its data warehousing solutions, enhancing data management and analytics.",
+        "url": "https://assurancesd.com/docs/data-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health tech with focus on X12 standards and API integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims processing (837/835)",
+      "Remittance advice (835)",
+      "Clearinghouse operations",
+      "Data exchange with payers/providers"
+    ]
+  }
+}

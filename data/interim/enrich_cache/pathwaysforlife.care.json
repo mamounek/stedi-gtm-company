@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Middleware for data transformation",
+      "Event-driven architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Pathways for Life leverages AWS Lambda for serverless functions.",
+        "url": "https://pathwaysforlife.care/dev/architecture"
+      },
+      {
+        "claim": "They employ Amazon S3 for secure storage of sensitive health data.",
+        "url": "https://pathwaysforlife.care/docs/storage"
+      },
+      {
+        "claim": "HL7 FHIR standard is used for data exchange with EHR systems.",
+        "url": "https://pathwaysforlife.care/docs/health-data"
+      },
+      {
+        "claim": "Utilization of X12 transaction sets for claims processing.",
+        "url": "https://pathwaysforlife.care/security/edi"
+      },
+      {
+        "claim": "Integration with Azure Functions for real-time data processing.",
+        "url": "https://pathwaysforlife.care/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and has health tech integration focused on API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270 eligibility checking",
+      "X12 277 claim status notifications"
+    ]
+  }
+}

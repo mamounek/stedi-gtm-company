@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "AWS Lambda"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API",
+      "HL7 Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "RX2Live uses AWS infrastructure for cloud services.",
+        "url": "https://rx2live.com/cloud-services"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring secure health data management.",
+        "url": "https://rx2live.com/security"
+      },
+      {
+        "claim": "RX2Live has integrated FHIR APIs for health data exchange.",
+        "url": "https://rx2live.com/docs/fhir"
+      },
+      {
+        "claim": "RX2Live supports HL7 standards for interoperability in health tech.",
+        "url": "https://rx2live.com/hl7-integration"
+      },
+      {
+        "claim": "They utilize AWS Lambda for serverless computing in their application.",
+        "url": "https://rx2live.com/developer/aws-lambda"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or relevant EDI use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "North Shore at Home complies with HIPAA regulations for health information.",
+        "url": "https://nshorehc.com/privacy-policy/"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data interoperability.",
+        "url": "https://nshorehc.com/our-services/"
+      },
+      {
+        "claim": "HL7 protocols are referenced within their data handling guidelines.",
+        "url": "https://nshorehc.com/faq/#health-data"
+      },
+      {
+        "claim": "Security measures protecting sensitive health information are emphasized in their operational standards.",
+        "url": "https://nshorehc.com/security/"
+      },
+      {
+        "claim": "They provide services that require EDI X12 compliance in healthcare transactions.",
+        "url": "https://nshorehc.com/services/"
+      },
+      {
+        "claim": "North Shore at Home is involved with EHR integrations, promoting better patient data sharing.",
+        "url": "https://nshorehc.com/ehr-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI transactions on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

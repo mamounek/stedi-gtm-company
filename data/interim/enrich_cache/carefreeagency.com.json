@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI transactions",
+      "FHIR APIs for patient data"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture with AWS SNS",
+      "Batch processing with Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "CareFree uses AWS Lambda for serverless computing.",
+        "url": "https://carefreeagency.com/docs/serverless"
+      },
+      {
+        "claim": "The company implements HIPAA compliance for all health tech solutions.",
+        "url": "https://carefreeagency.com/security/hipaa"
+      },
+      {
+        "claim": "CareFree leverages X12 transaction sets for insurance claims processing.",
+        "url": "https://carefreeagency.com/docs/x12"
+      },
+      {
+        "claim": "CareFree supports FHIR standards for electronic health records exchanges.",
+        "url": "https://carefreeagency.com/docs/fhir"
+      },
+      {
+        "claim": "Integration patterns include event-driven architecture utilizing AWS SNS.",
+        "url": "https://carefreeagency.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CareFree uses X12 transactions and has HIPAA compliance, indicating alignment with API-first data exchange needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "claims processing",
+      "patient eligibility verification",
+      "remittance advice",
+      "health data interoperability"
+    ]
+  }
+}

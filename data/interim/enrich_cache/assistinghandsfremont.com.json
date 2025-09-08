@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Assisting Hands Fremont has no publicly available API documentation or references to specific health-tech compliance patterns such as HIPAA or FHIR on their web",
+        "url": "https://assistinghandsfremont.com"
+      },
+      {
+        "claim": "The company does not appear to have integrations with major cloud platforms like AWS or Azure, nor mentions of specific HIPAA transaction sets.",
+        "url": "https://assistinghandsfremont.com/about-us"
+      },
+      {
+        "claim": "No evidence found regarding the use of health-tech standards such as X12, HL7 or any relevant data exchange protocols.",
+        "url": "https://assistinghandsfremont.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks evidence of X12 or API automation use cases in healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

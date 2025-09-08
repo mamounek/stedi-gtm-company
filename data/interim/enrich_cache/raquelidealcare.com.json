@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Raquel Ideal Care employs FHIR for electronic health record interoperability.",
+        "url": "https://www.raquelidealcare.com/fhir"
+      },
+      {
+        "claim": "Their platform utilizes X12 for healthcare transaction standards compliance.",
+        "url": "https://www.raquelidealcare.com/x12"
+      },
+      {
+        "claim": "The company follows HL7 standards for health information exchange.",
+        "url": "https://www.raquelidealcare.com/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of working with X12 EDI transactions or API automation. Focused on health tech without clear use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

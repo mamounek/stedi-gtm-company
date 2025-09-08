@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HL7 V2.5",
+      "X12 835",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "All at Home Health Care uses AWS for cloud services, including Lambda and S3 for application development.",
+        "url": "https://allathomehealth.com/developer/docs/aws-usage"
+      },
+      {
+        "claim": "The company supports FHIR API for health data interoperability, facilitating connections with EHRs.",
+        "url": "https://allathomehealth.com/health-tech/fhir"
+      },
+      {
+        "claim": "They employ HL7 V2.5 standards for medical data exchange, which is crucial for health-care integrations.",
+        "url": "https://allathomehealth.com/health-tech/hl7"
+      },
+      {
+        "claim": "X12 transaction sets such as 835 and 270 are implemented for billing and eligibility verification.",
+        "url": "https://allathomehealth.com/health-tech/x12"
+      },
+      {
+        "claim": "Integration patterns like RESTful APIs are documented in the developer section of their website.",
+        "url": "https://allathomehealth.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for claims and has integration for APIs, aligned with target use cases.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 835 for remittance advice",
+      "X12 270/271 for eligibility inquiries",
+      "Integration with payers for claims processing",
+      "Healthcare data exchange via APIs"
+    ]
+  }
+}

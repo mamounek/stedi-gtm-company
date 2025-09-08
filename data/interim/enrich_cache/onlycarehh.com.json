@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Only Care Home Health emphasizes compliance with HIPAA regulations for patient privacy and data security.",
+        "url": "https://onlycarehh.com/about/"
+      },
+      {
+        "claim": "Only Care Home Health provides insights into their operational standards aligning with health tech protocols.",
+        "url": "https://onlycarehh.com/compliance/"
+      },
+      {
+        "claim": "Only Care Home Health mentions its adherence to healthcare standards particularly in managing sensitive patient data.",
+        "url": "https://onlycarehh.com/faq/"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or using APIs for claims processing.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

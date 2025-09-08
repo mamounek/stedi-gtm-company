@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud-based infrastructure"
+    ],
+    "evidence": [
+      {
+        "claim": "Kaviar utilizes AWS for cloud infrastructure.",
+        "url": "https://kaviarconsulting.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for health-tech solutions.",
+        "url": "https://kaviarconsulting.com/security"
+      },
+      {
+        "claim": "Kaviar employs FHIR standards for health data integration.",
+        "url": "https://kaviarconsulting.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.59
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 or API data exchange confirmed on their website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

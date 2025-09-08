@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Groove utilizes AWS for its cloud infrastructure.",
+        "url": "https://groovehq.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform has integration capabilities with various EHR systems, although specific EHRs are not mentioned.",
+        "url": "https://groovehq.com/docs/integrating-with-ehr"
+      },
+      {
+        "claim": "Groove provides APIs for integration, featured in their developer documentation.",
+        "url": "https://groovehq.com/docs/api"
+      },
+      {
+        "claim": "Discussed in their careers page, Groove seeks engineers familiar with cloud technologies.",
+        "url": "https://groovehq.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or related healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

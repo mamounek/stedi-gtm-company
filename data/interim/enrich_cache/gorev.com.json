@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "Health data interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations in their health-tech applications.",
+        "url": "https://gorev.com/security"
+      },
+      {
+        "claim": "Gorev utilizes HL7 standards for health information exchange.",
+        "url": "https://gorev.com/docs"
+      },
+      {
+        "claim": "The platform supports FHIR for data interoperability across health systems.",
+        "url": "https://gorev.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or API automation use cases found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "MediaLab utilizes AWS cloud services for its platform.",
+        "url": "https://medialab.com/docs/aws-services"
+      },
+      {
+        "claim": "The company incorporates HIPAA compliance in its health-related applications.",
+        "url": "https://medialab.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "MediaLab supports HL7 and FHIR standards for healthcare integration.",
+        "url": "https://medialab.com/docs/healthcare-standards"
+      },
+      {
+        "claim": "MediaLab's integrations include EDI for health transactions.",
+        "url": "https://medialab.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or healthcare clearinghouse use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

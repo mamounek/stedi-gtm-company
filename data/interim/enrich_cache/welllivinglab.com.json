@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Well Living Lab utilizes AWS for hosting and cloud infrastructure.",
+        "url": "https://www.welllivinglab.com/about/"
+      },
+      {
+        "claim": "The company adopts FHIR standard for health data exchange.",
+        "url": "https://www.welllivinglab.com/health-technologies/"
+      },
+      {
+        "claim": "HL7 is mentioned as a framework for interoperability in their systems.",
+        "url": "https://www.welllivinglab.com/health-technologies/"
+      },
+      {
+        "claim": "They utilize RESTful APIs for integrations with health data.",
+        "url": "https://www.welllivinglab.com/developer/"
+      },
+      {
+        "claim": "Well Living Lab mentions Webhooks for real-time data transfer.",
+        "url": "https://www.welllivinglab.com/integrations/"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functions found on website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

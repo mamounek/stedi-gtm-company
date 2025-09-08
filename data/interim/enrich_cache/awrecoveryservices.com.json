@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "AWRS mentions compliance with healthcare regulations such as HIPAA.",
+        "url": "https://awrecoveryservices.com/security/"
+      },
+      {
+        "claim": "The services provided by AWRS include managing and securing health information, indicating the use of health tech infrastructure.",
+        "url": "https://awrecoveryservices.com/services/"
+      },
+      {
+        "claim": "AWRS emphasizes the importance of data security and compliance in their operations, suggesting possible integration with health data standards.",
+        "url": "https://awrecoveryservices.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases for X12 transactions found on the company website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

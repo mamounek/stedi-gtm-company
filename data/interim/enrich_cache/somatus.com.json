@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "data integration",
+      "API integration",
+      "streaming data pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "Somatus utilizes cloud services including AWS for scalable healthcare solutions.",
+        "url": "https://somatus.com/developer-docs/"
+      },
+      {
+        "claim": "The company adheres to FHIR standards for healthcare data interoperability.",
+        "url": "https://somatus.com/health-tech/"
+      },
+      {
+        "claim": "Somatus engages in X12 transaction sets for patient data exchange.",
+        "url": "https://somatus.com/security/"
+      },
+      {
+        "claim": "Integration with EHRs is part of Somatus's platform capabilities.",
+        "url": "https://somatus.com/careers/engineering/"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes EDI and X12 for claims processing and eligibility checks in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Claim status inquiry (276/277)"
+    ]
+  }
+}

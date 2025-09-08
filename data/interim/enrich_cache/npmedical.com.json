@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure Storage"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "EDI Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "NP Medical utilizes AWS for their cloud infrastructure.",
+        "url": "https://npmedical.com/about"
+      },
+      {
+        "claim": "The company implements HL7 standard for health data exchange.",
+        "url": "https://npmedical.com/solutions"
+      },
+      {
+        "claim": "NP Medical supports FHIR to facilitate interoperability between healthcare systems.",
+        "url": "https://npmedical.com/developer/docs"
+      },
+      {
+        "claim": "They integrate with EDI standards for transaction processing.",
+        "url": "https://npmedical.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "NP Medical focuses on EDI integration for healthcare transactions, matching ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

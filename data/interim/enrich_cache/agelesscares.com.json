@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ageless Care Solutions utilizes FHIR and HL7 standards in their health technology solutions.",
+        "url": "https://www.agelesscares.com/security-and-compliance"
+      },
+      {
+        "claim": "They emphasize HIPAA compliance in managing patient data.",
+        "url": "https://www.agelesscares.com/security-and-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API-first healthcare data exchange activities identified.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

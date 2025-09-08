@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "HL7 messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "3EO Health utilizes AWS for their cloud infrastructure.",
+        "url": "https://3eohealth.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for data privacy and security.",
+        "url": "https://3eohealth.com/security"
+      },
+      {
+        "claim": "3EO Health supports FHIR for health data exchange.",
+        "url": "https://3eohealth.com/fhir-support"
+      },
+      {
+        "claim": "Their documentation mentions support for X12 EDI transactions.",
+        "url": "https://3eohealth.com/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited public evidence of X12 transaction handling for automation.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

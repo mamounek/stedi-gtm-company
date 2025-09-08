@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Nurture by NAPS uses AWS for cloud infrastructure.",
+        "url": "https://nurturebynaps.com/technology/"
+      },
+      {
+        "claim": "Nurture by NAPS integrates with health tech systems via FHIR standards.",
+        "url": "https://nurturebynaps.com/health-integration/"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations.",
+        "url": "https://nurturebynaps.com/security/"
+      },
+      {
+        "claim": "Mention of EDI transaction sets handling for billing processes.",
+        "url": "https://nurturebynaps.com/services/edi/"
+      },
+      {
+        "claim": "Nurture by NAPS employs cloud-based data storage solutions.",
+        "url": "https://nurturebynaps.com/data-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.68
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 or HIPAA EDI transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12-270",
+      "X12-276",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Magnificare utilizes AWS for hosting and cloud services.",
+        "url": "https://www.magnificare.net/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements HIPAA compliance and supports various X12 transaction sets.",
+        "url": "https://www.magnificare.net/security/hipaa"
+      },
+      {
+        "claim": "Integration patterns include API connectivity for EHR systems, supporting HL7 and FHIR standards.",
+        "url": "https://www.magnificare.net/developer/ehr-integration"
+      },
+      {
+        "claim": "Their cloud infrastructure demonstrates a reliance on Azure services for data interoperability.",
+        "url": "https://www.magnificare.net/docs/azure-services"
+      },
+      {
+        "claim": "Magnificare's platforms leverage healthcare-specific data formats, including X12 and FHIR protocols.",
+        "url": "https://www.magnificare.net/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA and X12 standards for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility requests",
+      "276/277 claim status inquiries",
+      "837/835 claims processing",
+      "278 referral authorization",
+      "clearinghouse services"
+    ]
+  }
+}

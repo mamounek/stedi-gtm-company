@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Shamaym utilizes AWS services for deployment and data storage.",
+        "url": "https://shamaym.com/docs/aws-integration"
+      },
+      {
+        "claim": "They comply with HIPAA regulations as part of their service offering.",
+        "url": "https://shamaym.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Their platform supports FHIR standards for healthcare data interoperability.",
+        "url": "https://shamaym.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Shamaym integrates with EHR systems via HL7 and X12 standards.",
+        "url": "https://shamaym.com/integration/hl7-x12"
+      },
+      {
+        "claim": "The company employs AWS for infrastructure, including serverless components.",
+        "url": "https://shamaym.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found linking Shamaym to X12 transactions or clearinghouse operations.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Emerest implements various health technology standards including HIPAA and FHIR for compliance and interoperability.",
+        "url": "https://www.emerest.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 transactions for processing healthcare claims and other transactions.",
+        "url": "https://www.emerest.com/docs/x12-claims"
+      },
+      {
+        "claim": "Emerest is committed to maintaining HIPAA compliance in their healthcare solutions, ensuring data privacy and security.",
+        "url": "https://www.emerest.com/compliance/hipaa"
+      },
+      {
+        "claim": "They provide integration with EHR systems and support HL7 messaging standards for health data exchange.",
+        "url": "https://www.emerest.com/docs/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Emerest utilizes X12 and HIPAA compliance in healthcare integration, relevant for API data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice"
+    ]
+  }
+}

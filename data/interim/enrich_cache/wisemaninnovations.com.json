@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Wiseman Innovations utilizes AWS for cloud infrastructure.",
+        "url": "https://wisemaninnovations.com/docs/#cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for health-related data.",
+        "url": "https://wisemaninnovations.com/security/#compliance"
+      },
+      {
+        "claim": "EDI and X12 standards are mentioned as part of their healthcare integration solutions.",
+        "url": "https://wisemaninnovations.com/integration/#edi-support"
+      },
+      {
+        "claim": "They employ FHIR for health data exchange in their applications.",
+        "url": "https://wisemaninnovations.com/docs/#health-data"
+      },
+      {
+        "claim": "Utilization of Azure data services is highlighted in case studies.",
+        "url": "https://wisemaninnovations.com/case-studies/#azure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI transactions and uses HIPAA compliant practices.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI transactions",
+      "X12 transactions",
+      "claims processing",
+      "remittance advice",
+      "eligibility checks",
+      "healthcare data exchange"
+    ]
+  }
+}

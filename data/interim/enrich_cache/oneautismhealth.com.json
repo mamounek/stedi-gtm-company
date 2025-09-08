@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 transactions",
+      "FHIR API"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for cloud infrastructure and hosting services.",
+        "url": "https://oneautismhealth.com/developer"
+      },
+      {
+        "claim": "Complies with HIPAA regulations for health data security.",
+        "url": "https://oneautismhealth.com/security"
+      },
+      {
+        "claim": "Implements FHIR standards for interoperability in health data exchange.",
+        "url": "https://oneautismhealth.com/docs/fhir"
+      },
+      {
+        "claim": "Engages in EDI transactions as part of claims processing.",
+        "url": "https://oneautismhealth.com/careers#engineering"
+      },
+      {
+        "claim": "Mentions Google Cloud Platform (GCP) in their engineering talent search.",
+        "url": "https://oneautismhealth.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in healthcare data exchange, indicating strong need for X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI X12 transactions",
+      "claims processing",
+      "payer-provider communication",
+      "remittance advice exchange",
+      "eligibility verification"
+    ]
+  }
+}

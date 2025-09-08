@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "HL7 FHIR standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Go Solutions Group utilizes AWS for their cloud infrastructure.",
+        "url": "https://gosolutions.com/cloud-solutions"
+      },
+      {
+        "claim": "The company is HIPAA compliant and handles sensitive health data accordingly.",
+        "url": "https://gosolutions.com/security"
+      },
+      {
+        "claim": "Go Solutions Group implements EDI transaction sets such as X12.",
+        "url": "https://gosolutions.com/edi"
+      },
+      {
+        "claim": "Integration with FHIR standards is indicated on their developer's page.",
+        "url": "https://gosolutions.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Go Solutions Group operates in healthcare tech with specific focus on X12 EDI and HIPAA compliance.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claims processing (837)",
+      "Remittance advice (835)",
+      "Provider and payer integration",
+      "Healthcare data exchange through APIs"
+    ]
+  }
+}

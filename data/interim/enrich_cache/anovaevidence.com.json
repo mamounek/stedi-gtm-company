@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Anova Enterprises handles HIPAA compliance in their applications.",
+        "url": "https://anovaevidence.com/security"
+      },
+      {
+        "claim": "They utilize FHIR standards for data interoperability in healthcare.",
+        "url": "https://anovaevidence.com/docs/fhir"
+      },
+      {
+        "claim": "The use of X12 for handling electronic transactions is mentioned in their documentation.",
+        "url": "https://anovaevidence.com/docs/x12"
+      },
+      {
+        "claim": "Integration patterns employing EDI for healthcare transactions are outlined in their engineering resources.",
+        "url": "https://anovaevidence.com/docs/integration"
+      },
+      {
+        "claim": "Anova emphasizes security measures in line with HIPAA regulations on their developer page.",
+        "url": "https://anovaevidence.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or API-based automation use cases found on the website.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

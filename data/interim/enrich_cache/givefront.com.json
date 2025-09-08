@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "HL7 FHIR Compliance"
+    ],
+    "integration_patterns": [
+      "API-based Integration",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Givefront leverages AWS for cloud infrastructure.",
+        "url": "https://givefront.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is designed to be HIPAA compliant, ensuring secure health data handling.",
+        "url": "https://givefront.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems via FHIR is supported.",
+        "url": "https://givefront.com/developer/integration"
+      },
+      {
+        "claim": "Use of PostgreSQL for database management.",
+        "url": "https://givefront.com/docs/database"
+      },
+      {
+        "claim": "Givefront has implemented API-based integration methods for third-party platforms.",
+        "url": "https://givefront.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or healthcare clearinghouse functions found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

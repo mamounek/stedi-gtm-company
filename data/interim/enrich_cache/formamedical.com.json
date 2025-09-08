@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Forma Medical utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.formamedical.com/about#technology"
+      },
+      {
+        "claim": "The company has specific references to HIPAA compliance in their documentation.",
+        "url": "https://www.formamedical.com/security#security-overview"
+      },
+      {
+        "claim": "Forma Medical employs FHIR standards for health data interchange.",
+        "url": "https://www.formamedical.com/docs/fhir-implementation-guide"
+      },
+      {
+        "claim": "Their services integrate with various EHR systems utilizing HL7 protocols.",
+        "url": "https://www.formamedical.com/integration#ehr-partners"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases or evidence related to X12 transactions found on the company site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

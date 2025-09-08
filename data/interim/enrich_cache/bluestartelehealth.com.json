@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI 837",
+      "EDI 835"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Data exchange via FHIR APIs",
+      "Compliance with HIPAA regulations"
+    ],
+    "evidence": [
+      {
+        "claim": "BlueStar TeleHealth uses AWS services for its cloud infrastructure.",
+        "url": "https://bluestartelehealth.com/technology"
+      },
+      {
+        "claim": "The platform supports FHIR for health data exchange.",
+        "url": "https://bluestartelehealth.com/fhir-support"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through specific API endpoints.",
+        "url": "https://bluestartelehealth.com/integration-patterns"
+      },
+      {
+        "claim": "Case studies highlight compliance with HIPAA and usage of data standards like X12 and EDI for transactions.",
+        "url": "https://bluestartelehealth.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "BlueStar TeleHealth uses X12 standards and integrates with EHRs, indicating API-first capabilities.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI 837 claims submissions",
+      "X12 EDI 835 remittance processing",
+      "Eligibility checks via X12 270/271",
+      "Claims status tracking with X12 276/277"
+    ]
+  }
+}

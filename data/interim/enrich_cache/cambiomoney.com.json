@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Management",
+      "FHIR API Support",
+      "X12 EDI Transactions",
+      "HL7 Messaging Standards"
+    ],
+    "integration_patterns": [
+      "RESTful API Integrations",
+      "Webhook Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Cambio utilizes AWS services for hosting and data storage, ensuring scalability and reliability.",
+        "url": "https://cambiomoney.com/docs#cloud-services"
+      },
+      {
+        "claim": "The company indicates compliance with HIPAA regulations for secure health data transactions.",
+        "url": "https://cambiomoney.com/security"
+      },
+      {
+        "claim": "Cambio supports FHIR standards for health data integration, facilitating interoperability among health systems.",
+        "url": "https://cambiomoney.com/docs#health-tech"
+      },
+      {
+        "claim": "They make use of Twilio API for communication services within their platform, enhancing user engagement.",
+        "url": "https://cambiomoney.com/developer#twilio"
+      },
+      {
+        "claim": "Multiple references to X12 transaction sets showcasing their capabilities in EDI for healthcare administration.",
+        "url": "https://cambiomoney.com/docs#edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in HIPAA compliant data management and supports X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry and Response",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status Inquiry and Response"
+    ]
+  }
+}

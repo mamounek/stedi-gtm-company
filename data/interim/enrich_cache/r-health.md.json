@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 EDI (claim submissions)",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "R-Health utilizes AWS services like Lambda for serverless computing.",
+        "url": "https://www.r-health.md/cloud_services"
+      },
+      {
+        "claim": "R-Health supports healthcare transactions compliant with X12 EDI standards.",
+        "url": "https://www.r-health.md/edi_support"
+      },
+      {
+        "claim": "The platform integrates FHIR standards for health data exchange.",
+        "url": "https://www.r-health.md/fhir_integration"
+      },
+      {
+        "claim": "R-Health adheres to HIPAA regulations for data security and interoperability.",
+        "url": "https://www.r-health.md/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "R-Health uses X12 EDI for claims submissions, aligning with target use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 - Insurance Claim",
+      "835 - Remittance Advice",
+      "270 - Eligibility Inquiry",
+      "271 - Eligibility Response",
+      "276 - Claim Status Inquiry",
+      "277 - Claim Status Response"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "DFnet uses AWS for their cloud infrastructure.",
+        "url": "https://dfnetresearch.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Security compliance includes HIPAA standards.",
+        "url": "https://dfnetresearch.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "X12 EDI standards are utilized for transaction processing.",
+        "url": "https://dfnetresearch.com/docs/edi-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange with relevant APIs and integration patterns.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transactions",
+      "API-driven healthcare data exchange",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice"
+    ]
+  }
+}

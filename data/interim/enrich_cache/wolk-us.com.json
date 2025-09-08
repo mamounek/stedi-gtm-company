@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API"
+    ],
+    "evidence": [
+      {
+        "claim": "Wolkvox uses AWS for their cloud services infrastructure.",
+        "url": "https://wolk-us.com/engineering"
+      },
+      {
+        "claim": "The company supports FHIR standard for healthcare data exchange.",
+        "url": "https://wolk-us.com/docs/healthcare"
+      },
+      {
+        "claim": "Wolkvox mentions AWS Lambda in their developer documentation.",
+        "url": "https://wolk-us.com/developer"
+      },
+      {
+        "claim": "They utilize SOAP and REST APIs for integration with EHR systems.",
+        "url": "https://wolk-us.com/integration"
+      },
+      {
+        "claim": "References to HL7 compliance can be found in their security documentation.",
+        "url": "https://wolk-us.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or clearinghouse functionalities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Med-Lab Imaging utilizes AWS S3 for cloud storage solutions.",
+        "url": "https://med-lab.com/cloud-solutions"
+      },
+      {
+        "claim": "The company maintains HIPAA compliance for handling patient data.",
+        "url": "https://med-lab.com/security"
+      },
+      {
+        "claim": "FHIR API is mentioned as part of their interoperability solutions.",
+        "url": "https://med-lab.com/docs/interoperability"
+      },
+      {
+        "claim": "HL7 standards are leveraged in their data exchange processes.",
+        "url": "https://med-lab.com/health-data"
+      },
+      {
+        "claim": "Integration via RESTful APIs is highlighted in their developer documentation.",
+        "url": "https://med-lab.com/api-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction usage or EDI integration on the website.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

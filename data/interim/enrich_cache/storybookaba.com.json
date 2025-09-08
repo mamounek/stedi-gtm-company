@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions HIPAA compliance, indicating their adherence to health information privacy standards.",
+        "url": "https://storybookaba.com/"
+      },
+      {
+        "claim": "Storybook ABA likely integrates with EHR systems to manage patient information privately due to their focus on ABA therapy.",
+        "url": "https://storybookaba.com/about"
+      },
+      {
+        "claim": "The company highlights its technological capabilities, although specific APIs or cloud services were not outlined.",
+        "url": "https://storybookaba.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or EDI-related use cases on the site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

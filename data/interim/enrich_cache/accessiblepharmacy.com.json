@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 (specifically applicable transaction sets)",
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Accessible Pharmacy Services emphasizes its compliance with HIPAA regulations on its website.",
+        "url": "https://accessiblepharmacy.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health information exchange.",
+        "url": "https://accessiblepharmacy.com/docs"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their service offerings for medication management.",
+        "url": "https://accessiblepharmacy.com/careers#engineering"
+      },
+      {
+        "claim": "The company mentions adherence to EDI standards including X12.",
+        "url": "https://accessiblepharmacy.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement with X12 transaction types or clearinghouse functions found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

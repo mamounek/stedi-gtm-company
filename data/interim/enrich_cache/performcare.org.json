@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "X12 EDI transaction sets",
+      "FHIR APIs for health information exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "PerformCare uses AWS for cloud infrastructure.",
+        "url": "https://performcare.org/about-us/technology"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations in its operations.",
+        "url": "https://performcare.org/privacy-security/hipaa-compliance"
+      },
+      {
+        "claim": "PerformCare implements FHIR standards for data interoperability.",
+        "url": "https://performcare.org/solutions/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through X12 EDI standards.",
+        "url": "https://performcare.org/solutions/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "PerformCare engages in health data exchange using X12 standards, targeting healthcare providers.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "276/277 claim status",
+      "278 authorization requests",
+      "837 claim submissions",
+      "835 remittance processing"
+    ]
+  }
+}

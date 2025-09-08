@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2",
+      "X12 EDI 837",
+      "X12 EDI 270/271"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Event-Driven Architecture",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Amivie uses AWS services including Lambda and S3 for their application infrastructure.",
+        "url": "https://amivie.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability with various EHR systems.",
+        "url": "https://amivie.com/healthcare/fhir-integration"
+      },
+      {
+        "claim": "Amivie handles HIPAA-compliant data exchange via X12 EDI transaction sets.",
+        "url": "https://amivie.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include event-driven architecture for scalable solutions.",
+        "url": "https://amivie.com/developer/integration-patterns"
+      },
+      {
+        "claim": "Amivie leverages microservices architecture in their cloud environment.",
+        "url": "https://amivie.com/engineering/microservices"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Amivie leverages multiple X12 transactions in their healthcare data exchange offerings.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI 837 for claims submission",
+      "X12 EDI 270/271 for eligibility inquiries",
+      "X12 EDI 276/277 for claim status transactions",
+      "clearinghouse services for interoperability"
+    ]
+  }
+}

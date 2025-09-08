@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud-Based Interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "Revert Systems utilizes AWS for its cloud infrastructure to ensure scalability and reliability.",
+        "url": "https://revertback.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA guidelines in its health tech solutions, ensuring data protection.",
+        "url": "https://revertback.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Revert Systems supports HL7 FHIR for health data exchange.",
+        "url": "https://revertback.com/developer/fhir-support"
+      },
+      {
+        "claim": "Integration patterns include using API-driven connectivity for data sharing.",
+        "url": "https://revertback.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found regarding X12 transactions or clearinghouse functionalities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

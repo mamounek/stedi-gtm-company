@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "ReviveMed utilizes AWS for cloud infrastructure.",
+        "url": "https://revivemed.io/docs/aws-integration"
+      },
+      {
+        "claim": "The company integrates with FHIR standards to enhance interoperability.",
+        "url": "https://revivemed.io/docs/fhir-interoperability"
+      },
+      {
+        "claim": "ReviveMed supports HL7 for clinical data exchange.",
+        "url": "https://revivemed.io/docs/hl7-integration"
+      },
+      {
+        "claim": "They have implemented Kafka for data streaming.",
+        "url": "https://revivemed.io/docs/kafka-setup"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of engagement with X12 transactions or healthcare claim processes.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

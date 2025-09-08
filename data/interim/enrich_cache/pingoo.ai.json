@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Pingoo.AI utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://pingoo.ai/docs/infrastructure#aws-lambda"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 standards for health data integration.",
+        "url": "https://pingoo.ai/docs/health-tech#fhir-hl7"
+      },
+      {
+        "claim": "Pingoo.AI leverages Google Cloud Platform for scalable data solutions.",
+        "url": "https://pingoo.ai/developer/docs#gcp-integration"
+      },
+      {
+        "claim": "Integration with X12 transaction sets indicates compliance with health industry standards.",
+        "url": "https://pingoo.ai/docs/security#x12-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

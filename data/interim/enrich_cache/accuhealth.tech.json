@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "Health data interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure.",
+        "url": "https://accuhealth.tech/docs/infrastructure"
+      },
+      {
+        "claim": "Accuhealth supports FHIR for health data integration.",
+        "url": "https://accuhealth.tech/healthtech/fhir"
+      },
+      {
+        "claim": "They leverage HL7 standards for communicating health information.",
+        "url": "https://accuhealth.tech/healthtech/hl7"
+      },
+      {
+        "claim": "Accuhealth's platform is compliant with HIPAA regulations.",
+        "url": "https://accuhealth.tech/security/hipaa"
+      },
+      {
+        "claim": "They use EDI for processing health claims electronically.",
+        "url": "https://accuhealth.tech/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 standards and aims at health data interoperability.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Health data interoperability"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "As Close As Family is compliant with HIPAA regulations.",
+        "url": "https://ascloseasfamily.com/compliance"
+      },
+      {
+        "claim": "The company has a focus on electronic health records integration.",
+        "url": "https://ascloseasfamily.com/services"
+      },
+      {
+        "claim": "The platform utilizes secure APIs for data transmission and patient information management.",
+        "url": "https://ascloseasfamily.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence found indicating use of X12 transactions or API automation in healthcare.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Chajinel is committed to HIPAA compliance and ensures the security of health information.",
+        "url": "https://chajinel.com/privacy-policy/"
+      },
+      {
+        "claim": "No specific APIs or cloud infrastructure services listed on the website.",
+        "url": "https://chajinel.com"
+      },
+      {
+        "claim": "The services provided by Chajinel cater to healthcare regulations and standards.",
+        "url": "https://chajinel.com/services/"
+      },
+      {
+        "claim": "Chajinel mentions adherence to healthcare data standards, indicating possible integration with EHRs and other systems.",
+        "url": "https://chajinel.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.31
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found supporting use of X12 or API automation for data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

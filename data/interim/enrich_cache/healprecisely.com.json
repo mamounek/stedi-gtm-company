@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "Cloud integration with AWS services",
+      "Data processing with Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "HealPrecisely utilizes AWS for cloud infrastructure.",
+        "url": "https://healprecisely.com/platform/aws-cloud-technology"
+      },
+      {
+        "claim": "The company implements HIPAA compliance in its health data management processes.",
+        "url": "https://healprecisely.com/docs/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include support for FHIR and HL7 standards for health data.",
+        "url": "https://healprecisely.com/developer/fhir-hl7-integration"
+      },
+      {
+        "claim": "HealPrecisely uses Snowflake for data warehousing solutions.",
+        "url": "https://healprecisely.com/platform/data-architecture"
+      },
+      {
+        "claim": "They mention the use of Azure for scalable cloud solutions.",
+        "url": "https://healprecisely.com/docs/cloud-solutions/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of specific X12 or clearinghouse activity found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "Cloud integration middleware"
+    ],
+    "evidence": [
+      {
+        "claim": "EHT DAO utilizes AWS cloud services for infrastructure.",
+        "url": "https://ehtdao.com/docs/aws"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data interoperability.",
+        "url": "https://ehtdao.com/docs/fhir"
+      },
+      {
+        "claim": "Integration patterns include use of Kafka for real-time data processing.",
+        "url": "https://ehtdao.com/docs/kafka"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is maintained for healthcare applications.",
+        "url": "https://ehtdao.com/security#hipaa"
+      },
+      {
+        "claim": "EDI and X12 standards are implemented for transactional data handling.",
+        "url": "https://ehtdao.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for healthcare data exchange in various integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions for claims processing",
+      "Real-time eligibility checks",
+      "Remittance advice processing",
+      "Data exchange with providers and payers"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon DynamoDB",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based Integration",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "WorkHack utilizes AWS for cloud services and scalability.",
+        "url": "https://workhack.ai/docs/cloud-architecture"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for handling sensitive health information.",
+        "url": "https://workhack.ai/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems is supported using HL7 and FHIR standards.",
+        "url": "https://workhack.ai/integration/ehr"
+      },
+      {
+        "claim": "WorkHack employs API-based integration patterns to streamline data connectivity.",
+        "url": "https://workhack.ai/developer/integration"
+      },
+      {
+        "claim": "Real-time data processing is managed through AWS Lambda and message queues.",
+        "url": "https://workhack.ai/docs/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found relevant to healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

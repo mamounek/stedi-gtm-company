@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Touchstone Health utilizes AWS cloud services for infrastructure.",
+        "url": "https://touchstonehc.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance regulations in handling patient data.",
+        "url": "https://touchstonehc.com/security"
+      },
+      {
+        "claim": "Touchstone Health is involved in EDI transactions and supports X12 formats.",
+        "url": "https://touchstonehc.com/edi"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://touchstonehc.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 and APIs for healthcare data exchange, indicating fit.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider and payer communication"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Amazon RDS",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems",
+      "Data streaming with AWS Kinesis",
+      "Cloud-based data processing with Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Neolytix utilizes AWS services for cloud functions and databases.",
+        "url": "https://neolytix.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "HIPAA and FHIR standards are incorporated into Neolytix's health data management solutions.",
+        "url": "https://neolytix.com/security/health-tech-compliance"
+      },
+      {
+        "claim": "EDI and X12 transaction sets support healthcare data exchange.",
+        "url": "https://neolytix.com/docs/healthcare-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health data processing with EDI/X12 transactions and claims management.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "API integrations with EHR systems",
+      "Clearinghouse functionalities for claims",
+      "Eligibility verification using 270/271",
+      "Claims status inquiries with 276/277",
+      "Remittance processing with 835",
+      "Claims submission using 837"
+    ]
+  }
+}

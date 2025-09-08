@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integrations",
+      "Batch Processing",
+      "Real-time Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "DirectRx integrates with AWS cloud services for scalable solutions.",
+        "url": "https://directrx.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data security.",
+        "url": "https://directrx.com/security/hipaa"
+      },
+      {
+        "claim": "DirectRx utilizes EDI X12 transaction sets for healthcare billing processes.",
+        "url": "https://directrx.com/docs/edi"
+      },
+      {
+        "claim": "DirectRx supports FHIR standards for interoperable health information exchange.",
+        "url": "https://directrx.com/fhir"
+      },
+      {
+        "claim": "The integration architecture involves real-time data streaming with Kafka.",
+        "url": "https://directrx.com/docs/integrations#kafka"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "DirectRx engages with X12 transactions, indicating a strong fit for API automation in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "270/271 eligibility checks",
+      "837 claim submissions",
+      "835 remittance processing",
+      "real-time data exchange"
+    ]
+  }
+}

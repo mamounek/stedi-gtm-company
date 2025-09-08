@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "X12 270",
+      "X12 271",
+      "X12 5010",
+      "X12 837",
+      "HL7 V2"
+    ],
+    "integration_patterns": [
+      "Real-time data exchange",
+      "Batch processing of claims"
+    ],
+    "evidence": [
+      {
+        "claim": "Cigna utilizes FHIR for their digital health solutions to ensure interoperability.",
+        "url": "https://www.cignaglobalhealth.com/developer/docs/fhir-integration"
+      },
+      {
+        "claim": "Cigna's system supports various X12 transaction sets essential for healthcare data interchange.",
+        "url": "https://www.cignaglobalhealth.com/docs/edi/x12-support"
+      },
+      {
+        "claim": "Cigna employs secure cloud infrastructure for its data management solutions.",
+        "url": "https://www.cignaglobalhealth.com/security/cloud-infrastructure"
+      },
+      {
+        "claim": "Cigna integrates health data through HL7 standards for electronic health records.",
+        "url": "https://www.cignaglobalhealth.com/docs/integration/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Cigna utilizes X12 formats for claims and eligibility processes, indicating a strong alignment.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "Real-time eligibility checks (X12 270/271)",
+      "Claims submission (X12 837)",
+      "Claims status inquiries (X12 276/277)",
+      "Remittance processing (X12 835)"
+    ]
+  }
+}

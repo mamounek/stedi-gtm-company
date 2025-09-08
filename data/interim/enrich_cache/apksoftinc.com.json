@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS CloudWatch",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR Standards",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "APKSoft utilizes AWS for cloud infrastructure, including Lambda and S3 services.",
+        "url": "https://apksoftinc.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its health-tech services.",
+        "url": "https://apksoftinc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Information on the use of X12 for electronic health transactions is detailed in their developer documentation.",
+        "url": "https://apksoftinc.com/docs/edi-guide"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs and webhooks, as mentioned in their API documentation.",
+        "url": "https://apksoftinc.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA X12 EDI integration indicates a strong fit with our API-first platform.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Healthcare data exchange",
+      "Real-time API integration"
+    ]
+  }
+}

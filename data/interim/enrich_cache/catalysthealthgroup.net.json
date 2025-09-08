@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "StratiFi Health utilizes AWS for cloud services.",
+        "url": "https://catalysthealthgroup.net/cloud-services"
+      },
+      {
+        "claim": "The company has implemented FHIR standards for health data interoperability.",
+        "url": "https://catalysthealthgroup.net/fhir-implementation"
+      },
+      {
+        "claim": "StratiFi Health complies with HIPAA regulations in handling patient data.",
+        "url": "https://catalysthealthgroup.net/hipaa-compliance"
+      },
+      {
+        "claim": "Use of Kafka for data streaming is mentioned in their technology stack.",
+        "url": "https://catalysthealthgroup.net/technology-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company integrates with X12 and claims processing, suitable for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "data exchange with providers"
+    ]
+  }
+}

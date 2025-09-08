@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "MyBumpMyBaby states its adherence to privacy guidelines, indicating possible usage of HIPAA-compliant systems.",
+        "url": "https://mybumpmybaby.com/privacy-policy/"
+      },
+      {
+        "claim": "The company emphasizes secure handling of personal data, hinting at the adoption of secure integration patterns typical in health-tech.",
+        "url": "https://mybumpmybaby.com/terms-of-service/"
+      },
+      {
+        "claim": "They mention working with healthcare professionals, which suggests possible integration with health records or EHR systems.",
+        "url": "https://mybumpmybaby.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse use cases found on their website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

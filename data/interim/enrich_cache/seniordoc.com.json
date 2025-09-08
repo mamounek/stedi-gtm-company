@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "SeniorDoc utilizes AWS Lambda for serverless computing.",
+        "url": "https://seniordoc.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for managing patient data.",
+        "url": "https://seniordoc.com/security"
+      },
+      {
+        "claim": "SeniorDoc supports FHIR standard for healthcare data interoperability.",
+        "url": "https://seniordoc.com/developer/api"
+      },
+      {
+        "claim": "Integration with X12 EDI for health insurance transactions is detailed in case studies.",
+        "url": "https://seniordoc.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI in health tech with relevant APIs and integration patterns for claims and eligibility.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI claims submission",
+      "Eligibility verification",
+      "Remittance processing",
+      "Claims status inquiries"
+    ]
+  }
+}

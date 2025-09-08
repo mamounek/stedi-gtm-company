@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No direct references to APIs, cloud services, or health-tech standards found on their site.",
+        "url": "https://caregivercardssc.com"
+      },
+      {
+        "claim": "Caregiver Cards Home Care does not list specific technical infrastructure or integration patterns.",
+        "url": "https://caregivercardssc.com/about"
+      },
+      {
+        "claim": "There are no mentions of HIPAA, X12, or FHIR/HL7 in the context of their applications or services.",
+        "url": "https://caregivercardssc.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 transactions or API automation on public site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

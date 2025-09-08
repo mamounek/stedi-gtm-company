@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Alabama Ægis utilizes AWS for infrastructure.",
+        "url": "https://www.alaaegis.com/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for health data handling.",
+        "url": "https://www.alaaegis.com/security"
+      },
+      {
+        "claim": "Integration with X12 standard for electronic data interchange.",
+        "url": "https://www.alaaegis.com/docs/edi"
+      },
+      {
+        "claim": "Supports FHIR standards for health data interoperability.",
+        "url": "https://www.alaaegis.com/docs/fhir"
+      },
+      {
+        "claim": "Utilizes Azure for data storage and analysis.",
+        "url": "https://www.alaaegis.com/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of sending/receiving X12 transactions or being a clearinghouse.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

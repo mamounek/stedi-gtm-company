@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "EczemaLess employs HIPAA compliance to safeguard user data.",
+        "url": "https://www.eczemaless.com/security"
+      },
+      {
+        "claim": "The platform utilizes cloud services for backend infrastructure, although specific providers aren't listed.",
+        "url": "https://www.eczemaless.com/docs"
+      },
+      {
+        "claim": "EczemaLess aims to create a seamless data-sharing platform, mentioned in their engineering careers page.",
+        "url": "https://www.eczemaless.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 exchanges or API automation on their site.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

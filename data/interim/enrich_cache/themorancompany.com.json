@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Data Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The Moran Company adheres to HIPAA compliance standards in their data handling and processing.",
+        "url": "https://themorancompany.com/security/"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for healthcare data interoperability.",
+        "url": "https://themorancompany.com/docs/healthcare-data-standards/"
+      },
+      {
+        "claim": "They implement RESTful APIs for integration with various healthcare systems.",
+        "url": "https://themorancompany.com/developer/api-overview/"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of specific use cases for X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

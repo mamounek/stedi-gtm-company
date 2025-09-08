@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA Compliance",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "CarePolicy.US utilizes AWS Lambda for serverless functions",
+        "url": "https://carepolicy.us/docs/integration#lambda"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for handling healthcare data",
+        "url": "https://carepolicy.us/security#hipaa"
+      },
+      {
+        "claim": "Integration with FHIR enables interoperability with health systems",
+        "url": "https://carepolicy.us/developer#fhir"
+      },
+      {
+        "claim": "HL7 standards are employed for data exchange processes",
+        "url": "https://carepolicy.us/health-tech#hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or a clearinghouse model found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

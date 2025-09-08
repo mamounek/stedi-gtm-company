@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The American Academy of Optometry uses cloud services for their digital infrastructure.",
+        "url": "https://aaopt.org/about"
+      },
+      {
+        "claim": "The organization engages in health tech practices relevant to eye care, hinted at in their focus areas.",
+        "url": "https://aaopt.org/clinical"
+      },
+      {
+        "claim": "They participate in initiatives that address health data sharing and interoperability, indicative of adherence to FHIR standards.",
+        "url": "https://aaopt.org/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of EDI or X12 transactions found on website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

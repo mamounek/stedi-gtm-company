@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Patriot Claims utilizes FHIR for data integration in healthcare applications.",
+        "url": "https://patriotclaims.com/healthcare-integration"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for handling sensitive health data.",
+        "url": "https://patriotclaims.com/privacy-policy"
+      },
+      {
+        "claim": "Patriot Claims mentions the use of EDI standards for processing claims.",
+        "url": "https://patriotclaims.com/edi-claims-processing"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific X12 usage or API automation found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

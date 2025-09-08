@@ -1,0 +1,22 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance considerations have been noted in various communications."
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company underscores its commitment to HIPAA compliance in its operational policies.",
+        "url": "https://purchaseralliance.org/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.19
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction or clearinghouse use cases found on the site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

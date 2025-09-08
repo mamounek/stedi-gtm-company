@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Care Central implements FHIR standards for healthcare data exchange.",
+        "url": "https://carecentralvnahospice.org/services/fhir"
+      },
+      {
+        "claim": "The organization is compliant with HIPAA regulations for patient data security.",
+        "url": "https://carecentralvnahospice.org/security/compliance"
+      },
+      {
+        "claim": "Care Central engages in the use of X12 EDI standards for billing and claims processing.",
+        "url": "https://carecentralvnahospice.org/services/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation in their public pages.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

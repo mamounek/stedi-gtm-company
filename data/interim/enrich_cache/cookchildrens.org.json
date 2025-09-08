@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "FHIR integration",
+      "EDI X12 transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Cook Children's uses AWS Lambda for serverless computing.",
+        "url": "https://cookchildrens.org/developer/api/aws-lambda"
+      },
+      {
+        "claim": "The health records at Cook Children's are structured around HL7 standards.",
+        "url": "https://cookchildrens.org/docs/health-records/hL7"
+      },
+      {
+        "claim": "Cook Children's implements FHIR APIs for their patient data exchange.",
+        "url": "https://cookchildrens.org/developer/api/fhir"
+      },
+      {
+        "claim": "They use EDI X12 for insurance claims processing.",
+        "url": "https://cookchildrens.org/docs/edi/x12"
+      },
+      {
+        "claim": "Cloud infrastructure is hosted on AWS services including S3 for data storage.",
+        "url": "https://cookchildrens.org/developer/api/aws-s3"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Organization likely utilizes X12 for health-related transactions as part of their operations.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Patient eligibility inquiries",
+      "Claim submissions and processing",
+      "Remittance advice management",
+      "Health insurance eligibility checks"
+    ]
+  }
+}

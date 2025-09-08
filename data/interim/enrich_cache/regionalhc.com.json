@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transactions",
+      "FHIR standards"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Regional Home Care utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://regionalhc.com/careers-cloud-engineering"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for data security and patient information privacy.",
+        "url": "https://regionalhc.com/security-compliance"
+      },
+      {
+        "claim": "Integration with EHRs follows FHIR guidelines as part of their health-tech solutions.",
+        "url": "https://regionalhc.com/docs/ehr-integration"
+      },
+      {
+        "claim": "X12 transaction processing is part of their workflow for insurance claims.",
+        "url": "https://regionalhc.com/docs/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA X12 transactions for healthcare data exchange, aligning with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility requests",
+      "276/277 Claims status",
+      "837 Claims submission",
+      "835 Remittance advice"
+    ]
+  }
+}

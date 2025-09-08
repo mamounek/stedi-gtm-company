@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "The platform utilizes AWS services for cloud infrastructure and data management.",
+        "url": "https://mhainspire.org/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The organization follows HIPAA guidelines for health data protection.",
+        "url": "https://mhainspire.org/security/hipaa"
+      },
+      {
+        "claim": "They have implemented FHIR standards for health data exchange.",
+        "url": "https://mhainspire.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHR systems supports HL7 messaging protocols.",
+        "url": "https://mhainspire.org/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 or EDI processes in healthcare transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

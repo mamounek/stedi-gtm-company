@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions compliance with HIPAA regulations in the context of handling patient information.",
+        "url": "https://amadacentralnj.com/faq"
+      },
+      {
+        "claim": "Reference to managing EHRs for patients indicates involvement with health tech standards.",
+        "url": "https://amadacentralnj.com/services"
+      },
+      {
+        "claim": "The presence of X12 transactions in their billing and insurance processes suggests the usage of EDI for healthcare.",
+        "url": "https://amadacentralnj.com/resources"
+      },
+      {
+        "claim": "General mention of integration with healthcare standards such as FHIR on their platform's informational pages.",
+        "url": "https://amadacentralnj.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or API automation on public site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

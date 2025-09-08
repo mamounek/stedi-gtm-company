@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "SMART Management utilizes AWS for their EHR solutions.",
+        "url": "https://smartmgmt.com/technology/"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange.",
+        "url": "https://smartmgmt.com/fhir-implementation/"
+      },
+      {
+        "claim": "X12 EDI is mentioned for transaction handling in SMART Management's services.",
+        "url": "https://smartmgmt.com/edi-standards/"
+      },
+      {
+        "claim": "Integration capabilities include REST APIs to facilitate system interoperability.",
+        "url": "https://smartmgmt.com/developer/docs/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of working with X12 or EDI processes found on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

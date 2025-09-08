@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "Data Streaming",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Northwest Respiratory Services utilizes AWS for cloud infrastructure.",
+        "url": "https://www.nwrespiratory.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for patient data handling.",
+        "url": "https://www.nwrespiratory.com/hipaa-compliance"
+      },
+      {
+        "claim": "The services include HL7 messaging for data exchange.",
+        "url": "https://www.nwrespiratory.com/health-data-exchange"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction usage found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

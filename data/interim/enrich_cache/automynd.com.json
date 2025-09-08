@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Cloud-based data integration"
+    ],
+    "evidence": [
+      {
+        "claim": "AutoMynd utilizes AWS for serverless application architecture.",
+        "url": "https://automynd.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for secure health information handling.",
+        "url": "https://automynd.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "AutoMynd offers FHIR interfaces for electronic health record integration.",
+        "url": "https://automynd.com/developer/fhir"
+      },
+      {
+        "claim": "Use of Snowflake for scalable data analytics is highlighted on the company’s site.",
+        "url": "https://automynd.com/docs/snowflake-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse functionalities on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

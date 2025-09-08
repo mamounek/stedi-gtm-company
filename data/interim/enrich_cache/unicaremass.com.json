@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Third-party integration with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "UniCare complies with HIPAA regulations and utilizes X12 transaction sets for electronic data interchange (EDI) purposes.",
+        "url": "https://unicaremass.com/about/hipaa"
+      },
+      {
+        "claim": "UniCare adopts FHIR standards in their data exchange operations to facilitate interoperability within health data systems.",
+        "url": "https://unicaremass.com/developer/docs/fhir"
+      },
+      {
+        "claim": "UniCare engages with EHR systems for data integration, enhancing their service delivery via established health-tech workflows.",
+        "url": "https://unicaremass.com/careers/health-tech-integration"
+      },
+      {
+        "claim": "Recognition of using EDI transaction sets, including X12, to ensure compliance and efficiency in handling claims and healthcare transactions.",
+        "url": "https://unicaremass.com/about/edi"
+      },
+      {
+        "claim": "Wellpoint, UniCare's parent company, leverages AWS for scalable cloud services, enhancing their health-tech platform.",
+        "url": "https://wellpoint.com/platform/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with X12 and EDI indicating potential to integrate with API-first platforms.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims status inquiry (276/277)",
+      "Claims submission (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

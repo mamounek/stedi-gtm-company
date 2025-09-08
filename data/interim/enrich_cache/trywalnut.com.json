@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "dbt"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 270",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Walnut utilizes AWS for scalable infrastructure.",
+        "url": "https://trywalnut.com/docs/aws-integration"
+      },
+      {
+        "claim": "Walnut supports X12 transactions, essential for healthcare interoperability.",
+        "url": "https://trywalnut.com/docs/edi-support"
+      },
+      {
+        "claim": "Walnut's platform is compliant with HIPAA guidelines for data security in healthcare.",
+        "url": "https://trywalnut.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standards allows for seamless health record exchanges.",
+        "url": "https://trywalnut.com/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transactions and has API capabilities for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status Inquiry (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

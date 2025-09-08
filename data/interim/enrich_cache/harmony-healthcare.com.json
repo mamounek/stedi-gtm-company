@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Harmony Healthcare utilizes AWS for cloud services.",
+        "url": "https://www.harmony-healthcare.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards.",
+        "url": "https://www.harmony-healthcare.com/security"
+      },
+      {
+        "claim": "Harmony Healthcare integrates with various EHRs to facilitate data exchange.",
+        "url": "https://www.harmony-healthcare.com/integration"
+      },
+      {
+        "claim": "They use FHIR standards for healthcare data interoperability.",
+        "url": "https://www.harmony-healthcare.com/docs"
+      },
+      {
+        "claim": "EDI transactions are supported for claims processing.",
+        "url": "https://www.harmony-healthcare.com/resources"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

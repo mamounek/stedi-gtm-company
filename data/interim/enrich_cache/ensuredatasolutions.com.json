@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR Standard",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "Webhook callbacks",
+      "Data ingestion from EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Ensure Data Solutions utilizes AWS services for scalability and data management.",
+        "url": "https://ensuredatasolutions.com/cloud-services"
+      },
+      {
+        "claim": "They are HIPAA compliant and highlight their security practices for handling health data.",
+        "url": "https://ensuredatasolutions.com/security"
+      },
+      {
+        "claim": "The company mentions usage of FHIR for health data exchange.",
+        "url": "https://ensuredatasolutions.com/health-tech"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for connecting with healthcare systems.",
+        "url": "https://ensuredatasolutions.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transactions; aligns with healthcare data exchange needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Integration with payers and providers"
+    ]
+  }
+}

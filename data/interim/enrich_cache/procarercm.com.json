@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR compatibility",
+      "HL7 standards",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "ProCare RCM uses AWS services for its cloud infrastructure.",
+        "url": "https://procarercm.com/about/"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its operations and infrastructure.",
+        "url": "https://procarercm.com/security/"
+      },
+      {
+        "claim": "ProCare supports FHIR standards for health data exchange.",
+        "url": "https://procarercm.com/services/health-data-management/"
+      },
+      {
+        "claim": "Integration with EHR systems is highlighted as a key service offering.",
+        "url": "https://procarercm.com/services/healthcare-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ProCare RCM handles X12 EDI transactions and supports healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Claim submission and management",
+      "Patient eligibility checks",
+      "Remittance advice integration"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Twilio API for messaging services",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR API for healthcare data exchange",
+      "HL7 messaging standards",
+      "X12 EDI compliance for insurance transactions"
+    ],
+    "integration_patterns": [
+      "API-based integrations with EHRs",
+      "Webhook integrations for real-time events",
+      "Batch processing of healthcare claim data"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for scalable infrastructure and data storage solutions.",
+        "url": "https://baltohealthservices.com/docs/infrastructure"
+      },
+      {
+        "claim": "Integrates with Twilio API for communication services in healthcare solutions.",
+        "url": "https://baltohealthservices.com/developer/apis"
+      },
+      {
+        "claim": "Supports FHIR standards for exchanging healthcare information digitally.",
+        "url": "https://baltohealthservices.com/health-tech/fhir"
+      },
+      {
+        "claim": "Adheres to X12 standards for electronic claim submissions.",
+        "url": "https://baltohealthservices.com/docs/edi"
+      },
+      {
+        "claim": "Provides integration with EHR systems through standardized APIs.",
+        "url": "https://baltohealthservices.com/integrations/ehr"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI for insurance transactions, indicating alignment with API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Insurance remittance",
+      "Patient data exchange",
+      "Real-time EDI transactions"
+    ]
+  }
+}

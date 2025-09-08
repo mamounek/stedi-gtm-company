@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Accordant uses AWS for its cloud services.",
+        "url": "https://www.accordant.com/cloud-services"
+      },
+      {
+        "claim": "Accordant is HIPAA compliant and manages sensitive health data accordingly.",
+        "url": "https://www.accordant.com/health-data-security"
+      },
+      {
+        "claim": "Accordant implements FHIR standards for health data integration.",
+        "url": "https://www.accordant.com/fhir-integration"
+      },
+      {
+        "claim": "Utilizes Snowflake for data warehousing and analytics.",
+        "url": "https://www.accordant.com/data-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or related use cases found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

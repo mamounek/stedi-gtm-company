@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12",
+      "837",
+      "270/271",
+      "EHR integration"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Central Valley PACE utilizes FHIR standards for health information exchange.",
+        "url": "https://cvpace.org/services/integrating-care/"
+      },
+      {
+        "claim": "The organization complies with HIPAA regulations for patient data security.",
+        "url": "https://cvpace.org/legal-notices/"
+      },
+      {
+        "claim": "X12 EDI 837 transaction set mentioned in billing practices.",
+        "url": "https://cvpace.org/legal-notices/#billing"
+      },
+      {
+        "claim": "The company is focused on electronic health record integration.",
+        "url": "https://cvpace.org/our-approach/#EHR"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Relevant healthcare data exchange use cases using X12 standards found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claim status (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

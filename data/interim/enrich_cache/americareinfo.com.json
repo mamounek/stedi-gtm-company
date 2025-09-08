@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA compliance standards.",
+        "url": "https://americareinfo.com/security"
+      },
+      {
+        "claim": "ameriCARE uses EDI transactions for billing and authorization processes.",
+        "url": "https://americareinfo.com/services"
+      },
+      {
+        "claim": "Company website mentions adherence to FHIR standards for patient data exchange.",
+        "url": "https://americareinfo.com/docs"
+      },
+      {
+        "claim": "There are mentions of integration patterns for EHR data management.",
+        "url": "https://americareinfo.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Small size and lack of public engagement in relevant X12 use cases indicate low ICP alignment.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

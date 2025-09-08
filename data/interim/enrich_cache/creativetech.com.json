@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 Standards",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Cloud-based data sharing",
+      "Data transformation with ETL tools"
+    ],
+    "evidence": [
+      {
+        "claim": "Creative Technology Solutions uses AWS for cloud infrastructure.",
+        "url": "https://creativetech.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "They are compliant with HIPAA and handle protected health information securely.",
+        "url": "https://creativetech.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company implements FHIR APIs for health data interoperability.",
+        "url": "https://creativetech.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "Creative Technology Solutions integrates EDI and X12 standards for healthcare transactions.",
+        "url": "https://creativetech.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange aligns with X12 compliance needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Clearinghouse services",
+      "Claims processing (837/835)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Data sharing via API"
+    ]
+  }
+}

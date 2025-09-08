@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API integration with EHRs",
+      "X12 transaction set processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Baywood Home Care utilizes AWS for cloud infrastructure services.",
+        "url": "https://www.baywoodhomecare.com/about"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in handling patient data.",
+        "url": "https://www.baywoodhomecare.com/security"
+      },
+      {
+        "claim": "Baywood Home Care supports FHIR for health data exchanges.",
+        "url": "https://www.baywoodhomecare.com/services"
+      },
+      {
+        "claim": "Implementation of X12 transaction sets for claims processing.",
+        "url": "https://www.baywoodhomecare.com/resources"
+      },
+      {
+        "claim": "Baywood integrates with various EHR systems through RESTful APIs.",
+        "url": "https://www.baywoodhomecare.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.68
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction involvement on website.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

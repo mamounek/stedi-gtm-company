@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Valley Oaks Medical Group emphasizes compliance with HIPAA regulations as part of their health information management practices.",
+        "url": "https://www.valleyoaksmed.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging in X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

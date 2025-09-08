@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Southern Grace Hospice utilizes cloud services for managing patient data securely.",
+        "url": "https://southerngracehospicehpc.com/security"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in handling patient information, indicating they use health-tech integrations accordingly.",
+        "url": "https://southerngracehospicehpc.com/docs/hipaa"
+      },
+      {
+        "claim": "Southern Grace Hospice offers documentation on their patient management systems, hinting at potential integration middleware.",
+        "url": "https://southerngracehospicehpc.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or API automation use cases found on the company site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

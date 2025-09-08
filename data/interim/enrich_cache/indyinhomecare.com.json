@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Indy In-Home Care adheres to HIPAA regulations for patient data protection.",
+        "url": "https://indyinhomecare.com/privacy-policy/"
+      },
+      {
+        "claim": "The company emphasizes compliance with healthcare standards including HIPAA.",
+        "url": "https://indyinhomecare.com/about-us/"
+      },
+      {
+        "claim": "Indy In-Home Care mentions the use of secure systems for handling patient information.",
+        "url": "https://indyinhomecare.com/services/"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

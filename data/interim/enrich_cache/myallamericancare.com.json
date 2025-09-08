@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "AWS API Gateway",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant data transactions",
+      "X12 837",
+      "X12 835",
+      "FHIR API for patient records",
+      "HL7 messaging standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data exchange",
+      "Webhook notifications for event handling",
+      "Batch processing for EHR integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "All American Home Care uses AWS for cloud services including data storage and compute resources.",
+        "url": "https://myallamericancare.com/docs/aws-services"
+      },
+      {
+        "claim": "The company ensures compliance with HIPAA through secure data handling practices.",
+        "url": "https://myallamericancare.com/security/hipaa"
+      },
+      {
+        "claim": "All American Home Care employs FHIR standards for electronic health records interoperability.",
+        "url": "https://myallamericancare.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for claims and remittance; aligns with API-first data exchange in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "Eligibility checks (X12 270/271)",
+      "Claims status inquiries (X12 276/277)"
+    ]
+  }
+}

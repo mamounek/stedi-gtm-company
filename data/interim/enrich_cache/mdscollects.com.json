@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "MDS utilizes AWS for its cloud infrastructure to ensure scalable and secure data management.",
+        "url": "https://mdscollects.com/about-us/"
+      },
+      {
+        "claim": "Their platform is compliant with HIPAA regulations, essential for handling sensitive medical data.",
+        "url": "https://mdscollects.com/security/"
+      },
+      {
+        "claim": "MDS implements X12 EDI transaction sets for billing and insurance transactions relevant to healthcare operations.",
+        "url": "https://mdscollects.com/services/"
+      },
+      {
+        "claim": "The company references its use of Azure for data integration and storage solutions.",
+        "url": "https://mdscollects.com/careers/engineering/"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MDS supports X12 transactions and is HIPAA compliant, aligning with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "Eligibility inquiries (270/271)",
+      "Claims submissions (837)",
+      "Remittance advice (835)",
+      "Clearinghouse services."
+    ]
+  }
+}

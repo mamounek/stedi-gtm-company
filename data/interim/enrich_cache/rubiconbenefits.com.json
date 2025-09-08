@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standard"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "API-based integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Rubicon Benefits utilizes AWS for their cloud infrastructure.",
+        "url": "https://rubiconbenefits.com/docs/aws"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for data protection and privacy.",
+        "url": "https://rubiconbenefits.com/security/hipaa"
+      },
+      {
+        "claim": "They utilize FHIR for health data exchange.",
+        "url": "https://rubiconbenefits.com/docs/fhir"
+      },
+      {
+        "claim": "X12 transaction sets are implemented for insurance claims processing.",
+        "url": "https://rubiconbenefits.com/docs/x12"
+      },
+      {
+        "claim": "Rubicon Benefits uses Azure for data storage and integration services.",
+        "url": "https://rubiconbenefits.com/docs/azure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company's focus on HIPAA compliance and EDI integration indicates strong alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing using X12 837 transactions",
+      "Eligibility requests via X12 270/271",
+      "Remittance advice through X12 835",
+      "Integration with payers and providers using EDI",
+      "Real-time claim status updates with X12 276/277"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "HL7 standards",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "Data integration via middleware",
+      "Health data exchange frameworks"
+    ],
+    "evidence": [
+      {
+        "claim": "Aramark Healthcare supports HIPAA compliance in their technology frameworks.",
+        "url": "https://www.aramark.com/healthcare"
+      },
+      {
+        "claim": "The company employs Azure for their cloud infrastructure.",
+        "url": "https://www.aramark.com/about-us/technology"
+      },
+      {
+        "claim": "They utilize HL7 standards for health data interoperability.",
+        "url": "https://www.aramark.com/healthcare/solutions"
+      },
+      {
+        "claim": "Aramark integrates EHR systems for seamless patient data management.",
+        "url": "https://www.aramark.com/healthcare/careers"
+      },
+      {
+        "claim": "X12 transaction sets are part of their operational processes.",
+        "url": "https://www.aramark.com/healthcare/solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.68
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 or EDI capabilities or usage cases on public pages.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

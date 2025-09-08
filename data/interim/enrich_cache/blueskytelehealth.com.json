@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services and infrastructure support.",
+        "url": "https://blueskytelehealth.com/developer"
+      },
+      {
+        "claim": "CarePoint is compliant with HIPAA regulations, indicating handling of sensitive health information.",
+        "url": "https://blueskytelehealth.com/security"
+      },
+      {
+        "claim": "Integration with FHIR standards for health data interoperability is mentioned in their tech stack.",
+        "url": "https://blueskytelehealth.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evident use cases for X12 standards or clearinghouse services found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

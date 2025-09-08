@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "UnitVisID utilizes AWS cloud services for their infrastructure needs.",
+        "url": "https://www.unitvisid.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data interoperability.",
+        "url": "https://www.unitvisid.com/health-tech/fhir-support"
+      },
+      {
+        "claim": "They employ Snowflake for data warehousing solutions.",
+        "url": "https://www.unitvisid.com/docs/data-warehouse"
+      },
+      {
+        "claim": "UnitVisID is compliant with HIPAA regulations for handling sensitive health information.",
+        "url": "https://www.unitvisid.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific references found for X12 or clearinghouse activities on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

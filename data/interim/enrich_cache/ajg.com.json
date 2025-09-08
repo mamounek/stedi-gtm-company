@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Microsoft Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12",
+      "EDI",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Five Points Benefits Solutions employ AWS services for their infrastructure.",
+        "url": "https://www.ajg.com/us/services/five-points-benefits-solutions/"
+      },
+      {
+        "claim": "The company discusses compliance with HIPAA regulations on their security page.",
+        "url": "https://www.ajg.com/us/services/security/"
+      },
+      {
+        "claim": "Integration patterns include the use of REST APIs as stated in their developer documentation.",
+        "url": "https://www.ajg.com/us/services/developer/"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in healthcare with strong HIPAA and X12 capabilities, targeting integration.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice Handling",
+      "Healthcare Data Exchange"
+    ]
+  }
+}

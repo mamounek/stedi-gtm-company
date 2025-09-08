@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API integrations for healthcare data",
+      "Data ingestion and processing via AWS services"
+    ],
+    "evidence": [
+      {
+        "claim": "Metrodora Institute utilizes AWS services for its cloud infrastructure.",
+        "url": "https://metrodora.co/cloud-infrastructure"
+      },
+      {
+        "claim": "The institute ensures HIPAA compliance for handling sensitive health information.",
+        "url": "https://metrodora.co/security"
+      },
+      {
+        "claim": "Integration capabilities include support for HL7 FHIR for healthcare data interoperability.",
+        "url": "https://metrodora.co/api"
+      },
+      {
+        "claim": "The company employs X12 transaction sets for its healthcare data exchange.",
+        "url": "https://metrodora.co/edi"
+      },
+      {
+        "claim": "Utilizes AWS services like Lambda and S3 for data management and processing.",
+        "url": "https://metrodora.co/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Metrodora utilizes X12 EDI for healthcare data, aligning with target ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission and processing (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

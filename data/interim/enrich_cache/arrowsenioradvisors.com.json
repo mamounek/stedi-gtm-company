@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No technical APIs or cloud services were identified on the company website.",
+        "url": "https://arrowsenioradvisors.com"
+      },
+      {
+        "claim": "No mention of health tech standards such as HIPAA, X12, FHIR, or HL7 was found.",
+        "url": "https://arrowsenioradvisors.com"
+      },
+      {
+        "claim": "There are no documents or pages related to engineering or specific cloud platforms, indicating a focus away from tech integration.",
+        "url": "https://arrowsenioradvisors.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant information on X12 or EDI use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

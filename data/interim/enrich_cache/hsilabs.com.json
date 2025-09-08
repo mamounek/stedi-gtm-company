@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "HSI Labs utilizes AWS for its cloud infrastructure.",
+        "url": "https://www.hsilabs.com/developer#aws"
+      },
+      {
+        "claim": "The platform supports HL7 and FHIR standards for health data interoperability.",
+        "url": "https://www.hsilabs.com/docs/health-tech#hl7-fhir"
+      },
+      {
+        "claim": "Integration with healthcare systems adheres to HIPAA regulations.",
+        "url": "https://www.hsilabs.com/security#hipaa"
+      },
+      {
+        "claim": "EDI transactions are managed through secure channels as per industry standards.",
+        "url": "https://www.hsilabs.com/docs/integration#edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company works with EDI transactions and HIPAA compliance, focused on healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "EDI transactions",
+      "claims processing",
+      "eligibility checks",
+      "remittance advice"
+    ]
+  }
+}

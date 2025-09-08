@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "PostgreSQL on AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP web services",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Engage Technologies uses AWS for cloud services including serverless applications with AWS Lambda and data storage in Amazon S3.",
+        "url": "https://engagetg.com/docs/aws-integration"
+      },
+      {
+        "claim": "The organization processes healthcare data using FHIR standards, ensuring interoperability with EHRs.",
+        "url": "https://engagetg.com/health-tech/fhir-implementation"
+      },
+      {
+        "claim": "Engage Technologies Group implements X12 EDI for healthcare transaction processing, enhancing compatibility with clearinghouses.",
+        "url": "https://engagetg.com/docs/x12-edi"
+      },
+      {
+        "claim": "The use of PostgreSQL on AWS is highlighted for database needs, suggesting a robust backend infrastructures.",
+        "url": "https://engagetg.com/docs/postgresql-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech with X12 EDI integration suggests strong alignment with ICP.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility Check",
+      "276/277 Claims Status Inquiry",
+      "278 Authorization Request/Response",
+      "837 Healthcare Claims Submission",
+      "835 Healthcare Claim Payment/Advice"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data exchange between healthcare systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Oasis Health Partners complies with HIPAA regulations, indicating their systems are secured for healthcare data.",
+        "url": "https://www.oasishp.net/security"
+      },
+      {
+        "claim": "They utilize API integration for effective communication between healthcare providers and EHR systems.",
+        "url": "https://www.oasishp.net/developer"
+      },
+      {
+        "claim": "The company focuses on data exchange in the health sector to streamline operations.",
+        "url": "https://www.oasishp.net/solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific X12 or clearinghouse references found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

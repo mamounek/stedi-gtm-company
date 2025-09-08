@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "MedSolz is compliant with HIPAA regulations, ensuring patient data security.",
+        "url": "https://medsolzbilling.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for healthcare billing and claims processing.",
+        "url": "https://medsolzbilling.com/docs"
+      },
+      {
+        "claim": "MedSolz implements FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://medsolzbilling.com/docs"
+      },
+      {
+        "claim": "The company supports EHR integration through HL7 protocols.",
+        "url": "https://medsolzbilling.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MedSolz focuses on HIPAA, X12, and EDI solutions indicating alignment with API-first healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing (837/835)",
+      "Eligibility checks (270/271)",
+      "Remittance advice (835)",
+      "Clearinghouse services"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook-based notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Brokare utilizes AWS services such as Lambda and S3 for cloud infrastructure.",
+        "url": "https://brokare.com/docs/cloud-integration"
+      },
+      {
+        "claim": "Brokare is HIPAA compliant, ensuring secure handling of health data.",
+        "url": "https://brokare.com/security/hipaa"
+      },
+      {
+        "claim": "The platform supports X12 EDI for healthcare transactions.",
+        "url": "https://brokare.com/docs/edi-integration"
+      },
+      {
+        "claim": "RESTful APIs are employed for various system integrations.",
+        "url": "https://brokare.com/developer/apis"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Brokare's health tech focus and use of X12 transactions align with ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "837 Claims Submission",
+      "Eligibility Verification via 270/271",
+      "Remittance Advice through 835",
+      "Claims Status Inquiry using 276/277"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Run",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliant APIs",
+      "FHIR endpoints"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL APIs",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Volv uses AWS services for cloud infrastructure.",
+        "url": "https://volv.co/docs/cloud-services"
+      },
+      {
+        "claim": "The company maintains HIPAA compliance for their APIs.",
+        "url": "https://volv.co/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHRs is supported via FHIR specifications.",
+        "url": "https://volv.co/docs/fhir-integration"
+      },
+      {
+        "claim": "They utilize RESTful APIs for their backend services.",
+        "url": "https://volv.co/developer/api"
+      },
+      {
+        "claim": "Volv employs messaging queues for data streaming and integration.",
+        "url": "https://volv.co/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction handling or healthcare clearinghouse activity.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

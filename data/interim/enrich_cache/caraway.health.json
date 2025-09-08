@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 messaging",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Caraway uses AWS Lambda for serverless infrastructure management.",
+        "url": "https://caraway.health/docs/infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its operations and data handling.",
+        "url": "https://caraway.health/security"
+      },
+      {
+        "claim": "Caraway implements HL7 messaging standards for healthcare data exchange.",
+        "url": "https://caraway.health/developer/hl7"
+      },
+      {
+        "claim": "They utilize FHIR APIs for interoperability with EHR systems.",
+        "url": "https://caraway.health/docs/fhir"
+      },
+      {
+        "claim": "Their integration pattern includes RESTful API integrations for third-party services.",
+        "url": "https://caraway.health/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12-related use cases or EDI engagement on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

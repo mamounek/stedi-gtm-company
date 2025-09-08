@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud infrastructure to ensure scalability and reliability.",
+        "url": "https://www.ccsmed.com/platform"
+      },
+      {
+        "claim": "CCS is compliant with HIPAA regulations, ensuring that they protect health information accordingly.",
+        "url": "https://www.ccsmed.com/security"
+      },
+      {
+        "claim": "The CCS API supports FHIR standards for interoperability in healthcare applications.",
+        "url": "https://www.ccsmed.com/docs/api"
+      },
+      {
+        "claim": "Integration with EHR systems follows HL7 protocols for data exchange.",
+        "url": "https://www.ccsmed.com/integrations"
+      },
+      {
+        "claim": "The company leverages Azure for data management and secure storage solutions in their health tech products.",
+        "url": "https://www.ccsmed.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in API-driven healthcare data exchange, fits size and tech stack.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status Inquiry"
+    ]
+  }
+}

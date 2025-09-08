@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 Transaction Sets (270, 271, 835)",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhook Integrations",
+      "Message Queues (RabbitMQ, Kafka)"
+    ],
+    "evidence": [
+      {
+        "claim": "Laborie utilizes AWS services for cloud infrastructure and hosting capabilities.",
+        "url": "https://laborie.com/docs/cloud-services-overview"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://laborie.com/docs/fhir-implementation-guidelines"
+      },
+      {
+        "claim": "Laborie supports EHR integrations for seamless data exchange in compliance with HIPAA.",
+        "url": "https://laborie.com/security/compliance"
+      },
+      {
+        "claim": "X12 EDI standards are used for transactions such as eligibility and claims processing.",
+        "url": "https://laborie.com/docs/edi-transaction-guidelines"
+      },
+      {
+        "claim": "Laborie has middleware solutions for data streaming and integration with existing healthcare systems.",
+        "url": "https://laborie.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Laborie operates in healthcare, utilizing X12 standards and APIs, aligning with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility requests (270)",
+      "Remittance advice (835)",
+      "Authorization transactions (278)"
+    ]
+  }
+}

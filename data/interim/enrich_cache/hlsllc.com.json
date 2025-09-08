@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR API integration",
+      "HL7 message processing"
+    ],
+    "evidence": [
+      {
+        "claim": "The company implements FHIR standards for interoperability in healthcare.",
+        "url": "https://hlsllc.com/fhir-integration"
+      },
+      {
+        "claim": "Healthcare Legal Solutions discusses their use of HL7 for data exchange protocols.",
+        "url": "https://hlsllc.com/hl7-standards"
+      },
+      {
+        "claim": "The company outlines their compliance with HIPAA regulations in handling patient data.",
+        "url": "https://hlsllc.com/hipaa-compliance"
+      },
+      {
+        "claim": "Discussion of EDI transactions (X12) in the context of healthcare payments and claims.",
+        "url": "https://hlsllc.com/edi-x12"
+      },
+      {
+        "claim": "Cloud infrastructure is utilized for secure data management in compliance-driven environments.",
+        "url": "https://hlsllc.com/cloud-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction capabilities or clearinghouse services found on site.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": []
+  }
+}

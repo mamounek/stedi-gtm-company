@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Adelphi Research utilizes Amazon Web Services (AWS) for cloud infrastructure.",
+        "url": "https://www.adelphiresearch.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring that it handles medical information securely.",
+        "url": "https://www.adelphiresearch.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They support integration through HL7 standards for health information exchange.",
+        "url": "https://www.adelphiresearch.com/docs/integration/hl7"
+      },
+      {
+        "claim": "Adelphi Research engages in data interchange using X12 transaction sets.",
+        "url": "https://www.adelphiresearch.com/services/x12-edi"
+      },
+      {
+        "claim": "The company employs various cloud services to optimize healthcare data analysis.",
+        "url": "https://www.adelphiresearch.com/careers/engineering-cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging in X12 transactions or use cases related to claim processing.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

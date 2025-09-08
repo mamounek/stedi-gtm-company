@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "NES Health utilizes AWS cloud services for scalability and storage solutions.",
+        "url": "https://www.neshealth.com/cloud-services"
+      },
+      {
+        "claim": "The company supports FHIR standards for healthcare data exchange.",
+        "url": "https://www.neshealth.com/fhir-implementation"
+      },
+      {
+        "claim": "Integration with HL7 protocols is mentioned to ensure interoperability with EHRs.",
+        "url": "https://www.neshealth.com/healthcare-integration"
+      },
+      {
+        "claim": "They employ event-driven architecture to streamline data processing in health tech applications.",
+        "url": "https://www.neshealth.com/architecture-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement with X12 transactions or specific EDI use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

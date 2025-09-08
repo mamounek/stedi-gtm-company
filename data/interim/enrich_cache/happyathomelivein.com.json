@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company does not appear to have publicly documented APIs or technical integrations.",
+        "url": "https://happyathomelivein.com"
+      },
+      {
+        "claim": "No explicit mention of HIPAA compliance or health information systems found.",
+        "url": "https://happyathomelivein.com/security"
+      },
+      {
+        "claim": "No cloud services like AWS or GCP are mentioned on the website.",
+        "url": "https://happyathomelivein.com/careers"
+      },
+      {
+        "claim": "No evidence of EDI, X12, or health-tech standards like FHIR/HL7 available on company site.",
+        "url": "https://happyathomelivein.com"
+      }
+    ],
+    "tech_stack_confidence": 0.31
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or relevant API use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

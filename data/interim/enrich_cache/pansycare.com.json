@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Pansy Homecare utilizes AWS services such as Lambda and S3 for their cloud infrastructure.",
+        "url": "https://pansycare.com/developer-docs/aws-integration"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://pansycare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "References to RESTful APIs and FHIR in their documentation suggest they leverage modern integration patterns for EHR data.",
+        "url": "https://pansycare.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Pansy Homecare uses X12 for healthcare data transactions, aligning with our ICP.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

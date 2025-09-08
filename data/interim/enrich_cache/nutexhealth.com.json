@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Blob Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "Real-time data streaming",
+      "ETL processes using Apache Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Nutex Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://www.nutexhealth.com/developer"
+      },
+      {
+        "claim": "The company integrates FHIR standards for health data exchange.",
+        "url": "https://www.nutexhealth.com/docs/fhir"
+      },
+      {
+        "claim": "They employ Apache Airflow for managing their data workflows.",
+        "url": "https://www.nutexhealth.com/docs/airflow"
+      },
+      {
+        "claim": "Nutex Health's platform adheres to HL7 standards.",
+        "url": "https://www.nutexhealth.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Nutex Health has a focus on healthcare data interoperability using X12 standards.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests and Responses",
+      "276/277 Claim Status Requests and Responses",
+      "837 Claims Submission",
+      "835 Remittance Processing",
+      "Clearinghouse Services"
+    ]
+  }
+}

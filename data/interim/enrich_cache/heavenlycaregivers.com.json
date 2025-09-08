@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Heavenly Care Home Care emphasizes compliance with HIPAA regulations on their website, indicating their handling of sensitive health data.",
+        "url": "https://www.heavenlycaregivers.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company mentions utilization of EDI standards in their operations, indicating the use of specific transaction sets for healthcare.",
+        "url": "https://www.heavenlycaregivers.com/services#edi"
+      },
+      {
+        "claim": "Heavenly Care has references to FHIR standards in their service offerings, indicating that they may interact with health records and data exchange frameworks.",
+        "url": "https://www.heavenlycaregivers.com/fhir-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

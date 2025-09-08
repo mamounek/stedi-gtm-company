@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "HL7 integration for EHRs"
+    ],
+    "integration_patterns": [
+      "RESTful API design",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Taskify AI utilizes AWS services for scalable architecture.",
+        "url": "https://taskifyai.tech/docs/aws-integration"
+      },
+      {
+        "claim": "The company follows HIPAA guidelines for data security in health applications.",
+        "url": "https://taskifyai.tech/security"
+      },
+      {
+        "claim": "Taskify AI has a feature integrating with HL7 standards for healthcare data exchange.",
+        "url": "https://taskifyai.tech/health-tech"
+      },
+      {
+        "claim": "They offer REST APIs for third-party integrations.",
+        "url": "https://taskifyai.tech/developer/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or integration with clearinghouses found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

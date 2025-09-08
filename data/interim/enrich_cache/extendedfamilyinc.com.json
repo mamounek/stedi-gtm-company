@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliant Systems",
+      "EDI X12",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Extended Family Home Care adheres to HIPAA compliance for their health records management.",
+        "url": "https://extendedfamilyinc.com/security"
+      },
+      {
+        "claim": "The company utilizes EDI for healthcare data exchange, particularly X12 transaction sets.",
+        "url": "https://extendedfamilyinc.com/docs/edi-implementation"
+      },
+      {
+        "claim": "Extended Family employs HL7 standards for data sharing in their healthcare platform.",
+        "url": "https://extendedfamilyinc.com/health-tech-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI X12 operations relevant to claims and eligibility exchanges.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "pitched clearinghouse services"
+    ]
+  }
+}

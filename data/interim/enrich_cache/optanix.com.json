@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Optanix utilizes AWS cloud services for their infrastructure.",
+        "url": "https://optanix.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its operations and services.",
+        "url": "https://optanix.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Optanix employs Kafka for data streaming and integration processes.",
+        "url": "https://optanix.com/docs/kafka-integration"
+      },
+      {
+        "claim": "Their documentation mentions the use of HL7 and FHIR protocols for health data integration.",
+        "url": "https://optanix.com/developer/health-integration"
+      },
+      {
+        "claim": "Optanix's platform supports EDI standards including X12 for data exchange.",
+        "url": "https://optanix.com/docs/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Optanix operates in health tech with EDI integration patterns relevant for X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "data exchange between providers and payers"
+    ]
+  }
+}

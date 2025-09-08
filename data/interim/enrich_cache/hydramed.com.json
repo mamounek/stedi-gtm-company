@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "EDI X12 transaction sets",
+      "HL7 standards",
+      "FHIR protocols"
+    ],
+    "integration_patterns": [
+      "Real-time data processing",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "HydraMed utilizes AWS services for its cloud infrastructure.",
+        "url": "https://hydramed.com/about/#tech"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring secure transaction of health data.",
+        "url": "https://hydramed.com/faq/#hipaa"
+      },
+      {
+        "claim": "They implement EDI X12 transaction sets for interoperability within healthcare systems.",
+        "url": "https://hydramed.com/integration/#edi"
+      },
+      {
+        "claim": "Uses FHIR standards for exchanging healthcare information.",
+        "url": "https://hydramed.com/developer/#fhir"
+      },
+      {
+        "claim": "Adopts HL7 protocols for data exchange in healthcare.",
+        "url": "https://hydramed.com/developer/#hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA-compliant EDI and is likely involved in healthcare transactions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "real-time eligibility checks",
+      "claims submission",
+      "remittance processing",
+      "transaction processing using X12 standards"
+    ]
+  }
+}

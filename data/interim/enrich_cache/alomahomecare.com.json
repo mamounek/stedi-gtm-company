@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance framework"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Aloma Home Care emphasizes HIPAA compliance in their services.",
+        "url": "https://alomahomecare.com/about-us/"
+      },
+      {
+        "claim": "The company mentions the use of secure systems for patient data, which aligns with HIPAA requirements.",
+        "url": "https://alomahomecare.com/faq/"
+      },
+      {
+        "claim": "Their privacy policy outlines adherence to HIPAA regulations.",
+        "url": "https://alomahomecare.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or EDI-related activities found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance frameworks"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Value Capture LLC employs HIPAA compliance practices in its operations.",
+        "url": "https://www.valuecapturellc.com/security"
+      },
+      {
+        "claim": "The company focuses on secure integration within health tech environments adhering to regulatory standards.",
+        "url": "https://www.valuecapturellc.com/docs/security"
+      },
+      {
+        "claim": "Value Capture LLC highlights its commitment to EHR security and interoperability.",
+        "url": "https://www.valuecapturellc.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of integration with X12 EDI transactions or clearinghouse activities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

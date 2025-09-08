@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "HomeTeam uses FHIR standards for health information exchange.",
+        "url": "https://hometeammo.com/health-tech"
+      },
+      {
+        "claim": "HomeTeam is compliant with HIPAA regulations for handling patient data.",
+        "url": "https://hometeammo.com/security"
+      },
+      {
+        "claim": "The company integrates with EHR systems for seamless data management.",
+        "url": "https://hometeammo.com/api"
+      },
+      {
+        "claim": "HomeTeam employs AWS for its cloud infrastructure to manage healthcare data.",
+        "url": "https://hometeammo.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of engaging with X12 transactions or related healthcare data exchange use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

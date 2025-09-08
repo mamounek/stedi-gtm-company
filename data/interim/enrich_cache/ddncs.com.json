@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "DDN Consulting utilizes AWS for hosting and data management.",
+        "url": "https://ddncs.com/cloud-services/"
+      },
+      {
+        "claim": "The company implements HIPAA compliance in its health tech solutions.",
+        "url": "https://ddncs.com/security-services/"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for interoperability with healthcare systems.",
+        "url": "https://ddncs.com/integration-services/"
+      },
+      {
+        "claim": "DDN provides solutions adhering to FHIR standards for health data exchange.",
+        "url": "https://ddncs.com/healthcare-technology/"
+      },
+      {
+        "claim": "Support for X12 EDI transactions in healthcare billing processes.",
+        "url": "https://ddncs.com/edi-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange with a focus on X12, aligning with API automation.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transactions support",
+      "Clearinghouse services",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice automation"
+    ]
+  }
+}

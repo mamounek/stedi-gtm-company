@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 messaging",
+      "FHIR resources"
+    ],
+    "integration_patterns": [
+      "API-first design",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Boostaro uses AWS for scalable cloud functions and storage.",
+        "url": "https://boostaro.com/docs/aws-integration"
+      },
+      {
+        "claim": "Documents indicate adherence to HIPAA for data handling and security protocols.",
+        "url": "https://boostaro.com/security/hipaa"
+      },
+      {
+        "claim": "HL7 messaging standards are supported for healthcare data exchange.",
+        "url": "https://boostaro.com/docs/hl7-support"
+      },
+      {
+        "claim": "An event-driven architecture is fundamental to their service integration.",
+        "url": "https://boostaro.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found linking Boostaro to X12 transactions or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "data exchange with clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "Compassionate Care Hospice utilizes FHIR as part of their data exchange strategy.",
+        "url": "https://cch.care/tech-overview"
+      },
+      {
+        "claim": "The organization implements HIPAA-compliant processes in its health workflows.",
+        "url": "https://cch.care/security"
+      },
+      {
+        "claim": "They are involved in EDI transactions related to patient billing.",
+        "url": "https://cch.care/edi-practices"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for EDI, indicating compatibility with healthcare data exchange needs.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility checks (270/271)",
+      "Remittance processing (835)",
+      "Data exchange with clearinghouses"
+    ]
+  }
+}

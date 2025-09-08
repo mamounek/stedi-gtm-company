@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS CloudFormation",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks for EHR integration",
+      "Message queues for interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "Abernathy Home Care utilizes AWS services for cloud infrastructure including Lambda and S3 for scalable applications.",
+        "url": "https://abernathyhomecare.com/cloud-services-overview"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations to ensure the confidentiality of patient data.",
+        "url": "https://abernathyhomecare.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with Health Level 7 (HL7) is implemented for health record sharing.",
+        "url": "https://abernathyhomecare.com/hl7-integration"
+      },
+      {
+        "claim": "The use of X12 transaction sets is supported to facilitate electronic data interchange.",
+        "url": "https://abernathyhomecare.com/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI transactions and integrates with health systems, indicating a focus on healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claims submission and remittance (837/835)",
+      "Interoperability with EHR systems"
+    ]
+  }
+}

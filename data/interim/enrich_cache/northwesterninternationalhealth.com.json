@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integrations",
+      "Real-time Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Northwestern Medicine uses AWS for scalable infrastructure.",
+        "url": "https://northwesterninternationalhealth.com/about/infrastructure"
+      },
+      {
+        "claim": "The cloud services include Google Cloud and Snowflake for data processing.",
+        "url": "https://northwesterninternationalhealth.com/services/data-management"
+      },
+      {
+        "claim": "Committed to HIPAA compliance for safeguarding patient data.",
+        "url": "https://northwesterninternationalhealth.com/security/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

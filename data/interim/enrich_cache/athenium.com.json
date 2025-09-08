@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Streaming data integration",
+      "Cloud data warehousing"
+    ],
+    "evidence": [
+      {
+        "claim": "Athenium Analytics utilizes AWS for cloud services and infrastructure.",
+        "url": "https://www.athenium.com/developer/docs/aws-integration"
+      },
+      {
+        "claim": "The platform complies with HIPAA standards for data handling and processing.",
+        "url": "https://www.athenium.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR for healthcare data exchange is part of Athenium's architecture.",
+        "url": "https://www.athenium.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Snowflake is employed for data warehousing solutions in their analytics engine.",
+        "url": "https://www.athenium.com/developer/docs/snowflake"
+      },
+      {
+        "claim": "They utilize Kafka for streaming data processes involving health data integrations.",
+        "url": "https://www.athenium.com/docs/kafka-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and APIs in healthcare analytics, indicating relevance for data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837/835 claims processing",
+      "EDI transactions management"
+    ]
+  }
+}

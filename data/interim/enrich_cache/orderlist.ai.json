@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Message Queue integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Orderlist utilizes FHIR standards for health data exchange.",
+        "url": "https://orderlist.ai/docs/fhir"
+      },
+      {
+        "claim": "Integration patterns include API-based and message queuing systems to ensure data interoperability.",
+        "url": "https://orderlist.ai/developer/integration"
+      },
+      {
+        "claim": "Orderlist adheres to HL7 guidelines for healthcare information integration.",
+        "url": "https://orderlist.ai/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or healthcare clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

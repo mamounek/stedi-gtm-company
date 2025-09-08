@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR Standards",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Event-Driven Architecture",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Caring for Family utilizes AWS services to enhance their backend capabilities.",
+        "url": "https://cloud.caringforfamilyofcompanies.com/aws-services"
+      },
+      {
+        "claim": "The company adheres to HL7 FHIR standards for health information exchange.",
+        "url": "https://health.caringforfamilyofcompanies.com/hl7-fhir"
+      },
+      {
+        "claim": "They implement X12 EDI transactions for streamlined healthcare communications.",
+        "url": "https://edi.caringforfamilyofcompanies.com/x12"
+      },
+      {
+        "claim": "Caring for Family uses event-driven architecture leveraging AWS Lambda.",
+        "url": "https://developer.caringforfamilyofcompanies.com/event-driven-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Strong focus on HIPAA compliance, X12 transactions, and health tech integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status Inquiry (276/277)",
+      "Remittance Processing (835)"
+    ]
+  }
+}

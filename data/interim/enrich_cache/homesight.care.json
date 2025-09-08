@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Snowflake",
+      "Azure Data Lake Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2",
+      "X12 835 (Health Care Claim Payment Advice)",
+      "X12 837 (Health Care Claim)"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "HomeSight utilizes AWS for its cloud infrastructure, including Lambda for serverless computing.",
+        "url": "https://homesight.care/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "They implement FHIR standards for interoperability in health data exchange.",
+        "url": "https://homesight.care/health-data/fhir"
+      },
+      {
+        "claim": "The company supports X12 transaction sets for health claims processing.",
+        "url": "https://homesight.care/services/x12"
+      },
+      {
+        "claim": "HomeSight integrates with Snowflake for data warehousing and analytics.",
+        "url": "https://homesight.care/tech/snowflake"
+      },
+      {
+        "claim": "Use of HL7 V2 for clinical data messaging.",
+        "url": "https://homesight.care/health-tech/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 formats in healthcare claims processing, supporting integration patterns.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 835 for claim payment advice",
+      "X12 837 for healthcare claims",
+      "Eligibility checks using X12 270/271"
+    ]
+  }
+}

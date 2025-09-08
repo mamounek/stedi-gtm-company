@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS",
+      "Amazon API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12",
+      "NPI"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Data streaming",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "LifeNome utilizes AWS for cloud hosting and data storage.",
+        "url": "https://www.lifenome.com/"
+      },
+      {
+        "claim": "The company emphasizes compliance with HIPAA regulations for data protection.",
+        "url": "https://www.lifenome.com/security/"
+      },
+      {
+        "claim": "They implement APIs to facilitate data integration between health systems and their platform.",
+        "url": "https://www.lifenome.com/developer/"
+      },
+      {
+        "claim": "LifeNome supports FHIR standards for health data interoperability.",
+        "url": "https://www.lifenome.com/health-tech/"
+      },
+      {
+        "claim": "Data exchange using X12 transaction sets is part of their service offering.",
+        "url": "https://www.lifenome.com/docs/x12/"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "LifeNome's use of X12 and healthcare integration aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 claims processing",
+      "Eligibility verification (270/271)",
+      "Claims status (276/277)"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "ProHealth utilizes AWS services for its infrastructure needs.",
+        "url": "https://prohealthgroup.com/developer"
+      },
+      {
+        "claim": "The company emphasizes compliance with HIPAA regulations in its data handling processes.",
+        "url": "https://prohealthgroup.com/security"
+      },
+      {
+        "claim": "ProHealth features integration patterns including RESTful APIs and Webhooks to connect services.",
+        "url": "https://prohealthgroup.com/docs"
+      },
+      {
+        "claim": "ProHealth uses FHIR standards for data exchange in its health tech platforms.",
+        "url": "https://prohealthgroup.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of X12 use or clearinghouse services found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

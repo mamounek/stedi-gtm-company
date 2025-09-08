@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API",
+      "HL7 Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Wayy utilizes AWS for infrastructure and cloud services.",
+        "url": "https://wayy.co/docs/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for health data management.",
+        "url": "https://wayy.co/security"
+      },
+      {
+        "claim": "Wayy supports FHIR standards for healthcare data exchange.",
+        "url": "https://wayy.co/developer/apis/fhir"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through RESTful APIs.",
+        "url": "https://wayy.co/integration/ehr"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or serving as a clearinghouse.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

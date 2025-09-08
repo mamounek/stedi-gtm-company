@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA Compliant APIs",
+      "HL7 integration",
+      "FHIR-friendly interfaces"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL for data queries",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "1821Health leverages AWS services for scalable cloud solutions.",
+        "url": "https://1821health.com/cloud-services"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for interoperability in health data exchange.",
+        "url": "https://1821health.com/fhir-standard"
+      },
+      {
+        "claim": "Integration with EHR systems adheres to HL7 protocols.",
+        "url": "https://1821health.com/integration"
+      },
+      {
+        "claim": "HIPAA compliance is maintained through secure APIs and data handling practices.",
+        "url": "https://1821health.com/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement with X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

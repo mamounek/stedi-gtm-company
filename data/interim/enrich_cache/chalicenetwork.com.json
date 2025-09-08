@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Chalice Network utilizes AWS for cloud services.",
+        "url": "https://chalicenetwork.com/docs/aws"
+      },
+      {
+        "claim": "Chalice Network adheres to HIPAA standards for healthcare data handling.",
+        "url": "https://chalicenetwork.com/security/hipaa"
+      },
+      {
+        "claim": "The company mentions HL7 in its integrations for healthcare data.",
+        "url": "https://chalicenetwork.com/integrations/hl7"
+      },
+      {
+        "claim": "Chalice Network employs API-based architecture for its platform functionalities.",
+        "url": "https://chalicenetwork.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 use cases or clearinghouse functionalities found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

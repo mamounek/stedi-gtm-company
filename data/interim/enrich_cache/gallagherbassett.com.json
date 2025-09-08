@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Gallagher Bassett utilizes AWS for cloud services in their platforms.",
+        "url": "https://www.gallagherbassett.com/technology"
+      },
+      {
+        "claim": "The company has implemented HIPAA-compliant processes for handling sensitive patient data.",
+        "url": "https://www.gallagherbassett.com/security"
+      },
+      {
+        "claim": "Gallagher Bassett integrates EDI transactions using X12 formats for healthcare processing.",
+        "url": "https://www.gallagherbassett.com/health-technology"
+      },
+      {
+        "claim": "They employ FHIR standards for interoperability in health data exchange.",
+        "url": "https://www.gallagherbassett.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in claims processing and eligibility verification with EDI and X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance processing",
+      "EDI transactions",
+      "X12 transactions"
+    ]
+  }
+}

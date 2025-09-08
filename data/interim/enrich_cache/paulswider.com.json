@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific APIs or cloud services mentioned on OCS site.",
+        "url": "https://paulswider.com"
+      },
+      {
+        "claim": "OCS does not provide explicit health-tech compliance information.",
+        "url": "https://paulswider.com/security"
+      },
+      {
+        "claim": "The company website lacks information about integration patterns or middleware used.",
+        "url": "https://paulswider.com/docs"
+      },
+      {
+        "claim": "No cloud service references are found within the site's engineering career section.",
+        "url": "https://paulswider.com/careers/engineering"
+      },
+      {
+        "claim": "There is no mention of any specific EHRs, clearinghouses, or health transaction sets on their site.",
+        "url": "https://paulswider.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or API-based healthcare data exchange found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

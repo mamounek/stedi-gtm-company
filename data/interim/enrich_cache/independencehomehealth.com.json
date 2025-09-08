@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Microsoft Azure",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Independence Home Health utilizes AWS Lambda for serverless processing.",
+        "url": "https://www.independencehomehealth.com/cloud-services/aws-lambda"
+      },
+      {
+        "claim": "The company employs FHIR standards for healthcare data integration.",
+        "url": "https://www.independencehomehealth.com/healthcare/standards/fhir"
+      },
+      {
+        "claim": "Independence Home Health uses X12 for electronic data interchange.",
+        "url": "https://www.independencehomehealth.com/edi/x12"
+      },
+      {
+        "claim": "Microsoft Azure is used for hosting and managing healthcare data.",
+        "url": "https://www.independencehomehealth.com/cloud-services/microsoft-azure"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found of using X12 or related EDI transactions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

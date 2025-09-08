@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Systems",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Everzir utilizes AWS for its cloud services.",
+        "url": "https://everzirmbs.com/aws-infrastructure"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA for handling health data.",
+        "url": "https://everzirmbs.com/security"
+      },
+      {
+        "claim": "They employ FHIR standards for health data interoperability.",
+        "url": "https://everzirmbs.com/health-tech"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhooks for data exchange.",
+        "url": "https://everzirmbs.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement in X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

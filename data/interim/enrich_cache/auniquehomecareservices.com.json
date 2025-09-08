@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 270",
+      "X12 271",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Unique HomeCare Services adheres to HIPAA regulations for patient data handling.",
+        "url": "https://auniquehomecareservices.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 transaction sets for insurance verification.",
+        "url": "https://auniquehomecareservices.com/docs/edi"
+      },
+      {
+        "claim": "Unique HomeCare Services implements FHIR standards for interoperability.",
+        "url": "https://auniquehomecareservices.com/integration"
+      },
+      {
+        "claim": "The company mentions using HL7 for electronic health information transfer.",
+        "url": "https://auniquehomecareservices.com/apis"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of API-first data exchange needs found in public information.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

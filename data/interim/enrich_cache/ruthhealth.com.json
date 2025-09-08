@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 270/271 transaction sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Ruth Health utilizes AWS services for its cloud infrastructure.",
+        "url": "https://ruthhealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data exchange.",
+        "url": "https://ruthhealth.com/developer/fhir"
+      },
+      {
+        "claim": "Ruth Health is HIPAA compliant, ensuring the protection of health information.",
+        "url": "https://ruthhealth.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Ruth Health uses X12 transactions and values API automation for healthcare interoperability.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

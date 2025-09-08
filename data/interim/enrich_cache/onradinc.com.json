@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR",
+      "DICOM"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "FHIR API",
+      "HL7 integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ONRAD utilizes AWS for cloud infrastructure.",
+        "url": "https://onradinc.com/technology"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for patient data privacy.",
+        "url": "https://onradinc.com/compliance"
+      },
+      {
+        "claim": "ONRAD supports HL7 and FHIR standards for interoperability with EHRs.",
+        "url": "https://onradinc.com/solutions"
+      },
+      {
+        "claim": "Integration with DICOM standards for medical imaging data management.",
+        "url": "https://onradinc.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or relevant health claims processing on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

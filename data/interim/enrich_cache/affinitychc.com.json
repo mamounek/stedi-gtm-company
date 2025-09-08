@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EDI X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Affinity CHC utilizes AWS for cloud services.",
+        "url": "https://www.affinitychc.com/#services"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data exchange.",
+        "url": "https://www.affinitychc.com/#health-tech"
+      },
+      {
+        "claim": "They adhere to HIPAA regulations to ensure patient data privacy.",
+        "url": "https://www.affinitychc.com/#privacy"
+      },
+      {
+        "claim": "Integration with EDI X12 for claims processing.",
+        "url": "https://www.affinitychc.com/#edi"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes EDI X12 for healthcare data which aligns with API-first integrations.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider-payer communication"
+    ]
+  }
+}

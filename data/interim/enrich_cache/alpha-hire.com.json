@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "GCP Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR endpoints"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Webhook notifications",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "AlphaHire uses AWS services including Lambda and S3 for scalable application infrastructure.",
+        "url": "https://alpha-hire.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company integrates with EHRs using FHIR standards and supports HIPAA compliance for health data management.",
+        "url": "https://alpha-hire.com/security/healthcare-compliance"
+      },
+      {
+        "claim": "AlphaHire implements X12 EDI transactions for efficient healthcare billing processes.",
+        "url": "https://alpha-hire.com/developer/docs/edi-specs"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of active engagement in X12 transactions or healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

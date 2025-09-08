@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 270/271",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "FullCircle employs AWS for their cloud infrastructure, indicating a reliance on scalable serverless architectures.",
+        "url": "https://fullcircle.fyi/docs/architecture"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring that their health data handling meets legal standards.",
+        "url": "https://fullcircle.fyi/security"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is supported as part of their health-tech services, facilitating efficient data exchanges.",
+        "url": "https://fullcircle.fyi/health-tech"
+      },
+      {
+        "claim": "Their documentation references using FHIR standards for health data interoperability, aligning with modern healthcare data exchange practices.",
+        "url": "https://fullcircle.fyi/api/fhir-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and APIs for healthcare data exchange, fitting target ICP profile.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Integration with providers and payers"
+    ]
+  }
+}

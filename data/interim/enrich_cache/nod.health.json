@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Nod Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://nod.health/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company mentions integration with FHIR and HL7 standards for health data exchange.",
+        "url": "https://nod.health/developer/fhir-hl7-docs"
+      },
+      {
+        "claim": "Nod Health employs Amazon API Gateway for managing API traffic and security.",
+        "url": "https://nod.health/docs/api-gateway-usage"
+      },
+      {
+        "claim": "They implement X12 transaction sets for electronic claims processing.",
+        "url": "https://nod.health/security/x12-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 standards for healthcare data exchange and APIs for integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claim status inquiry (276/277)",
+      "Remittance processing (835)"
+    ]
+  }
+}

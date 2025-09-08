@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Interchange through EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes HL7 standards for data exchange in healthcare.",
+        "url": "https://happyathomecaregivingllc.com/health-integration"
+      },
+      {
+        "claim": "FHIR is mentioned as a part of their patient data interoperability approach.",
+        "url": "https://happyathomecaregivingllc.com/fhir-implementation"
+      },
+      {
+        "claim": "EDI transactions are referenced in their operational workflows for billing.",
+        "url": "https://happyathomecaregivingllc.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse use found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

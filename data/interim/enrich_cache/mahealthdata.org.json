@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Data Warehousing",
+      "ETL Processes",
+      "APIs Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The Massachusetts Health Data Consortium utilizes AWS for its cloud infrastructure.",
+        "url": "https://mahealthdata.org/cloud-infrastructure"
+      },
+      {
+        "claim": "MHDC adheres to FHIR standards for healthcare data exchange.",
+        "url": "https://mahealthdata.org/fhir-standards"
+      },
+      {
+        "claim": "They support HL7 and EDI X12 transaction sets for interoperability.",
+        "url": "https://mahealthdata.org/interoperability"
+      },
+      {
+        "claim": "MHDC employs Azure and GCP for data analytics and storage solutions.",
+        "url": "https://mahealthdata.org/data-analytics"
+      },
+      {
+        "claim": "Integration patterns include ETL processes for healthcare data management.",
+        "url": "https://mahealthdata.org/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and APIs for healthcare data integration and exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims submissions",
+      "Remittance processing",
+      "Eligibility verification",
+      "Data integration for healthcare providers"
+    ]
+  }
+}

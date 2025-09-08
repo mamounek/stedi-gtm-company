@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Data pipeline using ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Landmark Healthcare utilizes AWS for its cloud infrastructure.",
+        "url": "https://landmarkhc.com/about-us"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, ensuring data privacy.",
+        "url": "https://landmarkhc.com/security"
+      },
+      {
+        "claim": "Landmark Healthcare supports X12 transaction sets in its healthcare services.",
+        "url": "https://landmarkhc.com/docs/edi"
+      },
+      {
+        "claim": "The company implements FHIR APIs for healthcare data interoperability.",
+        "url": "https://landmarkhc.com/developer/fhir"
+      },
+      {
+        "claim": "Landmark uses RESTful APIs for integration with external systems.",
+        "url": "https://landmarkhc.com/integration/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and value API automation for healthcare data exchanges.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837 claims submissions",
+      "835 remittance advice processing",
+      "Clearinghouse services"
+    ]
+  }
+}

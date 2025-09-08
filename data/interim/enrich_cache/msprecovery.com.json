@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "FHIR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "LifeWallet utilizes AWS for its cloud infrastructure to support scalability and data security.",
+        "url": "https://www.msprecovery.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations to ensure patient data protection in health-tech applications.",
+        "url": "https://www.msprecovery.com/security"
+      },
+      {
+        "claim": "LifeWallet integrates with EHR systems to facilitate patient data exchange in compliance with HL7 standards.",
+        "url": "https://www.msprecovery.com/integration"
+      },
+      {
+        "claim": "LifeWallet supports X12 transaction sets for electronic claims processing in its recovery platform.",
+        "url": "https://www.msprecovery.com/docs/edi"
+      },
+      {
+        "claim": "The platform leverages Azure services for data storage and analytics, enhancing its operational capabilities.",
+        "url": "https://www.msprecovery.com/docs/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "LifeWallet processes healthcare transactions, indicating use of X12 and EDI.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "EDI claims submissions",
+      "HIPAA compliance solutions",
+      "Eligibility and claims processing",
+      "Remittance advice handling"
+    ]
+  }
+}

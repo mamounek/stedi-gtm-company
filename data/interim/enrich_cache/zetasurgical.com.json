@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Zeta Surgical prioritizes compliance with HIPAA regulations for its health technology solutions.",
+        "url": "https://zetasurgical.com/security"
+      },
+      {
+        "claim": "The company integrates with FHIR standards for data interoperability in healthcare applications.",
+        "url": "https://zetasurgical.com/docs"
+      },
+      {
+        "claim": "HL7 messaging is employed for seamless data exchange in Zeta Surgical's healthcare services.",
+        "url": "https://zetasurgical.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of use cases involving X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

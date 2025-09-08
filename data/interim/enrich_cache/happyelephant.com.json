@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Happy Elephant adheres to HIPAA regulations for healthcare data protection.",
+        "url": "https://happyelephant.com/security"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange.",
+        "url": "https://happyelephant.com/docs/fhir"
+      },
+      {
+        "claim": "Happy Elephant utilizes AWS services for cloud infrastructure.",
+        "url": "https://happyelephant.com/infrastructure"
+      },
+      {
+        "claim": "Happy Elephant's developer documentation details integration capabilities with health data standards.",
+        "url": "https://happyelephant.com/docs/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or clearinghouse functionality found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

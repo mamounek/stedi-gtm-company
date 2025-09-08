@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS and GCP for cloud services.",
+        "url": "https://lyfehealth.us/docs/cloud-services"
+      },
+      {
+        "claim": "LyfeHealth implements HIPAA-compliant protocols and standards in their services.",
+        "url": "https://lyfehealth.us/security"
+      },
+      {
+        "claim": "They focus on API integration for EHRs and health data interoperability through FHIR and X12 standards.",
+        "url": "https://lyfehealth.us/integration"
+      },
+      {
+        "claim": "LyfeHealth utilizes data streaming technologies for real-time healthcare data processing.",
+        "url": "https://lyfehealth.us/docs/streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public information confirming use of X12 or relevant healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Full Bloom Memory Care utilizes various cloud solutions for their operations, though specific service names are not disclosed.",
+        "url": "https://fullbloommemorycare.com/about/"
+      },
+      {
+        "claim": "The company emphasizes compliance with HIPAA regulations, indicating adherence to necessary healthcare protocols.",
+        "url": "https://fullbloommemorycare.com/privacy-policy/"
+      },
+      {
+        "claim": "Full Bloom Memory Care indicates an interest in innovative approaches to memory care, possibly hinting at the use of tech infrastructures.",
+        "url": "https://fullbloommemorycare.com/approach/"
+      },
+      {
+        "claim": "The website mentions personalized memory care services, potentially supported by tech integrations for data management.",
+        "url": "https://fullbloommemorycare.com/services/"
+      }
+    ],
+    "tech_stack_confidence": 0.31
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation requirements found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

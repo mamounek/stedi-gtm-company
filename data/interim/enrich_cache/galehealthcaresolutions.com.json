@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "HL7 V2.5.1"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook-based notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Gale Healthcare uses AWS for its cloud infrastructure to ensure scalability and reliability.",
+        "url": "https://galehealthcaresolutions.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company employs FHIR standards to facilitate health data exchange.",
+        "url": "https://galehealthcaresolutions.com/fhir-implementation"
+      },
+      {
+        "claim": "Gale ensures HIPAA compliance across its platforms to protect patient health information.",
+        "url": "https://galehealthcaresolutions.com/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Gale Healthcare operates in healthcare data exchange and likely utilizes X12 formats.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 270/271 eligibility requests",
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "clearinghouse integration for payers and providers"
+    ]
+  }
+}

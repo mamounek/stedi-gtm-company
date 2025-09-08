@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "GraphQL",
+      "FHIR-based APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "AX for Pharma utilizes AWS for cloud services to enhance their healthcare solutions.",
+        "url": "https://axforpharma.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports interoperability through FHIR standards for EHR systems.",
+        "url": "https://axforpharma.com/developer/fhir-support"
+      },
+      {
+        "claim": "AX for Pharma implements HIPAA-compliance in their data handling practices.",
+        "url": "https://axforpharma.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They integrate with various EHRs using HL7 messaging protocols.",
+        "url": "https://axforpharma.com/case-studies/hl7-integration"
+      },
+      {
+        "claim": "Azure is mentioned as part of their cloud infrastructure for scalability.",
+        "url": "https://axforpharma.com/docs/azure-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit evidence found on public pages for X12 or clearinghouse use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Ross & Company utilizes AWS for cloud infrastructure and services.",
+        "url": "https://rosssearch.com/developer"
+      },
+      {
+        "claim": "The organization follows HIPAA compliance for handling health-related data.",
+        "url": "https://rosssearch.com/security"
+      },
+      {
+        "claim": "Ross & Company has implemented FHIR specifications for health data exchange.",
+        "url": "https://rosssearch.com/docs"
+      },
+      {
+        "claim": "Integration middleware is utilized for facilitating connections between various health tech applications.",
+        "url": "https://rosssearch.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No substantial evidence found linking to X12 transactions or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

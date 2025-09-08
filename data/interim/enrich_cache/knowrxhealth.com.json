@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud infrastructure.",
+        "url": "https://knowrxhealth.com/about/"
+      },
+      {
+        "claim": "KnowRX Health has a focus on HIPAA-compliant healthcare solutions.",
+        "url": "https://knowrxhealth.com/security/"
+      },
+      {
+        "claim": "The company mentions use of FHIR standards for data exchange in healthcare.",
+        "url": "https://knowrxhealth.com/docs/fhir-integration/"
+      },
+      {
+        "claim": "Mention of X12 transaction sets for EDI in healthcare communications.",
+        "url": "https://knowrxhealth.com/services/edi-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific mention of X12 transactions or clearinghouse capabilities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

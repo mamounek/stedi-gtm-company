@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR APIs",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP web services",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Adaptigent utilizes AWS for cloud services and infrastructure.",
+        "url": "https://adaptigent.com/docs/aws-integration"
+      },
+      {
+        "claim": "Their solutions comply with HIPAA regulations for health data.",
+        "url": "https://adaptigent.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Adaptigent supports HL7 FHIR for healthcare data interoperability.",
+        "url": "https://adaptigent.com/developer/fhir-apis"
+      },
+      {
+        "claim": "The company employs X12 standards for electronic data interchange in healthcare.",
+        "url": "https://adaptigent.com/docs/x12-integration"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for seamless data exchange.",
+        "url": "https://adaptigent.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 EDI and HIPAA compliance indicates clear alignment with API-first data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility inquiries (270/271)",
+      "Claims submissions (837)",
+      "Remittance advice (835)",
+      "Claims status inquiries (276/277)"
+    ]
+  }
+}

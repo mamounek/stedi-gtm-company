@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Firestore"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Alteas Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://alteashealth.com/developer/aws-lambda-overview"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to ensure data privacy and security.",
+        "url": "https://alteashealth.com/docs/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR APIs is mentioned in their developer documentation.",
+        "url": "https://alteashealth.com/api/fhir"
+      },
+      {
+        "claim": "X12 transaction sets are supported for healthcare data exchanges.",
+        "url": "https://alteashealth.com/docs/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Alteas Health utilizes HIPAA X12 for EDI processes, indicating strong alignment with API healthcare exchanges.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "claims submission",
+      "eligibility verification",
+      "remittance processing"
+    ]
+  }
+}

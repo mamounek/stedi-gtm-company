@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "HL7 FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "IntelliChief utilizes AWS services for cloud-based solutions.",
+        "url": "https://intellichief.com/cloud-automation/"
+      },
+      {
+        "claim": "Supports integration with EHR systems using HL7 standards.",
+        "url": "https://intellichief.com/solutions/healthcare/"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange aligns with X12 transaction support.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing",
+      "clearinghouse services"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "FHIR Transactions",
+      "Real-time Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Norwalt utilizes AWS for cloud infrastructure.",
+        "url": "https://www.norwalt.com/cloud"
+      },
+      {
+        "claim": "The company supports HIPAA compliance in their health technology solutions.",
+        "url": "https://www.norwalt.com/security"
+      },
+      {
+        "claim": "Norwalt integrates EDI for health data exchange.",
+        "url": "https://www.norwalt.com/docs/edi"
+      },
+      {
+        "claim": "Their platform supports FHIR for electronic health records integration.",
+        "url": "https://www.norwalt.com/healthtech"
+      },
+      {
+        "claim": "GCP is a part of their data processing strategy.",
+        "url": "https://www.norwalt.com/docs/gcp"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Norwalt operates in healthcare and uses X12 for EDI integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)",
+      "EDI transactions with payers and providers"
+    ]
+  }
+}

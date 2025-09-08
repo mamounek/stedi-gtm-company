@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Providence Digital Innovation Group utilizes AWS for its cloud services.",
+        "url": "https://www.providence-dig.org/about"
+      },
+      {
+        "claim": "The company integrates healthcare data standards like FHIR and HL7 in its applications.",
+        "url": "https://www.providence-dig.org/developer/docs"
+      },
+      {
+        "claim": "They support electronic data interchange using X12 standards.",
+        "url": "https://www.providence-dig.org/security"
+      },
+      {
+        "claim": "Providence uses Snowflake for its data warehousing solutions.",
+        "url": "https://www.providence-dig.org/careers"
+      },
+      {
+        "claim": "The organization employs REST APIs for seamless integration with EHR systems.",
+        "url": "https://www.providence-dig.org/integration"
+      },
+      {
+        "claim": "Providence includes integration middleware and support for EDI transactions on their platform.",
+        "url": "https://www.providence-dig.org/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.92
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health tech with a focus on EDI and X12 transactions for interoperability.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice automation"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Streaming data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Elementum uses AWS for cloud infrastructure.",
+        "url": "https://elementum.ai/docs/architecture"
+      },
+      {
+        "claim": "The company integrates FHIR standards for health data transmission.",
+        "url": "https://elementum.ai/docs/fhir-integration"
+      },
+      {
+        "claim": "Elementum employs Airflow for orchestration of data workflows.",
+        "url": "https://elementum.ai/docs/data-pipelines"
+      },
+      {
+        "claim": "Elementum supports HL7 messages for healthcare data standards.",
+        "url": "https://elementum.ai/docs/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or serving healthcare clearinghouse needs.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

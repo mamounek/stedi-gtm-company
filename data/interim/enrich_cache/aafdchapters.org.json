@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "CMS-1500 transaction set",
+      "834 Enrollment Transaction Set"
+    ],
+    "integration_patterns": [
+      "REST API for EHR integration",
+      "JSON APIs for health data sharing"
+    ],
+    "evidence": [
+      {
+        "claim": "BrightStar utilizes AWS services for scalable infrastructure.",
+        "url": "https://www.aafdchapters.org/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for data security.",
+        "url": "https://www.aafdchapters.org/security"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through REST APIs.",
+        "url": "https://www.aafdchapters.org/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of engaging in X12 transactions or API data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

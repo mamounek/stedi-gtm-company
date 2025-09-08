@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 270/271 transaction sets",
+      "FHIR APIs",
+      "HL7 v2 messaging"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Zuhri Care uses AWS services for cloud infrastructure including AWS Lambda and S3 for data storage and processing.",
+        "url": "https://zuhricare.com/developer"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to protect patient data and uses FHIR standards for interoperability in health data exchange.",
+        "url": "https://zuhricare.com/docs/health-privacy"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for third-party EHR systems and webhook support for real-time data notifications.",
+        "url": "https://zuhricare.com/integration-guides"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of handling X12 transactions despite tech stack.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

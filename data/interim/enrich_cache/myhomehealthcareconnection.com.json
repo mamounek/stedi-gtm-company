@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company provides detailed information on HIPAA compliance relevant to EHR integrations.",
+        "url": "https://www.myhomehealthcareconnection.com/security"
+      },
+      {
+        "claim": "They mention the use of health-tech standards like HL7 for interoperability between healthcare systems.",
+        "url": "https://www.myhomehealthcareconnection.com/docs"
+      },
+      {
+        "claim": "No specific APIs or cloud services were found on the website related to their technical setup.",
+        "url": "https://www.myhomehealthcareconnection.com/developer"
+      },
+      {
+        "claim": "They discuss compliance with health data regulations but lack information on specific data platforms or transaction sets.",
+        "url": "https://www.myhomehealthcareconnection.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or API capabilities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

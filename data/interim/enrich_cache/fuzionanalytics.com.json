@@ -1,0 +1,61 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Apache Kafka",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "834",
+      "837",
+      "276",
+      "277"
+    ],
+    "integration_patterns": [
+      "ETL processes using Apache Airflow",
+      "Data streaming with Kafka",
+      "Cloud data integration strategies using AWS and Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "Fuzion utilizes AWS for its cloud infrastructure to process health data securely.",
+        "url": "https://fuzionanalytics.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR standards for interoperability in health tech applications.",
+        "url": "https://fuzionanalytics.com/fhir-integration"
+      },
+      {
+        "claim": "Fuzion integrates with Snowflake for analytics and data warehousing.",
+        "url": "https://fuzionanalytics.com/data-warehouse"
+      },
+      {
+        "claim": "They implement data streaming solutions using Apache Kafka for real-time analytics.",
+        "url": "https://fuzionanalytics.com/data-streaming"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is a foundational requirement in their health tech services.",
+        "url": "https://fuzionanalytics.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Fuzion supports X12 transactions and focuses on healthcare data integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction support",
+      "Claims processing automation",
+      "Eligibility verification",
+      "Remittance management",
+      "Data integration for healthcare",
+      "API automation in health tech"
+    ]
+  }
+}

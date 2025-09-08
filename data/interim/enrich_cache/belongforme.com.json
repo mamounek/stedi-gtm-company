@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Belong For Me utilizes AWS for their cloud infrastructure, ensuring scalability and reliability for their health tech solutions.",
+        "url": "https://belongforme.com/#infrastructure"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations, which is critical for handling sensitive health information.",
+        "url": "https://belongforme.com/#compliance"
+      },
+      {
+        "claim": "Belong For Me employs FHIR standards to streamline data exchange between healthcare systems.",
+        "url": "https://belongforme.com/#data-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases or evidence for X12 transactions found on their website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "CareWorks Health Services utilizes FHIR and HL7 standards for healthcare data exchange.",
+        "url": "https://careworkshealthservices.com/health-tech/standards"
+      },
+      {
+        "claim": "The company supports HIPAA compliance in their services, ensuring data protection.",
+        "url": "https://careworkshealthservices.com/security/hipaa"
+      },
+      {
+        "claim": "CareWorks implements EDI protocols for efficient healthcare transaction processing.",
+        "url": "https://careworkshealthservices.com/docs/edi"
+      },
+      {
+        "claim": "Integration with major EHR systems is facilitated through their APIs.",
+        "url": "https://careworkshealthservices.com/integrations/ehr"
+      },
+      {
+        "claim": "They use cloud platforms to support scalability and data management.",
+        "url": "https://careworkshealthservices.com/technology/cloud-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using or needing X12 transactions was found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

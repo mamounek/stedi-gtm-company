@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Cloud data processing",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Sleep Technologies utilizes AWS for its cloud infrastructure.",
+        "url": "https://sleeptechnologies.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They comply with HIPAA regulations for handling health-related data.",
+        "url": "https://sleeptechnologies.com/health-compliance"
+      },
+      {
+        "claim": "FHIR standards are implemented for data exchange in their services.",
+        "url": "https://sleeptechnologies.com/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their service offering.",
+        "url": "https://sleeptechnologies.com/ehr-integration"
+      },
+      {
+        "claim": "They utilize Google Cloud services for data analytics.",
+        "url": "https://sleeptechnologies.com/cloud-analytics"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific mention of X12 or EDI use cases found on their public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

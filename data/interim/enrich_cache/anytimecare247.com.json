@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS Elastic Beanstalk",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Messaging",
+      "HL7",
+      "FHIR APIs",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Anytime Care utilizes AWS services for its cloud infrastructure, ensuring scalability and reliability.",
+        "url": "https://anytimecare247.com/docs/api"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, indicating it follows both the privacy and security rules outlined for healthcare applications.",
+        "url": "https://anytimecare247.com/security"
+      },
+      {
+        "claim": "Anytime Care supports FHIR standards for health data interoperability.",
+        "url": "https://anytimecare247.com/docs/integration"
+      },
+      {
+        "claim": "The use of Twilio API for communication services shows integration capabilities for telehealth solutions.",
+        "url": "https://anytimecare247.com/docs/messaging"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for healthcare transactions and integrates with various health tech APIs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

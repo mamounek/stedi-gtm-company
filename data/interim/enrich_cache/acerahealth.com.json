@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets (specifically 270/271 for eligibility inquiries and responses)",
+      "FHIR API for patient data exchange"
+    ],
+    "integration_patterns": [
+      "RESTful API for data retrieval",
+      "Webhooks for real-time data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Acera Health utilizes AWS services for its infrastructure, which supports HIPAA compliance and secure data storage.",
+        "url": "https://www.acerahealth.com/about-us"
+      },
+      {
+        "claim": "The company implements FHIR standards for its health data interoperability, facilitating integration with EHR systems.",
+        "url": "https://www.acerahealth.com/what-we-do"
+      },
+      {
+        "claim": "Acera Health's platform allows real-time data processing and transaction handling using X12 transaction sets.",
+        "url": "https://www.acerahealth.com/engineering"
+      },
+      {
+        "claim": "The integration of RESTful APIs enables seamless connectivity with external systems within the healthcare ecosystem.",
+        "url": "https://www.acerahealth.com/developer"
+      },
+      {
+        "claim": "They mention their commitment to data security and compliance with HIPAA regulations in their framework, outlining their infrastructure choices.",
+        "url": "https://www.acerahealth.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transactions, offers HIPAA compliance, and values API automation in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "837 claim submissions",
+      "835 remittance processing",
+      "real-time data streaming via Webhooks"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR Standards"
+    ],
+    "integration_patterns": [
+      "APIs for EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Universal Pediatrics utilizes AWS for cloud infrastructure.",
+        "url": "https://www.universalpediatrics.com/about-us/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data security.",
+        "url": "https://www.universalpediatrics.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Universal Pediatrics offers FHIR standards for health information exchange.",
+        "url": "https://www.universalpediatrics.com/developer/fhir-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found for X12 transactions or EDI use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

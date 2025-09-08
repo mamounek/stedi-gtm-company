@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 version 2.5.1",
+      "FHIR R4"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhooks for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Affinity Health uses AWS services for their cloud infrastructure, including RDS for data storage.",
+        "url": "https://affinityhealthcorp.com/docs/cloud-services"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations to ensure patient data privacy.",
+        "url": "https://affinityhealthcorp.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They implement HL7 standards for healthcare data exchange.",
+        "url": "https://affinityhealthcorp.com/docs/health-tech/hl7"
+      },
+      {
+        "claim": "Utilizes FHIR protocols for interoperability between healthcare systems.",
+        "url": "https://affinityhealthcorp.com/docs/health-tech/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and healthcare integration suggests potential X12 use.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims management",
+      "eligibility verification",
+      "remittance processing",
+      "provider-payer data exchange"
+    ]
+  }
+}

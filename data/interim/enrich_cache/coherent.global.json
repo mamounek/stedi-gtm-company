@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Google Cloud Platform",
+      "Azure DevOps"
+    ],
+    "health_tech": [
+      "HIPAA compliant APIs",
+      "HL7 FHIR",
+      "X12 837 transaction set",
+      "X12 271 transaction set"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks for real-time data syncing"
+    ],
+    "evidence": [
+      {
+        "claim": "Coherent utilizes AWS cloud services to support its infrastructure.",
+        "url": "https://coherent.global/docs/infrastructure"
+      },
+      {
+        "claim": "The company is compliant with HIPAA and integrates with healthcare standards like HL7 and FHIR.",
+        "url": "https://coherent.global/security"
+      },
+      {
+        "claim": "Coherent's platform supports X12 transaction sets for healthcare data exchanges.",
+        "url": "https://coherent.global/developer/healthtech"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs and real-time webhooks.",
+        "url": "https://coherent.global/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Coherent utilizes X12 transactions and APIs, indicating potential for health data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 271 eligibility checks",
+      "X12 835 remittance processing",
+      "API integration for healthcare exchanges"
+    ]
+  }
+}

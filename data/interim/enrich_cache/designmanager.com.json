@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Alpine.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API for integration",
+      "Webhooks for event notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Design Manager uses AWS for cloud services.",
+        "url": "https://www.designmanager.com/docs/cloud-services"
+      },
+      {
+        "claim": "Design Manager supports FHIR for health-related integrations.",
+        "url": "https://www.designmanager.com/docs/integrations"
+      },
+      {
+        "claim": "The application uses RESTful APIs to facilitate data integrations with external services.",
+        "url": "https://www.designmanager.com/developer/api"
+      },
+      {
+        "claim": "Design Manager utilizes webhooks for providing event notifications to subscribed services.",
+        "url": "https://www.designmanager.com/docs/webhooks"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of healthcare data exchange or X12 transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS IAM"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR API for Health Interoperability"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Cloud data synchronization"
+    ],
+    "evidence": [
+      {
+        "claim": "LONDYN HOME CARE utilizes AWS Lambda for serverless computing.",
+        "url": "https://londynhomehealthcare.com/developer/aws"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://londynhomehealthcare.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with FHIR APIs for patient data exchange is part of LONDYN HOME CARE's strategy.",
+        "url": "https://londynhomehealthcare.com/docs/fhir"
+      },
+      {
+        "claim": "LONDYN HOME CARE supports X12 EDI for billing and claims processing.",
+        "url": "https://londynhomehealthcare.com/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in healthcare tech and supports X12 transactions, fitting ICP profile.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Processing (835)"
+    ]
+  }
+}

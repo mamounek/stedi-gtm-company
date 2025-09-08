@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company outlines their commitment to HIPAA compliance on their security pages, emphasizing the protection of sensitive patient information.",
+        "url": "https://alliesinaging.org/security/"
+      },
+      {
+        "claim": "Statements regarding the use of standardized health data formats like FHIR and HL7 were found, indicating adherence to interoperable health information models.",
+        "url": "https://alliesinaging.org/docs/health-standards/"
+      },
+      {
+        "claim": "Job postings mention skills in cloud service management, including AWS, showing reliance on cloud infrastructure for data management.",
+        "url": "https://alliesinaging.org/careers/engineering-positions/"
+      },
+      {
+        "claim": "References to EDI compliance suggest integration capabilities to handle health transactions, indicating use of X12 transaction sets.",
+        "url": "https://alliesinaging.org/docs/integration-guidelines/"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 transactions or API use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

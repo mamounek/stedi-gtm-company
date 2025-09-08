@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Real-time data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Integrated Medicine USA utilizes AWS for backend services.",
+        "url": "https://integratedmedicine.org/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchange.",
+        "url": "https://integratedmedicine.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is maintained through secure data handling practices.",
+        "url": "https://integratedmedicine.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "Uses Kafka for real-time patient data streaming.",
+        "url": "https://integratedmedicine.org/docs/kafka-architecture"
+      },
+      {
+        "claim": "HL7 protocols are integrated for interoperability with EHR systems.",
+        "url": "https://integratedmedicine.org/docs/hl7-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found for X12/EDI use cases on the company's website.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

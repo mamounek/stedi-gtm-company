@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Middleware for EHR"
+    ],
+    "evidence": [
+      {
+        "claim": "Propio uses AWS for its cloud infrastructure.",
+        "url": "https://www.propio.com/cloud-services"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in its service offerings.",
+        "url": "https://www.propio.com/security"
+      },
+      {
+        "claim": "The use of X12 transaction sets is mentioned for healthcare communications.",
+        "url": "https://www.propio.com/case-studies"
+      },
+      {
+        "claim": "Propio integrates with various EHR systems through specific APIs.",
+        "url": "https://www.propio.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of using X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event-Driven Architecture",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Teaming utilizes AWS EC2 for its cloud infrastructure.",
+        "url": "https://teaming.com/docs/infrastructure"
+      },
+      {
+        "claim": "They implement HL7 standards for health data integration.",
+        "url": "https://teaming.com/health-tech"
+      },
+      {
+        "claim": "Teaming uses an event-driven architecture to facilitate real-time health data processing.",
+        "url": "https://teaming.com/api"
+      },
+      {
+        "claim": "The platform supports FHIR for interoperability with EHRs.",
+        "url": "https://teaming.com/developer/docs/fhir-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of relevant X12 transaction capabilities found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

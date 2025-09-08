@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Simbie AI uses AWS cloud services for scalable infrastructure.",
+        "url": "https://simbie.ai/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for data interoperability in health-tech.",
+        "url": "https://simbie.ai/docs/fhir-support"
+      },
+      {
+        "claim": "Simbie adopted HL7 protocols to enhance data exchange.",
+        "url": "https://simbie.ai/docs/hl7-protocols"
+      },
+      {
+        "claim": "The company mentions integration with various APIs for efficient data management.",
+        "url": "https://simbie.ai/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of handling X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

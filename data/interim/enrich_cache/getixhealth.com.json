@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Medi-Centrix uses AWS cloud services for its infrastructure.",
+        "url": "https://getixhealth.com/cloud-services"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations and standards.",
+        "url": "https://getixhealth.com/security"
+      },
+      {
+        "claim": "They offer APIs that support FHIR standards for health data exchange.",
+        "url": "https://getixhealth.com/docs/fhir-api"
+      },
+      {
+        "claim": "Utilizes X12 transaction sets for insurance billing and claims processing.",
+        "url": "https://getixhealth.com/integration/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Operates in healthcare data exchange using X12 transactions and APIs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "276/277 Claims Status",
+      "278 Health Care Services Review",
+      "837 Claim Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

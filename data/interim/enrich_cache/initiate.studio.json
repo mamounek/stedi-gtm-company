@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Firebase"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "API-first design"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud infrastructure, enabling scalable application development.",
+        "url": "https://initiate.studio/docs/aws-integration"
+      },
+      {
+        "claim": "Initiate Studios & Ventures implements FHIR standards for interoperability in health-tech applications.",
+        "url": "https://initiate.studio/developer/fhir-standards"
+      },
+      {
+        "claim": "They support HL7 messaging for healthcare data exchange.",
+        "url": "https://initiate.studio/docs/hl7-support"
+      },
+      {
+        "claim": "They utilize Google Cloud Platform for data analytics and processing.",
+        "url": "https://initiate.studio/docs/gcp-analytics"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or relevant use cases on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

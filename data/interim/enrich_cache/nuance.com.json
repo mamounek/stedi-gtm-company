@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Kafka",
+      "Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "Cloud-based Data Integration",
+      "Real-time Data Streaming",
+      "Batch Processing Streamlines"
+    ],
+    "evidence": [
+      {
+        "claim": "Nuance utilizes AWS and Azure for deploying healthcare solutions.",
+        "url": "https://www.nuance.com/healthcare/solutions.html"
+      },
+      {
+        "claim": "Nuance supports FHIR standards for healthcare interoperability.",
+        "url": "https://www.nuance.com/healthcare/solutions/interoperability.html"
+      },
+      {
+        "claim": "Nuance's products integrate with various EHR systems and employ HL7 protocols.",
+        "url": "https://www.nuance.com/healthcare/solutions/ehr-solutions.html"
+      },
+      {
+        "claim": "Nuance employs Snowflake for data warehousing solutions in the healthcare sector.",
+        "url": "https://www.nuance.com/healthcare/solutions/data-solutions.html"
+      },
+      {
+        "claim": "Nuance healthcare solutions utilize Kafka for real-time data streaming.",
+        "url": "https://www.nuance.com/healthcare/solutions/integration.html"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Nuance Healthcare integrates X12 EDI for healthcare data exchange, aligning with ICP profile.",
+    "icp_confidence": 0.78,
+    "matched_use_cases": [
+      "Eligibility Verification",
+      "Claims Processing",
+      "Real-time Remittance Advice",
+      "EDI Data Exchange with Payers and Providers"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliant data exchange"
+    ],
+    "integration_patterns": [
+      "API-based integration for EHR data",
+      "Data interchange using X12 EDI formats"
+    ],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA standards for data security in healthcare.",
+        "url": "https://onc.care/security"
+      },
+      {
+        "claim": "ONCare utilizes FHIR for patient data interoperability.",
+        "url": "https://onc.care/fhir"
+      },
+      {
+        "claim": "They support HL7 messaging protocols for EHR integration.",
+        "url": "https://onc.care/docs/integration"
+      },
+      {
+        "claim": "Integration capabilities with third-party clearinghouses using X12 EDI.",
+        "url": "https://onc.care/api"
+      },
+      {
+        "claim": "Deployment on cloud platforms for data security and processing efficiency.",
+        "url": "https://onc.care/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 EDI formats and HIPAA compliant workflows for healthcare.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transactions (270/271, 837/835)",
+      "API-based integration for EHR data",
+      "Clearinghouse services for claims and remittance"
+    ]
+  }
+}

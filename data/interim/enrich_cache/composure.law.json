@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Heroku"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Composure utilizes AWS Lambda for serverless computing functions.",
+        "url": "https://composure.law/docs/infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR for health data exchange compliance.",
+        "url": "https://composure.law/health-tech"
+      },
+      {
+        "claim": "Integration with EHRs is possible through HL7 standards implementation.",
+        "url": "https://composure.law/docs/api"
+      },
+      {
+        "claim": "Uses AWS S3 for scalable storage of health documents.",
+        "url": "https://composure.law/security"
+      },
+      {
+        "claim": "The architecture employs API Gateway for secure API transactions within applications.",
+        "url": "https://composure.law/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating usage of X12 formats or EDI in healthcare.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

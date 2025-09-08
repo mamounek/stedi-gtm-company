@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Azure Cloud Services",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR (Fast Healthcare Interoperability Resources)",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data streaming and transformation with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Pendrick utilizes AWS for cloud infrastructure and services.",
+        "url": "https://pendrickgroup.com/cloud-services"
+      },
+      {
+        "claim": "They have integration patterns for EHR interfaces.",
+        "url": "https://pendrickgroup.com/integration-patterns"
+      },
+      {
+        "claim": "Pendrick engages with health data standards like FHIR and X12.",
+        "url": "https://pendrickgroup.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Pendrick focuses on X12 EDI transactions, relevant to healthcare clearinghouse services.",
+    "icp_confidence": 0.76,
+    "matched_use_cases": [
+      "X12 EDI transactions for healthcare claims",
+      "API integration with EHRs for eligibility checks",
+      "Data interchange using 270/271 transaction sets"
+    ]
+  }
+}

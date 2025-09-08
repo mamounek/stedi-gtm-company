@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Pisces Healthcare utilizes AWS infrastructure for scalability and reliability.",
+        "url": "https://pisceshealth.com/aws-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations ensuring secure data handling.",
+        "url": "https://pisceshealth.com/security-standards"
+      },
+      {
+        "claim": "Pisces integrates with EHR systems through HL7 and FHIR protocols.",
+        "url": "https://pisceshealth.com/health-technology"
+      },
+      {
+        "claim": "They use Kafka for real-time data streaming and processing.",
+        "url": "https://pisceshealth.com/integration-patterns"
+      },
+      {
+        "claim": "Pisces Healthcare supports X12 transaction sets for insurance claims processing.",
+        "url": "https://pisceshealth.com/edi-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Pisces Healthcare's focus on X12 and EDI indicates a need for API-first solutions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "clearinghouse functions",
+      "provider communication"
+    ]
+  }
+}

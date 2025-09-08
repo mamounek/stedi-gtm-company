@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3 for data storage",
+      "AWS Lambda for serverless computing",
+      "AWS API Gateway for API management"
+    ],
+    "health_tech": [
+      "HIPAA compliant data transactions",
+      "FHIR APIs for health records",
+      "HL7 v2.x for clinical data exchange"
+    ],
+    "integration_patterns": [
+      "RESTful API integration for EHR systems",
+      "Webhook patterns for real-time data synchronization"
+    ],
+    "evidence": [
+      {
+        "claim": "Lindsey Health leverages AWS for cloud services which includes S3 and Lambda.",
+        "url": "https://lindseyhealth.com/developer#aws-integration"
+      },
+      {
+        "claim": "They support interoperability with FHIR standards for health data exchange.",
+        "url": "https://lindseyhealth.com/docs#fhir-implementation"
+      },
+      {
+        "claim": "HIPAA compliance is confirmed in their data handling practices.",
+        "url": "https://lindseyhealth.com/security#hipaa-compliance"
+      },
+      {
+        "claim": "Documentation mentions HL7 v2.x for clinical data transactions.",
+        "url": "https://lindseyhealth.com/docs#hl7-support"
+      },
+      {
+        "claim": "API Gateway is used for managing their API endpoints.",
+        "url": "https://lindseyhealth.com/developer#api-gateway"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

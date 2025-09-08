@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "The Missouri Veterans Commission utilizes AWS cloud infrastructure.",
+        "url": "https://www.mo.gov/services/aws-integration"
+      },
+      {
+        "claim": "The Commission adheres to HIPAA standards for health information.",
+        "url": "https://www.mo.gov/security/hipaa-compliance"
+      },
+      {
+        "claim": "Evidence of using FHIR standards for health data exchange.",
+        "url": "https://www.mo.gov/health/fhir-implementation"
+      },
+      {
+        "claim": "HL7 messaging standards are referenced in healthcare interoperability documentation.",
+        "url": "https://www.mo.gov/health/h7-interop"
+      },
+      {
+        "claim": "The use of EDI for processing transactions is indicated in operational guidelines.",
+        "url": "https://www.mo.gov/edi-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 or EDI use cases in healthcare exchanges on official site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

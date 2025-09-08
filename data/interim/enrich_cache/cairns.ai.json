@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cairns Health utilizes FHIR for health data management.",
+        "url": "https://cairns.ai/docs/fhir"
+      },
+      {
+        "claim": "Cairns Health complies with HIPAA regulations.",
+        "url": "https://cairns.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "Cairns Health's API documentation emphasizes secure health data integration.",
+        "url": "https://cairns.ai/developer/api-docs"
+      },
+      {
+        "claim": "Cairns Health mentions interoperability via HL7 messaging standards.",
+        "url": "https://cairns.ai/docs/integration/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear indication of working with X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

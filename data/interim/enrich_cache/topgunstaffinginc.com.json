@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Healthcare Transactions",
+      "HL7 FHIR Specification"
+    ],
+    "integration_patterns": [
+      "API Gateway for Microservices Integration",
+      "Event-Driven Architecture using AWS SNS/SQS"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS services for scalable cloud solutions.",
+        "url": "https://topgunstaffinginc.com/cloud-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.44
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI, indicating a strong fit for API-first healthcare data exchanges.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 Eligibility Transactions",
+      "276/277 Claim Status Transactions",
+      "278 Prior Authorization Requests",
+      "837/835 Claims and Remittance Processing"
+    ]
+  }
+}

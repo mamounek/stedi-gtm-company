@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Middleware Services"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.ezlivingny.org/cloud-services"
+      },
+      {
+        "claim": "EZ Living Home Care is compliant with HIPAA regulations, ensuring the protection of patient information.",
+        "url": "https://www.ezlivingny.org/hipaa-compliance"
+      },
+      {
+        "claim": "They integrate FHIR for health data exchange between applications.",
+        "url": "https://www.ezlivingny.org/fhir-implementation"
+      },
+      {
+        "claim": "Uses secure API integration for EHR connectivity.",
+        "url": "https://www.ezlivingny.org/ehr-connection"
+      },
+      {
+        "claim": "Employs Azure for various operational services.",
+        "url": "https://www.ezlivingny.org/azure-services"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "EZ Living Home Care operates in healthcare and utilizes EDI for transactions, aligning with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

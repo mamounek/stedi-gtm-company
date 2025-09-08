@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "NMCV Business provides solutions that comply with HIPAA regulations, ensuring secure management of health data.",
+        "url": "https://nmcvbusiness.com/compliance"
+      },
+      {
+        "claim": "NMCV Business mentions integration capabilities with various health data standards, though specific APIs are not disclosed.",
+        "url": "https://nmcvbusiness.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

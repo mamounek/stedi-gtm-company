@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "EHR",
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Griswold uses AWS for cloud hosting of their applications.",
+        "url": "https://griswoldcare.com/about-us/tech-approach/"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for patient data security.",
+        "url": "https://griswoldcare.com/security-compliance/"
+      },
+      {
+        "claim": "Griswold integrates with EHR systems to manage patient information.",
+        "url": "https://griswoldcare.com/integrations/"
+      },
+      {
+        "claim": "The company utilizes various healthcare transaction standards including X12 and FHIR.",
+        "url": "https://griswoldcare.com/healthcare-solution/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases for X12 data exchange found on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

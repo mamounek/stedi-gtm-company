@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming",
+      "Middleware for healthcare systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Future Care Consultants utilizes AWS for their infrastructure needs.",
+        "url": "https://fcc-corp.com/about"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance and emphasizes secure handling of healthcare data.",
+        "url": "https://fcc-corp.com/security"
+      },
+      {
+        "claim": "Future Care Consultants uses FHIR standards for healthcare data exchange.",
+        "url": "https://fcc-corp.com/health-tech"
+      },
+      {
+        "claim": "Integration patterns include API integrations with electronic health records.",
+        "url": "https://fcc-corp.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found supporting X12 transaction handling or clearinghouse capabilities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "OpusCare implements HIPAA compliance in its technology stack.",
+        "url": "https://opuscare.org/security"
+      },
+      {
+        "claim": "The platform supports interoperability standards including FHIR and HL7 for healthcare data exchange.",
+        "url": "https://opuscare.org/docs"
+      },
+      {
+        "claim": "OpusCare utilizes EDI for insurance claim processing and data sharing.",
+        "url": "https://opuscare.org/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with X12 and EDI integrations for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare data exchange"
+    ]
+  }
+}

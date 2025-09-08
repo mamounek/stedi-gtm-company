@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "HL7",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Caliper ensures compliance with HIPAA regulations for health data privacy and security.",
+        "url": "https://caliper.care/security"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health information exchange.",
+        "url": "https://caliper.care/docs/fhir-support"
+      },
+      {
+        "claim": "Caliper leverages HL7 messaging for interoperability in EHR systems.",
+        "url": "https://caliper.care/docs.hl7"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is facilitated for health insurance claims processing.",
+        "url": "https://caliper.care/docs/x12-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech and X12 integration suggests alignment with API-first data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

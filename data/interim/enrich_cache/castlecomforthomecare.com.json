@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Castle Comfort Homecare uses secure APIs to handle sensitive healthcare data, complying with HIPAA regulations.",
+        "url": "https://castlecomforthomecare.com/security"
+      },
+      {
+        "claim": "Integration with electronic health records (EHRs) is facilitated through health-tech standards like FHIR.",
+        "url": "https://castlecomforthomecare.com/docs/integration"
+      },
+      {
+        "claim": "The company mentions using cloud services for storing health-related data securely.",
+        "url": "https://castlecomforthomecare.com/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

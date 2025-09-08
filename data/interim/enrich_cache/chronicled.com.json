@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS SQS",
+      "AWS API Gateway",
+      "Amazon DynamoDB"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 837",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Cloud-based integration",
+      "Microservices architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Chronicled utilizes AWS services for its cloud infrastructure, specifically mentioning AWS Lambda and Amazon S3.",
+        "url": "https://chronicled.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance, indicating its services for health tech are secure and follow regulations.",
+        "url": "https://chronicled.com/security"
+      },
+      {
+        "claim": "Chronicled integrates healthcare data using FHIR standards, ensuring interoperability with electronic health records.",
+        "url": "https://chronicled.com/health-technology"
+      },
+      {
+        "claim": "The platform utilizes an event-driven architecture for integrating various components and services seamlessly.",
+        "url": "https://chronicled.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Their tech stack includes X12 and health tech, indicating relevance for API automation in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checking",
+      "276/277 claim status inquiries",
+      "837 claims submissions",
+      "835 remittance advice processing",
+      "clearinghouse functions for X12 transactions"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "HIPAA-compliant data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Community Health Center utilizes FHIR standards for health data interoperability.",
+        "url": "https://chcofcapecod.org/docs/fhir"
+      },
+      {
+        "claim": "The organization adheres to HIPAA regulations for patient data handling.",
+        "url": "https://chcofcapecod.org/security"
+      },
+      {
+        "claim": "Integration with electronic health records (EHR) is part of their service offerings.",
+        "url": "https://chcofcapecod.org/integration"
+      },
+      {
+        "claim": "They use HL7 standards for health information exchange.",
+        "url": "https://chcofcapecod.org/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or acting as a data clearinghouse found.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

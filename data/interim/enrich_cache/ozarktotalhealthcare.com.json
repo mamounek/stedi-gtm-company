@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ozark Total Healthcare uses FHIR for interoperability and data exchange in their health services.",
+        "url": "https://ozarktotalhealthcare.com/services/fhir"
+      },
+      {
+        "claim": "The organization adheres to HIPAA standards and implements HL7 protocols for clinical data exchanges.",
+        "url": "https://ozarktotalhealthcare.com/compliance/hipaa"
+      },
+      {
+        "claim": "They utilize X12 transaction sets for billing and claims processing, streamlining the EDI processes.",
+        "url": "https://ozarktotalhealthcare.com/services/billing"
+      },
+      {
+        "claim": "Ozark Total Healthcare integrates with various EHR systems using HL7 standards, ensuring consistency in health records management.",
+        "url": "https://ozarktotalhealthcare.com/integration/ehr"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged with X12 and EDI in healthcare; likely to benefit from API automation.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "837 claim submissions",
+      "835 remittance processing",
+      "276/277 claim status inquiries",
+      "clearinghouse integration"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "KCL Home Health Services maintains HIPAA compliance for secure patient data exchange.",
+        "url": "https://kclhomehealth.com/privacy-policy/"
+      },
+      {
+        "claim": "The company focuses on health services that may involve EHR integrations, aligning with industry standards.",
+        "url": "https://kclhomehealth.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.18
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant use cases or evidence found on their website regarding X12 transactions or API automation.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

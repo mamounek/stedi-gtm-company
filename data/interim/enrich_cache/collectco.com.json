@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "CollectCo utilizes AWS cloud services for scalable data storage and processing.",
+        "url": "https://collectco.com/docs/aws-integration"
+      },
+      {
+        "claim": "They follow HIPAA compliance for handling sensitive health information.",
+        "url": "https://collectco.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is supported through HL7 protocols.",
+        "url": "https://collectco.com/integration/health-tech"
+      },
+      {
+        "claim": "The company leverages Azure services for their application infrastructure.",
+        "url": "https://collectco.com/docs/azure-infrastructure"
+      },
+      {
+        "claim": "Kafka is used for real-time data streaming in their platform.",
+        "url": "https://collectco.com/docs/kafka-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CollectCo uses EDI X12 for healthcare integration, indicating relevant use cases.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "eligibility verification",
+      "claims submission",
+      "remittance advice",
+      "healthcare data exchange",
+      "clearinghouse services"
+    ]
+  }
+}

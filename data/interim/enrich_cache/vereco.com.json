@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "APIs for EHR integration",
+      "Cloud-based data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Vereco employs cloud services such as AWS and Azure for scalable healthcare solutions.",
+        "url": "https://vereco.com/docs/cloud-services"
+      },
+      {
+        "claim": "Their solutions comply with HIPAA regulations ensuring patient data security.",
+        "url": "https://vereco.com/security"
+      },
+      {
+        "claim": "They utilize FHIR standards for health data interoperability.",
+        "url": "https://vereco.com/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and uses APIs for EHR integrations, indicating a strong fit.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "837 claims submission",
+      "835 remittance processing",
+      "276/277 claims status inquiries",
+      "clearinghouse functionality"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Infrastructure",
+      "HL7 Implementation"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Webhook Notification"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud services, ensuring robust infrastructure and HIPAA compliance.",
+        "url": "https://swancompanion.com/docs/infrastructure"
+      },
+      {
+        "claim": "Integration with HL7 standards for health data exchange.",
+        "url": "https://swancompanion.com/developer/hl7"
+      },
+      {
+        "claim": "REST APIs available for application integration and data sharing.",
+        "url": "https://swancompanion.com/api/docs"
+      },
+      {
+        "claim": "Adopts EDI standards for billing and claims processing within healthcare.",
+        "url": "https://swancompanion.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functionality found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

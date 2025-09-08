@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Real-time data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure and services.",
+        "url": "https://purehomehealthcare.com/developer/api"
+      },
+      {
+        "claim": "Pure Home Health Care emphasizes HIPAA compliance across its platform.",
+        "url": "https://purehomehealthcare.com/security"
+      },
+      {
+        "claim": "They are integrating HL7 and FHIR standards for healthcare data management.",
+        "url": "https://purehomehealthcare.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or being an EDI clearinghouse.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

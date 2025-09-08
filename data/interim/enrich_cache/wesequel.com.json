@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA Compliant API",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Sequel Mobility utilizes AWS cloud services for their platform infrastructure.",
+        "url": "https://wesequel.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company integrates with Twilio for messaging services, which is crucial for health tech communications.",
+        "url": "https://wesequel.com/docs/integrations"
+      },
+      {
+        "claim": "Sequel Mobility's health applications are HIPAA compliant, ensuring data privacy and security for patient information.",
+        "url": "https://wesequel.com/security"
+      },
+      {
+        "claim": "They offer a FHIR API to facilitate interoperability with EHR systems.",
+        "url": "https://wesequel.com/developer-guide"
+      },
+      {
+        "claim": "The platform uses RESTful APIs for integration with third-party applications.",
+        "url": "https://wesequel.com/api-reference"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 use cases or EDI integration found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

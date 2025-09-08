@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Services",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "MagicAPI utilizes AWS for their cloud infrastructure services.",
+        "url": "https://magicapi.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform follows HIPAA compliance protocols for handling health data securely.",
+        "url": "https://magicapi.com/security"
+      },
+      {
+        "claim": "MagicAPI supports FHIR standards for healthcare data integration.",
+        "url": "https://magicapi.com/integrations/fhir"
+      },
+      {
+        "claim": "The API documentation shows support for various EDI transaction sets including X12.",
+        "url": "https://magicapi.com/docs/edi"
+      },
+      {
+        "claim": "Integration patterns available include RESTful APIs for seamless third-party integration.",
+        "url": "https://magicapi.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or specific health data exchange use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

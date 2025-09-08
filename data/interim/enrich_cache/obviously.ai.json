@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data integration",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for hosting and data storage needs.",
+        "url": "https://obviously.ai/docs/cloud-setup"
+      },
+      {
+        "claim": "Supports FHIR for health data interoperability.",
+        "url": "https://obviously.ai/developer/fhir-integration"
+      },
+      {
+        "claim": "Employs integration middleware for data extraction processes.",
+        "url": "https://obviously.ai/integration-patterns"
+      },
+      {
+        "claim": "Mentions utilization of Google Cloud Platform for scalable data processing.",
+        "url": "https://obviously.ai/docs/gcp-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of healthcare transactional capabilities or X12 use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

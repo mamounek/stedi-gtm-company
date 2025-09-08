@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 270",
+      "X12 271",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud infrastructure, ensuring scalable and secure services.",
+        "url": "https://haled.com/docs/aws-integration/"
+      },
+      {
+        "claim": "Haled supports FHIR standards for healthcare data exchange.",
+        "url": "https://haled.com/docs/fhir-implementation/"
+      },
+      {
+        "claim": "Integration with X12 for EDI transactions, specifically 270 and 271 transaction sets.",
+        "url": "https://haled.com/docs/edi-integration/"
+      },
+      {
+        "claim": "Describes data handling with HL7 protocols for interoperability in health systems.",
+        "url": "https://haled.com/docs/hl7-compliance/"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and is focused on healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility Verification",
+      "Claims Submission",
+      "Remittance Processing",
+      "Provider Communication"
+    ]
+  }
+}

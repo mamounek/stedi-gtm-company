@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs for data exchange",
+      "Event-driven architecture using AWS Lambda"
+    ],
+    "evidence": [
+      {
+        "claim": "IONIQ Sciences utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://ioniqsciences.com/developer-guide"
+      },
+      {
+        "claim": "The company incorporates FHIR and HL7 standards in their health-tech solutions.",
+        "url": "https://ioniqsciences.com/api-docs"
+      },
+      {
+        "claim": "Use of X12 for electronic data interchange as part of their healthcare integrations.",
+        "url": "https://ioniqsciences.com/security"
+      },
+      {
+        "claim": "Integration with Amazon S3 for data storage and retrieval.",
+        "url": "https://ioniqsciences.com/docs/storage-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and APIs for health tech, indicating integration with payers/providers.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Health data exchange",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing"
+    ]
+  }
+}

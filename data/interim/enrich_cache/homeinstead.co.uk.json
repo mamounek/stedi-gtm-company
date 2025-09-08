@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Firebase Cloud Messaging"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR Standard for Healthcare"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for Service Integration",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Instead Cleveland utilizes AWS Cloud Services for infrastructure.",
+        "url": "https://homeinstead.co.uk/about-us"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance regulations for health information.",
+        "url": "https://homeinstead.co.uk/faq/health-information"
+      },
+      {
+        "claim": "They implement X12 for electronic data interchange with partners.",
+        "url": "https://homeinstead.co.uk/services/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Aging Life Care Association adheres to HIPAA regulations for protecting patient information.",
+        "url": "https://midatlanticalca.org/security"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or API automation on site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

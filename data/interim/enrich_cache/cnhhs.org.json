@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The organization is involved in health data standards like FHIR and HL7.",
+        "url": "https://cnhhs.org/health-technology"
+      },
+      {
+        "claim": "Cherokee Nation Home Health Services utilizes X12 transaction sets for electronic claims processing.",
+        "url": "https://cnhhs.org/edi-claims"
+      },
+      {
+        "claim": "Their infrastructure supports compliance with HIPAA for handling patient data.",
+        "url": "https://cnhhs.org/hipaa-compliance"
+      },
+      {
+        "claim": "The company's website mentions using EHRs for patient record management.",
+        "url": "https://cnhhs.org/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare data exchange using X12 standards indicates a strong alignment as ICP.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status inquiry (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

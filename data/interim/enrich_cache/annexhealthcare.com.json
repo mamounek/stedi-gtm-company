@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Annex Healthcare complies with HIPAA regulations to ensure secure handling of patient data.",
+        "url": "https://annexhealthcare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.44
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 usage or clearinghouse operations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

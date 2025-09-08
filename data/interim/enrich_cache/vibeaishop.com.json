@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Vibe AI utilizes AWS for cloud services including Lambda and S3 for data storage and processing.",
+        "url": "https://www.vibeaishop.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data interoperability.",
+        "url": "https://www.vibeaishop.com/docs/health-tech"
+      },
+      {
+        "claim": "Vibe AI implements REST APIs for integrations with healthcare applications.",
+        "url": "https://www.vibeaishop.com/docs/apis"
+      },
+      {
+        "claim": "Vibe AI has documentation related to security compliance, including HIPAA.",
+        "url": "https://www.vibeaishop.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 or healthcare transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

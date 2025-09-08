@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Functions",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "HL7 standards",
+      "X12 transactions",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Hifinite Health employs AWS services like Lambda and S3 for their cloud infrastructure.",
+        "url": "https://hifinite.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards which is critical for health data security.",
+        "url": "https://hifinite.com/security"
+      },
+      {
+        "claim": "They implement FHIR APIs for health data interoperability as mentioned in their developer documentation.",
+        "url": "https://hifinite.com/docs/api"
+      },
+      {
+        "claim": "Hifinite Health provides integration patterns that are API-first and event-driven enhancing scalability.",
+        "url": "https://hifinite.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Hifinite Health uses X12 transactions and offers API-first integration for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "270/271 eligibility verification",
+      "837/835 remittance processing",
+      "clearinghouse services"
+    ]
+  }
+}

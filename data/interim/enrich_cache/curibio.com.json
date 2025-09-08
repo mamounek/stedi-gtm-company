@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Curi Bio leverages AWS for their cloud infrastructure.",
+        "url": "https://curibio.com/about/architecture"
+      },
+      {
+        "claim": "The company is involved in health-tech applications but specific integrations like FHIR or X12 are not explicitly mentioned.",
+        "url": "https://curibio.com/health-tech"
+      },
+      {
+        "claim": "Curi Bio focuses on innovative life science technologies with potential integration capabilities.",
+        "url": "https://curibio.com/technology"
+      },
+      {
+        "claim": "Curi Bio's job postings include software engineering roles indicating a focus on technical development.",
+        "url": "https://curibio.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Curi Bio is focused on biocompatible materials and tissues, not healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

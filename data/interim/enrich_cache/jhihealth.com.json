@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Jobson Optical Group utilizes AWS services such as Lambda and S3 for their platform.",
+        "url": "https://jhihealth.com/docs/aws-integration"
+      },
+      {
+        "claim": "They follow HIPAA compliance guidelines in handling patient data.",
+        "url": "https://jhihealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Jobson Optical Group supports HL7 and FHIR standards for health data interchange.",
+        "url": "https://jhihealth.com/docs/health-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and focuses on API automation in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transaction Sets",
+      "Claims Management",
+      "Eligibility Verification",
+      "Remittance Processing",
+      "Provider Payer Interactions"
+    ]
+  }
+}

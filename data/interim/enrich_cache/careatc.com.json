@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure Cloud Services"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA X12",
+      "X12 270/271",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Data streaming for real-time patient data",
+      "Cloud-based health record management"
+    ],
+    "evidence": [
+      {
+        "claim": "CareATC utilizes AWS for cloud infrastructure and deployment.",
+        "url": "https://careatc.com/careers"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://careatc.com/healthcare-solutions"
+      },
+      {
+        "claim": "CareATC handles HIPAA compliant data transactions, including X12 EDI.",
+        "url": "https://careatc.com/solutions"
+      },
+      {
+        "claim": "Integration with EHR systems is a core feature for their platform.",
+        "url": "https://careatc.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CareATC utilizes HIPAA X12, indicating a potential fit for API automation in healthcare.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Integration with EHR systems",
+      "Claims processing (X12 837)",
+      "Eligibility checks (X12 270/271)",
+      "Remittance advice processing (X12 835)"
+    ]
+  }
+}

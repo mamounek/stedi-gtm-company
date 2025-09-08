@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR specifications"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS services for cloud infrastructure and data storage.",
+        "url": "https://firstcareservices.com/cloud-services"
+      },
+      {
+        "claim": "First Care complies with HIPAA regulations, ensuring data security and patient privacy.",
+        "url": "https://firstcareservices.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with health information systems is facilitated using HL7 and FHIR protocols.",
+        "url": "https://firstcareservices.com/integration"
+      },
+      {
+        "claim": "Utilizes EDI standards for healthcare transactions for streamlined processing.",
+        "url": "https://firstcareservices.com/edi-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 usage or focus on healthcare data exchange found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

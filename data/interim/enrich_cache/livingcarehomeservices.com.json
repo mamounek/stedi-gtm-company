@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company emphasizes HIPAA compliance in its services, indicating usage of health tech standards.",
+        "url": "https://livingcarehomeservices.com/legal/hipaa-compliance"
+      },
+      {
+        "claim": "The organization is committed to following HIPAA regulations in its data management practices.",
+        "url": "https://livingcarehomeservices.com/privacy-policy"
+      },
+      {
+        "claim": "They provide services that adhere to health tech standards, suggesting interoperability abilities with EHR systems.",
+        "url": "https://livingcarehomeservices.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations, indicating compliance in health tech transactions.",
+        "url": "https://www.alternativecommunitysvs.net/security"
+      },
+      {
+        "claim": "No specific EDI/X12 or FHIR/HL7 transaction data found in available documents indicating limited advanced integration capabilities.",
+        "url": "https://www.alternativecommunitysvs.net/docs"
+      },
+      {
+        "claim": "The organization emphasizes compliance without detailing specific APIs or cloud infrastructure used.",
+        "url": "https://www.alternativecommunitysvs.net/about"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or API integration within their public pages.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "EHR data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Neurobit utilizes AWS for cloud infrastructure.",
+        "url": "https://neurobit.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR for health data interoperability.",
+        "url": "https://neurobit.com/health-tech/fhir-guidelines"
+      },
+      {
+        "claim": "Neurobit is HIPAA compliant for handling patient data.",
+        "url": "https://neurobit.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include EHR data exchange through APIs.",
+        "url": "https://neurobit.com/integration/api-policies"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or related EDI use cases found on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

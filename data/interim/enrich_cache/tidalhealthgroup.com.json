@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance practices",
+      "FHIR APIs for health data exchange"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Tidal Health Group emphasizes compliance with HIPAA regulations in their healthcare services.",
+        "url": "https://www.tidalhealthgroup.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR APIs for exchanging healthcare data in compliance with modern health technology standards.",
+        "url": "https://www.tidalhealthgroup.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of needing X12 or EDI integrations on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

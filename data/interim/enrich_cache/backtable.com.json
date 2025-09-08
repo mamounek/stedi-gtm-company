@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "PostgreSQL",
+      "Firebase Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST API Integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "BackTable utilizes AWS for cloud hosting and infrastructure needs.",
+        "url": "https://backtable.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is designed with HIPAA compliance in mind, ensuring secure handling of health-data transactions.",
+        "url": "https://backtable.com/security"
+      },
+      {
+        "claim": "The company has published articles detailing their integrations with EHRs, indicating the use of FHIR standards.",
+        "url": "https://backtable.com/blog/ehr-integration"
+      },
+      {
+        "claim": "BackTable employs PostgreSQL as part of its data storage solutions.",
+        "url": "https://backtable.com/docs/data-storage"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

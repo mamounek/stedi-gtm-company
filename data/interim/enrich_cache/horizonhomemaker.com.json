@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes FHIR for interoperability in healthcare data exchange.",
+        "url": "https://horizonhomemaker.com/security"
+      },
+      {
+        "claim": "Horizon Homemaker & Companion ensures compliance with HIPAA regulations in their services.",
+        "url": "https://horizonhomemaker.com/about-us"
+      },
+      {
+        "claim": "Detailed information on integration with EHR systems is available, highlighting the use of standard data formats.",
+        "url": "https://horizonhomemaker.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on site, suggesting low relevance for API healthcare exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

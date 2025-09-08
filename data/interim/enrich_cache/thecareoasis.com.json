@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CareOasis mentions HIPAA compliance on their website, indicating adherence to healthcare standards.",
+        "url": "https://thecareoasis.com/security"
+      },
+      {
+        "claim": "The company uses X12 transaction sets for healthcare data exchange, which is crucial for EDI processes.",
+        "url": "https://thecareoasis.com/docs"
+      },
+      {
+        "claim": "Their platform is designed with secure data practices to meet the regulatory requirements of HIPAA.",
+        "url": "https://thecareoasis.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CareOasis focuses on healthcare data exchange, including X12 transactions and compliance.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claims submission and remittance (837/835)"
+    ]
+  }
+}

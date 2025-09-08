@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Azure Logic Apps",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 837",
+      "X12 834",
+      "HL7 FHIR",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event-Driven Architecture",
+      "Microservices Architecture",
+      "Data Ingestion Pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "Global Health Link leverages AWS services for its cloud infrastructure.",
+        "url": "https://globalhealthlinkinc.com/cloud-services"
+      },
+      {
+        "claim": "The company implements HL7 FHIR for interoperability in health data exchange.",
+        "url": "https://globalhealthlinkinc.com/health-solutions"
+      },
+      {
+        "claim": "Global Health Link adheres to HIPAA compliance in its operational processes.",
+        "url": "https://globalhealthlinkinc.com/security"
+      },
+      {
+        "claim": "They utilize Azure Logic Apps for workflow automation and integration.",
+        "url": "https://globalhealthlinkinc.com/integrations"
+      },
+      {
+        "claim": "X12 837 claims processing is part of their EDI capabilities for health insurance transactions.",
+        "url": "https://globalhealthlinkinc.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and values API automation for data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270/271 eligibility verification",
+      "X12 835 remittance advice",
+      "clearinghouse services"
+    ]
+  }
+}

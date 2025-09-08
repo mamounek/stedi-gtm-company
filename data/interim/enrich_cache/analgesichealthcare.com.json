@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for cloud infrastructure and serverless processing capabilities.",
+        "url": "https://www.analgesichealthcare.com/docs/aws"
+      },
+      {
+        "claim": "Supports FHIR standards for health data interoperability.",
+        "url": "https://www.analgesichealthcare.com/docs/fhir-standards"
+      },
+      {
+        "claim": "Employs HL7 protocols for data exchange in healthcare applications.",
+        "url": "https://www.analgesichealthcare.com/docs/hl7"
+      },
+      {
+        "claim": "Integrates with X12 EDI formats for claims processing.",
+        "url": "https://www.analgesichealthcare.com/docs/x12-integration"
+      },
+      {
+        "claim": "Documents RESTful API architecture for health tech solutions.",
+        "url": "https://www.analgesichealthcare.com/docs/api-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange via X12 standards, confirming alignment with ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Healthcare data interchange",
+      "API integrations for X12 transactions"
+    ]
+  }
+}

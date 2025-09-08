@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Royal Majesty Home Care Inc. follows HIPAA compliance for data security and patient privacy.",
+        "url": "https://royalmajestyhomecare.com/security"
+      },
+      {
+        "claim": "The organization integrates EHR systems that comply with HL7 standards.",
+        "url": "https://royalmajestyhomecare.com/about"
+      },
+      {
+        "claim": "The use of secure communication protocols ensures compliance with healthcare regulations.",
+        "url": "https://royalmajestyhomecare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

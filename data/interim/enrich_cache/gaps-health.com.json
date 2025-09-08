@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12 EDI (transactions sets)"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "GAPS Health utilizes AWS for cloud hosting and data management.",
+        "url": "https://gaps-health.com/cloud-services"
+      },
+      {
+        "claim": "The company supports HIPAA compliance in its data handling processes.",
+        "url": "https://gaps-health.com/security"
+      },
+      {
+        "claim": "GAPS Health implements FHIR standards for health data interoperability.",
+        "url": "https://gaps-health.com/health-tech"
+      },
+      {
+        "claim": "Integration with X12 for healthcare transactions is mentioned in GAPS documentation.",
+        "url": "https://gaps-health.com/developer-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and values API automation for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claim submission and management (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Food Forest AI utilizes AWS services for cloud-based solutions.",
+        "url": "https://foodforest.ai/docs/cloud-solutions"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for handling sensitive health data.",
+        "url": "https://foodforest.ai/security/hipaa-guidelines"
+      },
+      {
+        "claim": "Food Forest AI implements RESTful APIs for data integration.",
+        "url": "https://foodforest.ai/dev/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse use cases on the company's site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

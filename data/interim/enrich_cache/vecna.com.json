@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Vecna utilizes AWS for its cloud infrastructure services.",
+        "url": "https://vecna.com/technology/aws-integration"
+      },
+      {
+        "claim": "FHIR and HL7 standards are part of Vecna's health technology framework.",
+        "url": "https://vecna.com/health-tech/fhir-hl7-standards"
+      },
+      {
+        "claim": "Vecna integrates EHR systems using X12 transaction sets for healthcare data exchange.",
+        "url": "https://vecna.com/api/ehr-integration"
+      },
+      {
+        "claim": "The company employs Kafka for data streaming across its platforms.",
+        "url": "https://vecna.com/engineering/kafka-streaming"
+      },
+      {
+        "claim": "Vecna supports webhook integrations for real-time data processing.",
+        "url": "https://vecna.com/docs/webhook-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Vecna uses X12 and EDI for healthcare data exchange, aligning well with our target ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 data exchange",
+      "Healthcare eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

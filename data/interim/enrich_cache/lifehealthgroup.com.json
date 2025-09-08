@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Platform (GCP)",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837 Health Care Claim",
+      "X12 835 Health Care Claim Payment/Advice",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Life Health Group uses AWS for cloud infrastructure and services.",
+        "url": "https://lifehealthgroup.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant and handles sensitive health information.",
+        "url": "https://lifehealthgroup.com/security/compliance"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for EDI transactions like X12.",
+        "url": "https://lifehealthgroup.com/docs/integration"
+      },
+      {
+        "claim": "Life Health Group utilizes FHIR and HL7 standards for health data exchange.",
+        "url": "https://lifehealthgroup.com/health-tech"
+      },
+      {
+        "claim": "Microservices architecture is used to enhance scalability and efficiency.",
+        "url": "https://lifehealthgroup.com/tech-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Strong focus on X12 transactions and HIPAA compliance indicates ICP alignment.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 837 Health Care Claim",
+      "X12 835 Health Care Claim Payment/Advice",
+      "Eligibility verification (270/271)",
+      "Claims status (276/277)"
+    ]
+  }
+}

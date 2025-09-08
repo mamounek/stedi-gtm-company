@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Novis Health adheres to HIPAA regulations for handling healthcare data.",
+        "url": "https://novis.health/hipaa-compliance"
+      },
+      {
+        "claim": "The platform integrates with FHIR standards for healthcare data exchange.",
+        "url": "https://novis.health/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.53
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engagement in X12 transactions or EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

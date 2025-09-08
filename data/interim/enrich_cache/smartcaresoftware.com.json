@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "Streaming API"
+    ],
+    "evidence": [
+      {
+        "claim": "Aaniie uses AWS for cloud infrastructure and hosting services.",
+        "url": "https://smartcaresoftware.com/developer-cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability with healthcare data.",
+        "url": "https://smartcaresoftware.com/health-technology-docs"
+      },
+      {
+        "claim": "Smartcare adheres to HIPAA compliance for health data security and privacy.",
+        "url": "https://smartcaresoftware.com/security-compliance"
+      },
+      {
+        "claim": "Integration methods include EDI transaction sets for processing healthcare claims.",
+        "url": "https://smartcaresoftware.com/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found of X12 transactions or clearinghouse functionality.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

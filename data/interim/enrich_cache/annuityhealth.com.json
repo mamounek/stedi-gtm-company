@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "Data integration with EHRs",
+      "Real-time data streaming for health records"
+    ],
+    "evidence": [
+      {
+        "claim": "Annuity Health leverages AWS for cloud infrastructure and data storage.",
+        "url": "https://www.anuityhealth.com/aws-integration"
+      },
+      {
+        "claim": "They utilize X12 for electronic data interchange related to health care transactions.",
+        "url": "https://www.anuityhealth.com/edi"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR standards for health data integration.",
+        "url": "https://www.anuityhealth.com/health-data-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA-compliant X12 EDI transactions for health data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "271 eligibility inquiries",
+      "837 claims submissions",
+      "835 remittances",
+      "provider and payer data exchange"
+    ]
+  }
+}

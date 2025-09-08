@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Guardian Nurses likely aligns with HIPAA regulations due to their healthcare advocacy services.",
+        "url": "https://guardiannurses.com/about/"
+      },
+      {
+        "claim": "The company uses FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://guardiannurses.com/health-tech/"
+      },
+      {
+        "claim": "Guardian Nurses emphasizes data security on their services page, highlighting compliance with healthcare regulations.",
+        "url": "https://guardiannurses.com/services/"
+      },
+      {
+        "claim": "The website discusses partnerships with EHR systems, indicating integration with health tech platforms.",
+        "url": "https://guardiannurses.com/partnerships/"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or API automation in their offerings.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

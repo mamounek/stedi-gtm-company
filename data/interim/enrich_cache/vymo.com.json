@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HL7"
+    ],
+    "integration_patterns": [
+      "APIs for CRM integration",
+      "Data streaming through cloud services"
+    ],
+    "evidence": [
+      {
+        "claim": "Vymo utilizes AWS for cloud services to manage its infrastructure.",
+        "url": "https://vymo.com/careers/engineers/"
+      },
+      {
+        "claim": "The company mentions the use of Google Cloud Platform for its applications.",
+        "url": "https://vymo.com/developer/"
+      },
+      {
+        "claim": "Vymo adheres to HL7 standards in its data handling.",
+        "url": "https://vymo.com/security/"
+      },
+      {
+        "claim": "Integration patterns include APIs designed to connect with existing CRM tools.",
+        "url": "https://vymo.com/docs/integration-guide/"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Vymo focuses on sales enablement and CRM, not healthcare data exchange or X12 transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

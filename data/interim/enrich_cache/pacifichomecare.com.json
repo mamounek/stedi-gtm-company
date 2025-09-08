@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "FHIR",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Pacific Homecare Services adheres to HIPAA compliance standards for health data handling.",
+        "url": "https://www.pacifichomecare.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 standards for electronic data interchange in healthcare transactions.",
+        "url": "https://www.pacifichomecare.com/services/healthcare-edi"
+      },
+      {
+        "claim": "Integration with various Electronic Health Record (EHR) systems is noted in their services overview.",
+        "url": "https://www.pacifichomecare.com/services/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear use cases for X12 transactions found on website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

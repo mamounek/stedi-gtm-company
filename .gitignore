@@ -203,8 +203,9 @@ $RECYCLE.BIN/
 *~
 
 # Project specific
-data/interim/enrich_cache/
+# data/interim/enrich_cache/  # Commented out to include enrichment cache
 *.csv
 !data/input/companies_clay.csv
 !data/raw/*.csv
 !data/final/*.csv
+!data/interim/**/*.json

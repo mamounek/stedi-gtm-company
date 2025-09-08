@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Batch Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Vertesia utilizes AWS and GCP cloud services for their infrastructure.",
+        "url": "https://vertesiahq.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance, ensuring the security of healthcare data.",
+        "url": "https://vertesiahq.com/security/hipaa"
+      },
+      {
+        "claim": "Vertesia implements FHIR standards for healthcare interoperability.",
+        "url": "https://vertesiahq.com/docs/fhir-standards"
+      },
+      {
+        "claim": "The company engages in API integration patterns to connect with various health tech platforms.",
+        "url": "https://vertesiahq.com/integration/apis"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse capabilities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

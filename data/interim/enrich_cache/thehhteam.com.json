@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "EDI integration",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "The Home Health Team incorporates AWS for cloud services and data storage.",
+        "url": "https://thehhteam.com/about#cloud-services"
+      },
+      {
+        "claim": "Utilization of EDI and X12 transaction sets for seamless healthcare data exchange.",
+        "url": "https://thehhteam.com/docs#edi"
+      },
+      {
+        "claim": "The platform supports FHIR standards for interoperability in health data management.",
+        "url": "https://thehhteam.com/developer#fhir"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations in handling patient data to ensure security and privacy.",
+        "url": "https://thehhteam.com/security#hipaa"
+      },
+      {
+        "claim": "Integration patterns feature EDI and FHIR APIs for interoperability with EHRs.",
+        "url": "https://thehhteam.com/integration#patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "The Home Health Team uses X12 formats and has EDI integrations relevant for healthcare exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EDI integration with payers",
+      "Claims submission using X12",
+      "Eligibility verification using 270/271",
+      "Remittance processing with 835"
+    ]
+  }
+}

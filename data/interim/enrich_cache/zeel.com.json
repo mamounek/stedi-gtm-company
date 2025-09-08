@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Zeel integrates with EHRs supporting FHIR standards for interoperability.",
+        "url": "https://zeel.com/developer"
+      },
+      {
+        "claim": "Zeel is HIPAA compliant, ensuring secure handling of health information.",
+        "url": "https://zeel.com/security"
+      },
+      {
+        "claim": "Zeel uses electronic transaction standards such as X12 and EDI for billing and claims processing.",
+        "url": "https://zeel.com/docs"
+      },
+      {
+        "claim": "Zeel mentions integration capabilities with various health systems, enhancing patient data accessibility.",
+        "url": "https://zeel.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Zeel operates in healthcare tech with evidence of X12 and HIPAA compliance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Processing"
+    ]
+  }
+}

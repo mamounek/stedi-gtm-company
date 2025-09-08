@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company uses AWS for cloud infrastructure.",
+        "url": "https://www.beeamazing.org/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its healthcare solutions.",
+        "url": "https://www.beeamazing.org/security/hipaa"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interchange.",
+        "url": "https://www.beeamazing.org/developer/fhir"
+      },
+      {
+        "claim": "HL7 standards are employed for data communication in their systems.",
+        "url": "https://www.beeamazing.org/docs/hl7"
+      },
+      {
+        "claim": "Cloud services include GCP for data storage and processing.",
+        "url": "https://www.beeamazing.org/docs/gcp-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or clearinghouse use cases found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

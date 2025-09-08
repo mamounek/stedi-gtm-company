@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data streaming via Kafka",
+      "API integration with cloud services"
+    ],
+    "evidence": [
+      {
+        "claim": "ChartPath utilizes AWS for cloud infrastructure.",
+        "url": "https://chartpath.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform supports integration with FHIR for healthcare data exchange.",
+        "url": "https://chartpath.com/developer/fhir-integration"
+      },
+      {
+        "claim": "ChartPath implements Kafka for real-time data streaming.",
+        "url": "https://chartpath.com/docs/data-streaming"
+      },
+      {
+        "claim": "HL7 standards are supported for interoperability in health tech.",
+        "url": "https://chartpath.com/api/hl7-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse capabilities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

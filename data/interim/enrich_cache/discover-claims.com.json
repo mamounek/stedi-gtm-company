@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS EC2",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EDI",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook-based integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for serverless computing and storage.",
+        "url": "https://discover-claims.com/docs/aws_integration"
+      },
+      {
+        "claim": "They support healthcare interoperability standards such as FHIR and HL7.",
+        "url": "https://discover-claims.com/docs/healthcare_interoperability"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs which aid in EDI transactions.",
+        "url": "https://discover-claims.com/docs/integration_patterns"
+      },
+      {
+        "claim": "Documented use of X12 for healthcare claims processing.",
+        "url": "https://discover-claims.com/docs/x12_access"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 and EDI indicates alignment with healthcare data exchange needs.",
+    "icp_confidence": 0.87,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims submissions and remittance advice",
+      "Eligibility checks",
+      "Clearinghouse services"
+    ]
+  }
+}

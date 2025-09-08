@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Senior911 integrates with HIPAA compliant systems for health data handling.",
+        "url": "https://www.senior911.org/about"
+      },
+      {
+        "claim": "The company utilizes FHIR for health information exchange.",
+        "url": "https://www.senior911.org/solutions"
+      },
+      {
+        "claim": "Senior911 handles EDI transactions compliant with X12 standards.",
+        "url": "https://www.senior911.org/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 use cases on the public site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

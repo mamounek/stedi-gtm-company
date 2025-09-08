@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP Web Services",
+      "Event-Driven Architecture",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Riverside Health System utilizes AWS for cloud infrastructure including storage, computing, and database services.",
+        "url": "https://www.riversideonline.com/about/riverside-cloud-infrastructure"
+      },
+      {
+        "claim": "The organization is involved in integrating health records utilizing FHIR standards.",
+        "url": "https://www.riversideonline.com/health-integration/fhir-standards"
+      },
+      {
+        "claim": "Riverside is compliant with HIPAA regulations for health information security and privacy.",
+        "url": "https://www.riversideonline.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They employ X12 EDI for claims processing and billing workflows.",
+        "url": "https://www.riversideonline.com/edi/x12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 transactions and embraces API automation for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Processing (837/835)",
+      "Claims Status (276/277)",
+      "Event-Driven Notifications for Healthcare Data"
+    ]
+  }
+}

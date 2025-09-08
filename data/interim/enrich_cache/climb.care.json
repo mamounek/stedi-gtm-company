@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "FHIR API Endpoints"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Event-Driven Architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Climb operates using AWS infrastructure, including Amazon S3 for storage solutions.",
+        "url": "https://climb.care/docs/aws-architecture"
+      },
+      {
+        "claim": "Climb's healthcare data handling is HIPAA compliant, ensuring safe management of patient information.",
+        "url": "https://climb.care/security/privacy-policy"
+      },
+      {
+        "claim": "Integration of FHIR APIs allows Climb to seamlessly exchange healthcare data.",
+        "url": "https://climb.care/developer/fhir-apis"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse-related activities found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

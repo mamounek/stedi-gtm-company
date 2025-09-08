@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Cloud Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "MedHQ utilizes AWS for cloud services and specific compliance solutions.",
+        "url": "https://trajectoryrcs.com/docs/cloud-services"
+      },
+      {
+        "claim": "References to managing X12 EDI transactions for billing and revenue cycle management.",
+        "url": "https://trajectoryrcs.com/solutions/edi"
+      },
+      {
+        "claim": "Meeting HIPAA standards as part of their data handling practices.",
+        "url": "https://trajectoryrcs.com/security"
+      },
+      {
+        "claim": "Integration with HL7 formats for health-related data exchange.",
+        "url": "https://trajectoryrcs.com/solutions/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers healthcare data services utilizing X12 EDI transactions, relevant for API-first healthcare exchanges.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice",
+      "Payer-Provider Integration"
+    ]
+  }
+}

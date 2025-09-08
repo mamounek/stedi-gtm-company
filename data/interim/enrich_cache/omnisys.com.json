@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "HL7 FHIR compliance"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming",
+      "Cloud-native architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "OmniSYS utilizes AWS for cloud services including serverless computing and data storage.",
+        "url": "https://omnisys.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations ensuring the confidentiality of health data.",
+        "url": "https://omnisys.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "OmniSYS supports the X12 standard for electronic health transactions, integral for billing and claims processing.",
+        "url": "https://omnisys.com/developer/x12-guidelines"
+      },
+      {
+        "claim": "Reports indicate that OmniSYS utilizes HL7 and FHIR standards for health data exchange.",
+        "url": "https://omnisys.com/docs/hl7-fhir-standard"
+      },
+      {
+        "claim": "Integration patterns for data handling are outlined, highlighting the use of APIs and cloud services.",
+        "url": "https://omnisys.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles X12 transactions and offers API solutions for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Claims management",
+      "Eligibility verification",
+      "Remittance processing",
+      "Provider-payer integration"
+    ]
+  }
+}

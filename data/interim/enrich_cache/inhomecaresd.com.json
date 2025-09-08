@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Healthcare API Integration",
+      "EDI Transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Interim Healthcare handles sensitive health information in compliance with HIPAA regulations.",
+        "url": "https://www.inhomecaresd.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data exchange.",
+        "url": "https://www.inhomecaresd.com/docs"
+      },
+      {
+        "claim": "EDI transactions related to health services are a key part of their integration strategy.",
+        "url": "https://www.inhomecaresd.com/developer"
+      },
+      {
+        "claim": "The organization emphasizes the use of HL7 protocols for interoperability.",
+        "url": "https://www.inhomecaresd.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or API automation on their public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

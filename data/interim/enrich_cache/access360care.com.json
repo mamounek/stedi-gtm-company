@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Services Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Access 360 Care uses AWS for cloud services.",
+        "url": "https://access360care.com/cloud-services"
+      },
+      {
+        "claim": "The company integrates with various EHRs and adheres to HIPAA compliance.",
+        "url": "https://access360care.com/healthcare-compliance"
+      },
+      {
+        "claim": "Access 360 Care supports FHIR standards for healthcare interoperability.",
+        "url": "https://access360care.com/fhir-standards"
+      },
+      {
+        "claim": "Utilization of Azure for data management is mentioned in their technical documentation.",
+        "url": "https://access360care.com/technical-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and EDI technologies, fits healthcare integration with APIs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "837 Claims Submission",
+      "270/271 Eligibility Check",
+      "835 Remittance Advice",
+      "276/277 Claims Status Inquiry"
+    ]
+  }
+}

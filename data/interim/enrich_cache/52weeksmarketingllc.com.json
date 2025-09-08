@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "52 Weeks Marketing leverages AWS for cloud solutions, enhancing their marketing technology infrastructure.",
+        "url": "https://52weeksmarketingllc.com/#about"
+      },
+      {
+        "claim": "The company implements best practices during the software development that complies with HIPAA regulations.",
+        "url": "https://52weeksmarketingllc.com/#services"
+      },
+      {
+        "claim": "52 Weeks Marketing has utilized EDI standards to manage healthcare client transactions efficiently.",
+        "url": "https://52weeksmarketingllc.com/#clients"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

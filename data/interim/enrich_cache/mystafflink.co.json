@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 standards",
+      "FHIR API support"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP web services"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS for its cloud services.",
+        "url": "https://mystafflink.co/docs/aws-integration"
+      },
+      {
+        "claim": "Health data is managed in compliance with HIPAA standards.",
+        "url": "https://mystafflink.co/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integrates FHIR APIs for health data exchange.",
+        "url": "https://mystafflink.co/developer/fhir-support"
+      },
+      {
+        "claim": "Support for X12 transaction sets for EDI transactions is provided.",
+        "url": "https://mystafflink.co/docs/x12-support"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or clearinghouse functionality on their website.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

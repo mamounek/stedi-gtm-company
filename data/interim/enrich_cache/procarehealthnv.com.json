@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ProCare adheres to HIPAA regulations ensuring the protection of patient information.",
+        "url": "https://procarehealthnv.com/security/"
+      },
+      {
+        "claim": "The company focuses on home health services that may involve third-party EHR integrations, although specific EHR details are not disclosed on the site.",
+        "url": "https://procarehealthnv.com/about/"
+      },
+      {
+        "claim": "They discuss patient data security thoroughly, indicating a technology-oriented approach to handling health information.",
+        "url": "https://procarehealthnv.com/security/"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in X12 transactions or EDI use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

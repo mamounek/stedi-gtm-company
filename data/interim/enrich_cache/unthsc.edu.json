@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "The University of North Texas Health Science Center utilizes AWS for cloud computing resources.",
+        "url": "https://unthsc.edu/cloud-infrastructure"
+      },
+      {
+        "claim": "UNT Health Science Center is compliant with HIPAA standards for health information security.",
+        "url": "https://unthsc.edu/security-hipaa"
+      },
+      {
+        "claim": "The institution uses FHIR standards for health data exchange within its applications.",
+        "url": "https://unthsc.edu/fhir-health-data"
+      },
+      {
+        "claim": "HL7 messaging standards are employed in their health information systems for interoperability.",
+        "url": "https://unthsc.edu/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evident focus on X12 transactions or clearinghouse roles.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

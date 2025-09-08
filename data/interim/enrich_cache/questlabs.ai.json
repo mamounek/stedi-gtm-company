@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its cloud infrastructure.",
+        "url": "https://questlabs.ai/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Quest Labs AI supports FHIR standards for health data exchange.",
+        "url": "https://questlabs.ai/developer/fhir-support"
+      },
+      {
+        "claim": "Integration patterns include EDI transactions compliant with X12.",
+        "url": "https://questlabs.ai/docs/edi"
+      },
+      {
+        "claim": "Quest Labs AI ensures compliance with HIPAA regulations for data handling.",
+        "url": "https://questlabs.ai/security/compliance"
+      },
+      {
+        "claim": "They use Kafka for real-time data streaming and processing.",
+        "url": "https://questlabs.ai/docs/streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 and EDI, indicating a focus on healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "837 claims submission",
+      "835 remittance processing",
+      "270/271 eligibility verification",
+      "276/277 claims status inquiry"
+    ]
+  }
+}

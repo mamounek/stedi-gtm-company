@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Auth0",
+      "Stripe",
+      "Airtable"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Circle engages with AWS for cloud infrastructure which indicates scalable cloud services.",
+        "url": "https://circleengage.ai/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform emphasizes HIPAA compliance indicating it's designed for health tech and data security.",
+        "url": "https://circleengage.ai/security-compliance"
+      },
+      {
+        "claim": "They utilize FHIR for interoperability in health data exchange.",
+        "url": "https://circleengage.ai/health-tech"
+      },
+      {
+        "claim": "Circle uses REST APIs for integrations with other systems and platforms.",
+        "url": "https://circleengage.ai/api-documentation"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of use cases related to X12 transactions or clearinghouse services was found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

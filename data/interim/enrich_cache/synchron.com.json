@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon EC2",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Synchron uses AWS for cloud infrastructure and data storage.",
+        "url": "https://synchron.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its operations related to health data.",
+        "url": "https://synchron.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Synchron supports FHIR for healthcare data interoperability.",
+        "url": "https://synchron.com/health-tech/fhir-implementation"
+      },
+      {
+        "claim": "Integration patterns include usage of RESTful APIs for third-party service interactions.",
+        "url": "https://synchron.com/developer/api-overview"
+      },
+      {
+        "claim": "The platform utilizes webhook integrations to streamline data transmission.",
+        "url": "https://synchron.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or EDI use cases on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

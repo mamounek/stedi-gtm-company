@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3 for data storage",
+      "AWS Lambda for serverless computing",
+      "AWS EC2 for hosting applications"
+    ],
+    "health_tech": [
+      "HIPAA compliance measures",
+      "FHIR APIs for interoperability",
+      "HL7 messaging standards"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Houston Medical Imaging utilizes AWS services for cloud computing and data storage.",
+        "url": "https://hmixray.com/cloud-services"
+      },
+      {
+        "claim": "They implement HIPAA compliance protocols to protect patient data.",
+        "url": "https://hmixray.com/security"
+      },
+      {
+        "claim": "The company supports FHIR APIs to facilitate health data exchanges.",
+        "url": "https://hmixray.com/healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or related workflows on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

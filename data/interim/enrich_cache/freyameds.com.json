@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Freya Meds complies with HIPAA regulations for handling sensitive health information.",
+        "url": "https://freyameds.com/security"
+      },
+      {
+        "claim": "Freya Meds utilizes FHIR standards for health information exchange.",
+        "url": "https://freyameds.com/docs#health-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company appears focused on health tech without clear X12 use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

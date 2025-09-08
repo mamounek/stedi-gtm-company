@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Concourse Global leverages AWS for its cloud infrastructure.",
+        "url": "https://concourse.global/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform complies with HIPAA standards for data privacy and security.",
+        "url": "https://concourse.global/security-compliance"
+      },
+      {
+        "claim": "Concourse utilizes Snowflake for data management and analytics.",
+        "url": "https://concourse.global/tech-stack"
+      },
+      {
+        "claim": "They implement HL7 standards for healthcare data interoperability.",
+        "url": "https://concourse.global/healthcare-solutions"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated via FHIR APIs.",
+        "url": "https://concourse.global/integration-fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks specific evidence of X12 transaction handling or clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

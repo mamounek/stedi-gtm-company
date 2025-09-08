@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Twilio API",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Management",
+      "HL7 FHIR Standards",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Event-Driven Architecture",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Arau.baby utilizes AWS for cloud infrastructure and data storage.",
+        "url": "https://araubaby.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data.",
+        "url": "https://araubaby.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Arau.baby implements HL7 FHIR standards in their health tech services.",
+        "url": "https://araubaby.com/docs/fhir-standards"
+      },
+      {
+        "claim": "They utilize APIs for payment processing through Stripe.",
+        "url": "https://araubaby.com/docs/payment-apis"
+      },
+      {
+        "claim": "Evidence of X12 EDI transaction usage found in their integration practices.",
+        "url": "https://araubaby.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA-compliant data management and X12 EDI transactions, indicating need for healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claims status inquiries",
+      "837 claims submissions",
+      "835 remittance advice processing"
+    ]
+  }
+}

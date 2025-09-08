@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS cloud services for infrastructure.",
+        "url": "https://teamfrontera.com/cloud-services"
+      },
+      {
+        "claim": "Has strategies in place for HIPAA compliance in health data transactions.",
+        "url": "https://teamfrontera.com/hipaa-compliance"
+      },
+      {
+        "claim": "Engaged in HL7 standards for health information exchange.",
+        "url": "https://teamfrontera.com/health-standards"
+      },
+      {
+        "claim": "Employs EDI for transaction processing.",
+        "url": "https://teamfrontera.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of using X12 or EDI transactions for healthcare data exchange found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

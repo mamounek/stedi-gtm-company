@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 270/271",
+      "X12 835",
+      "X12 837",
+      "X12 276/277",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API"
+    ],
+    "evidence": [
+      {
+        "claim": "Succeed Management Solutions handles HIPAA compliance as part of their services.",
+        "url": "https://kpaonline.com/services/"
+      },
+      {
+        "claim": "The company supports X12 EDI transactions for healthcare billing and insurance verification.",
+        "url": "https://kpaonline.com/resources/"
+      },
+      {
+        "claim": "References to FHIR standards are found in their integration documentation.",
+        "url": "https://kpaonline.com/developer/docs/"
+      },
+      {
+        "claim": "Integration with EHR systems mentioned in their product descriptions.",
+        "url": "https://kpaonline.com/products/healthcare/"
+      },
+      {
+        "claim": "The company utilizes cloud services for their platform, though specific providers are not mentioned on their main site.",
+        "url": "https://kpaonline.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company works with X12 and HIPAA; likely automates EDI processes.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 270/271 eligibility verification",
+      "X12 837 claims submission",
+      "X12 835 remittance advice processing",
+      "X12 276/277 claim status inquiry"
+    ]
+  }
+}

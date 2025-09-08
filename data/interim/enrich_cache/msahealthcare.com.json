@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 (Healthcare Insurance Claims)",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Data integration with EHRs",
+      "Interoperability standards"
+    ],
+    "evidence": [
+      {
+        "claim": "Medical Services of America complies with HIPAA regulations for healthcare providers, ensuring data protection.",
+        "url": "https://msahealthcare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Medical Services of America engages in healthcare transactions using X12 formats, indicating ICP.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EHR data integration",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Interoperability between payers and providers"
+    ]
+  }
+}

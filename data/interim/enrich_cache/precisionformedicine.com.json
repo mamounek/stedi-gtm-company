@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "Apache Kafka",
+      "Apache Airflow"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI Transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Cloud-based Infrastructure",
+      "Data Pipeline Integration",
+      "Streaming Data Services"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud infrastructure and data hosting.",
+        "url": "https://precisionformedicine.com/company/"
+      },
+      {
+        "claim": "Deploys Apache Kafka for data streaming solutions in healthcare.",
+        "url": "https://precisionformedicine.com/services/data-solutions/"
+      },
+      {
+        "claim": "Complies with HIPAA regulations for all health-related services.",
+        "url": "https://precisionformedicine.com/security-compliance/"
+      },
+      {
+        "claim": "Utilizes FHIR standards for interoperability across healthcare applications.",
+        "url": "https://precisionformedicine.com/healthcare-technology/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange and utilizes X12 transactions in their operations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Provider-payer communications"
+    ]
+  }
+}

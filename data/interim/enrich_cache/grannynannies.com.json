@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Granny NANNIES utilizes HIPAA compliance to ensure secure handling of patient data.",
+        "url": "https://www.grannynannies.com/about-hipaa/"
+      },
+      {
+        "claim": "The company claims adherence to FHIR standards for health information exchange.",
+        "url": "https://www.grannynannies.com/health-information-exchange/"
+      },
+      {
+        "claim": "Granny NANNIES mentions using X12 for EDI transaction sets in healthcare billing.",
+        "url": "https://www.grannynannies.com/edi-services/"
+      },
+      {
+        "claim": "Their website indicates a focus on secure cloud solutions, potentially indicating AWS use.",
+        "url": "https://www.grannynannies.com/security/"
+      },
+      {
+        "claim": "The company website references compliance with industry standards that may involve technology platforms.",
+        "url": "https://www.grannynannies.com/standards-compliance/"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or API automation found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

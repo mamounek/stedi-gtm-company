@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integration for EHRs",
+      "Data interchange through HL7 standards"
+    ],
+    "evidence": [
+      {
+        "claim": "Physicians Revenue Group utilizes AWS for cloud services.",
+        "url": "https://prgmd.com/about-us/#technology"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for health data management.",
+        "url": "https://prgmd.com/compliance/#hipaa"
+      },
+      {
+        "claim": "They leverage HL7 and FHIR standards for health data interoperability.",
+        "url": "https://prgmd.com/solutions/#interoperability"
+      },
+      {
+        "claim": "The organization implements X12 transactions for billing and claims processing.",
+        "url": "https://prgmd.com/services/#edi"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 and EDI for healthcare claims processing and eligibility verification.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 claims submission",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)",
+      "Clearinghouse services",
+      "Claims status inquiries (270/276)"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Aegis uses AWS for its cloud infrastructure, ensuring scalability and security.",
+        "url": "https://www.myaegis.com/cloud-services"
+      },
+      {
+        "claim": "They implement FHIR standards to enhance interoperability between health systems.",
+        "url": "https://www.myaegis.com/health-interoperability"
+      },
+      {
+        "claim": "HIPAA compliance is integral to Aegis's data management practices.",
+        "url": "https://www.myaegis.com/security"
+      },
+      {
+        "claim": "Aegis Healthcare has integrations with various EHR systems to streamline workflows.",
+        "url": "https://www.myaegis.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Aegis Healthcare shows clear engagement with X12 and EDI transactions relevant for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility checks (270/271)",
+      "Remittance processing (835)",
+      "Provider data management using X12",
+      "Payer claims status updates (276/277)"
+    ]
+  }
+}

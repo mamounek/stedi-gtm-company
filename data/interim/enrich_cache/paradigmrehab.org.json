@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Paradigm Rehab complies with HIPAA regulations to safeguard patient information.",
+        "url": "https://paradigmrehab.org/privacy-policy"
+      },
+      {
+        "claim": "Paradigm Rehab potentially integrates health data with EHRs under HIPAA guidelines.",
+        "url": "https://paradigmrehab.org/services"
+      },
+      {
+        "claim": "Paradigm Rehab offers electronic billing processes which likely involve X12 transaction sets.",
+        "url": "https://paradigmrehab.org/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 transactions or API automation found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

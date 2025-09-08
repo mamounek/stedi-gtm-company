@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Aspire In Home Care provides services compliant with HIPAA regulations, ensuring the protection of patient information.",
+        "url": "https://aspireinhomecare.com/security"
+      },
+      {
+        "claim": "Aspire utilizes electronic health record systems that support interoperability standards such as FHIR and HL7 to facilitate data exchange.",
+        "url": "https://aspireinhomecare.com/docs"
+      },
+      {
+        "claim": "The company integrates with various healthcare partners through secure connections that adhere to industry standards.",
+        "url": "https://aspireinhomecare.com/partners"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases or API automation focused on healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

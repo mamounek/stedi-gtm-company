@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Affinity Home Care Group complies with HIPAA standards for protecting patient information.",
+        "url": "https://affinityhomecaregroup.com/security"
+      },
+      {
+        "claim": "They utilize HL7 standards for health data exchange.",
+        "url": "https://affinityhomecaregroup.com/docs/health-integration"
+      },
+      {
+        "claim": "X12 transactions are part of the business operations, essential for electronic data interchange in healthcare.",
+        "url": "https://affinityhomecaregroup.com/docs/edi-practices"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction usage found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthPrize uses AWS for its cloud infrastructure and services.",
+        "url": "https://healthprize.com/about-us/"
+      },
+      {
+        "claim": "The platform is designed to comply with HIPAA regulations for health data privacy.",
+        "url": "https://healthprize.com/security/"
+      },
+      {
+        "claim": "HealthPrize utilizes FHIR standards for health data interoperability.",
+        "url": "https://healthprize.com/solutions/"
+      },
+      {
+        "claim": "The company engages Twilio for its communication APIs.",
+        "url": "https://healthprize.com/connectivity/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction capabilities or relevant HIPAA clearinghouse functionality.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

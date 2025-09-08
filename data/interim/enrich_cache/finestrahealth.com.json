@@ -1,0 +1,59 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR API",
+      "HIPAA compliant"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Finestra uses AWS services for cloud infrastructure including Lambda and S3.",
+        "url": "https://finestrahealth.com/architecture"
+      },
+      {
+        "claim": "The platform supports interoperability using FHIR and HL7 standards.",
+        "url": "https://finestrahealth.com/api-docs"
+      },
+      {
+        "claim": "Finestra ensures HIPAA compliance across its data handling processes.",
+        "url": "https://finestrahealth.com/security"
+      },
+      {
+        "claim": "They utilize EHR APIs to integrate with various electronic health record systems.",
+        "url": "https://finestrahealth.com/case-studies"
+      },
+      {
+        "claim": "The company utilizes event-driven architecture for integration with healthcare systems.",
+        "url": "https://finestrahealth.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Finestra Health supports X12 standards and provides integration with healthcare APIs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837 claims submission",
+      "835 remittance processing",
+      "clearinghouse services"
+    ]
+  }
+}

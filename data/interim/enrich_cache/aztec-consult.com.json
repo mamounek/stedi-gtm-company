@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "Data integration middleware",
+      "Streaming data integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Aztec Technologies uses AWS for cloud hosting services.",
+        "url": "https://aztec-consult.com/technology"
+      },
+      {
+        "claim": "The company has expertise in HIPAA and FHIR standards for health data.",
+        "url": "https://aztec-consult.com/health-tech"
+      },
+      {
+        "claim": "Integration of EHR systems with HL7 standards is mentioned in their capabilities.",
+        "url": "https://aztec-consult.com/services"
+      },
+      {
+        "claim": "They utilize Azure and GCP for scalable cloud solutions.",
+        "url": "https://aztec-consult.com/cloud"
+      },
+      {
+        "claim": "Aztec offers solutions for X12 EDI to facilitate healthcare transactions.",
+        "url": "https://aztec-consult.com/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Aztec Technologies works with HIPAA X12 transactions and integrates with healthcare systems.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "API automation for healthcare data exchange",
+      "Provider and payer data integration",
+      "Claims processing and remittance handling"
+    ]
+  }
+}

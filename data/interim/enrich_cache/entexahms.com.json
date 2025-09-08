@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Entexa is focused on maintaining HIPAA compliance in its healthcare management services.",
+        "url": "https://entexahms.com/security"
+      },
+      {
+        "claim": "References to FHIR and HL7 standards in their integration and interoperability approaches.",
+        "url": "https://entexahms.com/healthcare-standards"
+      },
+      {
+        "claim": "Supports X12 transaction sets for electronic data interchange.",
+        "url": "https://entexahms.com/edi"
+      },
+      {
+        "claim": "The company has a dedicated section addressing EHR integration and data standards compliance.",
+        "url": "https://entexahms.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA, X12, and healthcare data exchange indicates alignment with API-first model.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 Transaction Processing",
+      "Claims Submission and Remittance",
+      "Eligibility Verification",
+      "Provider-Payer Communication"
+    ]
+  }
+}

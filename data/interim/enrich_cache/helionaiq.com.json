@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Heliona utilizes AWS cloud services for hosting its platform.",
+        "url": "https://helionaiq.com/#about"
+      },
+      {
+        "claim": "The company offers EHR integration capabilities.",
+        "url": "https://helionaiq.com/#product"
+      },
+      {
+        "claim": "Heliona is compliant with HIPAA regulations for healthcare data security.",
+        "url": "https://helionaiq.com/#compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or relevant healthcare data exchange use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Harris Govern uses AWS cloud infrastructure for its applications.",
+        "url": "https://harrisgovern.com/technology/aws-infrastructure/"
+      },
+      {
+        "claim": "Harris Govern provides integration capabilities with EHR systems following HIPAA compliance.",
+        "url": "https://harrisgovern.com/solutions/healthcare-technology/"
+      },
+      {
+        "claim": "The company utilizes HL7 standards for data exchange.",
+        "url": "https://harrisgovern.com/solutions/hl7-integration/"
+      },
+      {
+        "claim": "Facilitates EDI transaction sets within their financial management services.",
+        "url": "https://harrisgovern.com/solutions/financial-edi/"
+      },
+      {
+        "claim": "Integration with various cloud services including Azure for enhanced services.",
+        "url": "https://harrisgovern.com/technology/integration-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence of handling X12 transactions or relevant API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

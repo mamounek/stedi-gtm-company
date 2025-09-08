@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "X12",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "S&P Consultants utilizes AWS for cloud infrastructure and service deployment.",
+        "url": "https://www.spconinc.com/services/cloud-solutions"
+      },
+      {
+        "claim": "The company has expertise in FHIR and HL7 standards for healthcare data exchange.",
+        "url": "https://www.spconinc.com/healthcare-technology"
+      },
+      {
+        "claim": "Integration services utilizing Azure and Snowflake for data management and analysis.",
+        "url": "https://www.spconinc.com/data-services"
+      },
+      {
+        "claim": "They offer EDI services including transaction sets compliant with X12 standards.",
+        "url": "https://www.spconinc.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare integration and X12 data exchange indicates ICP alignment.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 data exchange",
+      "Claim submissions (837)",
+      "Eligibility checks (270/271)",
+      "Remittance advice (835)"
+    ]
+  }
+}

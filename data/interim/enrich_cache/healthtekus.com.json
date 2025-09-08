@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "HL7 interfaces",
+      "FHIR APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Healthtek utilizes AWS for cloud services and data management.",
+        "url": "https://healthtekus.com/cloud-services"
+      },
+      {
+        "claim": "Integration with FHIR standards to improve interoperability in health systems.",
+        "url": "https://healthtekus.com/fhir-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations for secure health data exchange.",
+        "url": "https://healthtekus.com/compliance"
+      },
+      {
+        "claim": "Use of Azure services for application integration and data processing.",
+        "url": "https://healthtekus.com/technology"
+      },
+      {
+        "claim": "Utilizes HL7 protocols for EHR data exchange.",
+        "url": "https://healthtekus.com/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction use cases or clearinghouse functionality found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook callbacks",
+      "Data streaming via AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "uMed uses AWS services for cloud infrastructure including Lambda and S3.",
+        "url": "https://www.umed.io/docs/cloud-services"
+      },
+      {
+        "claim": "uMed confirms adherence to HIPAA regulations on their security page.",
+        "url": "https://www.umed.io/security"
+      },
+      {
+        "claim": "Integration with EHR systems is supported through FHIR and HL7 standards.",
+        "url": "https://www.umed.io/developer/integration"
+      },
+      {
+        "claim": "X12 transaction sets are utilized for billing and claim processing.",
+        "url": "https://www.umed.io/docs/X12-EDI"
+      },
+      {
+        "claim": "The company employs a RESTful API for all integrations with third-party services.",
+        "url": "https://www.umed.io/api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "uMed leverages X12 standards for EHR integration, indicating they fit the ICP profile.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider-payer communication"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 837",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Event Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Centricity AI utilizes AWS for cloud operations.",
+        "url": "https://centricityai.com/cloud-architecture"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations in their documentation.",
+        "url": "https://centricityai.com/security"
+      },
+      {
+        "claim": "Integration with HL7 and FHIR standards is highlighted in their health tech solutions.",
+        "url": "https://centricityai.com/products"
+      },
+      {
+        "claim": "X12 transaction sets, including 837 for healthcare claims, are supported in their integration workflow.",
+        "url": "https://centricityai.com/edi"
+      },
+      {
+        "claim": "They have features focusing on API integration patterns for seamless health data exchange.",
+        "url": "https://centricityai.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on HIPAA compliance and API integrations indicates alignment with X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Checks (270/271)",
+      "Claims Submission (837)",
+      "Claims Status (276/277)",
+      "Remittance Processing (835)"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI (specific transaction sets not disclosed)",
+      "FHIR/HL7 integration for health services"
+    ],
+    "integration_patterns": [
+      "API Integration with EHR systems",
+      "Data Stream Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Centerfield utilizes AWS cloud services for infrastructure management.",
+        "url": "https://www.datalot.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company's technology adheres to HIPAA regulations for health data processing.",
+        "url": "https://www.datalot.com/security/hipaa"
+      },
+      {
+        "claim": "Datalot integrates with various EHR systems through FHIR standards.",
+        "url": "https://www.datalot.com/api-documentation"
+      },
+      {
+        "claim": "Datalot supports X12 EDI transactions for insurance data exchange.",
+        "url": "https://www.datalot.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI and API integrations, fitting healthcare data exchange needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claims transactions (837/835)",
+      "Remittance advice (835)",
+      "API integration with EHR systems"
+    ]
+  }
+}

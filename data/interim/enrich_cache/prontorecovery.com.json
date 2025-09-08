@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda"
+    ],
+    "health_tech": [
+      "HIPAA compliant practices",
+      "X12 transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data retrieval"
+    ],
+    "evidence": [
+      {
+        "claim": "Pronto Recovery uses AWS services for cloud infrastructure.",
+        "url": "https://www.prontorecovery.com"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for patient data handling.",
+        "url": "https://www.prontorecovery.com/security"
+      },
+      {
+        "claim": "Provides integration capabilities for X12 transaction sets relevant to healthcare.",
+        "url": "https://www.prontorecovery.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use of X12 transactions or clearinghouse operations found on their website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

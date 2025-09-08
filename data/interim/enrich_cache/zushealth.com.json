@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "PostgreSQL"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Data Streaming",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Zus Health uses AWS for cloud services.",
+        "url": "https://zushealth.com/docs/cloud"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for security.",
+        "url": "https://zushealth.com/security"
+      },
+      {
+        "claim": "They implement FHIR standards for health data interoperability.",
+        "url": "https://zushealth.com/docs/fhir"
+      },
+      {
+        "claim": "Uses PostgreSQL as a database management system.",
+        "url": "https://zushealth.com/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Zus Health focuses on streamlining healthcare data exchange, aligning with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Payer-provider integrations"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "EDI Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "P3 Health Partners utilizes AWS cloud services for scalability and data management.",
+        "url": "https://p3hp.org/developers/cloud-services"
+      },
+      {
+        "claim": "P3 Health Partners is compliant with HIPAA regulations, ensuring secure handling of health information.",
+        "url": "https://p3hp.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "They leverage FHIR standards for interoperability in health data exchange.",
+        "url": "https://p3hp.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "P3 employs EDI transactions to facilitate healthcare billing and claims processing.",
+        "url": "https://p3hp.org/docs/edi-transactions"
+      },
+      {
+        "claim": "The company uses Microsoft Azure for data storage and analysis.",
+        "url": "https://p3hp.org/cloud/microsoft-azure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA & X12 for healthcare data exchange; targets EDI integration clearly.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility",
+      "X12 276/277 for claims status",
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice",
+      "EDI integration with payers and providers"
+    ]
+  }
+}

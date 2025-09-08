@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Streaming Data",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "BioLab Sciences utilizes AWS for cloud infrastructure.",
+        "url": "https://biolabsciences.net/cloud-infrastructure"
+      },
+      {
+        "claim": "BioLab Sciences supports HIPAA-compliant data management practices.",
+        "url": "https://biolabsciences.net/security"
+      },
+      {
+        "claim": "EHR data integration is conducted via HL7 standards.",
+        "url": "https://biolabsciences.net/integration/health"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Relevant technology stack and use of X12 for healthcare integration.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status Inquiry",
+      "837 Claim Submission",
+      "835 Remittance Processing",
+      "Clearinghouse Functions"
+    ]
+  }
+}

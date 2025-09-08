@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "AWS S3",
+      "Azure SQL Database",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices Architecture",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Episode Solutions uses AWS Lambda and AWS API Gateway for serverless applications.",
+        "url": "https://episodesolutions.com/developer/docs/serverless"
+      },
+      {
+        "claim": "The platform implements integration patterns using RESTful APIs and Microservices.",
+        "url": "https://episodesolutions.com/docs/integrations/microservices"
+      },
+      {
+        "claim": "Episode Solutions adheres to HIPAA compliance and utilizes FHIR and HL7 standards for health tech solutions.",
+        "url": "https://episodesolutions.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Episode Solutions supports X12 transaction sets for healthcare data exchange.",
+        "url": "https://episodesolutions.com/docs/edi/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and offers API integration for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claim submissions and remittance",
+      "Provider and payer integrations",
+      "Eligibility verification",
+      "Data exchange automation"
+    ]
+  }
+}

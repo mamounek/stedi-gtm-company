@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Functions",
+      "Microsoft Azure Blob Storage"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "FHIR API for Electronic Health Records (EHR) Integration",
+      "HL7 V2.x Support",
+      "X12 837 Professional Claims Transactions",
+      "X12 270/271 Eligibility and Benefits Verification"
+    ],
+    "integration_patterns": [
+      "Batch Processing with AWS Lambda",
+      "Real-time Data Ingestion via Kafka",
+      "Data Storage and Processing using Amazon S3 and Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "Exin Health AI utilizes AWS services for serverless computing and data storage solutions.",
+        "url": "https://exinhealth.ai/docs/cloud-services"
+      },
+      {
+        "claim": "The platform supports FHIR APIs for seamless health data integrations.",
+        "url": "https://exinhealth.ai/docs/fhir-integration"
+      },
+      {
+        "claim": "Exin Health is compliant with HIPAA for managing patient data securely.",
+        "url": "https://exinhealth.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "The platform includes support for X12 transaction sets relevant to healthcare pricing and claims.",
+        "url": "https://exinhealth.ai/docs/x12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports multiple X12 transactions and API integrations.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 837 Professional Claims Transactions",
+      "X12 270/271 Eligibility and Benefits Verification",
+      "Real-time Data Ingestion for Claims Processing"
+    ]
+  }
+}

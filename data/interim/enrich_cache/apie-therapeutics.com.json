@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "APIE Therapeutics mentions FHIR as part of their health data interoperability efforts.",
+        "url": "https://apie-therapeutics.com/docs/fhir-integration"
+      },
+      {
+        "claim": "The company utilizes Electronic Health Records (EHRs) to manage patient data.",
+        "url": "https://apie-therapeutics.com/docs/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.53
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or claims processing use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Infrastructure",
+      "X12 EDI Transaction Sets",
+      "FHIR Standards",
+      "HL7 Messaging Protocols"
+    ],
+    "integration_patterns": [
+      "Data Streaming with AWS Kinesis",
+      "Real-time Data Integration with Apache Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "ACI Federal utilizes AWS cloud services for robust infrastructure and HIPAA compliance.",
+        "url": "https://www.acifed.com/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data exchange, ensuring interoperability.",
+        "url": "https://www.acifed.com/healthcare-integration"
+      },
+      {
+        "claim": "ACI Federal is equipped to handle X12 EDI transaction sets, crucial for healthcare billing processes.",
+        "url": "https://www.acifed.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Potential to engage in X12 transactions and API-driven healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Healthcare eligibility and claims processing",
+      "Real-time remittance processing"
+    ]
+  }
+}

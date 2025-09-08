@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "Data Streaming",
+      "ETL Processes",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "ProcessMiner uses AWS Lambda for serverless computing needs.",
+        "url": "https://processminer.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, focusing on healthcare data security.",
+        "url": "https://processminer.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "ProcessMiner utilizes HL7 and FHIR standards for health data integration.",
+        "url": "https://processminer.com/developer/healthcare-integration"
+      },
+      {
+        "claim": "Apache Kafka is employed for real-time data streaming within the workflow processes.",
+        "url": "https://processminer.com/docs/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of specific involvement with X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

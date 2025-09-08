@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12",
+      "EDI 837",
+      "EDI 834"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations",
+      "Data Pipeline Integrations",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Knowledge Bridge Consulting utilizes AWS services for cloud infrastructure.",
+        "url": "https://kbcinc.cloud/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company offers EDI solutions compatible with X12 transaction sets.",
+        "url": "https://kbcinc.cloud/edi-solutions"
+      },
+      {
+        "claim": "They support HL7 and FHIR standards for health data exchange.",
+        "url": "https://kbcinc.cloud/health-tech/standards"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for seamless data interfacing.",
+        "url": "https://kbcinc.cloud/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers EDI and X12 integration for healthcare claims processing.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI 837 submission",
+      "X12 270 eligibility checks",
+      "X12 835 remittance advice handling",
+      "Clearinghouse services for healthcare claims",
+      "X12 276/277 claim status inquiries"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "FHIR integration",
+      "EHR interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "G&L Healthcare utilizes AWS for cloud infrastructure.",
+        "url": "https://www.gandlhealth.com/cloud-service-architecture"
+      },
+      {
+        "claim": "The company's solutions comply with HIPAA regulations for healthcare data.",
+        "url": "https://www.gandlhealth.com/compliance-privacy"
+      },
+      {
+        "claim": "G&L Healthcare integrates with EHR systems using HL7 standards.",
+        "url": "https://www.gandlhealth.com/integration-services"
+      },
+      {
+        "claim": "They leverage X12 standards for healthcare transaction sets.",
+        "url": "https://www.gandlhealth.com/edi-solutions"
+      },
+      {
+        "claim": "Their platform supports FHIR for interoperability among healthcare data.",
+        "url": "https://www.gandlhealth.com/fhir-adoption"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Healthcare data exchange needs align with API-driven approach and X12 usage.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider communication",
+      "payer integration"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Stripe API",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 270",
+      "X12 271"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ArbiMed uses AWS for its cloud infrastructure.",
+        "url": "https://arbimed.com/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare interoperability.",
+        "url": "https://arbimed.com/healthcare-standards"
+      },
+      {
+        "claim": "ArbiMed supports X12 270 and 271 transaction sets for eligibility verification.",
+        "url": "https://arbimed.com/edi-services"
+      },
+      {
+        "claim": "Integration of Twilio API for communication solutions.",
+        "url": "https://arbimed.com/api-documentation"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 standards and APIs for healthcare data integration, indicating potential ICP alignment.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility inquiries (X12 270/271)",
+      "Claims submissions (X12 837)",
+      "Remittance processing (X12 835)",
+      "Status notifications (X12 276/277)"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Storage",
+      "AWS S3",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 CDA",
+      "HIPAA compliance",
+      "X12 834",
+      "X12 837"
+    ],
+    "integration_patterns": [
+      "API integrations with EHRs",
+      "Cloud-to-cloud data exchange",
+      "Microservices architecture for health data"
+    ],
+    "evidence": [
+      {
+        "claim": "NeuroCare.AI utilizes AWS services for scalable cloud infrastructure.",
+        "url": "https://neurocare.ai/docs/cloud-services"
+      },
+      {
+        "claim": "The platform supports FHIR standards to ensure interoperability with EHR systems.",
+        "url": "https://neurocare.ai/developer/fhir-integration"
+      },
+      {
+        "claim": "NeuroCare.AI mentions HIPAA compliance on their security page, underlining their commitment to healthcare data privacy.",
+        "url": "https://neurocare.ai/security/privacy"
+      },
+      {
+        "claim": "The company implements X12 transaction sets for health insurance claims processing.",
+        "url": "https://neurocare.ai/docs/x12-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 transactions and API integrations for healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 837 for claims submission",
+      "X12 276/277 for claim status inquiry",
+      "X12 270/271 for eligibility checking"
+    ]
+  }
+}

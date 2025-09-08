@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI Integration",
+      "Cloud Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Attentis utilizes AWS for their cloud services.",
+        "url": "https://www.attentisconsulting.com/cloud-services"
+      },
+      {
+        "claim": "The company follows HIPAA compliance standards in its health tech solutions.",
+        "url": "https://www.attentisconsulting.com/security"
+      },
+      {
+        "claim": "Attentis offers FHIR-based APIs for healthcare data exchange.",
+        "url": "https://www.attentisconsulting.com/fhir-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare integration and API solutions aligns with X12 needs.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EDI Integration",
+      "Claims Processing",
+      "Eligibility Verification"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations, indicating a focus on healthcare data compliance.",
+        "url": "https://johnsonhre.com/security"
+      },
+      {
+        "claim": "Johnson utilizes X12 EDI standards for healthcare transactions.",
+        "url": "https://johnsonhre.com/docs/edi"
+      },
+      {
+        "claim": "The integrations support FHIR protocols for health data exchange.",
+        "url": "https://johnsonhre.com/developer/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction involvement on their site.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

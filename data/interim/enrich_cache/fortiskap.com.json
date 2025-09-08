@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cosmos Pharmaceuticals emphasizes HIPAA compliance in their handling of patient data.",
+        "url": "https://fortiskap.com/security"
+      },
+      {
+        "claim": "The company mentions the use of health data interoperability standards such as FHIR in their software solutions.",
+        "url": "https://fortiskap.com/docs"
+      },
+      {
+        "claim": "References to X12 transaction sets indicate capability for healthcare transactions.",
+        "url": "https://fortiskap.com/developer"
+      },
+      {
+        "claim": "Their infrastructure supports secure data processing compliant with healthcare regulations.",
+        "url": "https://fortiskap.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks evidence of relevant X12 use cases or a substantial tech focus in healthcare data exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

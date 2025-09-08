@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "AWS Lambda for serverless functions"
+    ],
+    "evidence": [
+      {
+        "claim": "CWH Advisors utilizes AWS for cloud infrastructure.",
+        "url": "https://cwhadvisors.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards in its healthcare projects.",
+        "url": "https://cwhadvisors.com/healthcare-services"
+      },
+      {
+        "claim": "Integration with HL7 and FHIR standards for health tech solutions is part of their offerings.",
+        "url": "https://cwhadvisors.com/health-tech-integration"
+      },
+      {
+        "claim": "They promote REST API integration as a core part of their services.",
+        "url": "https://cwhadvisors.com/developer-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found regarding X12 transaction usage or clearinghouse capability.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

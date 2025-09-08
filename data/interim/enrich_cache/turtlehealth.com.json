@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliant services"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Turtle Health emphasizes its HIPAA compliance in communications and documentation.",
+        "url": "https://turtlehealth.com/privacy-policy"
+      },
+      {
+        "claim": "The company discusses their commitment to patient data security and privacy standards, including adherence to HIPAA guidelines.",
+        "url": "https://turtlehealth.com/about"
+      },
+      {
+        "claim": "Turtle Health offers a standardized health data exchange framework to facilitate partnerships with healthcare providers.",
+        "url": "https://turtlehealth.com/partnerships"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases or evidence found indicating X12 transaction handling.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

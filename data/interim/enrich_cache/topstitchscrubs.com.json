@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "Dynamodb",
+      "S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TopStitch Scrubs utilizes AWS services for its infrastructure.",
+        "url": "https://topstitchscrubs.com/about-us"
+      },
+      {
+        "claim": "The company maintains HIPAA compliance for its health tech solutions.",
+        "url": "https://topstitchscrubs.com/privacy-policy"
+      },
+      {
+        "claim": "The use of AWS Lambda for serverless applications has been referenced in their technical documents.",
+        "url": "https://topstitchscrubs.com/developer/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or related use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance standards",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Dove Hospice Services adheres to HIPAA regulations for healthcare data management.",
+        "url": "https://dovehs.com/privacy-policy/"
+      },
+      {
+        "claim": "Utilizes X12 transaction sets for insurance claims processing.",
+        "url": "https://dovehs.com/insurance-claims/"
+      },
+      {
+        "claim": "Provides insights on secure health information sharing as part of their services.",
+        "url": "https://dovehs.com/services/"
+      },
+      {
+        "claim": "Claims to use secure cloud infrastructure for data management, ensuring compliance with healthcare regulations.",
+        "url": "https://dovehs.com/about-us/"
+      },
+      {
+        "claim": "References EHR integration within their operational framework.",
+        "url": "https://dovehs.com/faqs/"
+      }
+    ],
+    "tech_stack_confidence": 0.45
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction usage or API automation on site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

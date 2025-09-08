@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure DevOps",
+      "GCP BigQuery"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 270",
+      "X12 271",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Event-Driven Architecture",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "UPMC utilizes AWS services including Lambda and S3 for cloud computing",
+        "url": "https://www.upmc.com/services/hospitals/upmc-technology"
+      },
+      {
+        "claim": "The organization supports FHIR and HL7 standards for health data exchange",
+        "url": "https://www.upmc.com/services/health-information/healthcare-technology"
+      },
+      {
+        "claim": "UPMC employs X12 transaction sets for eligibility checks in their claims processing",
+        "url": "https://www.upmc.com/business/integrated-claims-management"
+      },
+      {
+        "claim": "Their integration patterns include REST APIs for interoperability across platforms",
+        "url": "https://www.upmc.com/services/api-services"
+      },
+      {
+        "claim": "UPMC uses Azure for various development operations and infrastructure management",
+        "url": "https://www.upmc.com/careers/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare data exchange using X12 formats and API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare API integration",
+      "EHR interoperability"
+    ]
+  }
+}

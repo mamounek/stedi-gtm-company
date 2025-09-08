@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Jensen Partners utilizes AWS for their cloud infrastructure.",
+        "url": "https://aws.amazon.com/partners/showcase/jensen-partners-llc/"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations.",
+        "url": "https://jensenpartners.com/privacy-policy/"
+      },
+      {
+        "claim": "They reference the use of FHIR standards in their health-tech services.",
+        "url": "https://jensenpartners.com/services/health-tech/"
+      },
+      {
+        "claim": "Integration capabilities highlighted alongside various cloud services.",
+        "url": "https://jensenpartners.com/integration-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of their involvement with X12 transactions or healthcare claim management.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

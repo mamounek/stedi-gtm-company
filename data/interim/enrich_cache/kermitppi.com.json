@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Transfer",
+      "X12 270/271 Health Care Eligibility",
+      "FHIR API for Patient Data"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture",
+      "Microservices Communication"
+    ],
+    "evidence": [
+      {
+        "claim": "Kermit uses AWS services for its cloud infrastructure.",
+        "url": "https://kermitppi.com/docs/infrastructure"
+      },
+      {
+        "claim": "Kermit complies with HIPAA for secure patient data processing.",
+        "url": "https://kermitppi.com/security"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is supported by Kermit's API.",
+        "url": "https://kermitppi.com/api/integration"
+      },
+      {
+        "claim": "Kermit implements a FHIR-compliant API for health data exchange.",
+        "url": "https://kermitppi.com/docs/fhir"
+      },
+      {
+        "claim": "Use of event-driven architecture to handle healthcare data processing and notifications.",
+        "url": "https://kermitppi.com/docs/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Kermit utilizes X12 for eligibility and claims data, indicating strong ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 Health Care Eligibility",
+      "Claims Processing with 837",
+      "Eligibility Verification",
+      "Remittance Processing with 835"
+    ]
+  }
+}

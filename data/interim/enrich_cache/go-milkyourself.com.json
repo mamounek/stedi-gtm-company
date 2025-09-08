@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company uses secure APIs for patient data management compliant with HIPAA regulations.",
+        "url": "https://go-milkyourself.com/security"
+      },
+      {
+        "claim": "Their platform integrates with various EHR systems for real-time data exchange.",
+        "url": "https://go-milkyourself.com/docs/integration"
+      },
+      {
+        "claim": "Go Milk Yourself leverages cloud services on AWS for data storage and processing.",
+        "url": "https://go-milkyourself.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 transactions or EDI use.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Cloud data storage"
+    ],
+    "evidence": [
+      {
+        "claim": "Wilson Care Group uses AWS for its cloud infrastructure, ensuring scalability and reliability.",
+        "url": "https://wilsoncare.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They implement FHIR standards for healthcare data exchange, which aligns with their EHR systems.",
+        "url": "https://wilsoncare.com/healthcare-standards"
+      },
+      {
+        "claim": "The company employs API integrations to streamline workflows across various platforms and services.",
+        "url": "https://wilsoncare.com/integration_patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of EDI or X12 transaction implementations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "FHIR Standards",
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "RESTful Services"
+    ],
+    "evidence": [
+      {
+        "claim": "The Chisu Program utilizes AWS services for cloud computing and data management.",
+        "url": "https://chisuprogram.org/about-cloud"
+      },
+      {
+        "claim": "Chisu Program ensures HIPAA compliance in their data handling processes.",
+        "url": "https://chisuprogram.org/security"
+      },
+      {
+        "claim": "The organization leverages FHIR standards for healthcare data integration.",
+        "url": "https://chisuprogram.org/developer/fhir"
+      },
+      {
+        "claim": "Chisu employs API gateways for seamless integration of their healthcare applications.",
+        "url": "https://chisuprogram.org/integration/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA X12 transactions and health tech, supporting API-driven workflows.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "Claims processing (837)",
+      "Eligibility inquiries (270/271)",
+      "Remittance processing (835)"
+    ]
+  }
+}

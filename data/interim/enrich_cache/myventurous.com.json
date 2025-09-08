@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for cloud infrastructure.",
+        "url": "https://myventurous.com/cloud-services"
+      },
+      {
+        "claim": "Complies with HIPAA for health-related data management.",
+        "url": "https://myventurous.com/security"
+      },
+      {
+        "claim": "Implements HL7 and FHIR standards for electronic health records integration.",
+        "url": "https://myventurous.com/health-tech"
+      },
+      {
+        "claim": "Leverages Kafka for real-time data streaming and integration.",
+        "url": "https://myventurous.com/technology"
+      },
+      {
+        "claim": "Supports EDI X12 transaction sets.",
+        "url": "https://myventurous.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses EDI X12 transactions and operates in healthcare, indicative of potential for API automation.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837/835 claims and remittance processing"
+    ]
+  }
+}

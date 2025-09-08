@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Firebase",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "API integrations via webhook",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "CROOW utilizes AWS Lambda for serverless compute services.",
+        "url": "https://croow.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for health-related data.",
+        "url": "https://croow.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "CROOW provides API integrations with third-party services like Twilio for communication.",
+        "url": "https://croow.com/developer/api-integration"
+      },
+      {
+        "claim": "CROOW supports FHIR standards for healthcare-related projects.",
+        "url": "https://croow.com/docs/fhir-support"
+      },
+      {
+        "claim": "Data streaming is facilitated through Apache Kafka, allowing real-time data processing.",
+        "url": "https://croow.com/docs/kafka-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

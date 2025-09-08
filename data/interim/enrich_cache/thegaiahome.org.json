@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Gaia Home's website mentions EHR integration capabilities to connect with healthcare providers.",
+        "url": "https://thegaiahome.org/healthcare-integration"
+      },
+      {
+        "claim": "The company utilizes AWS for scalable infrastructure but lacks detailed API documentation.",
+        "url": "https://thegaiahome.org/cloud-infrastructure"
+      },
+      {
+        "claim": "Gaia Home's technology supports HIPAA compliance for data privacy and security.",
+        "url": "https://thegaiahome.org/security-policy"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or healthcare API use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

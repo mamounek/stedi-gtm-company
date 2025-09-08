@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Service-based architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Context integrates with AWS for their cloud services.",
+        "url": "https://context.inc/docs/cloud-services"
+      },
+      {
+        "claim": "Context utilizes FHIR for healthcare application integrations.",
+        "url": "https://context.inc/developer/fhir-integration"
+      },
+      {
+        "claim": "The company uses Kafka for data streaming in their applications.",
+        "url": "https://context.inc/docs/streaming-architecture"
+      },
+      {
+        "claim": "HL7 standards are defined in their health tech documentation.",
+        "url": "https://context.inc/docs/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12, clearinghouse, or relevant use cases found for this company.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

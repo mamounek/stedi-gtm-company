@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Kenosha Visiting Nurse Association utilizes FHIR standards for healthcare data interoperability.",
+        "url": "https://kvna.net/healthcare-standards"
+      },
+      {
+        "claim": "The organization has documentation related to HL7 compliance for data exchange.",
+        "url": "https://kvna.net/data-exchange-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction usage or API automation on website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12",
+      "837 transaction set",
+      "835 transaction set"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "HL7 messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "CAVU HCM utilizes FHIR for healthcare data interoperability.",
+        "url": "https://cavuhcm.com/docs/fhir-implementation/"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for data handling.",
+        "url": "https://cavuhcm.com/security-hipaa-compliance/"
+      },
+      {
+        "claim": "CAVU HCM supports X12 EDI transactions including 837 and 835.",
+        "url": "https://cavuhcm.com/docs/edi-support/"
+      },
+      {
+        "claim": "Integration patterns include HL7 messaging protocols for electronic health records.",
+        "url": "https://cavuhcm.com/docs/integration-patterns/"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company engages in healthcare tech using X12 transactions, aligns with API automation.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EDI integration",
+      "claims processing",
+      "remittance advice",
+      "eligibility checking"
+    ]
+  }
+}

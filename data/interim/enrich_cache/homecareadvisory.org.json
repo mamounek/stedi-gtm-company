@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Homecare Advisory Group adheres to HIPAA regulations, ensuring the privacy and security of health information.",
+        "url": "https://homecareadvisory.org/privacy-policy/"
+      },
+      {
+        "claim": "The company is involved in health technology solutions that utilize FHIR for health data interchange.",
+        "url": "https://homecareadvisory.org/health-tech-solutions/"
+      },
+      {
+        "claim": "References to data interoperability mechanisms imply the use of HL7 standards.",
+        "url": "https://homecareadvisory.org/resources/guide-to-healthcare-data/"
+      },
+      {
+        "claim": "Job postings indicate a need for knowledge in cloud infrastructure, suggesting reliance on major providers although no specific services mentioned.",
+        "url": "https://homecareadvisory.org/careers/engineer-posting/"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction usage found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

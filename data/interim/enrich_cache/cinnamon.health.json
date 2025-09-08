@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Cinnamon Health utilizes AWS for their cloud infrastructure to support their health tech applications.",
+        "url": "https://cinnamon.health/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://cinnamon.health/developer/fhir-api"
+      },
+      {
+        "claim": "Cinnamon Inc. adheres to HIPAA compliance for all data processing activities involving sensitive patient information.",
+        "url": "https://cinnamon.health/security/hipaa"
+      },
+      {
+        "claim": "They use Snowflake for their data warehousing solutions.",
+        "url": "https://cinnamon.health/platform/data-analytics"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through HL7 protocols in their backend APIs.",
+        "url": "https://cinnamon.health/docs/integration/ehrs"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or EDI-related use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

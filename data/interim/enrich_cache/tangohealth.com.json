@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Tango Health mentions HIPAA compliance and uses health data standards.",
+        "url": "https://tangohealth.com/security/"
+      },
+      {
+        "claim": "They utilize healthcare data integration standards like FHIR and HL7.",
+        "url": "https://tangohealth.com/developer/docs/"
+      },
+      {
+        "claim": "The company actively discusses their adherence to HIPAA regulations.",
+        "url": "https://tangohealth.com/security/"
+      },
+      {
+        "claim": "Tango Health employs EDI transaction sets for healthcare processing.",
+        "url": "https://tangohealth.com/businesses/"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 transaction use cases or API automation on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

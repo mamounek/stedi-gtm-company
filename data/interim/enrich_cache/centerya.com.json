@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "HL7 integration",
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Centerya utilizes AWS for cloud services.",
+        "url": "https://centerya.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company mentions support for FHIR standards in health-tech integration.",
+        "url": "https://centerya.com/docs/api/fhir-support"
+      },
+      {
+        "claim": "Centerya processes X12 transactions for healthcare data exchange.",
+        "url": "https://centerya.com/developer/edi-x12"
+      },
+      {
+        "claim": "Integration with HL7 standards is part of Centerya’s services.",
+        "url": "https://centerya.com/docs/integration/hl7"
+      },
+      {
+        "claim": "Azure is also part of Centerya's cloud infrastructure.",
+        "url": "https://centerya.com/docs/cloud-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company appears to focus on healthcare data exchange with X12 and API capabilities.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Claim status inquiries (276/277)",
+      "Remittance processing (835)"
+    ]
+  }
+}

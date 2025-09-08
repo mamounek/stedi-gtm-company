@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "HTTP REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "United Heritage Group utilizes AWS services including Lambda and EC2 for their development platforms.",
+        "url": "https://unitedheritagegroup.com/developer"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for data processing and storage.",
+        "url": "https://unitedheritagegroup.com/security"
+      },
+      {
+        "claim": "Their integration approach includes HTTP REST APIs for data exchange.",
+        "url": "https://unitedheritagegroup.com/docs"
+      },
+      {
+        "claim": "FHIR standards are implemented for healthcare data interoperability.",
+        "url": "https://unitedheritagegroup.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging with X12 transactions or API automation.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

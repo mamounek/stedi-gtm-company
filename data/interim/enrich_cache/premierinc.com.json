@@ -1,0 +1,59 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "Azure SQL Database",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture",
+      "Microservices Architecture",
+      "RESTful API Integration",
+      "Data Warehouse ETL Processes"
+    ],
+    "evidence": [
+      {
+        "claim": "PINC AI utilizes AWS services for cloud infrastructure, enabling scalable solutions.",
+        "url": "https://premierinc.com/solutions/pinc-ai"
+      },
+      {
+        "claim": "The platform adheres to HIPAA standards ensuring data privacy for health information.",
+        "url": "https://premierinc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "PINC AI integrates with various EHRs using FHIR standards for seamless data exchange.",
+        "url": "https://premierinc.com/solutions/ehr-integration"
+      },
+      {
+        "claim": "X12 transaction sets are supported within their health-tech solutions for efficient claims processing.",
+        "url": "https://premierinc.com/solutions/health-tech"
+      },
+      {
+        "claim": "Utilizes Snowflake for data warehousing, allowing for extensive data analysis capabilities.",
+        "url": "https://premierinc.com/solutions/data-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on healthcare data exchange, supports multiple X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry and Response",
+      "276/277 Claim Status Inquiry and Response",
+      "837 Claim Submission",
+      "835 Remittance Advice Exchange",
+      "Clearinghouse Services for Claims Processing"
+    ]
+  }
+}

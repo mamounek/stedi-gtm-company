@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Functions",
+      "Azure Blob Storage"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "HL7 integration",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture with AWS SNS",
+      "API Gateway for microservices integration",
+      "Data pipeline using AWS Step Functions"
+    ],
+    "evidence": [
+      {
+        "claim": "Cubhub utilizes AWS Lambda for serverless compute instances.",
+        "url": "https://cubhub.io/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company integrates health records through FHIR APIs, ensuring compliance with healthcare standards.",
+        "url": "https://cubhub.io/docs/fhir-apis"
+      },
+      {
+        "claim": "Cubhub supports X12 transactions for healthcare billing and insurance claims.",
+        "url": "https://cubhub.io/docs/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Cubhub utilizes X12 EDI transactions, indicating relevance for API-first healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 claims processing",
+      "835 remittance advice",
+      "270/271 eligibility inquiries",
+      "276/277 claims status"
+    ]
+  }
+}

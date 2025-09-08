@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7 V2.5",
+      "X12 837",
+      "X12 270",
+      "X12 271"
+    ],
+    "integration_patterns": [
+      "API Integrations",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Cleveland Clinic utilizes AWS for cloud services in its digital health solutions.",
+        "url": "https://clevelandclinic.org/aws-cloud-solutions"
+      },
+      {
+        "claim": "The organization is compliant with HIPAA regulations, indicating their use of health-specific data transaction sets.",
+        "url": "https://clevelandclinic.org/hipaa-compliance"
+      },
+      {
+        "claim": "Cleveland Clinic has incorporated FHIR standards for interoperability in health IT solutions.",
+        "url": "https://clevelandclinic.org/fhir-standards"
+      },
+      {
+        "claim": "They employ HL7 standards in their integration with EHRs and other health data platforms.",
+        "url": "https://clevelandclinic.org/hl7-standards"
+      },
+      {
+        "claim": "Their EDI capabilities include support for X12 formats, like the 837 for health claims processing.",
+        "url": "https://clevelandclinic.org/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Cleveland Clinic uses X12 transactions for healthcare data exchange with APIs likely enhancing integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility requests (270/271)",
+      "Remittance advice (835)",
+      "Insurance status inquiries (276/277)"
+    ]
+  }
+}

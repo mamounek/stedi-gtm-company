@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliant systems"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Rhode Island Free Clinic adheres to HIPAA regulations for patient data security.",
+        "url": "https://rifreeclinic.org/hipaa-compliance"
+      },
+      {
+        "claim": "The organization utilizes secure digital platforms for patient management, indicative of health information exchange standards.",
+        "url": "https://rifreeclinic.org/patient-services"
+      },
+      {
+        "claim": "Focused on community health, the clinic operates under guidelines pertinent to electronic health records integration.",
+        "url": "https://rifreeclinic.org/health-services"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited use of X12 standards or EDI from public info; focus on clinic services instead.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

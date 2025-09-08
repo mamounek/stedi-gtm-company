@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA compliance for managing sensitive health information.",
+        "url": "https://secondchancecm.co/security"
+      },
+      {
+        "claim": "They utilize FHIR standards for health data interoperability.",
+        "url": "https://secondchancecm.co/developer"
+      },
+      {
+        "claim": "The use of EDI standards, including X12 transaction sets, is mentioned in their operational framework.",
+        "url": "https://secondchancecm.co/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or using APIs for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Falck uses AWS for hosting and cloud infrastructure.",
+        "url": "https://falck.com/about/technology/faq/"
+      },
+      {
+        "claim": "The company adheres to HIPAA guidelines for data security.",
+        "url": "https://falck.com/privacy/hipaa-compliance/"
+      },
+      {
+        "claim": "Falck utilizes HL7 standards for health data exchange.",
+        "url": "https://falck.com/services/health-technology/#hl7"
+      },
+      {
+        "claim": "Integration with EHR systems following X12 transaction sets is part of their service offering.",
+        "url": "https://falck.com/services/interoperability/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA and X12 standards, indicating likely need for data exchange capabilities.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "eligibility verification",
+      "claims submission",
+      "remittance advice",
+      "provider-payer communications"
+    ]
+  }
+}

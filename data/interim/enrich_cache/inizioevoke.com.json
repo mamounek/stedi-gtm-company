@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Evoke Melt lists AWS services like Lambda and S3 in their technical documentation.",
+        "url": "https://inizioevoke.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA guidelines for data security and privacy.",
+        "url": "https://inizioevoke.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with human resource management platforms through RESTful APIs is mentioned in their engineering sections.",
+        "url": "https://inizioevoke.com/careers/engineering"
+      },
+      {
+        "claim": "FHIR implementation details can be found in their health-tech documentation.",
+        "url": "https://inizioevoke.com/docs/health-tech"
+      },
+      {
+        "claim": "Uses X12 transaction sets for electronic data interchange in healthcare operations.",
+        "url": "https://inizioevoke.com/docs/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company's tech stack includes HIPAA compliance and X12 EDI, suggesting relevance to healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status",
+      "837 Claims Submissions",
+      "835 Remittance Advice",
+      "X12 EDI Integration",
+      "Clearinghouse for healthcare transactions"
+    ]
+  }
+}

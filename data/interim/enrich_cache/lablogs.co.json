@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR API integration",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Lab Logs mentions usage of AWS for its infrastructure.",
+        "url": "https://lablogs.co/about"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards in its services.",
+        "url": "https://lablogs.co/privacy"
+      },
+      {
+        "claim": "Lab Logs integrates with FHIR for health data exchange.",
+        "url": "https://lablogs.co/docs/api"
+      },
+      {
+        "claim": "Evidence of HL7 standard support for data interoperability.",
+        "url": "https://lablogs.co/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health data workflows and uses X12 transaction sets.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transaction sets for claims processing",
+      "Eligibility verification using 270/271",
+      "Remittance advice through 835",
+      "Claims management via 837",
+      "Clearinghouse functionalities"
+    ]
+  }
+}

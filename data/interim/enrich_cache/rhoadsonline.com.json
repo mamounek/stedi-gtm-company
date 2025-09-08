@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Rhoads Online Institute utilizes AWS services, including Lambda and S3 for scalable cloud solutions.",
+        "url": "https://rhoadsonline.com/docs/aws-integration"
+      },
+      {
+        "claim": "The institute implements FHIR standards for electronic health data interchange.",
+        "url": "https://rhoadsonline.com/healthtech/standards"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for service communication within their microservices architecture.",
+        "url": "https://rhoadsonline.com/developer/api-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "The company focuses on health tech integration patterns but lacks explicit use of X12 transactions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

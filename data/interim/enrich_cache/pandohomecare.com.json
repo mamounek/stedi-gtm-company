@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Pando Home Care utilizes HIPAA-compliant communications in their patient management system.",
+        "url": "https://pandohomecare.com/security"
+      },
+      {
+        "claim": "The company mentions using HL7 standards for health information exchange.",
+        "url": "https://pandohomecare.com/docs"
+      },
+      {
+        "claim": "Pando Home Care implements FHIR specifications to streamline data sharing across their platforms.",
+        "url": "https://pandohomecare.com/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of using X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

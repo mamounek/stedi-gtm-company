@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Benchmark utilizes cloud services for their infrastructure.",
+        "url": "https://benchmarkhcs.com/about"
+      },
+      {
+        "claim": "The company emphasizes the use of EHR systems, which typically utilize standards like HL7 and FHIR for data exchange.",
+        "url": "https://benchmarkhcs.com/services"
+      },
+      {
+        "claim": "HIPAA compliance is highlighted in relation to their data handling practices.",
+        "url": "https://benchmarkhcs.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for X12 transactions or related use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

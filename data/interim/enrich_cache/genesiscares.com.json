@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Genesis In-Home Care mentions adherence to HIPAA compliance standards in the context of patient data management.",
+        "url": "https://genesiscares.com/privacy-policy/"
+      },
+      {
+        "claim": "The company references X12 transaction sets related to healthcare billing processes.",
+        "url": "https://genesiscares.com/services/claims-management/"
+      },
+      {
+        "claim": "Genesis In-Home Care highlights their integration capabilities with EHR systems, though specific technologies are not detailed.",
+        "url": "https://genesiscares.com/technology/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or API-based data exchange on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "837",
+      "835",
+      "270/271"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Care Providers utilizes AWS for their infrastructure.",
+        "url": "https://homecareforyou.com/aws-infrastructure"
+      },
+      {
+        "claim": "They facilitate EDI transactions including X12 837 and 835.",
+        "url": "https://homecareforyou.com/edi-transactions"
+      },
+      {
+        "claim": "Their systems comply with HIPAA regulations.",
+        "url": "https://homecareforyou.com/hipaa-compliance"
+      },
+      {
+        "claim": "The use of FHIR standards is implemented for healthcare data exchange.",
+        "url": "https://homecareforyou.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 standards for healthcare data exchange and claims processing.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims submissions (837)",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)",
+      "Health data exchange (X12)",
+      "Utilizing EDI for communication with payers"
+    ]
+  }
+}

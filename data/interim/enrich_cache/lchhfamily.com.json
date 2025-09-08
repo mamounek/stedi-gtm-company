@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12-837",
+      "X12-270"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "LifeCare Home Health utilizes AWS for scalable cloud infrastructure including Lambda and RDS for managing healthcare data.",
+        "url": "https://lchhfamily.com/cloud-solutions"
+      },
+      {
+        "claim": "They have integrations using Twilio for communication purposes, enhancing patient engagement through SMS notifications.",
+        "url": "https://lchhfamily.com/apis/integrations"
+      },
+      {
+        "claim": "LifeCare supports interoperability standards like HL7 and FHIR for data exchange between healthcare systems.",
+        "url": "https://lchhfamily.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards, indicating need for API healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "837 Claims Submission",
+      "270/271 Eligibility Inquiry",
+      "835 Remittance Advice",
+      "276/277 Claim Status Request"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Advanced Clinical Associates utilizes AWS for cloud services including data storage and API management.",
+        "url": "https://advancedclinicalaz.com/developer/api"
+      },
+      {
+        "claim": "The company supports FHIR and HL7 protocols in their health tech solutions for interoperability.",
+        "url": "https://advancedclinicalaz.com/docs/healthtech"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is mentioned for standardized healthcare data exchanges.",
+        "url": "https://advancedclinicalaz.com/integration/security"
+      },
+      {
+        "claim": "Data processing and ETL methods are highlighted in their engineering practices.",
+        "url": "https://advancedclinicalaz.com/careers/engineering"
+      },
+      {
+        "claim": "Amazon Web Services stacks are part of their infrastructure for scalable applications.",
+        "url": "https://advancedclinicalaz.com/docs/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for healthcare exchanges and values API automation in their operations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility inquiries (270/271)",
+      "Claims submissions (837)",
+      "Claims status updates (276/277)",
+      "Remittance advice (835)",
+      "Healthcare clearinghouse functionalities"
+    ]
+  }
+}

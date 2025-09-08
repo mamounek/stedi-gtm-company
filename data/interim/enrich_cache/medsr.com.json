@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS Redshift",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API",
+      "HL7 Standards",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "AWS API Gateway",
+      "RESTful APIs",
+      "Webhook Integrations",
+      "Data Pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "medSR utilizes AWS for scalable cloud services.",
+        "url": "https://medsr.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of healthcare data.",
+        "url": "https://medsr.com/security/hipaa"
+      },
+      {
+        "claim": "medSR supports FHIR for health information exchange.",
+        "url": "https://medsr.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs that comply with HL7 standards.",
+        "url": "https://medsr.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on health tech standards and EDI transactions, indicating a fit for API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice",
+      "Provider Data Exchange"
+    ]
+  }
+}

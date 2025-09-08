@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Gregory & Appel mentions working with HIPAA compliance in their insurance services.",
+        "url": "https://www.gregoryappel.com/insurance/HIPAA-compliance"
+      },
+      {
+        "claim": "The company utilizes EDI protocols for processing insurance claims, which can include X12 transaction sets.",
+        "url": "https://www.gregoryappel.com/insurance/edi-guidance"
+      }
+    ],
+    "tech_stack_confidence": 0.43
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No strong evidence of engagement with X12/HIPAA transactions found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

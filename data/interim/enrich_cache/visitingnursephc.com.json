@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA for patient data handling.",
+        "url": "https://visitingnursephc.com/about-us/"
+      },
+      {
+        "claim": "Visiting Nurse Private Home Care utilizes secure platforms for patient EHR access.",
+        "url": "https://visitingnursephc.com/services/"
+      },
+      {
+        "claim": "Career postings emphasize the importance of HIPAA compliance in their tech roles.",
+        "url": "https://visitingnursephc.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction processing or API automation found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

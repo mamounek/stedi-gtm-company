@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "REST API Integrations",
+      "Webhook Event Handling"
+    ],
+    "evidence": [
+      {
+        "claim": "Nextnet utilizes AWS services like Lambda and S3 for scalable application deployment and data storage.",
+        "url": "https://www.getnextnet.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company claims support for FHIR and HL7 standards in their health tech offerings, ensuring interoperability with EHRs.",
+        "url": "https://www.getnextnet.com/health-tech-standards"
+      },
+      {
+        "claim": "Nextnet mentions their integration capabilities for X12 EDI transactions relevant to healthcare.",
+        "url": "https://www.getnextnet.com/edi-support"
+      },
+      {
+        "claim": "The career section highlights engineering roles focused on cloud infrastructure using technologies like AWS and Google Cloud Platform.",
+        "url": "https://www.getnextnet.com/careers#engineering"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhooks for connecting healthcare applications and services.",
+        "url": "https://www.getnextnet.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health tech with X12 and EDI capabilities, fitting the ICP profile.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "API automation for healthcare claims processing",
+      "Eligibility checks using X12 270/271",
+      "EDI transaction management for remittances",
+      "Integration with healthcare clearinghouses"
+    ]
+  }
+}

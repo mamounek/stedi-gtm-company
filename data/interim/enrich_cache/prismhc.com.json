@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon DynamoDB"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Exchange",
+      "X12 837 Transaction Set for Healthcare Claims",
+      "FHIR for interoperability with EHRs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Batch processing for EDI transactions",
+      "Webhooks for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Prism Health utilizes AWS services for their cloud infrastructure.",
+        "url": "https://prismhc.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for secure healthcare data transmission.",
+        "url": "https://prismhc.com/security"
+      },
+      {
+        "claim": "They support X12 transaction sets for healthcare claims processing.",
+        "url": "https://prismhc.com/edi-solutions"
+      },
+      {
+        "claim": "Prism Health implements FHIR standards for interoperability.",
+        "url": "https://prismhc.com/fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and APIs for health data exchange, fits target size.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 for healthcare claims processing",
+      "Eligibility checks using X12 270/271",
+      "Claim status updates via X12 276/277",
+      "Remittance advice through X12 835",
+      "Real-time updates with webhooks"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Global Tech Billing utilizes AWS for scalable infrastructure and secure online billing services.",
+        "url": "https://globaltechbilling.com/about"
+      },
+      {
+        "claim": "Company documentation mentions compliance with HIPAA standards for handling sensitive patient data.",
+        "url": "https://globaltechbilling.com/security"
+      },
+      {
+        "claim": "Integration with various EHRs is achieved through established FHIR standards.",
+        "url": "https://globaltechbilling.com/docs/api"
+      },
+      {
+        "claim": "Supports multiple X12 transaction sets for electronic claims processing.",
+        "url": "https://globaltechbilling.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 formats and APIs for healthcare billing, aligning with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Claims Submission",
+      "EDI Health Insurance Eligibility Checks",
+      "Remittance Advice Processing",
+      "Claims Status Inquiry"
+    ]
+  }
+}

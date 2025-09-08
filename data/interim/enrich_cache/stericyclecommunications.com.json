@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "Data interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "InQuicker is designed to comply with HIPAA regulations for secure patient data management.",
+        "url": "https://www.stericyclecommunications.com/healthcare/compliance"
+      },
+      {
+        "claim": "The platform utilizes FHIR standards to ensure interoperability with EHR systems.",
+        "url": "https://www.stericyclecommunications.com/healthcare/fhir-integration"
+      },
+      {
+        "claim": "InQuicker integrates with various EHR systems for appointment scheduling and patient registration.",
+        "url": "https://www.stericyclecommunications.com/healthcare/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.49
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of involvement with X12 transactions or EDI",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

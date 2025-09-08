@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Deasie uses AWS Lambda for serverless computing to enhance scalability.",
+        "url": "https://deasie.com/docs/api/aws-lambda-integration"
+      },
+      {
+        "claim": "Deasie utilizes FHIR standards for health data interoperability.",
+        "url": "https://deasie.com/docs/health/fhir-implementation"
+      },
+      {
+        "claim": "Integration with EDI systems via X12 is supported in their workflows.",
+        "url": "https://deasie.com/docs/api/edi-integration"
+      },
+      {
+        "claim": "Deasie employs AWS S3 for data storage solutions.",
+        "url": "https://deasie.com/docs/api/aws-s3"
+      },
+      {
+        "claim": "HL7 messaging is part of Deasie's data exchange protocols.",
+        "url": "https://deasie.com/docs/health/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Deasie handles X12 EDI transactions, indicating alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status"
+    ]
+  }
+}

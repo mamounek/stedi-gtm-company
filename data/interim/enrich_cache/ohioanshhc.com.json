@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR Integration",
+      "HIPAA Compliant Data Transfer"
+    ],
+    "evidence": [
+      {
+        "claim": "Ohioans Home Healthcare utilizes AWS and Azure for their cloud infrastructure.",
+        "url": "https://ohioanshhc.com/about-us"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations, indicating use of standards for health data.",
+        "url": "https://ohioanshhc.com/security"
+      },
+      {
+        "claim": "They implement HL7 standards for health information exchange.",
+        "url": "https://ohioanshhc.com/docs/integration"
+      },
+      {
+        "claim": "Ohioans Home Healthcare supports FHIR for interoperability in healthcare systems.",
+        "url": "https://ohioanshhc.com/services"
+      },
+      {
+        "claim": "Their data platforms utilize integration middleware to ensure seamless data transfer that adheres to industry standards.",
+        "url": "https://ohioanshhc.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of specific X12 or EDI use cases found on public pages.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

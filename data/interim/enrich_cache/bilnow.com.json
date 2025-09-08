@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR resources",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "BilNow utilizes AWS for hosting and scalable services in medical billing.",
+        "url": "https://bilnow.com/docs/platform"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for health data security.",
+        "url": "https://bilnow.com/security"
+      },
+      {
+        "claim": "They leverage X12 EDI standards for billing transactions.",
+        "url": "https://bilnow.com/api/#edi"
+      },
+      {
+        "claim": "BilNow supports FHIR for interoperability with EHR systems.",
+        "url": "https://bilnow.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Supports X12 transactions and values API automation for healthcare billing.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transmissions (837, 835)",
+      "Eligibility Checks (270/271)",
+      "Claims Status (276/277)",
+      "Clearinghouse functions"
+    ]
+  }
+}

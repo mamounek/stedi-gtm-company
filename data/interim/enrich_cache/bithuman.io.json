@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "BitHuman utilizes AWS Lambdas for serverless computing and API management.",
+        "url": "https://bithuman.io/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring the security of health data.",
+        "url": "https://bithuman.io/security/hipaa-compliance"
+      },
+      {
+        "claim": "They provide a FHIR API for healthcare data interoperability and integration.",
+        "url": "https://bithuman.io/developer/fhir-api"
+      },
+      {
+        "claim": "Integration is facilitated through RESTful APIs and Webhooks for real-time data updates.",
+        "url": "https://bithuman.io/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

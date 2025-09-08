@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "ExpressTime Solutions implements HIPAA compliance for secure health information exchanges.",
+        "url": "https://expresstime.net/security"
+      },
+      {
+        "claim": "The company uses X12 transaction sets for electronic data interchange in healthcare.",
+        "url": "https://expresstime.net/docs"
+      },
+      {
+        "claim": "ExpressTime provides an EDI interface compatible with industry standards.",
+        "url": "https://expresstime.net/integration"
+      },
+      {
+        "claim": "They integrate with FHIR APIs for accessing electronic health records.",
+        "url": "https://expresstime.net/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

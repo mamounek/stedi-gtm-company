@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "HL7 integration support",
+      "FHIR API access"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Pirani uses AWS services for its cloud infrastructure.",
+        "url": "https://piranirisk.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Pirani's solutions are HIPAA compliant, ensuring secure handling of health data.",
+        "url": "https://piranirisk.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The platform supports HL7 standards for health data exchange.",
+        "url": "https://piranirisk.com/docs/health-data"
+      },
+      {
+        "claim": "Pirani offers a REST API for integration with third-party applications.",
+        "url": "https://piranirisk.com/developer/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse functionalities on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

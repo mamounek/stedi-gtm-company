@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 837",
+      "HL7 V2"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Ostial Corp utilizes AWS for its serverless architecture to handle data processing.",
+        "url": "https://ostialflash.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data interoperability.",
+        "url": "https://ostialflash.com/api/fhir-support"
+      },
+      {
+        "claim": "X12 transaction sets are implemented for claims management.",
+        "url": "https://ostialflash.com/docs/x12-837"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhook for real-time data exchange.",
+        "url": "https://ostialflash.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and employs tech for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status",
+      "835 Remittance Advice Processing"
+    ]
+  }
+}

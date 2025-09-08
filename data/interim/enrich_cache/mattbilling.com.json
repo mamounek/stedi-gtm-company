@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12 transactions",
+      "EDI transactions",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "MATT BILLING LLC addresses HIPAA compliance on their website, indicating robust health-tech integration.",
+        "url": "https://mattbilling.com/hipaa-compliance"
+      },
+      {
+        "claim": "They utilize X12 and EDI standards for billing and transactions as mentioned in their services overview.",
+        "url": "https://mattbilling.com/services"
+      },
+      {
+        "claim": "The company focuses on secure health information management, which aligns with health-tech rails.",
+        "url": "https://mattbilling.com/security"
+      },
+      {
+        "claim": "MATT BILLING offers integration services that facilitate compliance with HIPAA regulations and EDI standards for health transactions.",
+        "url": "https://mattbilling.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "The company specializes in X12 and EDI transactions, indicating strong relevance to target API use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transactions",
+      "X12 transaction processing",
+      "HIPAA compliance solutions",
+      "Claims processing",
+      "Eligibility verification"
+    ]
+  }
+}

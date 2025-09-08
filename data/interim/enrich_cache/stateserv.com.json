@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI Integration",
+      "FHIR Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "StateServ implements HIPAA compliance for handling protected health information.",
+        "url": "https://stateserv.com/security"
+      },
+      {
+        "claim": "StateServ utilizes EDI for transactions related to healthcare services.",
+        "url": "https://stateserv.com/integration"
+      },
+      {
+        "claim": "The company incorporates FHIR standards for data exchange in healthcare applications.",
+        "url": "https://stateserv.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No strong evidence of X12 transaction use cases or API automation focus on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

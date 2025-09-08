@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company operates in compliance with HIPAA regulations for patient data.",
+        "url": "https://wellspringcaremanagement.com/hipaa-compliance"
+      },
+      {
+        "claim": "The services provided include data management for EHRs, although specific integrations are not detailed on the site.",
+        "url": "https://wellspringcaremanagement.com/services"
+      },
+      {
+        "claim": "WellSpring emphasizes care coordination which implies some standard health data exchange practices, potentially including FHIR.",
+        "url": "https://wellspringcaremanagement.com/care-coordination"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or related EDI transactions on their public site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure Active Directory"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Solutions",
+      "FHIR APIs",
+      "HL7 Standards"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture",
+      "RESTful API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "RightPatient utilizes AWS Lambda for scalable serverless computing.",
+        "url": "https://rightpatient.com/developer"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for secure health data management.",
+        "url": "https://rightpatient.com/security"
+      },
+      {
+        "claim": "RightPatient's services integrate with FHIR APIs for health data exchange.",
+        "url": "https://rightpatient.com/docs"
+      },
+      {
+        "claim": "Integration with Azure Active Directory for identity and access management.",
+        "url": "https://rightpatient.com/careers"
+      },
+      {
+        "claim": "RightPatient implements event-driven architecture for real-time patient data processing.",
+        "url": "https://rightpatient.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or clearinghouse functionality found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

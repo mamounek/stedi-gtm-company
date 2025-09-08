@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR integration",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Koalys utilizes AWS Lambda for serverless computing.",
+        "url": "https://koalys.com/docs/aws-lambda-utilization"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for health data management.",
+        "url": "https://koalys.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with HL7 FHIR standards is emphasized for interoperability.",
+        "url": "https://koalys.com/developer/fhir-integration"
+      },
+      {
+        "claim": "The company supports X12 EDI transactions for healthcare data exchange.",
+        "url": "https://koalys.com/docs/edi/x12-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and X12 transactions indicates alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "HIPAA compliance",
+      "Provider claims management",
+      "Eligibility verification"
+    ]
+  }
+}

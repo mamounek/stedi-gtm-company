@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA-compliant data handling",
+      "FHIR support for healthcare data interoperability"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Adaxa Technologies utilizes AWS for serverless computing through AWS Lambda.",
+        "url": "https://adaxatech.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for its health tech solutions to protect sensitive patient data.",
+        "url": "https://adaxatech.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They support FHIR standards for healthcare applications, enabling interoperability.",
+        "url": "https://adaxatech.com/healthcare/fhir-implementation"
+      },
+      {
+        "claim": "Integration patterns adopted include microservices architecture to enhance API capabilities.",
+        "url": "https://adaxatech.com/docs/microservices-architecture"
+      },
+      {
+        "claim": "Utilization of Azure Functions for event-driven computing as part of their cloud services.",
+        "url": "https://adaxatech.com/docs/azure-functions"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases related to X12 or EDI found on the website.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

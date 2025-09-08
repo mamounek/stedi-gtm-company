@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "System Interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "NCDS uses AWS for cloud infrastructure.",
+        "url": "https://ncdsinc.com/developer/aws-integration"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance.",
+        "url": "https://ncdsinc.com/security/hipaa"
+      },
+      {
+        "claim": "References to X12 transaction sets on the company site.",
+        "url": "https://ncdsinc.com/docs/x12-standards"
+      },
+      {
+        "claim": "NCDS integrates with EHR systems via FHIR protocols.",
+        "url": "https://ncdsinc.com/case-studies/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles healthcare billing with a focus on EDI and X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Data interoperability for healthcare systems"
+    ]
+  }
+}

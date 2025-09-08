@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "834",
+      "837",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Data pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "MultiPlan utilizes AWS cloud services for scalable infrastructure.",
+        "url": "https://www.multiplan.us/technology/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for handling patient data.",
+        "url": "https://www.multiplan.us/security/hipaa-compliance"
+      },
+      {
+        "claim": "MultiPlan supports EDI transaction sets including X12 834 and 837.",
+        "url": "https://www.multiplan.us/docs/edi-overview"
+      },
+      {
+        "claim": "MultiPlan integrates health data via FHIR standards for interoperability.",
+        "url": "https://www.multiplan.us/developer/fhir-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MultiPlan engages in health data transactions, including claims and eligibility using X12.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 (claims submission)",
+      "X12 270/271 (eligibility inquiries and responses)",
+      "X12 835 (remittance advice)",
+      "clearinghouse services for data exchange",
+      "healthcare API integrations",
+      "data pipelines for efficient transaction processing"
+    ]
+  }
+}

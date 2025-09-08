@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliant",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Velara utilizes AWS Lambda for serverless computing.",
+        "url": "https://velaracare.com/docs/serverless"
+      },
+      {
+        "claim": "The platform ensures compliance with HIPAA regulations.",
+        "url": "https://velaracare.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHRs follows HL7 FHIR standards.",
+        "url": "https://velaracare.com/docs/integration"
+      },
+      {
+        "claim": "Utilizes RESTful APIs for secure data exchange.",
+        "url": "https://velaracare.com/api/reference"
+      },
+      {
+        "claim": "Employs Amazon RDS for their database management.",
+        "url": "https://velaracare.com/docs/databases"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse integrations found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

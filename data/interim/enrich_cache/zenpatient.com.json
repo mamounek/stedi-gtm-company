@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "FHIR API integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ZenPatient leverages AWS for cloud infrastructure.",
+        "url": "https://zenpatient.com/about"
+      },
+      {
+        "claim": "The company employs FHIR standards for healthcare data exchange.",
+        "url": "https://zenpatient.com/health-tech"
+      },
+      {
+        "claim": "ZenPatient is HIPAA compliant, ensuring data security and privacy.",
+        "url": "https://zenpatient.com/security"
+      },
+      {
+        "claim": "They utilize GCP for data processing and analytics.",
+        "url": "https://zenpatient.com/docs"
+      },
+      {
+        "claim": "Integration with EHR systems via HL7.",
+        "url": "https://zenpatient.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or API automation for healthcare data.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

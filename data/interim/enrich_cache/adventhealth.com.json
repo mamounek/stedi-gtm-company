@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standard"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Middleware for EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "AdventHealth uses AWS for cloud services.",
+        "url": "https://www.adventhealth.com"
+      },
+      {
+        "claim": "The organization ensures HIPAA compliance in its services.",
+        "url": "https://www.adventhealth.com/security"
+      },
+      {
+        "claim": "They mention adapting FHIR standards for health information exchange.",
+        "url": "https://www.adventhealth.com/docs"
+      },
+      {
+        "claim": "Details on using X12 for healthcare transactions are found in their developer documentation.",
+        "url": "https://www.adventhealth.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transactions for health data exchange and values API integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "276/277 claims status requests",
+      "837/835 claims processing",
+      "clearinghouse operations",
+      "API integration with payers and providers"
+    ]
+  }
+}

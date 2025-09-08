@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Cheer Home Care engages in health-tech integration via systems compliant with HIPAA regulations.",
+        "url": "https://cheerhomecare.com/security"
+      },
+      {
+        "claim": "The company employs EHRs for patient management and records handling, suggesting adherence to healthcare data standards.",
+        "url": "https://cheerhomecare.com/about"
+      },
+      {
+        "claim": "Cheer Home Care's technology is designed to ensure patient data privacy and security, aligning with health-tech standards.",
+        "url": "https://cheerhomecare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction usage or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

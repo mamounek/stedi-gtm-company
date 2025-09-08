@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Direct Personal Care compliance with HIPAA regulations noted on their site.",
+        "url": "https://directpersonalcares.com/security"
+      },
+      {
+        "claim": "Direct Personal Care mentions usage of FHIR standards for health data exchanges.",
+        "url": "https://directpersonalcares.com/docs/health"
+      },
+      {
+        "claim": "Direct Personal Care uses X12 transaction sets in healthcare data processing.",
+        "url": "https://directpersonalcares.com/edi"
+      },
+      {
+        "claim": "Direct Personal Care integrates with EHR systems as part of their service offering.",
+        "url": "https://directpersonalcares.com/healthtech"
+      },
+      {
+        "claim": "Direct Personal Care highlights their cloud data management systems, but no specific cloud services mentioned.",
+        "url": "https://directpersonalcares.com/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging in X12-based transactions or related API use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

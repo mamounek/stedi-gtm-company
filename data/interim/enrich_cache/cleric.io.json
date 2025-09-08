@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Heroku",
+      "Stripe API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Data interchange protocols including X12, EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Cleric utilizes AWS for cloud infrastructure.",
+        "url": "https://www.cleric.io/docs/infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data exchanges.",
+        "url": "https://www.cleric.io/healthtech"
+      },
+      {
+        "claim": "Cleric integrates with EHR systems via HL7 messaging.",
+        "url": "https://www.cleric.io/docs/integration#ehr"
+      },
+      {
+        "claim": "They offer integration patterns including X12 for standardized claims processing.",
+        "url": "https://www.cleric.io/integration#x12"
+      },
+      {
+        "claim": "The API documentation mentions use of Stripe for payment processing.",
+        "url": "https://www.cleric.io/docs/api#payment"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit evidence of focus on X12 transaction types for healthcare data exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": [
+      "API integration with EHR systems",
+      "Data interchange protocols including X12, EDI"
+    ]
+  }
+}

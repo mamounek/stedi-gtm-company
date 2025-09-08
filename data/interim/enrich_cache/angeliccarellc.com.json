@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Angelic Home Care Agency LLC does not provide any API or developer documentation on their website.",
+        "url": "https://angeliccarellc.com"
+      },
+      {
+        "claim": "The company lacks mentions of HIPAA compliance or any specifics regarding health-tech integrations such as X12 or FHIR.",
+        "url": "https://angeliccarellc.com"
+      },
+      {
+        "claim": "There are no references to any cloud services like AWS or Azure on the company's website.",
+        "url": "https://angeliccarellc.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on the site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

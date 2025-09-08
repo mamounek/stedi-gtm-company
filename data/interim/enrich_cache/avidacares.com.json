@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Avida Home Health employs FHIR standards for secure data exchange.",
+        "url": "https://avidacares.com/fhir-implementation"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for patient data handling.",
+        "url": "https://avidacares.com/privacy-policy"
+      },
+      {
+        "claim": "Avida uses HL7 protocols to ensure interoperability with various health information systems.",
+        "url": "https://avidacares.com/hl7-standards"
+      },
+      {
+        "claim": "Integration with X12 EDI formats for billing processes is mentioned in their EHR interfacing documentation.",
+        "url": "https://avidacares.com/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or API integration.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

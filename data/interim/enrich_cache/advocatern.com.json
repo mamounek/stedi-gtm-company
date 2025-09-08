@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR standards for data sharing"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Care Advocates adheres to HIPAA regulations for patient privacy and data security.",
+        "url": "https://www.advocatern.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 EDI standards for healthcare transactions, ensuring interoperability in claims and billing processes.",
+        "url": "https://www.advocatern.com/docs#edi"
+      },
+      {
+        "claim": "FHIR standards are implemented to enhance data sharing capabilities among healthcare services and applications.",
+        "url": "https://www.advocatern.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in HIPAA compliant health tech and EDI transactions, indicating API needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transaction sets",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice integration"
+    ]
+  }
+}

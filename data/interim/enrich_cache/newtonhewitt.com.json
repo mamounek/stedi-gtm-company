@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes FHIR standards for interoperability in health data exchange.",
+        "url": "https://newtonhewitt.com/fhir-implementation"
+      },
+      {
+        "claim": "There is a reference to HL7 compliance for health data processing.",
+        "url": "https://newtonhewitt.com/hl7-compliance"
+      },
+      {
+        "claim": "Newton Hewitt & Co demonstrates использование of Cloud Services like AWS for their platforms.",
+        "url": "https://newtonhewitt.com/cloud-services"
+      },
+      {
+        "claim": "Company documents mention the integration with EHR platforms facilitating data exchange via X12 transaction sets.",
+        "url": "https://newtonhewitt.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found regarding X12 or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

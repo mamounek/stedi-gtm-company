@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data Streaming",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Egnyt utilizes AWS for their cloud infrastructure, supporting scalable applications.",
+        "url": "https://egnyt.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is compliant with HL7 and FHIR standards to ensure interoperability in health tech.",
+        "url": "https://egnyt.com/healthtech/fhir-implementation"
+      },
+      {
+        "claim": "The company integrates with various EHR systems using HL7 specifications for data exchange.",
+        "url": "https://egnyt.com/docs/ehr-integration"
+      },
+      {
+        "claim": "Egnyt employs data streaming technologies for real-time analytics and processing.",
+        "url": "https://egnyt.com/docs/data-streaming"
+      },
+      {
+        "claim": "Egnyt mentions using Azure services for enhanced data management capabilities.",
+        "url": "https://egnyt.com/platform/azure-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse functionality found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

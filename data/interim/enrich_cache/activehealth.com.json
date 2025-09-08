@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS CloudFormation",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Solutions",
+      "HL7 Messaging Standards",
+      "X12 Transaction Sets",
+      "FHIR Compliant APIs"
+    ],
+    "integration_patterns": [
+      "Data Streaming with AWS Kinesis",
+      "API Integrations using AWS API Gateway",
+      "Cloud Storage Integration with Amazon S3"
+    ],
+    "evidence": [
+      {
+        "claim": "ActiveHealth utilizes AWS Lambda for serverless computing tasks.",
+        "url": "https://activehealth.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its health solutions.",
+        "url": "https://activehealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems supports HL7 messaging standards.",
+        "url": "https://activehealth.com/health-tech/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ActiveHealth's focus on HIPAA X12 and healthcare APIs aligns with target ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transaction Sets",
+      "837 Claims Processing",
+      "835 Remittance Advice",
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status",
+      "278 Prior Authorization"
+    ]
+  }
+}

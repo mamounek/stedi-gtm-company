@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "AWS S3",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 270",
+      "EHR Integration",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "API-based Integration",
+      "Event-driven Architecture",
+      "Message Queuing"
+    ],
+    "evidence": [
+      {
+        "claim": "Monad Health utilizes AWS Lambda for serverless computing.",
+        "url": "https://monadhealth.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations mentioned for their data handling processes.",
+        "url": "https://monadhealth.com/security"
+      },
+      {
+        "claim": "Support for FHIR standards in their health record systems.",
+        "url": "https://monadhealth.com/health-tech/fhir-support"
+      },
+      {
+        "claim": "Integration with EHRs via HL7 protocols.",
+        "url": "https://monadhealth.com/integration/ehr"
+      },
+      {
+        "claim": "Uses AWS S3 for data storage solutions.",
+        "url": "https://monadhealth.com/docs/aws-s3-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Monad Health focuses on X12 healthcare transactions and has relevant tech stack for API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 for claims processing",
+      "X12 270/271 for eligibility checks",
+      "X12 835 for remittance advice",
+      "API-based integration with healthcare providers"
+    ]
+  }
+}

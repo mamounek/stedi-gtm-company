@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hestia Advantage complies with HIPAA regulations, indicating the use of secure health data practices.",
+        "url": "https://hestiaadvantage.com/privacy-policy/"
+      },
+      {
+        "claim": "The website mentions the use of FHIR standards for health data interoperability.",
+        "url": "https://hestiaadvantage.com/health-data-standards/"
+      },
+      {
+        "claim": "Hestia engages in EDI transactions which are essential for healthcare data management.",
+        "url": "https://hestiaadvantage.com/edi-policy/"
+      },
+      {
+        "claim": "References to systems that support HL7, crucial for healthcare integrations.",
+        "url": "https://hestiaadvantage.com/integration-solutions/"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or API automation on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

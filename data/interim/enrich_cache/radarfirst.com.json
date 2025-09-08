@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "AWS Lambda",
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "RadarFirst utilizes AWS for its cloud infrastructure.",
+        "url": "https://radarfirst.com/platform/"
+      },
+      {
+        "claim": "Their solutions are designed to adhere to HIPAA compliance standards.",
+        "url": "https://radarfirst.com/security/"
+      },
+      {
+        "claim": "RadarFirst integrates with various healthcare standards including FHIR.",
+        "url": "https://radarfirst.com/healthcare/"
+      },
+      {
+        "claim": "They utilize REST APIs for integrations with external systems.",
+        "url": "https://radarfirst.com/integrations/"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or clearinghouse activity found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

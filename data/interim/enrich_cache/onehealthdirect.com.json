@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon EC2",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "837",
+      "270/271",
+      "EHR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "One Health Direct utilizes AWS for cloud infrastructure and data services.",
+        "url": "https://onehealthdirect.com/company/infrastructure"
+      },
+      {
+        "claim": "The platform processes healthcare transactions using X12 standards, including 837 claim submissions.",
+        "url": "https://onehealthdirect.com/services/edi"
+      },
+      {
+        "claim": "They support FHIR for data sharing with EHR systems.",
+        "url": "https://onehealthdirect.com/products/fhir-integration"
+      },
+      {
+        "claim": "HL7 messaging is part of their interoperability solutions.",
+        "url": "https://onehealthdirect.com/docs/interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare data exchanges with support for X12 and API integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Utilizing X12 transactions for claims processing",
+      "Supporting eligibility and benefit verification via 270/271",
+      "Integration with providers for electronic health data exchanges"
+    ]
+  }
+}

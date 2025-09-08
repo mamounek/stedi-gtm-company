@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Kafka",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "AWS API Gateway"
+    ],
+    "evidence": [
+      {
+        "claim": "Optumus utilizes AWS for its cloud infrastructure.",
+        "url": "https://optumus.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform integrates with Snowflake for data warehousing.",
+        "url": "https://optumus.com/docs/data-warehousing"
+      },
+      {
+        "claim": "Optumus adheres to HIPAA compliance for health-related data handling.",
+        "url": "https://optumus.com/security/hipaa"
+      },
+      {
+        "claim": "The company supports FHIR for interoperability in health data exchange.",
+        "url": "https://optumus.com/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange, EDI X12, and values API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "API integration with healthcare systems"
+    ]
+  }
+}

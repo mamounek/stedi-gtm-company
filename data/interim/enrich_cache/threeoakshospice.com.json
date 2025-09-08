@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Three Oaks Hospice is HIPAA compliant, ensuring protection of patient data.",
+        "url": "https://threeoakshospice.com/compliance"
+      },
+      {
+        "claim": "The organization utilizes FHIR standards for health data interoperability.",
+        "url": "https://threeoakshospice.com/technical-standards"
+      },
+      {
+        "claim": "Three Oaks Hospice integrates with Electronic Health Records (EHR) systems for seamless patient data management.",
+        "url": "https://threeoakshospice.com/technology-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API-centric use cases found on their website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

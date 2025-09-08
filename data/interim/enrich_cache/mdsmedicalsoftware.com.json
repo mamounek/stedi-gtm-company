@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS CloudFront",
+      "Azure Active Directory"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7",
+      "FHIR",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Serverless architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "MDS Medical uses AWS for cloud infrastructure.",
+        "url": "https://mdsmedicalsoftware.com/aws-integration"
+      },
+      {
+        "claim": "Applications are HIPAA compliant, indicating adherence to health data standards.",
+        "url": "https://mdsmedicalsoftware.com/security"
+      },
+      {
+        "claim": "MDS integrates with EHRs using FHIR standards.",
+        "url": "https://mdsmedicalsoftware.com/fhir-standards"
+      },
+      {
+        "claim": "Utilization of X12 format for electronic data interchange in healthcare.",
+        "url": "https://mdsmedicalsoftware.com/edi-x12"
+      },
+      {
+        "claim": "Uses Azure for identity management in cloud applications.",
+        "url": "https://mdsmedicalsoftware.com/azure-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MDS Medical supports X12 transactions, relevant EDI integration, and healthcare compliance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry",
+      "837 Healthcare Claim",
+      "835 Remittance Advice",
+      "276/277 Claims Status"
+    ]
+  }
+}

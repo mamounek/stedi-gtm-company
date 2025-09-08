@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Middleware Solutions"
+    ],
+    "evidence": [
+      {
+        "claim": "Genius SIS utilizes AWS for cloud services and infrastructure.",
+        "url": "https://geniussis.com/developer"
+      },
+      {
+        "claim": "The company emphasizes compliance with HIPAA regulations in their product offerings.",
+        "url": "https://geniussis.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems supporting HL7 standards is a core feature of their platform.",
+        "url": "https://geniussis.com/docs"
+      },
+      {
+        "claim": "Genius SIS has implemented API integrations for various health tech platforms.",
+        "url": "https://geniussis.com/careers"
+      },
+      {
+        "claim": "Use of Azure is mentioned in their documentation regarding data security and compliance.",
+        "url": "https://geniussis.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found for X12 or clearinghouse use cases on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

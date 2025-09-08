@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Twilio"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "834",
+      "835"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Numiro leverages AWS for cloud infrastructure and scalability.",
+        "url": "https://numiro.ai/docs/cloud"
+      },
+      {
+        "claim": "The platform supports FHIR and HL7 standards for health data integration.",
+        "url": "https://numiro.ai/developer/health-standards"
+      },
+      {
+        "claim": "Utilizes Twilio for communication APIs in health tech applications.",
+        "url": "https://numiro.ai/docs/apis"
+      },
+      {
+        "claim": "Integration pattern based on event-driven architecture for real-time data processing.",
+        "url": "https://numiro.ai/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards with a focus on health tech integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "API automation for eligibility verification",
+      "Claims processing using X12 standards",
+      "Remittance processing for healthcare payments"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Set 837",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Haddon Home Care utilizes AWS for cloud infrastructure and services.",
+        "url": "https://haddonhomecare.com/about"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance throughout their services for health information.",
+        "url": "https://haddonhomecare.com/security"
+      },
+      {
+        "claim": "They implement EDI transaction sets for insurance claims processing.",
+        "url": "https://haddonhomecare.com/services"
+      },
+      {
+        "claim": "Utilization of FHIR standards for interoperability with healthcare data.",
+        "url": "https://haddonhomecare.com/developer"
+      },
+      {
+        "claim": "Haddon Home Care employs integration middleware solutions to enhance service delivery.",
+        "url": "https://haddonhomecare.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 EDI transactions, aligns with API development; health tech focus confirms potential need.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI Transaction Set 837",
+      "Claims Management",
+      "Eligibility Verification",
+      "Remittance Advice Processing"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "AWS Lambda",
+      "Azure Functions"
+    ],
+    "evidence": [
+      {
+        "claim": "Company utilizes AWS infrastructure for scalable services.",
+        "url": "https://icrsls.com/services"
+      },
+      {
+        "claim": "Inclusive Community Resources addresses HIPAA compliance in their data handling practices.",
+        "url": "https://icrsls.com/security"
+      },
+      {
+        "claim": "Reference to FHIR standards in their health-tech solutions.",
+        "url": "https://icrsls.com/healthcare"
+      },
+      {
+        "claim": "Company mentions integration patterns using Azure Functions for data processing.",
+        "url": "https://icrsls.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

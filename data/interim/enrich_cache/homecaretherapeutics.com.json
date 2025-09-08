@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "HomeCare Therapeutics utilizes AWS for its cloud infrastructure.",
+        "url": "https://homecaretherapeutics.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://homecaretherapeutics.com/docs/fhir-standards"
+      },
+      {
+        "claim": "HomeCare Therapeutics leverages Kafka for managing real-time data streams.",
+        "url": "https://homecaretherapeutics.com/docs/data-streaming"
+      },
+      {
+        "claim": "The use of X12 transaction sets has been documented for billing and claims management.",
+        "url": "https://homecaretherapeutics.com/docs/x12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health tech with strong EDI and X12 capabilities, indicating high API usage",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Data exchange with providers and payers"
+    ]
+  }
+}

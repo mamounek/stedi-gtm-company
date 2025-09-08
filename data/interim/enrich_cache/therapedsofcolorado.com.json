@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company emphasizes HIPAA compliance for safeguarding health information.",
+        "url": "https://therapedsofcolorado.com"
+      },
+      {
+        "claim": "Therapeds of Colorado focuses on therapy services that adhere to health regulations including HIPAA.",
+        "url": "https://therapedsofcolorado.com/services/"
+      },
+      {
+        "claim": "There are no direct API or cloud infrastructure mentions, indicating a potential lack of technical documentation online.",
+        "url": "https://therapedsofcolorado.com/docs/"
+      },
+      {
+        "claim": "The career page suggests technology roles, hinting at possible integration with various health tech standards.",
+        "url": "https://therapedsofcolorado.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited public information on X12 or EDI usage; focus seems on therapy services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

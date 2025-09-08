@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Medical House Calls utilizes FHIR for health data exchange.",
+        "url": "https://medicalhousecalls.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "They implement HL7 standards for interoperability within their EHR systems.",
+        "url": "https://medicalhousecalls.com/docs/hl7-standards"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance in its digital health services.",
+        "url": "https://medicalhousecalls.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Utilizes cloud infrastructure to manage patient data securely.",
+        "url": "https://medicalhousecalls.com/platform/cloud-infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

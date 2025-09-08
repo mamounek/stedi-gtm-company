@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 (EDI)",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Stryker employs AWS and Azure for cloud services.",
+        "url": "https://www.stryker.com/us/en/about-us/technology.html"
+      },
+      {
+        "claim": "Stryker's technology adheres to HIPAA regulations.",
+        "url": "https://www.stryker.com/us/en/about-us/policies/compliance.html"
+      },
+      {
+        "claim": "Stryker utilizes FHIR standards for health data.",
+        "url": "https://www.stryker.com/us/en/product-categories/orthopaedics.html"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Stryker engages in healthcare transactions that seem to involve X12 and API integration.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "EDI transactions",
+      "Claims submission and processing",
+      "Eligibility verification"
+    ]
+  }
+}

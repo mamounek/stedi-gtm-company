@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7 FHIR",
+      "X12 EDI",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Medibanx uses AWS cloud services for scalable infrastructure.",
+        "url": "https://medibanx.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company's platform is compliant with HIPAA regulations.",
+        "url": "https://medibanx.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Medibanx integrates with various EHR systems using HL7 and FHIR standards.",
+        "url": "https://medibanx.com/integration/ehr-compatibility"
+      },
+      {
+        "claim": "The platform supports X12 EDI transactions for healthcare communications.",
+        "url": "https://medibanx.com/docs/edi-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Medibanx focuses on X12 EDI transactions and has robust integration capabilities for healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claim submissions and remittance processing",
+      "Health eligibility verification",
+      "Provider and payer integrations",
+      "Real-time patient data exchanges"
+    ]
+  }
+}

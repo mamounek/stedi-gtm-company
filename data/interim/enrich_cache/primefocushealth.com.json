@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 EDI transaction sets",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "HL7 messaging integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Primefocus Health utilizes AWS cloud services for data storage and processing.",
+        "url": "https://primefocushealth.com/cloud-services"
+      },
+      {
+        "claim": "The company supports FHIR for electronic health records interoperability.",
+        "url": "https://primefocushealth.com/fhir-implementation"
+      },
+      {
+        "claim": "They ensure compliance with HIPAA regulations in their platform offerings.",
+        "url": "https://primefocushealth.com/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 and API integrations aligns with ICP criteria for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 EDI transaction sets processing",
+      "API automation for claims management",
+      "Eligibility verification using X12 standards",
+      "Remittance processing via X12 standards"
+    ]
+  }
+}

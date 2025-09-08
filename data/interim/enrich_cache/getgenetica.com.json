@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API-first design",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Genetica utilizes AWS for cloud infrastructure.",
+        "url": "https://getgenetica.com/developer"
+      },
+      {
+        "claim": "The platform adheres to FHIR standards for health data integration.",
+        "url": "https://getgenetica.com/docs/fhir"
+      },
+      {
+        "claim": "Genetica mentions the use of HL7 messaging standards in their data interoperability sections.",
+        "url": "https://getgenetica.com/docs/hl7"
+      },
+      {
+        "claim": "Integration with X12 transaction sets is detailed in the EDI documentation.",
+        "url": "https://getgenetica.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of sending/receiving X12 or engaging with clearinghouse functionalities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

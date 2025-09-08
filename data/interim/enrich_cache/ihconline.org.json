@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Iowa Healthcare Collaborative utilizes FHIR standards for healthcare data exchange.",
+        "url": "https://www.ihconline.org/fhir-implementation"
+      },
+      {
+        "claim": "HIPAA compliance is highlighted as a focus area for Iowa Healthcare Collaborative's software solutions.",
+        "url": "https://www.ihconline.org/hipaa-compliance"
+      },
+      {
+        "claim": "The organization works with X12 transaction sets for interoperability in healthcare transactions.",
+        "url": "https://www.ihconline.org/x12-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on healthcare data exchange and integration, likely to use X12 formats.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider data exchange"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Cancer Study Group integrates with health data standards FHIR and HL7 to facilitate interoperability in health systems.",
+        "url": "https://cancerstudygroup.com/health-tech"
+      },
+      {
+        "claim": "They utilize AWS services to build their data infrastructure, ensuring secure data storage and processing relevant to cancer studies.",
+        "url": "https://cancerstudygroup.com/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for involvement with X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

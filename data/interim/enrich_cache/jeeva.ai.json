@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Jeeva.ai utilizes AWS for its cloud infrastructure.",
+        "url": "https://jeeva.ai/docs/infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance standards.",
+        "url": "https://jeeva.ai/security"
+      },
+      {
+        "claim": "Jeeva.ai implemented FHIR protocols for health data interoperability.",
+        "url": "https://jeeva.ai/developer/fhir"
+      },
+      {
+        "claim": "Company integrates Azure services for data processing and management.",
+        "url": "https://jeeva.ai/docs/data-management"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Jeeva.ai operates in health tech, employs EDI processes, and supports API integrations for claims and eligibility.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claim submissions",
+      "835 remittance processing"
+    ]
+  }
+}

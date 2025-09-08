@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12 837",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "MedicareCon uses AWS for cloud infrastructure to handle sensitive health data.",
+        "url": "https://medicarecon.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, indicating a focus on secure health data handling.",
+        "url": "https://medicarecon.com/security"
+      },
+      {
+        "claim": "Evidence of using HL7 standards for interoperability in health information exchanges.",
+        "url": "https://medicarecon.com/health-tech"
+      },
+      {
+        "claim": "They leverage X12 EDI transaction sets for electronic health claims processing.",
+        "url": "https://medicarecon.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange with X12 and API integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance processing",
+      "X12 270/271 eligibility verification",
+      "X12 276/277 claims status retrieval"
+    ]
+  }
+}

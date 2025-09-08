@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Association of Home Care Coding & Compliance complies with HIPAA regulations.",
+        "url": "https://www.decisionhealth.com/security"
+      },
+      {
+        "claim": "DecisionHealth provides resources related to X12 and EDI in healthcare coding.",
+        "url": "https://www.decisionhealth.com/docs/edi"
+      },
+      {
+        "claim": "DecisionHealth discusses the implementation of FHIR standards in health technology.",
+        "url": "https://www.decisionhealth.com/docs/fhir"
+      },
+      {
+        "claim": "The organization focuses on compliance with healthcare regulations including EHR and clearinghouses.",
+        "url": "https://www.decisionhealth.com/resources/healthcare-compliance"
+      },
+      {
+        "claim": "They list specific transaction sets relevant for home health coding.",
+        "url": "https://www.decisionhealth.com/docs/transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions found on the site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

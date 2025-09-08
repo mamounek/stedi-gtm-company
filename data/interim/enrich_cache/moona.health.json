@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Moona Health uses AWS infrastructure including Lambda and S3 for their services.",
+        "url": "https://moona.health/docs/infrastructure"
+      },
+      {
+        "claim": "The company adheres to FHIR standards for health data exchange.",
+        "url": "https://moona.health/fhir-implementation"
+      },
+      {
+        "claim": "X12 transaction sets are utilized for billing and insurance claims processing.",
+        "url": "https://moona.health/insurance-claims"
+      },
+      {
+        "claim": "Integration with EHR systems is part of Moona's platform offering.",
+        "url": "https://moona.health/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Moona.Health utilizes X12 transactions for integration with health systems.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare data exchange"
+    ]
+  }
+}

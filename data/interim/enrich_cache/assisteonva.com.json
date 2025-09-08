@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Assisteon is committed to HIPAA compliance, ensuring the protection of sensitive health information.",
+        "url": "https://assisteonva.com/healthcare/"
+      },
+      {
+        "claim": "The company utilizes a privacy policy that aligns with health tech regulations like HIPAA.",
+        "url": "https://assisteonva.com/terms-conditions/"
+      },
+      {
+        "claim": "Assisteon supports virtual assistants in healthcare settings, emphasizing security and compliance standards.",
+        "url": "https://assisteonva.com/faq/"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 data exchange or clearinghouse services found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

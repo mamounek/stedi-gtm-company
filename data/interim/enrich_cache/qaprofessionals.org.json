@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes HIPAA-compliant data handling processes within their development practices.",
+        "url": "https://qaprofessionals.org/security"
+      },
+      {
+        "claim": "No specific APIs or cloud services mentioned on the official website related to health-tech or integration.",
+        "url": "https://qaprofessionals.org/docs"
+      },
+      {
+        "claim": "The careers section indicates a focus on engineering roles, but does not detail specific technical stacks or APIs.",
+        "url": "https://qaprofessionals.org/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or API automation use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

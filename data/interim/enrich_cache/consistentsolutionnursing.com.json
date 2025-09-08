@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Consistent Solution Nursing handles health data in compliance with HIPAA regulations.",
+        "url": "https://www.consistentsolutionnursing.com/security"
+      },
+      {
+        "claim": "The company utilizes cloud services for managing operational workflows, though specific platforms are not detailed.",
+        "url": "https://www.consistentsolutionnursing.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.23
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or API use cases found on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Compatibility",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture using AWS SNS/SQS",
+      "AWS API Gateway for microservices integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Cloud services for its infrastructure, ensuring scalability and security.",
+        "url": "https://1stcalltriage.com/company/technology-stack"
+      },
+      {
+        "claim": "1st Call Triage complies with HIPAA regulations, indicating the handling of sensitive health data.",
+        "url": "https://1stcalltriage.com/hipaa-compliance"
+      },
+      {
+        "claim": "They mention HL7 for data interoperability between systems in healthcare.",
+        "url": "https://1stcalltriage.com/engineering/hln-integration"
+      },
+      {
+        "claim": "The company discusses using X12 EDI for facilitating healthcare transactions.",
+        "url": "https://1stcalltriage.com/services/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI for healthcare transactions and highlights API integration, aligning with target use cases.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status Queries",
+      "837/835 Claims Submission and Remittance Processing"
+    ]
+  }
+}

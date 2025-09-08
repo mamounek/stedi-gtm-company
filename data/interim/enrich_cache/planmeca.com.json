@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "FHIR for health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Planmeca complies with HIPAA regulations for health information security.",
+        "url": "https://planmeca.com/us/"
+      }
+    ],
+    "tech_stack_confidence": 0.19
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or clearinghouse functions for healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

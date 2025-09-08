@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Azure Database for PostgreSQL"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "API Integration for EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure and services.",
+        "url": "https://customcasemanagement.com/docs/aws-integration"
+      },
+      {
+        "claim": "Custom Case Management implements FHIR standards for healthcare data exchange.",
+        "url": "https://customcasemanagement.com/fhir-implementation"
+      },
+      {
+        "claim": "They use API integrations with EHRs to enhance case management effectiveness.",
+        "url": "https://customcasemanagement.com/ehr-integration"
+      },
+      {
+        "claim": "HIPAA compliance is emphasized in their security documentation.",
+        "url": "https://customcasemanagement.com/security/hypaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evident engagement with X12 data exchange or clearinghouse functionalities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

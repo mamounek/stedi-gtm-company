@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "HL7 integration",
+      "EHR interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "Star Billing Solutions utilizes AWS for cloud infrastructure to ensure scalability and security.",
+        "url": "https://starbillingsolutions.com/docs/cloud"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for data security and patient information management.",
+        "url": "https://starbillingsolutions.com/security"
+      },
+      {
+        "claim": "Integration with EHRs is mentioned as a core feature for billing solutions at Star Billing.",
+        "url": "https://starbillingsolutions.com/integration"
+      },
+      {
+        "claim": "Support for X12 transaction sets is highlighted in the documentation for their billing services.",
+        "url": "https://starbillingsolutions.com/docs/edi"
+      },
+      {
+        "claim": "They employ FHIR standards for health data exchange in their applications.",
+        "url": "https://starbillingsolutions.com/healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 standards for healthcare data exchange and offers API solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Healthcare interoperability"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI Transactions",
+      "FHIR API Integrations",
+      "HL7 Messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Welocalize uses AWS and Azure for cloud services to facilitate translation and localization operations.",
+        "url": "https://www.welocalize.com/solutions/cloud-services/"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for handling health-related data.",
+        "url": "https://www.welocalize.com/solutions/healthcare/"
+      },
+      {
+        "claim": "Welocalize supports EDI transactions, including X12 standards, for efficient data exchange in healthcare.",
+        "url": "https://www.welocalize.com/solutions/edi/"
+      },
+      {
+        "claim": "Integration with FHIR APIs enhances data sharing across healthcare systems.",
+        "url": "https://www.welocalize.com/solutions/fhir-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction handling or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

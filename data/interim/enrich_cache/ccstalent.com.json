@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Clinical Consulting Solutions uses FHIR standards for healthcare data exchange.",
+        "url": "https://ccstalent.com/health-tech"
+      },
+      {
+        "claim": "The company supports X12 transaction sets for insurance claims and healthcare billing.",
+        "url": "https://ccstalent.com/integration"
+      },
+      {
+        "claim": "HL7 protocols are implemented in their system for interoperability with electronic health records (EHRs).",
+        "url": "https://ccstalent.com/documents/reports"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech and EDI transactions suggests relevance to X12 processes.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice handling"
+    ]
+  }
+}

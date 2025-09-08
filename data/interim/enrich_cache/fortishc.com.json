@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Fortis Healthcare Services follows HIPAA compliance standards in their operations.",
+        "url": "https://fortishc.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes HL7 standards for health data exchange to ensure interoperability.",
+        "url": "https://fortishc.com/health-data-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.43
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or API automation in their public documentation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

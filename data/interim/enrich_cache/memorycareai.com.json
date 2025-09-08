@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "MemoryCareAI utilizes AWS services for scalable cloud infrastructure.",
+        "url": "https://memorycareai.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "Their handling of health data complies with FHIR standards.",
+        "url": "https://memorycareai.com/health-technology"
+      },
+      {
+        "claim": "The company implements HL7 protocols for data interoperability.",
+        "url": "https://memorycareai.com/hl7-implementation"
+      },
+      {
+        "claim": "MemoryCareAI's API documentation highlights RESTful API designs for integrations.",
+        "url": "https://memorycareai.com/docs/api-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found supporting X12 transaction or API automation use cases.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

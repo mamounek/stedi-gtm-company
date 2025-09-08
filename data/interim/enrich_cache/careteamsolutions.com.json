@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR standards"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "Data streaming for patient records"
+    ],
+    "evidence": [
+      {
+        "claim": "CareTeam Solutions utilizes AWS cloud infrastructure for scalability and reliability.",
+        "url": "https://careteamsolutions.com/about/"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations, ensuring secure handling of patient data.",
+        "url": "https://careteamsolutions.com/security/"
+      },
+      {
+        "claim": "Supports FHIR protocols for healthcare data exchange.",
+        "url": "https://careteamsolutions.com/developer/#integration"
+      },
+      {
+        "claim": "Integration patterns include connecting EHR systems via standardized APIs.",
+        "url": "https://careteamsolutions.com/integrations/"
+      },
+      {
+        "claim": "Claims processing supported via HIPAA X12 transaction sets.",
+        "url": "https://careteamsolutions.com/resources/"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction support or clearinghouse functionality found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

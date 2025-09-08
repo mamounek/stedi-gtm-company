@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Oryx Dental Software utilizes AWS for their cloud infrastructure",
+        "url": "https://oryxdentalsoftware.com/docs/cloud-services"
+      },
+      {
+        "claim": "They ensure HIPAA compliance within their data handling procedures",
+        "url": "https://oryxdentalsoftware.com/security"
+      },
+      {
+        "claim": "Integration capabilities include RESTful APIs for various dental health data interactions",
+        "url": "https://oryxdentalsoftware.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transactions for claims and eligibility, indicating alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status Inquiry",
+      "837 Professional and Institutional Claims",
+      "835 Remittance Advice"
+    ]
+  }
+}

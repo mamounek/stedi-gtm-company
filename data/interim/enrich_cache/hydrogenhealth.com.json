@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Hydrogen Health is involved with FHIR standards for health data exchange.",
+        "url": "https://hydrogenhealth.com/docs/fhir"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in its operations.",
+        "url": "https://hydrogenhealth.com/security"
+      },
+      {
+        "claim": "Hydrogen Health mentions integration patterns focusing on API connectivity.",
+        "url": "https://hydrogenhealth.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse capabilities found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

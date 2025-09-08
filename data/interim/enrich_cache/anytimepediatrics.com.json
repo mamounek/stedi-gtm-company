@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Anytime Pediatrics utilizes AWS services for cloud infrastructure and data storage.",
+        "url": "https://anytimepediatrics.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations, indicating their use of secure health data transaction sets.",
+        "url": "https://anytimepediatrics.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They implement FHIR standards for interoperability with health data systems.",
+        "url": "https://anytimepediatrics.com/developer/api"
+      },
+      {
+        "claim": "Their APIs are built with RESTful principles for integration with third-party applications.",
+        "url": "https://anytimepediatrics.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or EDI-related use cases found on public site.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

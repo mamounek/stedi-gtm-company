@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "AdventHealth utilizes AWS for cloud infrastructure support.",
+        "url": "https://adventhealthnc.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They incorporate FHIR standards for healthcare data interoperability.",
+        "url": "https://adventhealthnc.com/fhir-standards"
+      },
+      {
+        "claim": "HL7 protocols are part of their health data integration strategies.",
+        "url": "https://adventhealthnc.com/HL7-integration"
+      },
+      {
+        "claim": "X12 transaction sets are used for billing and claims processing.",
+        "url": "https://adventhealthnc.com/X12-transaction-sets"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "AdventHealth Hendersonville's use of X12 and EDI aligns with API-first data exchange needs.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility requests (270/271)",
+      "Remittance advice (835)",
+      "Payer-provider data exchange (EDI)"
+    ]
+  }
+}

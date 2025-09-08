@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS",
+      "AWS EC2",
+      "Heroku",
+      "Firebase"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "HL7 FHIR for data exchange",
+      "EHR integration with third-party systems"
+    ],
+    "integration_patterns": [
+      "REST APIs for data communication",
+      "GraphQL for efficient data fetching",
+      "Webhook integration for real-time updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Home Health Professionals Network uses AWS services to host their healthcare solutions and improve scalability.",
+        "url": "https://hhpnhealthcare.com/developer"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in their platform to safeguard patient data.",
+        "url": "https://hhpnhealthcare.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is highlighted, focusing on HL7 standards for health data exchange.",
+        "url": "https://hhpnhealthcare.com/docs"
+      },
+      {
+        "claim": "They implement X12 standards for healthcare transactions to ensure interoperability.",
+        "url": "https://hhpnhealthcare.com/careers-engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Identified use of HIPAA X12 transactions and API services for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 claims processing",
+      "835 remittance advice",
+      "270/271 eligibility inquiries",
+      "Webhook integration for real-time updates"
+    ]
+  }
+}

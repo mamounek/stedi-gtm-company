@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI Integration",
+      "API-based data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Excell HCA utilizes AWS for its cloud infrastructure.",
+        "url": "https://excellhca.com/#cloud-services"
+      },
+      {
+        "claim": "The company supports integration with EHRs adhering to FHIR standards.",
+        "url": "https://excellhca.com/ehr-integration"
+      },
+      {
+        "claim": "Excell HCA implements HL7 messaging for healthcare data exchange.",
+        "url": "https://excellhca.com/docs/hl7"
+      },
+      {
+        "claim": "The use of HIPAA-compliant data handling processes is emphasized in their security documentation.",
+        "url": "https://excellhca.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12-based EDI integration for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Integration",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice Handling",
+      "API-based Data Exchange"
+    ]
+  }
+}

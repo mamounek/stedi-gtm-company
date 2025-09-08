@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHR systems",
+      "EDI transaction processing"
+    ],
+    "evidence": [
+      {
+        "claim": "MAC Legacy uses AWS for cloud infrastructure and data handling.",
+        "url": "https://askmaclegacy.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its health solutions.",
+        "url": "https://askmaclegacy.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR-based health data services is part of MAC Legacy's offerings.",
+        "url": "https://askmaclegacy.com/developer/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction processing or relevant use cases found.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

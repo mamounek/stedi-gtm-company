@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes cloud services for operational efficiency, although specific platforms are not detailed on their website.",
+        "url": "https://griswoldhomecare.com/"
+      },
+      {
+        "claim": "Griswold Home Care is compliant with HIPAA regulations but does not disclose specific health-tech integration details.",
+        "url": "https://griswoldhomecare.com/faq/"
+      }
+    ],
+    "tech_stack_confidence": 0.18
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation in their use case.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

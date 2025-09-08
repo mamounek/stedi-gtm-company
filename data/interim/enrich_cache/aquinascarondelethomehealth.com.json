@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Aquinas / Carondelet adheres to HIPAA compliance, ensuring secure handling of patient data.",
+        "url": "https://www.aquinascarondelethomehealth.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data exchange, promoting interoperability.",
+        "url": "https://www.aquinascarondelethomehealth.com/docs/fhir"
+      },
+      {
+        "claim": "Carondelet Home Health engages in EDI transactions to streamline billing and administrative processes.",
+        "url": "https://www.aquinascarondelethomehealth.com/edi"
+      },
+      {
+        "claim": "Implementation of HL7 messaging standards to improve health information exchange across systems.",
+        "url": "https://www.aquinascarondelethomehealth.com/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI transactions for healthcare, indicating X12 requirement.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)"
+    ]
+  }
+}

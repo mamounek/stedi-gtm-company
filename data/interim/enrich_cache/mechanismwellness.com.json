@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Mechanism Wellness adheres to HIPAA regulations for data security and privacy.",
+        "url": "https://mechanismwellness.com/security"
+      },
+      {
+        "claim": "Mechanism Wellness utilizes EHRs for managing patient information effectively.",
+        "url": "https://mechanismwellness.com/docs"
+      },
+      {
+        "claim": "The company emphasizes the importance of secure data transport and handling as part of its operational procedures.",
+        "url": "https://mechanismwellness.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or integration indicates low relevance.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

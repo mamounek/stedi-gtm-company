@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 837",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API",
+      "Webhook Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "ARM utilizes AWS services for cloud storage and computing.",
+        "url": "https://www.arm1.com/technology"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data management.",
+        "url": "https://www.arm1.com/compliance"
+      },
+      {
+        "claim": "ARM integrates with EHR systems using HL7 and FHIR standards.",
+        "url": "https://www.arm1.com/integrations"
+      },
+      {
+        "claim": "ARM uses cloud-based solutions like Azure for data storage and processing.",
+        "url": "https://www.arm1.com/cloudservices"
+      },
+      {
+        "claim": "They support X12 transaction sets for billing and payment processing.",
+        "url": "https://www.arm1.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ARM's health tech includes HIPAA X12 specifications and integration capabilities suggest alignment with API-first healthcare exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance processing",
+      "X12 270/271 eligibility inquiries",
+      "X12 276/277 claims status inquiries"
+    ]
+  }
+}

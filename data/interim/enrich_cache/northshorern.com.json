@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company leverages AWS for robust cloud infrastructure.",
+        "url": "https://northshorern.com/aws-infrastructure"
+      },
+      {
+        "claim": "North Shore Patient Advocates adheres to HIPAA regulations for patient data management.",
+        "url": "https://northshorern.com/hipaa-compliance"
+      },
+      {
+        "claim": "Utilization of FHIR standards for health data interoperability is outlined in their API documentation.",
+        "url": "https://northshorern.com/fhir-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use or API integration for healthcare data exchange found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

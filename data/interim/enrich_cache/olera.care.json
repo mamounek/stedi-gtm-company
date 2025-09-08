@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliant Practices"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Olera uses AWS services for application infrastructure.",
+        "url": "https://olera.care/docs/infrastructure"
+      },
+      {
+        "claim": "Olera follows HIPAA regulations for handling health data.",
+        "url": "https://olera.care/security"
+      },
+      {
+        "claim": "The platform supports FHIR for interoperability.",
+        "url": "https://olera.care/developer/fhir"
+      },
+      {
+        "claim": "Utilizes RESTful APIs for integration with EHRs.",
+        "url": "https://olera.care/docs/api/integration"
+      },
+      {
+        "claim": "Employed AWS Lambda for processing data streams.",
+        "url": "https://olera.care/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12/Edi use cases was found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

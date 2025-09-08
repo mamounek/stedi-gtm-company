@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12 Transaction Sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Multifame Healthcare Services LLC aligns with HIPAA regulations for data security in health information exchange.",
+        "url": "https://multifamehealthcare.com/security"
+      },
+      {
+        "claim": "Utilizes HL7 standards to ensure interoperability between healthcare applications.",
+        "url": "https://multifamehealthcare.com/docs"
+      },
+      {
+        "claim": "Engages in EDI transactions using X12 for billing and claims processing.",
+        "url": "https://multifamehealthcare.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI and X12 transactions aligns with ICP criteria for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility Requests",
+      "276/277 Claim Status Requests",
+      "837 Healthcare Claim Transactions",
+      "835 Remittance Advice"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "StaffLink Outsourcing adheres to HIPAA guidelines in its operations, ensuring the protection of sensitive patient information.",
+        "url": "https://stafflink.net/security"
+      },
+      {
+        "claim": "The company has referenced X12 transaction sets for electronic data interchange in healthcare-related positions.",
+        "url": "https://stafflink.net/careers"
+      },
+      {
+        "claim": "StaffLink discusses various compliance measures aligned with healthcare standards which suggest the use of health tech rails like FHIR and HL7 in their service.",
+        "url": "https://stafflink.net/docs"
+      },
+      {
+        "claim": "Company mentions cloud infrastructure likely for storage and processing, but specifics are limited.",
+        "url": "https://stafflink.net/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling on the website.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

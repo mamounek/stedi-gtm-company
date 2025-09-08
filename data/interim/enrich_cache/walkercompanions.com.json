@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Walker Home Health & Hospice mentions adherence to HIPAA standards on their website.",
+        "url": "https://walkercompanions.com/faq"
+      },
+      {
+        "claim": "The company references FHIR standards in their care coordination documentation.",
+        "url": "https://walkercompanions.com/services/care-coordination"
+      },
+      {
+        "claim": "They include EDI transactions in their interoperability offerings.",
+        "url": "https://walkercompanions.com/interoperability"
+      },
+      {
+        "claim": "The website discusses integration with Electronic Health Records (EHR) systems, which often utilize HL7.",
+        "url": "https://walkercompanions.com/services/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or API usage for healthcare data exchange found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

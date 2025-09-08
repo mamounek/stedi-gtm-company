@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "Microsoft Azure",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR",
+      "X12 EDI transaction set"
+    ],
+    "integration_patterns": [
+      "API-first integration",
+      "Event-driven architecture",
+      "Stream processing using Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "RAISSO utilizes AWS for Lambda functions and S3 storage.",
+        "url": "https://raisso.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring patient data security.",
+        "url": "https://raisso.com/security"
+      },
+      {
+        "claim": "Integration of HL7 FHIR standards for health data exchange.",
+        "url": "https://raisso.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "RAISSO employs Kafka for real-time data streaming.",
+        "url": "https://raisso.com/docs/kafka-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Health tech focus with API-first approach indicates potential for X12 use.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice processing"
+    ]
+  }
+}

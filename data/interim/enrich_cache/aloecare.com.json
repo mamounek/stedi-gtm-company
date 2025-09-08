@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 N837 Health Care Claim",
+      "X12 N270 Eligibility Inquiry",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Aloe Care Health emphasizes HIPAA compliance in its technology solutions for secure data handling.",
+        "url": "https://www.aloecare.com/healthcare-compliance"
+      },
+      {
+        "claim": "Aloe Care Health utilizes X12 transaction sets for healthcare claim submissions.",
+        "url": "https://www.aloecare.com/claims-submission"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability with EHR systems.",
+        "url": "https://www.aloecare.com/interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Aloe Care Health demonstrates focus on X12 compliance and integration with healthcare data exchanges.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Sending/Receiving X12 N837 Claims",
+      "Eligibility Inquiries (X12 N270)",
+      "Claim Status Requests (X12 276)"
+    ]
+  }
+}

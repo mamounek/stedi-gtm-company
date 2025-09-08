@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data streaming",
+      "Middleware integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Alta RCM Solutions utilizes AWS cloud services for their infrastructure.",
+        "url": "https://altamm.com/cloud-services"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA standards, indicating the handling of protected health information.",
+        "url": "https://altamm.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is supported through FHIR and HL7 protocols.",
+        "url": "https://altamm.com/integration"
+      },
+      {
+        "claim": "The company mentions the use of Snowflake for data warehousing solutions.",
+        "url": "https://altamm.com/docs/snowflake"
+      },
+      {
+        "claim": "An emphasis on using Kafka for data streaming and processing within their tech stack.",
+        "url": "https://altamm.com/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Alta RCM Solutions focuses on healthcare data exchange, using X12 for claims and eligibility.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice"
+    ]
+  }
+}

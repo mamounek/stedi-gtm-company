@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Home Helpers is HIPAA compliant for privacy and security of patient health information.",
+        "url": "https://www.homehelpershomecare.com/health-information-protection"
+      },
+      {
+        "claim": "The company mentions adherence to health regulations on their security page.",
+        "url": "https://www.homehelpershomecare.com/our-culture/security-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of relevant X12 or API automation use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

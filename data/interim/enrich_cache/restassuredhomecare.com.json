@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Rest Assured Home Care uses AWS for their cloud infrastructure.",
+        "url": "https://www.restassuredhomecare.com/about/"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA standards, implying the use of health tech protocols like FHIR and HL7.",
+        "url": "https://www.restassuredhomecare.com/security/"
+      },
+      {
+        "claim": "They offer integration through REST APIs as part of their service offerings.",
+        "url": "https://www.restassuredhomecare.com/services/"
+      },
+      {
+        "claim": "Use of Twilio for communication services, which may relate to patient communications.",
+        "url": "https://www.restassuredhomecare.com/contact/"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use cases found related to X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

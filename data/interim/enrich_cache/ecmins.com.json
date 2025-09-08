@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions through X12",
+      "FHIR data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "ECM Solutions utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.ecmins.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health information.",
+        "url": "https://www.ecmins.com/security"
+      },
+      {
+        "claim": "ECM Solutions supports X12 EDI for healthcare transactions.",
+        "url": "https://www.ecmins.com/healthtech"
+      },
+      {
+        "claim": "Integration patterns include FHIR for interoperability.",
+        "url": "https://www.ecmins.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific mention of targeted X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

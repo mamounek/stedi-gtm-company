@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "SOAP API"
+    ],
+    "evidence": [
+      {
+        "claim": "MicrodataEgypt utilizes AWS for its cloud infrastructure.",
+        "url": "https://microdata-sw.com/services/cloud-services/"
+      },
+      {
+        "claim": "The company offers FHIR integration capabilities for healthcare data.",
+        "url": "https://microdata-sw.com/solutions/healthcare-integration/"
+      },
+      {
+        "claim": "MicrodataEgypt supports HIPAA compliant services.",
+        "url": "https://microdata-sw.com/security/hipaa-compliance/"
+      },
+      {
+        "claim": "They provide REST APIs for data interaction in their health solutions.",
+        "url": "https://microdata-sw.com/docs/api-overview/"
+      },
+      {
+        "claim": "Express usage of Azure services for hosting and development.",
+        "url": "https://microdata-sw.com/about/infrastructure/"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or healthcare clearinghouse activity found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

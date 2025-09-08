@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Set 834",
+      "X12 Transaction Set 270/271",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs for EHR integration",
+      "Messaging patterns for patient data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "pVerify utilizes AWS services including RDS and Lambda for scalable cloud infrastructure.",
+        "url": "https://www.pverify.com/dev-docs#infrastructure"
+      },
+      {
+        "claim": "The company mentions HIPAA compliance and various transaction sets related to EDI and FHIR in their documentation.",
+        "url": "https://www.pverify.com/compliance"
+      },
+      {
+        "claim": "pVerify integrates using REST APIs for exchanging medical and patient data as specified in FHIR standards.",
+        "url": "https://www.pverify.com/integration"
+      },
+      {
+        "claim": "Details on X12 transaction sets used for health insurance eligibility checks are provided on their site.",
+        "url": "https://www.pverify.com/edi"
+      },
+      {
+        "claim": "Integration middleware is leveraged for seamless EHR interfacing, highlighted in their engineering careers section.",
+        "url": "https://www.pverify.com/careers#engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and values API automation for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 Transaction Set 270/271",
+      "X12 Transaction Set 837",
+      "REST APIs for EHR integration",
+      "Messaging patterns for patient data exchange"
+    ]
+  }
+}

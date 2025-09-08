@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Moterum Technologies emphasizes compliance with HIPAA regulations in their data handling processes.",
+        "url": "https://www.moterum.com/security"
+      },
+      {
+        "claim": "They have a focus on EHR interoperability, which often involves FHIR standards.",
+        "url": "https://www.moterum.com/docs"
+      },
+      {
+        "claim": "The company mentions integration with cloud services which aids in their healthcare solutions.",
+        "url": "https://www.moterum.com/platform"
+      },
+      {
+        "claim": "They reference handling various transaction sets common in the healthcare sector, including X12.",
+        "url": "https://www.moterum.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found for X12 use cases or API automation in healthcare.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Kafka",
+      "dbt"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration with EHR"
+    ],
+    "evidence": [
+      {
+        "claim": "AIS Info reportedly utilizes AWS for cloud infrastructure.",
+        "url": "https://aisinfo.com/cloud-services"
+      },
+      {
+        "claim": "The developer documentation mentions integration with FHIR standards for health data.",
+        "url": "https://aisinfo.com/developer/docs/fhir-integration"
+      },
+      {
+        "claim": "The company engages in HIPAA-compliant data handling practices.",
+        "url": "https://aisinfo.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "X12 and EDI transaction sets are part of their offerings as seen on their integrations page.",
+        "url": "https://aisinfo.com/integrations"
+      },
+      {
+        "claim": "Their case studies show partnerships involving HL7 interfaces for healthcare interoperability.",
+        "url": "https://aisinfo.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Strong focus on health tech with X12 and EDI expertise, relevant for healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI transactions processing",
+      "Claims submission and remittance",
+      "Eligibility checks and responses",
+      "Integration with healthcare EHR systems"
+    ]
+  }
+}

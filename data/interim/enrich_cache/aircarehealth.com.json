@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture",
+      "Data pipeline orchestration"
+    ],
+    "evidence": [
+      {
+        "claim": "Aircare uses AWS services for scalable infrastructure, ensuring secure data handling compliant with HIPAA standards.",
+        "url": "https://www.aircarehealth.com/cloud-services"
+      },
+      {
+        "claim": "The platform supports FHIR for health data exchange, allowing seamless integration with EHR systems.",
+        "url": "https://www.aircarehealth.com/api-docs"
+      },
+      {
+        "claim": "Aircare’s infrastructure leverages AWS for data storage and API management, ensuring data privacy and compliance with health regulations.",
+        "url": "https://www.aircarehealth.com/engineering"
+      },
+      {
+        "claim": "Integration with X12 and HL7 transaction sets enables Aircare to manage healthcare data effectively.",
+        "url": "https://www.aircarehealth.com/product-details"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions and integration aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 eligibility verification",
+      "X12 837 claims submission",
+      "X12 835 remittance advice",
+      "clearinghouse services for EDI transactions"
+    ]
+  }
+}

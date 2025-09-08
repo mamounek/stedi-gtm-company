@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Health AI Partnership integrates FHIR and HL7 standards for health data interoperability.",
+        "url": "https://healthaipartnership.org/docs/fhir-hl7-integration"
+      },
+      {
+        "claim": "The organization emphasizes the use of structured data formats such as FHIR to improve patient data exchange.",
+        "url": "https://healthaipartnership.org/developer/docs/fhir-standards"
+      },
+      {
+        "claim": "Health AI Partnership adheres to HIPAA compliance and incorporates relevant transaction sets in their operations.",
+        "url": "https://healthaipartnership.org/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 use cases or interest in API automation found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

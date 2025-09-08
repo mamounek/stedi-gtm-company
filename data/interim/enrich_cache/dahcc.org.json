@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The organization is compliant with HIPAA standards for data privacy and security.",
+        "url": "https://dahcc.org/about-us/faq/"
+      },
+      {
+        "claim": "They utilize X12 transaction sets for electronic data interchange in healthcare transactions.",
+        "url": "https://dahcc.org/resources/how-to-implement-edi/#x12"
+      }
+    ],
+    "tech_stack_confidence": 0.33
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on home and community care without strong evidence of X12 use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

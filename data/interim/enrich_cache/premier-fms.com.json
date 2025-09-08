@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "APIs for data interoperability",
+      "Cloud-based integration for EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Company utilizes AWS for its cloud infrastructure.",
+        "url": "https://premier-fms.com/docs/aws-integration"
+      },
+      {
+        "claim": "PremierFMS complies with HIPAA standards for healthcare data security.",
+        "url": "https://premier-fms.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EDI and X12 transactions for healthcare billing.",
+        "url": "https://premier-fms.com/docs/edi-integration"
+      },
+      {
+        "claim": "Supports FHIR standards for health data exchange.",
+        "url": "https://premier-fms.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech and HIPAA compliance indicates alignment with X12 use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice management"
+    ]
+  }
+}

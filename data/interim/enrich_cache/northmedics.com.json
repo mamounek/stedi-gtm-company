@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Firestore"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "North Medics uses AWS services for cloud computing.",
+        "url": "https://northmedics.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data security.",
+        "url": "https://northmedics.com/security/hipaa-guidelines"
+      },
+      {
+        "claim": "Integration patterns include RESTful API and webhook mechanisms for data exchange.",
+        "url": "https://northmedics.com/developer/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse involvement on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

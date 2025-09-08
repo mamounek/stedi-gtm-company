@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "CarePRN utilizes AWS Lambda for serverless computing.",
+        "url": "https://careprn.com/developer/aws-lambda"
+      },
+      {
+        "claim": "CarePRN is HIPAA compliant and utilizes X12 for transaction sets.",
+        "url": "https://careprn.com/security/hipaa"
+      },
+      {
+        "claim": "CarePRN implements FHIR APIs for interoperability with EHRs.",
+        "url": "https://careprn.com/developer/fhir"
+      },
+      {
+        "claim": "CarePRN leverages AWS S3 for data storage and backup solutions.",
+        "url": "https://careprn.com/docs/aws-s3"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CarePRN operates in healthcare with X12 capabilities and API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advices (835)",
+      "Real-time status updates (276/277)"
+    ]
+  }
+}

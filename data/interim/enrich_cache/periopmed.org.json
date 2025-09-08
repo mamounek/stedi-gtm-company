@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The American College of Perioperative Medicine uses HIPAA-compliant solutions for managing sensitive patient data.",
+        "url": "https://periopmed.org/hipaa-compliance"
+      },
+      {
+        "claim": "Healthcare interoperability standards such as HL7 and FHIR are referenced in their resource materials.",
+        "url": "https://periopmed.org/resources"
+      },
+      {
+        "claim": "The organization discusses cloud-based solutions but does not specify exact platforms used.",
+        "url": "https://periopmed.org/cloud-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or API automation in healthcare.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

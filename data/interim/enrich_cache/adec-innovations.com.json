@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Cloud integration with EHR systems",
+      "Data streaming architecture using AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "ADEC Healthcare utilizes AWS for its cloud infrastructure to ensure reliability and flexibility.",
+        "url": "https://www.adec-innovations.com/cloud-services"
+      },
+      {
+        "claim": "ADEC's platform integrates with various EHR systems adhering to FHIR standards.",
+        "url": "https://www.adec-innovations.com/healthcare-technology"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations and utilizes X12 transaction sets for healthcare data interchange.",
+        "url": "https://www.adec-innovations.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration patterns include using Azure for data storage and processing in healthcare applications.",
+        "url": "https://www.adec-innovations.com/azure-solutions"
+      },
+      {
+        "claim": "The website mentions using HL7 standards for health data exchange in their solutions.",
+        "url": "https://www.adec-innovations.com/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 healthcare data exchange aligns with platform offering.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions for claims processing",
+      "Eligibility checks and remittance advice automation",
+      "Integration with EHR for data consistency"
+    ]
+  }
+}

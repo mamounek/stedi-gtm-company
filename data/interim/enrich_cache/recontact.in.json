@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Recontact uses AWS services for cloud infrastructure and data management.",
+        "url": "https://recontact.in/tech-stack"
+      },
+      {
+        "claim": "The platform adheres to HIPAA compliance for data handling and patient information security.",
+        "url": "https://recontact.in/security"
+      }
+    ],
+    "tech_stack_confidence": 0.43
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction involvement or healthcare integration value.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

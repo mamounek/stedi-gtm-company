@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR API Integration",
+      "EDI Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "DocBox utilizes AWS as a cloud service provider for its healthcare solutions.",
+        "url": "https://docboxmed.com/cloud-services"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations to ensure patient data security.",
+        "url": "https://docboxmed.com/security"
+      },
+      {
+        "claim": "DocBox supports FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://docboxmed.com/developer/fhir"
+      },
+      {
+        "claim": "Use of HL7 protocols is highlighted for messaging and data exchange mechanisms in the platform.",
+        "url": "https://docboxmed.com/health-tech"
+      },
+      {
+        "claim": "EDI transaction sets are integrated into DocBox services for efficient health information exchange.",
+        "url": "https://docboxmed.com/apis/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in EDI integrations and healthcare data exchange, indicating potential use of X12.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI Integration",
+      "Eligibility Verification",
+      "Claims Processing",
+      "Remittance Advice",
+      "Health Information Exchange"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "ZOLL Data Systems utilizes AWS cloud services for its platform infrastructure.",
+        "url": "https://www.zolldata.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in its data handling practices.",
+        "url": "https://www.zolldata.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "ZOLL's platform integrates with EHR systems using HL7 standards.",
+        "url": "https://www.zolldata.com/integration/ehr-standards"
+      },
+      {
+        "claim": "The documentation mentions support for FHIR standards in data exchange.",
+        "url": "https://www.zolldata.com/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ZOLL Data Systems operates in healthcare data with EDI integration and uses APIs, relevant to X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claim submissions",
+      "835 remittance advice",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

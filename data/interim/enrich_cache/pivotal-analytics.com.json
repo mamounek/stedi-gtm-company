@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Data ingestion",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Pivotal Analytics utilizes AWS for cloud services.",
+        "url": "https://www.pivotal-analytics.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for healthcare data handling.",
+        "url": "https://www.pivotal-analytics.com/security"
+      },
+      {
+        "claim": "Pivotal Analytics implements Snowflake for data warehousing solutions.",
+        "url": "https://www.pivotal-analytics.com/data-platforms"
+      },
+      {
+        "claim": "Apache Kafka is used for real-time data streaming at Pivotal Analytics.",
+        "url": "https://www.pivotal-analytics.com/integration"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their health-tech solutions.",
+        "url": "https://www.pivotal-analytics.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of specific use cases for X12 transactions or API automation on their site.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

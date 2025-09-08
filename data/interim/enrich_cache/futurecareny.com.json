@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS for hosting and data storage",
+      "Azure for cloud computing services"
+    ],
+    "health_tech": [
+      "HIPAA compliance features",
+      "FHIR API for electronic health information exchange"
+    ],
+    "integration_patterns": [
+      "RESTful API integration for healthcare applications",
+      "ETL processes using cloud services for health data"
+    ],
+    "evidence": [
+      {
+        "claim": "Future Care utilizes AWS for secure hosting and data management.",
+        "url": "https://futurecareny.com/tech-stack"
+      },
+      {
+        "claim": "Adheres to HIPAA regulations to ensure patient data privacy.",
+        "url": "https://futurecareny.com/security-policy"
+      },
+      {
+        "claim": "Offers FHIR API endpoints for interoperability with EHR systems.",
+        "url": "https://futurecareny.com/developer/docs/fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Future Care engages in healthcare data exchange, aligning with API automation and X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submissions (837)",
+      "Remittance processing (835)",
+      "Claims status inquiries (276/277)"
+    ]
+  }
+}

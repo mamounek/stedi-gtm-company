@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR integration",
+      "EDI transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Ally MS utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://allyms.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company ensures compliance with HIPAA regulations in its data handling processes.",
+        "url": "https://allyms.com/healthcare-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems using HL7 standards is mentioned in their technology overview.",
+        "url": "https://allyms.com/technology-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company shows potential for X12 transaction use cases and API automation.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EDI transactions",
+      "claims processing",
+      "eligibility checks",
+      "remittance processing",
+      "clearinghouse services"
+    ]
+  }
+}

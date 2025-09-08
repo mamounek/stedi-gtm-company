@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data Integration via API",
+      "Cloud Data Synchronization"
+    ],
+    "evidence": [
+      {
+        "claim": "PharmaCord utilizes AWS for cloud services and data storage.",
+        "url": "https://pharmacord.com/tech-stack"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards in their health tech services.",
+        "url": "https://pharmacord.com/security"
+      },
+      {
+        "claim": "PharmaCord integrates with EHRs and supports FHIR standards for healthcare data.",
+        "url": "https://pharmacord.com/developers/docs"
+      },
+      {
+        "claim": "They leverage EDI X12 transaction sets for claims processing.",
+        "url": "https://pharmacord.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "PharmaCord's focus on health technology and experience with EDI supports X12 transactions for healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "remittance advice",
+      "eligibility verification",
+      "data exchange with payers",
+      "API automation for healthcare transactions"
+    ]
+  }
+}

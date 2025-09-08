@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ethos Home Health Care adheres to HIPAA regulations to ensure patient data security.",
+        "url": "https://ethoscare.org/security"
+      },
+      {
+        "claim": "The company integrates FHIR standards for health data exchange.",
+        "url": "https://ethoscare.org/docs"
+      },
+      {
+        "claim": "Ethos utilizes HIPAA-compliant systems for electronic health records.",
+        "url": "https://ethoscare.org/about"
+      },
+      {
+        "claim": "Their technology enables seamless EHR integration adhering to HIPAA guidelines.",
+        "url": "https://ethoscare.org/services"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on public site.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

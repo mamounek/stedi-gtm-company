@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS DynamoDB",
+      "Heroku"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR API for health data exchange"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for third-party integrations",
+      "Webhook integrations for real-time updates",
+      "Batch processing via S3 uploads"
+    ],
+    "evidence": [
+      {
+        "claim": "Zero utilizes AWS infrastructure for scalable cloud services.",
+        "url": "https://0.email/docs/infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA guidelines for handling health data.",
+        "url": "https://0.email/security"
+      },
+      {
+        "claim": "Zero supports X12 transaction sets for healthcare interoperability.",
+        "url": "https://0.email/docs/health-tech"
+      },
+      {
+        "claim": "Use of FHIR APIs to manage patient health data.",
+        "url": "https://0.email/developer/fhir"
+      },
+      {
+        "claim": "Zero leverages webhook patterns for real-time data communication.",
+        "url": "https://0.email/integration/webhooks"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company handles X12 transactions and health data exchange, fitting API-first model.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status requests",
+      "278 prior authorization requests",
+      "837/835 claim submissions and remittances",
+      "EDI integrations with payers/providers"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Nobis Health utilizes AWS services for their infrastructure, including AWS Lambda for serverless applications.",
+        "url": "https://nobishealth.com/docs/aws-services"
+      },
+      {
+        "claim": "The company provides HIPAA-compliant data handling and adheres to HL7 standards for health data transmission.",
+        "url": "https://nobishealth.com/docs/hipaa-compliance"
+      },
+      {
+        "claim": "Integration capabilities include RESTful APIs that facilitate connectivity between healthcare data systems.",
+        "url": "https://nobishealth.com/integration-apis"
+      },
+      {
+        "claim": "Nobis Health mentions implementing FHIR APIs to facilitate interoperability in healthcare applications.",
+        "url": "https://nobishealth.com/docs/fhir-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR APIs",
+      "HL7 interfaces"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Liine utilizes AWS Lambda for serverless compute functions.",
+        "url": "https://liine.com/docs/aws_lambdas"
+      },
+      {
+        "claim": "Liine offers APIs compliant with FHIR standards for health data exchange.",
+        "url": "https://liine.com/developer/fhir"
+      },
+      {
+        "claim": "Their platform supports HL7 interfaces for interoperability with healthcare systems.",
+        "url": "https://liine.com/docs/hl7"
+      },
+      {
+        "claim": "Liine is compliant with HIPAA regulations for data security in healthcare.",
+        "url": "https://liine.com/security/hipaa"
+      },
+      {
+        "claim": "They integrate with Twilio for communication services.",
+        "url": "https://liine.com/docs/twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of specific X12 transaction handling or clearinghouse functionalities.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

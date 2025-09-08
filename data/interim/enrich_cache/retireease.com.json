@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS CloudFormation"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR API for health data"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data access",
+      "Webhooks for real-time data updates"
+    ],
+    "evidence": [
+      {
+        "claim": "RetireEASE utilizes AWS services for cloud infrastructure including Lambda and S3.",
+        "url": "https://retireease.com/cloud-infrastructure-overview"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations, enabling safe handling of health information.",
+        "url": "https://retireease.com/hipaa-compliance"
+      },
+      {
+        "claim": "RetireEASE employs FHIR APIs to facilitate health data exchange with EHR systems.",
+        "url": "https://retireease.com/fhir-api-integration"
+      },
+      {
+        "claim": "EDI X12 transaction sets are supported for billing and claims processing.",
+        "url": "https://retireease.com/edi-transactions"
+      },
+      {
+        "claim": "Webhooks are utilized for integrating with third-party applications in real-time.",
+        "url": "https://retireease.com/integration-options"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI Transactions for healthcare interoperability, indicating strong alignment with API-first needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Integration with healthcare providers and payers"
+    ]
+  }
+}

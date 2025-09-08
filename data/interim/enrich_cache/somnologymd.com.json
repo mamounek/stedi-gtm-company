@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Somnology primarily employs cloud infrastructure on AWS to facilitate their healthcare solutions.",
+        "url": "https://somnologymd.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for managing patient data and healthcare information.",
+        "url": "https://somnologymd.com/compliance"
+      },
+      {
+        "claim": "Somnology incorporates FHIR standards for health data exchange.",
+        "url": "https://somnologymd.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of engagement with X12 transactions or clearinghouse functionalities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 EDI Transaction Sets",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "EyeCare Partners utilizes AWS cloud services for scalable application architecture.",
+        "url": "https://eyecare-partners.com/technology"
+      },
+      {
+        "claim": "The company interoperates with EHR systems via FHIR standards for health data exchange.",
+        "url": "https://eyecare-partners.com/fhir-services"
+      },
+      {
+        "claim": "Documentation indicates support for X12 EDI transaction sets for billing and claims processing.",
+        "url": "https://eyecare-partners.com/edi-services"
+      },
+      {
+        "claim": "AWS Lambda is mentioned in relation to data processing workflows.",
+        "url": "https://eyecare-partners.com/developer-tools"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "EyeCare Partners utilizes X12 transactions for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims Submission (837)",
+      "Eligibility Verification (270/271)",
+      "Remittance Advice (835)",
+      "Claim Status Inquiry (276/277)"
+    ]
+  }
+}

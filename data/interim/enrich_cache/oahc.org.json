@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "The site mentions compliance with HIPAA standards for handling health information.",
+        "url": "https://oahc.org/hipaa"
+      },
+      {
+        "claim": "Integration with FHIR standards is highlighted in resources for electronic health records.",
+        "url": "https://oahc.org/fhir-integration"
+      },
+      {
+        "claim": "Information on the use of EDI and X12 formats for electronic transactions is provided in the documentation.",
+        "url": "https://oahc.org/edi"
+      },
+      {
+        "claim": "Details surrounding compliance and health information processing are available in their security documentation.",
+        "url": "https://oahc.org/security"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions or typical API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Care for You recognizes the importance of HIPAA compliance in their operations.",
+        "url": "https://careforyouhha.com/security"
+      },
+      {
+        "claim": "They mention FHIR standards when discussing patient data management.",
+        "url": "https://careforyouhha.com/docs"
+      },
+      {
+        "claim": "Care for You follows EDI protocols for health insurance transactions.",
+        "url": "https://careforyouhha.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction involvement or API automation in public documentation.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

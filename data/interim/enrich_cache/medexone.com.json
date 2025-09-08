@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "EDI Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "MedeXOne utilizes AWS for its cloud infrastructure, ensuring HIPAA compliance and scalable services.",
+        "url": "https://medexone.com/#services"
+      },
+      {
+        "claim": "The usage of X12 EDI formats for claims processing is highlighted in their service documentation.",
+        "url": "https://medexone.com/#edi"
+      },
+      {
+        "claim": "MedeXOne supports FHIR standards for healthcare data interoperability.",
+        "url": "https://medexone.com/#health-data"
+      },
+      {
+        "claim": "Reference to EHR integration capabilities suggests strong data exchange protocols with healthcare systems.",
+        "url": "https://medexone.com/#integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI processing and uses X12 formats indicating suitability for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance advice processing",
+      "EDI processing for payer/provider interactions"
+    ]
+  }
+}

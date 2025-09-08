@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Heroku"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Aventura Software utilizes AWS for scalable cloud services.",
+        "url": "https://aventurasoftware.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company advocates the use of HL7 and FHIR standards in their health integrations.",
+        "url": "https://aventurasoftware.com/health-tech-standards"
+      },
+      {
+        "claim": "They employ RESTful APIs to facilitate communication between healthcare systems.",
+        "url": "https://aventurasoftware.com/api-docs"
+      },
+      {
+        "claim": "Aventura Software mentions support for HIPAA compliance in their infrastructure.",
+        "url": "https://aventurasoftware.com/security"
+      },
+      {
+        "claim": "Integration patterns include webhooks for real-time data communication.",
+        "url": "https://aventurasoftware.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions or acts as a clearinghouse found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

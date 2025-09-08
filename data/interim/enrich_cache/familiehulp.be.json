@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Familiehulp utilizes AWS for scalable cloud services.",
+        "url": "https://familiehulp.be/cloud-services"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations for health data security.",
+        "url": "https://familiehulp.be/security-standards"
+      },
+      {
+        "claim": "Integration of FHIR standards is evident in their health management systems.",
+        "url": "https://familiehulp.be/dev-docs/fhir-integration"
+      },
+      {
+        "claim": "Usage of HL7 standards confirmed in operational workflows.",
+        "url": "https://familiehulp.be/docs/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or clearinghouse use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

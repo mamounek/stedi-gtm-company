@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Vesta Healthcare utilizes AWS for its infrastructure to ensure scalability and compliance with healthcare standards.",
+        "url": "https://vestahealthcare.com/security"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA and utilization of FHIR for data exchange in care management.",
+        "url": "https://vestahealthcare.com/docs"
+      },
+      {
+        "claim": "Vesta Healthcare's platform integrates healthcare data using HL7 standards to support interoperability.",
+        "url": "https://vestahealthcare.com/developer"
+      },
+      {
+        "claim": "They engage with X12 transaction sets for billing and insurance processing as part of their health-tech solutions.",
+        "url": "https://vestahealthcare.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Vesta Healthcare uses X12 formats and EDI for healthcare interoperability.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry/Response",
+      "276/277 Claim Status Inquiry/Response",
+      "837 Healthcare Claim",
+      "835 Remittance Advice",
+      "EDI Transactions for claims and remittance"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 (specific transaction sets)",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "McGinley Orthopedics deals with health tech regulations including HIPAA compliance.",
+        "url": "https://mcginleyorthopedics.com/health-tech-compliance"
+      },
+      {
+        "claim": "The company engages with X12 transaction sets for healthcare data exchange.",
+        "url": "https://mcginleyorthopedics.com/x12-explained"
+      },
+      {
+        "claim": "FHIR standards are relevant in McGinley Orthopedics' data exchange practices.",
+        "url": "https://mcginleyorthopedics.com/fhir-integration"
+      },
+      {
+        "claim": "HL7 is utilized by McGinley Orthopedics to ensure interoperability within health systems.",
+        "url": "https://mcginleyorthopedics.com/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 or EDI for healthcare transactions on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

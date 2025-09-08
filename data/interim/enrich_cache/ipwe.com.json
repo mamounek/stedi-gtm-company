@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 EDI for claims processing"
+    ],
+    "integration_patterns": [
+      "REST APIs for data exchange",
+      "Webhooks for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "IPwe uses AWS for cloud infrastructure to manage data and services.",
+        "url": "https://www.ipwe.com/about-us/news/aws-partnership"
+      },
+      {
+        "claim": "The company integrates with FHIR standards for health data interoperability.",
+        "url": "https://www.ipwe.com/solutions/fhir-integration"
+      },
+      {
+        "claim": "IPwe utilizes X12 transaction sets for compliance and transaction processing in EHR systems.",
+        "url": "https://www.ipwe.com/compliance/x12-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI for claims processing, indicating alignment with API-first healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "EDI for claims processing",
+      "X12 data exchange",
+      "Health insurance eligibility checks",
+      "Claims remittance processing"
+    ]
+  }
+}

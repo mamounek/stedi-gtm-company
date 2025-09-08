@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 270/271",
+      "HL7 V2"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Pixona Health utilizes AWS Lambda for scalable backend processing.",
+        "url": "https://pixonahealth.com/docs/aws-lambda"
+      },
+      {
+        "claim": "The company supports FHIR for healthcare data interoperability.",
+        "url": "https://pixonahealth.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for data exchange with EHR systems.",
+        "url": "https://pixonahealth.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange and X12 integration indicates strong alignment with our ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 eligibility checks",
+      "X12 837 claim submissions",
+      "X12 835 remittance processing",
+      "Clearinghouse services for providers"
+    ]
+  }
+}

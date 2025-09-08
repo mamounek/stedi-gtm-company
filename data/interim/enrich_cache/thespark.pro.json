@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Firebase",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The Spark utilizes AWS for its cloud services.",
+        "url": "https://thespark.pro/docs/aws"
+      },
+      {
+        "claim": "They ensure HIPAA compliance for their health-tech applications.",
+        "url": "https://thespark.pro/security"
+      },
+      {
+        "claim": "The Spark implements FHIR standards for healthcare data exchange.",
+        "url": "https://thespark.pro/developer/fhir"
+      },
+      {
+        "claim": "They utilize Kafka for real-time data streaming and integration.",
+        "url": "https://thespark.pro/techstack"
+      },
+      {
+        "claim": "The Spark supports using X12 transaction sets within their EHR integrations.",
+        "url": "https://thespark.pro/docs/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "The Spark's focus on HIPAA compliance and X12 standard indicates suitability for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "clearinghouse services",
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "data exchange with payers and providers"
+    ]
+  }
+}

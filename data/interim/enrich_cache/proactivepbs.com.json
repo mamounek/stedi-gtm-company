@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Proactive Billing Solution emphasizes HIPAA compliance in its service offerings.",
+        "url": "https://www.proactivepbs.com/security"
+      },
+      {
+        "claim": "The company supports EDI transactions as part of its billing solutions.",
+        "url": "https://www.proactivepbs.com/services"
+      },
+      {
+        "claim": "Proactive Billing Solution interacts with commercial clearinghouses for claim submissions.",
+        "url": "https://www.proactivepbs.com/"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI transactions and HIPAA compliance aligns with target ICP use cases.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 transactions",
+      "EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing"
+    ]
+  }
+}

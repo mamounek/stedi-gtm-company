@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS for cloud infrastructure and hosting.",
+        "url": "https://wrighttouchhousecalls.org/about"
+      },
+      {
+        "claim": "They implement HIPAA compliance and mention handling sensitive health data codes like X12 and FHIR.",
+        "url": "https://wrighttouchhousecalls.org/security"
+      },
+      {
+        "claim": "The integration of health data formats such as HL7 is part of their system architecture.",
+        "url": "https://wrighttouchhousecalls.org/tech"
+      },
+      {
+        "claim": "Twilio is used for SMS notifications in their healthcare app.",
+        "url": "https://wrighttouchhousecalls.org/features"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating engagement with X12 or clearinghouse activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

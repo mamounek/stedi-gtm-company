@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "BlueMed Billing Services complies with HIPAA regulations for handling patient data.",
+        "url": "https://bluemedbillingservices.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes X12 EDI formats for electronic claims processing.",
+        "url": "https://bluemedbillingservices.com/edi-claims"
+      },
+      {
+        "claim": "Integration of FHIR standards for health data interoperability is mentioned in their service descriptions.",
+        "url": "https://bluemedbillingservices.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "BlueMed engages with HIPAA X12 transactions indicating a strong fit for API-first healthcare data exchange.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 clearinghouse services",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Healthcare API integration"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Attend Home Care's platform adheres to HIPAA regulations for data security and patient privacy.",
+        "url": "https://attendhc.com/security/"
+      }
+    ],
+    "tech_stack_confidence": 0.44
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 transactions or related EDI processes found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

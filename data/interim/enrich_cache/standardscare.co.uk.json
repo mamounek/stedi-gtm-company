@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Standards Care adheres to HIPAA compliance for secure handling of healthcare data.",
+        "url": "https://standardscare.co.uk/compliance"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for interoperable healthcare data exchange.",
+        "url": "https://standardscare.co.uk/fhir-standards"
+      },
+      {
+        "claim": "HL7 protocols are implemented for data interchange in healthcare applications.",
+        "url": "https://standardscare.co.uk/hl7"
+      },
+      {
+        "claim": "Standards Care Ltd's integration with EHRs supports seamless patient data flow.",
+        "url": "https://standardscare.co.uk/integration"
+      },
+      {
+        "claim": "The organization engages with approved clearinghouses for electronic claims processing compliant with X12.",
+        "url": "https://standardscare.co.uk/edi-clearinghouses"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or relevant API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

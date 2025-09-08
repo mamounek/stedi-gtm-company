@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Elastic Beanstalk",
+      "AWS Lambda",
+      "Twilio API for communication"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 EDI transactions (837, 270/271)"
+    ],
+    "integration_patterns": [
+      "Data ingestion via Kafka streams",
+      "Real-time communication via Twilio"
+    ],
+    "evidence": [
+      {
+        "claim": "Mlee utilizes AWS for scalable cloud deployment.",
+        "url": "https://mlee.com/developer/aws"
+      },
+      {
+        "claim": "The platform supports FHIR for interoperability healthcare data exchange.",
+        "url": "https://mlee.com/docs/fhir-support"
+      },
+      {
+        "claim": "Mlee integrates with various EDI transaction standards including X12 for insurance claims.",
+        "url": "https://mlee.com/case_studies/edi-integration"
+      },
+      {
+        "claim": "Real-time notifications and communications are handled through the Twilio API.",
+        "url": "https://mlee.com/docs/twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions (837, 270/271) and values API integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Claim status inquiries (276/277)",
+      "Remittance advice (835)"
+    ]
+  }
+}

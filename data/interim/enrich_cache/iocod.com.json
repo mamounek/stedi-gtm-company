@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "IOCOD Infotech utilizes AWS services for cloud infrastructures.",
+        "url": "https://iocod.com/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://iocod.com/healthcare-integration"
+      },
+      {
+        "claim": "They utilize integration patterns such as API Gateway for their applications.",
+        "url": "https://iocod.com/integration-solutions"
+      },
+      {
+        "claim": "HL7 standards are part of their healthcare solutions.",
+        "url": "https://iocod.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech with strong EDI capabilities including X12 support.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice handling",
+      "healthcare provider integration"
+    ]
+  }
+}

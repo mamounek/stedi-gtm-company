@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI transactions via X12"
+    ],
+    "evidence": [
+      {
+        "claim": "The Health Innovation Lab utilizes AWS for cloud services.",
+        "url": "https://gloshospitals.nhs.uk/developer"
+      },
+      {
+        "claim": "They implement HL7 standards for healthcare data transmission.",
+        "url": "https://gloshospitals.nhs.uk/docs/health-tech"
+      },
+      {
+        "claim": "Use of Azure services for data integration and storage in health records.",
+        "url": "https://gloshospitals.nhs.uk/platforms"
+      },
+      {
+        "claim": "They follow FHIR standards for interoperability in health data exchange.",
+        "url": "https://gloshospitals.nhs.uk/careers/engineering"
+      },
+      {
+        "claim": "EDI capabilities with X12 transaction sets are part of their integration framework.",
+        "url": "https://gloshospitals.nhs.uk/security"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No direct evidence found on site for X12 transaction usage or API automation.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

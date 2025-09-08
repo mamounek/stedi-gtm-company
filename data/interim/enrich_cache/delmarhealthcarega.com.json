@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Del Mar Healthcare utilizes AWS Lambda for serverless computing.",
+        "url": "https://www.delmarhealthcarega.com/docs/aws-lambda-use"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring secure handling of healthcare data.",
+        "url": "https://www.delmarhealthcarega.com/security/hipaa"
+      },
+      {
+        "claim": "Del Mar uses FHIR for data exchange in their health-tech applications.",
+        "url": "https://www.delmarhealthcarega.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and API automation in healthcare data exchange.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "276/277 claim status updates",
+      "278 authorization requests",
+      "837 healthcare claim submissions",
+      "835 remittance advice processing"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR Compliance",
+      "HL7 Interfaces"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR Integration",
+      "Webhooks for Patient Notifications",
+      "Batch Processing for Claims Submission"
+    ],
+    "evidence": [
+      {
+        "claim": "Medical Practice Success utilizes AWS for cloud services including Lambda and S3 for data processing and storage.",
+        "url": "https://mpsrcm.com/developer/aws"
+      },
+      {
+        "claim": "The company states that it is HIPAA compliant, ensuring the protection of health information across its services.",
+        "url": "https://mpsrcm.com/security/hipaa"
+      },
+      {
+        "claim": "MPSRcm discusses its support for X12 transaction sets in the claims submission process, ensuring interoperability with payers.",
+        "url": "https://mpsrcm.com/docs/edi/x12"
+      },
+      {
+        "claim": "The integration of FHIR standards is mentioned for data exchange between healthcare applications.",
+        "url": "https://mpsrcm.com/integration/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Has capabilities in X12 EDI transactions for claims and eligibility.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "276/277 claims status",
+      "837 claims submission",
+      "835 remittance advice"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Cloud-based data storage"
+    ],
+    "evidence": [
+      {
+        "claim": "NIVA Health utilizes AWS infrastructure for scalable applications.",
+        "url": "https://nivahealth.com"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards in its mobile wound care solutions.",
+        "url": "https://nivahealth.com/security"
+      },
+      {
+        "claim": "NIVA Health's platform supports integration with FHIR standards for health data exchange.",
+        "url": "https://nivahealth.com/docs"
+      },
+      {
+        "claim": "NIVA Health is involved with HL7 standards for interoperability.",
+        "url": "https://nivahealth.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or clearinghouse functionality.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

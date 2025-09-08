@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "EDI Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "NueHealth utilizes AWS and Azure for its cloud computing needs.",
+        "url": "https://nuehealth.com/developer/architecture"
+      },
+      {
+        "claim": "NueHealth has a strong commitment to HIPAA compliance.",
+        "url": "https://nuehealth.com/security"
+      },
+      {
+        "claim": "The company supports various EDI formats including X12.",
+        "url": "https://nuehealth.com/docs/integration"
+      },
+      {
+        "claim": "NueHealth employs FHIR standards in their health-tech operations.",
+        "url": "https://nuehealth.com/case-study"
+      },
+      {
+        "claim": "The integration middleware supports API and EDI capabilities.",
+        "url": "https://nuehealth.com/platform"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "NueHealth leverages EDI for healthcare claims processing and integrations, indicating alignment with X12 usage.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Healthcare claims submissions",
+      "Eligibility and benefits verification",
+      "Remittance advice processing",
+      "API integrations with healthcare systems"
+    ]
+  }
+}

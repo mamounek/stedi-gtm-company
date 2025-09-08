@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs for integration with EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Vale Health uses AWS services for their cloud infrastructure.",
+        "url": "https://valehealth.com/docs/cloud_infrastructure"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance in their health tech products.",
+        "url": "https://valehealth.com/security/hipaa"
+      },
+      {
+        "claim": "Vale Health integrates with various EHR systems using REST APIs.",
+        "url": "https://valehealth.com/developer/ehr_integration"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of focus on X12 transactions or API automation in healthcare processing.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

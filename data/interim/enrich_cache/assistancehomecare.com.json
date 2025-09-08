@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Assistance Home Care adheres to HIPAA regulations for patient data protection.",
+        "url": "https://assistancehomecare.com/security/"
+      },
+      {
+        "claim": "The company mentions their commitment to using HL7 standards for health information exchange.",
+        "url": "https://assistancehomecare.com/docs/health-tech/"
+      },
+      {
+        "claim": "The organization focuses on compliance and secure handling of health-related data.",
+        "url": "https://assistancehomecare.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found indicating use of X12 or relevant API automation for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

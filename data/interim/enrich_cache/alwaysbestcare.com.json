@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance for health data handling"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Always Best Care Nashville emphasizes HIPAA compliance in their service offerings.",
+        "url": "https://alwaysbestcare.com/nashville/home-health-care/"
+      },
+      {
+        "claim": "The company focuses on providing health services while ensuring adherence to health regulations, referring to HIPAA.",
+        "url": "https://alwaysbestcare.com/nashville/about-us/"
+      },
+      {
+        "claim": "Always Best Care Nashville has roles related to healthcare technology compliance in their careers section, indicating operational frameworks that adhere to HIPB",
+        "url": "https://alwaysbestcare.com/nashville/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 use cases or interest in EDI processes found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

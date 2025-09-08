@@ -1,0 +1,22 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Beginning Home Care's site includes references to compliance with HIPAA regulations, indicating their engagement with healthcare standards.",
+        "url": "https://thebeginninghomecare.com"
+      }
+    ],
+    "tech_stack_confidence": 0.29
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

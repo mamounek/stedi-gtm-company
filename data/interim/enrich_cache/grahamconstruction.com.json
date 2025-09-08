@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Graham Construction utilizes AWS for their cloud infrastructure.",
+        "url": "https://www.grahamconstruction.com/faq"
+      },
+      {
+        "claim": "The company has a partnership with Microsoft Azure for certain project deployments.",
+        "url": "https://www.grahamconstruction.com/projects"
+      },
+      {
+        "claim": "Graham Construction employs secure technology solutions aligned with industry standards.",
+        "url": "https://www.grahamconstruction.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on construction, no evidence of healthcare data exchange involvement.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

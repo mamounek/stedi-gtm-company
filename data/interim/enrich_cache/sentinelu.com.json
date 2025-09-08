@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Sentinel U utilizes AWS for cloud infrastructure, enabling scalable and secure application deployment.",
+        "url": "https://www.sentinelu.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform is HIPAA-compliant, ensuring security and privacy in handling sensitive health information.",
+        "url": "https://www.sentinelu.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Sentinel U supports FHIR standards for interoperability with EHR systems.",
+        "url": "https://www.sentinelu.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration capabilities include REST APIs for connecting with other healthcare systems.",
+        "url": "https://www.sentinelu.com/docs/api-integration"
+      },
+      {
+        "claim": "Sentinel U leverages Azure for certain application services, enhancing their healthcare platform's performance.",
+        "url": "https://www.sentinelu.com/docs/azure-services"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse services found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

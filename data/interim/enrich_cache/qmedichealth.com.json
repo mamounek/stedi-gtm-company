@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio",
+      "Twilio Voice API",
+      "Vercel"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration with Electronic Health Records (EHR)"
+    ],
+    "evidence": [
+      {
+        "claim": "QMedic utilizes Amazon Web Services for cloud infrastructure.",
+        "url": "https://www.qmedichealth.com"
+      },
+      {
+        "claim": "The QMedic system is designed to be HIPAA compliant, ensuring patient data security.",
+        "url": "https://www.qmedichealth.com/security"
+      },
+      {
+        "claim": "QMedic employs FHIR standards for interoperability between health data systems.",
+        "url": "https://www.qmedichealth.com/docs"
+      },
+      {
+        "claim": "Integration capabilities with EHR systems demonstrate adherence to HL7 protocol.",
+        "url": "https://www.qmedichealth.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearinghouse use; focus is on API integration with EHRs.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

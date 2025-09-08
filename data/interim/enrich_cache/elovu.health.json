@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Twilio"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for data storage and application hosting.",
+        "url": "https://elovu.health/docs/cloud"
+      },
+      {
+        "claim": "Compliant with HIPAA regulations for data privacy and security.",
+        "url": "https://elovu.health/security"
+      },
+      {
+        "claim": "Supports FHIR standards for health data exchange.",
+        "url": "https://elovu.health/fhir"
+      },
+      {
+        "claim": "Leverages Google Cloud for data analytics and processing.",
+        "url": "https://elovu.health/docs/cloud"
+      },
+      {
+        "claim": "Utilizes Twilio for secure messaging services in healthcare applications.",
+        "url": "https://elovu.health/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear use cases for X12 transactions found on the company site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

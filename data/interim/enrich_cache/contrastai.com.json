@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Contrast Healthcare utilizes AWS for its cloud infrastructure.",
+        "url": "https://contrastai.com/docs/cloud"
+      },
+      {
+        "claim": "They support FHIR standards for healthcare data interoperability.",
+        "url": "https://contrastai.com/healthcare/fhir"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations ensures data security.",
+        "url": "https://contrastai.com/security/hipaa"
+      },
+      {
+        "claim": "Integration patterns include data streaming solutions for real-time analytics.",
+        "url": "https://contrastai.com/integration"
+      },
+      {
+        "claim": "Contrast Healthcare supports HL7 protocols for healthcare data exchange.",
+        "url": "https://contrastai.com/healthcare/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of workflows involving X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

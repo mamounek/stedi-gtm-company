@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Data pipeline with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Lavol AI uses AWS for serverless computing capabilities in its infrastructure.",
+        "url": "https://agi.tools/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports HL7 and FHIR standards for healthcare data interoperability.",
+        "url": "https://agi.tools/health-tech"
+      },
+      {
+        "claim": "Integration patterns include the use of REST APIs for communicating with healthcare services.",
+        "url": "https://agi.tools/integration-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

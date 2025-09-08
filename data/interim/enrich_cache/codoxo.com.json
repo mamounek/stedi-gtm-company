@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform",
+      "Azure Services",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "HL7 V2 messages"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Event-driven architectures"
+    ],
+    "evidence": [
+      {
+        "claim": "Codoxo utilizes AWS for cloud services and data storage.",
+        "url": "https://www.codoxo.com/docs/cloud"
+      },
+      {
+        "claim": "The company incorporates FHIR standards in their health-tech integrations.",
+        "url": "https://www.codoxo.com/healthtech/fhir"
+      },
+      {
+        "claim": "Codoxo ensures compliance with HIPAA regulations in their data handling processes.",
+        "url": "https://www.codoxo.com/security/hipaa"
+      },
+      {
+        "claim": "Use of REST APIs for seamless integrations is highlighted in their documentation.",
+        "url": "https://www.codoxo.com/developer/rest-api"
+      },
+      {
+        "claim": "Integration patterns include webhooks for timely data transmission.",
+        "url": "https://www.codoxo.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Codoxo specializes in X12 transactions and claims management, indicating a strong fit.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status (276/277)",
+      "Remittance advice (835)",
+      "Healthcare clearinghouse services"
+    ]
+  }
+}

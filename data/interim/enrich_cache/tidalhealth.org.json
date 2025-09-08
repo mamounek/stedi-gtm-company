@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TidalHealth implements HIPAA-compliant solutions for secure health data management.",
+        "url": "https://www.tidalhealth.org/security"
+      },
+      {
+        "claim": "The organization incorporates FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://www.tidalhealth.org/docs/fhir"
+      },
+      {
+        "claim": "HL7 messaging is utilized for seamless data communication between health systems.",
+        "url": "https://www.tidalhealth.org/docs/hl7"
+      },
+      {
+        "claim": "Integration with EHR systems adheres to HL7 standards.",
+        "url": "https://www.tidalhealth.org/docs/ehr"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

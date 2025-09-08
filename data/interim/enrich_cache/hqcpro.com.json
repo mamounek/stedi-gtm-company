@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS",
+      "Amazon EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "HOP! utilizes AWS for their cloud infrastructure and services.",
+        "url": "https://hqcpro.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.44
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

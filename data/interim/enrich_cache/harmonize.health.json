@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Harmonize Health utilizes AWS services for its cloud infrastructure.",
+        "url": "https://harmonize.health/docs/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or clearinghouse capabilities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

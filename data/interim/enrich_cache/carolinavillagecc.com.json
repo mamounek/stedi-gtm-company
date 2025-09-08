@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA compliance standards, ensuring that patient information is handled securely and confidentially.",
+        "url": "https://carolinavillagecc.com/security"
+      },
+      {
+        "claim": "Carolina Village Community Care utilizes FHIR protocols for interoperability in health data exchange.",
+        "url": "https://carolinavillagecc.com/docs/interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.63
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of handling X12 transactions or API automation found on the site.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

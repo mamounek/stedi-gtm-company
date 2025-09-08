@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Tradition Homecare is HIPAA compliant, ensuring secure handling of patient information.",
+        "url": "https://traditionhomecare.com/insurance/"
+      },
+      {
+        "claim": "The use of HL7 standards demonstrates commitment to interoperability in health data exchange.",
+        "url": "https://traditionhomecare.com/services/"
+      },
+      {
+        "claim": "FHIR is utilized to streamline access and exchange of health information.",
+        "url": "https://traditionhomecare.com/resources/"
+      },
+      {
+        "claim": "Tradition Homecare partners with providers to support EDI transactions for billing and compliance.",
+        "url": "https://traditionhomecare.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of high volume X12 usage or API automation on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

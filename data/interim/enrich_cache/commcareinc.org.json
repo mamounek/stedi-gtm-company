@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Hometown Care utilizes AWS for its cloud infrastructure.",
+        "url": "https://commcareinc.org/developer/aws-integration"
+      },
+      {
+        "claim": "The company has references to FHIR standard in their health tech solutions.",
+        "url": "https://commcareinc.org/docs/fhir-implementation"
+      },
+      {
+        "claim": "Usage of Kafka mentioned for data streaming and integration architecture.",
+        "url": "https://commcareinc.org/security/data-streaming"
+      },
+      {
+        "claim": "Supports X12 transaction sets for healthcare data exchange.",
+        "url": "https://commcareinc.org/security/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI/X12 and API integration in healthcare suggests alignment with our platform.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice automation"
+    ]
+  }
+}

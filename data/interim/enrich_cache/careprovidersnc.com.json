@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "EDI X12 transactions (specifically for healthcare)"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for handling sensitive patient data.",
+        "url": "https://careprovidersnc.com/privacy-policy/"
+      },
+      {
+        "claim": "Care Providers of Wilmington uses EDI X12 transaction sets for electronic health information exchange.",
+        "url": "https://careprovidersnc.com/health-information-exchange/"
+      },
+      {
+        "claim": "The organization employs secure cloud services to safeguard patient data, aligning with industry standards.",
+        "url": "https://careprovidersnc.com/data-security/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses EDI X12 and is HIPAA compliant, indicating potential for X12 transactions.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 eligibility inquiries",
+      "276/277 claims status requests",
+      "837 healthcare claims submission",
+      "835 remittance advice processing"
+    ]
+  }
+}

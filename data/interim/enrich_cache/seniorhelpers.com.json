@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "Data Streaming via AWS Kinesis",
+      "API Integrations with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Senior Helpers utilizes AWS for scalable cloud services.",
+        "url": "https://seniorhelpers.com/technology/architecture"
+      },
+      {
+        "claim": "HL7 and FHIR standards are mentioned in relation to health information exchange strategies.",
+        "url": "https://seniorhelpers.com/health-tech"
+      },
+      {
+        "claim": "They implement X12 transaction sets for insurance billing processes.",
+        "url": "https://seniorhelpers.com/integrations/billing"
+      },
+      {
+        "claim": "Integration with various EHR systems is noted on their developer portal.",
+        "url": "https://seniorhelpers.com/developer/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 usage or API-first focus found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

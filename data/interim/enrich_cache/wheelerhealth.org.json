@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "HIPAA compliance",
+      "EHR integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Wheeler Health utilizes FHIR standards for data exchange.",
+        "url": "https://wheelerhealth.org/integrations"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data protection.",
+        "url": "https://wheelerhealth.org/security"
+      },
+      {
+        "claim": "They support X12 transaction sets for electronic health data.",
+        "url": "https://wheelerhealth.org/edi"
+      },
+      {
+        "claim": "Wheeler Health integrates with EHR systems for streamlined healthcare services.",
+        "url": "https://wheelerhealth.org/services"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Wheeler Health utilizes EDI/X12 for claims and eligibility processes, indicating need for API integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 Eligibility inquiries/responses",
+      "837 Claim submissions",
+      "835 Remittance advices",
+      "Clearinghouse services for claims management"
+    ]
+  }
+}

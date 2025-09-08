@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Cloud-based EHR integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Silk Security, now under Armis, mentions integration with AWS and Azure for cloud services.",
+        "url": "https://www.armis.com/blog/cloud-security-aws-azure-integration/"
+      },
+      {
+        "claim": "The company discusses compliance with HIPAA and HL7 standards in its security practices.",
+        "url": "https://www.armis.com/security/overview/"
+      },
+      {
+        "claim": "Armis outlines integration patterns applicable to healthcare systems, focusing on EHRs and interoperability protocols like HL7.",
+        "url": "https://www.armis.com/resources/healthcare-interoperability/"
+      }
+    ],
+    "tech_stack_confidence": 0.59
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific EDI/X12 use cases or relevant API automation evidence found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

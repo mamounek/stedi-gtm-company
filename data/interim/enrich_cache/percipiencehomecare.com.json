@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "EHR",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for its infrastructure needs.",
+        "url": "https://www.percipiencehomecare.com/contact"
+      },
+      {
+        "claim": "Percipience Home Care emphasizes HIPAA compliance in its operational framework.",
+        "url": "https://www.percipiencehomecare.com/about"
+      },
+      {
+        "claim": "FHIR standards are mentioned in the context of patient data integration.",
+        "url": "https://www.percipiencehomecare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 or API automation use cases on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

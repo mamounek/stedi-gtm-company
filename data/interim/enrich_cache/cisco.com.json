@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Cisco Cloud Services",
+      "Cisco Webex API",
+      "Cisco Meraki API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "Webhooks for real-time data transfer"
+    ],
+    "evidence": [
+      {
+        "claim": "Cisco provides various cloud services including Cisco Cloud Services and Cisco Webex API for integrations.",
+        "url": "https://www.cisco.com/c/en/us/developer.html"
+      },
+      {
+        "claim": "Cisco complies with HIPAA regulations, offering solutions that ensure data security in health tech.",
+        "url": "https://www.cisco.com/c/en/us/solutions/healthcare/hipaa-compliance.html"
+      },
+      {
+        "claim": "Cisco uses REST API integrations for various applications, which can be relevant for health tech solutions.",
+        "url": "https://developer.cisco.com/docs/"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of involvement in X12 or EDI healthcare use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

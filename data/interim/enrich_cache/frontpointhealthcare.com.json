@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway",
+      "Google Cloud Platform",
+      "Azure Blob Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI 837 Transaction Set",
+      "EDI 835 Transaction Set"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Event-Driven Architecture",
+      "Batch Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Frontpoint Health utilizes AWS services for scalable cloud infrastructure.",
+        "url": "https://www.frontpointhealthcare.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements HL7 and FHIR standards for interoperability in health data exchange.",
+        "url": "https://www.frontpointhealthcare.com/health-tech/fhir-hl7"
+      },
+      {
+        "claim": "Frontpoint supports X12 EDI transaction sets for health claims processing.",
+        "url": "https://www.frontpointhealthcare.com/docs/edi-guidelines"
+      },
+      {
+        "claim": "Integration with various EHR systems leverages established health tech standards.",
+        "url": "https://www.frontpointhealthcare.com/integration/ehR"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages heavily in X12 and EDI transactions, suitable for APIs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance processing",
+      "X12 270/271 eligibility checks",
+      "Claims management via EDI"
+    ]
+  }
+}

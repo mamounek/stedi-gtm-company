@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "APIs for data exchange",
+      "Cloud integration frameworks"
+    ],
+    "evidence": [
+      {
+        "claim": "Sentry Interactive utilizes AWS for scalable cloud solutions.",
+        "url": "https://sentryinteractive.com/cloud-solutions"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for client data handling.",
+        "url": "https://sentryinteractive.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their health-tech strategy.",
+        "url": "https://sentryinteractive.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange suggests high relevance for X12 transactions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 Eligibility verification",
+      "276/277 Claim status inquiry and response",
+      "837/835 Claim submissions and remittances",
+      "API integration for healthcare data exchange"
+    ]
+  }
+}

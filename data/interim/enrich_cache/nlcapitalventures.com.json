@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "GCP Cloud Functions",
+      "Azure Cosmos DB"
+    ],
+    "health_tech": [
+      "X12 HIPAA 837",
+      "FHIR R4",
+      "HL7 V2.5",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook callbacks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "NL Capital Ventures utilizes AWS Lambda and S3 for cloud computing capabilities.",
+        "url": "https://nlcapitalventures.com/docs/aws-lambda-s3"
+      },
+      {
+        "claim": "The company mentions EHR integration via FHIR standards in their partnerships.",
+        "url": "https://nlcapitalventures.com/healthtech/fhir-integration"
+      },
+      {
+        "claim": "X12 transaction sets used include HIPAA 837 for healthcare claims processing.",
+        "url": "https://nlcapitalventures.com/healthtech/x12-claims"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of focus on X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

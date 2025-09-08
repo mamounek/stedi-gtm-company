@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific APIs or cloud services mentioned on the Adelphi Medical Staffing site.",
+        "url": "https://adelphimedicalstaffing.com"
+      },
+      {
+        "claim": "No information found regarding health-tech standards like HIPAA X12 or FHIR/HL7.",
+        "url": "https://adelphimedicalstaffing.com/about-us"
+      },
+      {
+        "claim": "Adelphi Medical Staffing does not provide any developer documentation or engineering insights.",
+        "url": "https://adelphimedicalstaffing.com/careers"
+      },
+      {
+        "claim": "Lack of integration middleware or specific data platform mentions on the website.",
+        "url": "https://adelphimedicalstaffing.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.21
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 or EDI use cases found on the site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

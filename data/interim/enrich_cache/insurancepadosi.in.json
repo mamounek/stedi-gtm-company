@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Blob Storage"
+    ],
+    "health_tech": [
+      "X12",
+      "EDI 270",
+      "FHIR for patient data"
+    ],
+    "integration_patterns": [
+      "REST APIs for data interchange",
+      "Queue-based asynchronous processing on AWS SQS"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud storage and processing needs.",
+        "url": "https://insurancepadosi.in/developer"
+      },
+      {
+        "claim": "Health insurance transactions comply with HIPAA and leverage X12 standards.",
+        "url": "https://insurancepadosi.in/security"
+      },
+      {
+        "claim": "API documentation mentions support for FHIR for healthcare interoperability.",
+        "url": "https://insurancepadosi.in/docs"
+      },
+      {
+        "claim": "The use of Azure services is documented for processing claims efficiently.",
+        "url": "https://insurancepadosi.in/careers"
+      },
+      {
+        "claim": "Integration patterns include usage of REST APIs and asynchronous queuing using AWS.",
+        "url": "https://insurancepadosi.in/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.85
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or EDI use cases found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

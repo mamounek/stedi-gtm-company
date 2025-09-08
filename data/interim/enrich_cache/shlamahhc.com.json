@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Shlama Home Health Care complies with HIPAA regulations to ensure patient privacy and security.",
+        "url": "https://shlamahhc.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards to facilitate electronic health information exchange.",
+        "url": "https://shlamahhc.com/docs/fhir"
+      },
+      {
+        "claim": "Job postings indicate a focus on engineering roles that require knowledge in cloud services, hinting at integration with cloud platforms.",
+        "url": "https://shlamahhc.com/careers"
+      },
+      {
+        "claim": "Their website mentions adherence to EDI protocols for medical billing transactions.",
+        "url": "https://shlamahhc.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found regarding X12 transactions or clearinghouse for this company.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

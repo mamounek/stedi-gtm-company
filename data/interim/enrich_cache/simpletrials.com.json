@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration for EHR systems",
+      "Data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "SimpleTrials uses AWS services including Lambda and RDS for their infrastructure.",
+        "url": "https://simpletrials.com/platform"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations, ensuring secure handling of health data.",
+        "url": "https://simpletrials.com/security"
+      },
+      {
+        "claim": "Integration of FHIR standards allows for seamless data exchange with EHR systems.",
+        "url": "https://simpletrials.com/docs"
+      },
+      {
+        "claim": "Supported various healthcare transaction sets including X12 for billing and claims processing.",
+        "url": "https://simpletrials.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": []
+  }
+}

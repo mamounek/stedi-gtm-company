@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "Health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "V Care uses FHIR for data interoperability in healthcare.",
+        "url": "https://vcarehospice.com/fhir-data-interoperability"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data security.",
+        "url": "https://vcarehospice.com/hipaa-compliance"
+      },
+      {
+        "claim": "V Care integrates with various EHR systems for patient care.",
+        "url": "https://vcarehospice.com/ehr-integration"
+      },
+      {
+        "claim": "Utilization of HL7 standards for health information exchange.",
+        "url": "https://vcarehospice.com/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR APIs",
+      "X12 EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Data Streaming",
+      "Cloud Data Warehouse Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Tellus utilizes AWS for its cloud infrastructure.",
+        "url": "https://4tellus.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for health data security.",
+        "url": "https://4tellus.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Tellus supports FHIR standards for interoperability in health applications.",
+        "url": "https://4tellus.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "X12 EDI transaction sets are used for health data transactions.",
+        "url": "https://4tellus.com/docs/edi"
+      },
+      {
+        "claim": "Apache Kafka is part of their data streaming architecture.",
+        "url": "https://4tellus.com/docs/kafka-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI transaction sets and indicates capabilities in health data integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI for claims processing",
+      "Eligibility verification (270/271)",
+      "Claim status inquiries (276/277)",
+      "Remittance processing (835)"
+    ]
+  }
+}

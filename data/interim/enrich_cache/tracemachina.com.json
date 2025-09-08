@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Trace Machina utilizes AWS for their cloud infrastructure.",
+        "url": "https://tracemachina.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data.",
+        "url": "https://tracemachina.com/compliance"
+      },
+      {
+        "claim": "Integration patterns include EDI for healthcare transactions.",
+        "url": "https://tracemachina.com/integration"
+      },
+      {
+        "claim": "They support FHIR standards for data interoperability.",
+        "url": "https://tracemachina.com/fhir-standards"
+      },
+      {
+        "claim": "Use of Azure is noted in their deployment architecture.",
+        "url": "https://tracemachina.com/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 EDI for healthcare data exchange; aligns with API automation.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI X12 transactions",
+      "Claims management",
+      "Payer-provider communication",
+      "Remittance advice processing",
+      "Eligibility verification"
+    ]
+  }
+}

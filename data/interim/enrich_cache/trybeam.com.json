@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Beam utilizes AWS services including S3 for data storage and Lambda for serverless computing.",
+        "url": "https://trybeam.com/docs/api"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in their solutions, indicating adherence to health data regulations.",
+        "url": "https://trybeam.com/security"
+      },
+      {
+        "claim": "They implement HL7 FHIR for healthcare data interoperability.",
+        "url": "https://trybeam.com/developer"
+      },
+      {
+        "claim": "Integration options include REST APIs, allowing for flexible data exchanges.",
+        "url": "https://trybeam.com/docs/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 or EDI transactions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

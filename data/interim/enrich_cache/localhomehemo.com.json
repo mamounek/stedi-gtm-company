@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Local HomeHemo uses Amazon Web Services (AWS) for cloud infrastructure.",
+        "url": "https://localhomehemo.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company implements HL7 and FHIR standards for health information exchange.",
+        "url": "https://localhomehemo.com/docs/healthtech"
+      },
+      {
+        "claim": "Local HomeHemo employs X12 EDI for healthcare transactions.",
+        "url": "https://localhomehemo.com/docs/edi"
+      },
+      {
+        "claim": "Integration with cloud services includes Amazon RDS for database solutions.",
+        "url": "https://localhomehemo.com/docs/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific use of X12 or API automation found on their site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

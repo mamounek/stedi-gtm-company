@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "FHIR API integrations",
+      "HL7 messaging",
+      "X12 transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "IRIS Health integrates EHR systems using FHIR and HL7 standards",
+        "url": "https://irishealthgroup.net/integration-options"
+      },
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure and data processing",
+        "url": "https://irishealthgroup.net/cloud-services"
+      },
+      {
+        "claim": "IRIS Health supports X12 compliance for electronic claims processing",
+        "url": "https://irishealthgroup.net/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transaction sets, indicating a strong fit for API healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "provider remittance",
+      "电子数据交换"
+    ]
+  }
+}

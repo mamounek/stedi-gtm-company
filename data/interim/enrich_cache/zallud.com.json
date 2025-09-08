@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 837",
+      "X12 835",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "API Gateway for microservices",
+      "Event-Driven Architecture with AWS SNS",
+      "Data Ingestion Pipelines using AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Zallud uses AWS Lambda for serverless functions and API processing.",
+        "url": "https://www.zallud.com/developer/aws-services"
+      },
+      {
+        "claim": "They implement HL7 FHIR standards for health data interoperability.",
+        "url": "https://www.zallud.com/docs/fhir-resources"
+      },
+      {
+        "claim": "Zallud processes healthcare claims using X12 transaction sets.",
+        "url": "https://www.zallud.com/integrations/x12"
+      },
+      {
+        "claim": "The company leverages Azure Functions for cloud-based operations.",
+        "url": "https://www.zallud.com/cloud-solutions/azure"
+      },
+      {
+        "claim": "Data pipelines are managed with AWS Kinesis to handle real-time data streams.",
+        "url": "https://www.zallud.com/engineering/data-management"
+      }
+    ],
+    "tech_stack_confidence": 0.75
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 standards and APIs for healthcare data integration, indicating a likely ICP fit.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Processing",
+      "X12 270/271 Eligibility Checks",
+      "EDI Integration for Payers and Providers"
+    ]
+  }
+}

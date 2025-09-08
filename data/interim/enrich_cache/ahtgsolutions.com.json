@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure App Services",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook event handling",
+      "Asynchronous messaging with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless computing.",
+        "url": "https://ahtgsolutions.com/developer/aws_lambda_integration"
+      },
+      {
+        "claim": "They provide solutions compliant with HIPAA regulations.",
+        "url": "https://ahtgsolutions.com/security/hipaa_compliance"
+      },
+      {
+        "claim": "They support X12 EDI transaction processing.",
+        "url": "https://ahtgsolutions.com/docs/x12_translations"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers HIPAA compliance and supports X12 EDI transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Eligibility checks (270/271)",
+      "Claims submissions (837)",
+      "Remittance advice (835)"
+    ]
+  }
+}

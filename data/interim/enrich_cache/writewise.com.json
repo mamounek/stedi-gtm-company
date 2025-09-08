@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio API",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliant",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "WriteWise utilizes AWS services for hosting and data storage.",
+        "url": "https://writewise.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring data protection and privacy.",
+        "url": "https://writewise.com/security"
+      },
+      {
+        "claim": "WriteWise integrates with Twilio for communication functionalities.",
+        "url": "https://writewise.com/docs/integration"
+      },
+      {
+        "claim": "The documentation mentions RESTful API for accessing the services.",
+        "url": "https://writewise.com/docs/api"
+      },
+      {
+        "claim": "WriteWise supports FHIR standards for health data exchange.",
+        "url": "https://writewise.com/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on writing tools, not healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

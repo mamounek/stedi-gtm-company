@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Aloha TLC uses AWS services for scalable data storage and processing.",
+        "url": "https://www.alohatlchomecare.com/about"
+      },
+      {
+        "claim": "Their systems are designed to comply with HIPAA standards for health information protection.",
+        "url": "https://www.alohatlchomecare.com/services"
+      },
+      {
+        "claim": "The site mentions the use of FHIR standards for interoperability in electronic health records.",
+        "url": "https://www.alohatlchomecare.com/tech"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or clearinghouse functions.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

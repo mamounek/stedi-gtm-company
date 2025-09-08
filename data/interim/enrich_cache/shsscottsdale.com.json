@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions commitment to HIPAA compliance on their website, indicating they handle sensitive health-related information securely.",
+        "url": "https://shsscottsdale.com/about-us/"
+      },
+      {
+        "claim": "Seniors Helping Seniors mentions their services may involve health data, indicating a focus on healthcare standards.",
+        "url": "https://shsscottsdale.com/services/"
+      },
+      {
+        "claim": "Company policies indicate adherence to security measures in line with health regulations.",
+        "url": "https://shsscottsdale.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or EDI services on their site",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

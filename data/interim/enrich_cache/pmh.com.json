@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA",
+      "X12",
+      "EDI",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Event-Driven Architecture",
+      "RESTful APIs",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services.",
+        "url": "https://pmh.com/cloud-services"
+      },
+      {
+        "claim": "Coordinated Regional Care complies with HIPAA standards in its operations.",
+        "url": "https://pmh.com/security-compliance"
+      },
+      {
+        "claim": "They integrate with EHRs using FHIR standards.",
+        "url": "https://pmh.com/health-data-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "The company uses X12 and EDI standards in their health tech stack and integration patterns.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Clearinghouse Services"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The CRPM Association utilizes FHIR standards for interoperability in clinical research.",
+        "url": "https://acrpm.org/fhir-standards"
+      },
+      {
+        "claim": "The organization is involved with HL7 protocols for data exchange in health information systems.",
+        "url": "https://acrpm.org/hl7-protocols"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus on project management rather than direct X12 data exchange use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

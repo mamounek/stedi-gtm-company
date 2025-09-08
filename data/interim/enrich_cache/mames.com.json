@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for health information security.",
+        "url": "https://mames.com/faq/health-information-security"
+      },
+      {
+        "claim": "MAMES promotes the use of X12 standards for EDI transactions.",
+        "url": "https://mames.com/edi-information"
+      },
+      {
+        "claim": "They provide resources related to compliance with HL7 standards.",
+        "url": "https://mames.com/hl7-standards"
+      },
+      {
+        "claim": "The company emphasizes the importance of messaging standards in health data transmission.",
+        "url": "https://mames.com/messaging-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or API automation on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

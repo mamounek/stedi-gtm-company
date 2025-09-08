@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Google Cloud Platform",
+      "Amazon S3",
+      "Azure App Service"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 270",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook notifications for data transfer",
+      "Direct integration with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Belle Health uses AWS for scalable app deployment and management.",
+        "url": "https://bellecares.com/dev/docs"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in their integration solutions.",
+        "url": "https://bellecares.com/security"
+      },
+      {
+        "claim": "Belle Cares references EHR integrations with FHIR and HL7 standards.",
+        "url": "https://bellecares.com/integration"
+      },
+      {
+        "claim": "Cloud-based architecture includes Google Cloud Services for data storage.",
+        "url": "https://bellecares.com/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Belle specializes in EDI integrations for healthcare, using HIPAA X12 formats.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270/271 eligibility queries",
+      "X12 276/277 claim status inquiries",
+      "X12 835 remittance processing"
+    ]
+  }
+}

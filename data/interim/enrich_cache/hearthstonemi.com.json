@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance standards"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hearthstone Communities emphasizes its HIPAA compliance, indicating use of health-related standards.",
+        "url": "https://www.hearthstonemi.com/services/"
+      },
+      {
+        "claim": "No specific APIs or cloud services identified directly on the company's website.",
+        "url": "https://www.hearthstonemi.com/"
+      },
+      {
+        "claim": "The company showcases a commitment to health-tech regulations.",
+        "url": "https://www.hearthstonemi.com/faq/"
+      },
+      {
+        "claim": "Hearthstone Communitiesdoes not list typical cloud providers like AWS or Azure on its site.",
+        "url": "https://www.hearthstonemi.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.36
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engaging in X12 transactions or API automation.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

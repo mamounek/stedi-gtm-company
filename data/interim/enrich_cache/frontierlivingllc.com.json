@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Frontier Living mentions compliance with HIPAA regulations relevant for health data transmission.",
+        "url": "https://frontierlivingllc.com/security"
+      },
+      {
+        "claim": "The company appears to focus on using secure cloud services for handling sensitive health-related data.",
+        "url": "https://frontierlivingllc.com/docs"
+      },
+      {
+        "claim": "Frontier Living's career page highlights the need for experience with EHR systems, indicating a focus on healthcare technology integration.",
+        "url": "https://frontierlivingllc.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or related EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

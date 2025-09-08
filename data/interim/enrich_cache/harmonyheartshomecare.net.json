@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Company emphasizes HIPAA compliance in their operations.",
+        "url": "https://harmonyheartshomecare.net/privacy-policy/"
+      },
+      {
+        "claim": "No specific EDI/X12 or FHIR standards found on the website.",
+        "url": "https://harmonyheartshomecare.net/services/"
+      },
+      {
+        "claim": "Website does not list any cloud services such as AWS or Azure.",
+        "url": "https://harmonyheartshomecare.net/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of sending/receiving X12 transactions or focus on API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

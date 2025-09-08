@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud-based architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Higginbotham Public Sector utilizes AWS for their cloud infrastructure.",
+        "url": "https://higgpublicsector.com/cloud-services"
+      },
+      {
+        "claim": "The company emphasizes compliance with HIPAA regulations in its health tech solutions.",
+        "url": "https://higgpublicsector.com/health-tech"
+      },
+      {
+        "claim": "They implement HL7 and FHIR standards for health data exchange.",
+        "url": "https://higgpublicsector.com/api-docs"
+      },
+      {
+        "claim": "Integration middleware patterns are documented for seamless connectivity.",
+        "url": "https://higgpublicsector.com/integration"
+      },
+      {
+        "claim": "Higginbotham's solutions are built on cloud-native technologies including Azure services.",
+        "url": "https://higgpublicsector.com/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 or EDI in services offered.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

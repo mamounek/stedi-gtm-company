@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7 V2",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Ambient Homecare utilizes AWS services for cloud infrastructure.",
+        "url": "https://ambientcares.com/docs/cloud"
+      },
+      {
+        "claim": "The company implements HIPAA-compliant systems in Their home care solutions.",
+        "url": "https://ambientcares.com/security"
+      },
+      {
+        "claim": "Integration with HL7 and FHIR standards is mentioned for interoperability with health systems.",
+        "url": "https://ambientcares.com/developer/healthtech"
+      },
+      {
+        "claim": "Ambient Homecare uses RESTful APIs for data exchange.",
+        "url": "https://ambientcares.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation focus found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

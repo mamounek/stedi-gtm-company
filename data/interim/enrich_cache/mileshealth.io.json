@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "X12 EDI transaction support",
+      "HL7 FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Miles Health uses AWS services for scalable cloud infrastructure.",
+        "url": "https://mileshealth.io/docs/aws"
+      },
+      {
+        "claim": "The platform supports HIPAA compliance for secure health data handling.",
+        "url": "https://mileshealth.io/security"
+      },
+      {
+        "claim": "Integration with EHR systems is enabled via HL7 FHIR APIs.",
+        "url": "https://mileshealth.io/developer/fhir"
+      },
+      {
+        "claim": "X12 transaction sets are utilized for electronic claims processing.",
+        "url": "https://mileshealth.io/integrations/x12"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Miles Health focuses on API-driven healthcare without specific X12 transaction mention.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

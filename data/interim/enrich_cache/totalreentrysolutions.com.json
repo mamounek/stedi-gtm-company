@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure, including Lambda and S3 services.",
+        "url": "https://totalreentrysolutions.com/solutions/developer"
+      },
+      {
+        "claim": "TRS adheres to HIPAA regulations for managing sensitive health information.",
+        "url": "https://totalreentrysolutions.com/security"
+      },
+      {
+        "claim": "Integration capabilities include support for EDI transactions compliant with X12 standards.",
+        "url": "https://totalreentrysolutions.com/docs/integration"
+      },
+      {
+        "claim": "The platform engages with healthcare protocols for interoperability.",
+        "url": "https://totalreentrysolutions.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

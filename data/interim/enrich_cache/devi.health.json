@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS Lambda for serverless computing.",
+        "url": "https://docs.devi.health/serverless-architecture"
+      },
+      {
+        "claim": "Adheres to HIPAA compliance guidelines for patient data.",
+        "url": "https://devi.health/security-standards"
+      },
+      {
+        "claim": "Implements FHIR standards for interoperability.",
+        "url": "https://devi.health/integration/fhir-support"
+      },
+      {
+        "claim": "Uses RESTful APIs for data exchange and integration.",
+        "url": "https://devi.health/api/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public info indicates use or need for X12 transaction functionalities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

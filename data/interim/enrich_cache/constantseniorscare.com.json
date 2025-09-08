@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12 Transaction Sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Constant Seniors Care's commitment to HIPAA compliance indicates their handling of patient data securely, which is critical in health tech.",
+        "url": "https://constantseniorscare.com/privacy-policy"
+      },
+      {
+        "claim": "The mention of HL7 in their integration documentation suggests support for messaging standards widely used in health care.",
+        "url": "https://constantseniorscare.com/docs/hl7-integration"
+      },
+      {
+        "claim": "FHIR is referenced in their API documentation, indicating they utilize this standard for electronic health information interoperability.",
+        "url": "https://constantseniorscare.com/docs/fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or API automation.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

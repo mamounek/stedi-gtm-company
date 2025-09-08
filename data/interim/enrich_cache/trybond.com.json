@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Data streaming",
+      "EHR integration",
+      "Cloud services integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Bond utilizes AWS for its cloud infrastructure.",
+        "url": "https://trybond.com/docs/cloud-integration"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations.",
+        "url": "https://trybond.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Bond integrates with EHRs following FHIR standards.",
+        "url": "https://trybond.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Kafka is used for real-time data streaming within their platform.",
+        "url": "https://trybond.com/docs/kafka"
+      },
+      {
+        "claim": "HL7 standards are utilized for health data exchange.",
+        "url": "https://trybond.com/docs/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction involvement found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

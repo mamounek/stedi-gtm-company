@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The Virtual Nursing Academy emphasizes HIPAA compliance in its services, ensuring that data privacy and security are maintained according to healthcare law.",
+        "url": "https://virtualnursingacademy.com/faq"
+      },
+      {
+        "claim": "The company utilizes cloud services for data management and secure video conferencing, ensuring flexibility and scalability of their operations.",
+        "url": "https://virtualnursingacademy.com/about"
+      },
+      {
+        "claim": "Virtual Nursing Academy offers training and resources for healthcare professionals, indicating adherence to EHR standards and integration practices.",
+        "url": "https://virtualnursingacademy.com/resources"
+      }
+    ],
+    "tech_stack_confidence": 0.22
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or API automation.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

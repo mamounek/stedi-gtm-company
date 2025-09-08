@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HL7 FHIR",
+      "X12 EDI Healthcare Transactions"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "CareWork uses AWS services for scalable cloud infrastructure.",
+        "url": "https://mycarework.com/docs/cloud-infrastructure/"
+      },
+      {
+        "claim": "CareWork facilitates patient data exchange using HL7 FHIR standards.",
+        "url": "https://mycarework.com/docs/fhir-implementation/"
+      },
+      {
+        "claim": "The platform supports X12 EDI Healthcare Transactions for billing.",
+        "url": "https://mycarework.com/docs/edi-support/"
+      },
+      {
+        "claim": "Real-time notifications are handled via Twilio’s messaging API.",
+        "url": "https://mycarework.com/docs/integration/#twilio"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CareWork's use of X12 EDI for healthcare aligns with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Healthcare Transactions",
+      "Claim submissions and processing",
+      "Eligibility verification via 270/271",
+      "Remittance processing using 835",
+      "Claim status inquiries via 276/277"
+    ]
+  }
+}

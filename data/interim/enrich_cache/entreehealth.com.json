@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance framework",
+      "HL7 standards",
+      "FHIR API for healthcare data exchange"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for service integration",
+      "Webhooks for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Entrée Health uses AWS for scalable cloud infrastructure.",
+        "url": "https://www.entreehealth.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards for handling healthcare data.",
+        "url": "https://www.entreehealth.com/hipaa-compliance"
+      },
+      {
+        "claim": "Entrée Health implements FHIR standards for seamless healthcare integrations.",
+        "url": "https://www.entreehealth.com/fhir-integration"
+      },
+      {
+        "claim": "Utilization of RESTful APIs for integration with EHR systems.",
+        "url": "https://www.entreehealth.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transactions or clearinghouse involvement found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

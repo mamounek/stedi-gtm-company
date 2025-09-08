@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI Integration",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "River City Medical Group utilizes AWS for cloud services.",
+        "url": "https://rcmg.com/docs/aws-cloud-services"
+      },
+      {
+        "claim": "The organization follows HIPAA standards for data security.",
+        "url": "https://rcmg.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They leverage HL7 for health data exchange.",
+        "url": "https://rcmg.com/docs/hl7-interface"
+      },
+      {
+        "claim": "River City Medical Group implements EDI standards for transactions.",
+        "url": "https://rcmg.com/docs/edi-processes"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in X12 transactions and uses HIPAA standards for healthcare data exchange.",
+    "icp_confidence": 0.87,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "276/277 claims status inquiry",
+      "837 claim submission",
+      "835 remittance processing",
+      "EDI integration with payers"
+    ]
+  }
+}

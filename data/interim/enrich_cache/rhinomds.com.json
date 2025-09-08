@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "RhinoMDs Billing Services emphasizes HIPAA compliance in its operations.",
+        "url": "https://rhinomds.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 formats for electronic billing transactions.",
+        "url": "https://rhinomds.com/docs"
+      },
+      {
+        "claim": "RhinoMDs is involved in healthcare billing, which necessitates adherence to industry standards like FHIR and HL7.",
+        "url": "https://rhinomds.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focused on EDI transactions and HIPAA compliance, indicating a need for X12 based integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "837 claims submission",
+      "835 remittance processing",
+      "clearinghouse services for healthcare transactions"
+    ]
+  }
+}

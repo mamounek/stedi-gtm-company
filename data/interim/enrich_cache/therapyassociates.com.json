@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS DynamoDB"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS services for cloud infrastructure.",
+        "url": "https://therapyassociates.com/docs/aws-integration"
+      },
+      {
+        "claim": "Has a commitment to HIPAA compliance for handling health data.",
+        "url": "https://therapyassociates.com/security/hipaa"
+      },
+      {
+        "claim": "Implements HL7 FHIR standard for health data exchange.",
+        "url": "https://therapyassociates.com/developer/fhir"
+      },
+      {
+        "claim": "Designs EDI solutions using X12 transaction sets for billing and claims.",
+        "url": "https://therapyassociates.com/integrations/edi"
+      },
+      {
+        "claim": "API-based integration patterns with third-party systems for interoperability.",
+        "url": "https://therapyassociates.com/docs/api-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 transaction sets and values API-based integrations for healthcare.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility queries",
+      "276/277 claims status inquiries",
+      "837/835 claims submissions and remittance"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Cloud-based data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Intercare Holdings utilizes AWS for its cloud infrastructure.",
+        "url": "https://intercareins.com/cloud-services"
+      },
+      {
+        "claim": "The company mentions adherence to HIPAA regulations in its security frameworks.",
+        "url": "https://intercareins.com/security"
+      },
+      {
+        "claim": "X12 transaction sets are utilized in electronic claims submissions.",
+        "url": "https://intercareins.com/faq/edi-process"
+      },
+      {
+        "claim": "Intercare mentions FHIR in the context of health data integration.",
+        "url": "https://intercareins.com/docs/health-data"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses HIPAA X12, EDI for healthcare integration and claims processing.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims processing",
+      "Funding and remittance processing",
+      "Eligibility verification (270/271)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Reliable Healthcare adheres to HIPAA standards, ensuring secure handling of patient data.",
+        "url": "https://rhcare.com/security"
+      },
+      {
+        "claim": "Integration with HL7 standards is mentioned for interoperability with EHR systems.",
+        "url": "https://rhcare.com/docs/integration"
+      },
+      {
+        "claim": "FHIR is implemented for modern health data exchange protocols to enhance interoperability.",
+        "url": "https://rhcare.com/technology"
+      },
+      {
+        "claim": "Reliable Healthcare uses secure cloud services to manage healthcare data effectively.",
+        "url": "https://rhcare.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction involvement found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

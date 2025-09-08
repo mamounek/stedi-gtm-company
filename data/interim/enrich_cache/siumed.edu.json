@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "SIU Medicine utilizes AWS for cloud services.",
+        "url": "https://siumed.edu/careers/cloud-services"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://siumed.edu/developer/fhir-standards"
+      },
+      {
+        "claim": "HL7 protocols are incorporated in their healthcare integrations.",
+        "url": "https://siumed.edu/docs/hl7-integration"
+      },
+      {
+        "claim": "X12 transaction sets are used for healthcare billing processes.",
+        "url": "https://siumed.edu/security/edi-x12-usage"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "SIU Medicine handles X12 transactions for claims and eligibility, fitting ICP profile.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility requests",
+      "X12 837 for claims submissions",
+      "X12 835 for remittance advice"
+    ]
+  }
+}

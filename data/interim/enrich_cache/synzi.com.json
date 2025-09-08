@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA Compliance",
+      "Electronic Health Records (EHR) Integration"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Webhook Notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Synzi utilizes AWS Lambda for serverless computing.",
+        "url": "https://synzi.com/developer/api"
+      },
+      {
+        "claim": "The company follows HIPAA compliance protocols on its documentation pages.",
+        "url": "https://synzi.com/security"
+      },
+      {
+        "claim": "Integration patterns include webhooks for real-time notifications.",
+        "url": "https://synzi.com/docs/integration"
+      },
+      {
+        "claim": "FHIR standards are supported for healthcare data exchange.",
+        "url": "https://synzi.com/careers/engineer"
+      },
+      {
+        "claim": "Twilio APIs are used for communication features in their platform.",
+        "url": "https://synzi.com/developer/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of engagement with HIPAA X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

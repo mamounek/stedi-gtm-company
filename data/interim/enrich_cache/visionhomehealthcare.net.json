@@ -1,0 +1,33 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EHR Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Vision Home Health Care adheres to HIPAA compliance, ensuring that personal health information is protected.",
+        "url": "https://visionhomehealthcare.net/privacy-policy"
+      },
+      {
+        "claim": "The company mentions using X12 for electronic claims processing.",
+        "url": "https://visionhomehealthcare.net/services"
+      },
+      {
+        "claim": "The website references integrations with Electronic Health Records (EHRs).",
+        "url": "https://visionhomehealthcare.net/services"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Alera Group emphasizes HIPAA compliance for handling sensitive health information.",
+        "url": "https://www.aleragroup.com/healthcare-services"
+      },
+      {
+        "claim": "Alera Group utilizes cloud services that align with HIPAA security standards.",
+        "url": "https://www.aleragroup.com/security"
+      },
+      {
+        "claim": "The company has partnerships with healthcare technology providers to manage EHR systems effectively.",
+        "url": "https://www.aleragroup.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

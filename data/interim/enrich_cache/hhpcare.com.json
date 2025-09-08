@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations with EHR systems",
+      "Cloud-based data storage solutions"
+    ],
+    "evidence": [
+      {
+        "claim": "HealthView utilizes AWS services for cloud infrastructure.",
+        "url": "https://hhpcare.com/about-us/"
+      },
+      {
+        "claim": "They ensure HIPAA compliance for handling health data.",
+        "url": "https://hhpcare.com/privacy-policy/"
+      },
+      {
+        "claim": "Integration with FHIR standards to enable interoperability.",
+        "url": "https://hhpcare.com/services/"
+      },
+      {
+        "claim": "Use of X12 format for electronic data interchange.",
+        "url": "https://hhpcare.com/claims/"
+      },
+      {
+        "claim": "Application of AWS Lambda for serverless application architecture.",
+        "url": "https://hhpcare.com/technology/"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of using X12 transactions or API automation for data exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "Data integration between EHRs and clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "Simco utilizes AWS cloud services for data management and hosting.",
+        "url": "https://www.simcoservices.com/cloud-services"
+      },
+      {
+        "claim": "Simco provides solutions that are HIPAA compliant, focusing on health data integration.",
+        "url": "https://www.simcoservices.com/security"
+      },
+      {
+        "claim": "The company supports EDI transactions and is well-versed in X12 standards for healthcare.",
+        "url": "https://www.simcoservices.com/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They engage in EDI transactions and HIPAA-compliant integrations, indicating ICP relevance.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI transactions",
+      "Clearinghouse services",
+      "Claims processing",
+      "Eligibility checks",
+      "Remittance advice management"
+    ]
+  }
+}

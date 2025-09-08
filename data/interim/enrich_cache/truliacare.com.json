@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Kratin LLC utilizes AWS services for infrastructure.",
+        "url": "https://truliacare.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company supports FHIR standards for health data exchange.",
+        "url": "https://truliacare.com/docs/fhir-compliance"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated using HL7 messaging standards.",
+        "url": "https://truliacare.com/docs/hl7-integration"
+      },
+      {
+        "claim": "Real-time data processing is enabled through AWS Lambda.",
+        "url": "https://truliacare.com/docs/aws-lambda"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for healthcare transactions and emphasizes API integration.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claim status inquiries (276/277)"
+    ]
+  }
+}

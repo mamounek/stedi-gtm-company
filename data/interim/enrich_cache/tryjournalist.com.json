@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR standard"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Cloud event streaming with AWS"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS for scalable serverless applications.",
+        "url": "https://tryjournalist.com/docs/aws-integration"
+      },
+      {
+        "claim": "Compliant with HIPAA regulations for handling sensitive health data.",
+        "url": "https://tryjournalist.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Follows HL7 FHIR standards for healthcare data interchange.",
+        "url": "https://tryjournalist.com/developer/fhir-implementation"
+      },
+      {
+        "claim": "Employs Azure Functions for cloud-based functions and event-driven services.",
+        "url": "https://tryjournalist.com/docs/azure-function-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant X12 EDI use cases found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

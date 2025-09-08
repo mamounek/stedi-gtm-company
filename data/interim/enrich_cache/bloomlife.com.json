@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Bloomlife utilizes AWS services for their cloud infrastructure.",
+        "url": "https://bloomlife.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://bloomlife.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Bloomlife has APIs for communication between components.",
+        "url": "https://bloomlife.com/docs/api-overview"
+      },
+      {
+        "claim": "Bloomlife emphasizes security compliance including HIPAA guidelines.",
+        "url": "https://bloomlife.com/security/compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

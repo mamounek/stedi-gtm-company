@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake",
+      "Kafka",
+      "dbt",
+      "Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Cloud-based data management",
+      "HL7 messaging for EHR"
+    ],
+    "evidence": [
+      {
+        "claim": "ValueHealth utilizes AWS for cloud services and data handling.",
+        "url": "https://www.valuehealth.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company mentions using FHIR standards for electronic health information exchange.",
+        "url": "https://www.valuehealth.com/health-tech"
+      },
+      {
+        "claim": "Integration of EDI X12 standards is part of their operational capabilities.",
+        "url": "https://www.valuehealth.com/docs/edi-standards"
+      },
+      {
+        "claim": "Kafka is mentioned for real-time data streaming and analysis.",
+        "url": "https://www.valuehealth.com/docs/data-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "ValueHealth utilizes X12 standards for healthcare data exchange, confirming ICP alignment.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "API integrations for healthcare data exchange",
+      "Clearinghouse functionalities",
+      "Eligibility verification using X12",
+      "Claims processing through EDI standards"
+    ]
+  }
+}

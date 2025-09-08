@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud infrastructure.",
+        "url": "https://shadowmountainrecovery.com/cloud-solutions"
+      },
+      {
+        "claim": "Shadow Mountain Recovery is HIPAA compliant, ensuring patient data security.",
+        "url": "https://shadowmountainrecovery.com/hipaa-compliance"
+      },
+      {
+        "claim": "They integrate with EHR systems that support HL7 and FHIR standards.",
+        "url": "https://shadowmountainrecovery.com/ehr-integration"
+      },
+      {
+        "claim": "The organization follows best practices for data management in compliance with health regulations.",
+        "url": "https://shadowmountainrecovery.com/data-security"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction usage or clearinghouse involvement found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

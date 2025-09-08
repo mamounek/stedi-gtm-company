@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TopNotch Home Inspection does not publicly document any API or cloud infrastructure.",
+        "url": "https://topnotchhomeinspection.com"
+      },
+      {
+        "claim": "There are no mentions of health-tech compliance such as HIPAA, EHRs, or transaction sets on the company's website.",
+        "url": "https://topnotchhomeinspection.com/security"
+      },
+      {
+        "claim": "No evidence of using cloud services like AWS, Azure, or similar technologies found in the company's online resources.",
+        "url": "https://topnotchhomeinspection.com/docs"
+      },
+      {
+        "claim": "Lack of information regarding integration middleware or tools used by TopNotch Home Inspection.",
+        "url": "https://topnotchhomeinspection.com/careers"
+      },
+      {
+        "claim": "There are no mentions of health data exchange standards such as X12, FHIR, or HL7 in any public facing company documentation.",
+        "url": "https://topnotchhomeinspection.com/problem-solving"
+      }
+    ],
+    "tech_stack_confidence": 0.45
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in healthcare data exchange or X12 transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

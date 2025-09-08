@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company complies with HIPAA regulations indicating they handle protected health information securely.",
+        "url": "https://northstarcarecommunity.org/security/"
+      },
+      {
+        "claim": "NorthStar Care Community uses X12 transaction sets for electronic data interchange, suggesting integration with health information systems.",
+        "url": "https://northstarcarecommunity.org/docs/edi/"
+      },
+      {
+        "claim": "Their career page highlights positions related to data integration and health technologies, implying usage of relevant APIs and frameworks.",
+        "url": "https://northstarcarecommunity.org/careers/engineering/"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of API-first use cases related to X12 transactions found.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

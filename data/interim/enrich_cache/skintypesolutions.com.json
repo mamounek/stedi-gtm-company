@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Skin Type Solutions utilizes AWS services for its cloud infrastructure.",
+        "url": "https://www.skintypesolutions.com/docs/developer#cloud-services"
+      },
+      {
+        "claim": "The company mentions adherence to HIPAA compliance standards for electronic health data handling.",
+        "url": "https://www.skintypesolutions.com/security"
+      },
+      {
+        "claim": "Integration with healthcare data standards including FHIR and HL7 identified on the platform service page.",
+        "url": "https://www.skintypesolutions.com/docs/api#health-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of active engagement with X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

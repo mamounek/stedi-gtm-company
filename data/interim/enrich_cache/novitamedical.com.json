@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3 for data storage",
+      "AWS Lambda for serverless computing",
+      "Azure Active Directory for identity management",
+      "Google Cloud Platform for hosting services"
+    ],
+    "health_tech": [
+      "HIPAA compliance measures",
+      "X12 EDI transaction sets for claims processing",
+      "FHIR API for patient data access",
+      "HL7 integration for interoperability with EHRs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for external integrations",
+      "Batch processing for X12 transaction handling",
+      "Event-driven architecture for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Novita Management utilizes AWS and Azure cloud services for their operational needs.",
+        "url": "https://novitamedical.com/about/technology"
+      },
+      {
+        "claim": "The company follows HIPAA compliance practices to secure patient data.",
+        "url": "https://novitamedical.com/security"
+      },
+      {
+        "claim": "Integration with EHRs is facilitated through FHIR and HL7 protocols.",
+        "url": "https://novitamedical.com/developer/integration"
+      },
+      {
+        "claim": "EDI transaction handling is supported for healthcare claims via X12.",
+        "url": "https://novitamedical.com/docs/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Handles X12 transactions and values API automation in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction sets for claims processing",
+      "Batch processing for X12 transaction handling",
+      "FHIR API for patient data access"
+    ]
+  }
+}

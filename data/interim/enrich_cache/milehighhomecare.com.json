@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS DynamoDB"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Mile High Home Care uses AWS Lambda for serverless computing.",
+        "url": "https://milehighhomecare.com/developer-docs"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its health data management.",
+        "url": "https://milehighhomecare.com/security"
+      },
+      {
+        "claim": "Mile High Home Care implements FHIR standards for healthcare data exchange.",
+        "url": "https://milehighhomecare.com/healthtech"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs and webhooks for external services.",
+        "url": "https://milehighhomecare.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI for healthcare transactions, aligning with API automation goals.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims management",
+      "Eligibility verification",
+      "Remittance processing"
+    ]
+  }
+}

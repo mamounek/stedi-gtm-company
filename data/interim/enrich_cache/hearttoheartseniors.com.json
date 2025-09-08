@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions compliance with HIPAA regulations for handling patient information, indicating they have health data handling in place.",
+        "url": "https://hearttoheartseniors.com/privacy-policy/"
+      },
+      {
+        "claim": "The careers page notes a focus on technology and security in managing care services, hinting at an infrastructure that aligns with health tech standards.",
+        "url": "https://hearttoheartseniors.com/careers/"
+      },
+      {
+        "claim": "The company's services include coordination with healthcare providers, necessitating an understanding of health data integration.",
+        "url": "https://hearttoheartseniors.com/services/"
+      },
+      {
+        "claim": "The website content outlines the importance of safe data handling practices, reflecting compliance with industry standards like HIPAA.",
+        "url": "https://hearttoheartseniors.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Lacks evidence of dealing with X12 transactions or API automation.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

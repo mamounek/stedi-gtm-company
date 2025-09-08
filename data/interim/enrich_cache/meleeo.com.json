@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "MongoDB Atlas",
+      "AWS RDS",
+      "Twilio",
+      "Stripe"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "HL7 FHIR APIs",
+      "EHR integrations"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Event-driven architecture",
+      "Message queue integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Meleeo utilizes AWS services for its infrastructure.",
+        "url": "https://www.meleeo.com/docs/infrastructure"
+      },
+      {
+        "claim": "The platform ensures HIPAA compliance for handling sensitive health data.",
+        "url": "https://www.meleeo.com/security"
+      },
+      {
+        "claim": "Meleeo has API documentation highlighting FHIR integration capabilities.",
+        "url": "https://www.meleeo.com/developer/apis"
+      },
+      {
+        "claim": "Utilizes EDI standards for health data transactions as part of the integration.",
+        "url": "https://www.meleeo.com/case-studies/edi"
+      },
+      {
+        "claim": "Integrates with various EHR systems using standardized APIs.",
+        "url": "https://www.meleeo.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Meleeo uses X12 EDI transactions for healthcare data processing and maintains HIPAA compliance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction handling",
+      "Eligibility verification (270/271)",
+      "Claim submission and processing (837)",
+      "Remittance processing (835)",
+      "Interoperable health data exchange",
+      "Integration with payers and providers"
+    ]
+  }
+}

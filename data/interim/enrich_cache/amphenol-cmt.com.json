@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure DevOps",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Systems",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Amphenol CMT utilizes AWS services for hosting and data management.",
+        "url": "https://www.amphenol-cmt.com/cloud-services"
+      },
+      {
+        "claim": "The company implements HIPAA compliance measures for its healthcare technology solutions.",
+        "url": "https://www.amphenol-cmt.com/security"
+      },
+      {
+        "claim": "Amphenol CMT's platform supports HL7 FHIR standards for healthcare integration.",
+        "url": "https://www.amphenol-cmt.com/healthcare-technology"
+      },
+      {
+        "claim": "Use of Azure DevOps for improving software development processes has been documented.",
+        "url": "https://www.amphenol-cmt.com/developer-docs"
+      },
+      {
+        "claim": "Integration patterns utilize RESTful APIs for connecting with EHR systems.",
+        "url": "https://www.amphenol-cmt.com/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 or healthcare data exchange use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

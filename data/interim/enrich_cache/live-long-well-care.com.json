@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure API Management",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "SOAP Web Services",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for its data storage and processing needs.",
+        "url": "https://www.live-long-well-care.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Live Long Well Care ensures HIPAA compliance in their operations and technology.",
+        "url": "https://www.live-long-well-care.com/security"
+      },
+      {
+        "claim": "They have integrated FHIR standards for healthcare data exchange.",
+        "url": "https://www.live-long-well-care.com/health-data"
+      },
+      {
+        "claim": "Live Long Well Care employs RESTful APIs for its service integrations.",
+        "url": "https://www.live-long-well-care.com/api-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.78
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of engaging in X12 transactions or clearinghouse functions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

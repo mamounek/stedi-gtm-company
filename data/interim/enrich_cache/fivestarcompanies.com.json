@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI X12 Transactions",
+      "HL7 Messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Five Star Companies utilizes AWS for cloud infrastructure services.",
+        "url": "https://fivestarcompanies.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company supports HIPAA compliance for health-related data handling.",
+        "url": "https://fivestarcompanies.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Implementation of FHIR standard for healthcare data exchange.",
+        "url": "https://fivestarcompanies.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Supports integration through EDI X12 transactions for healthcare billing.",
+        "url": "https://fivestarcompanies.com/docs/edi-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Five Star Companies uses EDI for healthcare transactions, indicating API demand.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Submission and Remittance (837/835)"
+    ]
+  }
+}

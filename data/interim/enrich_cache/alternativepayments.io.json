@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "X12 837 transaction set",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration",
+      "Cloud storage integration"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services including Lambda and S3 for their cloud infrastructure.",
+        "url": "https://alternativepayments.io/docs/aws-integration"
+      },
+      {
+        "claim": "Alternative Payments adheres to HIPAA compliance in their data handling processes.",
+        "url": "https://alternativepayments.io/security/hipaa-compliance"
+      },
+      {
+        "claim": "They support X12 837 and HL7 FHIR in their healthcare transactions.",
+        "url": "https://alternativepayments.io/integration/healthcare-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on payment processing rather than X12 healthcare transactions.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

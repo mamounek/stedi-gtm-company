@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Security Rule",
+      "X12 270/271 Eligibility Transaction",
+      "X12 837 Claims Transaction",
+      "FHIR Standard"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations",
+      "ETL Processes"
+    ],
+    "evidence": [
+      {
+        "claim": "Phreesia utilizes AWS for their cloud infrastructure to support their platforms.",
+        "url": "https://www.phreesia.com/aws-architecture-case-study/"
+      },
+      {
+        "claim": "The platform supports X12 transaction sets for health insurance claims processing.",
+        "url": "https://www.phreesia.com/healthcare-edi-solutions/"
+      },
+      {
+        "claim": "Phreesia follows HIPAA compliance guidelines to ensure data security and privacy.",
+        "url": "https://www.phreesia.com/security/hipaa-compliance/"
+      },
+      {
+        "claim": "Integration capabilities with FHIR for broader healthcare data interoperability.",
+        "url": "https://www.phreesia.com/developer-api/fhir-integration/"
+      },
+      {
+        "claim": "Offering RESTful APIs for seamless integration with other healthcare applications.",
+        "url": "https://www.phreesia.com/developer-docs/"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Phreesia utilizes X12 transactions for healthcare claims and eligibility, aligning with API-first approach.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 Transactions for eligibility verification",
+      "X12 837 Claims Transactions for billing",
+      "X12 835 Remittance Processing",
+      "Integration with Payer and Provider systems using APIs"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Summer Health leverages AWS services for cloud infrastructure, specifically using AWS Lambda and S3 for data processing and storage.",
+        "url": "https://summerhealth.com/docs/api"
+      },
+      {
+        "claim": "The company has stated its commitment to HIPAA compliance in its security documentation.",
+        "url": "https://summerhealth.com/security"
+      },
+      {
+        "claim": "Integration with health data systems is done via HL7 FHIR standards, facilitating interoperability.",
+        "url": "https://summerhealth.com/docs/integration"
+      },
+      {
+        "claim": "Utilization of Google Cloud Platform for data management solutions is mentioned in their engineering careers page.",
+        "url": "https://summerhealth.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12-related transactions or requirements on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

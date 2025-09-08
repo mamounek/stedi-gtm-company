@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Impact Healthcare Solutions utilizes AWS for cloud services.",
+        "url": "https://impact-healthcare.net/tech"
+      },
+      {
+        "claim": "The company implements HIPAA compliance for health information privacy.",
+        "url": "https://impact-healthcare.net/security"
+      },
+      {
+        "claim": "They support FHIR for interoperability in healthcare applications.",
+        "url": "https://impact-healthcare.net/docs"
+      },
+      {
+        "claim": "Integration via EDI using X12 transaction sets is part of their data exchange.",
+        "url": "https://impact-healthcare.net/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI X12 transactions suggests strong alignment with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance advice",
+      "claims status inquiries",
+      "provider enrollment"
+    ]
+  }
+}

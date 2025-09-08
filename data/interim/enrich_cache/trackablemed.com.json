@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "API integration with EHRs",
+      "Data streaming to cloud-based platforms"
+    ],
+    "evidence": [
+      {
+        "claim": "TrackableMed uses AWS for various services including Lambda and S3 for processing and storing data.",
+        "url": "https://trackablemed.com/developer"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for healthcare data management.",
+        "url": "https://trackablemed.com/security"
+      },
+      {
+        "claim": "Integration capabilities with FHIR standards are mentioned for interfacing with healthcare systems.",
+        "url": "https://trackablemed.com/docs"
+      },
+      {
+        "claim": "TrackableMed provides integration patterns for connecting with EHR systems and handling health data transactions.",
+        "url": "https://trackablemed.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 transactions and API integration, targeting healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "API integration for eligibility checks (270/271)",
+      "Claims submission and remittance processing (837/835)",
+      "Data integration with healthcare providers",
+      "Clearinghouse functions for healthcare transactions"
+    ]
+  }
+}

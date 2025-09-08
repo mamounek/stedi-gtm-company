@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Credence Global Solutions offers services using AWS and Azure cloud infrastructures.",
+        "url": "https://www.credencegs.com/about"
+      },
+      {
+        "claim": "The company works with healthcare standards including HIPAA, FHIR, and X12 for data interoperability.",
+        "url": "https://www.credencegs.com/solutions/healthcare"
+      },
+      {
+        "claim": "Integration of EDI formats for healthcare transactions is part of their service offering.",
+        "url": "https://www.credencegs.com/services/edi-services"
+      },
+      {
+        "claim": "They have a dedicated section on their tech stack including cloud services utilized.",
+        "url": "https://www.credencegs.com/technology"
+      },
+      {
+        "claim": "Credence is focused on platform engineering which involves API integrations.",
+        "url": "https://www.credencegs.com/careers/platform-engineers"
+      }
+    ],
+    "tech_stack_confidence": 0.68
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes health tech for EDI and API integrations with focus on HIPAA and X12.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "X12 transactions",
+      "integrating payer/provider data"
+    ]
+  }
+}

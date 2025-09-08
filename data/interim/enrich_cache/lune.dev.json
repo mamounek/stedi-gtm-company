@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Event Streaming",
+      "API Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Lune.dev utilizes AWS for their infrastructure, ensuring scalability and reliability.",
+        "url": "https://lune.dev/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for interoperability with health data systems.",
+        "url": "https://lune.dev/docs/fhir-standards"
+      },
+      {
+        "claim": "Event streaming capabilities are provided through services integrated with Kafka.",
+        "url": "https://lune.dev/docs/event-streaming"
+      },
+      {
+        "claim": "Snowflake is used for data warehousing and analytics in healthcare applications.",
+        "url": "https://lune.dev/docs/snowflake-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of working with X12 transactions or clearinghouse functionalities.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

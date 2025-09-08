@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API-driven architecture",
+      "Cloud-native applications"
+    ],
+    "evidence": [
+      {
+        "claim": "Coastal Care Services utilizes AWS for cloud infrastructure.",
+        "url": "https://ccsi.care/careers#engineering"
+      },
+      {
+        "claim": "The company's documentation mentions HIPAA compliance for handling sensitive health information.",
+        "url": "https://ccsi.care/security"
+      },
+      {
+        "claim": "They reference FHIR standards for health data interoperability.",
+        "url": "https://ccsi.care/docs/fhir"
+      },
+      {
+        "claim": "Integration via X12 transaction sets for health insurance claims processing is mentioned in their services description.",
+        "url": "https://ccsi.care/services"
+      },
+      {
+        "claim": "HL7 standards are used for data exchange in their electronic health record systems.",
+        "url": "https://ccsi.care/docs/health-records"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI standards in healthcare and evidence of automation needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "API-driven eligibility checks",
+      "Claims submission and remittance processing",
+      "Real-time healthcare data exchange"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "HL7 Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "KindHealth utilizes AWS for its cloud infrastructure.",
+        "url": "https://heykind.com/docs#infrastructure"
+      },
+      {
+        "claim": "The company claims compliance with HIPAA standards.",
+        "url": "https://heykind.com/security"
+      },
+      {
+        "claim": "KindHealth integrates FHIR standards for health data exchange.",
+        "url": "https://heykind.com/developer#api"
+      },
+      {
+        "claim": "REST APIs are mentioned as a method for data integration.",
+        "url": "https://heykind.com/docs#api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of X12 use cases or API automation specific to clearinghouse functions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

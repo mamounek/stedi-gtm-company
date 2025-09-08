@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Kubernetes"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud infrastructure to support their applications.",
+        "url": "https://imagetechsys.com/solutions/cloud-architecture/"
+      },
+      {
+        "claim": "Integrates with FHIR standards for health data exchange.",
+        "url": "https://imagetechsys.com/healthcare-technology/fhir-integration/"
+      },
+      {
+        "claim": "Utilizes HL7 protocols for healthcare interoperability.",
+        "url": "https://imagetechsys.com/docs/hl7-standards/"
+      }
+    ],
+    "tech_stack_confidence": 0.59
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of focus on X12 transactions or API automation for healthcare data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

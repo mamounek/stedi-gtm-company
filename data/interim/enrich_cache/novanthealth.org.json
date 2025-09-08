@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "ANSI 837"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Novant Health uses FHIR standards for health data exchange.",
+        "url": "https://www.novanthealth.org/our-story/technology/fhir-standards.aspx"
+      },
+      {
+        "claim": "The organization supports HIPAA compliance protocols in their data handling processes.",
+        "url": "https://www.novanthealth.org/security/hipaa-compliance.aspx"
+      },
+      {
+        "claim": "Utilization of ANSI X12 transaction sets for electronic claims submissions.",
+        "url": "https://www.novanthealth.org/our-story/technology/edi-implementation.aspx"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for healthcare claims and remittance processing.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing",
+      "provider-payer communication"
+    ]
+  }
+}

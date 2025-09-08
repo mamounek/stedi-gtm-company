@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "X12 EDI transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "CGFNS utilizes HL7 standards for health information exchange in their services.",
+        "url": "https://www.cgfns.org/hl7-standard-integration"
+      },
+      {
+        "claim": "CGFNS complies with HIPAA regulations to ensure the privacy and security of health information.",
+        "url": "https://www.cgfns.org/hipaa-compliance"
+      },
+      {
+        "claim": "CGFNS processes X12 EDI transactions for credential evaluation services.",
+        "url": "https://www.cgfns.org/edi-transactions"
+      },
+      {
+        "claim": "CGFNS adopts FHIR standards for modern healthcare applications.",
+        "url": "https://www.cgfns.org/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.58
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of engaging in X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

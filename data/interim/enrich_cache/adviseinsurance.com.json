@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Advise Insurance utilizes AWS for cloud services.",
+        "url": "https://adviseinsurance.com/cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for health data management.",
+        "url": "https://adviseinsurance.com/security-standards"
+      },
+      {
+        "claim": "Integration of X12 for EDI transactions is part of their offerings.",
+        "url": "https://adviseinsurance.com/edi-info"
+      },
+      {
+        "claim": "Azure services are mentioned in their technical documentation regarding application hosting.",
+        "url": "https://adviseinsurance.com/developer-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health insurance transactions using X12 for benefits and claims processing.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims submissions",
+      "Eligibility verification",
+      "Remittance processing"
+    ]
+  }
+}

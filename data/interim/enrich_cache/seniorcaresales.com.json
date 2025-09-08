@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance standards"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company emphasizes HIPAA compliance in their service offerings, indicating a focus on health data security and privacy standards.",
+        "url": "https://seniorcaresales.com/security"
+      },
+      {
+        "claim": "No specific APIs or cloud service details were found on their official site indicating the backend technologies used.",
+        "url": "https://seniorcaresales.com/docs"
+      },
+      {
+        "claim": "The company operates within health tech constraints and adheres to compliance relevant to EHRs, though specific transaction sets were not mentioned.",
+        "url": "https://seniorcaresales.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company primarily targets sales solutions, not healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

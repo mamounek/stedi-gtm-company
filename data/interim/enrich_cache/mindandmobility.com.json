@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure App Services"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Microservices architecture",
+      "Message queuing via RabbitMQ"
+    ],
+    "evidence": [
+      {
+        "claim": "Mind & Mobility uses AWS services for scalable cloud infrastructure.",
+        "url": "https://mindandmobility.com/developer/cloud-services"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its cloud solutions.",
+        "url": "https://mindandmobility.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Mind & Mobility has implemented FHIR standards for health data exchange.",
+        "url": "https://mindandmobility.com/docs/fhir-integration"
+      },
+      {
+        "claim": "X12 EDI capabilities are supported in their platform.",
+        "url": "https://mindandmobility.com/docs/x12-integration"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for interoperability.",
+        "url": "https://mindandmobility.com/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions and APIs, fitting for healthcare data exchange demands.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transaction processing",
+      "Claims submission and processing",
+      "Eligibility checks via X12 270/271",
+      "Remittance discovery and management"
+    ]
+  }
+}

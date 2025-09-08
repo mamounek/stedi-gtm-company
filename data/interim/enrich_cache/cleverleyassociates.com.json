@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API integrations for healthcare data exchange",
+      "Cloud services for healthcare compliance"
+    ],
+    "evidence": [
+      {
+        "claim": "Cleverly + Associates utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://cleverleyassociates.com/technology"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its healthcare data management solutions.",
+        "url": "https://cleverleyassociates.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems using FHIR standards is mentioned.",
+        "url": "https://cleverleyassociates.com/services"
+      },
+      {
+        "claim": "They employ Google Cloud Platform for data processing needs.",
+        "url": "https://cleverleyassociates.com/cloud-services"
+      },
+      {
+        "claim": "HL7 compliance is part of their data exchange solutions.",
+        "url": "https://cleverleyassociates.com/resources"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They focus on X12 healthcare data exchange and API integrations.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claims status",
+      "837 claim submissions",
+      "835 remittance advice",
+      "clearinghouse services"
+    ]
+  }
+}

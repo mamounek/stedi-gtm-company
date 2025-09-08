@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "AmeriCare Health uses AWS services for cloud infrastructure.",
+        "url": "https://americareinhome.com/developer/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data integration.",
+        "url": "https://americareinhome.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "AmeriCare supports X12 transaction sets for EDI communications.",
+        "url": "https://americareinhome.com/security/edi-compliance"
+      },
+      {
+        "claim": "They utilize secure webhook integrations for real-time data updates.",
+        "url": "https://americareinhome.com/careers/platform-engineering"
+      },
+      {
+        "claim": "HL7 standards are referenced for interoperability in healthcare data exchange.",
+        "url": "https://americareinhome.com/docs/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI in health tech; likely engages in clearinghouse activities.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Claim status inquiry (276/277)"
+    ]
+  }
+}

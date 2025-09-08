@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Core Health Metrics IQ utilizes AWS Lambda for serverless computing.",
+        "url": "https://corehealthmetricsiq.org/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company has established HIPAA compliance protocols for managing sensitive health data.",
+        "url": "https://corehealthmetricsiq.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "Core Health Metrics IQ provides a FHIR API for health data interoperability.",
+        "url": "https://corehealthmetricsiq.org/developer/fhir-api"
+      },
+      {
+        "claim": "They implement RESTful APIs for integration with EHR systems.",
+        "url": "https://corehealthmetricsiq.org/docs/restful-api"
+      },
+      {
+        "claim": "Amazon S3 is used for storing health-related data securely.",
+        "url": "https://corehealthmetricsiq.org/docs/data-storage"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction use or clearinghouse operations found on their website.",
+    "icp_confidence": 0.6,
+    "matched_use_cases": []
+  }
+}

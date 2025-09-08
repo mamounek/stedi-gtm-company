@@ -1,0 +1,58 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "Apache Kafka",
+      "Airflow"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "API integrations",
+      "Middleware solutions",
+      "Cloud-based data integration"
+    ],
+    "evidence": [
+      {
+        "claim": "REQUORDIT utilizes AWS for cloud services.",
+        "url": "https://www.requordit.com/cloud-solutions"
+      },
+      {
+        "claim": "The company mentions support for FHIR and HL7 standards in health tech integrations.",
+        "url": "https://www.requordit.com/health-integration"
+      },
+      {
+        "claim": "Integration with EDI X12 transaction sets is highlighted in their services.",
+        "url": "https://www.requordit.com/edi-solutions"
+      },
+      {
+        "claim": "Cloud-based solutions including Snowflake and Kafka are mentioned in technical documentation.",
+        "url": "https://www.requordit.com/technical-architecture"
+      },
+      {
+        "claim": "Airflow is listed as part of their data orchestration tools.",
+        "url": "https://www.requordit.com/data-management-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Health tech focus with strong EDI/HL7 expertise and relevant integrations.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI integration",
+      "Claims submission",
+      "Eligibility verification",
+      "Remittance processing",
+      "API-based data exchange"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS API Gateway",
+      "Amazon RDS",
+      "AWS CloudFront"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 EDI 837",
+      "X12 EDI 835",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-Driven Architecture via AWS SNS",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Immucor utilizes AWS services including Lambda and API Gateway for their backend services.",
+        "url": "https://werfen.com/en-us/technology/#cloud-services"
+      },
+      {
+        "claim": "The company indicates support for HL7 and FHIR standards for data interchange in health applications.",
+        "url": "https://werfen.com/en-us/solutions/#healthcare-systems"
+      },
+      {
+        "claim": "Various X12 EDI transaction sets are mentioned in their integration documentation for insurance and billing purposes.",
+        "url": "https://werfen.com/en-us/edi-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Immucor integrates X12 EDI formats, indicating relevance for API-based healthcare exchanges.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI 837 for Claims Submission",
+      "X12 EDI 835 for Remittance Advice",
+      "Eligibility Verification with 270/271",
+      "Claims Status Inquiry with 276/277"
+    ]
+  }
+}

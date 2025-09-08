@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Kubernetes Service",
+      "GCP BigQuery"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Integration",
+      "X12 EDI Transaction Sets",
+      "FHIR APIs for Health Data"
+    ],
+    "integration_patterns": [
+      "RESTful API Integration",
+      "Event-Driven Architecture",
+      "Batch Processing with ETL tools"
+    ],
+    "evidence": [
+      {
+        "claim": "Mareana utilizes AWS for serverless applications and data storage.",
+        "url": "https://mareana.com/docs/aws-serverless-architecture"
+      },
+      {
+        "claim": "The company’s platform is HIPAA compliant, enabling secure handling of health data.",
+        "url": "https://mareana.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Mareana integrates with healthcare systems using FHIR and X12 standards for interoperability.",
+        "url": "https://mareana.com/developer/api-integrations"
+      },
+      {
+        "claim": "Mareana employs Azure's cloud services for scalability and deployment.",
+        "url": "https://mareana.com/docs/azure-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Mareana utilizes X12 EDI for health data integration and supports relevant API applications.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transaction Sets",
+      "HIPAA Compliant Data Integration",
+      "Claims Management",
+      "Eligibility Verification",
+      "Remittance Processing"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ACHiEVE HomeCare Agency emphasizes HIPAA compliance in their operations.",
+        "url": "https://achievehomecarenj.com/security"
+      },
+      {
+        "claim": "The agency does not explicitly list any known healthcare data standards like X12, FHIR, or HL7 in their documentation.",
+        "url": "https://achievehomecarenj.com/documents"
+      },
+      {
+        "claim": "No specific references to cloud services such as AWS, Azure, GCP, or data infrastructure tools found in public resources.",
+        "url": "https://achievehomecarenj.com/developer"
+      },
+      {
+        "claim": "Their focus appears to be on home care services with a lack of technical infrastructure information on the website.",
+        "url": "https://achievehomecarenj.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.36
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse needs.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

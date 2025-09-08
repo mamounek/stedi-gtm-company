@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless deployments.",
+        "url": "https://caregivercloud.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Caregiver Cloud Services ensures HIPAA compliance for all patient data management.",
+        "url": "https://caregivercloud.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The service supports FHIR API for health data exchange.",
+        "url": "https://caregivercloud.com/developer/fhir-api"
+      },
+      {
+        "claim": "HL7 integration is part of the service offering for interoperability.",
+        "url": "https://caregivercloud.com/docs/hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 EDI use cases or automated claim processing.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

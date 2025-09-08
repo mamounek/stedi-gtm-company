@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Management",
+      "Middleware Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Another CRM leverages AWS cloud services for its platform infrastructure.",
+        "url": "https://anothercrm.com/docs/aws-architecture"
+      },
+      {
+        "claim": "The company supports FHIR standards for healthcare data interoperability.",
+        "url": "https://anothercrm.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with HL7 protocols is documented for EHR systems.",
+        "url": "https://anothercrm.com/developer/hl7-integration"
+      },
+      {
+        "claim": "They utilize GCP for scalable cloud solutions including data storage and processing.",
+        "url": "https://anothercrm.com/docs/gcp-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of focus on HIPAA X12 transactions or clearinghouse operations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

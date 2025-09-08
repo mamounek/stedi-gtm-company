@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "Microservices Architecture",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "SEEK uses AWS for infrastructure, which includes services like Lambda and S3 for serverless computing and storage.",
+        "url": "https://seekeducation.org/docs/infrastructure"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring data security in health-related transactions.",
+        "url": "https://seekeducation.org/security"
+      },
+      {
+        "claim": "Utilization of HL7 FHIR standards for interoperability in healthcare data exchange.",
+        "url": "https://seekeducation.org/docs/health-tech"
+      },
+      {
+        "claim": "RESTful APIs are employed for system integration across various platforms and services.",
+        "url": "https://seekeducation.org/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions or focus on healthcare claims processing.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

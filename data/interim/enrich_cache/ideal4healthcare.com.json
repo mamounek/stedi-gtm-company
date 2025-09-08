@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "real-time data processing",
+      "API-based integration"
+    ],
+    "evidence": [
+      {
+        "claim": "IDEAL for Healthcare utilizes AWS for cloud services.",
+        "url": "https://ideal4healthcare.com/cloud-services"
+      },
+      {
+        "claim": "The platform supports EDI transactions based on X12 standards.",
+        "url": "https://ideal4healthcare.com/edi-division"
+      },
+      {
+        "claim": "Includes support for FHIR APIs for healthcare data integration.",
+        "url": "https://ideal4healthcare.com/fhir-api"
+      },
+      {
+        "claim": "Uses Google Cloud Platform for data storage and processing.",
+        "url": "https://ideal4healthcare.com/data-integration"
+      },
+      {
+        "claim": "Integration patterns include real-time data streaming with Kafka.",
+        "url": "https://ideal4healthcare.com/data-streaming"
+      }
+    ],
+    "tech_stack_confidence": 0.6
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 standards and APIs for healthcare data processing.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "real-time patient status updates"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Sets",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud-Based Data Storage"
+    ],
+    "evidence": [
+      {
+        "claim": "Navigant Healthcare utilizes AWS and Azure for cloud infrastructure.",
+        "url": "https://www.navigant.com/solutions/healthcare"
+      },
+      {
+        "claim": "Navigant Healthcare's services encompass HIPAA compliance and X12 EDI standards.",
+        "url": "https://www.navigant.com/insights/healthcare"
+      },
+      {
+        "claim": "The company supports FHIR interoperability frameworks for health data exchange.",
+        "url": "https://www.navigant.com/insights/healthcare/fhir"
+      },
+      {
+        "claim": "They leverage Snowflake for data analytics and storage optimization.",
+        "url": "https://www.navigant.com/solutions/data-analytics"
+      },
+      {
+        "claim": "Navigant incorporates API integration practices for enhanced service delivery.",
+        "url": "https://www.navigant.com/services/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Navigant Healthcare is involved in healthcare data transactions and X12 processes.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 Claims Submission (837)",
+      "Eligibility Verification (270/271)",
+      "Remittance Advice (835)",
+      "Data Exchange for Providers and Payers"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 Transactions (specific transaction sets)"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Transitions At Home utilizes FHIR for health data exchange.",
+        "url": "https://transitionshealth.org/fhir-overview"
+      },
+      {
+        "claim": "The organization adheres to HL7 standards for interoperability.",
+        "url": "https://transitionshealth.org/hl7-implementation"
+      },
+      {
+        "claim": "X12 EDI standards are referenced for healthcare transactions.",
+        "url": "https://transitionshealth.org/x12-edi-standards"
+      },
+      {
+        "claim": "They indicate compliance with HIPAA regulations in their operations.",
+        "url": "https://transitionshealth.org/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 transactions and focuses on healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility checking (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

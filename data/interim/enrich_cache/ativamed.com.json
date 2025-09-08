@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Ativa utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://www.ativamed.com/developer-api"
+      },
+      {
+        "claim": "The company implements FHIR standards for healthcare data integration.",
+        "url": "https://www.ativamed.com/health-tech"
+      },
+      {
+        "claim": "Azure SQL Database is used for data storage and management.",
+        "url": "https://www.ativamed.com/docs/infrastructure"
+      },
+      {
+        "claim": "HIPAA compliance is a key focus in their security protocols.",
+        "url": "https://www.ativamed.com/security"
+      },
+      {
+        "claim": "Ativa supports X12 transaction sets for healthcare billing purposes.",
+        "url": "https://www.ativamed.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange suggests alignment with API-first model for X12 usage.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Health insurance eligibility verification",
+      "Claims submission and remittance processing",
+      "Provider-payer data exchange"
+    ]
+  }
+}

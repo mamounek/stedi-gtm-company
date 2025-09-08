@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [
+      "FHIR",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "AJC utilizes HIPAA compliance in its health-tech solutions.",
+        "url": "https://andreajonesconsulting.com/services/health-tech-compliance"
+      },
+      {
+        "claim": "The company engages with X12 transaction sets for healthcare operations.",
+        "url": "https://andreajonesconsulting.com/edi-services"
+      },
+      {
+        "claim": "AJC implements FHIR standards in their healthcare data management practices.",
+        "url": "https://andreajonesconsulting.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found supporting use of X12 or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

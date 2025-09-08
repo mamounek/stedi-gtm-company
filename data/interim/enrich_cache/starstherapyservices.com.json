@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR Standard",
+      "HL7 Messaging"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud Storage Integration",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Stars Therapy Services utilizes AWS for cloud storage and serverless computing.",
+        "url": "https://starstherapyservices.com/cloud_services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance standards for handling patient data.",
+        "url": "https://starstherapyservices.com/security"
+      },
+      {
+        "claim": "Implementation of FHIR standards for health data exchange.",
+        "url": "https://starstherapyservices.com/fhir"
+      },
+      {
+        "claim": "Use of X12 transaction sets for billing processes.",
+        "url": "https://starstherapyservices.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI transactions and is HIPAA compliant, indicating potential for X12 exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

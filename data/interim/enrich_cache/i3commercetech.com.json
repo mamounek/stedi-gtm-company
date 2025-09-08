@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "i3 Commerce uses AWS services including Lambda and S3 for backend processing and storage.",
+        "url": "https://i3commercetech.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company implements FHIR for healthcare data exchange as part of its interoperability solutions.",
+        "url": "https://i3commercetech.com/health-tech/fhir-implementation"
+      },
+      {
+        "claim": "X12 and EDI transaction sets are utilized for processing healthcare claims and transactions effectively.",
+        "url": "https://i3commercetech.com/docs/x12-edi-support"
+      },
+      {
+        "claim": "Integration with various cloud platforms is highlighted in their developer documentation, mentioning Azure Functions.",
+        "url": "https://i3commercetech.com/dev/cloud-integration"
+      },
+      {
+        "claim": "The engineering page references the use of REST APIs and Webhooks for system integrations.",
+        "url": "https://i3commercetech.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange using APIs and X12 standards aligns with ICP criteria.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 270/271 eligibility checks",
+      "X12 276/277 claims status inquiries",
+      "X12 837/835 claims submission and remittance",
+      "Clearinghouse services for healthcare transactions"
+    ]
+  }
+}

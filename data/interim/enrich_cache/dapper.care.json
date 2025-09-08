@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliant data management",
+      "FHIR API integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Webhooks for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Dapper Care utilizes AWS cloud services to manage scalable data infrastructure.",
+        "url": "https://dapper.care/docs/infrastructure"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in the handling of health information through their APIs.",
+        "url": "https://dapper.care/security"
+      },
+      {
+        "claim": "Integration with EHR systems is implemented via RESTful APIs and FHIR standards.",
+        "url": "https://dapper.care/api"
+      },
+      {
+        "claim": "Dapper Care mentions using GCP for processing and storing sensitive health data securely.",
+        "url": "https://dapper.care/docs/cloud-services"
+      },
+      {
+        "claim": "Transaction sets for healthcare billing and claims processing are based on X12 standards.",
+        "url": "https://dapper.care/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions; focus on HIPAA compliant data management and FHIR APIs.",
+    "icp_confidence": 0.5,
+    "matched_use_cases": []
+  }
+}

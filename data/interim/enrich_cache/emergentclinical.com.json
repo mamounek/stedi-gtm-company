@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "Cloud-based EHR integration",
+      "API-driven healthcare data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Emergent Clinical Consulting utilizes AWS and Azure for their cloud infrastructure.",
+        "url": "https://emergentclinical.com/cloud-solutions"
+      },
+      {
+        "claim": "They follow HIPAA guidelines for secure healthcare data handling.",
+        "url": "https://emergentclinical.com/security"
+      },
+      {
+        "claim": "The company engages in FHIR and HL7 standards for healthcare data interoperability.",
+        "url": "https://emergentclinical.com/healthcare-interoperability"
+      },
+      {
+        "claim": "They provide integration capabilities for EHR systems using X12 transactions.",
+        "url": "https://emergentclinical.com/integration-services"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Key focus on X12 standard and API-driven healthcare data exchange indicates alignment with ICP.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 healthcare transactions",
+      "API automation for claims processing",
+      "Eligibility and benefits verification",
+      "Remittance advice processing",
+      "Provider data exchange"
+    ]
+  }
+}

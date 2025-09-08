@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 standards",
+      "FHIR implementation"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming services"
+    ],
+    "evidence": [
+      {
+        "claim": "BTE Technologies utilizes AWS for cloud services.",
+        "url": "https://btetechnologies.com/cloud-solutions"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations in their technology implementations.",
+        "url": "https://btetechnologies.com/hipaa-compliance"
+      },
+      {
+        "claim": "BTE Technologies incorporates HL7 standards for health data interoperability.",
+        "url": "https://btetechnologies.com/ehr-integration"
+      },
+      {
+        "claim": "They use Azure's services for scalable cloud infrastructure.",
+        "url": "https://btetechnologies.com/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or API automation in healthcare.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

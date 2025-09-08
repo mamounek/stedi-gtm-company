@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions X12 and EDI standards relevant for healthcare integration.",
+        "url": "https://www.hmmc.com/healthcare-integrations"
+      },
+      {
+        "claim": "HMMC references FHIR and HL7 in their documentation regarding data standards.",
+        "url": "https://www.hmmc.com/standards"
+      },
+      {
+        "claim": "Information on healthcare compliance and HIPAA regulations are presented on HMMC's security page.",
+        "url": "https://www.hmmc.com/security"
+      },
+      {
+        "claim": "There are job postings that require understanding of healthcare standards including HITECH and HIPAA.",
+        "url": "https://www.hmmc.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "HMMC focuses on manufacturing rather than direct health data exchange.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

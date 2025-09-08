@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "EHR Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Focus Care utilizes AWS for their cloud infrastructure.",
+        "url": "https://focuscares.com/docs/aws-overview"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations.",
+        "url": "https://focuscares.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Focus Care integrates with EHRs using FHIR standards.",
+        "url": "https://focuscares.com/api/ehr-integration"
+      },
+      {
+        "claim": "Focus Care supports HL7 messaging for data exchange.",
+        "url": "https://focuscares.com/docs/hl7-support"
+      },
+      {
+        "claim": "API documentation is provided for integration with third-party services.",
+        "url": "https://focuscares.com/docs/api-basics"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus Care operates in healthcare with API integration, aligning with X12 use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Checks (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Claim Status (276/277)"
+    ]
+  }
+}

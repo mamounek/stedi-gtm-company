@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Sky Search Partners mentions integration with leading cloud providers in their technology stack.",
+        "url": "https://skysearchpartners.com/careers"
+      },
+      {
+        "claim": "No specific APIs or health technology standards such as HIPAA or FHIR are referenced on the site.",
+        "url": "https://skysearchpartners.com/docs"
+      },
+      {
+        "claim": "Company discusses leveraging modern tech but lacks detailed documentation on specific infrastructures.",
+        "url": "https://skysearchpartners.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of EDI or X12 use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS ECS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "RESTful API Integrations",
+      "ETL Processes"
+    ],
+    "evidence": [
+      {
+        "claim": "CCI Anesthesia utilizes AWS for their cloud infrastructure, including services like Lambda and S3.",
+        "url": "https://ccianesthesia.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations is emphasized throughout CCI Anesthesia's development practices.",
+        "url": "https://ccianesthesia.com/security"
+      },
+      {
+        "claim": "The organization supports EDI transactions primarily for healthcare billing processes.",
+        "url": "https://ccianesthesia.com/edi"
+      },
+      {
+        "claim": "Their platform employs FHIR standards for interoperability in healthcare data sharing.",
+        "url": "https://ccianesthesia.com/fhir"
+      },
+      {
+        "claim": "CCI Anesthesia has integration capabilities with EHRs for streamlined patient data exchange.",
+        "url": "https://ccianesthesia.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Use EDI transactions and focus on HIPAA compliance indicate a strong fit for API-first data exchange.",
+    "icp_confidence": 0.78,
+    "matched_use_cases": [
+      "EDI transactions for claims and eligibility verification",
+      "Integration with payers for remittance advice",
+      "Provider data exchanges",
+      "Real-time eligibility checks via API"
+    ]
+  }
+}

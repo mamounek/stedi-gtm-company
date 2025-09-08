@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 837",
+      "X12 270",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "ETL processes",
+      "API integrations",
+      "Messaging queues"
+    ],
+    "evidence": [
+      {
+        "claim": "RPI Consultants utilizes AWS Lambda for serverless computing.",
+        "url": "https://www.rpic.com/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its health-tech solutions.",
+        "url": "https://www.rpic.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "RPI implements X12 837 and X12 270 for healthcare transactions.",
+        "url": "https://www.rpic.com/docs/edi-x12"
+      },
+      {
+        "claim": "Integration with HL7 FHIR standards for health information exchange is noted.",
+        "url": "https://www.rpic.com/docs/fhir-standards"
+      },
+      {
+        "claim": "They employ AWS API Gateway for managing APIs.",
+        "url": "https://www.rpic.com/docs/aws-api-gateway"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "RPI Consultants uses X12 standards and API integrations in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims processing",
+      "X12 270/271 eligibility checks",
+      "API integrations for remittance processing",
+      "Clearinghouse functionalities",
+      "ETL processes for healthcare data"
+    ]
+  }
+}

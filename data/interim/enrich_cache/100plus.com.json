@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "100Plus utilizes AWS for cloud infrastructure.",
+        "url": "https://100plus.com/company"
+      },
+      {
+        "claim": "The company is compliant with HIPAA standards.",
+        "url": "https://100plus.com/security"
+      },
+      {
+        "claim": "References to FHIR implementations in their healthcare solutions.",
+        "url": "https://100plus.com/developer"
+      },
+      {
+        "claim": "Mentions of EHR integration on platform pages.",
+        "url": "https://100plus.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or clearance operations found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

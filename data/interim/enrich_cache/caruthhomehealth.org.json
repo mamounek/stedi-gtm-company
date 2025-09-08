@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Caruth Home Health utilizes FHIR for healthcare data interoperability.",
+        "url": "https://caruthhomehealth.org/health-tech-fhir"
+      },
+      {
+        "claim": "The organization complies with HIPAA regulations for handling patient data.",
+        "url": "https://caruthhomehealth.org/security-hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on the website.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

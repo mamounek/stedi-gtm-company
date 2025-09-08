@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "NEXIE utilizes AWS for scalable cloud services.",
+        "url": "https://nexie.co/docs/cloud-services"
+      },
+      {
+        "claim": "The platform is designed with HIPAA compliance in mind for handling health data.",
+        "url": "https://nexie.co/security/hipaa"
+      },
+      {
+        "claim": "Integration with HL7 standards allows for health data exchange.",
+        "url": "https://nexie.co/docs/integration/hl7"
+      },
+      {
+        "claim": "NEXIE offers RESTful API access for developers.",
+        "url": "https://nexie.co/developer/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

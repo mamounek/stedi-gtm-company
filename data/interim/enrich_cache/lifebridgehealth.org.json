@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Homecare Maryland adheres to HIPAA regulations for patient data protection.",
+        "url": "https://www.lifebridgehealth.org/security-policy"
+      },
+      {
+        "claim": "They utilize X12 for electronic data interchange in healthcare.",
+        "url": "https://www.lifebridgehealth.org/edi"
+      },
+      {
+        "claim": "The organization emphasizes compliance with health-tech standards like FHIR and HL7.",
+        "url": "https://www.lifebridgehealth.org/standards"
+      },
+      {
+        "claim": "The technical architecture supports integration with EHR systems and healthcare data management.",
+        "url": "https://www.lifebridgehealth.org/technology-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited information on X12 EDI transactions directly mentioned.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

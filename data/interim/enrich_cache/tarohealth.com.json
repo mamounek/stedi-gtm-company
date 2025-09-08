@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Taro Health utilizes AWS services for serverless architecture and data storage.",
+        "url": "https://tarohealth.com/docs/aws"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards, ensuring secure handling of health data.",
+        "url": "https://tarohealth.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems supports HL7 FHIR standards for interoperability.",
+        "url": "https://tarohealth.com/docs/integration/hl7"
+      },
+      {
+        "claim": "They have mentioned the use of REST APIs for integrating with third-party health services.",
+        "url": "https://tarohealth.com/docs/api"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse capabilities on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

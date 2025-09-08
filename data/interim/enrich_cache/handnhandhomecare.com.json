@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "FHIR RESTful APIs",
+      "HL7 V2.x messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "Hand N Hand Home Healthcare utilizes FHIR for health data exchange.",
+        "url": "https://handnhandhomecare.com/fhir-implementation"
+      },
+      {
+        "claim": "HL7 standards are employed for patient data interoperability in their systems.",
+        "url": "https://handnhandhomecare.com/hl7-data-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.38
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 or API automation related to healthcare clearinghouse functions.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

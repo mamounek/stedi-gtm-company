@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Wellness Strategies Group mentions compliance with HIPAA regulations on their security page.",
+        "url": "https://wellnessstrategiesgroup.com/security"
+      },
+      {
+        "claim": "The company outlines their integration capabilities with EHRs on their services page.",
+        "url": "https://wellnessstrategiesgroup.com/services"
+      },
+      {
+        "claim": "Wellness Strategies Group highlights the use of FHIR standards for health data exchange.",
+        "url": "https://wellnessstrategiesgroup.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 or related clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

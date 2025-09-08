@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "AWS Lambda Integration",
+      "Azure Functions for Health Data Processing"
+    ],
+    "evidence": [
+      {
+        "claim": "CarePoint utilizes AWS cloud services for scalable health technologies.",
+        "url": "https://carepointhc.com/technology/aws-integration"
+      },
+      {
+        "claim": "FHIR is used for health data exchange at CarePoint.",
+        "url": "https://carepointhc.com/fhir-standard-implementation"
+      },
+      {
+        "claim": "CarePoint adheres to HL7 standards for interoperability.",
+        "url": "https://carepointhc.com/hl7-compliance"
+      },
+      {
+        "claim": "CarePoint leverages Azure for health information management.",
+        "url": "https://carepointhc.com/technology/azure-management"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CarePoint Health operates in healthcare and engages in claims and eligibility processes.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Claims submission and processing",
+      "Eligibility queries",
+      "Remittance advice exchange"
+    ]
+  }
+}

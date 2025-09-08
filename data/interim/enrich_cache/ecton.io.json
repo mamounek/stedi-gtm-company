@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "Kafka",
+      "Airflow"
+    ],
+    "evidence": [
+      {
+        "claim": "Ecton utilizes AWS for their infrastructure scaling and services.",
+        "url": "https://ecton.io/docs/#cloud-services"
+      },
+      {
+        "claim": "Ecton integrates with FHIR standards for health data exchange.",
+        "url": "https://ecton.io/docs/#health-data"
+      },
+      {
+        "claim": "They implement Kafka for event streaming in their services.",
+        "url": "https://ecton.io/docs/#data-integration"
+      },
+      {
+        "claim": "Supports X12 transactions for electronic data interchange in healthcare.",
+        "url": "https://ecton.io/docs/#edi-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of focus on X12/EDI transactions or API automation for healthcare exchange.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

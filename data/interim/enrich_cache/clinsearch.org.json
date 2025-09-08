@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API integration for EHRs",
+      "Data exchange with HIPAA-compliant messaging"
+    ],
+    "evidence": [
+      {
+        "claim": "CLINsearch utilizes AWS for cloud infrastructure.",
+        "url": "https://clinsearch.org/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for health data management.",
+        "url": "https://clinsearch.org/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration capabilities include FHIR for health data interoperability.",
+        "url": "https://clinsearch.org/developer/fhir-integration"
+      },
+      {
+        "claim": "Supports X12 transaction sets for healthcare data exchange.",
+        "url": "https://clinsearch.org/docs/edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange, leveraging X12 and API integrations for EHRs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Healthcare eligibility checks (270/271)",
+      "Claims submission and management (837)",
+      "Claims status inquiries (276/277)",
+      "Remittance advice (835)",
+      "Data exchange with HIPAA-compliant messaging"
+    ]
+  }
+}

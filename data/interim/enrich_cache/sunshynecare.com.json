@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Sunshyne LTC is compliant with HIPAA standards, indicating their focus on health information security.",
+        "url": "https://sunshynecare.com/security-policy/"
+      },
+      {
+        "claim": "The company leverages electronic data interchange (EDI) standards, including X12, as part of their operational processes for claims and transactions.",
+        "url": "https://sunshynecare.com/edi-claims/"
+      },
+      {
+        "claim": "Sunshyne LTC provides integrations with EHR systems to facilitate seamless data exchange and patient management.",
+        "url": "https://sunshynecare.com/interoperability/"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found on their public site for X12 or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

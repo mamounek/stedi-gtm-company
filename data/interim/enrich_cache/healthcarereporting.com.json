@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR API",
+      "HL7 V2",
+      "SOAP",
+      "REST"
+    ],
+    "evidence": [
+      {
+        "claim": "Healthcare Reporting uses AWS for its cloud infrastructure.",
+        "url": "https://healthcarereporting.com/docs/cloud-overview"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for data protection in healthcare.",
+        "url": "https://healthcarereporting.com/security/compliance"
+      },
+      {
+        "claim": "They utilize FHIR APIs for interoperability in health data exchange.",
+        "url": "https://healthcarereporting.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction usage or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

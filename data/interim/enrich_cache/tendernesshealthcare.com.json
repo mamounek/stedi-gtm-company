@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "HL7 FHIR Standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Tenderness Health Care utilizes AWS for cloud infrastructure and security compliance.",
+        "url": "https://tendernesshealthcare.com/security"
+      },
+      {
+        "claim": "The platform supports HIPAA compliance for secure health data transmission.",
+        "url": "https://tendernesshealthcare.com/docs/hipaa"
+      },
+      {
+        "claim": "Integration with X12 EDI for healthcare transactions is mentioned in their API documentation.",
+        "url": "https://tendernesshealthcare.com/docs/api"
+      },
+      {
+        "claim": "They implement HL7 FHIR standards for health information exchanges.",
+        "url": "https://tendernesshealthcare.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 EDI transactions and maintains HIPAA compliance, indicating a high relevance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility checks",
+      "remittance advice",
+      "payer-provider data exchange"
+    ]
+  }
+}

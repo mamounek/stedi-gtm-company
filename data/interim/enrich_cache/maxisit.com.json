@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "Google Cloud Platform",
+      "Azure DevOps",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "Microservices Architecture",
+      "Event-Driven Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "MaxisIT leverages AWS services for scalable infrastructure.",
+        "url": "https://maxisit.com/cloud-services"
+      },
+      {
+        "claim": "The company utilizes Kafka for data streaming solutions.",
+        "url": "https://maxisit.com/streaming-solutions"
+      },
+      {
+        "claim": "MaxisIT provides integration capabilities with EHRs using FHIR standards.",
+        "url": "https://maxisit.com/healthcare-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MaxisIT has a focus on HIPAA compliance and X12 EDI transactions, indicating relevant use cases.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Claims Status Inquiry (276/277)",
+      "Prior Authorization (278)"
+    ]
+  }
+}

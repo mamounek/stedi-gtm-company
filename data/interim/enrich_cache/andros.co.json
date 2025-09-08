@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standards",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Andros uses AWS services such as Lambda, S3, and RDS for their cloud infrastructure.",
+        "url": "https://andros.co/engineering/#cloud-infrastructure"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance in their security practices.",
+        "url": "https://andros.co/security/#hipaa"
+      },
+      {
+        "claim": "Andros supports FHIR standards for healthcare integration.",
+        "url": "https://andros.co/health-tech/#fhir"
+      },
+      {
+        "claim": "They utilize Snowflake for their data platform solutions.",
+        "url": "https://andros.co/engineering/#data-platforms"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Andros provides HIPAA compliant X12 transaction services suitable for healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance advice (835)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

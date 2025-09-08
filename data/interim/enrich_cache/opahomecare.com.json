@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "OPA Home Care uses FHIR standards for healthcare data exchange.",
+        "url": "https://opahomecare.com/healthtech"
+      },
+      {
+        "claim": "OPA Home Care mentions compliance with HIPAA regulations on their website.",
+        "url": "https://opahomecare.com/security"
+      },
+      {
+        "claim": "Screenshots of their software show integration with various EHR platforms.",
+        "url": "https://opahomecare.com/careers"
+      },
+      {
+        "claim": "The company discusses handling of healthcare data in accordance with HL7 protocols.",
+        "url": "https://opahomecare.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 use or API automation relevant to healthcare data exchange found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

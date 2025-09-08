@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance resources",
+      "FHIR guidelines"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Bespoken AI uses AWS Lambda for serverless computing needs.",
+        "url": "https://bespoken.io/docs/"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 EDI or healthcare clearinghouse use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

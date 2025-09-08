@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "TFC incorporates HIPAA compliance in its healthcare solutions.",
+        "url": "https://www.tfcinc.com/security"
+      },
+      {
+        "claim": "The company engages in data interchange using standards like HL7 and FHIR.",
+        "url": "https://www.tfcinc.com/solutions"
+      },
+      {
+        "claim": "TFC solutions are aligned with healthcare regulations including HIPAA.",
+        "url": "https://www.tfcinc.com/healthcare"
+      },
+      {
+        "claim": "TFC offers API services that connect with Electronic Health Records (EHRs).",
+        "url": "https://www.tfcinc.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or clearinghouse services on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

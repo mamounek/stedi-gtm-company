@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "EDI X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "RosmanSearch utilizes AWS and GCP for its cloud infrastructure.",
+        "url": "https://www.rosmansearch.com/devops"
+      },
+      {
+        "claim": "The company is HIPAA compliant and deals with healthcare data.",
+        "url": "https://www.rosmansearch.com/security"
+      },
+      {
+        "claim": "Integration with EDI X12 transaction sets is mentioned in their services.",
+        "url": "https://www.rosmansearch.com/services"
+      },
+      {
+        "claim": "RosmanSearch leverages Snowflake for data warehousing solutions.",
+        "url": "https://www.rosmansearch.com/data-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on EDI and HIPAA compliance indicates a strong need for X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claims status inquiries",
+      "837 claim submissions",
+      "835 remittance advice processing",
+      "X12 clearinghouse transactions"
+    ]
+  }
+}

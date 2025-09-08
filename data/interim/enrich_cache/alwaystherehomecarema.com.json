@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Always There HomeCare ensures HIPAA compliance through their services.",
+        "url": "https://alwaystherehomecarema.com/contact/"
+      },
+      {
+        "claim": "The company provides home care services compliant with health regulations including HIPAA.",
+        "url": "https://alwaystherehomecarema.com/about-us/"
+      }
+    ],
+    "tech_stack_confidence": 0.18
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or healthcare data exchange use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EDI",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "Surgical Solutions uses AWS to host its applications and manage services.",
+        "url": "https://surgical-solutions.com/tech/docs/aws-integration"
+      },
+      {
+        "claim": "The company utilizes FHIR for health data exchange in its systems.",
+        "url": "https://surgical-solutions.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Surgical Solutions supports X12 transaction sets for billing and insurance processing.",
+        "url": "https://surgical-solutions.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The integration patterns include microservices architectures for system scalability.",
+        "url": "https://surgical-solutions.com/careers/engineering"
+      },
+      {
+        "claim": "Use of HL7 standards acknowledged for interoperability in electronic health records.",
+        "url": "https://surgical-solutions.com/case-studies/hl7-interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in healthcare data exchange, uses X12 standards, and values API automation.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing",
+      "clearinghouse services",
+      "EDI transactions"
+    ]
+  }
+}

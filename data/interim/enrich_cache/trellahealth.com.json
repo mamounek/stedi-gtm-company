@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "Data integration with EHRs",
+      "Data exchange via clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "Trella Health utilizes AWS for scalable cloud infrastructure.",
+        "url": "https://trellahealth.com/about"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to ensure patient data protection.",
+        "url": "https://trellahealth.com/security"
+      },
+      {
+        "claim": "Trella Health leverages Apache Kafka for data streaming.",
+        "url": "https://trellahealth.com/engineering"
+      },
+      {
+        "claim": "Integration patterns include data exchange with leading EHR systems.",
+        "url": "https://trellahealth.com/integration"
+      },
+      {
+        "claim": "The company uses Snowflake for data warehousing solutions.",
+        "url": "https://trellahealth.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with HIPAA compliant data exchange using X12 and has integration with health tech solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "data exchange via clearinghouses",
+      "EHR data integration"
+    ]
+  }
+}

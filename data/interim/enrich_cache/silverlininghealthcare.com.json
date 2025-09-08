@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "Healthcare interoperability",
+      "Data integration via API"
+    ],
+    "evidence": [
+      {
+        "claim": "Silver Lining Home Healthcare utilizes AWS for their infrastructure.",
+        "url": "https://www.silverlininghealthcare.com/technology"
+      },
+      {
+        "claim": "The company implements FHIR standards for their health data exchange.",
+        "url": "https://www.silverlininghealthcare.com/fhir-implementation"
+      },
+      {
+        "claim": "X12 transaction sets are integrated for billing and claims processing in Silver Lining's services.",
+        "url": "https://www.silverlininghealthcare.com/x12-edi-info"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of use cases for X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

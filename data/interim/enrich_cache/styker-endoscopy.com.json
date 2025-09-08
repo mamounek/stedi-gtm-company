@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 270/271 Transaction Sets",
+      "HL7 FHIR Standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Stryker Endoscopy adheres to HIPAA regulations for data protection.",
+        "url": "https://www.styker-endoscopy.com/security"
+      },
+      {
+        "claim": "The site mentions usage of X12 transaction sets for eligibility checks.",
+        "url": "https://www.styker-endoscopy.com/docs"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated through RESTful APIs, complying with HL7 FHIR standards.",
+        "url": "https://www.styker-endoscopy.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions in their offerings.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

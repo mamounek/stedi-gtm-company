@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No technical API or cloud service mentioned on the company's site.",
+        "url": "https://sweetduckcleaner.com"
+      },
+      {
+        "claim": "No health-tech rails like HIPAA, X12 or integrations found during the search.",
+        "url": "https://sweetduckcleaner.com"
+      },
+      {
+        "claim": "Limited presence of technical infrastructure information on the Sweet Duck Cleaner website.",
+        "url": "https://sweetduckcleaner.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or healthcare data exchange use cases found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

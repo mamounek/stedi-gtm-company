@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI for healthcare transactions",
+      "HL7 FHIR standards"
+    ],
+    "integration_patterns": [
+      "Real-time data integration",
+      "Data pipeline for EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Raintree Systems utilizes AWS and Azure for its infrastructure.",
+        "url": "https://www.raintreeinc.com/cloud-solutions"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations in its services.",
+        "url": "https://www.raintreeinc.com/security"
+      },
+      {
+        "claim": "Raintree supports X12 EDI transaction sets for healthcare-specific communications.",
+        "url": "https://www.raintreeinc.com/solutions/edi-services"
+      },
+      {
+        "claim": "They implement HL7 and FHIR standards for data exchange.",
+        "url": "https://www.raintreeinc.com/fhir-integration"
+      },
+      {
+        "claim": "Integration of EHR APIs in their platform for healthcare data management.",
+        "url": "https://www.raintreeinc.com/developer/api"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Raintree Systems utilizes X12 EDI and supports healthcare data exchanges, qualifying them as an ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility verification",
+      "276/277 claim status inquiries",
+      "837/835 claim submission and remittance"
+    ]
+  }
+}

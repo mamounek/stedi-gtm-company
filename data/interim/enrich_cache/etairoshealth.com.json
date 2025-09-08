@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "Event Streaming",
+      "API Management"
+    ],
+    "evidence": [
+      {
+        "claim": "Etairos Health utilizes AWS and Azure for their cloud infrastructure.",
+        "url": "https://etairoshealth.com/index.php/developer-tools"
+      },
+      {
+        "claim": "The company mentions adherence to HIPAA regulations, highlighting their focus on healthcare data security.",
+        "url": "https://etairoshealth.com/index.php/security"
+      },
+      {
+        "claim": "Etairos integrates with EHR systems using FHIR and HL7 standards for interoperability.",
+        "url": "https://etairoshealth.com/index.php/healthcare"
+      },
+      {
+        "claim": "They employ Kafka for event-driven architecture in their platform.",
+        "url": "https://etairoshealth.com/index.php/integration"
+      },
+      {
+        "claim": "The integration of X12 transaction sets is part of their EDI capabilities, facilitating claims processing.",
+        "url": "https://etairoshealth.com/index.php/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Etairos Health focuses on healthcare data exchange and X12 compliance, indicating relevant use cases.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 Transaction Sets",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

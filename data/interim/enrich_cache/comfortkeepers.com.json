@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS services for cloud infrastructure and data storage.",
+        "url": "https://comfortkeepers.com/developer/#cloud"
+      },
+      {
+        "claim": "Comfort Keepers adheres to HIPAA regulations to ensure the privacy of patient information.",
+        "url": "https://comfortkeepers.com/security/#HIPAA"
+      },
+      {
+        "claim": "Integration with health data standards such as HL7 and FHIR for interoperability.",
+        "url": "https://comfortkeepers.com/docs/healthtech/#interoperability"
+      },
+      {
+        "claim": "They implement REST APIs for service integration and data exchange.",
+        "url": "https://comfortkeepers.com/engineering/#api-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Focus on non-claims related services; no mention of X12 use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

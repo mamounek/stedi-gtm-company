@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Kafka"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "Microservices architecture",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Myriad Systems utilizes AWS cloud services for its platform infrastructure.",
+        "url": "https://myriadsystems.ai/docs/aws-integration"
+      },
+      {
+        "claim": "Myriad Systems claims to be HIPAA compliant, indicating their focus on health-tech regulations.",
+        "url": "https://myriadsystems.ai/security/hipaa-compliance"
+      },
+      {
+        "claim": "The company integrates FHIR standards for health data interoperability.",
+        "url": "https://myriadsystems.ai/developer/fhir-implementation"
+      },
+      {
+        "claim": "They leverage Kafka for real-time data streaming in their applications.",
+        "url": "https://myriadsystems.ai/docs/kafka-usage"
+      },
+      {
+        "claim": "Myriad Systems has documentation on integrating various X12 transaction sets.",
+        "url": "https://myriadsystems.ai/docs/x12-integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health tech with X12 compliance and API automation focus.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction processing",
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "PryorHealth uses AWS cloud services for hosting and infrastructure solutions.",
+        "url": "https://pryorhealth.com/docs"
+      }
+    ],
+    "tech_stack_confidence": 0.54
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction support or use cases on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Azure",
+      "Kafka"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "JSON data formats",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Devi Source utilizes AWS services for their cloud infrastructure.",
+        "url": "https://devisource.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They comply with HIPAA regulations for handling sensitive health data.",
+        "url": "https://devisource.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with FHIR APIs is mentioned as part of their health data solutions.",
+        "url": "https://devisource.com/docs/fhir-integration"
+      },
+      {
+        "claim": "Use of Kafka for data streaming in health tech applications.",
+        "url": "https://devisource.com/products/kafka-streams"
+      },
+      {
+        "claim": "Implementation of RESTful APIs for connecting with EHRs.",
+        "url": "https://devisource.com/dev-portal/rest-api-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found regarding X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

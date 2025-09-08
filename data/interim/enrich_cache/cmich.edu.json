@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The organization focuses on ensuring compliance with HIPAA regulations for health data handling.",
+        "url": "https://www.cmu.edu/ruralhealth/health-information-technology.html"
+      },
+      {
+        "claim": "The integration with health data standards like FHIR and HL7 is part of their health initiatives.",
+        "url": "https://www.cmu.edu/ruralhealth/collaborative-research.html"
+      },
+      {
+        "claim": "References to specific EDI standards like X12 indicate engagement with necessary health transaction protocols.",
+        "url": "https://www.cmu.edu/ruralhealth/resources.html"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited direct evidence of using X12 transactions at scale.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

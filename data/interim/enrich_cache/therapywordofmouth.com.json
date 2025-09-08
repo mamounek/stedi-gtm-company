@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Heroku",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "EHR integration"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Therapy Word of Mouth utilizes AWS for cloud services.",
+        "url": "https://therapywordofmouth.com/about"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations ensuring secure patient data handling.",
+        "url": "https://therapywordofmouth.com/security"
+      },
+      {
+        "claim": "They are using FHIR standards for health data exchange.",
+        "url": "https://therapywordofmouth.com/docs"
+      },
+      {
+        "claim": "Integration with EHR systems is part of their offering to streamline therapy management.",
+        "url": "https://therapywordofmouth.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

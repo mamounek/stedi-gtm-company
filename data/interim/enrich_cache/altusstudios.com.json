@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Altus Architectural Studios has no detectable references to specific technical APIs or cloud services on their website.",
+        "url": "https://altusstudios.com"
+      },
+      {
+        "claim": "There are no mentions of health-tech rails such as HIPAA X12, FHIR, or EHRs within Altus Architectural Studios' accessible pages.",
+        "url": "https://altusstudios.com"
+      },
+      {
+        "claim": "The search revealed no relevant content related to integration patterns or middleware solutions used by Altus Architectural Studios.",
+        "url": "https://altusstudios.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling medical claims or healthcare-related EDI processes.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "Google Cloud Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transaction Sets (835, 837)",
+      "FHIR API Implementation",
+      "HL7 Messaging Standards"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Microservices architecture",
+      "Serverless integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Collaborative Imaging utilizes AWS services for cloud infrastructure.",
+        "url": "https://collaborativeimaging.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance in its health tech applications.",
+        "url": "https://collaborativeimaging.com/security/hipaa"
+      },
+      {
+        "claim": "X12 EDI transaction sets are supported for efficient data exchange in healthcare billing.",
+        "url": "https://collaborativeimaging.com/edi/x12-support"
+      },
+      {
+        "claim": "The integration of FHIR APIs enhances interoperability with EHR systems.",
+        "url": "https://collaborativeimaging.com/docs/fhir"
+      },
+      {
+        "claim": "The architecture follows microservices principles to allow scalability.",
+        "url": "https://collaborativeimaging.com/docs/infrastructure"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange; supports relevant X12 transactions and API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submissions",
+      "Eligibility verification",
+      "Remittance processing",
+      "Provider-payer data exchange"
+    ]
+  }
+}

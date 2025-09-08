@@ -1,0 +1,46 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "cancerGO utilizes AWS services for serverless architecture and storage solutions.",
+        "url": "https://cancergo.org/developer/docs/aws-services"
+      },
+      {
+        "claim": "The platform maintains HIPAA compliance for handling sensitive patient data.",
+        "url": "https://cancergo.org/security/hipaa"
+      },
+      {
+        "claim": "cancerGO integrates FHIR standards for health data interoperability.",
+        "url": "https://cancergo.org/api/fhir-implementation"
+      },
+      {
+        "claim": "The system provides Webhook integrations for real-time data exchange.",
+        "url": "https://cancergo.org/developer/docs/integration"
+      },
+      {
+        "claim": "cancerGO makes use of HL7 protocols for healthcare data transmission.",
+        "url": "https://cancergo.org/docs/hl7-processing"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse functions found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company complies with HIPAA regulations, ensuring the privacy and protection of patient health information.",
+        "url": "https://homecareassistancemontgomery.com/about-2/"
+      },
+      {
+        "claim": "Home Care Assistance uses secure technologies to protect patient data, indicating potential use of industry standard secure infrastructures.",
+        "url": "https://homecareassistancemontgomery.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.23
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or EDI use on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

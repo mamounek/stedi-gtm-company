@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR standards"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Luminary Hospice adheres to HIPAA standards for patient data protection.",
+        "url": "https://luminaryhospice.com/security-and-privacy"
+      },
+      {
+        "claim": "The organization utilizes HL7 FHIR standards for health data exchange.",
+        "url": "https://luminaryhospice.com/careers"
+      },
+      {
+        "claim": "Comprehensive patient data handling in line with HIPAA regulations is a core aspect of Luminary's services.",
+        "url": "https://luminaryhospice.com/about"
+      },
+      {
+        "claim": "The company maintains compliance with EDI transaction standards for healthcare communication.",
+        "url": "https://luminaryhospice.com/security-and-privacy"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation related to clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

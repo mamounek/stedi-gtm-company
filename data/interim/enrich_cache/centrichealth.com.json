@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Centric Home Health utilizes FHIR standards for healthcare data exchange.",
+        "url": "https://centrichomehealth.com/documents/fhir-integration"
+      },
+      {
+        "claim": "The company supports HL7 interoperability for electronic health records.",
+        "url": "https://centrichomehealth.com/docs/hl7-standards"
+      },
+      {
+        "claim": "Centric Home Health handles X12 transaction sets for billing and claims processing.",
+        "url": "https://centrichomehealth.com/compliance/x12-transaction-sets"
+      },
+      {
+        "claim": "The organization utilizes cloud services for secure data management, ensuring HIPAA compliance.",
+        "url": "https://centrichomehealth.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.73
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 and health tech indicating potential for API healthcare data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claims submission (837)",
+      "Claims status inquiry (276/277)"
+    ]
+  }
+}

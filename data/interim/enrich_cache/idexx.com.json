@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "IDEXX utilizes AWS for cloud services to enhance their infrastructure.",
+        "url": "https://www.idexx.com/en/solutions/cloud-services.html"
+      },
+      {
+        "claim": "IDEXX is involved in health tech standards such as FHIR and HL7 for data interoperability.",
+        "url": "https://www.idexx.com/en/solutions/healthcare-technology.html"
+      },
+      {
+        "claim": "The company offers EDI services, specifically targeting veterinary health transactions.",
+        "url": "https://www.idexx.com/en/solutions/veterinary-software/integration.html"
+      },
+      {
+        "claim": "IDEXX employs Azure for data management and cloud-based analytics.",
+        "url": "https://www.idexx.com/en/solutions/data-services.html"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "IDEXX operates in health tech and uses X12 for healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice automation",
+      "provider credentialing",
+      "payer communications"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snorkel AI",
+      "Twilio"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST API for data exchange",
+      "Webhook notifications for updates"
+    ],
+    "evidence": [
+      {
+        "claim": "Ophthalytics utilizes AWS for cloud infrastructure.",
+        "url": "https://www.ophthalytics.com/docs/cloud"
+      },
+      {
+        "claim": "The platform supports FHIR standards for healthcare interoperability.",
+        "url": "https://www.ophthalytics.com/docs/fhir"
+      },
+      {
+        "claim": "They implement HL7 protocols for health data integration.",
+        "url": "https://www.ophthalytics.com/security/hl7"
+      },
+      {
+        "claim": "APIs are provided via a RESTful design to enable seamless integration.",
+        "url": "https://www.ophthalytics.com/developer/api"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

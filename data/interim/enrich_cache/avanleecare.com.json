@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Twilio"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook"
+    ],
+    "evidence": [
+      {
+        "claim": "Avanlee Care utilizes AWS for cloud infrastructure and services.",
+        "url": "https://avanleecare.com/about"
+      },
+      {
+        "claim": "The company adopts FHIR standards for data interoperability in healthcare applications.",
+        "url": "https://avanleecare.com/developer"
+      },
+      {
+        "claim": "Avanlee supports X12 EDI transaction sets for health claims processing.",
+        "url": "https://avanleecare.com/security"
+      },
+      {
+        "claim": "Webhook integration is provided for real-time data notifications.",
+        "url": "https://avanleecare.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found of X12 use cases or clearinghouse activities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

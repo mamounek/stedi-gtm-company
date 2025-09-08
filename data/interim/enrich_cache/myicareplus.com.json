@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "IPC Digital Health emphasizes compliance with HIPAA regulations.",
+        "url": "https://myicareplus.com/security/"
+      },
+      {
+        "claim": "The platform follows FHIR standards for interoperability in health data.",
+        "url": "https://myicareplus.com/docs/overview/"
+      },
+      {
+        "claim": "The use of secure EHR connections ensures data integrity and patient privacy.",
+        "url": "https://myicareplus.com/api/ehr-integration/"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or relevant API automation use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

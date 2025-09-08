@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance for health data",
+      "EDI transactions for X12 standards"
+    ],
+    "integration_patterns": [
+      "Integration with EHR systems",
+      "Cloud-based medical billing solutions"
+    ],
+    "evidence": [
+      {
+        "claim": "Rx RCM ensures compliance with HIPAA standards for safeguarding health information.",
+        "url": "https://rxrcm.com/security"
+      },
+      {
+        "claim": "The company utilizes X12 EDI transactions for medical billing and claims processing.",
+        "url": "https://rxrcm.com/solutions"
+      },
+      {
+        "claim": "Rx RCM offers integration capabilities with various EHR systems to streamline billing processes.",
+        "url": "https://rxrcm.com/technology"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Rx RCM performs EDI transactions and integrates with EHRs, suitable for X12 workflows.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "EDI transactions for X12 standards",
+      "Integration with EHR systems",
+      "Claims processing and remittance management",
+      "Eligibility verification",
+      "Automated billing and payment posting"
+    ]
+  }
+}

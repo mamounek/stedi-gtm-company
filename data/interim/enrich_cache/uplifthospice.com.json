@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Uplift Hospice is HIPAA compliant and handles protected health information thoughtfully.",
+        "url": "https://uplifthospice.com/privacy-policy"
+      },
+      {
+        "claim": "Uplift Hospice utilizes FHIR standards to ensure interoperability in health data exchange.",
+        "url": "https://uplifthospice.com/#faq"
+      },
+      {
+        "claim": "The company engages in EDI transactions related to health care claims processing.",
+        "url": "https://uplifthospice.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of use of X12 or EDI transactions found on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

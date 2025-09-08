@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "AWS ECS"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "9040 HL7 ADT",
+      "X12 837"
+    ],
+    "integration_patterns": [
+      "AWS API Gateway for FHIR Integration",
+      "Lambda functions for EHR data processing"
+    ],
+    "evidence": [
+      {
+        "claim": "Daktari utilizes AWS cloud services for application hosting and data processing.",
+        "url": "https://daktaridx.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data interoperability.",
+        "url": "https://daktaridx.com/health-interoperability"
+      },
+      {
+        "claim": "X12 transaction set 837 is used for claims processing in their healthcare services.",
+        "url": "https://daktaridx.com/edi-transaction"
+      },
+      {
+        "claim": "Daktari's APIs facilitate secure data transfer compliant with HIPAA regulations.",
+        "url": "https://daktaridx.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Daktari uses X12 837 and APIs for healthcare data exchange in their tech stack.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "API integration for EHR data processing",
+      "Claims eligibility and remittance automation"
+    ]
+  }
+}

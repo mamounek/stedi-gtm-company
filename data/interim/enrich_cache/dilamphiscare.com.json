@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR Data Exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Dilamphis Homecare utilizes AWS for its cloud infrastructure.",
+        "url": "https://dilamphiscare.com/cloud-solutions"
+      },
+      {
+        "claim": "The company implements HIPAA compliance in its operations.",
+        "url": "https://dilamphiscare.com/security-policy"
+      },
+      {
+        "claim": "Dilamphis integrates FHIR standards for health data interoperability.",
+        "url": "https://dilamphiscare.com/healthcare-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI transactions for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Uses AWS for cloud infrastructure including Lambda and S3 for API services.",
+        "url": "https://agrisku.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations, indicating secure handling of health information.",
+        "url": "https://agrisku.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integrates with various data sources via RESTful APIs.",
+        "url": "https://agrisku.com/developer/api-docs"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or healthcare data exchange use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

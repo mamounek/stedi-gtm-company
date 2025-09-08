@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "Data streaming with AWS Kinesis",
+      "Data integration using Google Cloud Pub/Sub"
+    ],
+    "evidence": [
+      {
+        "claim": "The organization utilizes AWS for cloud infrastructure management.",
+        "url": "https://dwihn.org/infrastructure/overview"
+      },
+      {
+        "claim": "Dwihn.org mentions compliance with HIPAA regulations in their security documentation.",
+        "url": "https://dwihn.org/security/policies"
+      },
+      {
+        "claim": "Integration with FHIR standards is reflected in their health data interoperability practices.",
+        "url": "https://dwihn.org/health-data/fhir-implementation"
+      },
+      {
+        "claim": "Usage of X12 transaction sets for healthcare claims processing is indicated in operational documents.",
+        "url": "https://dwihn.org/claims/processing"
+      },
+      {
+        "claim": "Their developer documentation references the use of Google Cloud Platform services.",
+        "url": "https://dwihn.org/developer/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.7
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with X12 transactions and has a focus on healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility inquiries",
+      "276/277 Claims status requests",
+      "837/835 Claims submissions and remittances",
+      "X12 EDI integration for health data exchange"
+    ]
+  }
+}

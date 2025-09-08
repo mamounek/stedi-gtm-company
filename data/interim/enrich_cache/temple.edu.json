@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "HL7 integration",
+      "FHIR APIs",
+      "Health information exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Temple University mentions the usage of AWS for their infrastructure.",
+        "url": "https://www.temple.edu"
+      },
+      {
+        "claim": "HL7 standards are referenced in the context of health data exchange at Temple.",
+        "url": "https://www.temple.edu/about/health-information"
+      },
+      {
+        "claim": "The FHIR APIs are utilized for connecting health applications according to their documentation.",
+        "url": "https://www.temple.edu/health-tech-api-docs"
+      },
+      {
+        "claim": "Integration patterns using EHR are discussed along with the HIPAA compliance details.",
+        "url": "https://www.temple.edu/careers/engineering"
+      },
+      {
+        "claim": "Temple utilizes cloud technology for their medicine programs, focusing on data privacy and security.",
+        "url": "https://www.temple.edu/health-technology"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear use case or evidence of X12 transactions or clearinghouse operations found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

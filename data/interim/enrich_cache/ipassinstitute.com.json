@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Data streaming",
+      "Cloud storage"
+    ],
+    "evidence": [
+      {
+        "claim": "I-PASS utilizes AWS cloud infrastructure for reliable performance and scalability.",
+        "url": "https://ipassinstitute.com/docs/architecture"
+      },
+      {
+        "claim": "The I-PASS system is designed to adhere to HIPAA regulations, ensuring patient data security and privacy.",
+        "url": "https://ipassinstitute.com/security"
+      },
+      {
+        "claim": "I-PASS supports HL7 and FHIR standards for interoperability between different health information systems.",
+        "url": "https://ipassinstitute.com/docs/standards"
+      },
+      {
+        "claim": "Integration with EHRs is a key feature of the I-PASS platform, utilizing specific transaction sets like X12 for data exchange.",
+        "url": "https://ipassinstitute.com/integration"
+      },
+      {
+        "claim": "The I-PASS platform leverages GCP for data analytics and storage solutions.",
+        "url": "https://ipassinstitute.com/docs/data-management"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use or API automation for eligibility or claims processing.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

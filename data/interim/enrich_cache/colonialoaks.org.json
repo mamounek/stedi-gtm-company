@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Colonial Oaks has extensive operations in the senior living sector, which often involves data integration with health-tech standards like HIPAA and FHIR.",
+        "url": "https://colonialoaks.org"
+      },
+      {
+        "claim": "The company emphasizes compliance with health data regulations indicating potential use of EHR and HIPAA-compliant services.",
+        "url": "https://colonialoaks.org/blog/healthcare-technology"
+      },
+      {
+        "claim": "Their emphasis on operational efficiency and patient care technologies suggests potential integration capabilities, although specifics are not disclosed.",
+        "url": "https://colonialoaks.org/our-services"
+      }
+    ],
+    "tech_stack_confidence": 0.3
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or API automation in their operations.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

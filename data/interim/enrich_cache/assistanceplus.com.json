@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Cloud Event Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Assistance Plus utilizes AWS cloud infrastructure for scalability and reliability.",
+        "url": "https://assistanceplus.com/developer"
+      },
+      {
+        "claim": "They adhere to HIPAA regulations for data security and patient privacy.",
+        "url": "https://assistanceplus.com/security"
+      },
+      {
+        "claim": "The platform integrates FHIR standards for healthcare data interchange.",
+        "url": "https://assistanceplus.com/docs/fhir"
+      },
+      {
+        "claim": "X12 transaction sets are used for electronic data interchange in healthcare.",
+        "url": "https://assistanceplus.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech with X12 expertise suggests API automation need.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance processing",
+      "claims status inquiries",
+      "clearinghouse integration"
+    ]
+  }
+}

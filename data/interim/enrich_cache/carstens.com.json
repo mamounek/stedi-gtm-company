@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "X12 transactions"
+    ],
+    "evidence": [
+      {
+        "claim": "Carstens utilizes AWS services for cloud infrastructure.",
+        "url": "https://carstens.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards in its health-tech solutions.",
+        "url": "https://carstens.com/fhir-technology"
+      },
+      {
+        "claim": "Carstens supports HIPAA compliant practices in its services.",
+        "url": "https://carstens.com/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems through HL7 and X12 standards.",
+        "url": "https://carstens.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Company focuses on health tech and EDI but lacks evidence of X12 engagement.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

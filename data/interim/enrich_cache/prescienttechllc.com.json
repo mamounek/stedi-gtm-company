@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "HL7"
+    ],
+    "evidence": [
+      {
+        "claim": "Prescient Global Solutions utilizes AWS for cloud infrastructure.",
+        "url": "https://prescienttechllc.com/cloud-services"
+      },
+      {
+        "claim": "They adopt FHIR standards to facilitate health information exchange.",
+        "url": "https://prescienttechllc.com/healthcare-technology"
+      },
+      {
+        "claim": "The company implements EDI X12 transaction sets in their platforms.",
+        "url": "https://prescienttechllc.com/integration-solutions"
+      },
+      {
+        "claim": "Azure is part of their offering for scalable data solutions.",
+        "url": "https://prescienttechllc.com/partner-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in healthcare data exchange with EDI and X12, indicating need for automation solutions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Healthcare claims processing",
+      "Eligibility checks (270/271)",
+      "Claims status inquiries (276/277)",
+      "Remittance processing (835)"
+    ]
+  }
+}

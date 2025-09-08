@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud-based Infrastructure",
+      "Data Streaming via Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "WeCare Holistic employs AWS as part of its cloud infrastructure.",
+        "url": "https://wecareholistic.com/about"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for handling patient data.",
+        "url": "https://wecareholistic.com/security"
+      },
+      {
+        "claim": "WeCare utilizes FHIR standards for health data exchange.",
+        "url": "https://wecareholistic.com/solutions"
+      },
+      {
+        "claim": "WeCare incorporates X12 transaction sets for electronic data interchange.",
+        "url": "https://wecareholistic.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

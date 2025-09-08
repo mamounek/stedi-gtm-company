@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company emphasizes HIPAA compliance in its solutions.",
+        "url": "https://revcyclecopilot.com/security"
+      },
+      {
+        "claim": "Using EDI transaction sets is mentioned for revenue cycle management.",
+        "url": "https://revcyclecopilot.com/docs"
+      },
+      {
+        "claim": "The platform's architecture leverages cloud infrastructure for security and efficiency.",
+        "url": "https://revcyclecopilot.com/careers"
+      },
+      {
+        "claim": "References to interoperability with EHR systems are present in their documentation.",
+        "url": "https://revcyclecopilot.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 or relevant EDI transactions.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

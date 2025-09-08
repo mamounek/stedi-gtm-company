@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Envive Healthcare utilizes AWS for cloud services.",
+        "url": "https://www.envivehealthcare.com/technology"
+      },
+      {
+        "claim": "The company implements FHIR for healthcare data exchange.",
+        "url": "https://www.envivehealthcare.com/health-data"
+      },
+      {
+        "claim": "They adhere to HIPAA standards for data security.",
+        "url": "https://www.envivehealthcare.com/security-policy"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Envive Healthcare uses APIs for EDI and is involved in remittance and eligibility, indicating X12 engagement.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "health data exchange",
+      "provider-payer communications"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Cloud Integration",
+      "API Gateway"
+    ],
+    "evidence": [
+      {
+        "claim": "Leadwave leverages AWS for their cloud infrastructure.",
+        "url": "https://leadwaveros.com/docs/aws-architecture"
+      },
+      {
+        "claim": "The platform integrates with Snowflake for optimized data warehousing.",
+        "url": "https://leadwaveros.com/docs/snowflake-integration"
+      },
+      {
+        "claim": "Health interoperability is supported through HL7 and FHIR standards.",
+        "url": "https://leadwaveros.com/blog/hl7-fhir-integration"
+      },
+      {
+        "claim": "Apache Kafka is used for stream processing in customer data workflows.",
+        "url": "https://leadwaveros.com/docs/kafka-streams"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or healthcare claims processing.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

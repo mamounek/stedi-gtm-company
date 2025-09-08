@@ -1,0 +1,59 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Storage",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI",
+      "CPT Codes",
+      "NCPDP"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Event-driven architecture",
+      "Message queuing",
+      "Microservices architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Healthcare Plus utilizes AWS cloud services for scalable application deployments.",
+        "url": "https://hcpcaregivers.com/developer/cloud-infrastructure"
+      },
+      {
+        "claim": "The company implements FHIR standards for interoperability in health data exchange.",
+        "url": "https://hcpcaregivers.com/docs/fhir-integration"
+      },
+      {
+        "claim": "HL7 messages are utilized for EHR interoperability within their services.",
+        "url": "https://hcpcaregivers.com/docs/hl7-implementation"
+      },
+      {
+        "claim": "Healthcare Plus supports X12 EDI transactions for insurance claims processing.",
+        "url": "https://hcpcaregivers.com/docs/x12-edi"
+      },
+      {
+        "claim": "Integration patterns include microservices architecture for managing healthcare applications.",
+        "url": "https://hcpcaregivers.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Healthcare Plus engages in core EDI processes making them ideal for API-first X12 solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Event-driven claims updates (276/277)"
+    ]
+  }
+}

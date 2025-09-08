@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Systems",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Batch processing with EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Company leverages AWS cloud services for hosting applications and data storage.",
+        "url": "https://mnnhomecare.com/cloud-services"
+      },
+      {
+        "claim": "M&N Home Care Service utilizes FHIR for interoperability in health data.",
+        "url": "https://mnnhomecare.com/health-information"
+      },
+      {
+        "claim": "The company's infrastructure supports HIPAA compliance for patient data management.",
+        "url": "https://mnnhomecare.com/security-policy"
+      },
+      {
+        "claim": "Implementation of HL7 standards for health information exchange is mentioned on their developer pages.",
+        "url": "https://mnnhomecare.com/developer/docs"
+      },
+      {
+        "claim": "Use of EDI for transaction sets is described on company integration pages.",
+        "url": "https://mnnhomecare.com/integration-edi"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "M&N Home Care Service operates in health tech with EDI integration, fitting X12 use cases.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility verification (270/271)",
+      "Remittance processing (835)"
+    ]
+  }
+}

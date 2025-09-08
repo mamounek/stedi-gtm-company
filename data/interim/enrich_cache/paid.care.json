@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Paid.care uses AWS for cloud services and infrastructure management.",
+        "url": "https://paid.care/docs/infrastructure"
+      },
+      {
+        "claim": "The company mentions compliance with HIPAA regulations in connection with healthcare data.",
+        "url": "https://paid.care/security"
+      },
+      {
+        "claim": "Paid.care offers FHIR APIs for interoperability with other health systems.",
+        "url": "https://paid.care/developer/fhir"
+      },
+      {
+        "claim": "Integration with X12 for electronic data interchange is indicated on their API documentation.",
+        "url": "https://paid.care/docs/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

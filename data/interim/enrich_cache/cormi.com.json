@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "Amazon API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliant",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "Microservices architecture",
+      "RESTful APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Cormi utilizes Amazon AWS services for scalable cloud infrastructure.",
+        "url": "https://cormi.com/docs/cloud"
+      },
+      {
+        "claim": "Cormi is HIPAA compliant for handling sensitive health information.",
+        "url": "https://cormi.com/security"
+      },
+      {
+        "claim": "Cormi’s API integrates with various healthcare systems using FHIR standards.",
+        "url": "https://cormi.com/api"
+      },
+      {
+        "claim": "The integration pattern includes the use of microservices for efficient data handling.",
+        "url": "https://cormi.com/architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or relevant use cases found on their site.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": []
+  }
+}

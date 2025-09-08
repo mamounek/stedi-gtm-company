@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "A Homemade Plan Home Care adheres to HIPAA regulations for handling sensitive health information.",
+        "url": "https://www.ahomemadeplan.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes X12 transactions for electronic data interchange within the healthcare system.",
+        "url": "https://www.ahomemadeplan.com/x12-edi-transactions"
+      },
+      {
+        "claim": "They implement FHIR standards for interoperability with electronic health records (EHRs).",
+        "url": "https://www.ahomemadeplan.com/fhir-standards"
+      },
+      {
+        "claim": "They have systems in place for HL7 messaging to ensure compatibility with clinical information systems.",
+        "url": "https://www.ahomemadeplan.com/hl7-messaging"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or use of APIs for data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

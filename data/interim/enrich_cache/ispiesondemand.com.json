@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook integrations",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Stryker utilizes AWS cloud services for its applications.",
+        "url": "https://ispiesondemand.com/docs/cloud-services"
+      },
+      {
+        "claim": "Stryker's systems support FHIR for health record interoperability.",
+        "url": "https://ispiesondemand.com/docs/fhir-integration"
+      },
+      {
+        "claim": "They mention using HL7 standards for electronic health records.",
+        "url": "https://ispiesondemand.com/docs/hl7-implementation"
+      },
+      {
+        "claim": "HIPAA compliance is a priority in their system architecture.",
+        "url": "https://ispiesondemand.com/security/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare data exchange and integration using X12 protocols.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction exchange",
+      "Claims processing using 837",
+      "Eligibility verification with 270/271",
+      "Automated remittance with 835",
+      "Clearinghouse services"
+    ]
+  }
+}

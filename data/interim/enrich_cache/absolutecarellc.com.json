@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services including Lambda and RDS for efficient cloud-based application development.",
+        "url": "https://absolutecarellc.com/technology"
+      },
+      {
+        "claim": "They highlight their HIPAA compliance and the use of HL7 standards for health data transmission.",
+        "url": "https://absolutecarellc.com/security"
+      },
+      {
+        "claim": "The integration of FHIR for interoperability in health IT demonstrates their commitment to modern health tech standards.",
+        "url": "https://absolutecarellc.com/healthtech"
+      },
+      {
+        "claim": "Their API documentation describes RESTful API connections for data exchange between systems.",
+        "url": "https://absolutecarellc.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or EDI use cases found on the company site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

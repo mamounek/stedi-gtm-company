@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Voci Technologies utilizes AWS cloud services for data processing and storage solutions.",
+        "url": "https://vocitec.com/developer/docs/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance in its services, ensuring sensitive patient data is handled appropriately.",
+        "url": "https://vocitec.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Voci Technologies supports FHIR standards for health data exchange, facilitating interoperability with healthcare systems.",
+        "url": "https://vocitec.com/developer/docs/fhir-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.84
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transaction handling or EDI capabilities.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

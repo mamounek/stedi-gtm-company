@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliant data handling practices"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for patient data.",
+        "url": "https://avenueshomecare.com/security/"
+      },
+      {
+        "claim": "Avenues Home Care utilizes EHR systems compliant with healthcare data standards.",
+        "url": "https://avenueshomecare.com/services/"
+      },
+      {
+        "claim": "The company emphasizes data security measures in compliance with healthcare regulations.",
+        "url": "https://avenueshomecare.com/about/"
+      },
+      {
+        "claim": "They maintain privacy practices as outlined by HIPAA for patient information security.",
+        "url": "https://avenueshomecare.com/privacy-policy/"
+      }
+    ],
+    "tech_stack_confidence": 0.41
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 usage or API automation practices found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

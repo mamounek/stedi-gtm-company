@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "Data streaming",
+      "API integrations",
+      "ETL processes"
+    ],
+    "evidence": [
+      {
+        "claim": "MIMIT Health utilizes AWS for scalable infrastructure.",
+        "url": "https://www.mimithealth.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They implement FHIR standards for health data interoperability.",
+        "url": "https://www.mimithealth.com/healthcare-standards"
+      },
+      {
+        "claim": "Integration with EHRs is part of their solution offering.",
+        "url": "https://www.mimithealth.com/ehr-integration"
+      },
+      {
+        "claim": "X12 transaction sets are supported for healthcare claims processing.",
+        "url": "https://www.mimithealth.com/x12-support"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MIMIT Health handles X12 transactions and focuses on API-driven healthcare solutions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Claim Status Inquiry (276/277)"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliant data handling",
+      "FHIR APIs for patient data",
+      "HL7 message standards"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook-based notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "Avid Health utilizes AWS services for data storage and processing.",
+        "url": "https://www.avidhealthathome.com/docs/aws-infrastructure"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations for handling sensitive health information.",
+        "url": "https://www.avidhealthathome.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Avid Health employs FHIR APIs for interoperability in electronic health data exchange.",
+        "url": "https://www.avidhealthathome.com/tech/fhir-api"
+      },
+      {
+        "claim": "Integration with EHR systems using HL7 standards is mentioned in their developer documentation.",
+        "url": "https://www.avidhealthathome.com/integration/hl7-support"
+      },
+      {
+        "claim": "The company implements cloud-based integration patterns for efficient data exchange.",
+        "url": "https://www.avidhealthathome.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling or clearinghouse integration found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

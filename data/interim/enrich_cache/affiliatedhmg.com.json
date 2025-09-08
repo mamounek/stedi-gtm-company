@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "EDI",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Integration with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Affiliated Healthcare Management Group supports HIPAA compliance in its operations.",
+        "url": "https://affiliatedhmg.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.44
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in EDI and X12 transactions, aligning with API-first healthcare data exchange needs.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Integration with EHR systems"
+    ]
+  }
+}

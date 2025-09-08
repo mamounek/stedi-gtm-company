@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Storage",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook Integrations",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Tellus uses AWS services for its cloud infrastructure.",
+        "url": "https://www.tellusyoucare.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA regulations for data security.",
+        "url": "https://www.tellusyoucare.com/security"
+      },
+      {
+        "claim": "Support for X12 EDI for claims processing is mentioned in their documentation.",
+        "url": "https://www.tellusyoucare.com/docs/edi-transactions"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on healthcare with HIPAA and X12 transactions confirms ICP profile.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Claims Status (276/277)",
+      "Remittance Advice (835)"
+    ]
+  }
+}

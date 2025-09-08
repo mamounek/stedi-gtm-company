@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The National Assistant at Surgery Certification mentions adherence to HIPAA guidelines for data privacy.",
+        "url": "https://nascertification.com/security"
+      },
+      {
+        "claim": "The use of HL7 format is outlined in conjunction with their certification process.",
+        "url": "https://nascertification.com/docs"
+      },
+      {
+        "claim": "The organization emphasizes the importance of maintaining compliance with health technology standards, including interoperability regulations.",
+        "url": "https://nascertification.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or related use cases found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

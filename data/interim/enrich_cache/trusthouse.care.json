@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Cloud-based data integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "TrustHouse utilizes AWS for its cloud infrastructure and services.",
+        "url": "https://trusthouse.care/docs/cloud-services"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring the security and privacy of health data.",
+        "url": "https://trusthouse.care/security/hipaa"
+      },
+      {
+        "claim": "TrustHouse integrates with FHIR and HL7 standards for interoperability with health records.",
+        "url": "https://trusthouse.care/developer/fhir-integration"
+      },
+      {
+        "claim": "TrustHouse employs RESTful APIs for various integrations in their platform.",
+        "url": "https://trusthouse.care/docs/api-overview"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found indicating X12 or clearinghouse use cases.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

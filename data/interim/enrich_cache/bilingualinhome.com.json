@@ -1,0 +1,35 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA regulations for handling patient data.",
+        "url": "https://bilingualinhome.com/security"
+      },
+      {
+        "claim": "They utilize HL7 standards for electronic health information exchanges.",
+        "url": "https://bilingualinhome.com/services"
+      },
+      {
+        "claim": "Bi-lingual In-Home Assistant Services demonstrates a commitment to data privacy and security through their compliance measures.",
+        "url": "https://bilingualinhome.com/about"
+      },
+      {
+        "claim": "The company mentions a need for resources familiar with health technology standards in their job postings.",
+        "url": "https://bilingualinhome.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of engaging with X12 transactions or using APIs for healthcare data exchange.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

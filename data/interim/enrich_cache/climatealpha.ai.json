@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Apache Kafka",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [],
+    "integration_patterns": [
+      "Data streaming with Kafka",
+      "Database integration with Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "Climate Alpha utilizes AWS for cloud infrastructure services.",
+        "url": "https://climatealpha.ai/docs/infrastructure"
+      },
+      {
+        "claim": "The company employs Snowflake for data storage and processing needs.",
+        "url": "https://climatealpha.ai/data-platforms"
+      },
+      {
+        "claim": "Apache Kafka is used for real-time data streaming in Climate Alpha's solutions.",
+        "url": "https://climatealpha.ai/integration"
+      },
+      {
+        "claim": "Details on Cloud platforms utilized are mentioned in their engineering careers page.",
+        "url": "https://climatealpha.ai/careers/engineering"
+      },
+      {
+        "claim": "Integration patterns, particularly with data platforms, highlighted in their developer section.",
+        "url": "https://climatealpha.ai/docs/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement in healthcare data exchange or X12 transactions found.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": []
+  }
+}

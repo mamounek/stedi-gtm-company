@@ -1,0 +1,20 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Aidaly utilizes AWS for cloud infrastructure.",
+        "url": "https://www.workable.com/"
+      }
+    ],
+    "tech_stack_confidence": 0.14
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or healthcare data exchange use cases on public pages.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

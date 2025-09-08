@@ -1,0 +1,34 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CloserContact complies with HIPAA regulations for protecting patient data.",
+        "url": "https://havecloser.com/security"
+      },
+      {
+        "claim": "CloserContact uses secure cloud infrastructure to manage health data.",
+        "url": "https://havecloser.com/docs"
+      },
+      {
+        "claim": "The platform is designed for healthcare integrations and adheres to compliance standards.",
+        "url": "https://havecloser.com/careers"
+      },
+      {
+        "claim": "They are focused on developing health-tech solutions with robust security protocols.",
+        "url": "https://havecloser.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.71
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse capabilities on public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

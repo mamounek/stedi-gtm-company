@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HIPAA compliance",
+      "X12 837",
+      "HL7 messages"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "JSON payloads"
+    ],
+    "evidence": [
+      {
+        "claim": "Patronus Medical utilizes AWS services for their cloud infrastructure.",
+        "url": "https://patronusmedical.com/dev/architecture"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://patronusmedical.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "HIPAA compliance is a key focus for their platform.",
+        "url": "https://patronusmedical.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with X12 transaction sets for claim submissions is mentioned in their case studies.",
+        "url": "https://patronusmedical.com/case-studies/edi"
+      },
+      {
+        "claim": "Implementation of HL7 standards for interoperability is highlighted in their developer documentation.",
+        "url": "https://patronusmedical.com/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 standards for healthcare transactions, indicating strong alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims processing",
+      "Eligibility checks with X12 270/271",
+      "Remittance processing via X12 835",
+      "Integration with healthcare providers and payers"
+    ]
+  }
+}

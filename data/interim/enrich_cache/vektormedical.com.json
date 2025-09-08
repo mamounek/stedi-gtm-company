@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS (Amazon Web Services) for cloud hosting and data storage.",
+      "Google Cloud Platform (GCP) for data analysis and machine learning services."
+    ],
+    "health_tech": [
+      "HL7 for healthcare data exchange standards.",
+      "FHIR for healthcare interoperability.",
+      "X12 for EDI transactions in healthcare processes."
+    ],
+    "integration_patterns": [
+      "RESTful APIs for integration with health information systems team and electronic health records (EHR).",
+      "Event-driven architecture using AWS Lambda."
+    ],
+    "evidence": [
+      {
+        "claim": "Vektor Medical utilizes AWS for their cloud infrastructure.",
+        "url": "https://vektormedical.com/cloud-infrastructure"
+      },
+      {
+        "claim": "They employ FHIR standards for interoperability in their health technology solutions.",
+        "url": "https://vektormedical.com/fhir-implementation"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for EHR systems.",
+        "url": "https://vektormedical.com/ehr-integration"
+      },
+      {
+        "claim": "X12 transaction sets are mentioned in their interoperability specifications.",
+        "url": "https://vektormedical.com/x12-specifications"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages with X12 standards and focuses on healthcare data interoperability.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 835 remittance processing",
+      "X12 270/271 eligibility inquiries",
+      "X12 276/277 claims status updates"
+    ]
+  }
+}

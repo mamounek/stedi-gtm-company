@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Infinity Care Services implements HIPAA compliance policies in their operational practices.",
+        "url": "https://infinitycares.com/security"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data interoperability.",
+        "url": "https://infinitycares.com/docs/fhir"
+      },
+      {
+        "claim": "Infinity Care Services adheres to HL7 protocols for health information exchange.",
+        "url": "https://infinitycares.com/health-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 exchange or clearinghouse functionality is found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ControlExpert provides services that comply with HIPAA regulations",
+        "url": "https://controlexpert.com/security"
+      },
+      {
+        "claim": "ControlExpert's utilization of HL7 indicates compatibility with health data exchange standards",
+        "url": "https://controlexpert.com/docs/healthcare"
+      },
+      {
+        "claim": "References to integration with cloud services were found during analysis of company pages.",
+        "url": "https://controlexpert.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of utilizing X12 or EDI for healthcare data exchange on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

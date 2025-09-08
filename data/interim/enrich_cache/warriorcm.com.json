@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integration with EHRs",
+      "Data streaming with AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Warrior Cost Management utilizes AWS cloud services for scalable applications.",
+        "url": "https://warriorcm.com/cloud-services"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for all its health-tech solutions.",
+        "url": "https://warriorcm.com/healthcare-privacy"
+      },
+      {
+        "claim": "Warrior Cost Management integrates with EHR systems via FHIR standards.",
+        "url": "https://warriorcm.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No explicit mention of X12 transactions or clearinghouse capabilities found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

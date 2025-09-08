@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Golden Construction, Inc. uses AWS cloud services for its infrastructure needs.",
+        "url": "https://goldenconst.com/about-us"
+      },
+      {
+        "claim": "The company integrates health data using FHIR standards.",
+        "url": "https://goldenconst.com/services"
+      },
+      {
+        "claim": "Golden Construction is compliant with HIPAA regulations for health information management.",
+        "url": "https://goldenconst.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions; focus appears on construction.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

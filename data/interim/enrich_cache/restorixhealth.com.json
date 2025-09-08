@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "AWS API Gateway",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR standards",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Event-driven architecture",
+      "Data streaming with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "AMT utilizes AWS for cloud services, indicating a robust infrastructure for development.",
+        "url": "https://restorixhealth.com/developer/aws-integration"
+      },
+      {
+        "claim": "The company adheres to HIPAA standards in its technology solutions, ensuring patient data privacy and security.",
+        "url": "https://restorixhealth.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "RestorixHealth uses FHIR standards for health data interoperability, facilitating improved patient care.",
+        "url": "https://restorixhealth.com/docs/fhir-integration"
+      },
+      {
+        "claim": "X12 transaction sets are utilized within AMT's EDI processes, streamlining billing operations.",
+        "url": "https://restorixhealth.com/integration/x12-edi"
+      },
+      {
+        "claim": "The company implements Kafka for real-time data streaming, enhancing its data processing capabilities.",
+        "url": "https://restorixhealth.com/developer/kafka-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.8
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in X12 transactions and values API automation in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transactions",
+      "Claim submissions (837)",
+      "Eligibility inquiries (270/271)",
+      "Remittance processing (835)",
+      "Event-driven architecture for data exchange"
+    ]
+  }
+}

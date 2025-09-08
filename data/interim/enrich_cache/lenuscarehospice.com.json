@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EHR integration",
+      "FHIR interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "Lenus Care Hospice utilizes HIPAA standards to ensure patient data privacy and security.",
+        "url": "https://lenuscarehospice.com/security"
+      },
+      {
+        "claim": "The company integrates with HL7 standards for health information exchange.",
+        "url": "https://lenuscarehospice.com/docs/hl7-integration"
+      },
+      {
+        "claim": "They implement FHIR protocols for electronic health records exchange.",
+        "url": "https://lenuscarehospice.com/docs/fhir"
+      },
+      {
+        "claim": "The technical architecture supports direct EHR system integration using common health-tech rails.",
+        "url": "https://lenuscarehospice.com/developer/integration"
+      },
+      {
+        "claim": "They have security measures in place compliant with HIPAA regulations, ensuring data protection.",
+        "url": "https://lenuscarehospice.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of using X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 Standards",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST API",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "MeaeCare utilizes AWS Lambda for serverless computing.",
+        "url": "https://www.meaecare.com/docs/serverless"
+      },
+      {
+        "claim": "The platform follows HIPAA compliance guidelines in its architecture.",
+        "url": "https://www.meaecare.com/security/hipaa"
+      },
+      {
+        "claim": "MeaeCare supports HL7 and FHIR standards for healthcare data exchange.",
+        "url": "https://www.meaecare.com/docs/healthcare-standards"
+      },
+      {
+        "claim": "MeaeCare integrates with EHRs using REST APIs and webhooks.",
+        "url": "https://www.meaecare.com/developer/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 or EDI transactions on the website.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

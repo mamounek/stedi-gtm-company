@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Microservices architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS Lambda to run code in response to events without provisioning servers.",
+        "url": "https://coveredhealth.ai/docs/aws-lambda-integration"
+      },
+      {
+        "claim": "Covered Health incorporates FHIR standards for health data exchange.",
+        "url": "https://coveredhealth.ai/docs/fhir-compliance"
+      },
+      {
+        "claim": "Integration patterns are utilized to connect EHRs through secure APIs, shown on their engineering page.",
+        "url": "https://coveredhealth.ai/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction send/receive usage or clearinghouse functions.",
+    "icp_confidence": 0.65,
+    "matched_use_cases": []
+  }
+}

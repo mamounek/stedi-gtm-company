@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transaction sets",
+      "HL7 FHIR standard"
+    ],
+    "integration_patterns": [
+      "Real-time data integration",
+      "Batch processing with ETL tools"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes Amazon Web Services for hosting and infrastructure solutions.",
+        "url": "https://edataservices.com/cloud-solutions"
+      },
+      {
+        "claim": "eData Services is compliant with HIPAA regulations for healthcare data.",
+        "url": "https://edataservices.com/healthcare-solutions"
+      },
+      {
+        "claim": "Integration with HL7 FHIR is mentioned for seamless data exchange in healthcare.",
+        "url": "https://edataservices.com/api-docs"
+      },
+      {
+        "claim": "Use of X12 transaction sets for EDI compliance.",
+        "url": "https://edataservices.com/edi-solutions"
+      }
+    ],
+    "tech_stack_confidence": 0.69
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on HIPAA-compliant EDI transactions with API integration for healthcare.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 claims",
+      "835 remittance",
+      "270/271 eligibility verification"
+    ]
+  }
+}

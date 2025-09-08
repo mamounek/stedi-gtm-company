@@ -1,0 +1,41 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful API"
+    ],
+    "evidence": [
+      {
+        "claim": "The Carefullist utilizes AWS for hosting its applications.",
+        "url": "https://carefullist.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is designed to be HIPAA compliant, ensuring the protection of sensitive health information.",
+        "url": "https://carefullist.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Carefullist supports HL7 standards for health data exchange, facilitating interoperability in health tech.",
+        "url": "https://carefullist.com/docs/hl7-integration"
+      },
+      {
+        "claim": "They mention using Google Cloud Platform services for data storage and processing.",
+        "url": "https://carefullist.com/docs/gcp-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 transactions or relevant API use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

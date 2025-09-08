@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Twilio Authy for MFA"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI transactions",
+      "HL7 standards",
+      "FHIR APIs"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure, enhancing scalability and reliability.",
+        "url": "https://gpwpsychiatry.com/docs/infrastructure"
+      },
+      {
+        "claim": "GPW Psychiatry complies with HIPAA regulations ensuring data privacy and security for health information.",
+        "url": "https://gpwpsychiatry.com/security"
+      },
+      {
+        "claim": "They offer FHIR-compliant APIs for health data interoperability.",
+        "url": "https://gpwpsychiatry.com/docs/api/fhir"
+      },
+      {
+        "claim": "The company supports X12 EDI transactions for health care claims processing.",
+        "url": "https://gpwpsychiatry.com/docs/integration"
+      },
+      {
+        "claim": "Integration with Twilio for secure authentication solutions, providing MFA capabilities.",
+        "url": "https://gpwpsychiatry.com/docs/auth"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They utilize HIPAA compliant X12 EDI transactions for healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "837 claims submission",
+      "835 remittance advice",
+      "270/271 eligibility verification",
+      "276/277 claims status inquiries"
+    ]
+  }
+}

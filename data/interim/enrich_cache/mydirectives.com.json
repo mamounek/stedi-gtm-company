@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS EC2",
+      "Amazon RDS"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "REST API integrations",
+      "Webhook notifications",
+      "Data exchange via EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "MyDirectives utilizes AWS for their cloud infrastructure and application deployment.",
+        "url": "https://mydirectives.com/developer"
+      },
+      {
+        "claim": "The company processes health information in compliance with HIPAA guidelines, indicating a focus on health-tech and secure data handling.",
+        "url": "https://mydirectives.com/security"
+      },
+      {
+        "claim": "MyDirectives supports interoperability standards like FHIR and HL7 for data management in healthcare.",
+        "url": "https://mydirectives.com/docs"
+      },
+      {
+        "claim": "The use of EDI and X12 transaction sets for insurance claims processing is highlighted in their documentation.",
+        "url": "https://mydirectives.com/docs/edi"
+      },
+      {
+        "claim": "MyDirectives has recognized integration patterns that align with common healthcare data exchange practices.",
+        "url": "https://mydirectives.com/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 in health tech; fits within target size for API-first healthcare solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claims submission",
+      "X12 270 eligibility requests",
+      "X12 271 eligibility responses",
+      "X12 276 claims status queries",
+      "X12 277 claims status response"
+    ]
+  }
+}

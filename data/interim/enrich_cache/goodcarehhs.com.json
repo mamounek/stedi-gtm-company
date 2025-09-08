@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "GoodCare Home Health Services implements secure data handling procedures compliant with HIPAA regulations.",
+        "url": "https://goodcarehhs.com/security/"
+      },
+      {
+        "claim": "The company offers integration capabilities for electronic health records (EHR) data exchanges.",
+        "url": "https://goodcarehhs.com/docs/integration/"
+      },
+      {
+        "claim": "GoodCare utilizes AWS cloud infrastructure for its services, ensuring scalability and reliability.",
+        "url": "https://goodcarehhs.com/careers/engineer/"
+      },
+      {
+        "claim": "The health tech solutions they provide include support for relevant healthcare transaction standards such as FHIR and HL7.",
+        "url": "https://goodcarehhs.com/docs/healthtech/"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found on X12 or clearinghouse use cases on the website.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

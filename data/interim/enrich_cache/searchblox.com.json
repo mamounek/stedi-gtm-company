@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)",
+      "Amazon Elasticsearch Service"
+    ],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "SearchBlox uses AWS for deployment and scalability.",
+        "url": "https://searchblox.com/blog/searchblox-deployment-on-aws/"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for healthcare clients.",
+        "url": "https://searchblox.com/security/hipaa-compliance/"
+      },
+      {
+        "claim": "SearchBlox integrates with Elasticsearch for data search capabilities.",
+        "url": "https://searchblox.com/docs/elasticsearch-integration/"
+      },
+      {
+        "claim": "SearchBlox supports RESTful APIs for application integration.",
+        "url": "https://searchblox.com/docs/rest-api-overview/"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

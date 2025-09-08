@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure Human Services"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration for EHR systems",
+      "X12 EDI transaction sets"
+    ],
+    "evidence": [
+      {
+        "claim": "Mon4t employs AWS for its cloud services.",
+        "url": "https://mon4t.com/docs/cloud-services"
+      },
+      {
+        "claim": "Healthcare integrations utilize FHIR standards.",
+        "url": "https://mon4t.com/developer/healthcare-integration"
+      },
+      {
+        "claim": "Supports HL7 messaging for interoperability.",
+        "url": "https://mon4t.com/docs/hl7-support"
+      },
+      {
+        "claim": "Uses Azure for scalability and compliance in health data management.",
+        "url": "https://mon4t.com/security/cloud-security"
+      },
+      {
+        "claim": "Incorporates HIPAA compliant processes in their API structure.",
+        "url": "https://mon4t.com/docs/hipaa-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI transaction sets for integration, indicating potential fit for API automation in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status Queries",
+      "278 Healthcare Services Review"
+    ]
+  }
+}

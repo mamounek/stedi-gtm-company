@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Gaia Software utilizes AWS cloud infrastructure for their services.",
+        "url": "https://gaiasoftware.com/docs/aws-integration"
+      },
+      {
+        "claim": "The platform complies with HIPAA regulations and provides secure handling of health data.",
+        "url": "https://gaiasoftware.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR standard is mentioned in their developer documentation.",
+        "url": "https://gaiasoftware.com/docs/fhir-api"
+      },
+      {
+        "claim": "X12 transaction set support is available through their EDI processing.",
+        "url": "https://gaiasoftware.com/docs/edi-x12-support"
+      },
+      {
+        "claim": "They utilize Azure for scalable data platforms and integration services.",
+        "url": "https://gaiasoftware.com/docs/azure-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engaged in health tech with strong API integration for EDI and X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "clearinghouse functionalities",
+      "provider-payer communication"
+    ]
+  }
+}

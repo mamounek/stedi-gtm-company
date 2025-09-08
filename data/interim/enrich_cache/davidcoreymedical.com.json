@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837 Professional",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integrations",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services for cloud infrastructure, including Lambda and S3 for serverless applications and data storage.",
+        "url": "https://davidcoreymedical.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "David Corey Medical adheres to HIPAA regulations to ensure the security and confidentiality of patient information.",
+        "url": "https://davidcoreymedical.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "The use of HL7 FHIR for health information exchange is a key component of their integration strategy.",
+        "url": "https://davidcoreymedical.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Integration with third-party EHR systems utilizes X12 EDI transaction sets for claims processing.",
+        "url": "https://davidcoreymedical.com/integrations/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Works with HIPAA X12 and health tech, matching clearinghouse use cases.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "X12 837",
+      "claims processing",
+      "remittance advice",
+      "eligibility verification",
+      "clearinghouse services"
+    ]
+  }
+}

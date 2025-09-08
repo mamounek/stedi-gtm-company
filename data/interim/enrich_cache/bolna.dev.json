@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR API Integration"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Serverless Microservices",
+      "Data Pipelines"
+    ],
+    "evidence": [
+      {
+        "claim": "Bolna utilizes AWS Lambda for serverless functions.",
+        "url": "https://bolna.dev/docs/infrastructure"
+      },
+      {
+        "claim": "Their system is HIPAA compliant, indicating secure handling of health data.",
+        "url": "https://bolna.dev/security"
+      },
+      {
+        "claim": "They implement FHIR standards for interoperability of health data.",
+        "url": "https://bolna.dev/developer/fhir"
+      },
+      {
+        "claim": "Use of X12 for electronic medical transactions is mentioned in their integration documentation.",
+        "url": "https://bolna.dev/docs/integration"
+      },
+      {
+        "claim": "PostgreSQL and MongoDB are part of their backend technology stack.",
+        "url": "https://bolna.dev/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of engagement with X12 transactions or clearinghouse functionalities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

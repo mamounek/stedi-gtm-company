@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "EHR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Northwestern Medicine employs AWS for cloud infrastructure.",
+        "url": "https://northwesternglobalservices.com/cloud-services"
+      },
+      {
+        "claim": "They utilize Snowflake for data warehousing solutions.",
+        "url": "https://northwesternglobalservices.com/data-management"
+      },
+      {
+        "claim": "HIPAA compliance is emphasized across their technology and services.",
+        "url": "https://northwesternglobalservices.com/security"
+      },
+      {
+        "claim": "Integration with EHR systems is mentioned for interoperability.",
+        "url": "https://northwesternglobalservices.com/interoperability"
+      },
+      {
+        "claim": "FHIR standards are implemented in their data exchange services.",
+        "url": "https://northwesternglobalservices.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They utilize X12 EDI integrations for healthcare data exchange platforms.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims submission",
+      "eligibility verification",
+      "remittance advice",
+      "healthcare data exchange",
+      "provider-payer integration"
+    ]
+  }
+}

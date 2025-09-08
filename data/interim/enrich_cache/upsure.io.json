@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 270"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "WebSockets",
+      "Message Queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Upsure utilizes AWS services including Lambda and S3 for application hosting and data storage.",
+        "url": "https://upsure.io/docs/platform/aws"
+      },
+      {
+        "claim": "The company supports FHIR standards for healthcare data integration.",
+        "url": "https://upsure.io/docs/integration/fhir"
+      },
+      {
+        "claim": "Upsure's services comply with HIPAA regulations for handling sensitive health information.",
+        "url": "https://upsure.io/security/hipaa"
+      },
+      {
+        "claim": "Integration with X12 EDI transactions is part of Upsure's core functionalities.",
+        "url": "https://upsure.io/docs/integration/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Upsure integrates X12 standards for health data exchange, aligning with API-first strategies.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 Eligibility Check",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "276/277 Claims Status Inquiry",
+      "278 Health Care Services Review"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "Uses FHIR standard for health data exchange"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Blue Water Homecare is HIPAA compliant, ensuring secure handling of protected health information.",
+        "url": "https://bluewaterhomecare.com/hipaa-compliance"
+      },
+      {
+        "claim": "The company utilizes FHIR for healthcare data interoperability.",
+        "url": "https://bluewaterhomecare.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.53
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or a clearinghouse.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "ScheduleInterpreter complies with HIPAA regulations for health data handling.",
+        "url": "https://scheduleinterpreter.com/security"
+      },
+      {
+        "claim": "The company utilizes EDI standards for healthcare transactions, including X12.",
+        "url": "https://scheduleinterpreter.com/docs/edi"
+      },
+      {
+        "claim": "Integration with health systems is part of the company's service offering, focusing on interoperability.",
+        "url": "https://scheduleinterpreter.com/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transaction handling or EDI use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

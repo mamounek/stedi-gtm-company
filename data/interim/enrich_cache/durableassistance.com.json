@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Durable Assistance utilizes FHIR standards for health data exchange.",
+        "url": "https://durableassistance.com/health-technology"
+      },
+      {
+        "claim": "The company follows HL7 protocols for interoperability in health informatics.",
+        "url": "https://durableassistance.com/integration-services"
+      }
+    ],
+    "tech_stack_confidence": 0.43
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or API-driven health data exchange use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "EDI X12 transaction sets"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CommonWealth Purchasing Group emphasizes HIPAA compliance for handling sensitive health information.",
+        "url": "https://www.cwpurchasing.com/security"
+      },
+      {
+        "claim": "CWP utilizes EDI X12 for electronic data interchange in healthcare transactions.",
+        "url": "https://www.cwpurchasing.com/docs/edi"
+      },
+      {
+        "claim": "CWP mentions integration capabilities that adhere to health tech standards.",
+        "url": "https://www.cwpurchasing.com/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.57
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use case or focus on API automation found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 transaction sets",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "API-based integrations",
+      "ETL processes with Airflow",
+      "Streaming data pipelines with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Collective Health utilizes AWS to handle its infrastructure needs.",
+        "url": "https://www.collectivercm.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company ensures compliance with HIPAA regulations for patient data management.",
+        "url": "https://www.collectivercm.com/security"
+      },
+      {
+        "claim": "Integration capabilities for EHR systems are highlighted in their developer documentation.",
+        "url": "https://www.collectivercm.com/docs#ehr-integration"
+      },
+      {
+        "claim": "They implement FHIR standards for health data exchange.",
+        "url": "https://www.collectivercm.com/developer#fhir-support"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transactions; aligns with API-based healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Checks",
+      "276/277 Claims Status Requests",
+      "837/835 Claims Submission and Remittance"
+    ]
+  }
+}

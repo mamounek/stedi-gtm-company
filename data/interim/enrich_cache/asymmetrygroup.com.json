@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "HL7v2"
+    ],
+    "integration_patterns": [
+      "Kafka for event stream processing",
+      "API integrations for EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Asymmetry Group utilizes AWS cloud services for their infrastructure.",
+        "url": "https://asymmetrygroup.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company emphasizes HIPAA compliance for handling health data.",
+        "url": "https://asymmetrygroup.com/security"
+      },
+      {
+        "claim": "Integration with FHIR standards is mentioned in their health tech services.",
+        "url": "https://asymmetrygroup.com/services/health-tech"
+      },
+      {
+        "claim": "Kafka is used for managing data streams in their systems.",
+        "url": "https://asymmetrygroup.com/tech-stack"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Asymmetry Group has a robust tech stack that supports API automation and healthcare data exchange, including HIPAA compliance.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice",
+      "Event-driven architecture for healthcare exchanges",
+      "Integration with EHR systems"
+    ]
+  }
+}

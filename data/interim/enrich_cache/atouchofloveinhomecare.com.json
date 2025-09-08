@@ -1,0 +1,26 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company mentions compliance with HIPAA standards for handling health information.",
+        "url": "https://www.atouchofloveinhomecare.com/health-care-services"
+      },
+      {
+        "claim": "The company outlines their approach to safe and secure patient information handling, indicating a focus on health-tech rails.",
+        "url": "https://www.atouchofloveinhomecare.com/about-us"
+      }
+    ],
+    "tech_stack_confidence": 0.23
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of API use cases or X12 transactions on public site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

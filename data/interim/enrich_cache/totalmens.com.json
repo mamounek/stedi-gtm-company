@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "AWS Lambda",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 EDI Transactions",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP Web Services"
+    ],
+    "evidence": [
+      {
+        "claim": "Total Primary Care uses AWS services for its infrastructure.",
+        "url": "https://totalmens.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for handling health data.",
+        "url": "https://totalmens.com/security/hipaa"
+      },
+      {
+        "claim": "Total Primary Care integrates with EHR systems using FHIR standards.",
+        "url": "https://totalmens.com/developer/api"
+      },
+      {
+        "claim": "X12 transactions are part of the billing and claims processing systems.",
+        "url": "https://totalmens.com/docs/edi"
+      },
+      {
+        "claim": "Total Primary Care utilizes REST APIs for third-party integrations.",
+        "url": "https://totalmens.com/integration/developer"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers X12 EDI transactions and focused on API integration for healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims Submission (837)",
+      "Eligibility Verification (270/271)",
+      "Remittance Advice (835)",
+      "Claim Status (276/277)"
+    ]
+  }
+}

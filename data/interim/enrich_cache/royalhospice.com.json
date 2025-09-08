@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Royal Hospice Oregon ensures compliance with HIPAA regulations but does not specify detailed APIs or infrastructures.",
+        "url": "https://royalhospice.com/security/"
+      },
+      {
+        "claim": "The company focuses on health services which implies a potential integration with health data standards like FHIR.",
+        "url": "https://royalhospice.com/about/"
+      },
+      {
+        "claim": "General mention of compliance with healthcare standards, including data protection under HIPAA.",
+        "url": "https://royalhospice.com/careers/"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or API automation.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

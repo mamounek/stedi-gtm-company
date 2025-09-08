@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "PostgreSQL on Heroku"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API integration"
+    ],
+    "integration_patterns": [
+      "RESTful API for third-party integrations",
+      "Webhook notifications for event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Pave utilizes AWS Lambda for serverless computing in their infrastructure.",
+        "url": "https://pave.dev/docs/infrastructure"
+      },
+      {
+        "claim": "The company mentions FHIR API integration capabilities in their developer documentation.",
+        "url": "https://pave.dev/docs/fhir"
+      },
+      {
+        "claim": "Pave ensures HIPAA compliance for their health-tech solutions.",
+        "url": "https://pave.dev/security"
+      },
+      {
+        "claim": "Integration patterns include RESTful APIs for third-party connections.",
+        "url": "https://pave.dev/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No mention of X12 or clearinghouse use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

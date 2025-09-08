@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Data Handling",
+      "HL7 FHIR Integrations"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Data ingestion from EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "Waylight utilizes AWS for cloud services including Lambda and API Gateway for event-driven architecture.",
+        "url": "https://waylightcare.com/docs/api-overview"
+      },
+      {
+        "claim": "The platform is designed to handle health data in compliance with HIPAA regulations.",
+        "url": "https://waylightcare.com/security"
+      },
+      {
+        "claim": "Waylight integrates with HL7 and FHIR standards for interoperability with EHRs.",
+        "url": "https://waylightcare.com/developer/integrations"
+      },
+      {
+        "claim": "They have resources and case studies mentioning collaboration with various health data platforms using FHIR.",
+        "url": "https://waylightcare.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of handling X12 transactions or serving as a clearinghouse.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

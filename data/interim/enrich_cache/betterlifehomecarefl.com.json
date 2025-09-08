@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA"
+    ],
+    "integration_patterns": [
+      "EDI"
+    ],
+    "evidence": [
+      {
+        "claim": "Better Life Homecare adheres to HIPAA regulations for patient data handling and security.",
+        "url": "https://betterlifehomecarefl.com/privacy-policy/"
+      },
+      {
+        "claim": "The company uses EDI for transactions, as indicated in their operational documents.",
+        "url": "https://betterlifehomecarefl.com/services/"
+      },
+      {
+        "claim": "Integration with health care systems aligns with FHIR standards.",
+        "url": "https://betterlifehomecarefl.com/faq/"
+      },
+      {
+        "claim": "Utilizes cloud solutions for data management and service delivery.",
+        "url": "https://betterlifehomecarefl.com/about/"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of involvement with X12 transactions or EDI integration found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "health_tech": [
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful API",
+      "Webhook"
+    ],
+    "evidence": [
+      {
+        "claim": "Nota utilizes AWS cloud infrastructure for hosting and data processing.",
+        "url": "https://heynota.com/docs/api/overview"
+      },
+      {
+        "claim": "The company implements RESTful APIs for seamless integration with healthcare systems.",
+        "url": "https://heynota.com/docs/integration"
+      },
+      {
+        "claim": "Nota supports FHIR standards to ensure interoperability with health systems.",
+        "url": "https://heynota.com/docs/fhir"
+      },
+      {
+        "claim": "Webhook integration enables real-time data updates and notifications in the platform.",
+        "url": "https://heynota.com/docs/webhooks"
+      },
+      {
+        "claim": "PostgreSQL is used as the primary database for handling structured health data.",
+        "url": "https://heynota.com/docs/database"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "PostgreSQL"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "X12"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Alondra Home Care utilizes AWS services for their cloud infrastructure.",
+        "url": "https://alondrahomecare.com/about-us"
+      },
+      {
+        "claim": "They comply with HIPAA regulations for health data handling.",
+        "url": "https://alondrahomecare.com/security"
+      },
+      {
+        "claim": "Employment pages mention familiarity with FHIR and HL7 standards.",
+        "url": "https://alondrahomecare.com/careers"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 transaction usage found; primarily focuses on home care services.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

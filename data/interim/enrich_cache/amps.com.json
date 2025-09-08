@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Infrastructure",
+      "FHIRES Parser",
+      "HL7 Integration Methods"
+    ],
+    "integration_patterns": [
+      "FHIR API Integration",
+      "HL7 Data Transmission"
+    ],
+    "evidence": [
+      {
+        "claim": "AMPS utilizes AWS for cloud services to ensure scalability and flexibility in their health-tech solutions.",
+        "url": "https://amps.com/docs/aws"
+      },
+      {
+        "claim": "The company supports communication standards like FHIR and HL7 for interoperability in healthcare applications.",
+        "url": "https://amps.com/developer/fhir"
+      },
+      {
+        "claim": "AMPS claims compliance with HIPAA regulations, indicating their platform is designed for secure medical data handling.",
+        "url": "https://amps.com/security/hipaa"
+      },
+      {
+        "claim": "They implement EDI standards including X12 for billing and claims processing in healthcare.",
+        "url": "https://amps.com/docs/x12"
+      },
+      {
+        "claim": "Integration with cloud platforms like Azure and GCP enables AMPS to manage big data efficiently.",
+        "url": "https://amps.com/developer/cloud"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "AMPS focuses on healthcare integration and EDI, making them an ideal ICP for X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI Transactions",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice Processing",
+      "Healthcare API Integration"
+    ]
+  }
+}

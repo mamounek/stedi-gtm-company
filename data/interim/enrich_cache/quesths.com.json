@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI X12",
+      "API integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Quest Healthcare Solutions uses AWS for their cloud infrastructure.",
+        "url": "https://www.quesths.com/aws-cloud-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for health data management.",
+        "url": "https://www.quesths.com/security-hipaa"
+      },
+      {
+        "claim": "Quest's integration patterns include EDI X12 for healthcare transactions.",
+        "url": "https://www.quesths.com/edi-integration"
+      },
+      {
+        "claim": "They utilize FHIR standards for health information exchange.",
+        "url": "https://www.quesths.com/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of specific X12 use cases for API automation found on public site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

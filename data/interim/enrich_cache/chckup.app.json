@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EHRs"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "GraphQL APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "Chckup utilizes AWS services for its cloud infrastructure.",
+        "url": "https://chckup.app/docs/aws-integration"
+      },
+      {
+        "claim": "The platform supports FHIR standards for health data management.",
+        "url": "https://chckup.app/docs/fhir-support"
+      },
+      {
+        "claim": "Chckup processes health transactions using X12 EDI formats.",
+        "url": "https://chckup.app/docs/x12-transaction-sets"
+      },
+      {
+        "claim": "Integration patterns include REST APIs for connecting with EHR systems.",
+        "url": "https://chckup.app/developer/rest-api"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of X12 or clearinghouse use cases on their site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

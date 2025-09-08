@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Azure Functions"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API Gateway Integration",
+      "Event-Driven Architecture using AWS SNS"
+    ],
+    "evidence": [
+      {
+        "claim": "Health Care Connectors utilizes AWS services for serverless architecture.",
+        "url": "https://healthcareconnectors.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company is committed to HIPAA compliance, ensuring patient data security.",
+        "url": "https://healthcareconnectors.com/security"
+      },
+      {
+        "claim": "Implementing HL7 FHIR standards for health data interoperability.",
+        "url": "https://healthcareconnectors.com/developer/fhir"
+      },
+      {
+        "claim": "Offers integration solutions using API gateways and event-driven architecture.",
+        "url": "https://healthcareconnectors.com/integrations"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers EDI solutions focused on HIPAA compliance and X12 transactions, aligning with API automation.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims submission (837)",
+      "Eligibility inquiries (270/271)",
+      "Remittance processing (835)",
+      "Event-driven data integration"
+    ]
+  }
+}

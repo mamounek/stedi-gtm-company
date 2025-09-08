@@ -1,0 +1,24 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Detroit Medical Center emphasizes their commitment to HIPAA compliance across their services.",
+        "url": "https://www.dmc.org"
+      }
+    ],
+    "tech_stack_confidence": 0.24
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation on public site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

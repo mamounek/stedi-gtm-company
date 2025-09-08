@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837 claim submission",
+      "HL7 standards for health information exchange"
+    ],
+    "integration_patterns": [
+      "EDI transactions",
+      "Data exchange with EHR systems"
+    ],
+    "evidence": [
+      {
+        "claim": "Vigilant Medical Billing Services ensures HIPAA compliance in their operations, securing patient information.",
+        "url": "https://vigilantbillingms.com/security/"
+      },
+      {
+        "claim": "The company utilizes X12 837 for electronic claim submissions in adherence to industry standards.",
+        "url": "https://vigilantbillingms.com/services/"
+      },
+      {
+        "claim": "Vigilant engages with EHR systems for integrated medical billing.",
+        "url": "https://vigilantbillingms.com/integration/"
+      },
+      {
+        "claim": "Health information exchange is facilitated via HL7 standards in their billing services.",
+        "url": "https://vigilantbillingms.com/health-tech/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Relevant health tech and focus on X12 transactions indicate ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claim submission",
+      "EDI transactions",
+      "Data exchange with EHR systems"
+    ]
+  }
+}

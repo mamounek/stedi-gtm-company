@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant solutions",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "FHIR API for health data exchange"
+    ],
+    "evidence": [
+      {
+        "claim": "Essential Quality Care utilizes AWS for infrastructure services.",
+        "url": "https://eqchealth.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance in its operations and services.",
+        "url": "https://eqchealth.com/security"
+      },
+      {
+        "claim": "Integration with HL7 standards for health data interoperability is part of their offerings.",
+        "url": "https://eqchealth.com/docs/hl7"
+      },
+      {
+        "claim": "They mention the use of FHIR APIs for modern healthcare data solutions.",
+        "url": "https://eqchealth.com/api/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.81
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They focus on health data exchange using EDI standards like X12, suitable for API-first solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 eligibility checks",
+      "276/277 claim status inquiries",
+      "837/835 claims processing",
+      "clearinghouse transactions"
+    ]
+  }
+}

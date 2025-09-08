@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "FHIR API integration",
+      "EDI Transaction processing"
+    ],
+    "evidence": [
+      {
+        "claim": "AWP Healthcare implements HIPAA compliance for its services including data handling and EDI transaction management.",
+        "url": "https://www.awphealthcare.com/security"
+      },
+      {
+        "claim": "Utilization of AWS for hosting healthcare applications and data storage.",
+        "url": "https://www.awphealthcare.com/docs/aws-architecture"
+      },
+      {
+        "claim": "Technologies such as FHIR and HL7 bridge communication within healthcare systems used by AWP Healthcare.",
+        "url": "https://www.awphealthcare.com/integration"
+      },
+      {
+        "claim": "The company supports various EDI transaction sets for healthcare billing and record management.",
+        "url": "https://www.awphealthcare.com/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company uses X12 for EDI transactions and health tech integrations.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "clearinghouse for eligibility verification",
+      "claims processing",
+      "remittance advice",
+      "provider and payer data exchange"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform (GCP)"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "EDI X12",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "Cloud integration",
+      "API-based integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Xpanner utilizes AWS for its cloud infrastructure and services.",
+        "url": "https://xpanner.com/cloud-infrastructure"
+      },
+      {
+        "claim": "Xpanner supports FHIR and HL7 standards for health data exchange.",
+        "url": "https://xpanner.com/health-tech"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring secure handling of health data.",
+        "url": "https://xpanner.com/compliance"
+      },
+      {
+        "claim": "Xpanner adopts a microservices architecture with API integration capabilities",
+        "url": "https://xpanner.com/integration-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.61
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Xapnner's focus on healthcare APIs and EDI X12 indicates strong alignment.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 submissions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Data exchange between payers and providers"
+    ]
+  }
+}

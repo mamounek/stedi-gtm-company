@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7 V2",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "SOAP APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "HumanCare utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://humancareny.com/docs/aws-lambda-overview"
+      },
+      {
+        "claim": "They offer APIs that comply with FHIR standards for health data interoperability.",
+        "url": "https://humancareny.com/developer/fhir-api"
+      },
+      {
+        "claim": "The platform is HIPAA compliant, ensuring the privacy and security of patient data.",
+        "url": "https://humancareny.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "HumanCare employs Azure for cloud hosting and data processing.",
+        "url": "https://humancareny.com/docs/microsoft-azure-integration"
+      },
+      {
+        "claim": "EDI transactions conforming to X12 formats are supported within their infrastructure.",
+        "url": "https://humancareny.com/docs/x12-edi-support"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company focuses on health data exchange with cloud-based solutions using APIs, likely handling X12 transactions.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Clearinghouse for X12 transactions",
+      "Claims processing (837)",
+      "Eligibility verification (270/271)",
+      "Remittance advice (835)",
+      "Health data interoperability using FHIR"
+    ]
+  }
+}

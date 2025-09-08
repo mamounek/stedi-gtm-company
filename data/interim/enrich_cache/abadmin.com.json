@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "X12 EDI transaction sets"
+    ],
+    "integration_patterns": [
+      "data transformation",
+      "middleware integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Assured Benefits utilizes AWS for cloud infrastructure.",
+        "url": "https://abadmin.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The company claims to handle HIPAA compliant data on their security page.",
+        "url": "https://abadmin.com/security"
+      },
+      {
+        "claim": "They mention integration with EHR systems and support for X12 EDI standards.",
+        "url": "https://abadmin.com/health-tech"
+      },
+      {
+        "claim": "Job descriptions indicate engineering roles involve cloud platforms and data management.",
+        "url": "https://abadmin.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.83
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA compliance and X12 EDI transactions aligns with API automation needs.",
+    "icp_confidence": 0.9,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claim Status Requests",
+      "278 Requests for Authorizations",
+      "837 Claims Submission",
+      "835 Remittance Advice Reconciliation"
+    ]
+  }
+}

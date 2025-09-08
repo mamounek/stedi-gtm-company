@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform (GCP)",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 (EDI transactions)",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Kafka for event streaming",
+      "AWS Lambda for serverless integration",
+      "MuleSoft for API management"
+    ],
+    "evidence": [
+      {
+        "claim": "Gaine uses AWS and GCP for its cloud infrastructure.",
+        "url": "https://gaine.com/cloud-infrastructure"
+      },
+      {
+        "claim": "The company supports interoperability through the use of FHIR and HL7 standards.",
+        "url": "https://gaine.com/healthtech"
+      },
+      {
+        "claim": "Gaine implements X12 EDI transactions for healthcare data exchange.",
+        "url": "https://gaine.com/edi-solutions"
+      },
+      {
+        "claim": "Gaine employs Kafka for real-time data processing.",
+        "url": "https://gaine.com/data-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company operates in health tech using X12 EDI transactions for claims and eligibility checks.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "Claims management",
+      "Eligibility checks",
+      "Remittance processing",
+      "Clearinghouse services"
+    ]
+  }
+}

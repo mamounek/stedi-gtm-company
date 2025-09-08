@@ -1,0 +1,31 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "AHIP supports HIPAA compliance initiatives.",
+        "url": "https://www.ahip.org/healthcare/protecting-privacy-and-security/faq-on-hipaa/"
+      },
+      {
+        "claim": "AHIP offers resources on FHIR standards for health data exchange.",
+        "url": "https://www.ahip.org/fhir-advancing-health-data-exchange/"
+      },
+      {
+        "claim": "AHIP discusses the implications of EDI transactions in healthcare.",
+        "url": "https://www.ahip.org/edi-transactions-and-healthcare-innovation/"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited evidence of direct X12 or API automation use cases; focuses on advocacy, not exchanges.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

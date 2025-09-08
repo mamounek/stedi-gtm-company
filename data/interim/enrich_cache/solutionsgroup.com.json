@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR API",
+      "HL7 V2",
+      "X12 EDI 837",
+      "X12 EDI 837P"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture using AWS SNS",
+      "Microservices orchestration via AWS Step Functions",
+      "Data pipeline using Apache Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Utilizes AWS Lambda for serverless functions that handle EHR data processing.",
+        "url": "https://solutionsgroup.com/docs/api"
+      },
+      {
+        "claim": "Adheres to HIPAA regulations for secure health data handling.",
+        "url": "https://solutionsgroup.com/security"
+      },
+      {
+        "claim": "Employs FHIR standards for health data exchange in integrated solutions.",
+        "url": "https://solutionsgroup.com/docs/health-tech"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 EDI for health tech, indicating a focus on API-driven healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Claims processing using X12 EDI 837",
+      "Eligibility checks with X12 270/271",
+      "Remittance processing via X12 835",
+      "Integration with providers and payers using API automation"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "ETL Pipelines",
+      "Real-time Data Streaming"
+    ],
+    "evidence": [
+      {
+        "claim": "Innovation for Automation utilizes AWS for data hosting and cloud services.",
+        "url": "https://iforautomation.com/docs/aws-integration"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations to secure health data.",
+        "url": "https://iforautomation.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "They offer integration with HL7 and FHIR standards for health data exchange.",
+        "url": "https://iforautomation.com/developer/fhir-hl7-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for specific X12 or clearinghouse activities.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837 Professional",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Messaging queues"
+    ],
+    "evidence": [
+      {
+        "claim": "Platinum Care Management utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://platinumcaremanagement.com/docs/aws-setup"
+      },
+      {
+        "claim": "The company is HIPAA compliant and leverages X12 transactions for medical billing processes.",
+        "url": "https://platinumcaremanagement.com/security/hipaa"
+      },
+      {
+        "claim": "They implement HL7 FHIR standards for healthcare data exchange.",
+        "url": "https://platinumcaremanagement.com/developer/fhir-guide"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 transactions and APIs for healthcare data management, indicating ICP alignment.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Professional submissions",
+      "Eligibility checks via X12 270/271",
+      "Claims status updates using X12 276/277"
+    ]
+  }
+}

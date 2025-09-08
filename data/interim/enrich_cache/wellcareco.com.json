@@ -1,0 +1,57 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 EDI 837 - Health Care Claim",
+      "FHIR",
+      "HL7",
+      "EHR integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture",
+      "Message queues (e.g., RabbitMQ)"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS cloud infrastructure for scalable services.",
+        "url": "https://wellcareco.com/aws-integration"
+      },
+      {
+        "claim": "WellCare is HIPAA compliant and utilizes secure data exchange protocols.",
+        "url": "https://wellcareco.com/security-hipaa"
+      },
+      {
+        "claim": "The company supports X12 transaction sets for health care claims processing.",
+        "url": "https://wellcareco.com/edi-x12"
+      },
+      {
+        "claim": "WellCare employs FHIR standards for health interoperability.",
+        "url": "https://wellcareco.com/fhir-standard"
+      },
+      {
+        "claim": "Integration with EHRs and other health data systems is part of their service offerings.",
+        "url": "https://wellcareco.com/ehr-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA X12 and EDI, indicating a focus on healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Submitting healthcare claims (837)",
+      "Eligibility checks (270/271)",
+      "Claim status inquiries (276/277)",
+      "Remittance processing (835)",
+      "Using EDI for payer-provider communication"
+    ]
+  }
+}

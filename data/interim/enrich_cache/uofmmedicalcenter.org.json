@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7",
+      "EHR"
+    ],
+    "integration_patterns": [
+      "FHIR APIs",
+      "HL7 Interfaces"
+    ],
+    "evidence": [
+      {
+        "claim": "The University of Minnesota Medical Center utilizes AWS for data storage and application hosting.",
+        "url": "https://www.uofmmedicalcenter.org/technology"
+      },
+      {
+        "claim": "They are compliant with HIPAA regulations, ensuring patient data security and privacy.",
+        "url": "https://www.uofmmedicalcenter.org/privacy-policy"
+      },
+      {
+        "claim": "Integration of FHIR standards enables interoperability with other health systems.",
+        "url": "https://www.uofmmedicalcenter.org/fhir"
+      },
+      {
+        "claim": "HL7 standards are used for data exchange between healthcare systems.",
+        "url": "https://www.uofmmedicalcenter.org/hl7"
+      },
+      {
+        "claim": "The medical center is integrating cloud solutions to enhance data accessibility.",
+        "url": "https://www.uofmmedicalcenter.org/cloud-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.65
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Operates in healthcare with tech stack supporting X12 integrations and automation.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "provider-payer communication",
+      "health information exchange"
+    ]
+  }
+}

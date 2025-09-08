@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "File-based EDI integration"
+    ],
+    "evidence": [
+      {
+        "claim": "MedCollect utilizes AWS services for cloud functions and file storage.",
+        "url": "https://medcollect.health/docs/aws-integration"
+      },
+      {
+        "claim": "The platform is compliant with HIPAA regulations for health data security.",
+        "url": "https://medcollect.health/security/hipaa-compliance"
+      },
+      {
+        "claim": "MedCollect processes X12 transaction sets for health insurance claims.",
+        "url": "https://medcollect.health/docs/x12-transaction"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Tech stack includes HIPAA compliance and X12 transaction sets, relevant to API-first solutions.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "270/271 eligibility checking",
+      "276/277 claims status inquiries",
+      "837 claim submissions",
+      "835 remittance advice processing",
+      "clearinghouse services for X12 transactions"
+    ]
+  }
+}

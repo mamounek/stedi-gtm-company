@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "Kafka streaming integration",
+      "Cloud data warehousing with Snowflake"
+    ],
+    "evidence": [
+      {
+        "claim": "Optimatum leverages AWS for cloud computing services.",
+        "url": "https://optimatumsolutions.com/cloud-services"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data management.",
+        "url": "https://optimatumsolutions.com/health-solutions"
+      },
+      {
+        "claim": "Kafka is used for real-time data streaming and processing.",
+        "url": "https://optimatumsolutions.com/integration-methodologies"
+      },
+      {
+        "claim": "Azure services are utilized for data integration and application development.",
+        "url": "https://optimatumsolutions.com/platform-overview"
+      },
+      {
+        "claim": "HL7 protocols are followed for interoperability in healthcare data exchange.",
+        "url": "https://optimatumsolutions.com/healthcare-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or specific healthcare claims-related use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

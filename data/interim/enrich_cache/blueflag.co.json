@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliant data handling",
+      "FHIR API support"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "FHIR-based interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "BlueFlag LLP utilizes AWS Lambda for serverless computing.",
+        "url": "https://blueflag.co/docs/infrastructure"
+      },
+      {
+        "claim": "The company ensures HIPAA compliance for all data handling processes.",
+        "url": "https://blueflag.co/security"
+      },
+      {
+        "claim": "They provide integrations using FHIR APIs for healthcare data exchange.",
+        "url": "https://blueflag.co/developer"
+      },
+      {
+        "claim": "Amazon RDS is employed for relational database management.",
+        "url": "https://blueflag.co/docs/databases"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction capabilities found on site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

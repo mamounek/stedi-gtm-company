@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Patients First Home Care uses cloud services for application hosting and data management.",
+        "url": "https://www.patientsfirsthomecare.com/about-us"
+      },
+      {
+        "claim": "The company emphasizes adherence to HIPAA regulations in their operations.",
+        "url": "https://www.patientsfirsthomecare.com/privacy-policy"
+      },
+      {
+        "claim": "Technical consultations are available for integrating with electronic health records (EHRs).",
+        "url": "https://www.patientsfirsthomecare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of using X12 transactions or API automation in healthcare.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

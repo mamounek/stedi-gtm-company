@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "CorroHealth is compliant with HIPAA regulations, ensuring secure handling of health data.",
+        "url": "https://www.corrohealth.com/security/"
+      },
+      {
+        "claim": "The company utilizes FHIR standards for health data exchange.",
+        "url": "https://www.corrohealth.com/docs/fhir-implementation/"
+      },
+      {
+        "claim": "CorroHealth supports X12 EDI standards for insurance claims processing.",
+        "url": "https://www.corrohealth.com/integrations/x12-edi/"
+      },
+      {
+        "claim": "The company emphasizes data security in accordance with health regulations.",
+        "url": "https://www.corrohealth.com/health-data-security/"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "CorroHealth focuses on EDI solutions and claims processing that align with X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Processing",
+      "Eligibility Verification (X12 270/271)",
+      "Claim Status Inquiry (X12 276/277)"
+    ]
+  }
+}

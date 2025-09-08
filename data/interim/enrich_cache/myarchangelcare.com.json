@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API-based integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Archangel utilizes AWS services for cloud scaling and storage solutions.",
+        "url": "https://myarchangelcare.com/careers"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://myarchangelcare.com/docs"
+      },
+      {
+        "claim": "X12 transaction sets are supported for billing and claims processing.",
+        "url": "https://myarchangelcare.com/security"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 standards for healthcare data exchange in their tech stack.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility verification (270/271)",
+      "Claim submission (837)",
+      "Remittance advice (835)",
+      "Claim status inquiry (276/277)"
+    ]
+  }
+}

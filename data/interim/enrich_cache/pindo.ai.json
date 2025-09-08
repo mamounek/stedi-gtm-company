@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 EDI"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Pindo utilizes AWS services for scalable infrastructure.",
+        "url": "https://pindo.ai/docs/aws-integration"
+      },
+      {
+        "claim": "Pindo supports FHIR and HL7 standards for health data interoperability.",
+        "url": "https://pindo.ai/health-tech"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhooks for real-time data access.",
+        "url": "https://pindo.ai/docs/integration"
+      },
+      {
+        "claim": "Use of X12 transaction sets for streamlined healthcare transactions.",
+        "url": "https://pindo.ai/security-compliance"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Pindo uses X12 EDI and APIs for healthcare integration; fits target ICP.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Claims payment (835)",
+      "Remittance processing",
+      "Integration with payers/providers"
+    ]
+  }
+}

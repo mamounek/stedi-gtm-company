@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Sets",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company operates under HIPAA compliance, ensuring secure handling of health information.",
+        "url": "https://todayshc.com/security/"
+      },
+      {
+        "claim": "They are utilizing FHIR standards for their health data integration.",
+        "url": "https://todayshc.com/developer/health-integration/"
+      },
+      {
+        "claim": "Today's Homecare mentions the use of X12 transaction sets for healthcare billing and communication.",
+        "url": "https://todayshc.com/docs/x12-transaction-sets/"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transaction sets and is HIPAA compliant, indicating strong API automation needs.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Eligibility checks (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

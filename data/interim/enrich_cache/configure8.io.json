@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "REST APIs",
+      "Webhook Integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "Configure8 uses AWS services for serverless architecture and data storage.",
+        "url": "https://configure8.io/docs/api"
+      },
+      {
+        "claim": "The company highlights its commitment to HIPAA compliance for healthcare integrations.",
+        "url": "https://configure8.io/security"
+      },
+      {
+        "claim": "They employ FHIR standards for health data exchange.",
+        "url": "https://configure8.io/docs/health-tech"
+      },
+      {
+        "claim": "Integration patterns include leveraging REST APIs for third-party EHR systems.",
+        "url": "https://configure8.io/integrations"
+      },
+      {
+        "claim": "Cloud infrastructure includes usage of Google Cloud Platform for data processing.",
+        "url": "https://configure8.io/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.88
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling EDI transactions or X12 use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

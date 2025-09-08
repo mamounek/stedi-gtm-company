@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12 EDI Transaction Sets",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "DMB Insurance Agency prioritizes HIPAA compliance for handling protected health information (PHI).",
+        "url": "https://dmbgroup.online/security"
+      },
+      {
+        "claim": "The agency uses X12 EDI standards for electronic claim submissions and insurance transactions.",
+        "url": "https://dmbgroup.online/docs/edi"
+      },
+      {
+        "claim": "HL7 standards are mentioned as part of their interoperability framework in healthcare communications.",
+        "url": "https://dmbgroup.online/docs/hl7"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 for claims processing and has health tech focus, suitable for API-driven solutions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transaction support",
+      "Claims submission and processing",
+      "Eligibility verification",
+      "Remittance processing",
+      "Provider-payer communication"
+    ]
+  }
+}

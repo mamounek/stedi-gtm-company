@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "HIPAA compliant data storage",
+      "HL7 interfaces"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for EHR integration",
+      "Webhooks for real-time notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS Lambda for serverless processing.",
+        "url": "https://www.fertilityhc.com/developer/aws-lambda-support"
+      },
+      {
+        "claim": "Fertility Home Care ensures HIPAA compliance in data transactions.",
+        "url": "https://www.fertilityhc.com/security/hipaa"
+      },
+      {
+        "claim": "Integration with EHR systems leveraging HL7 standards.",
+        "url": "https://www.fertilityhc.com/docs/integration/hl7"
+      },
+      {
+        "claim": "The platform utilizes Google Cloud services for data processing.",
+        "url": "https://www.fertilityhc.com/docs/cloud-services/gcp"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or clearinghouse functionalities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

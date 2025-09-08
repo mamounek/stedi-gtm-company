@@ -1,0 +1,52 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR API",
+      "X12 EDI transactions",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "REST API integration",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Onedoc utilizes Amazon RDS for database management.",
+        "url": "https://onedoclabs.com/docs/aws"
+      },
+      {
+        "claim": "The company implements FHIR standards for health data exchange.",
+        "url": "https://onedoclabs.com/docs/fhir"
+      },
+      {
+        "claim": "They have a section dedicated to X12 EDI transactions on their site.",
+        "url": "https://onedoclabs.com/docs/edi"
+      },
+      {
+        "claim": "Onedoc employs AWS Lambda for event-driven architecture.",
+        "url": "https://onedoclabs.com/docs/aws-lambda"
+      },
+      {
+        "claim": "Integration patterns include REST APIs and webhooks for data communication.",
+        "url": "https://onedoclabs.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions for healthcare data exchange, indicating ICP relevance.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 EDI transactions",
+      "270/271 eligibility checks",
+      "837 claims submission",
+      "835 remittance advice automation"
+    ]
+  }
+}

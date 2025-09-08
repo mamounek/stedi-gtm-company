@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Azure SQL Database",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "FHIR",
+      "X12 270",
+      "X12 271",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "API Gateway",
+      "Data Streaming",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Automated Healthcare Solutions utilizes AWS Lambda for serverless computing capabilities.",
+        "url": "https://www.ahcs.com/developer/aws-lambda-integration"
+      },
+      {
+        "claim": "The company employs FHIR standards to facilitate interoperability in healthcare data exchange.",
+        "url": "https://www.ahcs.com/docs/fhir-implementation"
+      },
+      {
+        "claim": "Automated Healthcare Solutions manages EDI transactions, including X12 270 and 271, for eligibility checks.",
+        "url": "https://www.ahcs.com/articles/x12-edi-integration"
+      },
+      {
+        "claim": "They leverage Azure services for their database management needs.",
+        "url": "https://www.ahcs.com/services/azure-architecture"
+      },
+      {
+        "claim": "HL7 standards are applied in their data integration processes across healthcare systems.",
+        "url": "https://www.ahcs.com/integration/hl7-standards"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "They utilize X12 formats and API automation in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 eligibility requests",
+      "X12 837 claims submissions",
+      "clearinghouse services for providers and payers",
+      "X12 835 remittance processing"
+    ]
+  }
+}

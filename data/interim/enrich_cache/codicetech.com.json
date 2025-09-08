@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Cloud Services",
+      "Azure Cloud Services"
+    ],
+    "health_tech": [
+      "HL7",
+      "FHIR",
+      "X12 EDI Transaction Sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "JSON over HTTP"
+    ],
+    "evidence": [
+      {
+        "claim": "Codice Tech utilizes AWS for cloud infrastructure solutions.",
+        "url": "https://codicetech.com/cloud-services"
+      },
+      {
+        "claim": "The company integrates FHIR for healthcare data exchange.",
+        "url": "https://codicetech.com/healthcare-integration"
+      },
+      {
+        "claim": "Codice Tech supports HL7 standards for interoperability in health data.",
+        "url": "https://codicetech.com/docs/hl7-integration"
+      },
+      {
+        "claim": "The organization employs X12 for electronic data interchange in healthcare.",
+        "url": "https://codicetech.com/api-guides/x12"
+      },
+      {
+        "claim": "The use of RESTful APIs is highlighted in Codice Tech's developer documentation.",
+        "url": "https://codicetech.com/developer/documentation"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions and API automation in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice"
+    ]
+  }
+}

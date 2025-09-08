@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "FHIR"
+    ],
+    "evidence": [
+      {
+        "claim": "TraylorTranspo uses AWS cloud services for infrastructure.",
+        "url": "https://traylortranspo.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA regulations for health data.",
+        "url": "https://traylortranspo.com/compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is supported by HL7 standards.",
+        "url": "https://traylortranspo.com/integration"
+      },
+      {
+        "claim": "Utilizes X12 transaction sets for electronic data interchange.",
+        "url": "https://traylortranspo.com/edi"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes HIPAA and X12, relevant to healthcare data exchange.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "X12 transactions",
+      "EDI integration",
+      "claims processing",
+      "remittance advice",
+      "eligibility verification"
+    ]
+  }
+}

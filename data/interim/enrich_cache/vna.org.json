@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The organization employs HIPAA guidelines in its operations.",
+        "url": "https://www.vna.org/about/healthcare"
+      },
+      {
+        "claim": "The integration of FHIR standards is discussed in their technical documentation.",
+        "url": "https://www.vna.org/services/technology"
+      },
+      {
+        "claim": "They handle multiple X12 transaction sets pertaining to healthcare services.",
+        "url": "https://www.vna.org/resources/library"
+      },
+      {
+        "claim": "The VNA adheres to HL7 standards in its patient data exchange processes.",
+        "url": "https://www.vna.org/health-information-exchange"
+      }
+    ],
+    "tech_stack_confidence": 0.51
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 for claims processing and eligibility verification.",
+    "icp_confidence": 0.7,
+    "matched_use_cases": [
+      "270/271 Eligibility Verification",
+      "276/277 Claims Status Inquiry",
+      "837 Claims Submission",
+      "835 Remittance Advice",
+      "Clearinghouse Services"
+    ]
+  }
+}

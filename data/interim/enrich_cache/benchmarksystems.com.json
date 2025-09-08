@@ -1,0 +1,49 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Amazon S3"
+    ],
+    "health_tech": [
+      "X12 834",
+      "X12 835",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Real-time data ingestion",
+      "Batch processing",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "Benchmark Solutions utilizes AWS for cloud computing infrastructure, enhancing scalability and reliability.",
+        "url": "https://benchmarksystems.com/technology/"
+      },
+      {
+        "claim": "The company implements FHIR standards for data interoperability in health applications.",
+        "url": "https://benchmarksystems.com/developer/docs/fhir-specifications/"
+      },
+      {
+        "claim": "X12 EDI transaction sets, especially 834 and 835, are utilized for managing healthcare enrollment and payments.",
+        "url": "https://benchmarksystems.com/docs/x12-transaction-sets/"
+      },
+      {
+        "claim": "They adopt event-driven architecture for improved integration between various health services.",
+        "url": "https://benchmarksystems.com/integration-patterns/"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 formats and APIs for healthcare data exchange, fitting clearinghouse profile.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 835 Remittance Advice",
+      "X12 270/271 Eligibility Checks",
+      "X12 276/277 Claim Status Requests"
+    ]
+  }
+}

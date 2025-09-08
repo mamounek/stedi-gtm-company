@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Amazon RDS",
+      "Google Kubernetes Engine"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [
+      "API-first integration",
+      "Microservices architecture",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "NurtureCare utilizes AWS services for their cloud infrastructure.",
+        "url": "https://nurturecare.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform adheres to HIPAA standards for data privacy and security.",
+        "url": "https://nurturecare.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "NurtureCare implements FHIR for healthcare data interoperability.",
+        "url": "https://nurturecare.com/docs/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on X12 transactions for healthcare claims and eligibility.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 Claims Submission",
+      "X12 270/271 Eligibility Verification",
+      "X12 835 Remittance Processing",
+      "Clearinghouse Services for Payers and Providers"
+    ]
+  }
+}

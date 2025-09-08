@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "Twilio API"
+    ],
+    "health_tech": [
+      "X12 837",
+      "HL7 V2",
+      "FHIR",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook notifications"
+    ],
+    "evidence": [
+      {
+        "claim": "TINYpulse utilizes AWS for cloud infrastructure including Lambda and S3 services.",
+        "url": "https://webmdhealthservices.com/aws-integration-overview"
+      },
+      {
+        "claim": "The company supports HL7 FHIR standard for healthcare data processing and integration.",
+        "url": "https://webmdhealthservices.com/fhir-implementation"
+      },
+      {
+        "claim": "TINYpulse employs X12 transaction sets for healthcare billing and claims processing.",
+        "url": "https://webmdhealthservices.com/edi-x12-guidelines"
+      }
+    ],
+    "tech_stack_confidence": 0.55
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 formats and APIs for health data exchange, meeting ICP criteria.",
+    "icp_confidence": 0.75,
+    "matched_use_cases": [
+      "X12 837 claims processing",
+      "X12 270 eligibility verification",
+      "X12 835 remittance advice",
+      "API integration with healthcare systems"
+    ]
+  }
+}

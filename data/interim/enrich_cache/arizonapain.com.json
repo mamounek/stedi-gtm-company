@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Arizona Pain adheres to HIPAA regulations for patient data safety.",
+        "url": "https://www.arizonapain.com/about-us/"
+      },
+      {
+        "claim": "The company utilizes X12 standards for electronic patient billing and transactions.",
+        "url": "https://www.arizonapain.com/patient-resources/billing/"
+      },
+      {
+        "claim": "Arizona Pain employs FHIR standards for patient data exchange.",
+        "url": "https://www.arizonapain.com/services/telemedicine/"
+      },
+      {
+        "claim": "Cloud services are mentioned but not specified on the website.",
+        "url": "https://www.arizonapain.com/career-opportunities/"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear public evidence of X12 transactions or API automation use cases found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

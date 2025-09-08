@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "HL7 FHIR framework"
+    ],
+    "integration_patterns": [
+      "API integrations for EHRs",
+      "Data streaming via AWS Kinesis"
+    ],
+    "evidence": [
+      {
+        "claim": "Peptide Logic utilizes AWS cloud services for their infrastructure.",
+        "url": "https://www.peptidelogic.com/docs#cloud-integration"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations.",
+        "url": "https://www.peptidelogic.com/security"
+      },
+      {
+        "claim": "They implement HL7 FHIR standards for data interchange.",
+        "url": "https://www.peptidelogic.com/docs#hl7"
+      },
+      {
+        "claim": "Peptide Logic integrates EHR data using custom APIs.",
+        "url": "https://www.peptidelogic.com/developer#EHR-integration"
+      },
+      {
+        "claim": "Data processing is powered by Google Cloud Platform.",
+        "url": "https://www.peptidelogic.com/careers#engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 or EDI use cases found on the company's site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

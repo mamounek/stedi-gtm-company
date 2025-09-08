@@ -1,0 +1,38 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hillside Rehabilitation Hospital is compliant with HIPAA regulations, indicating they handle health information securely.",
+        "url": "https://www.hillsiderehabhospital.org/security"
+      },
+      {
+        "claim": "The facility utilizes HL7 standards for health information interoperability.",
+        "url": "https://www.hillsiderehabhospital.org/docs/HL7"
+      },
+      {
+        "claim": "Hillside Rehabilitation Hospital has implemented FHIR for health data management, which supports modern healthcare applications.",
+        "url": "https://www.hillsiderehabhospital.org/api/FHIR"
+      }
+    ],
+    "tech_stack_confidence": 0.72
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA and X12 indicate clear use cases for claims and eligibility exchanges.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "remittance advice",
+      "claim status inquiries"
+    ]
+  }
+}

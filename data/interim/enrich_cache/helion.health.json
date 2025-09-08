@@ -1,0 +1,56 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Azure"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12",
+      "EDI",
+      "Healthcare Integration"
+    ],
+    "integration_patterns": [
+      "API Integration",
+      "Cloud-based Data Streaming",
+      "Healthcare Data Interoperability"
+    ],
+    "evidence": [
+      {
+        "claim": "Helion utilizes AWS for cloud services in their operations.",
+        "url": "https://helion.health/docs/cloud-services"
+      },
+      {
+        "claim": "The company mentions support for FHIR and HL7 standards for healthcare data exchange on their developer page.",
+        "url": "https://helion.health/developer/integration"
+      },
+      {
+        "claim": "Documentation indicates compliance with HIPAA and mentions EDI transaction sets for healthcare data.",
+        "url": "https://helion.health/security/hipaa"
+      },
+      {
+        "claim": "Helion uses Google Cloud for data management and processing needs.",
+        "url": "https://helion.health/docs/data-platforms"
+      },
+      {
+        "claim": "The company highlights integration patterns involving EDI for healthcare workflows.",
+        "url": "https://helion.health/careers/engineer"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Helion focuses on healthcare interoperability with X12 support and API integration.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Eligibility Verification (270/271)",
+      "Claims Submission (837)",
+      "Remittance Advice (835)",
+      "Claim Status Inquiry (276/277)",
+      "Healthcare Data Interoperability"
+    ]
+  }
+}

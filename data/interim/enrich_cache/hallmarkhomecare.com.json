@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Hallmark Homecare emphasizes compliance with HIPAA regulations on their services.",
+        "url": "https://hallmarkhomecare.com/hipaa-compliance/"
+      },
+      {
+        "claim": "The company offers integration with electronic health records (EHR) but lacks specific details on APIs.",
+        "url": "https://hallmarkhomecare.com/services/"
+      },
+      {
+        "claim": "Hallmark Homecare provides care analytics but does not publicly disclose specific data platforms or methodologies.",
+        "url": "https://hallmarkhomecare.com/services/analytics/"
+      },
+      {
+        "claim": "The website mentions care coordination which implies the use of health data exchange standards but does not specify.",
+        "url": "https://hallmarkhomecare.com/services/coordination/"
+      }
+    ],
+    "tech_stack_confidence": 0.36
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found regarding X12 or API automation uses.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

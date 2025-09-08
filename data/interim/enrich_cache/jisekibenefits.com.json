@@ -1,0 +1,44 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "EDI",
+      "FHIR",
+      "HL7",
+      "EHRs"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "JISEKI Health complies with HIPAA regulations for data privacy and security in healthcare.",
+        "url": "https://www.jisekibenefits.com/security"
+      },
+      {
+        "claim": "The company uses X12 standards for electronic data interchange in healthcare transactions.",
+        "url": "https://www.jisekibenefits.com/docs/edi"
+      },
+      {
+        "claim": "JISEKI offers integration capabilities with EHR systems and complies with FHIR standards.",
+        "url": "https://www.jisekibenefits.com/integration"
+      },
+      {
+        "claim": "JISEKI provides solutions that support HL7 messaging standards.",
+        "url": "https://www.jisekibenefits.com/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on health tech and EDI suggests they use X12 for claims and eligibility.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance management",
+      "Electronic Data Interchange (EDI)"
+    ]
+  }
+}

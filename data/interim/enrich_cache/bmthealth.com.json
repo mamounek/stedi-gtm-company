@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "X12 Transaction Sets"
+    ],
+    "integration_patterns": [
+      "EDI Integration",
+      "FHIR API Implementation"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud services to manage their infrastructure.",
+        "url": "https://bmthealth.com/developer"
+      },
+      {
+        "claim": "They demonstrate compliance with HIPAA regulations in their documentation.",
+        "url": "https://bmthealth.com/security"
+      },
+      {
+        "claim": "Benefits Management Team integrates EDI transaction sets in their system workflows.",
+        "url": "https://bmthealth.com/docs"
+      },
+      {
+        "claim": "The company has case studies highlighting the use of FHIR in health data interoperability.",
+        "url": "https://bmthealth.com/case-studies"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Focus on HIPAA and X12 solutions indicates alignment with API-first data exchange.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "EDI Integration",
+      "HIPAA X12 Transactions",
+      "Claims Processing",
+      "Eligibility Verification",
+      "Remittance Advice"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "EDI X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company adheres to HIPAA compliance for handling sensitive health information.",
+        "url": "https://www.wordandbrown.com/security"
+      },
+      {
+        "claim": "Word & Brown uses EDI X12 for electronic transactions in health insurance.",
+        "url": "https://www.wordandbrown.com/docs/edi"
+      },
+      {
+        "claim": "The organization utilizes FHIR standards for healthcare data exchange to ensure interoperability.",
+        "url": "https://www.wordandbrown.com/docs/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.77
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Engages in health insurance and claims processing, aligning with X12 transactions.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "claims processing",
+      "eligibility verification",
+      "payments and remittances",
+      "data exchange with providers and payers"
+    ]
+  }
+}

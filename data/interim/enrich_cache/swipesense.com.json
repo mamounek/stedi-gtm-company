@@ -1,0 +1,43 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Systems",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API Integrations with EHRs",
+      "Real-time data streaming to clearinghouses"
+    ],
+    "evidence": [
+      {
+        "claim": "SwipeSense utilizes AWS for cloud services.",
+        "url": "https://swipesense.com/about/"
+      },
+      {
+        "claim": "The company is HIPAA compliant, ensuring health data security.",
+        "url": "https://swipesense.com/security/"
+      },
+      {
+        "claim": "Integration with EHR systems using FHIR standards.",
+        "url": "https://swipesense.com/integrations/"
+      },
+      {
+        "claim": "Provides APIs for real-time data exchange in healthcare settings.",
+        "url": "https://swipesense.com/developer/"
+      }
+    ],
+    "tech_stack_confidence": 0.66
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of X12 transactions or relevant automated integrations.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

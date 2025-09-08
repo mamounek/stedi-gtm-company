@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company focuses on HIPAA compliance for healthcare data management.",
+        "url": "https://homehelpersfranchise.com/security"
+      },
+      {
+        "claim": "Home Helpers emphasizes its commitment to elderly care through secure technologies compliant with health regulations.",
+        "url": "https://homehelpersfranchise.com/careers"
+      },
+      {
+        "claim": "They offer services integrated with health-tech, indicating a focus on safe data handling in care services.",
+        "url": "https://homehelpersfranchise.com/health-services"
+      }
+    ],
+    "tech_stack_confidence": 0.42
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence of X12 transaction handling or API automation found.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

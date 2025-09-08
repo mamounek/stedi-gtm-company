@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The College's medical curriculum includes health information technology focusing on the FHIR standard.",
+        "url": "https://www.belmont.edu/medicine/curriculum.html"
+      },
+      {
+        "claim": "Belmont University is HIPAA compliant and ensures privacy in handling health data.",
+        "url": "https://www.belmont.edu/it/security/hipaa.html"
+      },
+      {
+        "claim": "The College's partnerships with EHR providers are part of their clinical training programs.",
+        "url": "https://www.belmont.edu/medicine/community-partners.html"
+      },
+      {
+        "claim": "They utilize cloud computing resources for educational and health informatics initiatives.",
+        "url": "https://www.belmont.edu/medicine/faculty.html"
+      }
+    ],
+    "tech_stack_confidence": 0.46
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction usage or API automation found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

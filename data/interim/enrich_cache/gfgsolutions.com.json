@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon RDS",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12 270/271 Transaction Sets",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "Event-driven architecture",
+      "API Gateway for microservices"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services including Lambda and RDS for serverless applications and databases.",
+        "url": "https://gfgsolutions.com/docs/aws-architecture"
+      },
+      {
+        "claim": "GFG Benefits supports X12 EDI transactions for healthcare claims management.",
+        "url": "https://gfgsolutions.com/healthcare-compliance#X12"
+      },
+      {
+        "claim": "GFG employs HL7 FHIR standards for health data interoperability.",
+        "url": "https://gfgsolutions.com/fhir-implementation"
+      },
+      {
+        "claim": "Event-driven architecture is implemented for real-time data processing.",
+        "url": "https://gfgsolutions.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.76
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 transactions in their tech stack, indicating a strong focus on healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 for eligibility verification",
+      "X12 837 for claims submission",
+      "X12 835 for remittance advice"
+    ]
+  }
+}

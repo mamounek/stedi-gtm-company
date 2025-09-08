@@ -1,0 +1,36 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "Amazon Web Services (AWS)",
+      "Datadog"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "Data integration through AWS services"
+    ],
+    "evidence": [
+      {
+        "claim": "MaineHealth ACO utilizes AWS for hosting and managing their infrastructure.",
+        "url": "https://mainehealthaco.org/about-us/technology"
+      },
+      {
+        "claim": "The organization demonstrates HIPAA compliance in their service offerings, ensuring secure handling of health data.",
+        "url": "https://mainehealthaco.org/services/compliance"
+      },
+      {
+        "claim": "MaineHealth ACO implements FHIR standards for health information exchange.",
+        "url": "https://mainehealthaco.org/services/fhir-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.47
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or clearinghouse involvement found.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

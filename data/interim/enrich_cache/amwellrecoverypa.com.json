@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Amwell Recovery operates within HIPAA compliance, focusing on secure health data management.",
+        "url": "https://amwellrecoverypa.com/privacy-policy/"
+      },
+      {
+        "claim": "They employ cloud-based solutions but do not specify exact technologies used.",
+        "url": "https://amwellrecoverypa.com/about-us/"
+      },
+      {
+        "claim": "The company emphasizes the use of secured telehealth solutions, hinting at potential integration with EHRs.",
+        "url": "https://amwellrecoverypa.com/services/telehealth/"
+      }
+    ],
+    "tech_stack_confidence": 0.32
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No relevant evidence found for X12 transactions or clearinghouse operations.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

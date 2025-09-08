@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "Google Cloud Platform",
+      "Firebase"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR",
+      "X12 837 Professional",
+      "X12 835",
+      "EHR Integration"
+    ],
+    "integration_patterns": [
+      "API-first architecture",
+      "Webhook integration",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company uses AWS services for backend processing and data storage.",
+        "url": "https://ac-health.com/docs/infrastructure"
+      },
+      {
+        "claim": "AC Health App complies with HIPAA standards for data handling and storage.",
+        "url": "https://ac-health.com/security"
+      },
+      {
+        "claim": "They utilize HL7 FHIR standards for their health data interoperability.",
+        "url": "https://ac-health.com/api"
+      },
+      {
+        "claim": "The app processes X12 837 transaction sets for claims processing.",
+        "url": "https://ac-health.com/docs/edi"
+      },
+      {
+        "claim": "Integration with major EHR systems is part of their platform solution.",
+        "url": "https://ac-health.com/careers/engineering"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of sending/receiving X12 transactions found on the site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Peace Aging Care Experts, LLC emphasizes HIPAA compliance related to health care data handling.",
+        "url": "https://peaceagingcare.com/privacy-policy"
+      },
+      {
+        "claim": "The company uses secure electronic communication methods to comply with health information standards.",
+        "url": "https://peaceagingcare.com/privacy-policy"
+      },
+      {
+        "claim": "They mention the importance of securing electronic health records (EHR) within their service offerings.",
+        "url": "https://peaceagingcare.com/services"
+      }
+    ],
+    "tech_stack_confidence": 0.27
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API automation in healthcare data exchange.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

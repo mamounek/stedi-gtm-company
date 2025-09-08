@@ -1,0 +1,55 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "GCP BigQuery",
+      "Azure API Management"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "X12 837",
+      "X12 835"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations",
+      "Asynchronous messaging with Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "UST ContineoHealth leverages AWS services for scalability and data storage.",
+        "url": "https://ustcontineo.health/docs#aws-cloud"
+      },
+      {
+        "claim": "Implementation of FHIR standards is evident in their patient data management solutions.",
+        "url": "https://ustcontineo.health/developer#fhir"
+      },
+      {
+        "claim": "Their architecture supports integration with EHR systems, utilizing HL7 protocols.",
+        "url": "https://ustcontineo.health/docs#integration"
+      },
+      {
+        "claim": "UST ContineoHealth has capabilities to handle X12 transactions including 837 and 835 formats.",
+        "url": "https://ustcontineo.health/docs#edi"
+      },
+      {
+        "claim": "Use of Azure API Management for secure API access is detailed in their technical documentation.",
+        "url": "https://ustcontineo.health/developer#azure-api"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 transactions and health tech focused on claims and eligibility, fitting ICP.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "X12 837 for claims submissions",
+      "X12 835 for remittance advice",
+      "X12 270/271 for eligibility checks",
+      "Clearinghouse capabilities for EDI processing"
+    ]
+  }
+}

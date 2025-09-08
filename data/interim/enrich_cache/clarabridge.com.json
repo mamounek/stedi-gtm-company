@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Snowflake",
+      "Kafka",
+      "dbt",
+      "Airflow"
+    ],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Clarabridge utilizes AWS for scalable cloud solutions.",
+        "url": "https://aws.amazon.com/partners/success/qualtrics-clarabridge/"
+      }
+    ],
+    "tech_stack_confidence": 0.39
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of involvement with X12 transactions or EDI use cases.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

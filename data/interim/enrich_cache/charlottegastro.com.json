@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Charlotte Gastroenterology & Hepatology supports HIPAA compliance indicating health data handling and security protocols.",
+        "url": "https://charlottegastro.com/hipaa/"
+      },
+      {
+        "claim": "The company uses electronic health records (EHR), relevant to health tech integration.",
+        "url": "https://charlottegastro.com/services/"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found for X12 transaction use cases or clearinghouse integration.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

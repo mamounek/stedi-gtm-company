@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "X12"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Ecssla.org mentions the HIPAA compliance requirements on their site.",
+        "url": "https://ecssla.org/hipaa-compliance"
+      },
+      {
+        "claim": "The site has information related to the X12 format used for electronic data interchange.",
+        "url": "https://ecssla.org/edi-x12"
+      }
+    ],
+    "tech_stack_confidence": 0.43
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of X12 transactions or API automation on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

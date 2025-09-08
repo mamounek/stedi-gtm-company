@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "The company supports HIPAA compliance in its operations.",
+        "url": "https://ppecenter.us/security"
+      },
+      {
+        "claim": "PPE Center utilizes HL7 standards for health information exchange.",
+        "url": "https://ppecenter.us/docs/hl7-implementation"
+      }
+    ],
+    "tech_stack_confidence": 0.53
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No public evidence of using X12 or API-based healthcare data exchanges.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

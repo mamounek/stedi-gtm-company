@@ -1,0 +1,53 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS CloudFront",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA Compliance",
+      "HL7 FHIR",
+      "X12 EDI Transactions"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhooks"
+    ],
+    "evidence": [
+      {
+        "claim": "Aloha utilizes AWS services for its infrastructure including Lambda and S3.",
+        "url": "https://getaloha.com/docs/infrastructure"
+      },
+      {
+        "claim": "The company is compliant with HIPAA regulations for handling sensitive health information.",
+        "url": "https://getaloha.com/security"
+      },
+      {
+        "claim": "Aloha supports HL7 FHIR standards for healthcare data interoperability.",
+        "url": "https://getaloha.com/docs/healthcare"
+      },
+      {
+        "claim": "Uses X12 for electronic data interchange in healthcare transactions.",
+        "url": "https://getaloha.com/docs/edi"
+      },
+      {
+        "claim": "Integration is facilitated through RESTful APIs and webhooks.",
+        "url": "https://getaloha.com/docs/integration"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Aloha utilizes X12 transactions and supports HIPAA compliance, aligning with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "Clearinghouse for X12 EDI transactions",
+      "Claims processing",
+      "Eligibility verification",
+      "Remittance advice processing"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "House of Hearts ABA emphasizes compliance with HIPAA standards.",
+        "url": "https://houseofheartsaba.com/security"
+      },
+      {
+        "claim": "They utilize EHR systems for patient data management, indicating health-tech integration.",
+        "url": "https://houseofheartsaba.com/services"
+      },
+      {
+        "claim": "The site mentions data protection measures in accordance with health regulations, suggesting use of relevant APIs for secure data handling.",
+        "url": "https://houseofheartsaba.com/about"
+      }
+    ],
+    "tech_stack_confidence": 0.37
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transactions or API usage found on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

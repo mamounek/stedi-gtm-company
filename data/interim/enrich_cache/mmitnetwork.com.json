@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Snowflake",
+      "Kafka"
+    ],
+    "health_tech": [
+      "X12 837",
+      "X12 835",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "API integrations for EHRs"
+    ],
+    "evidence": [
+      {
+        "claim": "MMIT utilizes AWS for their cloud infrastructure.",
+        "url": "https://mmitnetwork.com/about"
+      },
+      {
+        "claim": "MMIT has integration capabilities with EHR systems using defined APIs.",
+        "url": "https://mmitnetwork.com/solutions"
+      },
+      {
+        "claim": "The company supports healthcare transactions including X12 837 and 835 formats.",
+        "url": "https://mmitnetwork.com/healthcare-solutions"
+      },
+      {
+        "claim": "MMIT employs Kafka for stream processing within their data architecture.",
+        "url": "https://mmitnetwork.com/technology"
+      },
+      {
+        "claim": "MMIT offers FHIR APIs for healthcare data exchange.",
+        "url": "https://mmitnetwork.com/fhir-api"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "MMIT handles X12 transactions and has robust API capabilities for health data.",
+    "icp_confidence": 0.8,
+    "matched_use_cases": [
+      "API integrations for EHRs",
+      "X12 837 and 835 processing",
+      "Eligibility verification"
+    ]
+  }
+}

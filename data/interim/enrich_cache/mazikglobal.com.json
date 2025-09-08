@@ -1,0 +1,60 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure Functions",
+      "Google Cloud Platform (GCP)",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "HL7",
+      "FHIR",
+      "X12"
+    ],
+    "integration_patterns": [
+      "API Gateway",
+      "Event-Driven Architecture",
+      "Service Mesh"
+    ],
+    "evidence": [
+      {
+        "claim": "Mazik Global utilizes AWS for cloud services including serverless computing with AWS Lambda.",
+        "url": "https://mazikglobal.com/cloud-services/"
+      },
+      {
+        "claim": "The company supports healthcare interoperability by implementing FHIR and HL7 standards.",
+        "url": "https://mazikglobal.com/healthcare-solutions/"
+      },
+      {
+        "claim": "Mazik provides integration solutions which include the integration of various EHR systems.",
+        "url": "https://mazikglobal.com/integration/"
+      },
+      {
+        "claim": "Utilizes Snowflake for data warehousing in healthcare data management.",
+        "url": "https://mazikglobal.com/data-management/"
+      },
+      {
+        "claim": "Offers solutions using Apache Kafka for real-time data streaming.",
+        "url": "https://mazikglobal.com/technology/"
+      },
+      {
+        "claim": "Compliance with HIPAA regulations as part of their service offerings.",
+        "url": "https://mazikglobal.com/security-compliance/"
+      }
+    ],
+    "tech_stack_confidence": 0.79
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Utilizes X12 and health data integration patterns; matches API automation needs.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "270/271 Eligibility Inquiry and Response",
+      "276/277 Claims Status Inquiry and Response",
+      "837 Claims Submission",
+      "835 Remittance Advice"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7",
+      "HIPAA Compliance"
+    ],
+    "integration_patterns": [
+      "Data Integration",
+      "API Integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Vital Touch utilizes AWS for cloud services, ensuring scalable and secure infrastructure.",
+        "url": "https://vitaltouchvps.com/#services"
+      },
+      {
+        "claim": "The platform is HIPAA-compliant, suitable for handling healthcare data securely.",
+        "url": "https://vitaltouchvps.com/#compliance"
+      },
+      {
+        "claim": "Vital Touch integrates with FHIR standards for health data exchange.",
+        "url": "https://vitaltouchvps.com/#interoperability"
+      }
+    ],
+    "tech_stack_confidence": 0.52
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence found of handling X12 transactions or clearinghouse functionality on their site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

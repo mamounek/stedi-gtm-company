@@ -1,0 +1,32 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Care Collective adheres to HIPAA compliance standards for handling patient data securely.",
+        "url": "https://carecollectivehealth.org/security"
+      },
+      {
+        "claim": "Care Collective utilizes FHIR for health data interoperability.",
+        "url": "https://carecollectivehealth.org/docs"
+      },
+      {
+        "claim": "Company's focus on integrating HL7 standards for electronic health information exchange.",
+        "url": "https://carecollectivehealth.org/healthtech"
+      }
+    ],
+    "tech_stack_confidence": 0.67
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence found related to X12 transactions or clearinghouse services.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR API support",
+      "HL7 integration"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Webhook integrations"
+    ],
+    "evidence": [
+      {
+        "claim": "HelloHero employs AWS services for cloud infrastructure including Lambda and S3.",
+        "url": "https://hellohero.com/docs/cloud-infrastructure"
+      },
+      {
+        "claim": "The platform supports FHIR for health data interoperability.",
+        "url": "https://hellohero.com/docs/health-tech"
+      },
+      {
+        "claim": "HelloHero ensures HIPAA compliance for secure health data handling.",
+        "url": "https://hellohero.com/security/hipaa"
+      },
+      {
+        "claim": "Integration is possible via RESTful APIs and webhooks for third-party applications.",
+        "url": "https://hellohero.com/developer/integration"
+      },
+      {
+        "claim": "Supports HL7 messaging standards for healthcare exchanges.",
+        "url": "https://hellohero.com/docs/hl7-support"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of using X12 transactions or clearinghouse services found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

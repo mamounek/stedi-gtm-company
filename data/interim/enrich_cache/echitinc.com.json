@@ -1,0 +1,45 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Echelon IT utilizes AWS for hosting services and data management.",
+        "url": "https://echitinc.com/documents/faq#hosting"
+      },
+      {
+        "claim": "The company adheres to HIPAA regulations across all its healthcare technology services.",
+        "url": "https://echitinc.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Echelon IT referenced X12 for health insurance transactions in their API documentation.",
+        "url": "https://echitinc.com/docs/api#x12"
+      },
+      {
+        "claim": "The integration framework includes standards like HL7 and FHIR for healthcare interoperability.",
+        "url": "https://echitinc.com/docs/api#healthcare-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers healthcare tech with X12 compliance, indicating a use case for API data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 270/271 Eligibility checks",
+      "X12 837 Claims submission",
+      "X12 835 Remittance processing",
+      "Clearinghouse functions"
+    ]
+  }
+}

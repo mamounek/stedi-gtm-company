@@ -1,0 +1,48 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS RDS",
+      "AWS S3"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR APIs",
+      "X12 EDI transactions"
+    ],
+    "integration_patterns": [
+      "RESTful API integration",
+      "Webhook event handling"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS for cloud infrastructure and data storage.",
+        "url": "https://remotemedicalassistant.com/docs/cloud-services"
+      },
+      {
+        "claim": "They offer FHIR-compliant APIs for health data exchange.",
+        "url": "https://remotemedicalassistant.com/docs/fhir-api"
+      },
+      {
+        "claim": "The Remote Medical Assistant operates under HIPAA compliance for patient data management.",
+        "url": "https://remotemedicalassistant.com/security/hipaa"
+      },
+      {
+        "claim": "X12 EDI implementation for insurance claims processing is mentioned in their system functionalities.",
+        "url": "https://remotemedicalassistant.com/docs/edi-services"
+      }
+    ],
+    "tech_stack_confidence": 0.89
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Company utilizes X12 EDI transactions and values API automation in healthcare.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "sending/receiving 270/271 for eligibility checks",
+      "handling 837 claims submissions",
+      "processing 835 remittance advices",
+      "implementing clearinghouse functionalities"
+    ]
+  }
+}

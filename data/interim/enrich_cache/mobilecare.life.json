@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Amazon S3",
+      "AWS API Gateway"
+    ],
+    "health_tech": [
+      "HIPAA compliant data transmission",
+      "HL7 messaging standards",
+      "FHIR resources for patient data"
+    ],
+    "integration_patterns": [
+      "RESTful API integrations",
+      "Webhook notifications for service updates"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS Lambda for serverless computing functions.",
+        "url": "https://mobilecare.life/docs/aws-integration"
+      },
+      {
+        "claim": "They ensure HIPAA compliance in their mobile health solutions.",
+        "url": "https://mobilecare.life/security/hipaa"
+      },
+      {
+        "claim": "Life Mobile Care supports HL7 for interoperability with healthcare systems.",
+        "url": "https://mobilecare.life/docs/hl7-support"
+      }
+    ],
+    "tech_stack_confidence": 0.82
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No concrete evidence found linking them to X12 transactions or clearinghouse activities.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [
+      "HIPAA",
+      "HL7"
+    ],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "Elite Nursing Concierge implements HIPAA standards in their operations, ensuring compliance in patient data handling.",
+        "url": "https://elitenursingpro.com/security"
+      },
+      {
+        "claim": "The company discusses HL7 integration capabilities for better health data interoperability.",
+        "url": "https://elitenursingpro.com/faq"
+      }
+    ],
+    "tech_stack_confidence": 0.48
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of engagement with X12 transactions or API automation on the site.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

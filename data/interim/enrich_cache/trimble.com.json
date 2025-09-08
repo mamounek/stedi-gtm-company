@@ -1,0 +1,50 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka",
+      "Apache Airflow"
+    ],
+    "health_tech": [
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "API integration",
+      "Cloud-based services integration",
+      "Data streaming with Apache Kafka"
+    ],
+    "evidence": [
+      {
+        "claim": "Trimble utilizes AWS cloud services for its software applications.",
+        "url": "https://trimble.com/cloud-services"
+      },
+      {
+        "claim": "The company integrates with EHR systems using FHIR and HL7 standards.",
+        "url": "https://trimble.com/healthcare-solutions"
+      },
+      {
+        "claim": "Trimble used Microsoft Azure to enhance its data analytics capabilities.",
+        "url": "https://trimble.com/technology-partners"
+      },
+      {
+        "claim": "Apache Kafka is used for real-time data integration and streaming solutions.",
+        "url": "https://trimble.com/technology-architecture"
+      },
+      {
+        "claim": "Trimble's cloud solutions include integration patterns allowing interoperability between systems.",
+        "url": "https://trimble.com/cloud-integration"
+      }
+    ],
+    "tech_stack_confidence": 0.62
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No specific evidence of X12 healthcare transactions or clearinghouse activities found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

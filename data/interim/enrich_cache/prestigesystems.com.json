@@ -1,0 +1,51 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR",
+      "HL7"
+    ],
+    "integration_patterns": [
+      "EDI",
+      "X12"
+    ],
+    "evidence": [
+      {
+        "claim": "Prestige Systems utilizes AWS for cloud infrastructure.",
+        "url": "https://prestigesystems.com/cloud-services"
+      },
+      {
+        "claim": "The company complies with HIPAA standards in its healthcare technology solutions.",
+        "url": "https://prestigesystems.com/healthcare-compliance"
+      },
+      {
+        "claim": "Integration patterns include EDI transactions that support X12 standards.",
+        "url": "https://prestigesystems.com/integration-services"
+      },
+      {
+        "claim": "The company adopts FHIR for interoperable health data exchange.",
+        "url": "https://prestigesystems.com/fhir-implementation"
+      },
+      {
+        "claim": "They also implement Azure for their healthcare data management solutions.",
+        "url": "https://prestigesystems.com/data-management"
+      },
+      {
+        "claim": "HL7 standards are adhered to in their software architecture.",
+        "url": "https://prestigesystems.com/software-architecture"
+      }
+    ],
+    "tech_stack_confidence": 0.64
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "Limited public information on X12 transactions or API automation use cases.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

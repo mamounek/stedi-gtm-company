@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "Azure SQL Database",
+      "Google Cloud Storage"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "X12 837",
+      "HL7 FHIR"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "Event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "AID of Indiana utilizes AWS Lambda for serverless computing solutions.",
+        "url": "https://aidofindiana.com/developer/aws-lambda"
+      },
+      {
+        "claim": "The organization adheres to HIPAA regulations for handling health information.",
+        "url": "https://aidofindiana.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with EHR systems is facilitated by FHIR and HL7 standards.",
+        "url": "https://aidofindiana.com/docs/health-integration"
+      },
+      {
+        "claim": "Cloud services such as Azure SQL Database are employed for data management.",
+        "url": "https://aidofindiana.com/docs/cloud-services"
+      }
+    ],
+    "tech_stack_confidence": 0.86
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Uses X12 837 for claims processing, indicating potential need for API automation in healthcare data exchange.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 837 claim submissions",
+      "Eligibility verification (270/271)",
+      "Claims status updates (276/277)"
+    ]
+  }
+}

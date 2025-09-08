@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Heroku"
+    ],
+    "health_tech": [
+      "HIPAA",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "REST APIs"
+    ],
+    "evidence": [
+      {
+        "claim": "CaregiverJobs.io utilizes AWS for cloud infrastructure.",
+        "url": "https://caregiverjobs.io"
+      }
+    ],
+    "tech_stack_confidence": 0.34
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of dealing with X12 transactions or healthcare clearinghouse.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

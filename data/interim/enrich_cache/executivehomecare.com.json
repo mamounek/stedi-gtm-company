@@ -1,0 +1,28 @@
+{
+  "stack": {
+    "apis_cloud": [],
+    "health_tech": [],
+    "integration_patterns": [],
+    "evidence": [
+      {
+        "claim": "No specific APIs or cloud services related to technical infrastructure were found on Executive Home Care's website.",
+        "url": "https://executivehomecare.com"
+      },
+      {
+        "claim": "Company does not appear to discuss health tech rails like HIPAA, X12, FHIR, or HL7 on their site.",
+        "url": "https://executivehomecare.com"
+      },
+      {
+        "claim": "The website lacks documentation on integration patterns or middleware solutions.",
+        "url": "https://executivehomecare.com"
+      }
+    ],
+    "tech_stack_confidence": 0.12
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction use cases or API automation on their site.",
+    "icp_confidence": 0.1,
+    "matched_use_cases": []
+  }
+}

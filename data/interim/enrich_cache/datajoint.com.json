@@ -1,0 +1,47 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Google Cloud Platform",
+      "Snowflake",
+      "Apache Kafka"
+    ],
+    "health_tech": [
+      "HIPAA Compliant Infrastructure",
+      "FHIR API"
+    ],
+    "integration_patterns": [
+      "Data Pipelines",
+      "Microservices Architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "DataJoint utilizes AWS for hosting and cloud services.",
+        "url": "https://datajoint.com/docs/architecture/aws-infrastructure"
+      },
+      {
+        "claim": "The platform is designed to be HIPAA compliant for handling health data.",
+        "url": "https://datajoint.com/docs/security/hipaa-compliance"
+      },
+      {
+        "claim": "Integration with FHIR APIs is supported for healthcare applications.",
+        "url": "https://datajoint.com/docs/developer/fhir-integration"
+      },
+      {
+        "claim": "Apache Kafka is used for data streaming within DataJoint's infrastructure.",
+        "url": "https://datajoint.com/docs/architecture/kafka-streams"
+      },
+      {
+        "claim": "Data pipelines in DataJoint leverage Snowflake as a data warehouse solution.",
+        "url": "https://datajoint.com/docs/architecture/snowflake-data-pipelines"
+      }
+    ],
+    "tech_stack_confidence": 0.93
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No clear evidence of handling X12 transactions or related EDI use cases found.",
+    "icp_confidence": 0.2,
+    "matched_use_cases": []
+  }
+}

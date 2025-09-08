@@ -1,0 +1,42 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS",
+      "Azure"
+    ],
+    "health_tech": [
+      "X12",
+      "HL7",
+      "FHIR"
+    ],
+    "integration_patterns": [
+      "EDI integration",
+      "Cloud integration"
+    ],
+    "evidence": [
+      {
+        "claim": "Pro-Tech uses AWS services for their cloud infrastructure.",
+        "url": "https://protechdesign.com/cloud-services/"
+      },
+      {
+        "claim": "They have documented support for HL7 and FHIR standards in their health technology solutions.",
+        "url": "https://protechdesign.com/healthcare-solutions/"
+      },
+      {
+        "claim": "Pro-Tech engages in EDI transactions, including specific X12 transaction sets.",
+        "url": "https://protechdesign.com/edi-services/"
+      },
+      {
+        "claim": "The company offers integration patterns that support cloud and EDI technologies.",
+        "url": "https://protechdesign.com/integration-services/"
+      }
+    ],
+    "tech_stack_confidence": 0.56
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evident focus on X12 transactions or clearinghouse services found on site.",
+    "icp_confidence": 0.4,
+    "matched_use_cases": []
+  }
+}

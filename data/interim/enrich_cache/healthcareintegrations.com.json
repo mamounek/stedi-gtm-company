@@ -1,0 +1,54 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Google Cloud Pub/Sub"
+    ],
+    "health_tech": [
+      "HIPAA compliance",
+      "FHIR APIs",
+      "X12 transaction sets"
+    ],
+    "integration_patterns": [
+      "RESTful APIs for data sharing",
+      "ETL for data integration",
+      "Message Queues for event-driven architecture"
+    ],
+    "evidence": [
+      {
+        "claim": "The company utilizes AWS services including Lambda and EC2 for their cloud infrastructure.",
+        "url": "https://healthcareintegrations.com/docs/aws-integration"
+      },
+      {
+        "claim": "Healthcare Integrations, LLC has compliance mechanisms for HIPAA and utilizes FHIR APIs for healthcare data exchange.",
+        "url": "https://healthcareintegrations.com/security/hipaa"
+      },
+      {
+        "claim": "They leverage Google Cloud Pub/Sub for real-time event streaming.",
+        "url": "https://healthcareintegrations.com/docs/cloud-services"
+      },
+      {
+        "claim": "The company implements X12 transaction sets for electronic data interchange in healthcare processes.",
+        "url": "https://healthcareintegrations.com/docs/x12-edi"
+      },
+      {
+        "claim": "Integration middleware solutions are utilized to enable interoperability between EHRs and various healthcare databases.",
+        "url": "https://healthcareintegrations.com/docs/integration-patterns"
+      }
+    ],
+    "tech_stack_confidence": 0.9
+  },
+  "icp": {
+    "is_icp": true,
+    "icp_reason": "Offers X12 transaction sets and HIPAA compliant solutions, indicating strong alignment with ICP criteria.",
+    "icp_confidence": 0.85,
+    "matched_use_cases": [
+      "X12 transaction sets",
+      "Eligibility requests (270/271)",
+      "Claims submission (837)",
+      "Remittance processing (835)"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stack": {
+    "apis_cloud": [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS RDS"
+    ],
+    "health_tech": [
+      "HIPAA compliant services",
+      "FHIR APIs",
+      "HL7 standards"
+    ],
+    "integration_patterns": [
+      "RESTful APIs",
+      "MQTT messaging patterns"
+    ],
+    "evidence": [
+      {
+        "claim": "Aspen Insights utilizes AWS services for scalable infrastructure.",
+        "url": "https://www.aspeninsights.com/docs/aws-services"
+      },
+      {
+        "claim": "The company adheres to HIPAA compliance for health data handling.",
+        "url": "https://www.aspeninsights.com/security/hipaa-compliance"
+      },
+      {
+        "claim": "ASPEN is equipped with FHIR APIs for healthcare data exchange.",
+        "url": "https://www.aspeninsights.com/developer/fhir"
+      }
+    ],
+    "tech_stack_confidence": 0.74
+  },
+  "icp": {
+    "is_icp": false,
+    "icp_reason": "No evidence of X12 transaction handling found on public site.",
+    "icp_confidence": 0.3,
+    "matched_use_cases": []
+  }
+}
