@@ -1,0 +1,6 @@
+# config/icp_rules.yml
+industries_icp: ["Healthcare","Insurance","Payer","Provider","Revenue Cycle","Clearinghouse","Health IT"]
+size_bands_icp: ["2-10","11-50","51-200","201-500"]
+must_have_keywords: ["EDI","X12","claims","eligibility","prior authorization","remittance","clearinghouse","HIPAA"]
+nice_to_have_keywords: ["HL7","FHIR","835","837","270","271","278","277","999","TA1","payer","provider"]
+countries_allowed: ["US"]

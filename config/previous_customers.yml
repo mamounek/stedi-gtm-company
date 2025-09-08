@@ -1,0 +1,36 @@
+customers:
+  - name: Lumary
+    domain: lumary.com
+    linkedin: "https://www.linkedin.com/company/lumaryau/"
+
+  - name: Nirvana Health
+    domain: nirvanahealth.com
+    linkedin: "https://www.linkedin.com/company/nirvana-hlth/"
+
+  - name: Pair Team
+    domain: pairteam.com
+    linkedin: "https://www.linkedin.com/company/yourpairteam/"
+
+  - name: PQT Health
+    domain: pqthealth.com
+    linkedin: "https://www.linkedin.com/company/pqt-health-inc/"
+
+  - name: Sohar Health
+    domain: soharhealth.com
+    linkedin: "https://www.linkedin.com/company/sohar-health/"
+
+  - name: Tennr
+    domain: www.tennr.com
+    linkedin: "https://www.linkedin.com/company/tennrai/"
+
+  - name: Adonis Technologies (Adonis)
+    domain: adonis.io
+    linkedin: "https://www.linkedin.com/company/adonis-technologies/"
+
+  - name: Berry Street Health (Berry Street)
+    domain: berrystreet.co
+    linkedin: "https://www.linkedin.com/company/berry-street-health/"
+
+  - name: Candid Health
+    domain: candidhealth.com
+    linkedin: "https://www.linkedin.com/company/candid-health/"
