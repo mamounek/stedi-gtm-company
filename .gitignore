@@ -206,3 +206,5 @@ $RECYCLE.BIN/
 data/interim/enrich_cache/
 *.csv
 !data/input/companies_clay.csv
+!data/raw/*.csv
+!data/final/*.csv
